@@ -175,6 +175,36 @@ const kanagawaHanabiEvents = [
     fireworksCount: 3500,
     expectedVisitors: 25500,
     venue: '海之公园'
+  },
+  {
+    id: 'yokohama-hanabi-september',
+    name: '横滨夜间花火2025（9月）',
+    japaneseName: '横浜夜間花火2025',
+    englishName: 'Yokohama Night Fireworks 2025 (September)',
+    date: '2025年9月6日・14日',
+    location: '横滨港',
+    description: '在横滨港举办的夜间花火，短时间花火演出展现港都魅力',
+    features: ['夜间花火', '港湾美景', '初秋花火'],
+    likes: 25,
+    website: 'https://www.yokohamajapan.com/',
+    fireworksCount: 150,
+    expectedVisitors: 5000,
+    venue: '横滨港'
+  },
+  {
+    id: 'seaparadise-hanabi-symphonia-september',
+    name: '横滨・八景岛海洋天堂「花火交响曲」（9月）',
+    japaneseName: '横浜・八景島シーパラダイス「花火シンフォニア」',
+    englishName: 'Yokohama Hakkeijima Sea Paradise Fireworks Symphonia (September)',
+    date: '2025年9月13日・14日',
+    location: '横浜八景岛海洋天堂',
+    description: '在横浜八景岛海洋天堂举办的花火大会，约2500发花火点亮初秋夜空',
+    features: ['花火交响曲', '音乐花火', '初秋海风'],
+    likes: 30,
+    website: 'https://www.seaparadise.co.jp/',
+    fireworksCount: 2500,
+    expectedVisitors: undefined,
+    venue: '横浜八景岛海洋天堂'
   }
 ];
 
