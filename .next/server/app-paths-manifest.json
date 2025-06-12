@@ -4,5 +4,6 @@
   "/kanagawa/page": "app/kanagawa/page.js",
   "/kitakanto/hanabi/page": "app/kitakanto/hanabi/page.js",
   "/tokyo/hanabi/page": "app/tokyo/hanabi/page.js",
+  "/koshinetsu/hanabi/page": "app/koshinetsu/hanabi/page.js",
   "/saitama/hanabi/page": "app/saitama/hanabi/page.js"
 }
