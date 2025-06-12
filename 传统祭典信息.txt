@@ -1,0 +1,41 @@
+传统祭典信息
+
+src/app/tokyo/matsuri/page.tsx - 主页面模板和数据
+src/types/matsuri.ts - TypeScript 类型定义
+public/data/tokyo-matsuri-data.json - 公共数据文件
+
+
+请用 “MatsuriPageTemplate.tsx”模板 制作第三层页面，甲信越祭典列表
+，参考信息：
+https://omaturilink.com/%E5%B1%B1%E6%A2%A8%E7%9C%8C/
+https://omaturilink.com/%E9%95%B7%E9%87%8E%E7%9C%8C/
+https://omaturilink.com/%E6%96%B0%E6%BD%9F%E7%9C%8C/
+确保信息内容，日期，地点，官方网站准确
+
+
+请用 “MatsuriPageTemplate.tsx”模板 制作第三层页面，北关东祭典列表
+，参考信息：
+https://omaturilink.com/%E7%BE%A4%E9%A6%AC%E7%9C%8C/
+https://omaturilink.com/%E6%A0%83%E6%9C%A8%E7%9C%8C/
+https://omaturilink.com/%E8%8C%A8%E5%9F%8E%E7%9C%8C/
+确保信息内容，日期，地点，官方网站准确
+
+
+请用 “MatsuriPageTemplate.tsx”模板 制作第三层页面，神奈川祭典列表
+，参考信息：@https://omaturilink.com/%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C/ 
+确保信息内容，日期，地点，官方网站准确
+
+请用 “MatsuriPageTemplate.tsx”模板 制作第三层页面，千叶祭典列表
+你有专业网页制作的水平，还能从GITHUB获取最好的技术，参考信息：https://omaturilink.com/%E5%8D%83%E8%91%89%E7%9C%8C/
+确保信息内容，日期，地点，官方网站准确
+
+请用 “MatsuriPageTemplate.tsx”模板 制作第三层页面，埼玉祭典列表
+你有专业网页制作的水平，还能从GITHUB获取最好的技术，参考信息：https://omaturilink.com/%E5%9F%BC%E7%8E%89%E7%9C%8C/
+确保信息内容，日期，地点，官方网站准确
+
+
+我的项目是商业网站，千万不能乱编信息。这是一条铁律，请写在AI读取项目的最开头。
+东京祭典列表，制作指引
+请用 “MatsuriPageTemplate.tsx” 制作第三层页面，
+请用Playwright MCP，读取信息来源。https://omaturilink.com/
+重点信息内容，日期，地点，官方网站，删除下标题，时间排序

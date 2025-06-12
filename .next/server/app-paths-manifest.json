@@ -1,0 +1,8 @@
+{
+  "/chiba/hanabi/page": "app/chiba/hanabi/page.js",
+  "/kanagawa/hanabi/page": "app/kanagawa/hanabi/page.js",
+  "/kanagawa/page": "app/kanagawa/page.js",
+  "/kitakanto/hanabi/page": "app/kitakanto/hanabi/page.js",
+  "/tokyo/hanabi/page": "app/tokyo/hanabi/page.js",
+  "/saitama/hanabi/page": "app/saitama/hanabi/page.js"
+}

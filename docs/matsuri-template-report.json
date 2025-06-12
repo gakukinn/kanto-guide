@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-06-12T04:48:30.956Z",
+  "errors": 0,
+  "warnings": 2,
+  "fileSize": 24379,
+  "lineCount": 669,
+  "details": {
+    "errors": [],
+    "warnings": [
+      "⚠️ 检查 useMemo 依赖数组是否正确",
+      "⚠️ 发现可能的英文硬编码: null"
+    ]
+  }
+}

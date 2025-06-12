@@ -1,0 +1,105 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/koshinetsu/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/koshinetsu/page.js"
+    ],
+    "/koshinetsu/matsuri/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/koshinetsu/matsuri/page.js"
+    ],
+    "/api/matsuri/koshinetsu/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/matsuri/koshinetsu/route.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ],
+    "/tokyo/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/tokyo/page.js"
+    ],
+    "/tokyo/hanabi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/tokyo/hanabi/page.js"
+    ],
+    "/saitama/hanabi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/saitama/hanabi/page.js"
+    ],
+    "/saitama/hanabi/moomin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/saitama/hanabi/moomin/page.js"
+    ],
+    "/tokyo/matsuri/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/tokyo/matsuri/page.js"
+    ],
+    "/saitama/matsuri/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/saitama/matsuri/page.js"
+    ],
+    "/api/matsuri/saitama/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/matsuri/saitama/route.js"
+    ],
+    "/chiba/matsuri/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/chiba/matsuri/page.js"
+    ],
+    "/api/matsuri/chiba/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/matsuri/chiba/route.js"
+    ],
+    "/kanagawa/matsuri/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/kanagawa/matsuri/page.js"
+    ],
+    "/api/matsuri/kanagawa/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/matsuri/kanagawa/route.js"
+    ],
+    "/kitakanto/matsuri/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/kitakanto/matsuri/page.js"
+    ],
+    "/api/matsuri/kitakanto/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/matsuri/kitakanto/route.js"
+    ]
+  }
+}
