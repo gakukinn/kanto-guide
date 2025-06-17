@@ -3,8 +3,8 @@
  * 展示Crawlee如何解决AI偷懒和技术栈一致性问题
  */
 
-import { PlaywrightCrawler, Dataset } from 'crawlee';
 import * as cheerio from 'cheerio';
+import { Dataset, PlaywrightCrawler } from 'crawlee';
 
 // 数据接口定义（与原脚本保持一致）
 interface ScrapeMatsuriEvent {
@@ -85,7 +85,7 @@ class CrawleeSaitamaMatsuriScraper {
   }
 
   // 保持你现有的数据提取逻辑
-  private async extractMatsuriEvents($: cheerio.Root, url: string): Promise<ScrapeMatsuriEvent[]> {
+  private async extractMatsuriEvents($: cheerio.CheerioAPI, url: string): Promise<ScrapeMatsuriEvent[]> {
     const events: ScrapeMatsuriEvent[] = [];
     
     // 检查页面标题确认正确性

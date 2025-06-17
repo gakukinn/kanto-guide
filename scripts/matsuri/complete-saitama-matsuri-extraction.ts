@@ -1,7 +1,7 @@
-import { chromium, Browser, Page } from 'playwright';
 import * as cheerio from 'cheerio';
 import { promises as fs } from 'fs';
 import * as path from 'path';
+import { Browser, chromium } from 'playwright';
 
 interface CompleteMatsuriEvent {
   id: string;
@@ -140,7 +140,7 @@ class CompleteSaitamaMatsuriExtractor {
     return broadKeywords.some(keyword => text.includes(keyword));
   }
 
-  private async extractSpecialStructures($: cheerio.Root, events: CompleteMatsuriEvent[]) {
+  private async extractSpecialStructures($: cheerio.CheerioAPI, events: CompleteMatsuriEvent[]) {
     console.log('🔍 寻找特殊的活动信息结构...');
     
     // 查找链接中的活动
@@ -471,4 +471,4 @@ async function main() {
 // 直接运行主函数
 main().catch(console.error);
 
-export { CompleteSaitamaMatsuriExtractor }; 
+export { CompleteSaitamaMatsuriExtractor };

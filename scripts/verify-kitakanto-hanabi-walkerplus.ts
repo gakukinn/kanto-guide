@@ -8,10 +8,10 @@
  * - https://hanabi.walkerplus.com/launch/ar0308/ (茨城县)
  */
 
-import { chromium } from 'playwright';
 import * as cheerio from 'cheerio';
 import * as fs from 'fs';
 import * as path from 'path';
+import { chromium } from 'playwright';
 
 interface HanabiEvent {
   name: string;
@@ -153,7 +153,7 @@ class KitakantoHanabiValidator {
   /**
    * 从元素中提取文本
    */
-  private extractText($el: cheerio.Cheerio, selector: string): string {
+  private extractText($el: cheerio.Cheerio<any>, selector: string): string {
     const element = $el.find(selector).first();
     return element.length > 0 ? element.text().trim() : '';
   }
@@ -404,4 +404,4 @@ if (import.meta.url === new URL(process.argv[1], 'file:').href) {
 // 直接执行main函数
 main().catch(console.error);
 
-export { KitakantoHanabiValidator }; 
+export { KitakantoHanabiValidator };
