@@ -1,0 +1,499 @@
+{
+  "timestamp": "2025-06-13T15:33:28.632Z",
+  "region": "koshinetsu",
+  "walkerPlusTotal": 8,
+  "localTotal": 16,
+  "matchedEvents": [
+    {
+      "walkerPlus": {
+        "name": "第119回 長野えびす講煙火大会",
+        "englishName": "Nagano Ebisu-ko Fireworks Festival",
+        "date": "2025年11月23日(日)",
+        "location": "長野県・長野市/長野大橋西側 犀川第2緑地",
+        "expectedVisitors": "約40万人",
+        "features": [
+          "信州",
+          "晩秋",
+          "煙火"
+        ],
+        "source": "WalkerPlus官方",
+        "priority": "高",
+        "id": "nagano-ebisu-ko"
+      },
+      "local": {
+        "id": "nagano-ebisukou-hanabi-2025",
+        "name": "第119回长野惠比寿讲烟火大会",
+        "japaneseName": "第119回長野えびす講煙火大会",
+        "englishName": "119th Nagano Ebisukou Fireworks Festival",
+        "date": "2025年11月23日",
+        "location": "犀川河畔长野大桥西侧第2绿地",
+        "description": "长野市历史悠久的秋季花火大会，拥有100多年历史，商业繁荣祈愿的传统盛典",
+        "features": [
+          "119年历史",
+          "秋季花火",
+          "商业祈愿"
+        ],
+        "likes": 58,
+        "website": "https://www.nagano-ebisukou.jp/",
+        "fireworksCount": 10000,
+        "expectedVisitors": 150000,
+        "venue": "犀川河畔长野大桥西侧第2绿地",
+        "prefecture": "长野县",
+        "detailLink": "/koshinetsu/hanabi/nagano-ebisukou-hanabi-2025"
+      },
+      "matchScore": 90
+    },
+    {
+      "walkerPlus": {
+        "name": "長岡まつり大花火大会",
+        "englishName": "Nagaoka Festival Grand Fireworks",
+        "date": "2025年8月2日(土)・3日(日)",
+        "location": "新潟県・長岡市/信濃川河川敷",
+        "expectedVisitors": "約34万5000人",
+        "features": [
+          "復興祈願",
+          "フェニックス",
+          "大迫力"
+        ],
+        "source": "WalkerPlus官方",
+        "priority": "最高",
+        "id": "nagaoka-matsuri"
+      },
+      "local": {
+        "id": "nagaoka-matsuri-hanabi",
+        "name": "长冈祭大花火大会",
+        "japaneseName": "長岡まつり大花火大会",
+        "englishName": "Nagaoka Festival Grand Fireworks",
+        "date": "2025年8月2日、3日",
+        "location": "信浓川河川敷",
+        "description": "日本三大花火之一，2万发花火的大规模花火表演",
+        "features": [
+          "日本三大",
+          "信浓川",
+          "大规模花火"
+        ],
+        "likes": 78,
+        "website": "https://nagaokamatsuri.com/",
+        "fireworksCount": 20000,
+        "expectedVisitors": 345000,
+        "venue": "信浓川河川敷",
+        "prefecture": "新潟县",
+        "detailLink": "/koshinetsu/hanabi/nagaoka"
+      },
+      "matchScore": 90
+    },
+    {
+      "walkerPlus": {
+        "name": "新潟まつり花火大会",
+        "englishName": "Niigata Festival Fireworks",
+        "date": "2025年8月10日(日)",
+        "location": "新潟県・新潟市中央区/新潟市中央区信濃川河畔(昭和大橋周辺)",
+        "expectedVisitors": "約32万人",
+        "features": [
+          "信濃川",
+          "壮大",
+          "日本一"
+        ],
+        "source": "WalkerPlus官方",
+        "priority": "最高",
+        "id": "niigata-matsuri"
+      },
+      "local": {
+        "id": "niigata-matsuri-hanabi-2025",
+        "name": "新潟祭花火大会",
+        "japaneseName": "新潟まつり花火大会",
+        "englishName": "Niigata Matsuri Hanabi Taikai",
+        "date": "2025年8月10日",
+        "location": "昭和大桥上游（音乐厅后方）",
+        "description": "新潟祭花火大会是为期3天的新潟祭的压轴活动，华丽的花火为祭典画下完美句号",
+        "features": [
+          "新潟祭压轴",
+          "信濃川河畔",
+          "70年历史"
+        ],
+        "likes": 45,
+        "website": "https://niigata-matsuri.com/",
+        "fireworksCount": 3000,
+        "expectedVisitors": 300000,
+        "venue": "昭和大桥上游",
+        "prefecture": "新潟县",
+        "detailLink": "/koshinetsu/hanabi/niigata-matsuri-hanabi-2025"
+      },
+      "matchScore": 90
+    },
+    {
+      "walkerPlus": {
+        "name": "全国新作花火チャレンジカップ2025",
+        "englishName": "National New Fireworks Challenge Cup",
+        "date": "予選：2025年9月6日・13日・20日・27日、決勝：10月26日(日)",
+        "location": "長野県・諏訪市/長野県諏訪市湖畔公園前諏訪湖上",
+        "expectedVisitors": "約25万人",
+        "features": [
+          "競技花火",
+          "新作",
+          "リニューアル"
+        ],
+        "source": "WalkerPlus官方",
+        "priority": "高",
+        "id": "suwa-challenge-cup"
+      },
+      "local": {
+        "id": "shinsaku-hanabi-2025",
+        "name": "全国新作花火挑战杯2025",
+        "japaneseName": "全国新作花火チャレンジカップ2025",
+        "englishName": "National New Fireworks Challenge Cup 2025",
+        "date": "2025年9月6日-10月26日",
+        "location": "诏访湖湖畔公园周边",
+        "description": "6年来首次重新举办的全国新作花火竞技大会，采用预选4回、决赛1回的分散举办方式",
+        "features": [
+          "6年来首次",
+          "竞技花火",
+          "诏访湖会场"
+        ],
+        "likes": 0,
+        "website": "https://suwako-hanabi.com/shinsaku/",
+        "fireworksCount": 2000,
+        "expectedVisitors": 50000,
+        "venue": "诏访湖湖畔公园周边",
+        "prefecture": "长野县",
+        "detailLink": "/koshinetsu/hanabi/shinsaku-hanabi-2025"
+      },
+      "matchScore": 90
+    },
+    {
+      "walkerPlus": {
+        "name": "市川三郷町ふるさと夏まつり 第37回「神明の花火大会」",
+        "englishName": "Ichikawamisato Hometown Summer Festival Shinmei Fireworks",
+        "date": "2025年8月7日(木)",
+        "location": "山梨県・西八代郡市川三郷町/三郡橋下流笛吹川河畔",
+        "expectedVisitors": "約20万人",
+        "features": [
+          "音楽",
+          "2万発",
+          "夜空の芸術"
+        ],
+        "source": "WalkerPlus官方",
+        "priority": "高",
+        "id": "ichikawamisato-shinmei"
+      },
+      "local": {
+        "id": "ichikawa-shinmei-hanabi-2024",
+        "name": "市川三郷町故乡夏日祭 第37届神明花火大会",
+        "japaneseName": "市川三郷町ふるさと夏まつり　第37回「神明の花火大会」",
+        "englishName": "Ichikawamisato Furusato Summer Festival 37th Shinmei Fireworks Festival",
+        "date": "2024年8月7日",
+        "location": "神明花火大会会场",
+        "description": "市川三郷町故乡夏日祭第37届神明花火大会是山梨县最具代表性的花火大会之一，约20,000发花火的壮观规模，连续90分钟精彩表演，免费观赏的大型花火盛典",
+        "features": [
+          "20,000发花火",
+          "90分钟表演",
+          "免费观赏"
+        ],
+        "likes": 62,
+        "website": "https://www.town.ichikawamisato.yamanashi.jp/",
+        "fireworksCount": 20000,
+        "expectedVisitors": 150000,
+        "venue": "神明花火大会会场",
+        "prefecture": "山梨县",
+        "detailLink": "/koshinetsu/hanabi/ichikawa-shinmei"
+      },
+      "matchScore": 90
+    },
+    {
+      "walkerPlus": {
+        "name": "第51回 阿賀野川ござれや花火",
+        "englishName": "Aganogawa Gozareya Fireworks",
+        "date": "2025年8月25日(月)",
+        "location": "新潟県・新潟市北区/阿賀野川松浜橋上流側",
+        "expectedVisitors": "20万人",
+        "features": [
+          "超特大",
+          "スターマイン",
+          "花鳥風月"
+        ],
+        "source": "WalkerPlus官方",
+        "priority": "中",
+        "id": "aganogawa-gozareya"
+      },
+      "local": {
+        "id": "agano-gozareya-hanabi-2024",
+        "name": "第51回阿贺野川ござれや花火大会",
+        "japaneseName": "第51回阿賀野川ござれや花火",
+        "englishName": "51st Agano River Gozareya Fireworks Festival",
+        "date": "2024年8月15日",
+        "location": "阿贺野川河川敷",
+        "description": "第51回阿贺野川ござれや花火大会是新潟县阿贺野市传统夏日祭典，已有51年历史。约4,000发花火在阿贺野川河畔绽放，免费观赏的地域传统花火盛典",
+        "features": [
+          "51年历史",
+          "阿贺野川河畔",
+          "免费观赏"
+        ],
+        "likes": 38,
+        "website": "https://www.city.agano.niigata.jp/",
+        "fireworksCount": 4000,
+        "expectedVisitors": 80000,
+        "venue": "阿贺野川河川敷",
+        "prefecture": "新潟县",
+        "detailLink": "/koshinetsu/hanabi/agano-gozareya"
+      },
+      "matchScore": 80
+    },
+    {
+      "walkerPlus": {
+        "name": "ぎおん柏崎まつり 海の大花火大会",
+        "englishName": "Gion Kashiwazaki Festival Sea Fireworks",
+        "date": "2025年7月26日(土)",
+        "location": "新潟県・柏崎市/柏崎市中央海岸・みなとまち海浜公園一帯",
+        "expectedVisitors": "約17万人",
+        "features": [
+          "尺玉100発",
+          "海",
+          "豪華"
+        ],
+        "source": "WalkerPlus官方",
+        "priority": "高",
+        "id": "kashiwazaki-umi"
+      },
+      "local": {
+        "id": "gion-kashiwazaki-umi-hanabi-2024",
+        "name": "祇园柏崎祭 海之大花火大会",
+        "japaneseName": "ぎおん柏崎まつり 海の大花火大会",
+        "englishName": "Gion Kashiwazaki Festival Sea Grand Fireworks",
+        "date": "2024年7月26日",
+        "location": "柏崎市中央海岸",
+        "description": "祇园柏崎祭海之大花火大会是新潟县柏崎市传统夏日祭典，越后三大花火之一。约15,000发花火在日本海上空绽放，71年历史的海上花火盛典",
+        "features": [
+          "越后三大花火",
+          "日本海花火",
+          "71年历史"
+        ],
+        "likes": 55,
+        "website": "https://www.city.kashiwazaki.lg.jp/",
+        "fireworksCount": 15000,
+        "expectedVisitors": 200000,
+        "venue": "柏崎市中央海岸",
+        "prefecture": "新潟县",
+        "detailLink": "/koshinetsu/hanabi/gion-kashiwazaki-umi"
+      },
+      "matchScore": 100
+    }
+  ],
+  "missingFromLocal": [
+    {
+      "name": "おぢやまつり大花火大会2024",
+      "englishName": "Ojiya Festival Grand Fireworks",
+      "date": "2024年8月24日(土)",
+      "location": "新潟県・小千谷市/信濃川河川敷(旭橋下流)",
+      "expectedVisitors": "18万人",
+      "features": [
+        "超ワイド",
+        "大スターマイン",
+        "夜空"
+      ],
+      "source": "WalkerPlus官方",
+      "priority": "中",
+      "id": "ojiya-matsuri"
+    }
+  ],
+  "onlyInLocal": [
+    {
+      "id": "fuji-kawaguchi-lake-hanabi",
+      "name": "富士山河口湖山开花火大会",
+      "japaneseName": "富士山・河口湖山開き花火大会",
+      "englishName": "Fuji Mountain Kawaguchi Lake Opening Fireworks",
+      "date": "2025年7月5日",
+      "location": "大池公园主会场",
+      "description": "富士山脚下河口湖举办的山开纪念花火大会，2000发花火映照富士山夜景",
+      "features": [
+        "富士山背景",
+        "湖上花火",
+        "山开纪念"
+      ],
+      "likes": 48,
+      "website": "https://www.town.fujikawaguchiko.lg.jp/",
+      "fireworksCount": 2000,
+      "expectedVisitors": 50000,
+      "venue": "大池公园主会场",
+      "prefecture": "山梨县",
+      "detailLink": "/koshinetsu/hanabi/kawaguchi"
+    },
+    {
+      "id": "anime-classics-anisong-hanabi",
+      "name": "动漫经典动画歌曲花火",
+      "japaneseName": "アニメクラシックス アニソン花火",
+      "englishName": "Anime Classics Anisong Fireworks",
+      "date": "2025年7月5日",
+      "location": "富士川生机运动公园特设会场",
+      "description": "动漫音乐与花火艺术的完美结合，1万发花火与经典动画歌曲共演",
+      "features": [
+        "动漫主题",
+        "音乐花火",
+        "特色演出"
+      ],
+      "likes": 39,
+      "website": "https://animeclassics-hanabi.jp/",
+      "fireworksCount": 10000,
+      "expectedVisitors": 30000,
+      "venue": "富士川生机运动公园特设会场",
+      "prefecture": "山梨县",
+      "detailLink": "/koshinetsu/hanabi/anime"
+    },
+    {
+      "id": "kawaguchiko-kojosai-2025",
+      "name": "河口湖湖上祭",
+      "japaneseName": "河口湖湖上祭",
+      "englishName": "Lake Kawaguchi Kojosai Festival",
+      "date": "2025年8月5日",
+      "location": "河口湖畔船津滨",
+      "description": "富士五湖地区最大规模的花火大会，拥有100多年历史，以富士山为背景的绝美景色",
+      "features": [
+        "富士五湖最大",
+        "100年历史",
+        "富士山背景"
+      ],
+      "likes": 52,
+      "website": "https://fujisan.ne.jp/pages/396/",
+      "fireworksCount": 10000,
+      "expectedVisitors": 100000,
+      "venue": "河口湖畔船津滨",
+      "prefecture": "山梨县",
+      "detailLink": "/koshinetsu/hanabi/kawaguchiko-kojosai-2025"
+    },
+    {
+      "id": "gion-kashiwazaki-matsuri-hanabi",
+      "name": "祇园柏崎祭海之大花火大会",
+      "japaneseName": "ぎおん柏崎まつり 海の大花火大会",
+      "englishName": "Gion Kashiwazaki Festival Sea Fireworks",
+      "date": "2025年7月26日",
+      "location": "柏崎市中央海岸主会场",
+      "description": "日本海夜空的花火盛典，1万6000发花火与海浪的壮观共演",
+      "features": [
+        "日本海",
+        "越后三大",
+        "海上花火"
+      ],
+      "likes": 49,
+      "website": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/",
+      "fireworksCount": 16000,
+      "expectedVisitors": 170000,
+      "venue": "柏崎市中央海岸主会场",
+      "prefecture": "新潟县",
+      "detailLink": "/koshinetsu/hanabi/kashiwazaki"
+    },
+    {
+      "id": "joetsu-matsuri-naoetsu-hanabi-2024",
+      "name": "上越祭大花火大会(直江津地区)",
+      "japaneseName": "上越まつり大花火大会（直江津地区）",
+      "englishName": "Joetsu Festival Grand Fireworks (Naoetsu District)",
+      "date": "2024年7月29日",
+      "location": "直江津港周边",
+      "description": "上越祭大花火大会(直江津地区)是新潟县上越市的传统夏季花火盛典，约5,000发花火在直江津港上空绽放，海上花火的独特魅力",
+      "features": [
+        "海上花火",
+        "直江津港",
+        "免费观赏"
+      ],
+      "likes": 42,
+      "website": "https://www.city.joetsu.niigata.jp/",
+      "fireworksCount": 5000,
+      "expectedVisitors": 100000,
+      "venue": "直江津港周边",
+      "prefecture": "新潟县",
+      "detailLink": "/koshinetsu/hanabi/joetsu-matsuri-naoetsu"
+    },
+    {
+      "id": "sanjo-natsu-matsuri-hanabi-2024",
+      "name": "三条市合并20周年纪念 第21回三条夏祭大花火大会",
+      "japaneseName": "三条市合併20周年記念 第21回 三条夏まつり大花火大会",
+      "englishName": "21st Sanjo Summer Festival Grand Fireworks - 20th Anniversary of Sanjo City Merger",
+      "date": "2024年8月4日",
+      "location": "信浓川河川敷",
+      "description": "三条市合并20周年纪念第21回三条夏祭大花火大会是新潟县三条市特别纪念花火大会。约8,000发花火在信浓川河畔绽放，21年历史的夏祭压轴盛典",
+      "features": [
+        "三条市20周年",
+        "21年历史",
+        "夏祭压轴"
+      ],
+      "likes": 35,
+      "website": "https://www.city.sanjo.niigata.jp/",
+      "fireworksCount": 8000,
+      "expectedVisitors": 100000,
+      "venue": "信浓川河川敷",
+      "prefecture": "新潟县",
+      "detailLink": "/koshinetsu/hanabi/sanjo-natsu-matsuri"
+    },
+    {
+      "id": "suwa-lake-hanabi",
+      "name": "第77回诹访湖祭湖上花火大会",
+      "japaneseName": "第77回 諏訪湖祭湖上花火大会",
+      "englishName": "77th Suwa Lake Festival Fireworks",
+      "date": "2025年8月15日",
+      "location": "诹访市湖畔公园前诹访湖上",
+      "description": "诹访湖夜空的花火盛典，4万发花火点亮湖面",
+      "features": [
+        "诹访湖",
+        "湖上花火",
+        "大规模"
+      ],
+      "likes": 67,
+      "website": "https://suwako-hanabi.com/kojyou/",
+      "fireworksCount": 40000,
+      "expectedVisitors": 500000,
+      "venue": "诹访市湖畔公园前诹访湖上",
+      "prefecture": "长野县",
+      "detailLink": "/koshinetsu/hanabi/suwa"
+    },
+    {
+      "id": "suzaka-minna-hanabi-2024",
+      "name": "第38回须坂大家花火大会",
+      "japaneseName": "第38回須坂みんなの花火大会",
+      "englishName": "38th Suzaka Everyone's Fireworks Festival",
+      "date": "2024年7月27日",
+      "location": "千曲川河川敷百々川绿地",
+      "description": "第38回须坂大家花火大会是长野县须坂市民参与型花火大会，体现地区团结精神。约6,000发花火在千曲川河畔绽放，38年历史的市民友好花火盛典",
+      "features": [
+        "市民参与",
+        "38年历史",
+        "大家花火"
+      ],
+      "likes": 32,
+      "website": "https://www.city.suzaka.nagano.jp/",
+      "fireworksCount": 6000,
+      "expectedVisitors": 60000,
+      "venue": "千曲川河川敷百々川绿地",
+      "prefecture": "长野县",
+      "detailLink": "/koshinetsu/hanabi/suzaka-minna"
+    },
+    {
+      "id": "shinshu-ueda-dai-hanabi-2024",
+      "name": "上田市诞生20周年纪念 第38回信州上田大花火大会",
+      "japaneseName": "上田市誕生20周年記念　第38回 信州上田大花火大会",
+      "englishName": "38th Shinshu Ueda Grand Fireworks Festival - 20th Anniversary of Ueda City",
+      "date": "2024年8月5日",
+      "location": "千曲川河川敷",
+      "description": "上田市诞生20周年纪念第38回信州上田大花火大会是长野县上田市传统夏日祭典。约10,000发花火在千曲川河畔绽放，38年历史的信州代表花火盛典",
+      "features": [
+        "上田市20周年",
+        "38年历史",
+        "信州代表花火"
+      ],
+      "likes": 42,
+      "website": "https://www.city.ueda.nagano.jp/",
+      "fireworksCount": 10000,
+      "expectedVisitors": 120000,
+      "venue": "千曲川河川敷",
+      "prefecture": "长野县",
+      "detailLink": "/koshinetsu/hanabi/shinshu-ueda-dai"
+    }
+  ],
+  "recommendations": [
+    "❗ 发现1个WalkerPlus官方花火大会未在本地网站中展示",
+    "✅ 成功匹配7个花火大会"
+  ],
+  "dataQuality": {
+    "highPriorityMissing": 0,
+    "mediumPriorityMissing": 1,
+    "totalVisitorsWalkerPlus": "约174万5000人",
+    "totalVisitorsLocal": "未计算"
+  }
+}

@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const tonegawaHanabiData: HanabiData = {
   id: 'tonegawa-hanabi-september',
   name: '第38回利根川大花火大会',
-  japaneseName: '第38回 利根川大花火大会',
   englishName: '38th Tone River Grand Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第38回 利根川大花火大会'
+  },
   year: 2025,
   date: '9月13日(土)',
   time: '18:30～20:30',

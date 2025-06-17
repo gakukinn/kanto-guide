@@ -1,0 +1,164 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  # 类型检查作业
+  type-check:
+    name: TypeScript Type Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript type check
+        run: npx tsc --noEmit --skipLibCheck
+
+      - name: Report TypeScript errors
+        if: failure()
+        run: |
+          echo "::error::TypeScript type check failed. Please fix the type errors before merging."
+          npx tsc --noEmit --skipLibCheck --pretty
+
+  # 代码质量检查
+  lint-and-format:
+    name: Lint and Format Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: ESLint check
+        run: npm run lint
+
+      - name: Prettier format check
+        run: npx prettier --check "**/*.{ts,tsx,js,jsx,json,md}"
+
+  # 构建测试
+  build-test:
+    name: Build Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build application
+        run: npm run build
+
+      - name: Check build output
+        run: |
+          if [ ! -d ".next" ]; then
+            echo "::error::Build failed - .next directory not found"
+            exit 1
+          fi
+
+  # 数据结构验证
+  data-validation:
+    name: Data Structure Validation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate hanabi data structure
+        run: |
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          
+          // 检查所有花火数据文件的结构
+          function validateHanabiFiles(dir) {
+            const files = fs.readdirSync(dir, { withFileTypes: true });
+            let errors = [];
+            
+            for (const file of files) {
+              const fullPath = path.join(dir, file.name);
+              if (file.isDirectory()) {
+                errors = errors.concat(validateHanabiFiles(fullPath));
+              } else if (file.name === 'page.tsx') {
+                try {
+                  const content = fs.readFileSync(fullPath, 'utf8');
+                  // 检查是否包含必需的字段
+                  if (content.includes('media:') && !content.includes('title:') && !content.includes('description:')) {
+                    errors.push(\`\${fullPath}: Missing required media fields (title, description)\`);
+                  }
+                } catch (e) {
+                  errors.push(\`\${fullPath}: Failed to read file - \${e.message}\`);
+                }
+              }
+            }
+            return errors;
+          }
+          
+          const errors = validateHanabiFiles('./src/app');
+          if (errors.length > 0) {
+            console.log('Data validation errors found:');
+            errors.forEach(error => console.log('::error::' + error));
+            process.exit(1);
+          } else {
+            console.log('All hanabi data files are valid!');
+          }
+          "
+
+  # 安全检查
+  security-audit:
+    name: Security Audit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run security audit
+        run: npm audit --audit-level=moderate
+
+      - name: Check for known vulnerabilities
+        run: npx audit-ci --moderate 

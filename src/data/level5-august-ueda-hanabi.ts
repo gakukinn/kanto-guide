@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const uedaHanabiData: HanabiData = {
   id: 'ueda-shinshu-hanabi-2025',
   name: '上田市诞生20周年纪念第38回信州上田大花火大会',
-  japaneseName: '上田市誕生20周年記念 第38回 信州上田大花火大会',
   englishName: 'Ueda City 20th Anniversary 38th Shinshu Ueda Grand Fireworks',
+  _sourceData: {
+    japaneseName: '上田市誕生20周年記念 第38回 信州上田大花火大会'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月5日(火)',

@@ -1,0 +1,161 @@
+{
+  "id": "joetsu-matsuri-naoetsu-hanabi-2024",
+  "name": "上越祭大花火大会(直江津地区)",
+  "englishName": "Joetsu Festival Grand Fireworks (Naoetsu District)",
+  "_sourceData": {
+    "japaneseName": "上越まつり大花火大会（直江津地区）",
+    "japaneseDescription": "上越まつり大花火大会（直江津地区）"
+  },
+  "year": 2024,
+  "date": "2024年7月29日(周一)",
+  "time": "19:30~21:00",
+  "duration": "约90分钟",
+  "fireworksCount": "约5,000发",
+  "expectedVisitors": "约10万人",
+  "weather": "夏季海风凉爽",
+  "ticketPrice": "免费观赏",
+  "status": "scheduled",
+  "themeColor": "blue",
+  "month": 7,
+  "tags": {
+    "timeTag": "7月",
+    "regionTag": "新潟县",
+    "typeTag": "花火",
+    "layerTag": "Layer 4详情页"
+  },
+  "related": {
+    "regionRecommendations": [
+      {
+        "id": "gion-kashiwazaki-umi-hanabi-2024",
+        "name": "祇园柏崎祭 海之大花火大会",
+        "date": "2024年7月26日",
+        "location": "柏崎市中央海岸",
+        "visitors": "约20万人",
+        "link": "/koshinetsu/hanabi/gion-kashiwazaki"
+      },
+      {
+        "id": "nagaoka-matsuri-hanabi-2024",
+        "name": "长冈祭大花火大会",
+        "date": "2024年8月2日-3日",
+        "location": "信浓川河川敷",
+        "visitors": "约34万人",
+        "link": "/koshinetsu/hanabi/nagaoka"
+      }
+    ],
+    "timeRecommendations": [
+      {
+        "id": "sanjo-natsu-matsuri-hanabi-2024",
+        "name": "三条夏祭大花火大会",
+        "date": "2024年8月4日",
+        "location": "信浓川河川敷",
+        "visitors": "约10万人",
+        "link": "/koshinetsu/hanabi/sanjo-natsu-matsuri"
+      }
+    ]
+  },
+  "venues": [
+    {
+      "name": "直江津港周边",
+      "location": "新潟县上越市直江津地区",
+      "startTime": "19:30",
+      "features": ["海上花火", "免费观赏", "直江津港景观", "海风凉爽"]
+    }
+  ],
+  "access": [
+    {
+      "venue": "直江津港周边",
+      "stations": [
+        {
+          "name": "直江津站",
+          "lines": ["JR信越本线", "JR北陆本线"],
+          "walkTime": "步行约15分钟"
+        }
+      ]
+    }
+  ],
+  "mapInfo": {
+    "coordinates": {
+      "lat": 37.1833,
+      "lng": 138.2333
+    },
+    "parking": "临时停车场设置，建议使用公共交通",
+    "nearbyLandmarks": ["直江津港", "上越市役所", "直江津海岸"]
+  },
+  "contact": {
+    "organizer": "上越祭实行委员会",
+    "phone": "025-543-2777",
+    "website": "https://www.city.joetsu.niigata.jp/",
+    "socialMedia": ""
+  },
+  "viewingSpots": [
+    {
+      "name": "直江津港周边观赏区",
+      "rating": 5,
+      "crowdLevel": "中等",
+      "tips": "建议提前1小时到达，选择靠海一侧观赏位置",
+      "pros": ["海上花火视野开阔", "免费观赏", "海风凉爽"],
+      "cons": ["停车位有限", "需要步行15分钟"]
+    },
+    {
+      "name": "直江津海岸公园",
+      "rating": 4,
+      "crowdLevel": "较拥挤",
+      "tips": "适合家庭观赏，有基础设施",
+      "pros": ["设施完善", "适合家庭", "视野良好"],
+      "cons": ["人群较多", "距离稍远"]
+    }
+  ],
+  "history": {
+    "established": 1950,
+    "significance": "上越祭的传统组成部分，展现直江津地区的海洋文化",
+    "highlights": [
+      "历史悠久的海上花火传统",
+      "直江津港的独特地理位置",
+      "新潟县重要的夏季文化活动",
+      "海上花火与港口景观的完美结合"
+    ]
+  },
+  "tips": [
+    {
+      "category": "观赏建议",
+      "items": [
+        "建议提前1小时到达会场占位",
+        "海边夜晚较凉，请携带薄外套",
+        "选择靠海一侧观赏位置视野更佳",
+        "可携带野餐垫和小椅子"
+      ]
+    },
+    {
+      "category": "交通提醒",
+      "items": [
+        "建议使用公共交通前往",
+        "从直江津站步行约15分钟",
+        "会场周边停车位有限",
+        "活动结束后请耐心等待人流疏散"
+      ]
+    },
+    {
+      "category": "安全注意",
+      "items": [
+        "注意海边安全，勿靠近水边",
+        "保管好个人物品",
+        "遵守会场秩序和安全指引",
+        "如遇恶劣天气请关注官方通知"
+      ]
+    }
+  ],
+  "mapInfo": {
+    "hasMap": true,
+    "mapNote": "会场位于直江津港周边，交通便利",
+    "parking": "临时停车场设置，建议使用公共交通"
+  },
+  "weatherInfo": {
+    "month": "7月",
+    "temperature": "夏季高温，夜晚凉爽",
+    "humidity": "海边湿度适中",
+    "rainfall": "梅雨季节结束，降雨概率较低",
+    "recommendation": "夏季海边夜晚较凉，建议准备薄外套",
+    "rainPolicy": "小雨决行，恶劣天气时中止",
+    "note": "海边观赏，建议携带防风外套"
+  }
+}

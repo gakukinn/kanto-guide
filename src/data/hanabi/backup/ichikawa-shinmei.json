@@ -1,0 +1,112 @@
+{
+  "id": "ichikawa-shinmei-hanabi-2024",
+  "name": "市川三郷町故乡夏日祭 第37届神明花火大会",
+  "japaneseName": "市川三郷町ふるさと夏まつり　第37回「神明の花火大会」",
+  "englishName": "Ichikawamisato Furusato Summer Festival 37th Shinmei Fireworks Festival",
+  "year": 2025,
+  "date": "2025年8月7日",
+  "time": "19:30~21:00",
+  "duration": "约90分钟",
+  "fireworksCount": "约20,000发",
+  "expectedVisitors": "200000人",
+  "weather": "夏季高温，建议防暑",
+  "ticketPrice": "免费观赏",
+  "status": "scheduled",
+  "themeColor": "red",
+  "month": 8,
+  "tags": {
+    "timeTag": "8月",
+    "regionTag": "山梨县",
+    "typeTag": "花火",
+    "layerTag": "Layer 4详情页"
+  },
+  "related": {
+    "regionRecommendations": [
+      {
+        "id": "kawaguchiko-kojosai-2025",
+        "name": "河口湖湖上祭花火大会",
+        "date": "2025年8月5日",
+        "location": "河口湖畔",
+        "visitors": "约10万人",
+        "link": "/koshinetsu/hanabi/kawaguchiko-kojosai-2025"
+      }
+    ],
+    "timeRecommendations": [
+      {
+        "id": "nagaoka-hanabi-2025",
+        "name": "长冈祭大花火大会",
+        "date": "2025年8月2日-3日",
+        "location": "新潟县长冈市",
+        "visitors": "约100万人",
+        "link": "/koshinetsu/hanabi/nagaoka"
+      }
+    ]
+  },
+  "venues": [
+    {
+      "name": "神明花火大会会场",
+      "location": "山梨县西八代郡市川三郷町",
+      "startTime": "19:30",
+      "features": ["免费观赏", "大型停车场", "临时设施"]
+    }
+  ],
+  "access": [
+    {
+      "venue": "神明花火大会会场",
+      "stations": [
+        {
+          "name": "市川大门站",
+          "lines": ["JR身延线"],
+          "walkTime": "步行约15分钟"
+        }
+      ]
+    }
+  ],
+  "viewingSpots": [
+    {
+      "name": "会场正面观赏区",
+      "rating": 5,
+      "crowdLevel": "非常拥挤",
+      "tips": "建议提前2小时到达占位",
+      "pros": ["最佳观赏角度", "完整视野"],
+      "cons": ["人流密集", "需要长时间等待"]
+    }
+  ],
+  "history": {
+    "established": 1988,
+    "significance": "市川三郷町的传统夏日祭典，已有37年历史",
+    "highlights": ["山梨县代表性花火大会", "关东地区知名度高", "免费观赏传统"]
+  },
+  "tips": [
+    {
+      "category": "交通建议",
+      "items": ["建议使用公共交通", "有免费接驳巴士", "避开高峰时段"]
+    },
+    {
+      "category": "观赏建议",
+      "items": ["携带防暑用品", "准备雨具", "提前占位"]
+    }
+  ],
+  "contact": {
+    "organizer": "市川三郷町观光协会",
+    "phone": "055-272-1101",
+    "website": "https://www.town.ichikawamisato.yamanashi.jp/",
+    "socialMedia": ""
+  },
+  "mapInfo": {
+    "hasMap": true,
+    "mapNote": "会场位于市川三郷町中心区域",
+    "parking": "有临时停车场\n约3000台\n免费"
+  },
+  "weatherInfo": {
+    "month": "8月",
+    "temperature": "最高32°C，最低24°C",
+    "humidity": "70-80%",
+    "rainfall": "夏季雷雨可能",
+    "recommendation": "建议携带雨具和防暑用品",
+    "rainPolicy": "小雨举行，大雨中止",
+    "note": "请提前确认天气预报"
+  },
+  "mapEmbedUrl": "https://maps.google.com/maps?q=35.6581,138.4897",
+  "media": []
+}

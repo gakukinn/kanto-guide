@@ -1,0 +1,105 @@
+name: Weekly Data Validation
+
+on:
+  schedule:
+    # 每周一凌晨2点运行 (UTC时间)
+    - cron: '0 2 * * 1'
+  workflow_dispatch:
+    # 允许手动触发
+
+jobs:
+  validate-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: npm ci
+        
+      - name: Run data validation
+        id: validation
+        run: |
+          npm run validate-weekly
+          echo "validation_status=success" >> $GITHUB_OUTPUT
+        continue-on-error: true
+        
+      - name: Upload validation report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-report
+          path: validation-report.json
+          retention-days: 30
+          
+      - name: Create issue on validation failure
+        if: steps.validation.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // 读取验证报告
+            let reportContent = '验证报告文件未找到';
+            try {
+              const report = JSON.parse(fs.readFileSync('validation-report.json', 'utf8'));
+              reportContent = `
+            ## 📊 数据验证报告
+            
+            **验证时间**: ${report.timestamp}
+            **总文件数**: ${report.summary.totalFiles}
+            **已验证**: ${report.summary.validatedFiles}
+            **错误数**: ${report.summary.errorCount}
+            **警告数**: ${report.summary.warningCount}
+            
+            ### ❌ 发现的错误
+            ${report.errors.map((error, index) => 
+              `${index + 1}. **${error.file}**: ${error.error}`
+            ).join('\n')}
+            
+            ### ⚠️ 发现的警告
+            ${report.warnings.slice(0, 10).map((warning, index) => 
+              `${index + 1}. **${warning.file}**: ${warning.warning}`
+            ).join('\n')}
+            ${report.warnings.length > 10 ? `\n... 还有 ${report.warnings.length - 10} 个警告` : ''}
+            
+            ### 🔧 建议操作
+            1. 修复标记为错误的必需字段问题
+            2. 统一日期格式为 "YYYY年MM月DD日" 格式
+            3. 检查过期的活动日期
+            4. 验证URL链接的有效性
+            
+            **详细报告**: 请查看 Actions 中的 validation-report 附件
+              `;
+            } catch (error) {
+              console.log('无法读取验证报告:', error.message);
+            }
+            
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🚨 每周数据验证发现问题 - ${new Date().toISOString().split('T')[0]}`,
+              body: reportContent,
+              labels: ['data-validation', 'weekly-check', 'bug']
+            });
+            
+      - name: Comment on success
+        if: steps.validation.outcome == 'success'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            // 可选：在成功时创建一个简短的评论或更新状态
+            console.log('✅ 数据验证成功完成');
+            
+      - name: Send notification (optional)
+        if: steps.validation.outcome == 'failure'
+        run: |
+          echo "🚨 数据验证失败，已创建Issue进行跟踪"
+          echo "请查看生成的Issue了解详细信息" 

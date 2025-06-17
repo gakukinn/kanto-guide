@@ -13,8 +13,10 @@ import { HanabiData } from '@/types/hanabi';
 export const mikurajimaHanabiData: HanabiData = {
  id: 'mikurajima-hanabi',
  name: '御藏岛花火大会',
-  japaneseName: '御蔵島花火大会',
  englishName: 'Mikurajima Fireworks Festival',
+  _sourceData: {
+    japaneseName: '御蔵島花火大会'
+  },
  year: 2025,
  date: '2025年7月31日(木)',
  time: '19:30-20:00(预定)',

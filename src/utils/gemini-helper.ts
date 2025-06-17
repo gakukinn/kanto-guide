@@ -26,7 +26,7 @@ export class GeminiHelper {
         请按照以下JSON格式返回数据：
         ${JSON.stringify(schema, null, 2)}
       `;
-      
+
       const result = await this.model.generateContent(structuredPrompt);
       const response = await result.response;
       return JSON.parse(response.text()) as T;
@@ -37,7 +37,9 @@ export class GeminiHelper {
   }
 
   // 生成多轮对话
-  static async chat(messages: Array<{ role: string; content: string }>): Promise<string> {
+  static async chat(
+    messages: Array<{ role: string; content: string }>
+  ): Promise<string> {
     try {
       const chat = this.model.startChat({
         history: messages.map(msg => ({
@@ -46,7 +48,9 @@ export class GeminiHelper {
         })),
       });
 
-      const result = await chat.sendMessage(messages[messages.length - 1].content);
+      const result = await chat.sendMessage(
+        messages[messages.length - 1].content
+      );
       const response = await result.response;
       return response.text();
     } catch (error) {
@@ -54,4 +58,4 @@ export class GeminiHelper {
       throw error;
     }
   }
-} 
+}

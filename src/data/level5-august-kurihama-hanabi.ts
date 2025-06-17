@@ -12,8 +12,10 @@ import { HanabiData } from '@/types/hanabi';
 export const kurihamaHanabiData: HanabiData = {
   id: 'kurihama-perry-hanabi-2025',
   name: '2025久里浜佩里祭花火大会',
-  japaneseName: '2025久里浜ペリー祭花火大会',
   englishName: '2025 Kurihama Perry Festival Fireworks',
+  _sourceData: {
+    japaneseName: '2025久里浜ペリー祭花火大会'
+  },
   year: 2025,
   date: '2025年8月2日（土）',
   time: '19:30～20:00',

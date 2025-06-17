@@ -11,8 +11,10 @@ import { HanabiData } from '@/types/hanabi';
 export const sagamikoHanabiData: HanabiData = {
   id: 'sagamiko-hanabi-2025',
   name: '第73回相模湖湖上祭花火大会',
-  japaneseName: '第73回 さがみ湖湖上祭花火大会',
   englishName: '73rd Sagami Lake Festival Fireworks',
+  _sourceData: {
+    japaneseName: '第73回 さがみ湖湖上祭花火大会'
+  },
   title: '第73回相模湖湖上祭花火大会 - 8月神奈川花火大会',
   description: '第73回相模湖湖上祭花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
   year: 2025,

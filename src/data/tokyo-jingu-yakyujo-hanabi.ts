@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const jinguYakyujoHanabiData: HanabiData = {
   id: 'jingu-yakyujo-hanabi',
   name: '夏休み神宫花火夜场',
-  japaneseName: '夏休み！ 神宮花火ナイター',
   englishName: 'Summer Vacation! Jingu Baseball Stadium Fireworks',
+  _sourceData: {
+    japaneseName: '夏休み！ 神宮花火ナイター'
+  },
   year: 2025,
   date: '2025年7月19日-8月31日特定日',
   time: '每场比赛第5局下半场结束后（约2分钟）',

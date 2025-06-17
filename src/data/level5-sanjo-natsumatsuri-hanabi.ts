@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const hanabiData: HanabiData = {
  id: 'sanjo-natsumatsuri-hanabi',
  name: '三条市合并20周年记念第21回三条夏祭大花火大会',
-  japaneseName: '三条市合併20周年記念 第21回 三条夏まつり大花火大会',
  englishName: 'Sanjo Summer Festival Fireworks 20th Anniversary',
+  _sourceData: {
+    japaneseName: '三条市合併20周年記念 第21回 三条夏まつり大花火大会'
+  },
  year: 2025,
  date: '2025年7月26日(土)',
  time: '19:30-21:30',

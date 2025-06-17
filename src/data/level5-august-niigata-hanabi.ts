@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const niigataHanabiData: HanabiData = {
   id: 'niigata-matsuri-hanabi-2025',
   name: '新潟祭花火大会',
-  japaneseName: '新潟まつり花火大会',
   englishName: 'Niigata Festival Fireworks Display',
+  _sourceData: {
+    japaneseName: '新潟まつり花火大会'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月10日(日)',

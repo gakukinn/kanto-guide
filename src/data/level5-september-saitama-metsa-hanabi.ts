@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const metsaHanabiData: HanabiData = {
   id: 'metsa-nordic-hanabi-2025',
   name: '梅兹塔北欧花火2025',
-  japaneseName: 'メッツァの北欧花火2025',
   englishName: 'Metsa Nordic Fireworks 2025',
+  _sourceData: {
+    japaneseName: 'メッツァの北欧花火2025'
+  },
   year: 2025,
   date: '9月13日・14日・20日・21日',
   time: '19:00～约15分钟',

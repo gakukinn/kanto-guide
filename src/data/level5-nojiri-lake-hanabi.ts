@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const hanabiData: HanabiData = {
  id: 'nojiri-lake-hanabi',
  name: '第101回野尻湖花火大会',
-  japaneseName: '第101回 野尻湖花火大会',
  englishName: 'The 101st Nojiri Lake Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第101回 野尻湖花火大会'
+  },
   title: '第101回野尻湖花火大会 - 7月甲信越花火大会',
   description: '第101回野尻湖花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

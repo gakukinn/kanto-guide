@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const shinsakuHanabiData: HanabiData = {
   id: 'shinsaku-hanabi',
   name: '全国新作花火挑战杯2025',
-  japaneseName: '全国新作花火チャレンジカップ2025',
   englishName: 'National New Fireworks Challenge Cup 2025',
+  _sourceData: {
+    japaneseName: '全国新作花火チャレンジカップ2025'
+  },
   year: 2025,
   date: '2025年9月6日・13日・20日・27日（预选）、10月26日（决赛）',
   time: '预选：20:30～20:50（9/6・13）、18:30～18:50（9/20・27）、决赛：17:30～17:50',

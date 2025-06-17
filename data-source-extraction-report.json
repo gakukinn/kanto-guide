@@ -1,0 +1,1596 @@
+{
+  "totalActivities": 68,
+  "activitiesWithOfficialWebsite": 68,
+  "activitiesWithWalkerPlus": 30,
+  "activitiesWithBothSources": 30,
+  "activitiesWithNoSources": 0,
+  "dataIntegrityIssues": 2,
+  "regionBreakdown": {
+    "tokyo": 14,
+    "kanagawa": 15,
+    "chiba": 14,
+    "saitama": 10,
+    "kitakanto": 9,
+    "koshinetsu": 6
+  },
+  "activities": [
+    {
+      "id": "akishima-kujira-matsuri-hanabi-53rd",
+      "name": "第53回 昭岛市民鲸鱼祭梦花火",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-august-akishima-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\akishima\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://akishima-kujiramatsuri.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-23",
+        "time": "20:00-20:30",
+        "location": "東京都昭島市 昭島市民球場",
+        "expectedVisitors": "约4万5000人",
+        "fireworksCount": "约2000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "chofu-hanabi-2025",
+      "name": "第40回调布花火",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-september-tokyo-chofu-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\chofu-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://hanabi.csa.gr.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-09-20",
+        "time": "18:15～19:15",
+        "location": "调布市多摩川布田地区",
+        "expectedVisitors": "约30万人",
+        "fireworksCount": "约10000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "edogawa-ku-hanabi-50",
+      "name": "第50回江戸川区花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-august-edogawa-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\edogawa\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.edogawa.tokyo.jp/hanabi/index.html",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:15-20:20",
+        "location": "東京都江戸川区 江戸川河川敷",
+        "expectedVisitors": "约3万人",
+        "fireworksCount": "约14000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "itabashi-hanabi-2025",
+      "name": "第66回板桥花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-august-itabashi-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\itabashi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://itabashihanabi.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:00-20:30",
+        "location": "東京都板橋区 荒川河川敷",
+        "expectedVisitors": "约57万人",
+        "fireworksCount": "约15000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "jingu-gaien-hanabi-2025",
+      "name": "2025 神宫外苑花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-august-jingu-gaien-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\jingu-gaien\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.jinguhanabi.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-16",
+        "time": "19:30-20:30",
+        "location": "東京都新宿区 明治神宮外苑",
+        "expectedVisitors": "约100万人",
+        "fireworksCount": "约10000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "katsushika-noryo-hanabi",
+      "name": "第59回葛饰纳凉花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-july-hanabi-katsushika-noryo.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\katsushika-noryo\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.katsushika.lg.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00795/",
+      "currentData": {
+        "date": "2025-07-22",
+        "time": "19:20开场，19:30花火开始",
+        "location": "東京都葛飾区 柴又野球場",
+        "expectedVisitors": "约77万人",
+        "fireworksCount": "约15000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "tokyo-keibajo-hanabi",
+      "name": "东京竞马场花火 2025 〜花火与J-POP BEST〜",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-july-hanabi-tokyo-keibajo.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\keibajo\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://hanabitokyo.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e436729/",
+      "currentData": {
+        "date": "2025-07-02",
+        "time": "19:30开始",
+        "location": "東京都府中市 JRA東京競馬場",
+        "expectedVisitors": "非公表",
+        "fireworksCount": "约14000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kozushima-nagisa-hanabi-32",
+      "name": "第32回神津島渚花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-august-kozushima-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\kozushima\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://kozushima.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-15",
+        "time": "19:30-20:00",
+        "location": "東京都神津島村 神津島港",
+        "expectedVisitors": "约3000人",
+        "fireworksCount": "约3000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "mikurajima-hanabi",
+      "name": "御蔵島花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-july-hanabi-mikurajima.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\mikurajima\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.mikurasima.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00816/",
+      "currentData": {
+        "date": "2025-08-10",
+        "time": "19:30-20:00(预定)",
+        "location": "東京都御蔵島村 御蔵島港",
+        "expectedVisitors": "约500人",
+        "fireworksCount": "约2000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "okutama-noryo-hanabi-70th",
+      "name": "町制施行70周年纪念 奥多摩纳凉花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-august-okutama-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\okutama\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.town.okutama.tokyo.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-09",
+        "time": "19:45-20:20",
+        "location": "東京都西多摩郡奥多摩町 愛宕山広場",
+        "expectedVisitors": "约1万人",
+        "fireworksCount": "约1000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "setagaya-tamagawa-47",
+      "name": "第47回 世田谷区多摩川花火大会",
+      "region": "tokyo",
+      "filePath": "内嵌数据 (setagaya-tamagawa)",
+      "pageFile": "src/app/tokyo/hanabi/setagaya-tamagawa/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.tamagawa-hanabi.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e355272/",
+      "currentData": {
+        "date": "2025年10月4日",
+        "time": "18:00～19:00",
+        "location": "二子橋上流"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "sumida",
+      "name": "第48回 隅田川花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-july-hanabi-tokyo-sumida.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\sumida\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.sumidagawa-hanabi.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00797/",
+      "currentData": {
+        "date": "2025-07-26",
+        "time": "19:00～（第一会场19:00～、第二会场19:30～）",
+        "location": "桜橋下流～言問橋上流",
+        "expectedVisitors": "约91万人",
+        "fireworksCount": "约20000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "tachikawa-showa-kinen-hanabi",
+      "name": "立川祭典 国営昭和記念公園花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\level4-july-hanabi-tachikawa-showa.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\tachikawa-showa\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://hanabi.tokyo-tachikawa.org/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00798/",
+      "currentData": {
+        "date": "2025-07-26",
+        "time": "19:15开场，20:15结束",
+        "location": "东京都立川市绿町3173",
+        "expectedVisitors": "约15万人",
+        "fireworksCount": "约5000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "tamagawa-hanabi-2025",
+      "name": "第48回多摩川花火大会",
+      "region": "tokyo",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\tokyo\\tokyo-tamagawa-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\tamagawa\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.tamagawa-hanabi.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e355272/",
+      "currentData": {
+        "date": "2025年8月16日",
+        "time": "18:00～19:00",
+        "location": "东京都世田谷区玉川3丁目（二子桥上游）",
+        "expectedVisitors": "约30万人",
+        "fireworksCount": "约6000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "atsugi-ayu-matsuri",
+      "name": "市制70周年記念 第79回 厚木鮎祭典",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\level4-august-kanagawa-atsugi-ayu-matsuri.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\atsugi-ayu-matsuri\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.atsugi.kanagawa.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "8月3日",
+        "time": "19:00-20:30",
+        "location": "厚木市相模川河川敷",
+        "expectedVisitors": "约15万人",
+        "fireworksCount": "约3000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kamakura",
+      "name": "第77回 镰仓花火大会",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kanagawa\\level4-july-hanabi-kanagawa-kamakura.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\kamakura\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.kamakura-info.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0314e00792/",
+      "currentData": {
+        "date": "2025-07-18",
+        "time": "19:20～20:10",
+        "location": "由比之滨海岸",
+        "expectedVisitors": "约16万人",
+        "fireworksCount": "约2500发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kanazawa-matsuri-hanabi-2025",
+      "name": "第51回金泽祭花火大会",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kanagawa\\level4-august-kanazawa-matsuri-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\kanazawa-matsuri-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-30",
+        "time": "19:00-20:00",
+        "location": "横滨市金泽区海之公园",
+        "expectedVisitors": "约25万5000人",
+        "fireworksCount": "约3500发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kawasaki-tamagawa-hanabi",
+      "name": "第84回 川崎市制記念多摩川花火大会",
+      "region": "kanagawa",
+      "filePath": "内嵌数据 (kawasaki-tamagawa)",
+      "pageFile": "src/app/kanagawa/hanabi/kawasaki-tamagawa/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.kawasaki.jp/280/page/0000117559.html",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025年10月4日",
+        "time": "18:00～19:00",
+        "location": "神奈川県川崎市高津区多摩川河川敷"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kurihama-perry-hanabi-2025",
+      "name": "2025久里浜佩里祭花火大会",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kanagawa\\level4-august-kurihama-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\kurihama\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://perryfes.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:30～20:00",
+        "location": "神奈川县横须贺市久里浜海岸附近",
+        "expectedVisitors": "约8万人",
+        "fireworksCount": "约5000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "minato-mirai-smart-festival-2025",
+      "name": "港未来智能节庆2025",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\level4-august-minato-mirai-smart.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\minato-mirai-smart\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.yokohama.lg.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-04(月)",
+        "time": "17:30-20:00",
+        "location": "横滨市中区港未来21地区",
+        "expectedVisitors": "约2万人（有料会场）",
+        "fireworksCount": "约2万发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "odawara-sakawa-hanabi-2025",
+      "name": "第36回小田原酒匂川花火大会",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\level4-august-kanagawa-odawara-sakawa.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\odawara-sakawa\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.odawara.kanagawa.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:10～20:30",
+        "location": "小田原市酒匂川体育广场",
+        "expectedVisitors": "约25万人",
+        "fireworksCount": "约1万发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "sagamiko-hanabi-2025",
+      "name": "第73回相模湖湖上祭花火大会",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kanagawa\\level4-august-sagamiko-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\sagamiko\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.e-sagamihara.com/event/event-737/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-01",
+        "time": "19:30～20:40",
+        "location": "相模湖上",
+        "expectedVisitors": "约5万5000人",
+        "fireworksCount": "约4000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "seaparadise-hanabi-symphonia-september",
+      "name": "横浜八景岛海洋天堂「花火交响曲」",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kanagawa\\level4-september-kanagawa-seaparadise-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\seaparadise-hanabi-sep\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.seaparadise.co.jp/2025summer_hanabi/index.html",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-09-13",
+        "time": "20:30～20:40",
+        "location": "神奈川县横浜市金泽区八景岛",
+        "expectedVisitors": "非公开",
+        "fireworksCount": "约2500发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": false
+      }
+    },
+    {
+      "id": "seaparadise",
+      "name": "横滨、八景岛海洋天堂「花火交响曲」",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kanagawa\\level4-july-hanabi-kanagawa-seaparadise.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\seaparadise-hanabi-symphonia\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "http://www.seaparadise.co.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-07-19",
+        "time": "音和光的现场娱乐",
+        "location": "横滨市金泽区八景岛",
+        "expectedVisitors": "入园者数非公开",
+        "fireworksCount": "约2500发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "southern-beach-chigasaki-hanabi-2025",
+      "name": "第51回南海滩茅崎花火大会",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\level4-august-kanagawa-southern-beach-chigasaki.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\southern-beach-chigasaki\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.chigasaki.kanagawa.jp/kanko/event/event_2025.html",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:30～20:00",
+        "location": "茅崎市中海岸4丁目12986-1",
+        "expectedVisitors": "5万人",
+        "fireworksCount": "2000发（预定）"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "yokohama-night-flowers-2025",
+      "name": "横浜夜间花火2025",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kanagawa\\level4-september-kanagawa-yokohama-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\yokohama-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.yokohama-sparkling-twilight.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-09-06",
+        "time": "19:00～19:05",
+        "location": "神奈川县横浜市中区",
+        "expectedVisitors": "非公开",
+        "fireworksCount": "约150发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": false
+      }
+    },
+    {
+      "id": "yokohama-kaikosai-beam-spectacular",
+      "name": "第44回横浜開港祭 光束奇观in港湾",
+      "region": "kanagawa",
+      "filePath": "内嵌数据 (yokohama-kaikosai)",
+      "pageFile": "src/app/kanagawa/hanabi/yokohama-kaikosai/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.kaikosai.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025年6月2日",
+        "time": "19:20～20:00",
+        "location": "神奈川県横浜市中区臨港公园"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "yokohama-night-flowers-2025",
+      "name": "横滨夜间花火2025",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\level4-august-kanagawa-yokohama-night-flowers.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\yokohama-night-flowers\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.yokohamajapan.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0314/20250802/",
+      "currentData": {
+        "date": "8月2日、9日、16日、23日、30日",
+        "time": "19:30～19:45",
+        "location": "神奈川县横滨市西区港未来",
+        "expectedVisitors": "约5000人/场",
+        "fireworksCount": "约150发/场"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "yokohama-seaparadise-hanabi",
+      "name": "横滨八景岛海洋天堂「花火交响曲」",
+      "region": "kanagawa",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\level4-august-kanagawa-yokohama-seaparadise.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\yokohama-seaparadise\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.seaparadise.co.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "8月10日、11日、17日、18日、24日、25日",
+        "time": "20:30～20:40",
+        "location": "神奈川县横滨市金泽区八景岛",
+        "expectedVisitors": "约1万人/场",
+        "fireworksCount": "约2500发/场"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "asahi-iiotaka-you-yu",
+      "name": "旭市YOU遊节庆2025 海浜花火大会",
+      "region": "chiba",
+      "filePath": "内嵌数据 (asahi-iioka-you-yu)",
+      "pageFile": "src/app/chiba/hanabi/asahi-iioka-you-yu/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://youyufes.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0312e00249/",
+      "currentData": {
+        "date": "2025年10月4日(土)",
+        "time": "花火打上时间 18:45～19:45",
+        "location": "千葉県旭市/飯岡海岸"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "choshi-minato-hanabi",
+      "name": "铫子港祭花火大会",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-august-hanabi-choshi-minato.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\choshi-minato-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.choshi.chiba.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:30开始",
+        "location": "铫子市利根川河畔",
+        "expectedVisitors": "约7万人",
+        "fireworksCount": "约8000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "futtsu-shimin-hanabi",
+      "name": "富津市民花火大会",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-july-hanabi-futtsu.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\futtsu-shimin-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://futtsu-hanabi.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0312e00785/",
+      "currentData": {
+        "date": "2025-07-26",
+        "time": "19:15-20:15",
+        "location": "千叶县富津市富津2280",
+        "expectedVisitors": "约5万人",
+        "fireworksCount": "5000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "ichikawa-hanabi",
+      "name": "第41回市川市民纳凉花火大会",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\koshinetsu\\level4-august-hanabi-ichikawa.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\ichikawa\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.ichikawa.lg.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:15开始",
+        "location": "市川市江户川河川敷",
+        "expectedVisitors": "约49万人",
+        "fireworksCount": "约1万4000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kamogawa",
+      "name": "鴨川市民花火大会",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-kamogawa.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\kamogawa-shimin-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.kamogawa-kanko.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-07-29",
+        "time": "19:30～20:15",
+        "location": "鴨川市前原",
+        "expectedVisitors": "4万人",
+        "fireworksCount": "约1500発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kisarazu-hanabi",
+      "name": "第78回木更津港祭",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-august-hanabi-kisarazu.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\kisarazu\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.kisarazu.lg.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-15",
+        "time": "19:30开始",
+        "location": "木更津市中之岛公园",
+        "expectedVisitors": "约28万4500人",
+        "fireworksCount": "约1万3000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "makuhari-beach-hanabi",
+      "name": "幕张海滩花火节2025(第47回千叶市民花火大会)",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-august-hanabi-makuhari-beach.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\makuhari-beach-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.chiba.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:15开始",
+        "location": "千叶市美浜区美浜区幕张海滨公园",
+        "expectedVisitors": "约30万人",
+        "fireworksCount": "约2万发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "matsudo-hanabi",
+      "name": "松户花火大会2025",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-august-hanabi-matsudo.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\matsudo\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.matsudo.chiba.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:30开始",
+        "location": "松户市古个崎河川敷体育广场",
+        "expectedVisitors": "约27万人",
+        "fireworksCount": "1万发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "narashino-hanabi",
+      "name": "令和7年习志野驻屯地夏祭",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-august-hanabi-narashino.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\narashino\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.mod.go.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "17:00开始",
+        "location": "船桥市陆上自卫队习志野驻屯地",
+        "expectedVisitors": "约5万人",
+        "fireworksCount": "约850发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "oamishirasato",
+      "name": "和的花火",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-oamishirasato.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\oamishirasato-hanabi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.oamishirasato.lg.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-07-26",
+        "time": "19:30～20:30",
+        "location": "大網白里市白里",
+        "expectedVisitors": "2万8000人",
+        "fireworksCount": "3000発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "omigawa-hanabi",
+      "name": "第126回 水郷小见川花火大会",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-august-omigawa-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\omigawa\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.katori.lg.jp/sightseeing/gyoji/natsu/hanabi.html",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-01",
+        "time": "19:15-20:45",
+        "location": "千叶县香取市小见川",
+        "expectedVisitors": "约8万人",
+        "fireworksCount": "约5000-7000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "shirahama",
+      "name": "第61回 南房総白浜海女祭典",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-shirahama.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\shirahama-ama-matsuri\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.mboso-etoko.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0312e00791/",
+      "currentData": {
+        "date": "2025-07-19",
+        "time": "各日19:00～",
+        "location": "南房総市白浜町白浜",
+        "expectedVisitors": "2万5000人",
+        "fireworksCount": "水中花火（非公開）"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "teganuma-hanabi",
+      "name": "手贺沼花火大会2025",
+      "region": "chiba",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\chiba\\level4-august-hanabi-teganuma.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\teganuma\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.abiko.chiba.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:00开始",
+        "location": "柏市、我孙子市手贺沼亲水广场",
+        "expectedVisitors": "约48万人",
+        "fireworksCount": "约1万3500发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "urayasu-42nd-fireworks",
+      "name": "第42回浦安市花火大会",
+      "region": "chiba",
+      "filePath": "内嵌数据 (urayasu-hanabi)",
+      "pageFile": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.urayasuhanabi.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0312e00989/",
+      "currentData": {
+        "date": "2025年10月19日(土)",
+        "time": "18:00～19:00（14:00开场）",
+        "location": "浦安市日之出明海地区"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "asaka-sainatsusai-2025",
+      "name": "朝霞市民祭「彩夏祭」",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-august-asaka-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\asaka\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.sainatsusai.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:30-20:30",
+        "location": "埼玉县朝霞市",
+        "expectedVisitors": "约73万人",
+        "fireworksCount": "约9000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "higashimatsuyama-hanabi-2025",
+      "name": "第26回东松山花火大会",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-august-higashimatsuyama-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\higashimatsuyama\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.higashimatsuyama-kanko.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-23",
+        "time": "19:00～20:30",
+        "location": "埼玉县东松山市",
+        "expectedVisitors": "约6万人",
+        "fireworksCount": "约5000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "ina-hanabi",
+      "name": "2025伊奈祭",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-august-ina-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\ina\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://inakanko.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-23",
+        "time": "20:10～（祭典16:00～21:15）",
+        "location": "埼玉县北足立郡伊奈町",
+        "expectedVisitors": "约4万人",
+        "fireworksCount": "未定"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "iruma-base-2025",
+      "name": "入间基地纳凉祭~盆踊与花火之夜",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-july-hanabi-iruma-base.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\iruma-base-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.mod.go.jp/asdf/iruma/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00805/",
+      "currentData": {
+        "date": "2025-07-23",
+        "time": "花火打上20:20～20:50",
+        "location": "埼玉县狭山市稲荷山2-3",
+        "expectedVisitors": "4万2000人",
+        "fireworksCount": "约900发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "koshigaya-2025",
+      "name": "越谷花火大会",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-july-hanabi-koshigaya.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\koshigaya-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.koshigaya-sightseeing.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00801/",
+      "currentData": {
+        "date": "2025-07-26",
+        "time": "19:00～21:00",
+        "location": "埼玉县越谷市",
+        "expectedVisitors": "约27万人",
+        "fireworksCount": "约5000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "kumagaya-hanabi-2025",
+      "name": "熊谷花火大会",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-august-kumagaya-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\kumagaya\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.kumagayahanabi.com/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-09",
+        "time": "19:00-21:00",
+        "location": "埼玉县熊谷市",
+        "expectedVisitors": "约42万人",
+        "fireworksCount": "约1万发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "metsza-nordic-2025",
+      "name": "梅兹塔北欧花火2025",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-july-hanabi-metsza-nordic.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\metsza-nordic-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://metsa-hanno.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00804/",
+      "currentData": {
+        "date": "2025-07-12",
+        "time": "19:40～约15分钟",
+        "location": "埼玉县饭能市",
+        "expectedVisitors": "非公开",
+        "fireworksCount": "非公开"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "ogawa-tanabata-2025",
+      "name": "第77回小川町七夕祭花火大会",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-july-hanabi-ogawa-tanabata.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\ogawa-tanabata-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.town.ogawa.saitama.jp/kanko/kanko_tokusan/ogawamachitanabatamatsuri/5267.html",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00802/",
+      "currentData": {
+        "date": "2025-07-26",
+        "time": "20:00-20:15",
+        "location": "埼玉县比企郡小川町",
+        "expectedVisitors": "约9万人",
+        "fireworksCount": "约200发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "saitama-owada-2025",
+      "name": "埼玉市花火大会大和田公园会场",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-july-hanabi-saitama-owada.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\saitama-owada-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://visitsaitamacity.jp/events/28",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00800/",
+      "currentData": {
+        "date": "2025-07-27",
+        "time": "19:30-20:30",
+        "location": "埼玉县埼玉市北区",
+        "expectedVisitors": "约9万人",
+        "fireworksCount": "未定"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "todabashi-sky-fantasia-72",
+      "name": "第72回戸田桥花火大会 Sky Fantasia",
+      "region": "saitama",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\saitama\\level4-august-todabashi-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\todabashi\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.todabashi-hanabi.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:00-20:30",
+        "location": "埼玉县戸田市",
+        "expectedVisitors": "约45万人",
+        "fireworksCount": "约1万5000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "ashikaga-hanabi-2025",
+      "name": "第109回足利花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\level4-august-ashikaga-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\ashikaga\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.ashikaga.tochigi.jp/industory/000061/000326/p007200.html",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:15～20:50",
+        "location": "栃木県足利市/渡良瀬川田中橋下流河川敷",
+        "expectedVisitors": "約45万人",
+        "fireworksCount": "約2万発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "koga-hanabi-2025",
+      "name": "第20回 古河花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\koga-hanabi-2025.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\koga-hanabi-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.ibaraki-koga.lg.jp/soshiki/kanko/4_1/2025hanabi.html",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0308e01029/",
+      "currentData": {
+        "date": "2025年8月2日",
+        "time": "19:20～20:30",
+        "location": "茨城県古河市/古河高尔夫球场",
+        "expectedVisitors": "約20万人",
+        "fireworksCount": "約2万5000発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "maebashi-hanabi-2025",
+      "name": "第69回 前橋花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\maebashi-hanabi-2025.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\maebashi-hanabi-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.maebashihanabi.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0310e00917/",
+      "currentData": {
+        "date": "2025年8月9日",
+        "time": "19:10-20:10",
+        "location": "群马县前橋市利根川河畔大渡桥南北河川绿地",
+        "expectedVisitors": "約45万人",
+        "fireworksCount": "約1万5000発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "mito-hanabi-2025",
+      "name": "第65回 水戸黄门祭 水戸偕楽园花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\mito-hanabi-2025.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\mito-hanabi-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://mitokoumon.com/koumon/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0308e00896/",
+      "currentData": {
+        "date": "2025年7月26日",
+        "time": "19:30～20:30",
+        "location": "茨城県水戸市/千波湖畔",
+        "expectedVisitors": "約20万人",
+        "fireworksCount": "約5000発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "moka-natsumatsuri-hanabi-2025",
+      "name": "真岡市夏祭大花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\level4-moka-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\moka\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.moka-kankou.org/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0300e00814/",
+      "currentData": {
+        "date": "2025-07-26",
+        "time": "19:30-21:00",
+        "location": "栃木県真岡市/真岡市役所东侧五行川沿",
+        "expectedVisitors": "約17万人",
+        "fireworksCount": "約2万発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "oyama-hanabi-2025",
+      "name": "第73回 小山花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\oyama-hanabi-2025.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\oyama-hanabi-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.oyamanohanabi.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+      "currentData": {
+        "date": "2025年9月23日",
+        "time": "18:30～20:30",
+        "location": "栃木县小山市观晃桥下流 思川河畔",
+        "expectedVisitors": "約43万人",
+        "fireworksCount": "約2万発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "takasaki-hanabi-2025",
+      "name": "第51回高崎大花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\level4-august-takasaki-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\takasaki\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.takasaki-matsuri.jp/",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025-08-23",
+        "time": "19:30～20:20",
+        "location": "群馬県高崎市/乌川和田桥上流河川敷",
+        "expectedVisitors": "約90万人",
+        "fireworksCount": "約1万5000発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "tamamura-hanabi-2025",
+      "name": "田园梦花火2025 第35回 玉村花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\tamamura-hanabi-2025.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\tamamura-hanabi-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.town.tamamura.lg.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0310e00986/",
+      "currentData": {
+        "date": "2025年8月23日",
+        "time": "19:40-20:30",
+        "location": "群马县玉村町上陽地区（上陽小学校西側）",
+        "expectedVisitors": "約2万人",
+        "fireworksCount": "約3000発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "tonegawa-hanabi-2025",
+      "name": "第38回 利根川大花火大会",
+      "region": "kitakanto",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\kitakanto\\tonegawa-hanabi-2025.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\tonegawa-hanabi-2025\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.sakai-hanabi.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
+      "currentData": {
+        "date": "2025年9月13日",
+        "time": "18:30～20:30",
+        "location": "茨城県境町/利根川河川敷",
+        "expectedVisitors": "約30万人",
+        "fireworksCount": "約3万発"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "anime-classics-anison-hanabi",
+      "name": "动漫经典动画歌曲花火",
+      "region": "koshinetsu",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\koshinetsu\\level4-anime-classics-anisong-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\koshinetsu\\hanabi\\anime\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://animeclassics-hanabi.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0400e00809/",
+      "currentData": {
+        "date": "2025-07-05",
+        "time": "19:30-20:30",
+        "location": "山梨县南巨摩郡富士川町",
+        "expectedVisitors": "未公布",
+        "fireworksCount": "1万发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "chikuma-chikumagawa-hanabi",
+      "name": "第94回 信州千曲市千曲川納涼煙火大会",
+      "region": "koshinetsu",
+      "filePath": "内嵌数据 (chikuma-chikumagawa-hanabi)",
+      "pageFile": "src/app/koshinetsu/hanabi/chikuma-chikumagawa-hanabi/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://twitter.com/sschikuma",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0420e00911/",
+      "currentData": {
+        "date": "2025年8月7日",
+        "time": "19:30～21:00",
+        "location": "戸倉上山田温泉千曲川河畔(大正橋～万葉橋間)"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "isawa-onsen-hanabi-2025",
+      "name": "第61回 石和温泉花火大会",
+      "region": "koshinetsu",
+      "filePath": "内嵌数据 (isawa-onsen-hanabi-2025)",
+      "pageFile": "src/app/koshinetsu/hanabi/isawa-onsen-hanabi-2025/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.fuefuki-kanko.jp",
+      "hasWalkerPlusUrl": false,
+      "currentData": {
+        "date": "2025年8月24日(日)",
+        "time": "19:30～21:00",
+        "location": "山梨県笛吹市"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "gion-kashiwazaki-matsuri-hanabi",
+      "name": "祇园柏崎祭海之大花火大会",
+      "region": "koshinetsu",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\koshinetsu\\level4-gion-kashiwazaki-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\koshinetsu\\hanabi\\kashiwazaki\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0400e00806/",
+      "currentData": {
+        "date": "2025年7月26日",
+        "time": "19:30-21:10",
+        "location": "新潟县柏崎市中央海岸",
+        "expectedVisitors": "约17万人",
+        "fireworksCount": "约1万6000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "nagaoka-matsuri-hanabi",
+      "name": "长冈祭大花火大会",
+      "region": "koshinetsu",
+      "filePath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\data\\hanabi\\koshinetsu\\level4-august-nagaoka-hanabi.ts",
+      "pageFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\koshinetsu\\hanabi\\nagaoka\\page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://nagaokamatsuri.com/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0415e00665/",
+      "currentData": {
+        "date": "2025-08-02",
+        "time": "19:20-21:10",
+        "location": "新潟县长冈市信浓川河川敷",
+        "expectedVisitors": "345000人",
+        "fireworksCount": "20000发"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    },
+    {
+      "id": "yamanakako-houkosai-hanabi",
+      "name": "山中湖「報湖祭」花火大会",
+      "region": "koshinetsu",
+      "filePath": "内嵌数据 (yamanakako-houkosai-hanabi)",
+      "pageFile": "src/app/koshinetsu/hanabi/yamanakako-houkosai-hanabi/page.tsx",
+      "hasOfficialWebsite": true,
+      "officialWebsite": "https://www.yamanakako.gr.jp/",
+      "hasWalkerPlusUrl": true,
+      "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0419e00075/",
+      "currentData": {
+        "date": "2025年8月1日",
+        "time": "20:00～20:45",
+        "location": "山梨県南都留郡山中湖村"
+      },
+      "dataIntegrity": {
+        "hasValidId": true,
+        "hasValidName": true,
+        "hasTimeLocation": true,
+        "pathIdConsistency": true
+      }
+    }
+  ]
+}

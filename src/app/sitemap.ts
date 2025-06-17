@@ -1,10 +1,10 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
-export const dynamic = 'force-static'
+export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://tokyo-seasonal-guide.vercel.app'
-  
+  const baseUrl = 'https://tokyo-seasonal-guide.vercel.app';
+
   // 基础页面
   const staticPages = [
     {
@@ -105,10 +105,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.8,
     },
-  ]
+  ];
 
   // 地区页面
-  const regions = ['tokyo', 'kanagawa', 'chiba', 'saitama', 'kitakanto', 'koshinetsu', 'around']
+  const regions = [
+    'tokyo',
+    'kanagawa',
+    'chiba',
+    'saitama',
+    'kitakanto',
+    'koshinetsu',
+    'around',
+  ];
   const regionPages = regions.flatMap(region => [
     {
       url: `${baseUrl}/july/hanabi/${region}`,
@@ -128,13 +136,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'weekly' as const,
       priority: 0.7,
     },
-  ])
+  ]);
 
   // 7月详细页面
   const julyDetailPages = [
     // 东京
     'july/hanabi/tokyo/keibajo',
-    'july/hanabi/tokyo/katsushika-noryo', 
+    'july/hanabi/tokyo/katsushika-noryo',
     'july/hanabi/tokyo/sumida',
     'july/hanabi/tokyo/hachioji',
     'july/hanabi/tokyo/tachikawa-showa',
@@ -168,8 +176,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'july/hanabi/koshinetsu/gion-kashiwazaki-hanabi',
     'july/hanabi/koshinetsu/nojiri-lake-hanabi',
     'july/hanabi/koshinetsu/sanjo-natsumatsuri-hanabi',
-    'july/hanabi/koshinetsu/suzaka-minna-hanabi'
-  ]
+    'july/hanabi/koshinetsu/suzaka-minna-hanabi',
+  ];
 
   // 8月详细页面
   const augustDetailPages = [
@@ -219,8 +227,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'august/hanabi/koshinetsu/niigata-hanabi',
     'august/hanabi/koshinetsu/shinmei-hanabi',
     'august/hanabi/koshinetsu/suwa-hanabi',
-    'august/hanabi/koshinetsu/ueda-hanabi'
-  ]
+    'august/hanabi/koshinetsu/ueda-hanabi',
+  ];
 
   // 9月详细页面
   const septemberDetailPages = [
@@ -241,16 +249,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'september/hanabi/kitakanto/tonegawa-hanabi',
     // 甲信越
     'september/hanabi/koshinetsu/asahara-hanabi',
-    'september/hanabi/koshinetsu/shinsaku-hanabi'
-  ]
+    'september/hanabi/koshinetsu/shinsaku-hanabi',
+  ];
 
   // 创建详细页面的sitemap条目
-  const detailPages = [...julyDetailPages, ...augustDetailPages, ...septemberDetailPages].map(path => ({
+  const detailPages = [
+    ...julyDetailPages,
+    ...augustDetailPages,
+    ...septemberDetailPages,
+  ].map(path => ({
     url: `${baseUrl}/${path}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: 0.6,
-  }))
+  }));
 
-  return [...staticPages, ...regionPages, ...detailPages]
-} 
+  return [...staticPages, ...regionPages, ...detailPages];
+}

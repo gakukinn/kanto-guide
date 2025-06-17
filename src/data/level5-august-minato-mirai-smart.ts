@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const minatoMiraiSmartData: HanabiData = {
   id: 'minato-mirai-smart-festival-2025',
   name: '港未来智能节庆2025',
-  japaneseName: 'みなとみらいスマートフェスティバル2025',
   englishName: 'Minato Mirai Smart Festival 2025',
+  _sourceData: {
+    japaneseName: 'みなとみらいスマートフェスティバル2025'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月4日(月)',

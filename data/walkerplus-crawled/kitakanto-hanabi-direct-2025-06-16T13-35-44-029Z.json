@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-06-16T13:35:38.396Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0309/",
+  "method": "Playwright+Cheerio",
+  "totalEvents": 10,
+  "events": [
+    {
+      "title": "第53回 真岡市夏祭大花火大会",
+      "date": "2025年7月26日(土)",
+      "location": "栃木県・真岡市/真岡市役所東側五行川沿い",
+      "audience": "約17万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00887/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.019Z"
+    },
+    {
+      "title": "第109回 足利花火大会",
+      "date": "2025年8月2日(土)",
+      "location": "栃木県・足利市/渡良瀬川田中橋下流河川敷",
+      "audience": "約45万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00904/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.020Z"
+    },
+    {
+      "title": "第73回 小山の花火",
+      "date": "2025年9月23日(祝)",
+      "location": "栃木県・小山市/観晃橋下流　思川河畔",
+      "audience": "約43万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.020Z"
+    },
+    {
+      "title": "那須野ふるさと花火大会【2025年非開催】",
+      "date": "2025年非開催",
+      "location": "栃木県・那須塩原市/那珂川河畔運動公園",
+      "audience": "",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e509319/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.021Z"
+    },
+    {
+      "title": "尊徳夏まつり 大花火大会",
+      "date": "2025年8月30日(土)",
+      "location": "栃木県・真岡市/鬼怒川河川敷緑地公園(砂ケ原橋付近)",
+      "audience": "約5万人",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e01099/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.022Z"
+    },
+    {
+      "title": "第2回渡良瀬遊水地花火大会",
+      "date": "2024年10月26日(土)",
+      "location": "栃木県・栃木市/渡良瀬遊水地・藤岡渡良瀬運動公園",
+      "audience": "",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e522950/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.023Z"
+    },
+    {
+      "title": "第31回 りんどう湖花火大会",
+      "date": "2025/7/20(日)・27(日)、8/2(土)・9(土)～11(祝)・13(水)〜16(土)・23(土)9/14(日)・21(日)",
+      "location": "栃木県・那須郡那須町/那須高原りんどう湖ファミリー牧場",
+      "audience": "3万人",
+      "fireworks": "3000発(各日) ※8月13日・14日は6000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00579/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.023Z"
+    },
+    {
+      "title": "日光花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "栃木県・日光市/日光だいや川公園、丸山公園",
+      "audience": "4万5000人",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00578/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.024Z"
+    },
+    {
+      "title": "与一の里大田原 佐久山納涼花火大会",
+      "date": "2025年8月16日(土)",
+      "location": "栃木県・大田原市/箒川岩井橋付近、佐久山運動公園",
+      "audience": "約2万人",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00586/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.025Z"
+    },
+    {
+      "title": "祇園祭ふるさと茂木夏まつり花火大会",
+      "date": "2024年7月27日(土)",
+      "location": "栃木県・芳賀郡茂木町/茂木町中心市街地",
+      "audience": "約1万人",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e511715/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.025Z"
+    }
+  ],
+  "errors": []
+}

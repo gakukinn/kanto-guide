@@ -3,9 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const kozushimaHanabiData: HanabiData = {
  id: 'kozushima-nagisa-hanabi-32',
  name: '第32回神津島渚花火大会',
-  japaneseName: '神津島村夏祭り',
-
  englishName: 'The 32nd Kozushima Nagisa Fireworks Festival',
+  _sourceData: {
+    japaneseName: '神津島村夏祭り'
+  },
  year: 2025,
  month: 8,
  date: '2025年8月4日',

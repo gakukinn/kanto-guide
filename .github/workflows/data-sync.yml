@@ -1,0 +1,44 @@
+name: 数据同步和验证
+
+# 每周日凌晨自动运行，或手动触发
+on:
+  schedule:
+    - cron: "0 0 * * 0"  # 每周日午夜
+  workflow_dispatch:     # 允许手动触发
+  push:
+    paths:
+      - 'scripts/automated-data-sync.cjs'
+
+jobs:
+  sync-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+      
+    - name: 设置 Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: 安装依赖
+      run: npm install
+      
+    - name: 运行数据同步
+      run: node scripts/automated-data-sync.cjs
+      
+    - name: 检查构建
+      run: npm run build
+      
+    - name: 提交更改（如果有）
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        if git diff --staged --quiet; then
+          echo "没有数据变更"
+        else
+          git commit -m "🤖 自动同步花火数据 $(date '+%Y-%m-%d')"
+          git push
+        fi 

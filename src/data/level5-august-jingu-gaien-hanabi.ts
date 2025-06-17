@@ -3,9 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const jinguGaienHanabiData: HanabiData = {
  id: 'jingu-gaien-hanabi-2025',
  name: '2025 神宫外苑花火大会',
-  japaneseName: '神宮外苑花火大会',
-
  englishName: '2025 Jingu Gaien Fireworks Festival',
+  _sourceData: {
+    japaneseName: '神宮外苑花火大会'
+  },
  year: 2025,
  month: 8,
  date: '2025年8月16日',

@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const hanabiData: HanabiData = {
  id: 'gion-kashiwazaki-matsuri-hanabi',
  name: '祇园柏崎祭海之大花火大会',
-  japaneseName: 'ぎおん柏崎まつり 海の大花火大会',
  englishName: 'Gion Kashiwazaki Festival Sea Fireworks',
+  _sourceData: {
+    japaneseName: 'ぎおん柏崎まつり 海の大花火大会'
+  },
   title: '祇园柏崎祭海之大花火大会 - 7月甲信越花火大会',
   description: '祇园柏崎祭海之大花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

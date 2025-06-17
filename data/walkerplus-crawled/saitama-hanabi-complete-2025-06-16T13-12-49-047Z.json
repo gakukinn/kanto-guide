@@ -1,0 +1,171 @@
+{
+  "timestamp": "2025-06-16T13:12:49.047Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0311/",
+  "method": "Playwright+Cheerio+Crawlee Complete Pagination",
+  "summary": {
+    "totalPagesProcessed": 5,
+    "totalEventsFound": 85,
+    "uniqueEvents": 12,
+    "errors": 0
+  },
+  "events": [
+    {
+      "title": "越谷花火大会",
+      "rawContent": "越谷花火大会",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00901/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 1
+    },
+    {
+      "title": "令和7年度 さいたま市花火大会 大和田公園会場",
+      "rawContent": "令和7年度 さいたま市花火大会 大和田公園会場",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00873/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 2
+    },
+    {
+      "title": "燃えよ！商工会青年部！！第22回 こうのす花火大会",
+      "rawContent": "\n                      \n                        \n                        燃えよ！商工会青年部！！第22回 こうのす花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          特大サイズの大迫力を体感！世界記録に認定された4尺玉\n                          埼玉県・鴻巣市/糠田運動場および荒川河川敷\n                          期間：2025年10月11日(土)\n                            \n                              例年の人出：約60万人\n                  ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01076/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 3,
+      "location": "埼玉県・鴻巣市/糠田運動場および荒川河川敷",
+      "date": "2025年10月11日(土)",
+      "audience": "約60万人",
+      "fireworks": "約2万発"
+    },
+    {
+      "title": "第72回 戸田橋花火大会 Sky Fantasia(スカイファンタジア)",
+      "rawContent": "\n                      \n                        \n                        第72回 戸田橋花火大会 Sky Fantasia(スカイファンタジア)\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          荒川を挟んだ二つの花火大会がシンクロする、日本で唯一の光の競演\n                          埼玉県・戸田市/国道17号戸田橋上流荒川河川敷\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約45万人\n  ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01078/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 4,
+      "location": "埼玉県・戸田市/国道17号戸田橋上流荒川河川敷",
+      "date": "2025年8月2日(土)",
+      "audience": "約45万人",
+      "fireworks": "約1万5000発"
+    },
+    {
+      "title": "第4回川口花火大会",
+      "rawContent": "\n                      \n                        \n                        第4回川口花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          川口っこが大集合。花火と音楽の共演\n                          埼玉県・川口市/荒川運動公園(川口市荒川町) グラウンドおよび土手沿い斜面\n                          期間：2024年11月9日(土)\n                            \n                              例年の人出：7万5000人\n                          ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e484341/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 5,
+      "location": "埼玉県・川口市/荒川運動公園(川口市荒川町) グラウンドおよび土手沿い斜面",
+      "date": "2024年11月9日(土)",
+      "audience": "7万5000人",
+      "fireworks": "1万1100発"
+    },
+    {
+      "title": "熊谷花火大会",
+      "rawContent": "\n                      \n                        \n                        熊谷花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          花火と共に伝える思いを込めたメッセージ\n                          埼玉県・熊谷市/荒川河畔(荒川大橋下流)\n                          期間：2025年8月9日(土)\n                            \n                              例年の人出：約42万人\n                              行ってみたい：35\n       ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00874/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 6,
+      "location": "埼玉県・熊谷市/荒川河畔(荒川大橋下流)",
+      "date": "2025年8月9日(土)",
+      "audience": "約42万人",
+      "fireworks": "約1万発"
+    },
+    {
+      "title": "あげお花火大会【2025年中止】",
+      "rawContent": "\n                      \n                        \n                        あげお花火大会【2025年中止】\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          約1万発の競演！ 圧巻の花火ショー\n                          埼玉県・上尾市/平方荒川河川敷(リバーサイドフェニックスゴルフクラブ周辺)\n                          期間：2025年中止\n                            \n                              例年の人出：約16万5000人\n                       ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00867/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 7,
+      "location": "埼玉県・上尾市/平方荒川河川敷(リバーサイドフェニックスゴルフクラブ周辺)",
+      "date": "2025年中止",
+      "audience": "約16万5000人",
+      "fireworks": "約1万発"
+    },
+    {
+      "title": "朝霞市民まつり「彩夏祭」",
+      "rawContent": "\n                      \n                        \n                        朝霞市民まつり「彩夏祭」\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          祭りのにぎわいに迫力満点の光と音がふりそそぐ\n                          埼玉県・朝霞市/キャンプ朝霞跡地\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約73万人(昨年度実績)\n                              行ってみた",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00902/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 8,
+      "location": "埼玉県・朝霞市/キャンプ朝霞跡地",
+      "date": "2025年8月2日(土)",
+      "audience": "約73万人(昨年度実績)",
+      "fireworks": "約9000発"
+    },
+    {
+      "title": "寄居玉淀水天宮祭花火大会",
+      "rawContent": "\n                      \n                        \n                        寄居玉淀水天宮祭花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          「関東一の水祭り」で趣向を凝らした花火が続々\n                          埼玉県・大里郡寄居町/寄居町玉淀河原\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約6万人\n                              行ってみたい：8\n  ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00903/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 10,
+      "location": "埼玉県・大里郡寄居町/寄居町玉淀河原",
+      "date": "2025年8月2日(土)",
+      "audience": "約6万人",
+      "fireworks": "約5000発"
+    },
+    {
+      "title": "第26回 ひがしまつやま花火大会",
+      "rawContent": "\n                      \n                        \n                        第26回 ひがしまつやま花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          打上げ場所が近い、迫力満点の花火\n                          埼玉県・東松山市/都幾川リバーサイドパーク\n                          期間：2025年8月23日(土)\n                            \n                              例年の人出：約6万人\n                              行ってみたい：89",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01023/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 11,
+      "location": "埼玉県・東松山市/都幾川リバーサイドパーク",
+      "date": "2025年8月23日(土)",
+      "audience": "約6万人",
+      "fireworks": "約5000発"
+    },
+    {
+      "title": "草加市民納涼大花火大会【2024年中止】",
+      "rawContent": "\n                      \n                        \n                        草加市民納涼大花火大会【2024年中止】\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          スターマインを大迫力で体感\n                          埼玉県・草加市/そうか公園\n                          期間：2024年中止\n                            \n                              例年の人出：約8万人\n                              行ってみたい：2\n             ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01055/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 12,
+      "location": "埼玉県・草加市/そうか公園",
+      "date": "2024年中止",
+      "audience": "約8万人",
+      "fireworks": "約5000発"
+    },
+    {
+      "title": "令和7年度入間基地納涼祭～盆踊りと花火の夕べ～",
+      "rawContent": "\n                        4\n                        令和7年度入間基地納涼祭～盆踊りと花火の夕べ～\n                      ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01021/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "pageIndex": 16
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "url": "https://hanabi.walkerplus.com/launch/ar0311/",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:12:28.184Z"
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://hanabi.walkerplus.com/launch/ar0311/?page=2",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:12:33.393Z"
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://hanabi.walkerplus.com/launch/ar0311/?page=3",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:12:38.613Z"
+    },
+    {
+      "pageNumber": 4,
+      "url": "https://hanabi.walkerplus.com/launch/ar0311/?page=4",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:12:43.831Z"
+    },
+    {
+      "pageNumber": 5,
+      "url": "https://hanabi.walkerplus.com/launch/ar0311/?page=5",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:12:49.047Z"
+    }
+  ],
+  "errors": []
+}

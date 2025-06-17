@@ -1,0 +1,112 @@
+[
+  {
+    "title": "隅田川花火大会",
+    "date": "2025年夏季",
+    "location": "東京都台東区・墨田区",
+    "audience": "91",
+    "fireworks": "20000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.319Z",
+    "rank": 1
+  },
+  {
+    "title": "葛飾納涼花火大会",
+    "date": "2025年夏季",
+    "location": "東京都葛飾区",
+    "audience": "77",
+    "fireworks": "15000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.319Z",
+    "rank": 2
+  },
+  {
+    "title": "いたばし花火大会",
+    "date": "2025年夏季",
+    "location": "東京都板橋区",
+    "audience": "57",
+    "fireworks": "15000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 3
+  },
+  {
+    "title": "足立の花火",
+    "date": "2025年夏季",
+    "location": "東京都足立区",
+    "audience": "40",
+    "fireworks": "14010",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 4
+  },
+  {
+    "title": "東京競馬場花火",
+    "date": "2025年夏季",
+    "location": "東京都府中市",
+    "audience": null,
+    "fireworks": "14000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 5
+  },
+  {
+    "title": "江戸川区花火大会",
+    "date": "2025年夏季",
+    "location": "東京都江戸川区",
+    "audience": "3",
+    "fireworks": "14000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 6
+  },
+  {
+    "title": "神宮外苑花火大会",
+    "date": "2025年夏季",
+    "location": "東京都新宿区",
+    "audience": "100",
+    "fireworks": "10000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 7
+  },
+  {
+    "title": "調布花火",
+    "date": "2025年夏季",
+    "location": "東京都調布市",
+    "audience": "30",
+    "fireworks": "10000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 8
+  },
+  {
+    "title": "北区花火会",
+    "date": "2025年夏季",
+    "location": "東京都北区",
+    "audience": "5",
+    "fireworks": "10000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 9
+  },
+  {
+    "title": "世田谷区たまがわ花火大会",
+    "date": "2025年夏季",
+    "location": "東京都世田谷区",
+    "audience": "31",
+    "fireworks": "6000",
+    "detailUrl": "",
+    "source": "HTML Structure Analysis",
+    "extractedAt": "2025-06-14T13:05:28.320Z",
+    "rank": 10
+  }
+]

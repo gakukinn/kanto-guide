@@ -12,7 +12,7 @@ export default {
         foreground: 'var(--foreground)',
       },
       animation: {
-        'shimmer': 'shimmer 2s ease-in-out infinite',
+        shimmer: 'shimmer 2s ease-in-out infinite',
       },
       keyframes: {
         shimmer: {
@@ -26,7 +26,4 @@ export default {
   future: {
     hoverOnlyWhenSupported: true,
   },
-  experimental: {
-    optimizeUniversalDefaults: true,
-  },
-} 
+};

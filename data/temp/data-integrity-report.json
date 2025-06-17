@@ -1,0 +1,209 @@
+{
+  "timestamp": "2025-06-12T07:26:10.762Z",
+  "totalRegions": 6,
+  "problemRegions": 3,
+  "totalDataLoss": 3,
+  "details": [
+    {
+      "region": "tokyo",
+      "detailDirsCount": 16,
+      "mainPageIdsCount": 15,
+      "detailDirs": [
+        "akishima",
+        "chofu-hanabi",
+        "edogawa",
+        "hachioji",
+        "itabashi",
+        "jingu-gaien",
+        "jingu-yakyujo",
+        "katsushika-noryo",
+        "keibajo",
+        "kita",
+        "kozushima",
+        "mikurajima",
+        "okutama",
+        "sumida",
+        "tachikawa-showa",
+        "tamagawa"
+      ],
+      "mainPageIds": [
+        "tokyo-keiba-2025",
+        "sumida-river-48",
+        "katsushika-59",
+        "edogawa-50",
+        "jingu-gaien-2025",
+        "itabashi-66",
+        "tamagawa-48",
+        "adachi-47",
+        "taito-shitamachi-34",
+        "odaiba-romantic-5",
+        "setagaya-tamagawa-47",
+        "kita-hanabi-11",
+        "okutama-70th",
+        "akishima-kujira-53",
+        "star-island-2025"
+      ],
+      "hasDataLoss": true,
+      "lossAmount": 1
+    },
+    {
+      "region": "saitama",
+      "detailDirsCount": 16,
+      "mainPageIdsCount": 16,
+      "detailDirs": [
+        "asaka",
+        "higashimatsuyama",
+        "ina",
+        "iruma-base-2025",
+        "koshigaya-2025",
+        "kumagaya",
+        "metsa-hanabi",
+        "metsza-nordic-2025",
+        "moomin",
+        "ogawa-tanabata-2025",
+        "omagi",
+        "saitama-owada",
+        "saitama-owada-2025",
+        "seibu-en-2025",
+        "seibu-hanabi",
+        "todabashi"
+      ],
+      "mainPageIds": [
+        "moomin-koujou-natsu",
+        "metsza-nordic-2025",
+        "seibu-daika-matsuri",
+        "iruma-kichi-2025",
+        "koshigaya-hanabi",
+        "ogawa-tanabata-2025",
+        "saitama-yamato-2025",
+        "todabashi-sky-fantasia-72",
+        "asaka-saika-matsuri",
+        "sayama-tanabata-2025",
+        "kumagaya-hanabi",
+        "saitama-higashiura-2025",
+        "higashimatsuyama-26",
+        "ina-matsuri-2025",
+        "kounosu-shoukoukai-22",
+        "fujimi-hanabi"
+      ],
+      "hasDataLoss": false,
+      "lossAmount": 0
+    },
+    {
+      "region": "chiba",
+      "detailDirsCount": 14,
+      "mainPageIdsCount": 14,
+      "detailDirs": [
+        "choshi-minato-hanabi",
+        "futtsu-shimin-hanabi",
+        "ichikawa",
+        "kamogawa-shimin-hanabi",
+        "kisarazu",
+        "makuhari-beach-hanabi",
+        "marines-hanabi",
+        "matsudo",
+        "mother-farm-summer-night",
+        "narashino",
+        "oamishirasato-hanabi",
+        "omigawa",
+        "shirahama-ama-matsuri",
+        "teganuma"
+      ],
+      "mainPageIds": [
+        "kisarazu-78",
+        "makuhari-beach-2025",
+        "ichikawa-41",
+        "narashino-r7",
+        "shirahama-ama-61",
+        "kamogawa-2025",
+        "yachiyo-50",
+        "teganuma-2025",
+        "matsudo-2025",
+        "choshi-minato-2025",
+        "futtsu-10",
+        "omigawa-126",
+        "oomishirasato-2025",
+        "sanmu-carnival-2025"
+      ],
+      "hasDataLoss": false,
+      "lossAmount": 0
+    },
+    {
+      "region": "kanagawa",
+      "detailDirsCount": 13,
+      "mainPageIdsCount": 13,
+      "detailDirs": [
+        "atsugi-ayu-matsuri",
+        "kamakura",
+        "kanazawa-matsuri-hanabi",
+        "kurihama",
+        "minato-mirai-smart",
+        "odawara-sakawa",
+        "sagamiko",
+        "seaparadise-hanabi-sep",
+        "seaparadise-hanabi-symphonia",
+        "southern-beach-chigasaki",
+        "yokohama-hanabi",
+        "yokohama-night-flowers",
+        "yokohama-seaparadise"
+      ],
+      "mainPageIds": [
+        "kamakura",
+        "seaparadise",
+        "yokohama-seaparadise-hanabi",
+        "sagamiko-hanabi-2025",
+        "kurihama-perry-hanabi-2025",
+        "odawara-sakawa-hanabi-2025",
+        "southern-beach-chigasaki-hanabi-2025",
+        "atsugi-ayu-matsuri",
+        "minato-mirai-smart-festival-2025",
+        "yokohama-night-flowers-2025",
+        "kanazawa-matsuri-hanabi-2025",
+        "yokohama-hanabi-september",
+        "seaparadise-hanabi-symphonia-september"
+      ],
+      "hasDataLoss": false,
+      "lossAmount": 0
+    },
+    {
+      "region": "kitakanto",
+      "detailDirsCount": 3,
+      "mainPageIdsCount": 4,
+      "detailDirs": [
+        "ashikaga",
+        "moka",
+        "takasaki"
+      ],
+      "mainPageIds": [
+        "mito-kairakuen",
+        "maoka-natsu-matsuri",
+        "tamura-hanabi",
+        "tatebayashi-tedzutsu"
+      ],
+      "hasDataLoss": true,
+      "lossAmount": 1
+    },
+    {
+      "region": "koshinetsu",
+      "detailDirsCount": 5,
+      "mainPageIdsCount": 6,
+      "detailDirs": [
+        "anime",
+        "kashiwazaki",
+        "kawaguchi",
+        "nagaoka",
+        "suwa"
+      ],
+      "mainPageIds": [
+        "gion-kashiwazaki",
+        "fujisan-kawaguchiko",
+        "suwako-hanabi",
+        "anime-classic-hanabi",
+        "misato-20th-hanabi",
+        "nojiriko-101"
+      ],
+      "hasDataLoss": true,
+      "lossAmount": 1
+    }
+  ]
+}

@@ -6,8 +6,10 @@ import { HanabiData } from '../types/hanabi';
 export const fujiKawaguchiData: HanabiData = {
  id: 'fuji-kawaguchi-lake-hanabi',
  name: '富士山河口湖山开花火大会',
-  japaneseName: '富士山・河口湖山開き花火大会',
  englishName: 'Fuji Mountain Kawaguchi Lake Opening Fireworks',
+  _sourceData: {
+    japaneseName: '富士山・河口湖山開き花火大会'
+  },
  year: 2025,
  date: '2025年7月5日',
  time: '20:00-20:30',

@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 const kitaHanabiData: HanabiData = {
   id: 'tokyo-kita-hanabi-2024',
   name: '第11回北区花火会',
-  japaneseName: '第11回 北区花火会',
   englishName: '11th Kita-ku Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第11回 北区花火会'
+  },
   year: 2024,
   date: '2024年9月28日(土)',
   time: '18:30～19:30',

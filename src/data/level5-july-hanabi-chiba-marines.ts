@@ -3,9 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const marinesData: HanabiData = {
  id: 'marines',
  name: 'MARINES HANABI (海洋队花火)',
-  japaneseName: 'マリーンズ花火ナイター',
-
  englishName: 'Marines Hanabi',
+  _sourceData: {
+    japaneseName: 'マリーンズ花火ナイター'
+  },
   title: 'MARINES HANABI (海洋队花火) - 7月千叶花火大会',
   description: 'MARINES HANABI (海洋队花火)详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

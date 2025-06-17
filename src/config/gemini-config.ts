@@ -15,7 +15,7 @@ export const initGemini = () => {
   if (!geminiConfig.apiKey) {
     throw new Error('GOOGLE_AI_API_KEY is not set in environment variables');
   }
-  
+
   return new GoogleGenerativeAI(geminiConfig.apiKey);
 };
 
@@ -31,4 +31,4 @@ export const getGeminiModel = () => {
       topK: geminiConfig.topK,
     },
   });
-}; 
+};

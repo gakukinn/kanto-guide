@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const eventData: HanabiData = {
   id: 'yokohama-night-flowers-2025',
   name: '横滨夜间花火2025',
-  japaneseName: '横浜ナイトフラワーズ2025',
   englishName: 'Yokohama Night Flowers 2025',
+  _sourceData: {
+    japaneseName: '横浜ナイトフラワーズ2025'
+  },
   title: '横滨夜间花火2025 - 8月神奈川花火大会',
   description: '在横滨港未来21地区举办的夜间花火活动，融合灯光与音乐，打造独特的都市夏夜体验。',
   year: 2025,

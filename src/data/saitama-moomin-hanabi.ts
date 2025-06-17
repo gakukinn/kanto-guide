@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 const moominHanabiData: HanabiData = {
   id: 'saitama-moomin-hanabi-2025',
   name: 'ムーミン谷の湖上花火大会～夏～',
-  japaneseName: 'ムーミン谷の湖上花火大会～夏～',
   englishName: 'Moominvalley Lake Fireworks Festival - Summer',
+  _sourceData: {
+    japaneseName: 'ムーミン谷の湖上花火大会～夏～'
+  },
   year: 2025,
   date: '2025年7月5日(土)、12日(土)、19日(土)～21日(月)、26日(土)～8月24日(日)',
   time: '19:40～19:45',

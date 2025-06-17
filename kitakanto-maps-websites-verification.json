@@ -1,0 +1,173 @@
+{
+  "timestamp": "2025-06-15T16:32:48.564Z",
+  "summary": {
+    "totalPages": 14,
+    "pagesWithMaps": 11,
+    "pagesWithWebsites": 11,
+    "missingMapsCount": 3,
+    "missingWebsitesCount": 3
+  },
+  "results": [
+    {
+      "activityId": "ashikaga",
+      "dataFilePath": "src/data/level5-august-ashikaga-hanabi.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.123!2d139.449!3d36.337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDIwJzEzLjIiTiAxMznCsDI2JzU2LjQiRQ!5e0!3m2!1sja!2sjp!4v1629876543210!5m2!1sja!2sjp",
+      "websiteUrl": "https://www.city.ashikaga.tochigi.jp/industory/000061/000326/p007200.html",
+      "details": "已检查"
+    },
+    {
+      "activityId": "moka",
+      "dataFilePath": "src/data/level5-moka-hanabi.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.234!2d139.9936!3d36.4403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f6b6b8b8b8b8b%3A0x1!2z6Z2f5bKh5biC5b255omA!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+      "websiteUrl": "https://www.moka-kankou.org/",
+      "details": "已检查"
+    },
+    {
+      "activityId": "takasaki",
+      "dataFilePath": "src/data/level5-august-takasaki-hanabi.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d139.01!3d36.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z6auY5bSO5biC!5e0!3m2!1sja!2sjp!4v1620000000000!5m2!1sja!2sjp",
+      "websiteUrl": "https://www.takasaki-matsuri.jp/",
+      "details": "已检查"
+    },
+    {
+      "activityId": "joso-kinugawa-hanabi-2025",
+      "dataFilePath": null,
+      "hasCompleteMapInfo": false,
+      "hasCompleteWebsiteInfo": false
+    },
+    {
+      "activityId": "numata-hanabi-2025",
+      "dataFilePath": null,
+      "hasCompleteMapInfo": false,
+      "hasCompleteWebsiteInfo": false
+    },
+    {
+      "activityId": "oarai-hanabi-2025",
+      "dataFilePath": null,
+      "hasCompleteMapInfo": false,
+      "hasCompleteWebsiteInfo": false
+    },
+    {
+      "activityId": "koga-hanabi-2025",
+      "dataFilePath": "src/data/koga-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.123!2d139.7045!3d36.1850!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022169a5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2z5Y-k5rKz55yM5Y-k5rKz5biC!5e0!3m2!1sja!2sjp!4v1234567890",
+      "websiteUrl": "https://www.city.ibaraki-koga.lg.jp/soshiki/kanko/4_1/2025hanabi.html",
+      "details": "已检查"
+    },
+    {
+      "activityId": "mito-hanabi-2025",
+      "dataFilePath": "src/data/mito-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3208.123!2d140.44123!3d36.36645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602222222222222%3A0x1111111111111111!2z5Y2D5rOi5YWs5ZySIOiMqOWfjuecjOawtOaIuOW4guWNg-azouWbveW3nw!5e0!3m2!1sja!2sjp!4v1234567890",
+      "websiteUrl": "https://mitokoumon.com/koumon/",
+      "details": "已检查"
+    },
+    {
+      "activityId": "tsuchiura-hanabi-2025",
+      "dataFilePath": "src/data/tsuchiura-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6478.123456789!2d140.201234!3d36.081234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5Zyf5rWm5biC5qWc5bed5rKz55av!5e0!3m2!1sja!2sjp!4v1623456789",
+      "websiteUrl": "https://www.tsuchiura-hanabi.jp/",
+      "details": "已检查"
+    },
+    {
+      "activityId": "toride-hanabi-2025",
+      "dataFilePath": "src/data/toride-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.123!2d140.02456!3d35.9167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022169a5b5b5b5b%3A0x5b5b5b5b5b5b5b5b!2z5Y-W5omL57eR5Zyw6YGL5Yqo5YWs5ZySIOWPluaJi-W4guWPluaJi--8keS4gemWie-8kemHjOWFiA!5e0!3m2!1sja!2sjp!4v1234567890",
+      "websiteUrl": "https://www.toride-kankou.net/page/page000095.html",
+      "details": "已检查"
+    },
+    {
+      "activityId": "tonegawa-hanabi-2025",
+      "dataFilePath": "src/data/tonegawa-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.234567890123!2d139.8083!3d36.1047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z44GV44GL44GE44Oq44OQ44O844K144Kk44OJ44OR44O844Kv!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+      "websiteUrl": "https://www.sakai-hanabi.com/",
+      "details": "已检查"
+    },
+    {
+      "activityId": "oyama-hanabi-2025",
+      "dataFilePath": "src/data/oyama-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.2!2d139.8056!3d36.3145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f47c8d8e1c7%3A0x1c8e8d8e8d8e8d8e!2z5bCP5bGx5biC6Kaz5pmD5qmL5LiL5rWB5oCd5bed5rKz55Wt!5e0!3m2!1sja!2sjp!4v1634567890123!5m2!1sja!2sjp",
+      "websiteUrl": "https://www.oyamanohanabi.com/",
+      "details": "已检查"
+    },
+    {
+      "activityId": "maebashi-hanabi-2025",
+      "dataFilePath": "src/data/maebashi-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.1!2d139.0614!3d36.3972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f0a8b4c8e1c7%3A0x1c8e8d8e8d8e8d8e!2z5YmN5qmL5biC5Yip5qC55bed5bKy5aSn5rih5qGl5Y2X5YyX5rKz5bed57ay5Zyw!5e0!3m2!1sja!2sjp!4v1634567890123!5m2!1sja!2sjp",
+      "websiteUrl": "https://www.maebashihanabi.jp/",
+      "details": "已检查"
+    },
+    {
+      "activityId": "tamamura-hanabi-2025",
+      "dataFilePath": "src/data/tamamura-hanabi-2025.ts",
+      "hasCompleteMapInfo": true,
+      "hasCompleteWebsiteInfo": true,
+      "hasMapEmbedUrl": true,
+      "hasMapInfo": true,
+      "hasContactWebsite": true,
+      "hasGoogleMapsUrl": true,
+      "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.4!2d139.1141!3d36.3089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f1ab8d8c8e1c7%3A0x1c8e8d8e8d8e8d8e!2z44CSMzcwLTExMDEg576k6aas55yM5L2Q5p2R55S66Z2Y6Zm944Kk5Zyw5Yy65LiK6Zm954K6!5e0!3m2!1sja!2sjp!4v1634567890123!5m2!1sja!2sjp",
+      "websiteUrl": "https://www.town.tamamura.lg.jp/",
+      "details": "已检查"
+    }
+  ]
+}

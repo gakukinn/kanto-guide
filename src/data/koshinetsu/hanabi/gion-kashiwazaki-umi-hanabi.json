@@ -1,0 +1,112 @@
+{
+  "id": "gion-kashiwazaki-umi-hanabi-2024",
+  "name": "祇园柏崎祭 海之大花火大会",
+  "japaneseName": "ぎおん柏崎まつり 海の大花火大会",
+  "englishName": "Gion Kashiwazaki Festival Sea Grand Fireworks",
+  "year": 2024,
+  "date": "2024年7月26日(周五)",
+  "time": "19:30~21:10",
+  "duration": "约100分钟",
+  "fireworksCount": "约15,000发",
+  "expectedVisitors": "约20万人",
+  "weather": "夏季海风凉爽",
+  "ticketPrice": "免费观赏",
+  "status": "scheduled",
+  "themeColor": "blue",
+  "month": 7,
+  "tags": {
+    "timeTag": "7月",
+    "regionTag": "新潟县",
+    "typeTag": "花火",
+    "layerTag": "Layer 4详情页"
+  },
+  "related": {
+    "regionRecommendations": [
+      {
+        "id": "nagaoka-matsuri-hanabi",
+        "name": "长冈祭大花火大会",
+        "date": "2024年8月2日-3日",
+        "location": "信浓川河川敷",
+        "visitors": "约34万人",
+        "link": "/koshinetsu/hanabi/nagaoka"
+      }
+    ],
+    "timeRecommendations": [
+      {
+        "id": "agano-gozareya-hanabi-2024",
+        "name": "阿贺野川ござれや花火大会",
+        "date": "2024年8月15日",
+        "location": "阿贺野川河川敷",
+        "visitors": "约8万人",
+        "link": "/koshinetsu/hanabi/agano-gozareya"
+      }
+    ]
+  },
+  "venues": [
+    {
+      "name": "柏崎市中央海岸",
+      "location": "新潟县柏崎市",
+      "startTime": "19:30",
+      "features": ["海上花火", "免费观赏", "海岸观赏席"]
+    }
+  ],
+  "access": [
+    {
+      "venue": "柏崎市中央海岸",
+      "stations": [
+        {
+          "name": "柏崎站",
+          "lines": ["JR信越本线"],
+          "walkTime": "步行约20分钟"
+        }
+      ]
+    }
+  ],
+  "viewingSpots": [
+    {
+      "name": "中央海岸观赏区",
+      "rating": 5,
+      "crowdLevel": "非常拥挤",
+      "tips": "建议提前3小时到达占位",
+      "pros": ["最佳海上花火视角", "完整观赏体验"],
+      "cons": ["人流极其密集", "需要长时间等待"]
+    }
+  ],
+  "history": {
+    "established": 1953,
+    "significance": "柏崎市传统夏日祭典，越后三大花火之一",
+    "highlights": ["越后三大花火", "日本海花火", "71年历史传统"]
+  },
+  "tips": [
+    {
+      "category": "交通建议",
+      "items": ["建议使用JR信越本线", "有临时停车场", "海岸步行距离较远"]
+    },
+    {
+      "category": "观赏建议",
+      "items": ["携带防风衣物", "海边注意安全", "提前占位"]
+    }
+  ],
+  "contact": {
+    "organizer": "柏崎祭协会",
+    "phone": "0257-21-2334",
+    "website": "https://www.city.kashiwazaki.lg.jp/",
+    "socialMedia": ""
+  },
+  "mapInfo": {
+    "hasMap": true,
+    "mapNote": "会场位于柏崎市中央海岸",
+    "parking": "有临时停车场\n约2000台\n有料"
+  },
+  "weatherInfo": {
+    "month": "7月",
+    "temperature": "最高28°C，最低20°C",
+    "humidity": "70-80%",
+    "rainfall": "梅雨季节可能降雨",
+    "recommendation": "建议携带雨具和防风衣物",
+    "rainPolicy": "小雨举行，大雨延期",
+    "note": "海风较强，请注意保暖"
+  },
+  "mapEmbedUrl": "https://maps.google.com/maps?q=37.3667,138.5667",
+  "media": []
+}

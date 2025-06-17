@@ -3,7 +3,9 @@
   "less.validate": false,
   "scss.validate": false,
   "files.associations": {
-    "*.css": "tailwindcss"
+    "*.css": "tailwindcss",
+    "*.tsx": "typescriptreact",
+    "*.ts": "typescript"
   },
   "tailwindCSS.includeLanguages": {
     "html": "html",
@@ -17,10 +19,61 @@
     "(?:enter|leave)(?:From|To)?=(?:[\"'`])([^\"'`]*)(?:[\"'`])"
   ],
   "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
     "strings": true
   },
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  }
+    "typescript": "typescriptreact",
+    "typescriptreact": "html"
+  },
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.check.npmIsInstalled": true,
+  "typescript.validate.enable": true,
+  "javascript.validate.enable": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.run": "onType",
+  "eslint.autoFixOnSave": true,
+  "problems.decorations.enabled": true,
+  "problems.showCurrentInStatus": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "workbench.colorCustomizations": {
+    "editorError.foreground": "#ff0000",
+    "editorWarning.foreground": "#ff8800",
+    "editorInfo.foreground": "#0088ff"
+  },
+  "editor.rulers": [80, 120],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/dist": true,
+    "**/*.log": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/.next": true,
+    "**/dist": true
+  },
+  "typescript.surveys.enabled": false,
+  "extensions.ignoreRecommendations": false,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false
 } 

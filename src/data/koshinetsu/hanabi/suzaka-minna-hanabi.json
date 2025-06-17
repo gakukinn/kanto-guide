@@ -1,0 +1,112 @@
+{
+  "id": "suzaka-minna-hanabi-2024",
+  "name": "第38回须坂大家花火大会",
+  "japaneseName": "第38回須坂みんなの花火大会",
+  "englishName": "38th Suzaka Everyone's Fireworks Festival",
+  "year": 2024,
+  "date": "2024年7月27日(周六)",
+  "time": "19:30~21:00",
+  "duration": "约90分钟",
+  "fireworksCount": "约6,000发",
+  "expectedVisitors": "约6万人",
+  "weather": "夏季山间凉爽",
+  "ticketPrice": "免费观赏",
+  "status": "scheduled",
+  "themeColor": "blue",
+  "month": 7,
+  "tags": {
+    "timeTag": "7月",
+    "regionTag": "长野县",
+    "typeTag": "花火",
+    "layerTag": "Layer 4详情页"
+  },
+  "related": {
+    "regionRecommendations": [
+      {
+        "id": "shinshu-ueda-dai-hanabi-2024",
+        "name": "上田市诞生20周年纪念第38回信州上田大花火大会",
+        "date": "2024年8月5日",
+        "location": "千曲川河川敷",
+        "visitors": "约12万人",
+        "link": "/koshinetsu/hanabi/shinshu-ueda-dai"
+      }
+    ],
+    "timeRecommendations": [
+      {
+        "id": "gion-kashiwazaki-umi-hanabi-2024",
+        "name": "祇园柏崎祭海之大花火大会",
+        "date": "2024年7月26日",
+        "location": "柏崎市中央海岸",
+        "visitors": "约20万人",
+        "link": "/koshinetsu/hanabi/gion-kashiwazaki-umi"
+      }
+    ]
+  },
+  "venues": [
+    {
+      "name": "千曲川河川敷百々川绿地",
+      "location": "长野县须坂市",
+      "startTime": "19:30",
+      "features": ["河川敷观赏", "免费入场", "市民参与型"]
+    }
+  ],
+  "access": [
+    {
+      "venue": "千曲川河川敷百々川绿地",
+      "stations": [
+        {
+          "name": "须坂站",
+          "lines": ["长野电铁长野线"],
+          "walkTime": "步行约20分钟"
+        }
+      ]
+    }
+  ],
+  "viewingSpots": [
+    {
+      "name": "百々川绿地观赏区",
+      "rating": 4,
+      "crowdLevel": "适中",
+      "tips": "建议提前1小时到达",
+      "pros": ["视野开阔", "免费观赏", "市民友好"],
+      "cons": ["停车位有限", "河边注意安全"]
+    }
+  ],
+  "history": {
+    "established": 1987,
+    "significance": "须坂市民参与型花火大会，体现地区团结精神",
+    "highlights": ["38年历史", "市民参与", "大家花火", "千曲川河畔"]
+  },
+  "tips": [
+    {
+      "category": "交通建议",
+      "items": ["建议使用长野电铁", "有临时停车场", "河川敷步行距离较远"]
+    },
+    {
+      "category": "观赏建议",
+      "items": ["携带防虫用品", "准备野餐垫", "注意河边安全"]
+    }
+  ],
+  "contact": {
+    "organizer": "须坂市观光协会",
+    "phone": "026-215-2225",
+    "website": "https://www.city.suzaka.nagano.jp/",
+    "socialMedia": ""
+  },
+  "mapInfo": {
+    "hasMap": true,
+    "mapNote": "会场位于千曲川河川敷百々川绿地",
+    "parking": "有临时停车场\n约800台\n免费"
+  },
+  "weatherInfo": {
+    "month": "7月",
+    "temperature": "最高28°C，最低18°C",
+    "humidity": "70-80%",
+    "rainfall": "梅雨季节可能降雨",
+    "recommendation": "建议携带雨具和防虫用品",
+    "rainPolicy": "小雨举行，大雨延期",
+    "note": "山间夜晚较凉，请注意保暖"
+  },
+  "mapEmbedUrl": "https://maps.google.com/maps?q=36.6500,138.3167",
+  "media": []
+}

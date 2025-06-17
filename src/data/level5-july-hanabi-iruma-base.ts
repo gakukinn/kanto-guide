@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const irumaBaseHanabiData: HanabiData = {
  id: 'iruma-base-2025',
  name: '入间基地纳凉祭~盆踊与花火之夜',
-  japaneseName: '令和7年度入間基地納涼祭～盆踊りと花火の夕べ～',
  englishName: 'Iruma Air Base Summer Festival - Bon Dance and Fireworks Evening',
+  _sourceData: {
+    japaneseName: '令和7年度入間基地納涼祭～盆踊りと花火の夕べ～'
+  },
  year: 2025,
  date: '2025年7月23日(水)',
  time: '花火打上20:20～20:50',

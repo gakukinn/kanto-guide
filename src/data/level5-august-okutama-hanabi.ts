@@ -3,9 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const okutamaHanabiData: HanabiData = {
  id: 'okutama-noryo-hanabi-70th',
  name: '町制施行70周年纪念 奥多摩纳凉花火大会',
-  japaneseName: '奥多摩夏まつり',
-
  englishName: 'The 70th Anniversary of Okutama Noryo Fireworks Festival',
+  _sourceData: {
+    japaneseName: '奥多摩夏まつり'
+  },
  year: 2025,
  month: 8,
  date: '2025年8月9日',

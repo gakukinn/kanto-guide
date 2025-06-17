@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-06-16T13:33:16.044Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0310/",
+  "method": "Playwright+Cheerio",
+  "totalEvents": 10,
+  "events": [
+    {
+      "title": "第69回 前橋花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "群馬県・前橋市/利根川河畔大渡橋南北河川緑地",
+      "audience": "非公開",
+      "fireworks": "約1万5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00917/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.670Z"
+    },
+    {
+      "title": "第51回 高崎大花火大会",
+      "date": "2025年8月23日(土)",
+      "location": "群馬県・高崎市/烏川和田橋上流河川敷",
+      "audience": "約90万人",
+      "fireworks": "約1万5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00905/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.671Z"
+    },
+    {
+      "title": "第13回 沼田花火大会",
+      "date": "2025年9月13日(土)",
+      "location": "群馬県・沼田市/沼田市運動公園(住所：沼田市硯田町626)",
+      "audience": "9万人",
+      "fireworks": "1万発以上",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e40188/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.674Z"
+    },
+    {
+      "title": "刀水橋花火大会",
+      "date": "2024年11月3日(日)※2024年11月2日(土)の花火大会は台風のため11月3日(日)に延期となりました",
+      "location": "群馬県・邑楽郡大泉町/利根川河川敷とね運動場",
+      "audience": "",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e521280/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.676Z"
+    },
+    {
+      "title": "第36回 新田まつり花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "群馬県・太田市/新田野球場ほか",
+      "audience": "約2万人",
+      "fireworks": "8000発(予定)",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00584/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.677Z"
+    },
+    {
+      "title": "千代田の祭 川せがき",
+      "date": "2025年8月18日(月)",
+      "location": "群馬県・邑楽郡千代田町/赤岩地先利根川河畔",
+      "audience": "5万人",
+      "fireworks": "約4000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00588/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.677Z"
+    },
+    {
+      "title": "田園夢花火2025 第35回 たまむら花火大会",
+      "date": "2025年7月12日(土)",
+      "location": "群馬県・佐波郡玉村町/玉村町上陽地区(上陽小学校西側)",
+      "audience": "1万2000人",
+      "fireworks": "3000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00986/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.678Z"
+    },
+    {
+      "title": "榛名ふるさと祭り 商工祭花火大会",
+      "date": "2025年8月15日(金)",
+      "location": "群馬県・高崎市/烏川公園",
+      "audience": "約1万人",
+      "fireworks": "約3000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e513939/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.679Z"
+    },
+    {
+      "title": "かわば花火大会",
+      "date": "2024年11月3日(祝)",
+      "location": "群馬県・利根郡川場村/川場村中央公園",
+      "audience": "1500人",
+      "fireworks": "約3000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00576/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.680Z"
+    },
+    {
+      "title": "第40回新里まつり花火大会",
+      "date": "2024年8月15日(木)",
+      "location": "群馬県・桐生市/新里総合グラウンド",
+      "audience": "約1万8000人",
+      "fireworks": "2243発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e514319/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.680Z"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,216 @@
+{
+  "timestamp": "2025-06-12T07:23:13.979Z",
+  "region": "kanagawa",
+  "totalEvents": 11,
+  "recoveredData": [
+    {
+      "id": "atsugi-ayu-matsuri",
+      "name": "市制70周年記念 第79回 あつぎ鮎まつり",
+      "japaneseName": "市制70周年記念 第79回 あつぎ鮎まつり",
+      "englishName": "Atsugi Ayu Festival",
+      "date": "2025年8月3日",
+      "location": "相模川河川敷",
+      "description": "在相模川河川敷举办的花火大会，约3000发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 15,
+      "website": "https://www.city.atsugi.kanagawa.jp/",
+      "fireworksCount": 3000,
+      "expectedVisitors": 150000,
+      "venue": "相模川河川敷"
+    },
+    {
+      "id": "kamakura",
+      "name": "第77回 镰仓花火大会",
+      "japaneseName": "第77回 鎌倉花火大会",
+      "englishName": "The 77th Kamakura Fireworks Festival",
+      "date": "2025年2025年7月18日(金)",
+      "location": "由比之滨海岸会场",
+      "description": "在由比之滨海岸会场举办的花火大会，约2500发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 26,
+      "website": "https://www.kamakura-info.jp/",
+      "fireworksCount": 2500,
+      "expectedVisitors": 160000,
+      "venue": "由比之滨海岸会场"
+    },
+    {
+      "id": "kanazawa-matsuri-hanabi-2025",
+      "name": "第51回金泽祭花火大会",
+      "japaneseName": "第51回 金沢まつり 花火大会",
+      "englishName": "51st Kanazawa Festival Fireworks Display",
+      "date": "2025年2025年8月30日(土)",
+      "location": "海之公园",
+      "description": "在海之公园举办的花火大会，约3500发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 58,
+      "website": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/",
+      "fireworksCount": 3500,
+      "expectedVisitors": 2550000000,
+      "venue": "海之公园"
+    },
+    {
+      "id": "kurihama-perry-hanabi-2025",
+      "name": "2025久里浜佩里祭花火大会",
+      "japaneseName": "2025久里浜ペリー祭花火大会",
+      "englishName": "2025 Kurihama Perry Festival Fireworks",
+      "date": "2025年2025年8月2日（土）",
+      "location": "久里浜海岸主会场",
+      "description": "在久里浜海岸主会场举办的花火大会，约5000发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 59,
+      "website": "https://perryfes.jp/",
+      "fireworksCount": 5000,
+      "expectedVisitors": 80000,
+      "venue": "久里浜海岸主会场"
+    },
+    {
+      "id": "minato-mirai-smart-festival-2025",
+      "name": "港未来智能节庆2025",
+      "japaneseName": "みなとみらいスマートフェスティバル2025",
+      "englishName": "Minato Mirai Smart Festival 2025",
+      "date": "2025年2025年8月4日(月)",
+      "location": "港未来21地区",
+      "description": "在港未来21地区举办的花火大会，约2万发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 20,
+      "website": "https://www.city.yokohama.lg.jp/",
+      "fireworksCount": 20000,
+      "expectedVisitors": 20000,
+      "venue": "港未来21地区"
+    },
+    {
+      "id": "odawara-sakawa-hanabi-2025",
+      "name": "第36回小田原酒匂川花火大会",
+      "japaneseName": "第36回小田原酒匂川花火大会",
+      "englishName": "36th Odawara Sakawa River Fireworks Festival",
+      "date": "2025年2025年8月2日（土）",
+      "location": "酒匂川体育广场主会场",
+      "description": "在酒匂川体育广场主会场举办的花火大会，约1万发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 17,
+      "website": "https://www.city.odawara.kanagawa.jp/",
+      "fireworksCount": 10000,
+      "expectedVisitors": 250000,
+      "venue": "酒匂川体育广场主会场"
+    },
+    {
+      "id": "sagamiko-hanabi-2025",
+      "name": "第73回相模湖湖上祭花火大会",
+      "japaneseName": "第73回 さがみ湖湖上祭花火大会",
+      "englishName": "73rd Sagami Lake Festival Fireworks",
+      "date": "2025年2025年8月1日（金）",
+      "location": "相模湖上主会场",
+      "description": "在相模湖上主会场举办的花火大会，约4000发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 49,
+      "website": "https://www.e-sagamihara.com/event/event-737/",
+      "fireworksCount": 4000,
+      "expectedVisitors": 550000000,
+      "venue": "相模湖上主会场"
+    },
+    {
+      "id": "seaparadise",
+      "name": "横滨、八景岛海洋天堂「花火交响曲」",
+      "japaneseName": "横浜・八景島シーパラダイス「花火シンフォニア」",
+      "englishName": "Yokohama Hakkeijima Sea Paradise Fireworks Symphonia",
+      "date": "2025年2025年7月19日、20日、26日、8月2日、9日、10日、16日、23日、9月13日、14日",
+      "location": "八景岛海洋天堂",
+      "description": "在八景岛海洋天堂举办的花火大会，约2500发发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 20,
+      "website": "http://www.seaparadise.co.jp/",
+      "fireworksCount": 2500,
+      "expectedVisitors": "入园者数非公开",
+      "venue": "八景岛海洋天堂"
+    },
+    {
+      "id": "southern-beach-chigasaki-hanabi-2025",
+      "name": "第51回南海滩茅崎花火大会",
+      "japaneseName": "第51回サザンビーチちがさき花火大会",
+      "englishName": "51st Southern Beach Chigasaki Fireworks Festival",
+      "date": "2025年2025年8月2日（土）",
+      "location": "南海滩茅崎主会场",
+      "description": "在南海滩茅崎主会场举办的花火大会，2000发（预定）发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 20,
+      "website": "https://www.city.chigasaki.kanagawa.jp/kanko/event/event_2025.html",
+      "fireworksCount": 2000,
+      "expectedVisitors": 50000,
+      "venue": "南海滩茅崎主会场"
+    },
+    {
+      "id": "yokohama-night-flowers-2025",
+      "name": "横滨夜间花火2025",
+      "japaneseName": "横浜ナイトフラワーズ2025",
+      "englishName": "Yokohama Night Flowers 2025",
+      "date": "2025年8月2日、9日、16日、23日、30日",
+      "location": "横滨港未来21地区",
+      "description": "在横滨港未来21地区举办的花火大会，约150发/场发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 49,
+      "website": "https://www.yokohamajapan.com/",
+      "fireworksCount": 150,
+      "expectedVisitors": "5000/场",
+      "venue": "横滨港未来21地区"
+    },
+    {
+      "id": "yokohama-seaparadise-hanabi",
+      "name": "横滨・八景岛海洋天堂「花火交响曲」",
+      "japaneseName": "横浜・八景島シーパラダイス「花火シンフォニア」",
+      "englishName": "Yokohama Hakkeijima Sea Paradise Fireworks Symphonia",
+      "date": "2025年8月10日、11日、17日、18日、24日、25日",
+      "location": "横滨八景岛海洋天堂",
+      "description": "在横滨八景岛海洋天堂举办的花火大会，约2500发/场发花火点亮夜空",
+      "features": [
+        "神奈川特色",
+        "夏日花火",
+        "港都文化"
+      ],
+      "likes": 28,
+      "website": "https://www.seaparadise.co.jp/",
+      "fireworksCount": 2500,
+      "expectedVisitors": 10000,
+      "venue": "横滨八景岛海洋天堂"
+    }
+  ]
+}

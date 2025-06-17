@@ -1,0 +1,108 @@
+{
+  "timestamp": "2025-06-12T07:32:51.442Z",
+  "region": "koshinetsu",
+  "totalReal": 5,
+  "totalInMain": 6,
+  "missingFromMain": 0,
+  "realEvents": [
+    {
+      "id": "anime-classics-anisong-hanabi",
+      "name": "动漫经典动画歌曲花火",
+      "japaneseName": "アニメクラシックス アニソン花火",
+      "englishName": "Anime Classics Anisong Fireworks",
+      "date": "2025年2025年7月5日",
+      "location": "富士川生机运动公园特设会场",
+      "description": "在富士川生机运动公园特设会场举办的花火大会，1万发花火点亮夜空",
+      "features": [
+        "动漫主题",
+        "音乐花火",
+        "特色演出"
+      ],
+      "likes": 39,
+      "website": "https://animeclassics-hanabi.jp/",
+      "fireworksCount": 10000,
+      "expectedVisitors": "未公布",
+      "venue": "富士川生机运动公园特设会场",
+      "dirName": "anime"
+    },
+    {
+      "id": "gion-kashiwazaki-matsuri-hanabi",
+      "name": "祇园柏崎祭海之大花火大会",
+      "japaneseName": "ぎおん柏崎まつり 海の大花火大会",
+      "englishName": "Gion Kashiwazaki Festival Sea Fireworks",
+      "date": "2025年2025年7月26日(土)",
+      "location": "柏崎市中央海岸主会场",
+      "description": "在柏崎市中央海岸主会场举办的花火大会，约1万6000发花火点亮夜空",
+      "features": [
+        "海之花火",
+        "越后三大",
+        "柏崎传统"
+      ],
+      "likes": 49,
+      "website": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/",
+      "fireworksCount": 160000000,
+      "expectedVisitors": 170000,
+      "venue": "柏崎市中央海岸主会场",
+      "dirName": "kashiwazaki"
+    },
+    {
+      "id": "fuji-kawaguchi-lake-hanabi",
+      "name": "富士山河口湖山开花火大会",
+      "japaneseName": "富士山・河口湖山開き花火大会",
+      "englishName": "Fuji Mountain Kawaguchi Lake Opening Fireworks",
+      "date": "2025年2025年7月5日",
+      "location": "大池公园主会场",
+      "description": "在大池公园主会场举办的花火大会，2000发花火点亮夜空",
+      "features": [
+        "富士山景",
+        "湖上花火",
+        "山中湖"
+      ],
+      "likes": 48,
+      "website": "https://www.town.fujikawaguchiko.lg.jp/",
+      "fireworksCount": 2000,
+      "expectedVisitors": "未公布",
+      "venue": "大池公园主会场",
+      "dirName": "kawaguchi"
+    },
+    {
+      "id": "nagaoka-matsuri-hanabi-2025",
+      "name": "长冈祭大花火大会",
+      "japaneseName": "長岡まつり大花火大会",
+      "englishName": "Nagaoka Festival Grand Fireworks",
+      "date": "2025年2025年8月2日、3日",
+      "location": "信浓川河川敷",
+      "description": "在信浓川河川敷举办的花火大会，非公开发花火点亮夜空",
+      "features": [
+        "越后花火",
+        "传统名胜",
+        "大型花火"
+      ],
+      "likes": 44,
+      "website": "https://nagaokamatsuri.com/",
+      "expectedVisitors": 3450000000,
+      "venue": "信浓川河川敷",
+      "dirName": "nagaoka"
+    },
+    {
+      "id": "suwa-kojyo-hanabi-2025",
+      "name": "第77回诏访湖祭湖上花火大会",
+      "japaneseName": "第77回 諏訪湖祭湖上花火大会",
+      "englishName": "77th Suwa Lake Festival Fireworks Display",
+      "date": "2025年2025年8月15日(金)",
+      "location": "诏访市湖畔公园前诏访湖上",
+      "description": "在诏访市湖畔公园前诏访湖上举办的花火大会，非公开发花火点亮夜空",
+      "features": [
+        "甲信越特色",
+        "山岳花火",
+        "自然美景"
+      ],
+      "likes": 25,
+      "website": "https://suwako-hanabi.com/kojyou/",
+      "expectedVisitors": "undefined",
+      "venue": "诏访市湖畔公园前诏访湖上",
+      "dirName": "suwa"
+    }
+  ],
+  "missingEvents": []
+}

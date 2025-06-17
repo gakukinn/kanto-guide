@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const metszaNordicHanabiData: HanabiData = {
  id: 'metsza-nordic-2025',
  name: '梅兹塔北欧花火2025',
-  japaneseName: 'メッツァの北欧花火2025',
  englishName: 'Metsa Nordic Fireworks 2025',
+  _sourceData: {
+    japaneseName: 'メッツァの北欧花火2025'
+  },
  year: 2025,
  month: 7,
  date: '2025年7月12日',

@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "generatedAt": "2025-06-16T04:35:54.207Z",
+    "totalEvents": 3,
+    "version": "1.0.0"
+  },
+  "summary": {
+    "averageScore": 86,
+    "highQuality": 0,
+    "mediumQuality": 3,
+    "lowQuality": 0
+  },
+  "reports": [
+    {
+      "eventId": "sumida-hanabi-2025",
+      "eventName": "第48回 隅田川花火大会",
+      "region": "东京",
+      "checkedAt": "2025-06-16T04:35:54.203Z",
+      "layers": {
+        "official_website": {
+          "layerId": "official_website",
+          "layerName": "官方网站",
+          "priority": 1,
+          "status": "available",
+          "score": 95,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "官方网站数据可用，优先级最高"
+        },
+        "walkerplus": {
+          "layerId": "walkerplus",
+          "layerName": "WalkerPlus",
+          "priority": 2,
+          "status": "available",
+          "score": 90,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "WalkerPlus数据可用: https://hanabi.walkerplus.com/detail/ar0313e00797/"
+        },
+        "project_database": {
+          "layerId": "project_database",
+          "layerName": "项目数据库",
+          "priority": 3,
+          "status": "available",
+          "score": 85,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "项目数据库中存在该事件"
+        },
+        "three_layer_list": {
+          "layerId": "three_layer_list",
+          "layerName": "三层列表",
+          "priority": 4,
+          "status": "available",
+          "score": 80,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "三层列表中包含该事件"
+        },
+        "four_layer_details": {
+          "layerId": "four_layer_details",
+          "layerName": "四层详情",
+          "priority": 5,
+          "status": "available",
+          "score": 75,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "四层详情页面存在"
+        },
+        "seo_descriptions": {
+          "layerId": "seo_descriptions",
+          "layerName": "SEO描述",
+          "priority": 6,
+          "status": "available",
+          "score": 70,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "SEO描述已优化"
+        }
+      },
+      "overallScore": 87,
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "eventId": "katsushika-hanabi-2025",
+      "eventName": "第59回葛饰纳凉花火大会",
+      "region": "东京",
+      "checkedAt": "2025-06-16T04:35:54.205Z",
+      "layers": {
+        "official_website": {
+          "layerId": "official_website",
+          "layerName": "官方网站",
+          "priority": 1,
+          "status": "available",
+          "score": 95,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "官方网站数据可用，优先级最高"
+        },
+        "walkerplus": {
+          "layerId": "walkerplus",
+          "layerName": "WalkerPlus",
+          "priority": 2,
+          "status": "available",
+          "score": 90,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "WalkerPlus数据可用: https://hanabi.walkerplus.com/detail/ar0313e00795/"
+        },
+        "project_database": {
+          "layerId": "project_database",
+          "layerName": "项目数据库",
+          "priority": 3,
+          "status": "available",
+          "score": 85,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "项目数据库中存在该事件"
+        },
+        "three_layer_list": {
+          "layerId": "three_layer_list",
+          "layerName": "三层列表",
+          "priority": 4,
+          "status": "available",
+          "score": 80,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "三层列表中包含该事件"
+        },
+        "four_layer_details": {
+          "layerId": "four_layer_details",
+          "layerName": "四层详情",
+          "priority": 5,
+          "status": "available",
+          "score": 75,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "四层详情页面存在"
+        },
+        "seo_descriptions": {
+          "layerId": "seo_descriptions",
+          "layerName": "SEO描述",
+          "priority": 6,
+          "status": "available",
+          "score": 70,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "SEO描述已优化"
+        }
+      },
+      "overallScore": 87,
+      "issues": [],
+      "recommendations": []
+    },
+    {
+      "eventId": "niigata-matsuri-hanabi-2025",
+      "eventName": "新潟祭花火大会",
+      "region": "新潟",
+      "checkedAt": "2025-06-16T04:35:54.206Z",
+      "layers": {
+        "official_website": {
+          "layerId": "official_website",
+          "layerName": "官方网站",
+          "priority": 1,
+          "status": "available",
+          "score": 95,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "官方网站数据可用，优先级最高"
+        },
+        "walkerplus": {
+          "layerId": "walkerplus",
+          "layerName": "WalkerPlus",
+          "priority": 2,
+          "status": "available",
+          "score": 80,
+          "dataFound": true,
+          "conflicts": [
+            "名称不一致: \"新潟祭花火大会\" vs \"花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [\""
+          ],
+          "notes": "WalkerPlus数据可用: https://hanabi.walkerplus.com/detail/ar0415e00666/"
+        },
+        "project_database": {
+          "layerId": "project_database",
+          "layerName": "项目数据库",
+          "priority": 3,
+          "status": "available",
+          "score": 85,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "项目数据库中存在该事件"
+        },
+        "three_layer_list": {
+          "layerId": "three_layer_list",
+          "layerName": "三层列表",
+          "priority": 4,
+          "status": "available",
+          "score": 80,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "三层列表中包含该事件"
+        },
+        "four_layer_details": {
+          "layerId": "four_layer_details",
+          "layerName": "四层详情",
+          "priority": 5,
+          "status": "available",
+          "score": 75,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "四层详情页面存在"
+        },
+        "seo_descriptions": {
+          "layerId": "seo_descriptions",
+          "layerName": "SEO描述",
+          "priority": 6,
+          "status": "available",
+          "score": 70,
+          "dataFound": true,
+          "conflicts": [],
+          "notes": "SEO描述已优化"
+        }
+      },
+      "overallScore": 84,
+      "issues": [
+        "WalkerPlus存在数据冲突: 名称不一致: \"新潟祭花火大会\" vs \"花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [\""
+      ],
+      "recommendations": [
+        "⚠️ 发现数据冲突，建议优先使用高优先级数据源"
+      ]
+    }
+  ]
+}

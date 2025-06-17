@@ -3,9 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const motherfarmData: HanabiData = {
  id: 'motherfarm',
  name: '母亲牧場 夏夜农场',
-  japaneseName: 'マザー牧場 サマーナイトファーム',
-
  englishName: 'Mother Farm Summer Night Farm',
+  _sourceData: {
+    japaneseName: 'マザー牧場 サマーナイトファーム'
+  },
   title: '母亲牧場 夏夜农场 - 7月千叶花火大会',
   description: '母亲牧場 夏夜农场详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

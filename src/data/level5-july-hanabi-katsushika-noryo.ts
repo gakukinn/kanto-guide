@@ -13,8 +13,10 @@ import { HanabiData } from '@/types/hanabi';
 export const katsushikaNoryoHanabiData: HanabiData = {
  id: 'katsushika-noryo-hanabi',
  name: '第59回葛饰纳凉花火大会',
-  japaneseName: '第59回 葛飾納涼花火大会',
  englishName: 'The 59th Katsushika Noryo Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第59回 葛飾納涼花火大会'
+  },
  year: 2025,
  date: '2025年7月22日(火)',
  time: '19:20开场，19:30花火开始',

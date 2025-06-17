@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-06-14T11:13:46.655Z",
+  "summary": {
+    "totalFiles": 126,
+    "filesWithMedia": 11,
+    "validFiles": 124,
+    "errorFiles": 2,
+    "warningFiles": 1
+  },
+  "interface": {
+    "requiredFields": [
+      "url",
+      "title",
+      "description"
+    ],
+    "optionalFields": [
+      "alt",
+      "caption",
+      "thumbnail",
+      "duration"
+    ]
+  },
+  "errors": [
+    {
+      "file": "src\\app\\koshinetsu\\hanabi\\asahara-jinja-aki-hanabi\\page.tsx",
+      "errors": [
+        "缺少必需字段: url",
+        "缺少必需字段: title",
+        "缺少必需字段: description"
+      ]
+    },
+    {
+      "file": "src\\app\\koshinetsu\\hanabi\\chikuma-chikumagawa-hanabi\\page.tsx",
+      "errors": [
+        "缺少必需字段: url",
+        "缺少必需字段: title",
+        "缺少必需字段: description"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "file": "src\\app\\koshinetsu\\hanabi\\yamanakako-houkosai-hanabi\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    }
+  ]
+}

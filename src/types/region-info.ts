@@ -3,7 +3,7 @@ export interface RegionInfo {
   name: string;
   icon: string;
   description: string;
-  totalEvents: number;
+  totalEvents?: number; // 可选字段，避免数量统计的维护麻烦
   nextRegion: string;
   previousRegion: string;
   features?: RegionFeature[];
@@ -26,7 +26,15 @@ export interface MonthInfo {
 // 花火事件接口
 export interface HanabiEvent {
   id: string;
-  name: string;
+  name: string; // 中文名称（主要显示）
+  englishName?: string; // 英文名称
+
+  // 内部参考字段（日文源数据）
+  _sourceData?: {
+    japaneseName: string;
+    japaneseDescription?: string;
+  };
+
   date: string;
   location: string;
   visitors: string;
@@ -56,4 +64,4 @@ export interface EventInfo {
   station: string;
   walkingTime: string;
   detailLink: string;
-} 
+}

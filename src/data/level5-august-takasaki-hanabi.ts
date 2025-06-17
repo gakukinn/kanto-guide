@@ -11,8 +11,10 @@ import { HanabiData } from '@/types/hanabi';
 export const takasakiHanabiData: HanabiData = {
   id: 'takasaki-hanabi-2025',
   name: '第51回高崎大花火大会',
-  japaneseName: '第51回 高崎大花火大会',
   englishName: '51st Takasaki Grand Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第51回 高崎大花火大会'
+  },
   title: '第51回高崎大花火大会 - 8月北关东花火大会',
   description: '第51回高崎大花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
   year: 2025,

@@ -1,0 +1,34 @@
+{
+  "navigation": {
+    "home": "首页",
+    "hanabi": "花火大会",
+    "matsuri": "祭典",
+    "about": "关于"
+  },
+  "hanabi": {
+    "title": "花火大会",
+    "subtitle": "关东地区花火大会信息",
+    "date": "举办日期",
+    "location": "举办地点",
+    "fireworks": "花火数量",
+    "visitors": "预计观众",
+    "website": "官方网站",
+    "viewDetails": "查看详情"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "notFound": "页面未找到",
+    "languageSwitch": "语言切换",
+    "currentLanguage": "当前语言信息",
+    "navigationHome": "导航首页",
+    "fireworksFestival": "花火大会",
+    "festival": "祭典",
+    "systemTest": "多语言系统测试",
+    "sampleDate": "2025年8月2日",
+    "kantoRegion": "关东地区",
+    "sampleFireworks": "约2万发",
+    "sampleVisitors": "约45万人",
+    "officialWebsite": "官方网站"
+  }
+}

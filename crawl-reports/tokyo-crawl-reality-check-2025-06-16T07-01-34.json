@@ -1,0 +1,48 @@
+{
+  "summary": {
+    "totalActivities": 1,
+    "totalCrawlAttempts": 2,
+    "successfulCrawls": 1,
+    "failedCrawls": 1,
+    "crawledOfficialSites": 1,
+    "crawledWalkerPlus": 1
+  },
+  "crawlResults": [
+    {
+      "activityId": "sumida",
+      "activityName": "第48回 隅田川花火大会",
+      "source": "official",
+      "url": "https://www.sumidagawa-hanabi.com/",
+      "success": true,
+      "extractedData": {
+        "title": "隅田川花火大会 公式Webサイト",
+        "h1": "",
+        "dateInfo": [
+          "今日\n                  2025.06.16(月)\n                \n              明日\n                  2025.06.17(火)",
+          "今日\n                  2025.06.16(月)",
+          "2025.06.16(月)",
+          "明日\n                  2025.06.17(火)",
+          "2025.06.17(火)"
+        ],
+        "locationInfo": [
+          "隅田川花火大会 公式Webサイト",
+          "隅田川花火大会\n    \n    \n      \n        トップページ\n        大会について\n        会場案内\n        プログラム\n        観覧時のお願い\n        協賛企業一覧\n        よくある問い合わせ\n        報道機関の方へ",
+          "隅田川花火大会",
+          "トップページ\n        大会について\n        会場案内\n        プログラム\n        観覧時のお願い\n        協賛企業一覧\n        よくある問い合わせ\n        報道機関の方へ",
+          "会場案内"
+        ]
+      },
+      "crawledAt": "2025-06-16T07:01:31.197Z"
+    },
+    {
+      "activityId": "sumida",
+      "activityName": "第48回 隅田川花火大会",
+      "source": "walkerplus",
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00797/",
+      "success": false,
+      "error": "页面不存在 (404)",
+      "crawledAt": "2025-06-16T07:01:34.563Z"
+    }
+  ],
+  "generatedAt": "2025-06-16T07:01:34.563Z"
+}

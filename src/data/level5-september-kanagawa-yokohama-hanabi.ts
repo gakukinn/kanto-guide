@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const yokohamaHanabiData: HanabiData = {
   id: 'yokohama-night-flowers-2025',
   name: '横浜夜间花火2025',
-  japaneseName: '横浜ナイトフラワーズ2025',
   englishName: 'Yokohama Night Flowers 2025',
+  _sourceData: {
+    japaneseName: '横浜ナイトフラワーズ2025'
+  },
   year: 2025,
   date: "9月6日・14日",
   time: '19:00～19:05',

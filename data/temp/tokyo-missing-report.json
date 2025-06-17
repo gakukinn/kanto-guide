@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-06-12T07:28:04.253Z",
+  "region": "tokyo",
+  "totalMissing": 2,
+  "missingEvents": [
+    {
+      "id": "chofu-hanabi-2025",
+      "name": "第40回调布花火",
+      "japaneseName": "第40回 調布花火",
+      "englishName": "The 40th Chofu Fireworks Festival",
+      "date": "2025年2025年9月20日(土)",
+      "location": "布田会场",
+      "description": "在布田会场举办的花火大会，约12000发发花火点亮夜空",
+      "features": [
+        "东京特色",
+        "夏日花火",
+        "都市风情"
+      ],
+      "likes": 46,
+      "website": "https://hanabi.csa.gr.jp/",
+      "fireworksCount": 12000,
+      "expectedVisitors": 350000,
+      "venue": "布田会场",
+      "dirName": "chofu-hanabi"
+    },
+    {
+      "id": "kozushima-nagisa-hanabi-32",
+      "name": "第32回神津島渚花火大会",
+      "japaneseName": "神津島村夏祭り",
+      "englishName": "The 32nd Kozushima Nagisa Fireworks Festival",
+      "date": "2025年2025年8月4日",
+      "location": "神津島港(前浜港)桟橋",
+      "description": "在神津島港(前浜港)桟橋举办的花火大会，747发发花火点亮夜空",
+      "features": [
+        "东京特色",
+        "夏日花火",
+        "都市风情"
+      ],
+      "likes": 112,
+      "website": "https://kozushima.com/",
+      "fireworksCount": 747,
+      "expectedVisitors": "1000",
+      "venue": "神津島港(前浜港)桟橋",
+      "dirName": "kozushima"
+    }
+  ]
+}

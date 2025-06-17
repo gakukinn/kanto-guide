@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const inaHanabiData: HanabiData = {
  id: 'ina-hanabi',
  name: '2025伊奈祭',
-  japaneseName: '2025 伊奈まつり',
  englishName: '2025 Ina Festival',
+  _sourceData: {
+    japaneseName: '2025 伊奈まつり'
+  },
  year: 2025,
  date: '2025年8月23日',
  time: '20:10～（祭典16:00～21:15）',

@@ -6,8 +6,10 @@ import { HanabiData } from '@/types/hanabi';
 export const tamuraHanabiData: HanabiData = {
  id: 'tamura-hanabi-2025',
  name: '玉村花火大会',
-  japaneseName: '田园夢花火2025 第35回 たまむら花火大会',
  englishName: 'Tamamura Fireworks Festival 2025',
+  _sourceData: {
+    japaneseName: '田园夢花火2025 第35回 たまむら花火大会'
+  },
  year: 2025,
  date: '2025年7月12日',
  time: '19:40-20:30',

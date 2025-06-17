@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-06-16T13:42:23.794Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0400/",
+  "method": "Playwright+Cheerio",
+  "totalEvents": 0,
+  "events": [],
+  "errors": [],
+  "debug": {
+    "totalLinks": 17,
+    "linkPatterns": [
+      "ar0419e",
+      "ar0415e",
+      "ar0420e"
+    ],
+    "pageContent": ""
+  }
+}

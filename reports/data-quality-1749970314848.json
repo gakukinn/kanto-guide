@@ -1,0 +1,258 @@
+{
+  "timestamp": "2025-06-15T06:51:54.841Z",
+  "summary": {
+    "totalPages": 12,
+    "highQuality": 7,
+    "mediumQuality": 1,
+    "lowQuality": 4,
+    "missingPages": 0
+  },
+  "pages": [
+    {
+      "activityType": "hanabi",
+      "region": "tokyo",
+      "status": "exists",
+      "qualityScore": 90,
+      "activitiesCount": 17,
+      "hasTemplate": true,
+      "hasCompleteData": true,
+      "issues": [
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (17个)",
+        "数据字段完整",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\hanabi\\page.tsx"
+    },
+    {
+      "activityType": "hanabi",
+      "region": "kanagawa",
+      "status": "exists",
+      "qualityScore": 90,
+      "activitiesCount": 16,
+      "hasTemplate": true,
+      "hasCompleteData": true,
+      "issues": [
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (16个)",
+        "数据字段完整",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\hanabi\\page.tsx"
+    },
+    {
+      "activityType": "hanabi",
+      "region": "chiba",
+      "status": "exists",
+      "qualityScore": 90,
+      "activitiesCount": 15,
+      "hasTemplate": true,
+      "hasCompleteData": true,
+      "issues": [
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (15个)",
+        "数据字段完整",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\hanabi\\page.tsx"
+    },
+    {
+      "activityType": "hanabi",
+      "region": "saitama",
+      "status": "exists",
+      "qualityScore": 90,
+      "activitiesCount": 13,
+      "hasTemplate": true,
+      "hasCompleteData": true,
+      "issues": [
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (13个)",
+        "数据字段完整",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\hanabi\\page.tsx"
+    },
+    {
+      "activityType": "hanabi",
+      "region": "kitakanto",
+      "status": "exists",
+      "qualityScore": 90,
+      "activitiesCount": 13,
+      "hasTemplate": true,
+      "hasCompleteData": true,
+      "issues": [
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (13个)",
+        "数据字段完整",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\hanabi\\page.tsx"
+    },
+    {
+      "activityType": "hanabi",
+      "region": "koshinetsu",
+      "status": "exists",
+      "qualityScore": 90,
+      "activitiesCount": 14,
+      "hasTemplate": true,
+      "hasCompleteData": true,
+      "issues": [
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (14个)",
+        "数据字段完整",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\koshinetsu\\hanabi\\page.tsx"
+    },
+    {
+      "activityType": "matsuri",
+      "region": "tokyo",
+      "status": "exists",
+      "qualityScore": 90,
+      "activitiesCount": 24,
+      "hasTemplate": true,
+      "hasCompleteData": true,
+      "issues": [
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (24个)",
+        "数据字段完整",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\tokyo\\matsuri\\page.tsx"
+    },
+    {
+      "activityType": "matsuri",
+      "region": "koshinetsu",
+      "status": "exists",
+      "qualityScore": 60,
+      "activitiesCount": 12,
+      "hasTemplate": true,
+      "hasCompleteData": false,
+      "issues": [
+        "缺少特色字段",
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "活动丰富 (12个)",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\koshinetsu\\matsuri\\page.tsx"
+    },
+    {
+      "activityType": "matsuri",
+      "region": "kanagawa",
+      "status": "exists",
+      "qualityScore": 40,
+      "activitiesCount": 2,
+      "hasTemplate": true,
+      "hasCompleteData": false,
+      "issues": [
+        "活动较少 (2个)",
+        "缺少特色字段",
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板",
+        "支持多语言"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kanagawa\\matsuri\\page.tsx"
+    },
+    {
+      "activityType": "matsuri",
+      "region": "chiba",
+      "status": "exists",
+      "qualityScore": 20,
+      "activitiesCount": 0,
+      "hasTemplate": true,
+      "hasCompleteData": false,
+      "issues": [
+        "无活动数据",
+        "缺少基本字段",
+        "缺少详细信息",
+        "缺少特色字段",
+        "缺少多语言支持",
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\chiba\\matsuri\\page.tsx"
+    },
+    {
+      "activityType": "matsuri",
+      "region": "saitama",
+      "status": "exists",
+      "qualityScore": 20,
+      "activitiesCount": 0,
+      "hasTemplate": true,
+      "hasCompleteData": false,
+      "issues": [
+        "无活动数据",
+        "缺少基本字段",
+        "缺少详细信息",
+        "缺少特色字段",
+        "缺少多语言支持",
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\saitama\\matsuri\\page.tsx"
+    },
+    {
+      "activityType": "matsuri",
+      "region": "kitakanto",
+      "status": "exists",
+      "qualityScore": 20,
+      "activitiesCount": 0,
+      "hasTemplate": true,
+      "hasCompleteData": false,
+      "issues": [
+        "无活动数据",
+        "缺少基本字段",
+        "缺少详细信息",
+        "缺少特色字段",
+        "缺少多语言支持",
+        "代码结构问题"
+      ],
+      "strengths": [
+        "使用标准模板"
+      ],
+      "path": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\src\\app\\kitakanto\\matsuri\\page.tsx"
+    }
+  ],
+  "recommendations": [
+    "改善 4 个低质量页面的数据完整性",
+    "修复常见问题: 代码结构问题 (影响12个页面)",
+    "修复常见问题: 缺少特色字段 (影响5个页面)",
+    "修复常见问题: 无活动数据 (影响3个页面)",
+    "修复常见问题: 缺少基本字段 (影响3个页面)",
+    "修复常见问题: 缺少详细信息 (影响3个页面)",
+    "🌟 使用智能数据更新器从Walker Plus获取最新花火数据",
+    "🌟 使用智能数据更新器从Omatsuri Link获取最新祭典数据",
+    "🌟 运行 npm run update-hanabi 更新所有花火页面",
+    "🌟 运行 npm run update-matsuri 更新所有祭典页面"
+  ]
+}

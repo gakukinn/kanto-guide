@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const rindokoHanabiData: HanabiData = {
   id: 'rindoko-hanabi',
   name: '第31回りんどう湖花火大会',
-  japaneseName: '第31回 りんどう湖花火大会',
   englishName: '31st Rindoko Lake Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第31回 りんどう湖花火大会'
+  },
   year: 2025,
   date: '2025年9月14日・21日',
   time: '18:30～19:00',

@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-06-14T18:35:42.413Z",
+  "totalLinks": 13,
+  "workingLinks": 10,
+  "brokenLinks": 3,
+  "details": [
+    {
+      "link": "/kitakanto/hanabi/ashikaga",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "level5-august-ashikaga-hanabi.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/oyama-hanabi-2025",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "oyama-hanabi-2025.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/moka",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "level5-moka-hanabi.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/tsuchiura-hanabi-2025",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "tsuchiura-hanabi-2025.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/tonegawa-hanabi-2025",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "tonegawa-hanabi-2025.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/mito-hanabi-2025",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "mito-hanabi-2025.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/oarai-hanabi-2025",
+      "pageExists": true,
+      "dataExists": false,
+      "status": "❌ 有问题",
+      "issues": [
+        "数据文件问题: No data import found"
+      ]
+    },
+    {
+      "link": "/kitakanto/hanabi/takasaki",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "level5-august-takasaki-hanabi.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/maebashi-hanabi-2025",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "maebashi-hanabi-2025.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/numata-hanabi-2025",
+      "pageExists": true,
+      "dataExists": false,
+      "status": "❌ 有问题",
+      "issues": [
+        "数据文件问题: No data import found"
+      ]
+    },
+    {
+      "link": "/kitakanto/hanabi/tamamura-hanabi-2025",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "tamamura-hanabi-2025.ts",
+      "status": "✅ 正常",
+      "issues": []
+    },
+    {
+      "link": "/kitakanto/hanabi/joso-kinugawa-hanabi-2025",
+      "pageExists": true,
+      "dataExists": false,
+      "status": "❌ 有问题",
+      "issues": [
+        "数据文件问题: No data import found"
+      ]
+    },
+    {
+      "link": "/kitakanto/hanabi/koga-hanabi-2025",
+      "pageExists": true,
+      "dataExists": true,
+      "dataFile": "koga-hanabi-2025.ts",
+      "status": "✅ 正常",
+      "issues": []
+    }
+  ]
+}

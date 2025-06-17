@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const josoKinugawaHanabiData: HanabiData = {
   id: 'joso-kinugawa-hanabi-september',
   name: '第58回常总绹川花火大会',
-  japaneseName: '第58回 常總きぬ川花火大会',
   englishName: '58th Joso Kinugawa Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第58回 常總きぬ川花火大会'
+  },
   year: 2025,
   date: '9月20日(土)',
   time: '18:30～19:50',

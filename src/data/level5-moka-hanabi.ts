@@ -6,8 +6,10 @@ import { HanabiData } from '@/types/hanabi';
 export const mokaHanabiData: HanabiData = {
  id: 'moka-natsumatsuri-hanabi-2025',
  name: '真岡市夏祭大花火大会',
-  japaneseName: '第53回 真岡市夏祭大花火大会',
  englishName: 'Moka Summer Festival Fireworks Display 2025',
+  _sourceData: {
+    japaneseName: '第53回 真岡市夏祭大花火大会'
+  },
  year: 2025,
  date: '2025年7月26日',
  time: '19:30-21:00',

@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"],
+      "tools": [
+        "browser_navigate",
+        "browser_snapshot",
+        "browser_click",
+        "browser_type",
+        "browser_take_screenshot",
+        "browser_pdf_save",
+        "browser_wait_for",
+        "browser_close"
+      ]
+    },
+    "playwright-headless": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest", "--headless"],
+      "tools": ["*"]
+    }
+  }
+}

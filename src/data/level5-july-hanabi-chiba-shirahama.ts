@@ -3,9 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const shirahamaData: HanabiData = {
  id: 'shirahama',
  name: '第61回 南房総白浜海女祭典',
-  japaneseName: '第61回南房総白浜海女まつり',
-
  englishName: 'Shirahama Ama Festival',
+  _sourceData: {
+    japaneseName: '第61回南房総白浜海女まつり'
+  },
   title: '第61回 南房総白浜海女祭典 - 7月千叶花火大会',
   description: '第61回 南房総白浜海女祭典详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

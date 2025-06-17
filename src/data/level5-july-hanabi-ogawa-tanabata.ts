@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const ogawaTanabataHanabiData: HanabiData = {
  id: 'ogawa-tanabata-2025',
  name: '第77回小川町七夕祭花火大会',
-  japaneseName: '第77回 小川町七夕まつり花火大会',
  englishName: 'Ogawa Town Tanabata Festival Fireworks 2025',
+  _sourceData: {
+    japaneseName: '第77回 小川町七夕まつり花火大会'
+  },
  year: 2025,
  month: 7,
  date: '2025年7月26日',

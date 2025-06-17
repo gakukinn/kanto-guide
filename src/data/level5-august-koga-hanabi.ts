@@ -13,8 +13,10 @@ import { HanabiData } from '@/types/hanabi'
 export const kogaHanabiData: HanabiData = {
   id: 'koga-august-hanabi-2025',
   name: '第20回 古河花火大会',
-  japaneseName: '第20回 古河花火大会',
   englishName: '20th Koga Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第20回 古河花火大会'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月2日(土)',

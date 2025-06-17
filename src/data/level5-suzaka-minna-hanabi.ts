@@ -6,8 +6,10 @@ import { HanabiData } from '../types/hanabi';
 export const suzakaMinnaNHanabiData: HanabiData = {
  id: 'suzaka-minna-hanabi',
  name: '第38回须坂大家花火大会',
-  japaneseName: '第38回須坂みんなの花火大会',
  englishName: 'The 38th Suzaka Minna Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第38回須坂みんなの花火大会'
+  },
  year: 2025,
  date: '2025年7月20日',
  time: '19:45-20:30',

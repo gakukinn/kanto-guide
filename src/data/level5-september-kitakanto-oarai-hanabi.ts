@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const oaraiHanabiData: HanabiData = {
   id: 'oarai-hanabi-september',
   name: '大洗海上花火大会2025〜千櫓祭〜',
-  japaneseName: '大洗海上花火大会2025〜千櫓祭〜',
   englishName: 'Oarai Marine Fireworks Festival 2025 - Senyagura Festival',
+  _sourceData: {
+    japaneseName: '大洗海上花火大会2025〜千櫓祭〜'
+  },
   year: 2025,
   date: '9月27日(土)',
   time: '18:00～19:30',

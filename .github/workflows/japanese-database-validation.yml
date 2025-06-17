@@ -1,0 +1,168 @@
+name: 日文数据库验证系统
+
+on:
+  # 定时执行：每周一凌晨2点（UTC时间）
+  schedule:
+    - cron: '0 2 * * 1'
+  
+  # 手动触发
+  workflow_dispatch:
+    inputs:
+      regions:
+        description: '指定验证的地区（用逗号分隔，留空则验证所有地区）'
+        required: false
+        default: ''
+      validation_mode:
+        description: '验证模式'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full
+          - quick
+          - data_only
+
+jobs:
+  validate-japanese-database:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+
+    - name: 设置Node.js环境
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: 安装依赖
+      run: |
+        npm ci
+        npm install sqlite3 sqlite crawlee playwright cheerio
+
+    - name: 安装Playwright浏览器
+      run: npx playwright install --with-deps chromium
+
+    - name: 创建数据库目录
+      run: mkdir -p src/database
+
+    - name: 运行日文数据库验证
+      env:
+        VALIDATION_REGIONS: ${{ github.event.inputs.regions }}
+        VALIDATION_MODE: ${{ github.event.inputs.validation_mode || 'full' }}
+        NODE_ENV: production
+      run: |
+        echo "🚀 开始执行日文数据库验证..."
+        node scripts/japanese-database-validation-system.js
+        echo "✅ 验证完成"
+
+    - name: 生成验证报告摘要
+      run: |
+        if [ -f "docs/japanese-database-validation-report.json" ]; then
+          echo "📊 验证报告摘要:" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+          head -20 docs/japanese-database-validation-report.json >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+        fi
+
+    - name: 上传验证结果
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: japanese-validation-results-${{ github.run_number }}
+        path: |
+          docs/japanese-database-validation-report.json
+          src/database/japanese-validation.db
+        retention-days: 30
+
+    - name: 提交验证结果到仓库
+      if: success()
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # 添加验证报告
+        git add docs/japanese-database-validation-report.json
+        
+        # 检查是否有变更
+        if git diff --staged --quiet; then
+          echo "没有新的验证结果需要提交"
+        else
+          git commit -m "🤖 自动更新日文数据库验证报告 - $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
+
+    - name: 发送通知（如果有数据不一致）
+      if: failure()
+      run: |
+        echo "⚠️ 日文数据库验证发现问题，请检查验证报告"
+        # 这里可以添加发送邮件或Slack通知的逻辑
+
+  # 可选：生成可视化报告
+  generate-visual-report:
+    needs: validate-japanese-database
+    runs-on: ubuntu-latest
+    if: always()
+
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+
+    - name: 下载验证结果
+      uses: actions/download-artifact@v4
+      with:
+        name: japanese-validation-results-${{ github.run_number }}
+        path: ./validation-results
+
+    - name: 生成可视化报告
+      run: |
+        # 这里可以添加生成图表和可视化报告的脚本
+        echo "📈 生成可视化验证报告..."
+        
+        # 示例：创建简单的HTML报告
+        cat > validation-report.html << 'EOF'
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>日文数据库验证报告</title>
+            <meta charset="utf-8">
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .summary { background: #f5f5f5; padding: 15px; border-radius: 5px; }
+                .success { color: #28a745; }
+                .warning { color: #ffc107; }
+                .error { color: #dc3545; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <h1>🗾 日文数据库验证报告</h1>
+            <div class="summary">
+                <h2>验证摘要</h2>
+                <p>生成时间: $(date)</p>
+                <p>验证状态: <span class="success">✅ 完成</span></p>
+            </div>
+            
+            <h2>详细结果</h2>
+            <p>详细的验证结果请查看下载的JSON报告文件。</p>
+            
+            <h2>建议操作</h2>
+            <ul>
+                <li>检查数据不一致的项目</li>
+                <li>更新本地数据以匹配WalkerPlus官方信息</li>
+                <li>验证官方网站和地图链接的有效性</li>
+            </ul>
+        </body>
+        </html>
+        EOF
+
+    - name: 上传可视化报告
+      uses: actions/upload-artifact@v4
+      with:
+        name: validation-visual-report-${{ github.run_number }}
+        path: validation-report.html
+        retention-days: 30 

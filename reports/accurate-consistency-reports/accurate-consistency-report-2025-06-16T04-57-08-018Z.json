@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2025-06-16T04:57:08.018Z",
+  "summary": {
+    "totalEvents": 3,
+    "excellentConsistency": 0,
+    "goodConsistency": 1,
+    "fairConsistency": 2,
+    "poorConsistency": 0,
+    "averageDataQuality": 0.32,
+    "hasOfficialData": 3,
+    "hasWalkerPlusData": 3
+  },
+  "results": [
+    {
+      "eventId": "numata-hanabi-2025",
+      "eventName": "第13回沼田花火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "date": "",
+          "location": "",
+          "source": "official_website",
+          "url": "https://www.city.numata.gunma.jp/",
+          "extractedAt": "2025-06-16T04:56:55.139Z",
+          "dataQuality": "failed",
+          "error": "spawn wmic.exe ENOENT"
+        },
+        {
+          "date": "",
+          "location": "",
+          "source": "walkerplus",
+          "url": "https://hanabi.walkerplus.com/detail/ar0310e40188/",
+          "extractedAt": "2025-06-16T04:56:57.298Z",
+          "dataQuality": "failed",
+          "error": "spawn wmic.exe ENOENT"
+        },
+        {
+          "date": "2025年9月13日",
+          "location": "群馬県沼田市/沼田市運動公園",
+          "source": "four_layer_detail",
+          "file": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:56:59.299Z",
+          "dataQuality": "high"
+        },
+        {
+          "date": "",
+          "location": "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火",
+          "source": "seo_description",
+          "file": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:56:59.300Z",
+          "dataQuality": "medium"
+        },
+        {
+          "date": "",
+          "location": "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+          "source": "three_layer_list",
+          "file": "src/app/kitakanto/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:56:59.300Z",
+          "dataQuality": "low"
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年9月13日"
+        ],
+        "mostCommon": "2025年9月13日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.3333333333333333,
+        "uniqueValues": [
+          "群馬県沼田市/沼田市運動公園",
+          "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火",
+          "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会"
+        ],
+        "mostCommon": "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+        "conflicts": [
+          "群馬県沼田市/沼田市運動公園",
+          "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火"
+        ],
+        "totalValues": 3
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个数据源中不一致",
+        "数据质量较低，缺少权威数据源"
+      ],
+      "recommendations": [
+        "请核实官方网站或WalkerPlus的准确地点信息",
+        "建议补充官方网站或WalkerPlus的准确信息"
+      ],
+      "dataQualityScore": 0.32
+    },
+    {
+      "eventId": "oarai-hanabi-2025",
+      "eventName": "大洗海上花火大会2025",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "date": "",
+          "location": "",
+          "source": "official_website",
+          "url": "https://www.oarai-info.jp/",
+          "extractedAt": "2025-06-16T04:56:59.446Z",
+          "dataQuality": "failed",
+          "error": "spawn wmic.exe ENOENT"
+        },
+        {
+          "date": "",
+          "location": "",
+          "source": "walkerplus",
+          "url": "https://hanabi.walkerplus.com/detail/ar0308e00860/",
+          "extractedAt": "2025-06-16T04:57:01.614Z",
+          "dataQuality": "failed",
+          "error": "spawn wmic.exe ENOENT"
+        },
+        {
+          "date": "2025年9月27日",
+          "location": "茨城県大洗町/大洗阳光海滩",
+          "source": "four_layer_detail",
+          "file": "src/app/kitakanto/hanabi/oarai-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:57:03.614Z",
+          "dataQuality": "high"
+        },
+        {
+          "date": "",
+          "location": "",
+          "source": "seo_description",
+          "file": "src/app/kitakanto/hanabi/oarai-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:57:03.614Z",
+          "dataQuality": "medium"
+        },
+        {
+          "date": "",
+          "location": "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+          "source": "three_layer_list",
+          "file": "src/app/kitakanto/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:57:03.615Z",
+          "dataQuality": "low"
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年9月27日"
+        ],
+        "mostCommon": "2025年9月27日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "茨城県大洗町/大洗阳光海滩",
+          "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会"
+        ],
+        "mostCommon": "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+        "conflicts": [
+          "茨城県大洗町/大洗阳光海滩"
+        ],
+        "totalValues": 2
+      },
+      "overallConsistency": "good",
+      "issues": [
+        "地点信息在多个数据源中不一致",
+        "数据质量较低，缺少权威数据源"
+      ],
+      "recommendations": [
+        "请核实官方网站或WalkerPlus的准确地点信息",
+        "建议补充官方网站或WalkerPlus的准确信息"
+      ],
+      "dataQualityScore": 0.32
+    },
+    {
+      "eventId": "urayasu-hanabi",
+      "eventName": "第42回浦安市花火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "date": "",
+          "location": "",
+          "source": "official_website",
+          "url": "https://www.city.urayasu.lg.jp/",
+          "extractedAt": "2025-06-16T04:57:03.809Z",
+          "dataQuality": "failed",
+          "error": "spawn wmic.exe ENOENT"
+        },
+        {
+          "date": "",
+          "location": "",
+          "source": "walkerplus",
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00806/",
+          "extractedAt": "2025-06-16T04:57:06.003Z",
+          "dataQuality": "failed",
+          "error": "spawn wmic.exe ENOENT"
+        },
+        {
+          "date": "2025年10月19日(土)",
+          "location": "浦安市日之出明海地区",
+          "source": "four_layer_detail",
+          "file": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:57:08.016Z",
+          "dataQuality": "high"
+        },
+        {
+          "date": "",
+          "location": "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空",
+          "source": "seo_description",
+          "file": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:57:08.017Z",
+          "dataQuality": "medium"
+        },
+        {
+          "date": "",
+          "location": "千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+          "source": "three_layer_list",
+          "file": "src/app/chiba/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:57:08.017Z",
+          "dataQuality": "low"
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年10月19日(土)"
+        ],
+        "mostCommon": "2025年10月19日(土)",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.3333333333333333,
+        "uniqueValues": [
+          "浦安市日之出明海地区",
+          "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空",
+          "千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆"
+        ],
+        "mostCommon": "千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+        "conflicts": [
+          "浦安市日之出明海地区",
+          "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空"
+        ],
+        "totalValues": 3
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个数据源中不一致",
+        "数据质量较低，缺少权威数据源"
+      ],
+      "recommendations": [
+        "请核实官方网站或WalkerPlus的准确地点信息",
+        "建议补充官方网站或WalkerPlus的准确信息"
+      ],
+      "dataQualityScore": 0.32
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "数据权威性",
+      "message": "3 个活动缺少权威数据源验证",
+      "affectedEvents": [
+        "numata-hanabi-2025",
+        "oarai-hanabi-2025",
+        "urayasu-hanabi"
+      ]
+    }
+  ],
+  "systemInfo": {
+    "version": "2.1-fixed",
+    "technicalIssuesFixed": [
+      "PlaywrightCrawler configuration",
+      "memory optimization",
+      "enhanced error handling"
+    ]
+  }
+}

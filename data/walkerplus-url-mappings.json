@@ -1,0 +1,1152 @@
+{
+  "metadata": {
+    "generatedAt": "2025-06-16T04:33:58.549Z",
+    "totalMappings": 113,
+    "version": "1.0.0"
+  },
+  "regionCodes": {
+    "ar0313": "东京",
+    "ar0311": "埼玉",
+    "ar0312": "千叶",
+    "ar0314": "神奈川",
+    "ar0308": "茨城",
+    "ar0309": "栃木",
+    "ar0310": "群马",
+    "ar0415": "新潟",
+    "ar0419": "山梨",
+    "ar0420": "长野",
+    "ar0400": "甲信越"
+  },
+  "mappings": {
+    "ar0312e00895": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00895/",
+      "eventCode": "ar0312e00895",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00895",
+      "eventName": "第126回 水郷的花火大会",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-august-chiba-omigawa-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.487Z"
+    },
+    "ar0312e00916": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00916/",
+      "eventCode": "ar0312e00916",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00916",
+      "eventName": "手贺沼花火大会2025",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-august-hanabi-kisarazu.ts",
+      "extractedAt": "2025-06-16T04:33:58.488Z"
+    },
+    "ar0312e00869": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00869/",
+      "eventCode": "ar0312e00869",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00869",
+      "eventName": "幕张海滩花火节2025(第47回千叶市民花火大会)",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-august-hanabi-makuhari-beach.ts",
+      "extractedAt": "2025-06-16T04:33:58.488Z"
+    },
+    "ar0312e00979": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00979/",
+      "eventCode": "ar0312e00979",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00979",
+      "eventName": "松户花火大会2025",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-august-hanabi-matsudo.ts",
+      "extractedAt": "2025-06-16T04:33:58.489Z"
+    },
+    "ar0312e07621": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e07621/",
+      "eventCode": "ar0312e07621",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "07621",
+      "eventName": "第41回市川市民纳凉花火大会",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-august-hanabi-narashino.ts",
+      "extractedAt": "2025-06-16T04:33:58.489Z"
+    },
+    "ar0312e00930": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00930/",
+      "eventCode": "ar0312e00930",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00930",
+      "eventName": "手贺沼花火大会2025",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-august-hanabi-teganuma.ts",
+      "extractedAt": "2025-06-16T04:33:58.490Z"
+    },
+    "ar0312e00786": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00786/",
+      "eventCode": "ar0312e00786",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00786",
+      "eventName": "横滨、八景岛海洋天堂「花火交响曲」",
+      "sourceFile": "src\\data\\hanabi\\kanagawa\\level4-july-hanabi-kanagawa-seaparadise.ts",
+      "extractedAt": "2025-06-16T04:33:58.495Z"
+    },
+    "ar0312e00791": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00791/",
+      "eventCode": "ar0312e00791",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00791",
+      "eventName": "富津市民花火大会",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-shirahama.ts",
+      "extractedAt": "2025-06-16T04:33:58.492Z"
+    },
+    "ar0312e00785": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00785/",
+      "eventCode": "ar0312e00785",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00785",
+      "eventName": "富津市民花火大会",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-july-hanabi-futtsu.ts",
+      "extractedAt": "2025-06-16T04:33:58.493Z"
+    },
+    "ar0312e00989": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00989/",
+      "eventCode": "ar0312e00989",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00989",
+      "eventName": "第42回浦安市花火大会",
+      "sourceFile": "src\\data\\hanabi\\chiba\\level4-october-chiba-urayasu-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.493Z"
+    },
+    "ar0314e00880": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00880/",
+      "eventCode": "ar0314e00880",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00880",
+      "eventName": "2025久里浜佩里祭花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa\\level4-august-kurihama-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.494Z"
+    },
+    "ar0314e00792": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00792/",
+      "eventCode": "ar0314e00792",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00792",
+      "eventName": "第77回 镰仓花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa\\level4-july-hanabi-kanagawa-kamakura.ts",
+      "extractedAt": "2025-06-16T04:33:58.494Z"
+    },
+    "ar0314e356531": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e356531/",
+      "eventCode": "ar0314e356531",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "356531",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.496Z"
+    },
+    "ar0314e00244": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00244/",
+      "eventCode": "ar0314e00244",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00244",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.496Z"
+    },
+    "ar0314e00243": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00243/",
+      "eventCode": "ar0314e00243",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00243",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.496Z"
+    },
+    "ar0314e00875": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00875/",
+      "eventCode": "ar0314e00875",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00875",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.496Z"
+    },
+    "ar0314e00246": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00246/",
+      "eventCode": "ar0314e00246",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00246",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.496Z"
+    },
+    "ar0314e00248": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00248/",
+      "eventCode": "ar0314e00248",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00248",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00247": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00247/",
+      "eventCode": "ar0314e00247",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00247",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00249": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00249/",
+      "eventCode": "ar0314e00249",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00249",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00250": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00250/",
+      "eventCode": "ar0314e00250",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00250",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00251": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00251/",
+      "eventCode": "ar0314e00251",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00251",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00252": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00252/",
+      "eventCode": "ar0314e00252",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00252",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00253": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00253/",
+      "eventCode": "ar0314e00253",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00253",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00254": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00254/",
+      "eventCode": "ar0314e00254",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00254",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00255": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00255/",
+      "eventCode": "ar0314e00255",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00255",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.497Z"
+    },
+    "ar0314e00256": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00256/",
+      "eventCode": "ar0314e00256",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00256",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00257": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00257/",
+      "eventCode": "ar0314e00257",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00257",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00258": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00258/",
+      "eventCode": "ar0314e00258",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00258",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00259": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00259/",
+      "eventCode": "ar0314e00259",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00259",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00260": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00260/",
+      "eventCode": "ar0314e00260",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00260",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00261": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00261/",
+      "eventCode": "ar0314e00261",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00261",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00906": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00906/",
+      "eventCode": "ar0314e00906",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00906",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00279": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00279/",
+      "eventCode": "ar0314e00279",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00279",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00877": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00877/",
+      "eventCode": "ar0314e00877",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00877",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e00265": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00265/",
+      "eventCode": "ar0314e00265",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00265",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.498Z"
+    },
+    "ar0314e544913": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e544913/",
+      "eventCode": "ar0314e544913",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "544913",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e00859": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00859/",
+      "eventCode": "ar0314e00859",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00859",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e357293": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e357293/",
+      "eventCode": "ar0314e357293",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "357293",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e00919": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00919/",
+      "eventCode": "ar0314e00919",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00919",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e356551": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e356551/",
+      "eventCode": "ar0314e356551",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "356551",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e08711": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e08711/",
+      "eventCode": "ar0314e08711",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "08711",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e54026": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e54026/",
+      "eventCode": "ar0314e54026",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "54026",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e541039": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e541039/",
+      "eventCode": "ar0314e541039",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "541039",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e00928": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00928/",
+      "eventCode": "ar0314e00928",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00928",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.499Z"
+    },
+    "ar0314e00505": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e00505/",
+      "eventCode": "ar0314e00505",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "00505",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.500Z"
+    },
+    "ar0314e483125": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0314e483125/",
+      "eventCode": "ar0314e483125",
+      "regionCode": "ar0314",
+      "regionName": "神奈川",
+      "eventId": "483125",
+      "eventName": "第36回 小田原酒匂川花火大会",
+      "sourceFile": "src\\data\\hanabi\\kanagawa-hanabi-launch-ranking.ts",
+      "extractedAt": "2025-06-16T04:33:58.500Z"
+    },
+    "ar0308e01029": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0308e01029/",
+      "eventCode": "ar0308e01029",
+      "regionCode": "ar0308",
+      "regionName": "茨城",
+      "eventId": "01029",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.530Z"
+    },
+    "ar0308e00896": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0308e00896/",
+      "eventCode": "ar0308e00896",
+      "regionCode": "ar0308",
+      "regionName": "茨城",
+      "eventId": "00896",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.530Z"
+    },
+    "ar0300e00813": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0300e00813/",
+      "eventCode": "ar0300e00813",
+      "regionCode": "ar0300",
+      "regionName": "未知地区",
+      "eventId": "00813",
+      "eventName": "水戸偕楽園花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-mito-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.502Z"
+    },
+    "ar0309e00887": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0309e00887/",
+      "eventCode": "ar0309e00887",
+      "regionCode": "ar0309",
+      "regionName": "栃木",
+      "eventId": "00887",
+      "eventName": "真岡市夏祭大花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-moka-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.502Z"
+    },
+    "ar0300e00814": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0300e00814/",
+      "eventCode": "ar0300e00814",
+      "regionCode": "ar0300",
+      "regionName": "未知地区",
+      "eventId": "00814",
+      "eventName": "真岡市夏祭大花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-moka-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.502Z"
+    },
+    "ar0310e40188": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0310e40188/",
+      "eventCode": "ar0310e40188",
+      "regionCode": "ar0310",
+      "regionName": "群马",
+      "eventId": "40188",
+      "eventName": "第13回沼田花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-numata-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.503Z"
+    },
+    "ar0309e00890": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+      "eventCode": "ar0309e00890",
+      "regionCode": "ar0309",
+      "regionName": "栃木",
+      "eventId": "00890",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.531Z"
+    },
+    "ar0309e00579": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0309e00579/",
+      "eventCode": "ar0309e00579",
+      "regionCode": "ar0309",
+      "regionName": "栃木",
+      "eventId": "00579",
+      "eventName": "第31回龙胆湖花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-rindoko-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.504Z"
+    },
+    "ar0310e00986": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0310e00986/",
+      "eventCode": "ar0310e00986",
+      "regionCode": "ar0310",
+      "regionName": "群马",
+      "eventId": "00986",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.531Z"
+    },
+    "ar0300e00812": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0300e00812/",
+      "eventCode": "ar0300e00812",
+      "regionCode": "ar0300",
+      "regionName": "未知地区",
+      "eventId": "00812",
+      "eventName": "玉村花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-tamura-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.505Z"
+    },
+    "ar0310e305052": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0310e305052/",
+      "eventCode": "ar0310e305052",
+      "regionCode": "ar0310",
+      "regionName": "群马",
+      "eventId": "305052",
+      "eventName": "館林手筒花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-tatebayashi-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.505Z"
+    },
+    "ar0300e00815": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0300e00815/",
+      "eventCode": "ar0300e00815",
+      "regionCode": "ar0300",
+      "regionName": "未知地区",
+      "eventId": "00815",
+      "eventName": "館林手筒花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\level4-tatebayashi-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.505Z"
+    },
+    "ar0310e00917": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0310e00917/",
+      "eventCode": "ar0310e00917",
+      "regionCode": "ar0310",
+      "regionName": "群马",
+      "eventId": "00917",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.531Z"
+    },
+    "ar0308e01044": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
+      "eventCode": "ar0308e01044",
+      "regionCode": "ar0308",
+      "regionName": "茨城",
+      "eventId": "01044",
+      "eventName": "第38回 利根川大花火大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\tonegawa-hanabi-2025.ts",
+      "extractedAt": "2025-06-16T04:33:58.507Z"
+    },
+    "ar0308e00914": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0308e00914/",
+      "eventCode": "ar0308e00914",
+      "regionCode": "ar0308",
+      "regionName": "茨城",
+      "eventId": "00914",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.530Z"
+    },
+    "ar0308e00280": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0308e00280/",
+      "eventCode": "ar0308e00280",
+      "regionCode": "ar0308",
+      "regionName": "茨城",
+      "eventId": "00280",
+      "eventName": "第94回 土浦全国花火竞技大会",
+      "sourceFile": "src\\data\\hanabi\\kitakanto\\tsuchiura-hanabi-2025.ts",
+      "extractedAt": "2025-06-16T04:33:58.508Z"
+    },
+    "ar0415e00663": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0415e00663/",
+      "eventCode": "ar0415e00663",
+      "regionCode": "ar0415",
+      "regionName": "新潟",
+      "eventId": "00663",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.544Z"
+    },
+    "ar0419e00910": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0419e00910/",
+      "eventCode": "ar0419e00910",
+      "regionCode": "ar0419",
+      "regionName": "山梨",
+      "eventId": "00910",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.544Z"
+    },
+    "ar0419e00681": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0419e00681/",
+      "eventCode": "ar0419e00681",
+      "regionCode": "ar0419",
+      "regionName": "山梨",
+      "eventId": "00681",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.543Z"
+    },
+    "ar0419e549588": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0419e549588/",
+      "eventCode": "ar0419e549588",
+      "regionCode": "ar0419",
+      "regionName": "山梨",
+      "eventId": "549588",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.545Z"
+    },
+    "ar0400e00809": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0400e00809/",
+      "eventCode": "ar0400e00809",
+      "regionCode": "ar0400",
+      "regionName": "甲信越",
+      "eventId": "00809",
+      "eventName": "动漫经典动画歌曲花火",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-anime-classics-anisong-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.510Z"
+    },
+    "ar0312e01102": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e01102/",
+      "eventCode": "ar0312e01102",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "01102",
+      "eventName": "第41回市川市民纳凉花火大会",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-august-hanabi-ichikawa.ts",
+      "extractedAt": "2025-06-16T04:33:58.511Z"
+    },
+    "ar0415e00665": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0415e00665/",
+      "eventCode": "ar0415e00665",
+      "regionCode": "ar0415",
+      "regionName": "新潟",
+      "eventId": "00665",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.544Z"
+    },
+    "ar0415e00666": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0415e00666/",
+      "eventCode": "ar0415e00666",
+      "regionCode": "ar0415",
+      "regionName": "新潟",
+      "eventId": "00666",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.545Z"
+    },
+    "ar0420e00685": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0420e00685/",
+      "eventCode": "ar0420e00685",
+      "regionCode": "ar0420",
+      "regionName": "长野",
+      "eventId": "00685",
+      "eventName": "上田市诞生20周年纪念第38回信州上田大花火大会",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-august-ueda-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.513Z"
+    },
+    "ar0400e00806": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0400e00806/",
+      "eventCode": "ar0400e00806",
+      "regionCode": "ar0400",
+      "regionName": "甲信越",
+      "eventId": "00806",
+      "eventName": "祇园柏崎祭海之大花火大会",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-gion-kashiwazaki-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.514Z"
+    },
+    "ar0400e00811": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0400e00811/",
+      "eventCode": "ar0400e00811",
+      "regionCode": "ar0400",
+      "regionName": "甲信越",
+      "eventId": "00811",
+      "eventName": "第101回野尻湖花火大会",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-nojiri-lake-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.514Z"
+    },
+    "ar0400e00810": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0400e00810/",
+      "eventCode": "ar0400e00810",
+      "regionCode": "ar0400",
+      "regionName": "甲信越",
+      "eventId": "00810",
+      "eventName": "三条市合并20周年记念第21回三条夏祭大花火大会",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-sanjo-natsumatsuri-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.515Z"
+    },
+    "ar0415e00667": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0415e00667/",
+      "eventCode": "ar0415e00667",
+      "regionCode": "ar0415",
+      "regionName": "新潟",
+      "eventId": "00667",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.546Z"
+    },
+    "ar0420e00806": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0420e00806/",
+      "eventCode": "ar0420e00806",
+      "regionCode": "ar0420",
+      "regionName": "长野",
+      "eventId": "00806",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.545Z"
+    },
+    "ar0420e467527": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0420e467527/",
+      "eventCode": "ar0420e467527",
+      "regionCode": "ar0420",
+      "regionName": "长野",
+      "eventId": "467527",
+      "eventName": "第38回须坂大家花火大会",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-suzaka-minna-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.516Z"
+    },
+    "ar0400e00808": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0400e00808/",
+      "eventCode": "ar0400e00808",
+      "regionCode": "ar0400",
+      "regionName": "甲信越",
+      "eventId": "00808",
+      "eventName": "第38回须坂大家花火大会",
+      "sourceFile": "src\\data\\hanabi\\koshinetsu\\level4-suzaka-minna-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.516Z"
+    },
+    "ar0420e01112": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0420e01112/",
+      "eventCode": "ar0420e01112",
+      "regionCode": "ar0420",
+      "regionName": "长野",
+      "eventId": "01112",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.544Z"
+    },
+    "ar0312e00411": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00411/",
+      "eventCode": "ar0312e00411",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00411",
+      "eventName": "铫子港祭花火大会",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-august-hanabi-choshi-minato.ts",
+      "extractedAt": "2025-06-16T04:33:58.518Z"
+    },
+    "ar0311e00805": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00805/",
+      "eventCode": "ar0311e00805",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00805",
+      "eventName": "入间基地纳凉祭~盆踊与花火之夜",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-july-hanabi-iruma-base.ts",
+      "extractedAt": "2025-06-16T04:33:58.520Z"
+    },
+    "ar0311e00801": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00801/",
+      "eventCode": "ar0311e00801",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00801",
+      "eventName": "越谷花火大会",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-july-hanabi-koshigaya.ts",
+      "extractedAt": "2025-06-16T04:33:58.520Z"
+    },
+    "ar0311e00804": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00804/",
+      "eventCode": "ar0311e00804",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00804",
+      "eventName": "梅兹塔北欧花火2025",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-july-hanabi-metsza-nordic.ts",
+      "extractedAt": "2025-06-16T04:33:58.521Z"
+    },
+    "ar0311e00802": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00802/",
+      "eventCode": "ar0311e00802",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00802",
+      "eventName": "第77回小川町七夕祭花火大会",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-july-hanabi-ogawa-tanabata.ts",
+      "extractedAt": "2025-06-16T04:33:58.521Z"
+    },
+    "ar0311e00800": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00800/",
+      "eventCode": "ar0311e00800",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00800",
+      "eventName": "埼玉市花火大会大和田公园会场",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-july-hanabi-saitama-owada.ts",
+      "extractedAt": "2025-06-16T04:33:58.521Z"
+    },
+    "ar0311e00803": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00803/",
+      "eventCode": "ar0311e00803",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00803",
+      "eventName": "梅兹塔北欧花火",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-july-hanabi-seibu-en.ts",
+      "extractedAt": "2025-06-16T04:33:58.522Z"
+    },
+    "ar0311e471906": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e471906/",
+      "eventCode": "ar0311e471906",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "471906",
+      "eventName": "梅兹塔北欧花火2025",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-september-saitama-metsa-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.522Z"
+    },
+    "ar0311e00439": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00439/",
+      "eventCode": "ar0311e00439",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00439",
+      "eventName": "埼玉市花火大会",
+      "sourceFile": "src\\data\\hanabi\\saitama\\level4-september-saitama-seibu-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.523Z"
+    },
+    "ar0311e516645": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e516645/",
+      "eventCode": "ar0311e516645",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "516645",
+      "eventName": "姆明谷的湖上花火大会～夏～",
+      "sourceFile": "src\\data\\hanabi\\saitama\\saitama-moomin-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.523Z"
+    },
+    "ar0311e00513": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0311e00513/",
+      "eventCode": "ar0311e00513",
+      "regionCode": "ar0311",
+      "regionName": "埼玉",
+      "eventId": "00513",
+      "eventName": "埼玉市花火大会大和田公园会场",
+      "sourceFile": "src\\data\\hanabi\\saitama\\saitama-owada-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.524Z"
+    },
+    "ar0313e00898": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00898/",
+      "eventCode": "ar0313e00898",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "00898",
+      "eventName": "第53回 昭岛市民鲸鱼祭梦花火",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\level4-august-akishima-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.524Z"
+    },
+    "ar0313e00795": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00795/",
+      "eventCode": "ar0313e00795",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "00795",
+      "eventName": null,
+      "sourceFile": "src\\utils\\six-layer-data-consistency-checker.ts",
+      "extractedAt": "2025-06-16T04:33:58.549Z"
+    },
+    "ar0313e00816": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00816/",
+      "eventCode": "ar0313e00816",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "00816",
+      "eventName": "御蔵島花火大会",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-mikurajima.ts",
+      "extractedAt": "2025-06-16T04:33:58.526Z"
+    },
+    "ar0313e00798": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00798/",
+      "eventCode": "ar0313e00798",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "00798",
+      "eventName": "立川祭典 国営昭和記念公園花火大会",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-tachikawa-showa.ts",
+      "extractedAt": "2025-06-16T04:33:58.526Z"
+    },
+    "ar0313e00799": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00799/",
+      "eventCode": "ar0313e00799",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "00799",
+      "eventName": "八王子花火大会",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-tokyo-hachioji.ts",
+      "extractedAt": "2025-06-16T04:33:58.527Z"
+    },
+    "ar0313e436729": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e436729/",
+      "eventCode": "ar0313e436729",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "436729",
+      "eventName": null,
+      "sourceFile": "src\\utils\\six-layer-data-consistency-checker.ts",
+      "extractedAt": "2025-06-16T04:33:58.549Z"
+    },
+    "ar0313e00797": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00797/",
+      "eventCode": "ar0313e00797",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "00797",
+      "eventName": null,
+      "sourceFile": "src\\utils\\six-layer-data-consistency-checker.ts",
+      "extractedAt": "2025-06-16T04:33:58.549Z"
+    },
+    "ar0313e00881": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e00881/",
+      "eventCode": "ar0313e00881",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "00881",
+      "eventName": "第40回调布花火",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\level4-september-tokyo-chofu-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.528Z"
+    },
+    "ar0313e355272": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e355272/",
+      "eventCode": "ar0313e355272",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "355272",
+      "eventName": "第48回多摩川花火大会",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\tokyo-tamagawa-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.529Z"
+    },
+    "ar0313e01074": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e01074/",
+      "eventCode": "ar0313e01074",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "01074",
+      "eventName": "夏休神宫花火夜场",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\tokyo-jingu-yakyujo-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.529Z"
+    },
+    "ar0313e322754": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0313e322754/",
+      "eventCode": "ar0313e322754",
+      "regionCode": "ar0313",
+      "regionName": "东京",
+      "eventId": "322754",
+      "eventName": "第11回北区花火会",
+      "sourceFile": "src\\data\\hanabi\\tokyo\\tokyo-kita-hanabi.ts",
+      "extractedAt": "2025-06-16T04:33:58.529Z"
+    },
+    "ar0309e00801": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0309e00801/",
+      "eventCode": "ar0309e00801",
+      "regionCode": "ar0309",
+      "regionName": "栃木",
+      "eventId": "00801",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.531Z"
+    },
+    "ar0309e00802": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0309e00802/",
+      "eventCode": "ar0309e00802",
+      "regionCode": "ar0309",
+      "regionName": "栃木",
+      "eventId": "00802",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.531Z"
+    },
+    "ar0308e00248": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0308e00248/",
+      "eventCode": "ar0308e00248",
+      "regionCode": "ar0308",
+      "regionName": "茨城",
+      "eventId": "00248",
+      "eventName": "利根川大花火大会",
+      "sourceFile": "src\\data\\kitakanto-hanabi.json",
+      "extractedAt": "2025-06-16T04:33:58.531Z"
+    },
+    "ar0312e00921": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00921/",
+      "eventCode": "ar0312e00921",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00921",
+      "eventName": "第50回八千代故乡親子祭 - 千叶县八千代市花火大会详情",
+      "sourceFile": "src\\data\\level4-august-chiba-yachiyo-furusato.ts",
+      "extractedAt": "2025-06-16T04:33:58.533Z"
+    },
+    "ar0312e00249": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0312e00249/",
+      "eventCode": "ar0312e00249",
+      "regionCode": "ar0312",
+      "regionName": "千叶",
+      "eventId": "00249",
+      "eventName": "旭市YOU遊节庆2025 海浜花火大会",
+      "sourceFile": "src\\data\\level4-october-chiba-asahi-iioka-you-yu.ts",
+      "extractedAt": "2025-06-16T04:33:58.535Z"
+    },
+    "ar0308e00123": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0308e00123/",
+      "eventCode": "ar0308e00123",
+      "regionCode": "ar0308",
+      "regionName": "茨城",
+      "eventId": "00123",
+      "eventName": "第109回足利花火大会",
+      "sourceFile": "src\\examples\\data-validation-example.ts",
+      "extractedAt": "2025-06-16T04:33:58.537Z"
+    },
+    "ar0415e00061": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0415e00061/",
+      "eventCode": "ar0415e00061",
+      "regionCode": "ar0415",
+      "regionName": "新潟",
+      "eventId": "00061",
+      "eventName": "花火详情页面配置接口\r\ninterface HanabiDetailPageConfig {\r\n  id: string;\r\n  region: string;\r\n  slug: string;\r\n  officialWebsite?: string;\r\n  walkerPlusUrl?: string;\r\n  isActive: boolean;\r\n  createdDate: string;\r\n}",
+      "sourceFile": "src\\utils\\hanabi-link-manager.ts",
+      "extractedAt": "2025-06-16T04:33:58.546Z"
+    },
+    "ar0415e00060": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0415e00060/",
+      "eventCode": "ar0415e00060",
+      "regionCode": "ar0415",
+      "regionName": "新潟",
+      "eventId": "00060",
+      "eventName": "花火详情页面配置接口\r\ninterface HanabiDetailPageConfig {\r\n  id: string;\r\n  region: string;\r\n  slug: string;\r\n  officialWebsite?: string;\r\n  walkerPlusUrl?: string;\r\n  isActive: boolean;\r\n  createdDate: string;\r\n}",
+      "sourceFile": "src\\utils\\hanabi-link-manager.ts",
+      "extractedAt": "2025-06-16T04:33:58.547Z"
+    },
+    "ar0419e00075": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0419e00075/",
+      "eventCode": "ar0419e00075",
+      "regionCode": "ar0419",
+      "regionName": "山梨",
+      "eventId": "00075",
+      "eventName": "花火详情页面配置接口\r\ninterface HanabiDetailPageConfig {\r\n  id: string;\r\n  region: string;\r\n  slug: string;\r\n  officialWebsite?: string;\r\n  walkerPlusUrl?: string;\r\n  isActive: boolean;\r\n  createdDate: string;\r\n}",
+      "sourceFile": "src\\utils\\hanabi-link-manager.ts",
+      "extractedAt": "2025-06-16T04:33:58.547Z"
+    },
+    "ar0419e00682": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0419e00682/",
+      "eventCode": "ar0419e00682",
+      "regionCode": "ar0419",
+      "regionName": "山梨",
+      "eventId": "00682",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.545Z"
+    },
+    "ar0420e00911": {
+      "url": "https://hanabi.walkerplus.com/detail/ar0420e00911/",
+      "eventCode": "ar0420e00911",
+      "regionCode": "ar0420",
+      "regionName": "长野",
+      "eventId": "00911",
+      "eventName": "花火详情页面注册表\r\nconst HANABI_DETAIL_PAGES = [",
+      "sourceFile": "src\\utils\\hanabi-link-manager.js",
+      "extractedAt": "2025-06-16T04:33:58.546Z"
+    }
+  }
+}

@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const eventData: HanabiData = {
   id: 'atsugi-ayu-matsuri',
   name: '市制70周年記念 第79回 あつぎ鮎まつり',
-  japaneseName: '市制70周年記念 第79回 あつぎ鮎まつり',
   englishName: 'Atsugi Ayu Festival',
+  _sourceData: {
+    japaneseName: '市制70周年記念 第79回 あつぎ鮎まつり'
+  },
   title: '市制70周年記念 第79回 あつぎ鮎まつり - 8月神奈川花火大会',
   description: '在厚木市相模川河畔举办的盛大花火大会。约3000发花火点亮夜空，展现厚木市的夏日风情。',
   year: 2025,

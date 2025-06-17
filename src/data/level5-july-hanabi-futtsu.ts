@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const futtsuHanabiData: HanabiData = {
  id: 'futtsu-shimin-hanabi',
  name: '富津市民花火大会',
-  japaneseName: '「東京湾口道路建設促進」第10回 富津市民花火大会',
    englishName: '10th Futtsu Citizens Fireworks Festival',
+  _sourceData: {
+    japaneseName: '「東京湾口道路建設促進」第10回 富津市民花火大会'
+  },
  year: 2025,
  month: 7,
  date: '2025年7月26日',

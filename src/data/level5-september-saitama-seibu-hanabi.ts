@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const seibuHanabiData: HanabiData = {
   id: 'seibu-yuenchi-daika-matsuri-2025',
   name: '西武园游乐园大火祭',
-  japaneseName: '西武園ゆうえんち大火祭り',
   englishName: 'Seibu-en Amusement Park Fire Festival',
+  _sourceData: {
+    japaneseName: '西武園ゆうえんち大火祭り'
+  },
   year: 2025,
   date: "9月13日・14日",
   time: '19:30～约7分钟',

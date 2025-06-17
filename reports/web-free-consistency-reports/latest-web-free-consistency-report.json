@@ -1,0 +1,2115 @@
+{
+  "generatedAt": "2025-06-16T04:59:37.571Z",
+  "summary": {
+    "totalEvents": 18,
+    "excellentConsistency": 0,
+    "goodConsistency": 0,
+    "fairConsistency": 12,
+    "poorConsistency": 6,
+    "averageDataQuality": 0.9237037037037036,
+    "hasOfficialLink": 18,
+    "hasWalkerPlusLink": 18,
+    "averageLinkCompleteness": 1
+  },
+  "results": [
+    {
+      "eventId": "numata-hanabi-2025",
+      "eventName": "第13回沼田花火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://www.city.numata.gunma.jp/",
+          "source": "official_website_link",
+          "file": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.549Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "numata-hanabi-2025",
+          "source": "walkerplus_link",
+          "file": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.550Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025年9月13日",
+          "location": "群馬県沼田市/沼田市運動公園",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.550Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025年9月13日'",
+            "locationMatch": "location: '群馬県沼田市/沼田市運動公園'",
+            "venueMatch": "name: '第13回 沼田花火大会'"
+          }
+        },
+        {
+          "date": "",
+          "location": "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.551Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "利根川河川敷从見沼田花火大会",
+            "description": "美利根川将背景在打上的約7,000発的花火"
+          }
+        },
+        {
+          "date": "",
+          "location": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/kitakanto/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.551Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南",
+            "description": "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会、足利花火大会、高崎花火大会等12个精彩活动。涵盖茨城、栃木、群馬三县，提供详细的时间、地点、观赏攻略，助您规划完美的北关东花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年9月13日"
+        ],
+        "mostCommon": "2025年9月13日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.3333333333333333,
+        "uniqueValues": [
+          "群馬県沼田市/沼田市運動公園",
+          "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火",
+          "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会"
+        ],
+        "mostCommon": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+        "conflicts": [
+          "群馬県沼田市/沼田市運動公園",
+          "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火"
+        ],
+        "totalValues": 3
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.city.numata.gunma.jp/",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "numata-hanabi-2025",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "poor",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "oarai-hanabi-2025",
+      "eventName": "大洗海上花火大会2025",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://www.town.oarai.lg.jp/",
+          "source": "official_website_link",
+          "file": "src/app/kitakanto/hanabi/oarai-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.553Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "oarai-hanabi-2025",
+          "source": "walkerplus_link",
+          "file": "src/app/kitakanto/hanabi/oarai-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.553Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025年9月27日",
+          "location": "茨城県大洗町/大洗阳光海滩",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/kitakanto/hanabi/oarai-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.553Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025年9月27日'",
+            "locationMatch": "location: '茨城県大洗町/大洗阳光海滩'",
+            "venueMatch": "name: '大洗海上花火大会2025〜千櫓祭〜'"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/kitakanto/hanabi/oarai-hanabi-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.553Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "大洗阳光海滩从見花火大会",
+            "description": "太平洋将背景在打上的海上花火"
+          }
+        },
+        {
+          "date": "",
+          "location": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/kitakanto/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.553Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南",
+            "description": "北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会、足利花火大会、高崎花火大会等12个精彩活动。涵盖茨城、栃木、群馬三县，提供详细的时间、地点、观赏攻略，助您规划完美的北关东花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年9月27日"
+        ],
+        "mostCommon": "2025年9月27日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "茨城県大洗町/大洗阳光海滩",
+          "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会"
+        ],
+        "mostCommon": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+        "conflicts": [
+          "茨城県大洗町/大洗阳光海滩"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.town.oarai.lg.jp/",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "oarai-hanabi-2025",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "urayasu-hanabi",
+      "eventName": "第42回浦安市花火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://www.urayasuhanabi.com/",
+          "source": "official_website_link",
+          "file": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.554Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "urayasu-42nd-fireworks",
+          "source": "walkerplus_link",
+          "file": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.554Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025年10月19日(土)",
+          "location": "浦安市日之出明海地区",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.554Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025年10月19日(土)'",
+            "locationMatch": "location: '浦安市日之出明海地区'",
+            "venueMatch": "name: '第42回浦安市花火大会'"
+          }
+        },
+        {
+          "date": "",
+          "location": "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.554Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "浦安市花火大会主要花火绽放场景",
+            "description": "豪迈绽放的花火照亮东京湾夜空"
+          }
+        },
+        {
+          "date": "",
+          "location": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/chiba/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.554Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略",
+            "description": "千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆、市川市民花火大会、木更津港祭典等18个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的千叶花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年10月19日(土)"
+        ],
+        "mostCommon": "2025年10月19日(土)",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.3333333333333333,
+        "uniqueValues": [
+          "浦安市日之出明海地区",
+          "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空",
+          "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆"
+        ],
+        "mostCommon": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+        "conflicts": [
+          "浦安市日之出明海地区",
+          "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空"
+        ],
+        "totalValues": 3
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.urayasuhanabi.com/",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "urayasu-42nd-fireworks",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "poor",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "sayama-tanabata",
+      "eventName": "狭山市入间川七夕祭花火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://www.city.sayama.saitama.jp/",
+          "source": "official_website_link",
+          "file": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.555Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00806/",
+          "source": "walkerplus_link",
+          "file": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.555Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025-08-02",
+          "location": "埼玉县狭山市",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.555Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025-08-02'",
+            "locationMatch": "location: '埼玉县狭山市'",
+            "venueMatch": "name: '狭山市入间川七夕祭纳凉花火大会'"
+          }
+        },
+        {
+          "date": "",
+          "location": "狭山市入间川七夕祭花火大会 七夕竹饰与河川敷花火的美丽结合",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.555Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "狭山市入间川七夕祭花火大会",
+            "description": "七夕竹饰与河川敷花火的美丽结合"
+          }
+        },
+        {
+          "date": "",
+          "location": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/saitama/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.555Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略",
+            "description": "埼玉地区2025年花火大会完整指南，包含戸田橋花火大会、熊谷花火大会、朝霞彩夏祭等17个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的埼玉花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025-08-02"
+        ],
+        "mostCommon": "2025-08-02",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.3333333333333333,
+        "uniqueValues": [
+          "埼玉县狭山市",
+          "狭山市入间川七夕祭花火大会 七夕竹饰与河川敷花火的美丽结合",
+          "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+        ],
+        "mostCommon": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+        "conflicts": [
+          "埼玉县狭山市",
+          "狭山市入间川七夕祭花火大会 七夕竹饰与河川敷花火的美丽结合"
+        ],
+        "totalValues": 3
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.city.sayama.saitama.jp/",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00806/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "poor",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "setagaya-tamagawa",
+      "eventName": "第47回世田谷区多摩川花火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://www.tamagawa-hanabi.com/",
+          "source": "official_website_link",
+          "file": "src/app/tokyo/hanabi/setagaya-tamagawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.556Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "setagaya-tamagawa-47",
+          "source": "walkerplus_link",
+          "file": "src/app/tokyo/hanabi/setagaya-tamagawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.556Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025年10月4日",
+          "location": "二子橋上流",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/tokyo/hanabi/setagaya-tamagawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.556Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025年10月4日'",
+            "locationMatch": "location: '二子橋上流'",
+            "venueMatch": "name: '第47回 世田谷区多摩川花火大会'"
+          }
+        },
+        {
+          "date": "2025年10月4日",
+          "location": "第47回 世田谷区多摩川花火大会 2025 | 详细信息交通观看指南 2025年10月4日举办的第47回世田谷区多摩川花火大会详细信息",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/tokyo/hanabi/setagaya-tamagawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.556Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "第47回 世田谷区多摩川花火大会 2025 | 详细信息交通观看指南",
+            "description": "2025年10月4日举办的第47回世田谷区多摩川花火大会详细信息。约6000发花火照亮秋空，与川崎市制記念多摩川花火大会同时举办。提供交通指南、观看区域、设施信息等完整攻略。"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/tokyo/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.556Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "东京花火大会2025 - 隅田川神宫外苑等16场精彩花火祭典完整攻略",
+            "description": "东京都2025年花火大会完整指南，包含隅田川花火大会、神宫外苑花火大会、板桥花火大会、江戸川花火大会等16个精彩活动。提供详细的举办时间、观赏地点、交通方式、门票信息，助您规划完美的东京花火之旅，体验日本传统夏日祭典文化。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年10月4日"
+        ],
+        "mostCommon": "2025年10月4日",
+        "conflicts": [],
+        "totalValues": 2
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "二子橋上流",
+          "第47回 世田谷区多摩川花火大会 2025 | 详细信息交通观看指南 2025年10月4日举办的第47回世田谷区多摩川花火大会详细信息"
+        ],
+        "mostCommon": "第47回 世田谷区多摩川花火大会 2025 | 详细信息交通观看指南 2025年10月4日举办的第47回世田谷区多摩川花火大会详细信息",
+        "conflicts": [
+          "二子橋上流"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.tamagawa-hanabi.com/",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "setagaya-tamagawa-47",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 第47回 世田谷区多摩川花火大会 2025 | 详细信息交通观看指南 2025年10月4日举办的第47回世田谷区多摩川花火大会详细信息"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "chikuma-chikumagawa-hanabi",
+      "eventName": "第94回信州千曲市千曲川納涼煙火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://twitter.com/sschikuma",
+          "source": "official_website_link",
+          "file": "src/app/koshinetsu/hanabi/chikuma-chikumagawa-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.557Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "chikuma-chikumagawa-hanabi",
+          "source": "walkerplus_link",
+          "file": "src/app/koshinetsu/hanabi/chikuma-chikumagawa-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.557Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025年8月7日",
+          "location": "戸倉上山田温泉千曲川河畔(大正橋～万葉橋間)",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/koshinetsu/hanabi/chikuma-chikumagawa-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.557Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025年8月7日'",
+            "locationMatch": "location: '戸倉上山田温泉千曲川河畔(大正橋～万葉橋間)'",
+            "venueMatch": "name: '第94回 信州千曲市千曲川納涼煙火大会'"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/koshinetsu/hanabi/chikuma-chikumagawa-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.557Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Chikuma Chikumagawa Hanabi - 甲信越花火大会完整攻略",
+            "description": "Chikuma Chikumagawa Hanabi花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/koshinetsu/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.557Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南",
+            "description": "甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会、河口湖湖上祭、新潟祭典花火大会等16个精彩活动。涵盖山梨、长野、新潟三县，提供详细的时间、地点、观赏攻略，助您规划完美的甲信越花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年8月7日"
+        ],
+        "mostCommon": "2025年8月7日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "戸倉上山田温泉千曲川河畔(大正橋～万葉橋間)",
+          "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会"
+        ],
+        "mostCommon": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会",
+        "conflicts": [
+          "戸倉上山田温泉千曲川河畔(大正橋～万葉橋間)"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://twitter.com/sschikuma",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "chikuma-chikumagawa-hanabi",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "asahara-jinja-aki-hanabi",
+      "eventName": "浅原神社秋季例大祭奉納大煙火",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "http://katakaimachi-enkakyokai.info/",
+          "source": "official_website_link",
+          "file": "src/app/koshinetsu/hanabi/asahara-jinja-aki-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.558Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "asahara-jinja-aki-hanabi",
+          "source": "walkerplus_link",
+          "file": "src/app/koshinetsu/hanabi/asahara-jinja-aki-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.559Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025年9月12日13日",
+          "location": "新潟県小千谷市片貝町浅原神社裏手",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/koshinetsu/hanabi/asahara-jinja-aki-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.559Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025年9月12日13日'",
+            "locationMatch": "location: '新潟県小千谷市片貝町浅原神社裏手'",
+            "venueMatch": "name: '浅原神社 秋季例大祭奉納大煙火'"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/koshinetsu/hanabi/asahara-jinja-aki-hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.559Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Asahara Jinja Aki Hanabi - 甲信越花火大会完整攻略",
+            "description": "Asahara Jinja Aki Hanabi花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/koshinetsu/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.559Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南",
+            "description": "甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会、河口湖湖上祭、新潟祭典花火大会等16个精彩活动。涵盖山梨、长野、新潟三县，提供详细的时间、地点、观赏攻略，助您规划完美的甲信越花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年9月12日13日"
+        ],
+        "mostCommon": "2025年9月12日13日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "新潟県小千谷市片貝町浅原神社裏手",
+          "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会"
+        ],
+        "mostCommon": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会",
+        "conflicts": [
+          "新潟県小千谷市片貝町浅原神社裏手"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "http://katakaimachi-enkakyokai.info/",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "asahara-jinja-aki-hanabi",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "agano-gozareya",
+      "eventName": "第51回阿賀野川来吧花火",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0415e00061/",
+          "source": "official_website_link",
+          "file": "src/app/koshinetsu/hanabi/agano-gozareya/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.560Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "agano-gozareya-hanabi-2025",
+          "source": "walkerplus_link",
+          "file": "src/app/koshinetsu/hanabi/agano-gozareya/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.560Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "2025年8月25日",
+          "location": "新潟県新潟市北区",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/koshinetsu/hanabi/agano-gozareya/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.560Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: '2025年8月25日'",
+            "locationMatch": "location: '新潟県新潟市北区'",
+            "venueMatch": "name: '第51回 阿賀野川来吧花火'"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/koshinetsu/hanabi/agano-gozareya/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.560Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "第51回 阿賀野川来吧花火",
+            "description": "見了十分的約6000発的花火的打上的"
+          }
+        },
+        {
+          "date": "",
+          "location": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/koshinetsu/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.560Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南",
+            "description": "甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会、河口湖湖上祭、新潟祭典花火大会等16个精彩活动。涵盖山梨、长野、新潟三县，提供详细的时间、地点、观赏攻略，助您规划完美的甲信越花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年8月25日"
+        ],
+        "mostCommon": "2025年8月25日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "新潟県新潟市北区",
+          "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会"
+        ],
+        "mostCommon": "甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会",
+        "conflicts": [
+          "新潟県新潟市北区"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0415e00061/",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "agano-gozareya-hanabi-2025",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 甲信越花火大会2025 - 山梨长野新潟绚烂花火活动完整指南 甲信越地区2025年花火大会完整指南，包含长冈祭典大花火大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "akishima",
+      "eventName": "昭岛市民鲸鱼祭梦花火",
+      "totalSources": 6,
+      "dataSources": [
+        {
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/akishima",
+          "source": "official_website_link",
+          "file": "src/app/tokyo/hanabi/akishima/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.561Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00807/",
+          "source": "walkerplus_link",
+          "file": "src/app/tokyo/hanabi/akishima/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.561Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/tokyo/hanabi/akishima/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.561Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "2025年8月23日",
+          "location": "昭岛市民鲸鱼祭梦花火 - 东京花火大会完整攻略 昭岛市民鲸鱼祭梦花火详细指南，2025年8月23日举办",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/tokyo/hanabi/akishima/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.561Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "昭岛市民鲸鱼祭梦花火 - 东京花火大会完整攻略",
+            "description": "昭岛市民鲸鱼祭梦花火详细指南，2025年8月23日举办。约2000发花火，昭岛市民球场。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/tokyo/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.561Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "东京花火大会2025 - 隅田川神宫外苑等16场精彩花火祭典完整攻略",
+            "description": "东京都2025年花火大会完整指南，包含隅田川花火大会、神宫外苑花火大会、板桥花火大会、江戸川花火大会等16个精彩活动。提供详细的举办时间、观赏地点、交通方式、门票信息，助您规划完美的东京花火之旅，体验日本传统夏日祭典文化。"
+          }
+        },
+        {
+          "date": "2025-08-23",
+          "location": "東京都昭島市 昭島市民球場",
+          "address": "",
+          "source": "project_data_file",
+          "file": "src/data/hanabi/tokyo/level4-august-akishima-hanabi.ts",
+          "extractedAt": "2025-06-16T04:59:37.561Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: \"2025-08-23\"",
+            "locationMatch": "location: '東京都昭島市 昭島市民球場'"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "2025年8月23日",
+          "2025-08-23"
+        ],
+        "mostCommon": "2025-08-23",
+        "conflicts": [
+          "2025年8月23日"
+        ],
+        "totalValues": 2
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "昭岛市民鲸鱼祭梦花火 - 东京花火大会完整攻略 昭岛市民鲸鱼祭梦花火详细指南，2025年8月23日举办",
+          "東京都昭島市 昭島市民球場"
+        ],
+        "mostCommon": "東京都昭島市 昭島市民球場",
+        "conflicts": [
+          "昭岛市民鲸鱼祭梦花火 - 东京花火大会完整攻略 昭岛市民鲸鱼祭梦花火详细指南，2025年8月23日举办"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/akishima",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00807/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "poor",
+      "issues": [
+        "日期信息在多个内部数据源中不一致",
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用日期: 2025-08-23",
+        "建议统一使用地点: 東京都昭島市 昭島市民球場"
+      ],
+      "dataQualityScore": 0.9333333333333332
+    },
+    {
+      "eventId": "edogawa",
+      "eventName": "江戸川区花火大会",
+      "totalSources": 6,
+      "dataSources": [
+        {
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/edogawa",
+          "source": "official_website_link",
+          "file": "src/app/tokyo/hanabi/edogawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.562Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00808/",
+          "source": "walkerplus_link",
+          "file": "src/app/tokyo/hanabi/edogawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.562Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/tokyo/hanabi/edogawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.562Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/tokyo/hanabi/edogawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.562Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Edogawa - 东京花火大会完整攻略",
+            "description": "Edogawa花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/tokyo/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.562Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "东京花火大会2025 - 隅田川神宫外苑等16场精彩花火祭典完整攻略",
+            "description": "东京都2025年花火大会完整指南，包含隅田川花火大会、神宫外苑花火大会、板桥花火大会、江戸川花火大会等16个精彩活动。提供详细的举办时间、观赏地点、交通方式、门票信息，助您规划完美的东京花火之旅，体验日本传统夏日祭典文化。"
+          }
+        },
+        {
+          "date": "2025-08-02",
+          "location": "東京都江戸川区 江戸川河川敷",
+          "address": "",
+          "source": "project_data_file",
+          "file": "src/data/hanabi/tokyo/level4-august-edogawa-hanabi.ts",
+          "extractedAt": "2025-06-16T04:59:37.563Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: \"2025-08-02\"",
+            "locationMatch": "location: '東京都江戸川区 江戸川河川敷'"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025-08-02"
+        ],
+        "mostCommon": "2025-08-02",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "東京都江戸川区 江戸川河川敷"
+        ],
+        "mostCommon": "東京都江戸川区 江戸川河川敷",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/edogawa",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00808/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [],
+      "recommendations": [],
+      "dataQualityScore": 0.9333333333333332
+    },
+    {
+      "eventId": "itabashi",
+      "eventName": "板桥花火大会",
+      "totalSources": 6,
+      "dataSources": [
+        {
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/itabashi",
+          "source": "official_website_link",
+          "file": "src/app/tokyo/hanabi/itabashi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.563Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00809/",
+          "source": "walkerplus_link",
+          "file": "src/app/tokyo/hanabi/itabashi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.563Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/tokyo/hanabi/itabashi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.563Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/tokyo/hanabi/itabashi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.563Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Itabashi - 东京花火大会完整攻略",
+            "description": "Itabashi花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/tokyo/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.563Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "东京花火大会2025 - 隅田川神宫外苑等16场精彩花火祭典完整攻略",
+            "description": "东京都2025年花火大会完整指南，包含隅田川花火大会、神宫外苑花火大会、板桥花火大会、江戸川花火大会等16个精彩活动。提供详细的举办时间、观赏地点、交通方式、门票信息，助您规划完美的东京花火之旅，体验日本传统夏日祭典文化。"
+          }
+        },
+        {
+          "date": "2025-08-02",
+          "location": "東京都板橋区 荒川河川敷",
+          "address": "",
+          "source": "project_data_file",
+          "file": "src/data/hanabi/tokyo/level4-august-itabashi-hanabi.ts",
+          "extractedAt": "2025-06-16T04:59:37.564Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: \"2025-08-02\"",
+            "locationMatch": "location: '東京都板橋区 荒川河川敷'"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025-08-02"
+        ],
+        "mostCommon": "2025-08-02",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "東京都板橋区 荒川河川敷"
+        ],
+        "mostCommon": "東京都板橋区 荒川河川敷",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/itabashi",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00809/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [],
+      "recommendations": [],
+      "dataQualityScore": 0.9333333333333332
+    },
+    {
+      "eventId": "okutama",
+      "eventName": "奥多摩花火大会",
+      "totalSources": 6,
+      "dataSources": [
+        {
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/okutama",
+          "source": "official_website_link",
+          "file": "src/app/tokyo/hanabi/okutama/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.564Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00810/",
+          "source": "walkerplus_link",
+          "file": "src/app/tokyo/hanabi/okutama/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.564Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/tokyo/hanabi/okutama/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.564Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/tokyo/hanabi/okutama/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.564Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Okutama - 东京花火大会完整攻略",
+            "description": "Okutama花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/tokyo/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.565Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "东京花火大会2025 - 隅田川神宫外苑等16场精彩花火祭典完整攻略",
+            "description": "东京都2025年花火大会完整指南，包含隅田川花火大会、神宫外苑花火大会、板桥花火大会、江戸川花火大会等16个精彩活动。提供详细的举办时间、观赏地点、交通方式、门票信息，助您规划完美的东京花火之旅，体验日本传统夏日祭典文化。"
+          }
+        },
+        {
+          "date": "2025-08-09",
+          "location": "東京都西多摩郡奥多摩町 愛宕山広場",
+          "address": "",
+          "source": "project_data_file",
+          "file": "src/data/hanabi/tokyo/level4-august-okutama-hanabi.ts",
+          "extractedAt": "2025-06-16T04:59:37.565Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: \"2025-08-09\"",
+            "locationMatch": "location: '東京都西多摩郡奥多摩町 愛宕山広場'"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025-08-09"
+        ],
+        "mostCommon": "2025-08-09",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "東京都西多摩郡奥多摩町 愛宕山広場"
+        ],
+        "mostCommon": "東京都西多摩郡奥多摩町 愛宕山広場",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.kanto-travel-guide.com/tokyo/hanabi/okutama",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0313e00810/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [],
+      "recommendations": [],
+      "dataQualityScore": 0.9333333333333332
+    },
+    {
+      "eventId": "omigawa",
+      "eventName": "小見川花火大会",
+      "totalSources": 6,
+      "dataSources": [
+        {
+          "url": "https://www.kanto-travel-guide.com/chiba/hanabi/omigawa",
+          "source": "official_website_link",
+          "file": "src/app/chiba/hanabi/omigawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.565Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00807/",
+          "source": "walkerplus_link",
+          "file": "src/app/chiba/hanabi/omigawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.566Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/chiba/hanabi/omigawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.566Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/chiba/hanabi/omigawa/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.566Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Omigawa - 千叶花火大会完整攻略",
+            "description": "Omigawa花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/chiba/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.566Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略",
+            "description": "千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆、市川市民花火大会、木更津港祭典等18个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的千叶花火之旅。"
+          }
+        },
+        {
+          "date": "2025-08-01",
+          "location": "千叶县香取市小见川",
+          "address": "",
+          "source": "project_data_file",
+          "file": "src/data/hanabi/chiba/level4-august-omigawa-hanabi.ts",
+          "extractedAt": "2025-06-16T04:59:37.566Z",
+          "dataQuality": "high",
+          "rawData": {
+            "dateMatch": "date: \"2025-08-01\"",
+            "locationMatch": "location: '千叶县香取市小见川'"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025-08-01"
+        ],
+        "mostCommon": "2025-08-01",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+          "千叶县香取市小见川"
+        ],
+        "mostCommon": "千叶县香取市小见川",
+        "conflicts": [
+          "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.kanto-travel-guide.com/chiba/hanabi/omigawa",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0312e00807/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 千叶县香取市小见川"
+      ],
+      "dataQualityScore": 0.9333333333333332
+    },
+    {
+      "eventId": "saitama-owada-2025",
+      "eventName": "埼玉大和田花火大会2025",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://www.kanto-travel-guide.com/saitama/hanabi/saitama-owada-2025",
+          "source": "official_website_link",
+          "file": "src/app/saitama/hanabi/saitama-owada-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.566Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00807/",
+          "source": "walkerplus_link",
+          "file": "src/app/saitama/hanabi/saitama-owada-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.567Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/saitama/hanabi/saitama-owada-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.567Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/saitama/hanabi/saitama-owada-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.567Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Saitama Owada 2025 - 埼玉花火大会完整攻略",
+            "description": "Saitama Owada 2025花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/saitama/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.567Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略",
+            "description": "埼玉地区2025年花火大会完整指南，包含戸田橋花火大会、熊谷花火大会、朝霞彩夏祭等17个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的埼玉花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+        ],
+        "mostCommon": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.kanto-travel-guide.com/saitama/hanabi/saitama-owada-2025",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00807/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "poor",
+      "issues": [
+        "日期信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "需要补充准确的日期信息"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "metsza-nordic-2025",
+      "eventName": "Metsza Nordic 2025花火大会",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://your-site.com/july/hanabi/saitama/metsza-nordic-2025",
+          "source": "official_website_link",
+          "file": "src/app/saitama/hanabi/metsza-nordic-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.567Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00808/",
+          "source": "walkerplus_link",
+          "file": "src/app/saitama/hanabi/metsza-nordic-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.567Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/saitama/hanabi/metsza-nordic-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.567Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "2025年7月12日",
+          "location": "19:40开始约15分钟的北欧主题音乐同步花火表演，湖面倒影观赏体验",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/saitama/hanabi/metsza-nordic-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.568Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "梅兹塔北欧花火2025 - 7月12日起 | 埼玉县花火大会",
+            "description": "2025年7月12日起举办的梅兹塔北欧花火。19:40开始约15分钟的北欧主题音乐同步花火表演，湖面倒影观赏体验。埼玉县饭能市唯一的北欧主题花火节。"
+          }
+        },
+        {
+          "date": "",
+          "location": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/saitama/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.568Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略",
+            "description": "埼玉地区2025年花火大会完整指南，包含戸田橋花火大会、熊谷花火大会、朝霞彩夏祭等17个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的埼玉花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年7月12日"
+        ],
+        "mostCommon": "2025年7月12日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "19:40开始约15分钟的北欧主题音乐同步花火表演，湖面倒影观赏体验",
+          "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+        ],
+        "mostCommon": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+        "conflicts": [
+          "19:40开始约15分钟的北欧主题音乐同步花火表演，湖面倒影观赏体验"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://your-site.com/july/hanabi/saitama/metsza-nordic-2025",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00808/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "ogawa-tanabata-2025",
+      "eventName": "小川七夕祭花火大会2025",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://your-site.com/july/hanabi/saitama/ogawa-tanabata-2025",
+          "source": "official_website_link",
+          "file": "src/app/saitama/hanabi/ogawa-tanabata-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.568Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00809/",
+          "source": "walkerplus_link",
+          "file": "src/app/saitama/hanabi/ogawa-tanabata-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.568Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/saitama/hanabi/ogawa-tanabata-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.568Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "2025年7月26日",
+          "location": "第77回小川町七夕祭花火大会 - 2025年7月26日 | 埼玉县花火大会 2025年7月26日举办的第77回小川町七夕祭花火大会详细信息",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/saitama/hanabi/ogawa-tanabata-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.568Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "第77回小川町七夕祭花火大会 - 2025年7月26日 | 埼玉县花火大会",
+            "description": "2025年7月26日举办的第77回小川町七夕祭花火大会详细信息。约200发花火、约9万人参观。埼玉县比企郡传统七夕祭与花火的完美结合，JR、东武东上线小川町站即到。"
+          }
+        },
+        {
+          "date": "",
+          "location": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/saitama/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.569Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略",
+            "description": "埼玉地区2025年花火大会完整指南，包含戸田橋花火大会、熊谷花火大会、朝霞彩夏祭等17个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的埼玉花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年7月26日"
+        ],
+        "mostCommon": "2025年7月26日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "第77回小川町七夕祭花火大会 - 2025年7月26日 | 埼玉县花火大会 2025年7月26日举办的第77回小川町七夕祭花火大会详细信息",
+          "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+        ],
+        "mostCommon": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+        "conflicts": [
+          "第77回小川町七夕祭花火大会 - 2025年7月26日 | 埼玉县花火大会 2025年7月26日举办的第77回小川町七夕祭花火大会详细信息"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://your-site.com/july/hanabi/saitama/ogawa-tanabata-2025",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00809/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "seibu-en-2025",
+      "eventName": "西武园花火大会2025",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://your-site.com/july/hanabi/saitama/seibu-en-2025",
+          "source": "official_website_link",
+          "file": "src/app/saitama/hanabi/seibu-en-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.569Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00810/",
+          "source": "walkerplus_link",
+          "file": "src/app/saitama/hanabi/seibu-en-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.569Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/saitama/hanabi/seibu-en-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.569Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "2025年7月19日",
+          "location": "埼玉县所泽市唯一的游乐园花火节",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/saitama/hanabi/seibu-en-2025/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.569Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "西武园游乐园大火祭 - 2025年7月19日起 | 埼玉县花火大会",
+            "description": "2025年7月19日～9月15日期间举办的西武园游乐园大火祭。19:30开始约7分钟的音乐同步花火表演，超近距离震撼体验。埼玉县所泽市唯一的游乐园花火节。"
+          }
+        },
+        {
+          "date": "",
+          "location": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/saitama/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.569Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略",
+            "description": "埼玉地区2025年花火大会完整指南，包含戸田橋花火大会、熊谷花火大会、朝霞彩夏祭等17个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的埼玉花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "2025年7月19日"
+        ],
+        "mostCommon": "2025年7月19日",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 0.5,
+        "uniqueValues": [
+          "埼玉县所泽市唯一的游乐园花火节",
+          "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+        ],
+        "mostCommon": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+        "conflicts": [
+          "埼玉县所泽市唯一的游乐园花火节"
+        ],
+        "totalValues": 2
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://your-site.com/july/hanabi/saitama/seibu-en-2025",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0311e00810/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "fair",
+      "issues": [
+        "地点信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "建议统一使用地点: 埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    },
+    {
+      "eventId": "seaparadise-hanabi-symphonia",
+      "eventName": "Sea Paradise花火交响乐",
+      "totalSources": 5,
+      "dataSources": [
+        {
+          "url": "https://www.kanto-travel-guide.com/kanagawa/hanabi/seaparadise-hanabi-symphonia",
+          "source": "official_website_link",
+          "file": "src/app/kanagawa/hanabi/seaparadise-hanabi-symphonia/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.570Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00806/",
+          "source": "walkerplus_link",
+          "file": "src/app/kanagawa/hanabi/seaparadise-hanabi-symphonia/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.570Z",
+          "dataQuality": "high",
+          "status": "available"
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "four_layer_detail",
+          "file": "src/app/kanagawa/hanabi/seaparadise-hanabi-symphonia/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.570Z",
+          "dataQuality": "high",
+          "rawData": {}
+        },
+        {
+          "date": "",
+          "location": "",
+          "address": "",
+          "source": "seo_description",
+          "file": "src/app/kanagawa/hanabi/seaparadise-hanabi-symphonia/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.570Z",
+          "dataQuality": "medium",
+          "rawData": {
+            "title": "Seaparadise Hanabi Symphonia - 神奈川花火大会完整攻略",
+            "description": "Seaparadise Hanabi Symphonia花火大会详细指南，2025年举办。精彩花火表演，绝佳观赏地点。包含交通方式、观赏地点、祭典活动等实用信息。"
+          }
+        },
+        {
+          "date": "",
+          "location": "神奈川花火大会2025 - 横滨开港祭镰仓相模湖等14场精彩花火祭典完整攻略 神奈川地区2025年花火大会完整指南，包含横滨开港祭花火",
+          "address": "",
+          "source": "three_layer_list",
+          "file": "src/app/kanagawa/hanabi/page.tsx",
+          "extractedAt": "2025-06-16T04:59:37.570Z",
+          "dataQuality": "low",
+          "rawData": {
+            "title": "神奈川花火大会2025 - 横滨开港祭镰仓相模湖等14场精彩花火祭典完整攻略",
+            "description": "神奈川地区2025年花火大会完整指南，包含横滨开港祭花火、镰仓花火大会、相模湖湖上祭等14个精彩活动。提供详细的时间、地点、观赏攻略，助您规划完美的神奈川花火之旅。"
+          }
+        }
+      ],
+      "dateConsistency": {
+        "field": "date",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "locationConsistency": {
+        "field": "location",
+        "consistencyScore": 1,
+        "uniqueValues": [
+          "神奈川花火大会2025 - 横滨开港祭镰仓相模湖等14场精彩花火祭典完整攻略 神奈川地区2025年花火大会完整指南，包含横滨开港祭花火"
+        ],
+        "mostCommon": "神奈川花火大会2025 - 横滨开港祭镰仓相模湖等14场精彩花火祭典完整攻略 神奈川地区2025年花火大会完整指南，包含横滨开港祭花火",
+        "conflicts": [],
+        "totalValues": 1
+      },
+      "addressConsistency": {
+        "field": "address",
+        "consistencyScore": 0,
+        "uniqueValues": [],
+        "mostCommon": null,
+        "conflicts": [],
+        "totalValues": 0
+      },
+      "linkAvailability": {
+        "officialWebsite": {
+          "available": true,
+          "url": "https://www.kanto-travel-guide.com/kanagawa/hanabi/seaparadise-hanabi-symphonia",
+          "quality": "high"
+        },
+        "walkerPlus": {
+          "available": true,
+          "url": "https://hanabi.walkerplus.com/detail/ar0314e00806/",
+          "quality": "high"
+        },
+        "completeness": 1
+      },
+      "overallConsistency": "poor",
+      "issues": [
+        "日期信息在多个内部数据源中不一致"
+      ],
+      "recommendations": [
+        "需要补充准确的日期信息"
+      ],
+      "dataQualityScore": 0.9199999999999999
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "数据质量",
+      "message": "6 个活动的数据一致性较差，需要立即修正",
+      "affectedEvents": [
+        "numata-hanabi-2025",
+        "urayasu-hanabi",
+        "sayama-tanabata",
+        "akishima",
+        "saitama-owada-2025",
+        "seaparadise-hanabi-symphonia"
+      ]
+    }
+  ],
+  "systemInfo": {
+    "version": "3.0-web-free",
+    "approach": "Internal data sources only",
+    "technicalIssuesFixed": [
+      "Avoided Playwright issues",
+      "Focus on internal consistency",
+      "Enhanced data extraction"
+    ]
+  }
+}

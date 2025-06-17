@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const koshigayaHanabiData: HanabiData = {
  id: 'koshigaya-2025',
  name: '越谷花火大会',
-  japaneseName: '越谷花火大会',
  englishName: 'Koshigaya Fireworks Festival',
+  _sourceData: {
+    japaneseName: '越谷花火大会'
+  },
  year: 2025,
  date: '2025年7月26日(土)',
  time: '19:00～21:00',

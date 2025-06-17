@@ -1,0 +1,439 @@
+{
+  "timestamp": "2025-06-13T01:15:34.611Z",
+  "summary": {
+    "level4Files": 1,
+    "level5Files": 85,
+    "totalDetailFiles": 86,
+    "regions": 6,
+    "totalCards": 60
+  },
+  "unconnectedByRegion": {
+    "tokyo": [
+      {
+        "filename": "level5-july-hanabi-katsushika-noryo.ts",
+        "level": "level5",
+        "id": "katsushika-noryo-hanabi",
+        "name": "第59回葛饰纳凉花火大会",
+        "region": "东京"
+      },
+      {
+        "filename": "level5-july-hanabi-mikurajima.ts",
+        "level": "level5",
+        "id": "mikurajima-hanabi",
+        "name": "御藏岛花火大会",
+        "region": "东京"
+      },
+      {
+        "filename": "level5-july-hanabi-tokyo-hachioji.ts",
+        "level": "level5",
+        "id": "hachioji",
+        "name": "八王子花火大会",
+        "region": "东京"
+      },
+      {
+        "filename": "level5-july-hanabi-tokyo-keibajo.ts",
+        "level": "level5",
+        "id": "tokyo-keibajo-hanabi",
+        "name": "东京竞马场花火 2025",
+        "region": "东京"
+      }
+    ],
+    "saitama": [
+      {
+        "filename": "level5-august-saitama-omagi-hanabi.ts",
+        "level": "level5",
+        "id": "saitama-omagi-hanabi-2025",
+        "name": "埼玉市花火大会大间木公园会场",
+        "region": "埼玉"
+      },
+      {
+        "filename": "level5-september-saitama-metsa-hanabi.ts",
+        "level": "level5",
+        "id": "metsa-nordic-hanabi-2025",
+        "name": "梅兹塔北欧花火2025",
+        "region": "埼玉"
+      },
+      {
+        "filename": "level5-september-saitama-seibu-hanabi.ts",
+        "level": "level5",
+        "id": "seibu-yuenchi-daika-matsuri-2025",
+        "name": "西武园游乐园大火祭",
+        "region": "埼玉"
+      }
+    ],
+    "chiba": [
+      {
+        "filename": "level5-august-hanabi-ichikawa.ts",
+        "level": "level5",
+        "id": "ichikawa-hanabi",
+        "name": "第41回市川市民纳凉花火大会",
+        "region": "千叶"
+      },
+      {
+        "filename": "level5-august-hanabi-kisarazu.ts",
+        "level": "level5",
+        "id": "kisarazu-hanabi",
+        "name": "第78回木更津港祭",
+        "region": "千叶"
+      },
+      {
+        "filename": "level5-august-hanabi-matsudo.ts",
+        "level": "level5",
+        "id": "matsudo-hanabi",
+        "name": "松户花火大会2025",
+        "region": "千叶"
+      },
+      {
+        "filename": "level5-august-hanabi-narashino.ts",
+        "level": "level5",
+        "id": "narashino-hanabi",
+        "name": "令和7年习志野驻屯地夏祭",
+        "region": "千叶"
+      },
+      {
+        "filename": "level5-august-hanabi-teganuma.ts",
+        "level": "level5",
+        "id": "teganuma-hanabi",
+        "name": "手贺沼花火大会2025",
+        "region": "千叶"
+      },
+      {
+        "filename": "level5-july-hanabi-chiba-marines.ts",
+        "level": "level5",
+        "id": "marines",
+        "name": "MARINES HANABI (海洋队花火)",
+        "region": "千叶"
+      },
+      {
+        "filename": "level5-july-hanabi-chiba-motherfarm.ts",
+        "level": "level5",
+        "id": "motherfarm",
+        "name": "母亲牧場 夏夜农场",
+        "region": "千叶"
+      }
+    ],
+    "kanagawa": [
+      {
+        "filename": "level5-july-hanabi-kanagawa-nightflowers.ts",
+        "level": "level5",
+        "id": "nightflowers",
+        "name": "横滨夜间花火2025",
+        "region": "神奈川"
+      }
+    ],
+    "kitakanto": [
+      {
+        "filename": "level5-august-ashikaga-hanabi.ts",
+        "level": "level5",
+        "id": "ashikaga-hanabi-2025",
+        "name": "第109回足利花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-august-hitachinaka-hanabi.ts",
+        "level": "level5",
+        "id": "hitachinaka-august",
+        "name": "第31回常陆那珂祭花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-august-koga-hanabi.ts",
+        "level": "level5",
+        "id": "koga-august-hanabi-2025",
+        "name": "第20回 古河花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-august-maebashi-hanabi.ts",
+        "level": "level5",
+        "id": "maebashi-august",
+        "name": "第69回前桥花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-august-takasaki-hanabi.ts",
+        "level": "level5",
+        "id": "takasaki-hanabi-2025",
+        "name": "第51回高崎大花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-august-toride-hanabi.ts",
+        "level": "level5",
+        "id": "toride-august",
+        "name": "第70回利根川大花火",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-september-kitakanto-joso-kinugawa-hanabi.ts",
+        "level": "level5",
+        "id": "joso-kinugawa-hanabi-september",
+        "name": "第58回常总绹川花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-september-kitakanto-numata-hanabi.ts",
+        "level": "level5",
+        "id": "numata-hanabi",
+        "name": "第13回沼田花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-september-kitakanto-oarai-hanabi.ts",
+        "level": "level5",
+        "id": "oarai-hanabi-september",
+        "name": "大洗海上花火大会2025〜千櫓祭〜",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-september-kitakanto-oyama-hanabi.ts",
+        "level": "level5",
+        "id": "oyama-hanabi",
+        "name": "第73回小山花火",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-september-kitakanto-rindoko-hanabi.ts",
+        "level": "level5",
+        "id": "rindoko-hanabi",
+        "name": "第31回りんどう湖花火大会",
+        "region": "北关东"
+      },
+      {
+        "filename": "level5-september-kitakanto-tonegawa-hanabi.ts",
+        "level": "level5",
+        "id": "tonegawa-hanabi-september",
+        "name": "第38回利根川大花火大会",
+        "region": "北关东"
+      }
+    ],
+    "koshinetsu": [
+      {
+        "filename": "level5-september-koshinetsu-asahara-hanabi.ts",
+        "level": "level5",
+        "id": "asahara-hanabi",
+        "name": "浅原神社秋季例大祭奉納大煙火",
+        "region": "甲信越"
+      },
+      {
+        "filename": "level5-september-koshinetsu-shinsaku-hanabi.ts",
+        "level": "level5",
+        "id": "shinsaku-hanabi",
+        "name": "全国新作花火挑战杯2025",
+        "region": "甲信越"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "region": "tokyo",
+      "action": "需要为 4 个详情文件制作三层卡片",
+      "files": [
+        {
+          "filename": "level5-july-hanabi-katsushika-noryo.ts",
+          "level": "level5",
+          "id": "katsushika-noryo-hanabi",
+          "name": "第59回葛饰纳凉花火大会"
+        },
+        {
+          "filename": "level5-july-hanabi-mikurajima.ts",
+          "level": "level5",
+          "id": "mikurajima-hanabi",
+          "name": "御藏岛花火大会"
+        },
+        {
+          "filename": "level5-july-hanabi-tokyo-hachioji.ts",
+          "level": "level5",
+          "id": "hachioji",
+          "name": "八王子花火大会"
+        },
+        {
+          "filename": "level5-july-hanabi-tokyo-keibajo.ts",
+          "level": "level5",
+          "id": "tokyo-keibajo-hanabi",
+          "name": "东京竞马场花火 2025"
+        }
+      ]
+    },
+    {
+      "region": "saitama",
+      "action": "需要为 3 个详情文件制作三层卡片",
+      "files": [
+        {
+          "filename": "level5-august-saitama-omagi-hanabi.ts",
+          "level": "level5",
+          "id": "saitama-omagi-hanabi-2025",
+          "name": "埼玉市花火大会大间木公园会场"
+        },
+        {
+          "filename": "level5-september-saitama-metsa-hanabi.ts",
+          "level": "level5",
+          "id": "metsa-nordic-hanabi-2025",
+          "name": "梅兹塔北欧花火2025"
+        },
+        {
+          "filename": "level5-september-saitama-seibu-hanabi.ts",
+          "level": "level5",
+          "id": "seibu-yuenchi-daika-matsuri-2025",
+          "name": "西武园游乐园大火祭"
+        }
+      ]
+    },
+    {
+      "region": "chiba",
+      "action": "需要为 7 个详情文件制作三层卡片",
+      "files": [
+        {
+          "filename": "level5-august-hanabi-ichikawa.ts",
+          "level": "level5",
+          "id": "ichikawa-hanabi",
+          "name": "第41回市川市民纳凉花火大会"
+        },
+        {
+          "filename": "level5-august-hanabi-kisarazu.ts",
+          "level": "level5",
+          "id": "kisarazu-hanabi",
+          "name": "第78回木更津港祭"
+        },
+        {
+          "filename": "level5-august-hanabi-matsudo.ts",
+          "level": "level5",
+          "id": "matsudo-hanabi",
+          "name": "松户花火大会2025"
+        },
+        {
+          "filename": "level5-august-hanabi-narashino.ts",
+          "level": "level5",
+          "id": "narashino-hanabi",
+          "name": "令和7年习志野驻屯地夏祭"
+        },
+        {
+          "filename": "level5-august-hanabi-teganuma.ts",
+          "level": "level5",
+          "id": "teganuma-hanabi",
+          "name": "手贺沼花火大会2025"
+        },
+        {
+          "filename": "level5-july-hanabi-chiba-marines.ts",
+          "level": "level5",
+          "id": "marines",
+          "name": "MARINES HANABI (海洋队花火)"
+        },
+        {
+          "filename": "level5-july-hanabi-chiba-motherfarm.ts",
+          "level": "level5",
+          "id": "motherfarm",
+          "name": "母亲牧場 夏夜农场"
+        }
+      ]
+    },
+    {
+      "region": "kanagawa",
+      "action": "需要为 1 个详情文件制作三层卡片",
+      "files": [
+        {
+          "filename": "level5-july-hanabi-kanagawa-nightflowers.ts",
+          "level": "level5",
+          "id": "nightflowers",
+          "name": "横滨夜间花火2025"
+        }
+      ]
+    },
+    {
+      "region": "kitakanto",
+      "action": "需要为 12 个详情文件制作三层卡片",
+      "files": [
+        {
+          "filename": "level5-august-ashikaga-hanabi.ts",
+          "level": "level5",
+          "id": "ashikaga-hanabi-2025",
+          "name": "第109回足利花火大会"
+        },
+        {
+          "filename": "level5-august-hitachinaka-hanabi.ts",
+          "level": "level5",
+          "id": "hitachinaka-august",
+          "name": "第31回常陆那珂祭花火大会"
+        },
+        {
+          "filename": "level5-august-koga-hanabi.ts",
+          "level": "level5",
+          "id": "koga-august-hanabi-2025",
+          "name": "第20回 古河花火大会"
+        },
+        {
+          "filename": "level5-august-maebashi-hanabi.ts",
+          "level": "level5",
+          "id": "maebashi-august",
+          "name": "第69回前桥花火大会"
+        },
+        {
+          "filename": "level5-august-takasaki-hanabi.ts",
+          "level": "level5",
+          "id": "takasaki-hanabi-2025",
+          "name": "第51回高崎大花火大会"
+        },
+        {
+          "filename": "level5-august-toride-hanabi.ts",
+          "level": "level5",
+          "id": "toride-august",
+          "name": "第70回利根川大花火"
+        },
+        {
+          "filename": "level5-september-kitakanto-joso-kinugawa-hanabi.ts",
+          "level": "level5",
+          "id": "joso-kinugawa-hanabi-september",
+          "name": "第58回常总绹川花火大会"
+        },
+        {
+          "filename": "level5-september-kitakanto-numata-hanabi.ts",
+          "level": "level5",
+          "id": "numata-hanabi",
+          "name": "第13回沼田花火大会"
+        },
+        {
+          "filename": "level5-september-kitakanto-oarai-hanabi.ts",
+          "level": "level5",
+          "id": "oarai-hanabi-september",
+          "name": "大洗海上花火大会2025〜千櫓祭〜"
+        },
+        {
+          "filename": "level5-september-kitakanto-oyama-hanabi.ts",
+          "level": "level5",
+          "id": "oyama-hanabi",
+          "name": "第73回小山花火"
+        },
+        {
+          "filename": "level5-september-kitakanto-rindoko-hanabi.ts",
+          "level": "level5",
+          "id": "rindoko-hanabi",
+          "name": "第31回りんどう湖花火大会"
+        },
+        {
+          "filename": "level5-september-kitakanto-tonegawa-hanabi.ts",
+          "level": "level5",
+          "id": "tonegawa-hanabi-september",
+          "name": "第38回利根川大花火大会"
+        }
+      ]
+    },
+    {
+      "region": "koshinetsu",
+      "action": "需要为 2 个详情文件制作三层卡片",
+      "files": [
+        {
+          "filename": "level5-september-koshinetsu-asahara-hanabi.ts",
+          "level": "level5",
+          "id": "asahara-hanabi",
+          "name": "浅原神社秋季例大祭奉納大煙火"
+        },
+        {
+          "filename": "level5-september-koshinetsu-shinsaku-hanabi.ts",
+          "level": "level5",
+          "id": "shinsaku-hanabi",
+          "name": "全国新作花火挑战杯2025"
+        }
+      ]
+    }
+  ]
+}

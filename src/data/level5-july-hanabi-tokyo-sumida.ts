@@ -13,8 +13,10 @@ import { HanabiData } from '../types/hanabi';
 export const sumidaData: HanabiData = {
  id: 'sumida',
  name: '第48回 隅田川花火大会',
-  japaneseName: '第48回 隅田川花火大会の打ち上げ数・日程など',
  englishName: 'Sumida River Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第48回 隅田川花火大会の打ち上げ数・日程など'
+  },
  year: 2025,
  date: '2025年7月26日(土)',
  time: '19:00～（第一会场19:00～、第二会场19:30～）',

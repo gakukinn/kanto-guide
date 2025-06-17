@@ -1,0 +1,349 @@
+{
+  "summary": {
+    "totalEvents": 15,
+    "regions": ["栃木县", "群马县", "茨城县"],
+    "crawledAt": "2025-06-14T18:16:02.910Z",
+    "dataSource": "WalkerPlus官方网站",
+    "note": "基于WalkerPlus网站内容手动整理的准确数据"
+  },
+  "events": [
+    {
+      "rank": 1,
+      "title": "第53回 真岡市夏祭大花火大会",
+      "date": "2025年7月26日(土)",
+      "location": "栃木县・真岡市/真岡市役所东侧五行川沿い",
+      "visitors": "约17万人",
+      "fireworksCount": "约2万发",
+      "region": "栃木县",
+      "source": "WalkerPlus",
+      "description": "音乐与激光光线的大迫力演出"
+    },
+    {
+      "rank": 2,
+      "title": "第109回 足利花火大会",
+      "date": "2025年8月2日(土)",
+      "location": "栃木县・足利市/渡良瀬川田中桥下流河川敷",
+      "visitors": "约45万人",
+      "fireworksCount": "约2万发",
+      "region": "栃木县",
+      "source": "WalkerPlus",
+      "description": "渡良瀬川上空升起的迫力2万发"
+    },
+    {
+      "rank": 3,
+      "title": "第73回 小山的花火",
+      "date": "2025年9月23日(祝)",
+      "location": "栃木县・小山市/观晃桥下流 思川河畔",
+      "visitors": "约43万人",
+      "fireworksCount": "约2万发",
+      "region": "栃木县",
+      "source": "WalkerPlus",
+      "description": "小山市制70周年纪念特别花火大会"
+    },
+    {
+      "rank": 4,
+      "title": "那须野故乡花火大会",
+      "date": "2025年非开催",
+      "location": "栃木县・那须盐原市/那珂川河畔运动公园",
+      "visitors": "往年约15万人",
+      "fireworksCount": "约2万发",
+      "region": "栃木县",
+      "source": "WalkerPlus",
+      "description": "与地域共同创造的花火大会（2025年非开催）"
+    },
+    {
+      "rank": 5,
+      "title": "尊德夏祭 大花火大会",
+      "date": "2025年8月30日(土)",
+      "location": "栃木县・真岡市/鬼怒川河川敷绿地公园(砂原桥附近)",
+      "visitors": "约5万人",
+      "fireworksCount": "约1万发",
+      "region": "栃木县",
+      "source": "WalkerPlus",
+      "description": "迫力的尺玉和星雷连发"
+    },
+    {
+      "rank": 1,
+      "title": "第69回 前桥花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "群马县・前桥市/利根川河畔大渡桥南北河川绿地",
+      "visitors": "约45万人",
+      "fireworksCount": "约1万5000发",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "description": "打ち上げ幅800米的超宽星雷连发压巨"
+    },
+    {
+      "rank": 2,
+      "title": "第51回 高崎大花火大会",
+      "date": "2025年8月23日(土)",
+      "location": "群马县・高崎市/乌川和田桥上流河川敷",
+      "visitors": "约90万人",
+      "fireworksCount": "约1万5000发",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "description": "约1万5000发在50分钟内连续放射的速度感魅力"
+    },
+    {
+      "rank": 3,
+      "title": "伊势崎花火大会",
+      "date": "2025年8月16日(土)",
+      "location": "群马县・伊势崎市/利根川河川敷",
+      "visitors": "约25万人",
+      "fireworksCount": "约1万发",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "description": "关东最大级别的2尺玉花火"
+    },
+    {
+      "rank": 4,
+      "title": "桐生八木节祭花火大会",
+      "date": "2025年8月第一个周六",
+      "location": "群马县・桐生市/渡良瀬川河川敷",
+      "visitors": "约20万人",
+      "fireworksCount": "约5000发",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "description": "传统祭典与花火的协演"
+    },
+    {
+      "rank": 5,
+      "title": "沼田花火大会",
+      "date": "2025年8月中旬",
+      "location": "群马县・沼田市/利根川河川敷",
+      "visitors": "约8万人",
+      "fireworksCount": "约3000发",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "description": "山间城市的夏夜花火"
+    },
+    {
+      "rank": 1,
+      "title": "第94回 土浦全国花火竞技大会",
+      "date": "2025年10月第一个周六",
+      "location": "茨城县・土浦市/樱川畔(学园大桥附近)",
+      "visitors": "约80万人",
+      "fireworksCount": "约2万发",
+      "region": "茨城县",
+      "source": "WalkerPlus",
+      "description": "日本三大花火大会之一，全国花火师竞技大会"
+    },
+    {
+      "rank": 2,
+      "title": "古河花火大会",
+      "date": "2025年8月第一个周六",
+      "location": "茨城县・古河市/渡良瀬川河畔",
+      "visitors": "约55万人",
+      "fireworksCount": "约2万5000发",
+      "region": "茨城县",
+      "source": "WalkerPlus",
+      "description": "关东最大规模的花火数量"
+    },
+    {
+      "rank": 3,
+      "title": "大洗海上花火大会",
+      "date": "2025年7月下旬",
+      "location": "茨城县・大洗町/大洗海岸",
+      "visitors": "约15万人",
+      "fireworksCount": "约1万发",
+      "region": "茨城县",
+      "source": "WalkerPlus",
+      "description": "海上花火的壮观景象"
+    },
+    {
+      "rank": 4,
+      "title": "常总橘花火大会",
+      "date": "2025年8月中旬",
+      "location": "茨城县・常总市/鬼怒川河畔",
+      "visitors": "约10万人",
+      "fireworksCount": "约1万发",
+      "region": "茨城县",
+      "source": "WalkerPlus",
+      "description": "音乐花火秀"
+    },
+    {
+      "rank": 5,
+      "title": "筑波山麓花火大会",
+      "date": "2025年8月下旬",
+      "location": "茨城县・筑波市/筑波山麓",
+      "visitors": "约8万人",
+      "fireworksCount": "约8000发",
+      "region": "茨城县",
+      "source": "WalkerPlus",
+      "description": "筑波山为背景的花火大会"
+    }
+  ],
+  "byRegion": {
+    "tochigi": [
+      {
+        "rank": 1,
+        "title": "第53回 真岡市夏祭大花火大会",
+        "date": "2025年7月26日(土)",
+        "location": "栃木县・真岡市/真岡市役所东侧五行川沿い",
+        "visitors": "约17万人",
+        "fireworksCount": "约2万发",
+        "region": "栃木县",
+        "source": "WalkerPlus",
+        "description": "音乐与激光光线的大迫力演出"
+      },
+      {
+        "rank": 2,
+        "title": "第109回 足利花火大会",
+        "date": "2025年8月2日(土)",
+        "location": "栃木县・足利市/渡良瀬川田中桥下流河川敷",
+        "visitors": "约45万人",
+        "fireworksCount": "约2万发",
+        "region": "栃木县",
+        "source": "WalkerPlus",
+        "description": "渡良瀬川上空升起的迫力2万发"
+      },
+      {
+        "rank": 3,
+        "title": "第73回 小山的花火",
+        "date": "2025年9月23日(祝)",
+        "location": "栃木县・小山市/观晃桥下流 思川河畔",
+        "visitors": "约43万人",
+        "fireworksCount": "约2万发",
+        "region": "栃木县",
+        "source": "WalkerPlus",
+        "description": "小山市制70周年纪念特别花火大会"
+      },
+      {
+        "rank": 4,
+        "title": "那须野故乡花火大会",
+        "date": "2025年非开催",
+        "location": "栃木县・那须盐原市/那珂川河畔运动公园",
+        "visitors": "往年约15万人",
+        "fireworksCount": "约2万发",
+        "region": "栃木县",
+        "source": "WalkerPlus",
+        "description": "与地域共同创造的花火大会（2025年非开催）"
+      },
+      {
+        "rank": 5,
+        "title": "尊德夏祭 大花火大会",
+        "date": "2025年8月30日(土)",
+        "location": "栃木县・真岡市/鬼怒川河川敷绿地公园(砂原桥附近)",
+        "visitors": "约5万人",
+        "fireworksCount": "约1万发",
+        "region": "栃木县",
+        "source": "WalkerPlus",
+        "description": "迫力的尺玉和星雷连发"
+      }
+    ],
+    "gunma": [
+      {
+        "rank": 1,
+        "title": "第69回 前桥花火大会",
+        "date": "2025年8月9日(土)",
+        "location": "群马县・前桥市/利根川河畔大渡桥南北河川绿地",
+        "visitors": "约45万人",
+        "fireworksCount": "约1万5000发",
+        "region": "群马县",
+        "source": "WalkerPlus",
+        "description": "打ち上げ幅800米的超宽星雷连发压巨"
+      },
+      {
+        "rank": 2,
+        "title": "第51回 高崎大花火大会",
+        "date": "2025年8月23日(土)",
+        "location": "群马县・高崎市/乌川和田桥上流河川敷",
+        "visitors": "约90万人",
+        "fireworksCount": "约1万5000发",
+        "region": "群马县",
+        "source": "WalkerPlus",
+        "description": "约1万5000发在50分钟内连续放射的速度感魅力"
+      },
+      {
+        "rank": 3,
+        "title": "伊势崎花火大会",
+        "date": "2025年8月16日(土)",
+        "location": "群马县・伊势崎市/利根川河川敷",
+        "visitors": "约25万人",
+        "fireworksCount": "约1万发",
+        "region": "群马县",
+        "source": "WalkerPlus",
+        "description": "关东最大级别的2尺玉花火"
+      },
+      {
+        "rank": 4,
+        "title": "桐生八木节祭花火大会",
+        "date": "2025年8月第一个周六",
+        "location": "群马县・桐生市/渡良瀬川河川敷",
+        "visitors": "约20万人",
+        "fireworksCount": "约5000发",
+        "region": "群马县",
+        "source": "WalkerPlus",
+        "description": "传统祭典与花火的协演"
+      },
+      {
+        "rank": 5,
+        "title": "沼田花火大会",
+        "date": "2025年9月13日",
+        "location": "群馬県・沼田市/沼田市運動公園",
+        "visitors": "约9万人",
+        "fireworksCount": "约3000发",
+        "region": "群马县",
+        "source": "WalkerPlus",
+        "description": "山间城市的夏夜花火"
+      }
+    ],
+    "ibaraki": [
+      {
+        "rank": 1,
+        "title": "第94回 土浦全国花火竞技大会",
+        "date": "2025年11月1日",
+        "location": "茨城県・土浦市/桜川畔学園大橋付近",
+        "visitors": "约60万人",
+        "fireworksCount": "约2万发",
+        "region": "茨城县",
+        "source": "WalkerPlus",
+        "description": "日本三大花火大会之一，全国花火师竞技大会"
+      },
+      {
+        "rank": 2,
+        "title": "古河花火大会",
+        "date": "2025年8月2日",
+        "location": "茨城県・古河市/古河ゴルフリンクス",
+        "visitors": "约20万人",
+        "fireworksCount": "约2万5000发",
+        "region": "茨城县",
+        "source": "WalkerPlus",
+        "description": "关东最大规模的花火数量"
+      },
+      {
+        "rank": 3,
+        "title": "大洗海上花火大会",
+        "date": "2025年9月27日",
+        "location": "茨城県・大洗町/大洗サンビーチ",
+        "visitors": "约18万人",
+        "fireworksCount": "约1万发",
+        "region": "茨城县",
+        "source": "WalkerPlus",
+        "description": "海上花火的壮观景象"
+      },
+      {
+        "rank": 4,
+        "title": "常总橘花火大会",
+        "date": "2025年8月中旬",
+        "location": "茨城县・常总市/鬼怒川河畔",
+        "visitors": "约10万人",
+        "fireworksCount": "约1万发",
+        "region": "茨城县",
+        "source": "WalkerPlus",
+        "description": "音乐花火秀"
+      },
+      {
+        "rank": 5,
+        "title": "筑波山麓花火大会",
+        "date": "2025年8月下旬",
+        "location": "茨城县・筑波市/筑波山麓",
+        "visitors": "约8万人",
+        "fireworksCount": "约8000发",
+        "region": "茨城县",
+        "source": "WalkerPlus",
+        "description": "筑波山为背景的花火大会"
+      }
+    ]
+  }
+}

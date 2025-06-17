@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-06-14T18:50:49.559Z",
+  "summary": {
+    "totalPages": 14,
+    "pagesWithMaps": 14,
+    "pagesWithWebsites": 14,
+    "externalFilePages": 11,
+    "inlineDataPages": 3,
+    "missingMapsCount": 0,
+    "missingWebsitesCount": 0,
+    "completionRate": {
+      "maps": "100.0%",
+      "websites": "100.0%"
+    }
+  },
+  "results": [
+    {
+      "activityId": "ashikaga",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/level5-august-ashikaga-hanabi.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "moka",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/level5-moka-hanabi.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "takasaki",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/level5-august-takasaki-hanabi.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "joso-kinugawa-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "inline_data",
+      "dataFilePath": null,
+      "pageMapInfo": true,
+      "pageWebsiteInfo": true,
+      "dataFileMapInfo": false,
+      "dataFileWebsiteInfo": false
+    },
+    {
+      "activityId": "numata-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "inline_data",
+      "dataFilePath": null,
+      "pageMapInfo": true,
+      "pageWebsiteInfo": true,
+      "dataFileMapInfo": false,
+      "dataFileWebsiteInfo": false
+    },
+    {
+      "activityId": "oarai-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "inline_data",
+      "dataFilePath": null,
+      "pageMapInfo": true,
+      "pageWebsiteInfo": true,
+      "dataFileMapInfo": false,
+      "dataFileWebsiteInfo": false
+    },
+    {
+      "activityId": "koga-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/koga-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "mito-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/mito-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "tsuchiura-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/tsuchiura-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "toride-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/toride-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "tonegawa-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/tonegawa-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "oyama-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/oyama-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "maebashi-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/maebashi-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    },
+    {
+      "activityId": "tamamura-hanabi-2025",
+      "exists": true,
+      "hasMapInfo": true,
+      "hasWebsiteInfo": true,
+      "dataSource": "external_file",
+      "dataFilePath": "src/data/tamamura-hanabi-2025.ts",
+      "pageMapInfo": false,
+      "pageWebsiteInfo": false,
+      "dataFileMapInfo": true,
+      "dataFileWebsiteInfo": true
+    }
+  ]
+}

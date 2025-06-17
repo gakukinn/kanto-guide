@@ -1,0 +1,112 @@
+{
+  "id": "shinshu-ueda-dai-hanabi-2024",
+  "name": "上田市诞生20周年纪念 第38回信州上田大花火大会",
+  "japaneseName": "上田市誕生20周年記念　第38回 信州上田大花火大会",
+  "englishName": "38th Shinshu Ueda Grand Fireworks Festival - 20th Anniversary of Ueda City",
+  "year": 2024,
+  "date": "2024年8月5日(周一)",
+  "time": "19:00~21:00",
+  "duration": "约120分钟",
+  "fireworksCount": "约10,000发",
+  "expectedVisitors": "约12万人",
+  "weather": "夏季山间凉爽",
+  "ticketPrice": "免费观赏",
+  "status": "scheduled",
+  "themeColor": "blue",
+  "month": 8,
+  "tags": {
+    "timeTag": "8月",
+    "regionTag": "长野县",
+    "typeTag": "花火",
+    "layerTag": "Layer 4详情页"
+  },
+  "related": {
+    "regionRecommendations": [
+      {
+        "id": "suwa-ko-hanabi",
+        "name": "诹访湖祭湖上花火大会",
+        "date": "2024年8月15日",
+        "location": "诹访湖畔",
+        "visitors": "约50万人",
+        "link": "/koshinetsu/hanabi/suwa-ko"
+      }
+    ],
+    "timeRecommendations": [
+      {
+        "id": "ichikawa-shinmei-hanabi-2024",
+        "name": "市川三郷町神明花火大会",
+        "date": "2024年8月7日",
+        "location": "山梨县市川三郷町",
+        "visitors": "约15万人",
+        "link": "/koshinetsu/hanabi/ichikawa-shinmei"
+      }
+    ]
+  },
+  "venues": [
+    {
+      "name": "千曲川河川敷",
+      "location": "长野县上田市",
+      "startTime": "19:00",
+      "features": ["河川敷观赏", "免费入场", "20周年纪念"]
+    }
+  ],
+  "access": [
+    {
+      "venue": "千曲川河川敷",
+      "stations": [
+        {
+          "name": "上田站",
+          "lines": ["JR北陆新干线", "JR信越本线"],
+          "walkTime": "步行约15分钟"
+        }
+      ]
+    }
+  ],
+  "viewingSpots": [
+    {
+      "name": "千曲川河川敷观赏区",
+      "rating": 4,
+      "crowdLevel": "拥挤",
+      "tips": "建议提前2小时到达",
+      "pros": ["视野开阔", "免费观赏", "纪念意义"],
+      "cons": ["人流较多", "停车困难"]
+    }
+  ],
+  "history": {
+    "established": 1987,
+    "significance": "上田市传统夏日祭典，2024年为上田市诞生20周年纪念",
+    "highlights": ["38年历史", "上田市20周年", "信州代表花火", "千曲川河畔"]
+  },
+  "tips": [
+    {
+      "category": "交通建议",
+      "items": ["建议使用JR北陆新干线", "有临时停车场", "河川敷步行距离适中"]
+    },
+    {
+      "category": "观赏建议",
+      "items": ["携带防虫用品", "准备野餐垫", "注意河边安全"]
+    }
+  ],
+  "contact": {
+    "organizer": "上田市观光协会",
+    "phone": "0268-71-6074",
+    "website": "https://www.city.ueda.nagano.jp/",
+    "socialMedia": ""
+  },
+  "mapInfo": {
+    "hasMap": true,
+    "mapNote": "会场位于千曲川河川敷",
+    "parking": "有临时停车场\n约1500台\n免费"
+  },
+  "weatherInfo": {
+    "month": "8月",
+    "temperature": "最高29°C，最低19°C",
+    "humidity": "65-75%",
+    "rainfall": "夏季雷雨可能",
+    "recommendation": "建议携带雨具和防虫用品",
+    "rainPolicy": "小雨举行，大雨延期",
+    "note": "山间夜晚较凉，请注意保暖"
+  },
+  "mapEmbedUrl": "https://maps.google.com/maps?q=36.4013,138.2529",
+  "media": []
+}

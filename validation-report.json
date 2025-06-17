@@ -1,0 +1,462 @@
+{
+  "timestamp": "2025-06-15T15:29:30.852Z",
+  "summary": {
+    "totalFiles": 92,
+    "validatedFiles": 92,
+    "errorCount": 0,
+    "warningCount": 90
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "file": "level5-anime-classics-anisong-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-05"
+    },
+    {
+      "file": "level5-august-akishima-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-23"
+    },
+    {
+      "file": "level5-august-asaka-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-ashikaga-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-chiba-omigawa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-01"
+    },
+    {
+      "file": "level5-august-chiba-yachiyo-furusato.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025年8月2日(土)"
+    },
+    {
+      "file": "level5-august-edogawa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-hanabi-choshi-minato.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-hanabi-ichikawa.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-hanabi-kisarazu.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-15"
+    },
+    {
+      "file": "level5-august-hanabi-makuhari-beach.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-hanabi-matsudo.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-hanabi-narashino.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-hanabi-teganuma.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-higashimatsuyama-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-23"
+    },
+    {
+      "file": "level5-august-hitachinaka-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-16"
+    },
+    {
+      "file": "level5-august-ina-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-23"
+    },
+    {
+      "file": "level5-august-itabashi-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-jingu-gaien-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-16"
+    },
+    {
+      "file": "level5-august-kanagawa-atsugi-ayu-matsuri.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 8月3日"
+    },
+    {
+      "file": "level5-august-kanagawa-odawara-sakawa.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-kanagawa-southern-beach-chigasaki.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-kanagawa-yokohama-night-flowers.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 8月2日、9日、16日、23日、30日"
+    },
+    {
+      "file": "level5-august-kanagawa-yokohama-seaparadise.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 8月10日、11日、17日、18日、24日、25日"
+    },
+    {
+      "file": "level5-august-kanazawa-matsuri-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-30"
+    },
+    {
+      "file": "level5-august-kawaguchi-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-05"
+    },
+    {
+      "file": "level5-august-koga-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-kozushima-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-15"
+    },
+    {
+      "file": "level5-august-kumagaya-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-09"
+    },
+    {
+      "file": "level5-august-kurihama-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-maebashi-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-09"
+    },
+    {
+      "file": "level5-august-minato-mirai-smart.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-04(月)"
+    },
+    {
+      "file": "level5-august-nagaoka-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-niigata-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-10"
+    },
+    {
+      "file": "level5-august-okutama-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-09"
+    },
+    {
+      "file": "level5-august-omigawa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-01"
+    },
+    {
+      "file": "level5-august-sagamiko-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-01"
+    },
+    {
+      "file": "level5-august-saitama-omagi-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-09"
+    },
+    {
+      "file": "level5-august-shinmei-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-07"
+    },
+    {
+      "file": "level5-august-suwa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-15"
+    },
+    {
+      "file": "level5-august-takasaki-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-23"
+    },
+    {
+      "file": "level5-august-todabashi-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-02"
+    },
+    {
+      "file": "level5-august-toride-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-09"
+    },
+    {
+      "file": "level5-august-ueda-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-05"
+    },
+    {
+      "file": "level5-fuji-kawaguchi-lake-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-05"
+    },
+    {
+      "file": "level5-gion-kashiwazaki-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-july-hanabi-chiba-kamogawa.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-29"
+    },
+    {
+      "file": "level5-july-hanabi-chiba-marines.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-11"
+    },
+    {
+      "file": "level5-july-hanabi-chiba-motherfarm.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-july-hanabi-chiba-oamishirasato.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-july-hanabi-chiba-shirahama.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-19"
+    },
+    {
+      "file": "level5-july-hanabi-futtsu.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-july-hanabi-iruma-base.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-23"
+    },
+    {
+      "file": "level5-july-hanabi-kanagawa-kamakura.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-18"
+    },
+    {
+      "file": "level5-july-hanabi-kanagawa-nightflowers.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-05"
+    },
+    {
+      "file": "level5-july-hanabi-kanagawa-seaparadise.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-19"
+    },
+    {
+      "file": "level5-july-hanabi-katsushika-noryo.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-22"
+    },
+    {
+      "file": "level5-july-hanabi-koshigaya.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-july-hanabi-metsza-nordic.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-12"
+    },
+    {
+      "file": "level5-july-hanabi-mikurajima.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-08-10"
+    },
+    {
+      "file": "level5-july-hanabi-ogawa-tanabata.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-july-hanabi-saitama-owada.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-27"
+    },
+    {
+      "file": "level5-july-hanabi-seibu-en.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-19"
+    },
+    {
+      "file": "level5-july-hanabi-tachikawa-showa.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-july-hanabi-tokyo-hachioji.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-19"
+    },
+    {
+      "file": "level5-july-hanabi-tokyo-keibajo.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-02"
+    },
+    {
+      "file": "level5-july-hanabi-tokyo-sumida.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-mito-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-moka-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-nojiri-lake-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-october-chiba-asahi-iioka-you-yu.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025年10月4日(土)"
+    },
+    {
+      "file": "level5-october-chiba-urayasu-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2024-10-19"
+    },
+    {
+      "file": "level5-sanjo-natsumatsuri-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    },
+    {
+      "file": "level5-september-kanagawa-seaparadise-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-13"
+    },
+    {
+      "file": "level5-september-kanagawa-yokohama-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-06"
+    },
+    {
+      "file": "level5-september-kitakanto-joso-kinugawa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-20"
+    },
+    {
+      "file": "level5-september-kitakanto-numata-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-13"
+    },
+    {
+      "file": "level5-september-kitakanto-oarai-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-27"
+    },
+    {
+      "file": "level5-september-kitakanto-oyama-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-23"
+    },
+    {
+      "file": "level5-september-kitakanto-rindoko-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-14"
+    },
+    {
+      "file": "level5-september-kitakanto-tonegawa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-13"
+    },
+    {
+      "file": "level5-september-koshinetsu-asahara-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-12"
+    },
+    {
+      "file": "level5-september-koshinetsu-shinsaku-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-06"
+    },
+    {
+      "file": "level5-september-saitama-metsa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-13,2025-09-14,2025-09-20,2025-09-21"
+    },
+    {
+      "file": "level5-september-saitama-seibu-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-13"
+    },
+    {
+      "file": "level5-september-tokyo-chofu-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-09-20"
+    },
+    {
+      "file": "level5-setagaya-tamagawa-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-10-04"
+    },
+    {
+      "file": "level5-suzaka-minna-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-20"
+    },
+    {
+      "file": "level5-tamura-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-12"
+    },
+    {
+      "file": "level5-tatebayashi-hanabi.ts",
+      "field": "date",
+      "warning": "日期格式可能不标准: 2025-07-26"
+    }
+  ]
+}

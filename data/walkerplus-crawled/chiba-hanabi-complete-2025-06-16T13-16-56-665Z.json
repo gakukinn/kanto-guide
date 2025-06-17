@@ -1,0 +1,167 @@
+{
+  "timestamp": "2025-06-16T13:16:56.665Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0312/",
+  "method": "Playwright+Cheerio+Crawlee Complete Pagination",
+  "region": "千葉県",
+  "summary": {
+    "totalPagesProcessed": 5,
+    "totalEventsFound": 85,
+    "uniqueEvents": 12,
+    "errors": 0
+  },
+  "events": [
+    {
+      "title": "第50回八千代ふるさと親子祭",
+      "rawContent": "\n                      \n                        \n                        第50回八千代ふるさと親子祭\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          8888発の打ち上げ花火が八千代の夜空を彩る\n                          千葉県・八千代市/県立八千代広域公園及び村上橋周辺\n                          期間：2024年8月24日(土)\n                            \n                              例年の人出：約20万人\n                              ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e00921/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 10,
+      "location": "千葉県・八千代市/県立八千代広域公園及び村上橋周辺",
+      "date": "2024年8月24日(土)",
+      "audience": "約20万人",
+      "fireworks": "8888発"
+    },
+    {
+      "title": "成田市制施行70周年記念　2024NARITA花火大会 in 印旛沼",
+      "rawContent": "\n                      \n                        \n                        成田市制施行70周年記念　2024NARITA花火大会 in 印旛沼\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          音楽と見事にシンクロした1万5000発の花火に感動\n                          千葉県・成田市/成田市台方地先、成田ニュータウンスポーツ広場、協賛者会場(有料)\n                          期間：2024年11月2日(土)\n                            \n                              例年の人",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e01092/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 5,
+      "location": "千葉県・成田市/成田市台方地先、成田ニュータウンスポーツ広場、協賛者会場(有料)",
+      "date": "2024年11月2日(土)",
+      "audience": "13万人",
+      "fireworks": "1万5000発"
+    },
+    {
+      "title": "習志野花火大会2024",
+      "rawContent": "\n                      \n                        \n                        習志野花火大会2024\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          習志野市制70周年を祝い、2日間で2万発の花火が夜空を彩る\n                          千葉県・習志野市/茜浜緑地\n                          期間：2024年11月23日(土)・24日(日)\n                            \n                              \n                              行ってみたい：9\n  ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e518899/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 4,
+      "location": "千葉県・習志野市/茜浜緑地",
+      "date": "2024年11月23日(土)・24日(日)",
+      "fireworks": "約2万発"
+    },
+    {
+      "title": "第41回 市川市民納涼花火大会",
+      "rawContent": "\n                      \n                        \n                        第41回 市川市民納涼花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          7つのテーマで構成された魅力あふれるプログラム\n                          千葉県・市川市/江戸川河川敷\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約49万人\n                              行ってみたい：44\n",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e01102/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 6,
+      "location": "千葉県・市川市/江戸川河川敷",
+      "date": "2025年8月2日(土)",
+      "audience": "約49万人",
+      "fireworks": "約1万4000発"
+    },
+    {
+      "title": "手賀沼花火大会2025",
+      "rawContent": "\n                      \n                        \n                        手賀沼花火大会2025\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          ウルトラジャンボスターマインなど各種花火を打ち上げ\n                          千葉県・柏市/我孫子市・手賀沼\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：48万人\n                              行ってみたい：26\n  ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e00930/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 7,
+      "location": "千葉県・柏市/我孫子市・手賀沼",
+      "date": "2025年8月2日(土)",
+      "audience": "48万人",
+      "fireworks": "約1万3500発"
+    },
+    {
+      "title": "松戸花火大会2025",
+      "rawContent": "\n                      \n                        \n                        松戸花火大会2025\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          伝統的な花火から音楽花火まで約1万発の多彩なプログラム\n                          千葉県・松戸市/古ヶ崎河川敷スポーツ広場\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約27万人\n                              行ってみた",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e00979/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 9,
+      "location": "千葉県・松戸市/古ヶ崎河川敷スポーツ広場",
+      "date": "2025年8月2日(土)",
+      "audience": "約27万人",
+      "fireworks": "1万発"
+    },
+    {
+      "title": "銚子みなとまつり花火大会",
+      "rawContent": "\n                      \n                        \n                        銚子みなとまつり花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          夏を彩る一大イベントを約8000発の花火が盛り上げる\n                          千葉県・銚子市/利根川河畔\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約7万人\n                              行ってみたい：14\n  ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e00411/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 11,
+      "location": "千葉県・銚子市/利根川河畔",
+      "date": "2025年8月2日(土)",
+      "audience": "約7万人",
+      "fireworks": "約8000発"
+    },
+    {
+      "title": "第78回 木更津港まつり",
+      "rawContent": "第78回 木更津港まつり",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e00916/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 1
+    },
+    {
+      "title": "幕張ビーチ花火フェスタ2025(第47回千葉市民花火大会)",
+      "rawContent": "幕張ビーチ花火フェスタ2025(第47回千葉市民花火大会)",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e00869/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 2
+    },
+    {
+      "title": "ふなばし市民まつり 船橋港親水公園花火大会【2024年は花火のみ中止】",
+      "rawContent": "\n                      \n                        \n                        ふなばし市民まつり 船橋港親水公園花火大会【2024年は花火のみ中止】\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          ユニークな花火が次々と打ち上げられる\n                          千葉県・船橋市/船橋港親水公園　船橋漁港\n                          期間：2024年の花火は中止\n                            \n                              例年の人出：8万5000人\n                  ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e01020/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 12,
+      "location": "千葉県・船橋市/船橋港親水公園　船橋漁港",
+      "date": "2024年の花火は中止",
+      "audience": "8万5000人",
+      "fireworks": "約8000発"
+    },
+    {
+      "title": "第61回 南房総白浜海女まつり",
+      "rawContent": "\n                        4\n                        第61回 南房総白浜海女まつり\n                      ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e00472/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 16
+    },
+    {
+      "title": "令和7年 習志野駐屯地夏まつり",
+      "rawContent": "\n                        5\n                        令和7年 習志野駐屯地夏まつり\n                      ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0312e07621/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "pageIndex": 17
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "url": "https://hanabi.walkerplus.com/launch/ar0312/",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:16:35.774Z"
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://hanabi.walkerplus.com/launch/ar0312/?page=2",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:16:41.031Z"
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://hanabi.walkerplus.com/launch/ar0312/?page=3",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:16:46.236Z"
+    },
+    {
+      "pageNumber": 4,
+      "url": "https://hanabi.walkerplus.com/launch/ar0312/?page=4",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:16:51.456Z"
+    },
+    {
+      "pageNumber": 5,
+      "url": "https://hanabi.walkerplus.com/launch/ar0312/?page=5",
+      "eventsCount": 17,
+      "totalLinksFound": 17,
+      "timestamp": "2025-06-16T13:16:56.656Z"
+    }
+  ],
+  "errors": []
+}

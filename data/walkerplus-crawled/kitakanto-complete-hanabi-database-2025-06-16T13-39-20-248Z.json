@@ -1,0 +1,693 @@
+{
+  "timestamp": "2025-06-16T13:39:20.247Z",
+  "region": "北関東 (North Kanto) - Complete",
+  "prefectures": [
+    "群馬県",
+    "栃木県",
+    "茨城県"
+  ],
+  "method": "Playwright+Cheerio",
+  "totalEvents": 30,
+  "sources": [
+    "https://hanabi.walkerplus.com/launch/ar0310/",
+    "https://hanabi.walkerplus.com/launch/ar0309/",
+    "https://hanabi.walkerplus.com/launch/ar0308/"
+  ],
+  "events": [
+    {
+      "title": "第38回 利根川大花火大会",
+      "date": "2025年9月13日(土)",
+      "location": "茨城県・猿島郡境町/さかいリバーサイドパーク(利根川河川敷)",
+      "audience": "約30万人",
+      "fireworks": "約3万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.338Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "第53回 真岡市夏祭大花火大会",
+      "date": "2025年7月26日(土)",
+      "location": "栃木県・真岡市/真岡市役所東側五行川沿い",
+      "audience": "約17万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00887/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.019Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "第109回 足利花火大会",
+      "date": "2025年8月2日(土)",
+      "location": "栃木県・足利市/渡良瀬川田中橋下流河川敷",
+      "audience": "約45万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00904/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.020Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "第73回 小山の花火",
+      "date": "2025年9月23日(祝)",
+      "location": "栃木県・小山市/観晃橋下流　思川河畔",
+      "audience": "約43万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.020Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "那須野ふるさと花火大会【2025年非開催】",
+      "date": "2025年非開催",
+      "location": "栃木県・那須塩原市/那珂川河畔運動公園",
+      "audience": "",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e509319/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.021Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "ちくせい花火大会2025",
+      "date": "2025年10月18日(土)",
+      "location": "茨城県・筑西市/道の駅グランテラス筑西",
+      "audience": "",
+      "fireworks": "2万21発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e408443/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.339Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "第58回 常総きぬ川花火大会",
+      "date": "2025年9月20日(土)",
+      "location": "茨城県・常総市/鬼怒川河畔、橋本運動公園",
+      "audience": "約12万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00248/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.340Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "第94回 土浦全国花火競技大会",
+      "date": "2025年11月1日(土)",
+      "location": "茨城県・土浦市/土浦市 桜川畔(学園大橋付近)",
+      "audience": "約60万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00280/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.341Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "第69回 前橋花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "群馬県・前橋市/利根川河畔大渡橋南北河川緑地",
+      "audience": "非公開",
+      "fireworks": "約1万5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00917/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.670Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "第51回 高崎大花火大会",
+      "date": "2025年8月23日(土)",
+      "location": "群馬県・高崎市/烏川和田橋上流河川敷",
+      "audience": "約90万人",
+      "fireworks": "約1万5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00905/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.671Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "第13回 沼田花火大会",
+      "date": "2025年9月13日(土)",
+      "location": "群馬県・沼田市/沼田市運動公園(住所：沼田市硯田町626)",
+      "audience": "9万人",
+      "fireworks": "1万発以上",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e40188/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.674Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "刀水橋花火大会",
+      "date": "2024年11月3日(日)※2024年11月2日(土)の花火大会は台風のため11月3日(日)に延期となりました",
+      "location": "群馬県・邑楽郡大泉町/利根川河川敷とね運動場",
+      "audience": "",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e521280/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.676Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "尊徳夏まつり 大花火大会",
+      "date": "2025年8月30日(土)",
+      "location": "栃木県・真岡市/鬼怒川河川敷緑地公園(砂ケ原橋付近)",
+      "audience": "約5万人",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e01099/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.022Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "第2回渡良瀬遊水地花火大会",
+      "date": "2024年10月26日(土)",
+      "location": "栃木県・栃木市/渡良瀬遊水地・藤岡渡良瀬運動公園",
+      "audience": "",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e522950/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.023Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "大洗海上花火大会2025〜千櫓祭〜",
+      "date": "2025年9月27日(土)",
+      "location": "茨城県・東茨城郡大洗町/大洗サンビーチ",
+      "audience": "約18万人",
+      "fireworks": "約1万8000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00860/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.342Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "第70回 とりで利根川大花火",
+      "date": "2025年8月9日(土)",
+      "location": "茨城県・取手市/取手緑地運動公園",
+      "audience": "約12万人",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00914/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.342Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "2025 いなしき夏まつり花火大会",
+      "date": "2025年8月23日(土)(予定)",
+      "location": "茨城県・稲敷市/江戸崎総合運動公園周辺",
+      "audience": "約10万人",
+      "fireworks": "約1万発(予定)",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00879/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.343Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "第44回鹿嶋市花火大会",
+      "date": "2024年10月12日(土)",
+      "location": "茨城県・鹿嶋市/大船津地内北浦湖上",
+      "audience": "約10万人",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e01114/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.348Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "第36回 新田まつり花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "群馬県・太田市/新田野球場ほか",
+      "audience": "約2万人",
+      "fireworks": "8000発(予定)",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00584/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.677Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "第47回 東海まつり花火大会",
+      "date": "2025年8月10日(日)",
+      "location": "茨城県・那珂郡東海村/久慈川河川敷運動場",
+      "audience": "約2万人",
+      "fireworks": "約7000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e356524/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.351Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "サンセットフェスタ IN 天王崎2024　なめがたの湖上花火大会",
+      "date": "2024年10月26日(土)",
+      "location": "茨城県・行方市/天王崎公園",
+      "audience": "約2万人",
+      "fireworks": "約7000発(予定)",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e356530/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.352Z",
+      "prefecture": "茨城県",
+      "region": "北関東"
+    },
+    {
+      "title": "日光花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "栃木県・日光市/日光だいや川公園、丸山公園",
+      "audience": "4万5000人",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00578/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.024Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "与一の里大田原 佐久山納涼花火大会",
+      "date": "2025年8月16日(土)",
+      "location": "栃木県・大田原市/箒川岩井橋付近、佐久山運動公園",
+      "audience": "約2万人",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00586/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.025Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "祇園祭ふるさと茂木夏まつり花火大会",
+      "date": "2024年7月27日(土)",
+      "location": "栃木県・芳賀郡茂木町/茂木町中心市街地",
+      "audience": "約1万人",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e511715/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.025Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "千代田の祭 川せがき",
+      "date": "2025年8月18日(月)",
+      "location": "群馬県・邑楽郡千代田町/赤岩地先利根川河畔",
+      "audience": "5万人",
+      "fireworks": "約4000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00588/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.677Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "田園夢花火2025 第35回 たまむら花火大会",
+      "date": "2025年7月12日(土)",
+      "location": "群馬県・佐波郡玉村町/玉村町上陽地区(上陽小学校西側)",
+      "audience": "1万2000人",
+      "fireworks": "3000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00986/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.678Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "榛名ふるさと祭り 商工祭花火大会",
+      "date": "2025年8月15日(金)",
+      "location": "群馬県・高崎市/烏川公園",
+      "audience": "約1万人",
+      "fireworks": "約3000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e513939/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.679Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "かわば花火大会",
+      "date": "2024年11月3日(祝)",
+      "location": "群馬県・利根郡川場村/川場村中央公園",
+      "audience": "1500人",
+      "fireworks": "約3000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e00576/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.680Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    },
+    {
+      "title": "第31回 りんどう湖花火大会",
+      "date": "2025/7/20(日)・27(日)、8/2(土)・9(土)～11(祝)・13(水)〜16(土)・23(土)9/14(日)・21(日)",
+      "location": "栃木県・那須郡那須町/那須高原りんどう湖ファミリー牧場",
+      "audience": "3万人",
+      "fireworks": "3000発(各日) ※8月13日・14日は6000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0309e00579/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:35:44.023Z",
+      "prefecture": "栃木県",
+      "region": "北関東"
+    },
+    {
+      "title": "第40回新里まつり花火大会",
+      "date": "2024年8月15日(木)",
+      "location": "群馬県・桐生市/新里総合グラウンド",
+      "audience": "約1万8000人",
+      "fireworks": "2243発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0310e514319/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:33:21.680Z",
+      "prefecture": "群馬県",
+      "region": "北関東"
+    }
+  ],
+  "summary": {
+    "gunmaEvents": 10,
+    "tochigiEvents": 10,
+    "ibarakiEvents": 10,
+    "totalEvents": 30,
+    "eventsByPrefecture": {
+      "群馬県": [
+        {
+          "title": "第69回 前橋花火大会",
+          "date": "2025年8月9日(土)",
+          "location": "群馬県・前橋市/利根川河畔大渡橋南北河川緑地",
+          "audience": "非公開",
+          "fireworks": "約1万5000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e00917/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.670Z"
+        },
+        {
+          "title": "第51回 高崎大花火大会",
+          "date": "2025年8月23日(土)",
+          "location": "群馬県・高崎市/烏川和田橋上流河川敷",
+          "audience": "約90万人",
+          "fireworks": "約1万5000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e00905/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.671Z"
+        },
+        {
+          "title": "第13回 沼田花火大会",
+          "date": "2025年9月13日(土)",
+          "location": "群馬県・沼田市/沼田市運動公園(住所：沼田市硯田町626)",
+          "audience": "9万人",
+          "fireworks": "1万発以上",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e40188/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.674Z"
+        },
+        {
+          "title": "刀水橋花火大会",
+          "date": "2024年11月3日(日)※2024年11月2日(土)の花火大会は台風のため11月3日(日)に延期となりました",
+          "location": "群馬県・邑楽郡大泉町/利根川河川敷とね運動場",
+          "audience": "",
+          "fireworks": "約1万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e521280/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.676Z"
+        },
+        {
+          "title": "第36回 新田まつり花火大会",
+          "date": "2025年8月9日(土)",
+          "location": "群馬県・太田市/新田野球場ほか",
+          "audience": "約2万人",
+          "fireworks": "8000発(予定)",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e00584/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.677Z"
+        },
+        {
+          "title": "千代田の祭 川せがき",
+          "date": "2025年8月18日(月)",
+          "location": "群馬県・邑楽郡千代田町/赤岩地先利根川河畔",
+          "audience": "5万人",
+          "fireworks": "約4000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e00588/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.677Z"
+        },
+        {
+          "title": "田園夢花火2025 第35回 たまむら花火大会",
+          "date": "2025年7月12日(土)",
+          "location": "群馬県・佐波郡玉村町/玉村町上陽地区(上陽小学校西側)",
+          "audience": "1万2000人",
+          "fireworks": "3000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e00986/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.678Z"
+        },
+        {
+          "title": "榛名ふるさと祭り 商工祭花火大会",
+          "date": "2025年8月15日(金)",
+          "location": "群馬県・高崎市/烏川公園",
+          "audience": "約1万人",
+          "fireworks": "約3000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e513939/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.679Z"
+        },
+        {
+          "title": "かわば花火大会",
+          "date": "2024年11月3日(祝)",
+          "location": "群馬県・利根郡川場村/川場村中央公園",
+          "audience": "1500人",
+          "fireworks": "約3000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e00576/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.680Z"
+        },
+        {
+          "title": "第40回新里まつり花火大会",
+          "date": "2024年8月15日(木)",
+          "location": "群馬県・桐生市/新里総合グラウンド",
+          "audience": "約1万8000人",
+          "fireworks": "2243発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0310e514319/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:33:21.680Z"
+        }
+      ],
+      "栃木県": [
+        {
+          "title": "第53回 真岡市夏祭大花火大会",
+          "date": "2025年7月26日(土)",
+          "location": "栃木県・真岡市/真岡市役所東側五行川沿い",
+          "audience": "約17万人",
+          "fireworks": "約2万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e00887/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.019Z"
+        },
+        {
+          "title": "第109回 足利花火大会",
+          "date": "2025年8月2日(土)",
+          "location": "栃木県・足利市/渡良瀬川田中橋下流河川敷",
+          "audience": "約45万人",
+          "fireworks": "約2万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e00904/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.020Z"
+        },
+        {
+          "title": "第73回 小山の花火",
+          "date": "2025年9月23日(祝)",
+          "location": "栃木県・小山市/観晃橋下流　思川河畔",
+          "audience": "約43万人",
+          "fireworks": "約2万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e00890/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.020Z"
+        },
+        {
+          "title": "那須野ふるさと花火大会【2025年非開催】",
+          "date": "2025年非開催",
+          "location": "栃木県・那須塩原市/那珂川河畔運動公園",
+          "audience": "",
+          "fireworks": "約2万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e509319/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.021Z"
+        },
+        {
+          "title": "尊徳夏まつり 大花火大会",
+          "date": "2025年8月30日(土)",
+          "location": "栃木県・真岡市/鬼怒川河川敷緑地公園(砂ケ原橋付近)",
+          "audience": "約5万人",
+          "fireworks": "約1万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e01099/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.022Z"
+        },
+        {
+          "title": "第2回渡良瀬遊水地花火大会",
+          "date": "2024年10月26日(土)",
+          "location": "栃木県・栃木市/渡良瀬遊水地・藤岡渡良瀬運動公園",
+          "audience": "",
+          "fireworks": "約1万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e522950/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.023Z"
+        },
+        {
+          "title": "第31回 りんどう湖花火大会",
+          "date": "2025/7/20(日)・27(日)、8/2(土)・9(土)～11(祝)・13(水)〜16(土)・23(土)9/14(日)・21(日)",
+          "location": "栃木県・那須郡那須町/那須高原りんどう湖ファミリー牧場",
+          "audience": "3万人",
+          "fireworks": "3000発(各日) ※8月13日・14日は6000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e00579/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.023Z"
+        },
+        {
+          "title": "日光花火大会",
+          "date": "2025年8月9日(土)",
+          "location": "栃木県・日光市/日光だいや川公園、丸山公園",
+          "audience": "4万5000人",
+          "fireworks": "約5000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e00578/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.024Z"
+        },
+        {
+          "title": "与一の里大田原 佐久山納涼花火大会",
+          "date": "2025年8月16日(土)",
+          "location": "栃木県・大田原市/箒川岩井橋付近、佐久山運動公園",
+          "audience": "約2万人",
+          "fireworks": "約5000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e00586/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.025Z"
+        },
+        {
+          "title": "祇園祭ふるさと茂木夏まつり花火大会",
+          "date": "2024年7月27日(土)",
+          "location": "栃木県・芳賀郡茂木町/茂木町中心市街地",
+          "audience": "約1万人",
+          "fireworks": "約5000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0309e511715/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:35:44.025Z"
+        }
+      ],
+      "茨城県": [
+        {
+          "title": "第38回 利根川大花火大会",
+          "date": "2025年9月13日(土)",
+          "location": "茨城県・猿島郡境町/さかいリバーサイドパーク(利根川河川敷)",
+          "audience": "約30万人",
+          "fireworks": "約3万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.338Z"
+        },
+        {
+          "title": "ちくせい花火大会2025",
+          "date": "2025年10月18日(土)",
+          "location": "茨城県・筑西市/道の駅グランテラス筑西",
+          "audience": "",
+          "fireworks": "2万21発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e408443/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.339Z"
+        },
+        {
+          "title": "第58回 常総きぬ川花火大会",
+          "date": "2025年9月20日(土)",
+          "location": "茨城県・常総市/鬼怒川河畔、橋本運動公園",
+          "audience": "約12万人",
+          "fireworks": "約2万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e00248/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.340Z"
+        },
+        {
+          "title": "第94回 土浦全国花火競技大会",
+          "date": "2025年11月1日(土)",
+          "location": "茨城県・土浦市/土浦市 桜川畔(学園大橋付近)",
+          "audience": "約60万人",
+          "fireworks": "約2万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e00280/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.341Z"
+        },
+        {
+          "title": "大洗海上花火大会2025〜千櫓祭〜",
+          "date": "2025年9月27日(土)",
+          "location": "茨城県・東茨城郡大洗町/大洗サンビーチ",
+          "audience": "約18万人",
+          "fireworks": "約1万8000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e00860/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.342Z"
+        },
+        {
+          "title": "第70回 とりで利根川大花火",
+          "date": "2025年8月9日(土)",
+          "location": "茨城県・取手市/取手緑地運動公園",
+          "audience": "約12万人",
+          "fireworks": "約1万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e00914/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.342Z"
+        },
+        {
+          "title": "2025 いなしき夏まつり花火大会",
+          "date": "2025年8月23日(土)(予定)",
+          "location": "茨城県・稲敷市/江戸崎総合運動公園周辺",
+          "audience": "約10万人",
+          "fireworks": "約1万発(予定)",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e00879/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.343Z"
+        },
+        {
+          "title": "第44回鹿嶋市花火大会",
+          "date": "2024年10月12日(土)",
+          "location": "茨城県・鹿嶋市/大船津地内北浦湖上",
+          "audience": "約10万人",
+          "fireworks": "約1万発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e01114/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.348Z"
+        },
+        {
+          "title": "第47回 東海まつり花火大会",
+          "date": "2025年8月10日(日)",
+          "location": "茨城県・那珂郡東海村/久慈川河川敷運動場",
+          "audience": "約2万人",
+          "fireworks": "約7000発",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e356524/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.351Z"
+        },
+        {
+          "title": "サンセットフェスタ IN 天王崎2024　なめがたの湖上花火大会",
+          "date": "2024年10月26日(土)",
+          "location": "茨城県・行方市/天王崎公園",
+          "audience": "約2万人",
+          "fireworks": "約7000発(予定)",
+          "link": "https://hanabi.walkerplus.com/detail/ar0308e356530/",
+          "source": "WalkerPlus",
+          "extractedAt": "2025-06-16T13:38:23.352Z"
+        }
+      ]
+    }
+  },
+  "errors": []
+}

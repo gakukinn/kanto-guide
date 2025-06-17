@@ -1,0 +1,393 @@
+{
+  "timestamp": "2025-06-14T18:42:37.383Z",
+  "summary": {
+    "totalActivities": 13,
+    "perfectActivities": 7,
+    "activitiesWithIssues": 6,
+    "totalIssues": 38
+  },
+  "details": [
+    {
+      "activity": "足利花火大会",
+      "id": "ashikaga-hanabi",
+      "detailLink": "/kitakanto/hanabi/ashikaga",
+      "issues": [
+        "Layer3-Layer4 location不一致: \"栃木県・足利市/渡良瀬川田中橋下流河川敷\" vs \"群馬県高崎市\"",
+        "Layer3-Database location不一致: \"栃木県・足利市/渡良瀬川田中橋下流河川敷\" vs \"栃木县・足利市/渡良瀬川田中桥下流河川敷\"",
+        "Layer4-Database location不一致: \"群馬県高崎市\" vs \"栃木县・足利市/渡良瀬川田中桥下流河川敷\"",
+        "Layer3-Database fireworksCount不一致: \"約2万発\" vs \"约2万发\"",
+        "Layer4-Database fireworksCount不一致: \"約2万発\" vs \"约2万发\"",
+        "Layer3-Database expectedVisitors不一致: \"約45万人\" vs \"约45万人\"",
+        "Layer4-Database expectedVisitors不一致: \"約45万人\" vs \"约45万人\""
+      ],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "❌",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "✅",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        },
+        "layer4_database": {
+          "date": "✅",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        }
+      }
+    },
+    {
+      "activity": "小山の花火",
+      "id": "oyama-hanabi",
+      "detailLink": "/kitakanto/hanabi/oyama-hanabi-2025",
+      "issues": [],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "真岡夏祭大花火大会",
+      "id": "moka-hanabi",
+      "detailLink": "/kitakanto/hanabi/moka",
+      "issues": [],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "土浦全国花火竞技大会",
+      "id": "tsuchiura-hanabi",
+      "detailLink": "/kitakanto/hanabi/tsuchiura-hanabi-2025",
+      "issues": [
+        "Layer3-Database date不一致: \"2025年11月1日\" vs \"2025年10月第一个周六\"",
+        "Layer4-Database date不一致: \"2025年11月1日\" vs \"2025年10月第一个周六\"",
+        "Layer3-Database location不一致: \"茨城県・土浦市/桜川畔学園大橋付近\" vs \"茨城县・土浦市/樱川畔(学园大桥附近)\"",
+        "Layer4-Database location不一致: \"茨城県・土浦市/桜川畔学園大橋付近\" vs \"茨城县・土浦市/樱川畔(学园大桥附近)\"",
+        "Layer3-Database fireworksCount不一致: \"約2万発\" vs \"约2万发\"",
+        "Layer4-Database fireworksCount不一致: \"約2万発\" vs \"约2万发\"",
+        "Layer3-Database expectedVisitors不一致: \"約60万人\" vs \"约80万人\"",
+        "Layer4-Database expectedVisitors不一致: \"約60万人\" vs \"约80万人\""
+      ],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "❌",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        },
+        "layer4_database": {
+          "date": "❌",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        }
+      }
+    },
+    {
+      "activity": "利根川大花火大会",
+      "id": "tonegawa-fireworks",
+      "detailLink": "/kitakanto/hanabi/tonegawa-hanabi-2025",
+      "issues": [],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "水戸黄门祭花火大会",
+      "id": "mitokoumon-matsuri-hanabi",
+      "detailLink": "/kitakanto/hanabi/mito-hanabi-2025",
+      "issues": [],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "大洗海上花火大会",
+      "id": "oarai-hanabi",
+      "detailLink": "/kitakanto/hanabi/oarai-hanabi-2025",
+      "issues": [
+        "Layer3-Database date不一致: \"2025年9月27日\" vs \"2025年7月下旬\"",
+        "Layer4-Database date不一致: \"2025年9月27日\" vs \"2025年7月下旬\"",
+        "Layer3-Database location不一致: \"茨城県・大洗町/大洗サンビーチ\" vs \"茨城县・大洗町/大洗海岸\"",
+        "Layer4-Database location不一致: \"茨城県・大洗町/大洗サンビーチ\" vs \"茨城县・大洗町/大洗海岸\"",
+        "Layer3-Database fireworksCount不一致: \"約1万発\" vs \"约1万发\"",
+        "Layer4-Database fireworksCount不一致: \"約1万発\" vs \"约1万发\"",
+        "Layer3-Database expectedVisitors不一致: \"約18万人\" vs \"约15万人\"",
+        "Layer4-Database expectedVisitors不一致: \"約18万人\" vs \"约15万人\""
+      ],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "❌",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        },
+        "layer4_database": {
+          "date": "❌",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        }
+      }
+    },
+    {
+      "activity": "高崎花火大会",
+      "id": "takasaki-hanabi",
+      "detailLink": "/kitakanto/hanabi/takasaki",
+      "issues": [
+        "Layer3-Layer4 location不一致: \"群馬県・高崎市/乌川和田桥上流河川敷\" vs \"群馬県前橋市\""
+      ],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "❌",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "前橋花火大会",
+      "id": "maebashi-hanabi",
+      "detailLink": "/kitakanto/hanabi/maebashi-hanabi-2025",
+      "issues": [],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "沼田花火大会",
+      "id": "numata-hanabi",
+      "detailLink": "/kitakanto/hanabi/numata-hanabi-2025",
+      "issues": [
+        "Layer3-Database date不一致: \"2025年9月13日\" vs \"2025年8月中旬\"",
+        "Layer4-Database date不一致: \"2025年9月13日\" vs \"2025年8月中旬\"",
+        "Layer3-Database location不一致: \"群馬県・沼田市/沼田市運動公園\" vs \"群马县・沼田市/利根川河川敷\"",
+        "Layer4-Database location不一致: \"群馬県・沼田市/沼田市運動公園\" vs \"群马县・沼田市/利根川河川敷\"",
+        "Layer3-Database fireworksCount不一致: \"約3000発\" vs \"约3000发\"",
+        "Layer4-Database fireworksCount不一致: \"約3000発\" vs \"约3000发\"",
+        "Layer3-Database expectedVisitors不一致: \"約9万人\" vs \"约8万人\"",
+        "Layer4-Database expectedVisitors不一致: \"約9万人\" vs \"约8万人\""
+      ],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "❌",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        },
+        "layer4_database": {
+          "date": "❌",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        }
+      }
+    },
+    {
+      "activity": "田园梦花火2025 第35回 玉村花火大会",
+      "id": "tamamura-hanabi",
+      "detailLink": "/kitakanto/hanabi/tamamura-hanabi-2025",
+      "issues": [],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "第58回 常總きぬ川花火大会",
+      "id": "joso-kinugawa-hanabi",
+      "detailLink": "/kitakanto/hanabi/joso-kinugawa-hanabi-2025",
+      "issues": [],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "数据库无匹配",
+          "location": "数据库无匹配",
+          "fireworksCount": "数据库无匹配",
+          "expectedVisitors": "数据库无匹配"
+        },
+        "layer4_database": {
+          "date": "无法比较",
+          "location": "无法比较",
+          "fireworksCount": "无法比较",
+          "expectedVisitors": "无法比较"
+        }
+      }
+    },
+    {
+      "activity": "第20回 古河花火大会",
+      "id": "koga-hanabi",
+      "detailLink": "/kitakanto/hanabi/koga-hanabi-2025",
+      "issues": [
+        "Layer3-Database location不一致: \"茨城県・古河市/古河ゴルフリンクス\" vs \"茨城县・古河市/渡良瀬川河畔\"",
+        "Layer4-Database location不一致: \"茨城県・古河市/古河ゴルフリンクス\" vs \"茨城县・古河市/渡良瀬川河畔\"",
+        "Layer3-Database fireworksCount不一致: \"約2万5000発\" vs \"约2万5000发\"",
+        "Layer4-Database fireworksCount不一致: \"約2万5000発\" vs \"约2万5000发\"",
+        "Layer3-Database expectedVisitors不一致: \"約20万人\" vs \"约55万人\"",
+        "Layer4-Database expectedVisitors不一致: \"約20万人\" vs \"约55万人\""
+      ],
+      "consistency": {
+        "layer3_layer4": {
+          "date": "✅",
+          "location": "✅",
+          "fireworksCount": "✅",
+          "expectedVisitors": "✅"
+        },
+        "layer3_database": {
+          "date": "✅",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        },
+        "layer4_database": {
+          "date": "✅",
+          "location": "❌",
+          "fireworksCount": "❌",
+          "expectedVisitors": "❌"
+        }
+      }
+    }
+  ]
+}

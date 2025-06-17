@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const seaparadiseHanabiData: HanabiData = {
   id: 'seaparadise-hanabi-symphonia-september',
   name: '横浜・八景岛海洋天堂「花火交响曲」',
-  japaneseName: '横浜・八景島シーパラダイス「花火シンフォニア」',
   englishName: 'Yokohama Hakkeijima Sea Paradise Fireworks Symphonia',
+  _sourceData: {
+    japaneseName: '横浜・八景島シーパラダイス「花火シンフォニア」'
+  },
   year: 2025,
   date: "9月13日・14日",
   time: '20:30～20:40',

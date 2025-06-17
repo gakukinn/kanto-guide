@@ -1,0 +1,156 @@
+{
+  "totalEvents": 7,
+  "eventsWithDetailFiles": 7,
+  "consistentEvents": 6,
+  "inconsistentEvents": [
+    {
+      "id": "gion-kashiwazaki-matsuri-hanabi",
+      "name": "ぎおん柏崎まつり 海の大花火大会",
+      "issues": [
+        "花火数不一致"
+      ]
+    }
+  ],
+  "detailedResults": [
+    {
+      "id": "kawaguchiko-kojosai-2025",
+      "name": "河口湖湖上祭",
+      "hasDetailFile": true,
+      "threeLayerData": {
+        "date": "2025年8月5日",
+        "fireworksCount": 10000,
+        "expectedVisitors": 120000
+      },
+      "fourLayerData": {
+        "date": "2025年8月5日",
+        "fireworksCount": "约1万发",
+        "expectedVisitors": "12万人"
+      },
+      "consistency": {
+        "dateConsistent": true,
+        "fireworksConsistent": true,
+        "visitorsConsistent": true
+      }
+    },
+    {
+      "id": "ichikawa-shinmei-hanabi-2024",
+      "name": "市川三郷町ふるさと夏まつり　第37回「神明の花火大会」",
+      "hasDetailFile": true,
+      "threeLayerData": {
+        "date": "2025年8月7日",
+        "fireworksCount": 20000,
+        "expectedVisitors": 200000
+      },
+      "fourLayerData": {
+        "date": "2025-08-07(木)",
+        "fireworksCount": "约2万发",
+        "expectedVisitors": "约20万人"
+      },
+      "consistency": {
+        "dateConsistent": true,
+        "fireworksConsistent": true,
+        "visitorsConsistent": true
+      }
+    },
+    {
+      "id": "anime-classics-anison-hanabi",
+      "name": "アニメクラシックス アニソン花火",
+      "hasDetailFile": true,
+      "threeLayerData": {
+        "date": "2025年7月5日",
+        "fireworksCount": 10000,
+        "expectedVisitors": "未公布"
+      },
+      "fourLayerData": {
+        "date": "2025-07-05",
+        "fireworksCount": "1万发",
+        "expectedVisitors": "未公布"
+      },
+      "consistency": {
+        "dateConsistent": true,
+        "fireworksConsistent": true,
+        "visitorsConsistent": true
+      }
+    },
+    {
+      "id": "nagaoka-matsuri-hanabi",
+      "name": "長岡まつり大花火大会",
+      "hasDetailFile": true,
+      "threeLayerData": {
+        "date": "2025年8月2日、3日",
+        "fireworksCount": 20000,
+        "expectedVisitors": 345000
+      },
+      "fourLayerData": {
+        "date": "2025年8月2日、3日",
+        "fireworksCount": "20000发",
+        "expectedVisitors": "345000人"
+      },
+      "consistency": {
+        "dateConsistent": true,
+        "fireworksConsistent": true,
+        "visitorsConsistent": true
+      }
+    },
+    {
+      "id": "gion-kashiwazaki-matsuri-hanabi",
+      "name": "ぎおん柏崎まつり 海の大花火大会",
+      "hasDetailFile": true,
+      "threeLayerData": {
+        "date": "2025年7月26日",
+        "fireworksCount": 16000,
+        "expectedVisitors": 170000
+      },
+      "fourLayerData": {
+        "date": "2025-07-26(土)",
+        "fireworksCount": "约1万6000发",
+        "expectedVisitors": "约17万人"
+      },
+      "consistency": {
+        "dateConsistent": true,
+        "fireworksConsistent": false,
+        "visitorsConsistent": true
+      }
+    },
+    {
+      "id": "nagano-ebisukou-hanabi-2025",
+      "name": "第119回 長野えびす講煙火大会",
+      "hasDetailFile": true,
+      "threeLayerData": {
+        "date": "2025年11月23日",
+        "fireworksCount": 10000,
+        "expectedVisitors": 400000
+      },
+      "fourLayerData": {
+        "date": "2025年11月23日",
+        "fireworksCount": "约10000发",
+        "expectedVisitors": "约40万人"
+      },
+      "consistency": {
+        "dateConsistent": true,
+        "fireworksConsistent": true,
+        "visitorsConsistent": true
+      }
+    },
+    {
+      "id": "niigata-matsuri-hanabi-2025",
+      "name": "新潟まつり花火大会",
+      "hasDetailFile": true,
+      "threeLayerData": {
+        "date": "2025年8月10日",
+        "fireworksCount": 3000,
+        "expectedVisitors": 320000
+      },
+      "fourLayerData": {
+        "date": "2025年8月10日",
+        "fireworksCount": "约3000发",
+        "expectedVisitors": "约32万人"
+      },
+      "consistency": {
+        "dateConsistent": true,
+        "fireworksConsistent": true,
+        "visitorsConsistent": true
+      }
+    }
+  ]
+}

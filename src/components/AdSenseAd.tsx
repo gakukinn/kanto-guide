@@ -15,11 +15,11 @@ declare global {
   }
 }
 
-export default function AdSenseAd({ 
-  adSlot, 
-  adFormat = 'auto', 
+export default function AdSenseAd({
+  adSlot,
+  adFormat = 'auto',
   adSize = 'responsive',
-  className = ''
+  className = '',
 }: AdSenseAdProps) {
   useEffect(() => {
     try {
@@ -34,7 +34,7 @@ export default function AdSenseAd({
 
   return (
     <div className={`adsense-container ${className}`}>
-      <div className="text-center text-xs text-gray-400 mb-2">广告</div>
+      <div className="mb-2 text-center text-xs text-gray-400">广告</div>
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
@@ -50,40 +50,22 @@ export default function AdSenseAd({
 // 预设的广告位组件
 export function HeaderAd() {
   return (
-    <AdSenseAd 
-      adSlot="1234567890"
-      adFormat="horizontal"
-      className="mb-6"
-    />
+    <AdSenseAd adSlot="1234567890" adFormat="horizontal" className="mb-6" />
   );
 }
 
 export function SidebarAd() {
   return (
-    <AdSenseAd 
-      adSlot="1234567891"
-      adFormat="rectangle"
-      className="mb-4"
-    />
+    <AdSenseAd adSlot="1234567891" adFormat="rectangle" className="mb-4" />
   );
 }
 
 export function ContentAd() {
-  return (
-    <AdSenseAd 
-      adSlot="1234567892"
-      adFormat="auto"
-      className="my-6"
-    />
-  );
+  return <AdSenseAd adSlot="1234567892" adFormat="auto" className="my-6" />;
 }
 
 export function FooterAd() {
   return (
-    <AdSenseAd 
-      adSlot="1234567893"
-      adFormat="horizontal"
-      className="mt-6"
-    />
+    <AdSenseAd adSlot="1234567893" adFormat="horizontal" className="mt-6" />
   );
-} 
+}

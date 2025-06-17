@@ -6,8 +6,10 @@ import { HanabiData } from '@/types/hanabi';
 export const mitoHanabiData: HanabiData = {
  id: 'mito-kairakuen-hanabi-2025',
  name: '水戸偕楽園花火大会',
-  japaneseName: '第65回 水戸黄門まつり 水戸偕楽園花火大会',
  englishName: 'Mito Kairakuen Fireworks Festival 2025',
+  _sourceData: {
+    japaneseName: '第65回 水戸黄門まつり 水戸偕楽園花火大会'
+  },
  year: 2025,
  date: '2025年7月26日',
  time: '19:30-20:30',

@@ -1,0 +1,77 @@
+{
+  "timestamp": "2025-06-17T03:03:31.185Z",
+  "summary": {
+    "totalPages": 6,
+    "highSeverity": 6,
+    "autoFixable": 0,
+    "needsManualWork": 6
+  },
+  "details": [
+    {
+      "page": "src\\app\\koshinetsu\\hanabi\\yamanakako-houkosai-hanabi\\page.tsx",
+      "issue": "EMBEDDED_DATA",
+      "severity": "HIGH",
+      "description": "页面使用内嵌数据，违反单一数据源原则",
+      "suggestion": "需要创建对应的数据文件",
+      "action": "CREATE_DATA_FILE",
+      "matchedDataFile": null,
+      "embeddedDataConst": "yamanakakoHanabiData"
+    },
+    {
+      "page": "src\\app\\koshinetsu\\hanabi\\isawa-onsen-hanabi-2025\\page.tsx",
+      "issue": "EMBEDDED_DATA",
+      "severity": "HIGH",
+      "description": "页面使用内嵌数据，违反单一数据源原则",
+      "suggestion": "需要创建对应的数据文件",
+      "action": "CREATE_DATA_FILE",
+      "matchedDataFile": null,
+      "embeddedDataConst": "isawaOnsenHanabiData"
+    },
+    {
+      "page": "src\\app\\koshinetsu\\hanabi\\chikuma-chikumagawa-hanabi\\page.tsx",
+      "issue": "EMBEDDED_DATA",
+      "severity": "HIGH",
+      "description": "页面使用内嵌数据，违反单一数据源原则",
+      "suggestion": "需要创建对应的数据文件",
+      "action": "CREATE_DATA_FILE",
+      "matchedDataFile": null,
+      "embeddedDataConst": "hanabiData"
+    },
+    {
+      "page": "src\\app\\kanagawa\\hanabi\\yokohama-kaikosai\\page.tsx",
+      "issue": "EMBEDDED_DATA",
+      "severity": "HIGH",
+      "description": "页面使用内嵌数据，违反单一数据源原则",
+      "suggestion": "需要创建对应的数据文件",
+      "action": "CREATE_DATA_FILE",
+      "matchedDataFile": null,
+      "embeddedDataConst": "yokohamaKaikosaiHanabiData"
+    },
+    {
+      "page": "src\\app\\kanagawa\\hanabi\\kawasaki-tamagawa\\page.tsx",
+      "issue": "EMBEDDED_DATA",
+      "severity": "HIGH",
+      "description": "页面使用内嵌数据，违反单一数据源原则",
+      "suggestion": "需要创建对应的数据文件",
+      "action": "CREATE_DATA_FILE",
+      "matchedDataFile": null,
+      "embeddedDataConst": "kawasaiTamagawaHanabiData"
+    },
+    {
+      "page": "src\\app\\chiba\\hanabi\\asahi-iioka-you-yu\\page.tsx",
+      "issue": "EMBEDDED_DATA",
+      "severity": "HIGH",
+      "description": "页面使用内嵌数据，违反单一数据源原则",
+      "suggestion": "需要创建对应的数据文件",
+      "action": "CREATE_DATA_FILE",
+      "matchedDataFile": null,
+      "embeddedDataConst": "asahiIiokaYouYuFestivalData"
+    }
+  ],
+  "recommendations": [
+    "立即修复所有EMBEDDED_DATA问题",
+    "建立数据验证流程",
+    "设置CI检查防止未来出现双重数据源",
+    "为缺失数据文件的页面创建对应数据文件"
+  ]
+}

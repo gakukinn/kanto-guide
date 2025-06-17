@@ -1,0 +1,65 @@
+{
+  "name": "アニメクラシックス アニソン花火",
+  "japaneseName": "アニメクラシックス アニソン花火",
+  "englishName": "Anime Classics Anison Fireworks",
+  "date": "2025年7月5日",
+  "time": "19:30開始",
+  "location": "富士川いきいきスポーツ公園 特設会場",
+  "venue": "山梨県・南巨摩郡富士川町/富士川いきいきスポーツ公園 特設会場",
+  "fireworksCount": "約1万発",
+  "expectedVisitors": "約5万人",
+  "duration": "約90分",
+  "ticketPrice": "有料観覧席あり",
+  "status": "scheduled",
+  "organizer": "アニメクラシックス実行委員会",
+  "phone": "0556-22-7202",
+  "website": "https://hanabi.walkerplus.com/detail/ar0419e549588/",
+  "address": "山梨県南巨摩郡富士川町鰍沢1-2",
+  "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=山梨県・南巨摩郡富士川町/富士川いきいきスポーツ公園",
+  "parking": "臨時駐車場あり（有料・1000円）",
+  "rainPolicy": "雨天決行・荒天中止",
+  "weatherNote": "天候により内容変更の場合あり",
+  "weatherRecommendation": "夏の夜間開催のため、虫除けスプレーと軽い上着をお持ちください",
+  "description": "懐かしの名作アニメソングと花火が融合する特別な一夜。アニメクラシックスの楽曲に合わせて打ち上げられる花火は、子供から大人まで楽しめる感動的な演出です。",
+  "features": [
+    "アニメソング",
+    "音楽花火",
+    "特設会場",
+    "家族向け"
+  ],
+  "highlights": [
+    "名作アニメソングに合わせた音楽花火",
+    "約1万発の迫力ある花火",
+    "富士川の自然に囲まれた特設会場",
+    "子供から大人まで楽しめる演出"
+  ],
+  "transportation": {
+    "train": "JR身延線鰍沢口駅からバス約10分",
+    "car": "中央自動車道甲府南ICから約30分",
+    "bus": "鰍沢口駅から臨時バス運行予定"
+  },
+  "notes": [
+    "有料観覧席は事前予約制",
+    "会場周辺は交通規制あり",
+    "ペットの入場不可",
+    "花火終了後は混雑が予想されます"
+  ],
+  "dataSource": "https://hanabi.walkerplus.com/detail/ar0419e549588/",
+  "lastUpdated": "2025-06-14",
+  "media": {
+    "images": [
+      {
+        "url": "/images/hanabi/anime-classics-anison-1.jpg",
+        "alt": "アニメクラシックス アニソン花火の会場風景",
+        "caption": "富士川いきいきスポーツ公園の特設会場"
+      },
+      {
+        "url": "/images/hanabi/anime-classics-anison-2.jpg",
+        "alt": "アニメソングに合わせた花火",
+        "caption": "音楽と花火の融合演出"
+      }
+    ],
+    "videos": []
+  },
+  "themeColor": "purple"
+}

@@ -11,8 +11,10 @@ import { HanabiData } from '../types/hanabi';
 export const torideHanabiData: HanabiData = {
  id: 'toride-august',
  name: '第70回利根川大花火',
-  japaneseName: '第70回利根川大花火大会',
  englishName: '70th Tonegawa Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第70回利根川大花火大会'
+  },
   title: '第70回利根川大花火 - 8月北关东花火大会',
   description: '第70回利根川大花火详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

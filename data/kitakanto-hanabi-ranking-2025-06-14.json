@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "totalEvents": 5,
+    "regions": [
+      "tochigi",
+      "gunma",
+      "ibaraki"
+    ],
+    "crawledAt": "2025-06-14T18:14:50.288Z"
+  },
+  "events": [
+    {
+      "rank": 1,
+      "title": "全国の花火大会",
+      "date": "日期待确认",
+      "location": "群马县・地点待确认",
+      "visitors": "观众数待确认",
+      "fireworksCount": "花火数待确认",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "crawledAt": "2025-06-14T18:14:20.233Z"
+    },
+    {
+      "rank": 2,
+      "title": "関東の花火大会",
+      "date": "日期待确认",
+      "location": "群马县・地点待确认",
+      "visitors": "观众数待确认",
+      "fireworksCount": "花火数待确认",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "crawledAt": "2025-06-14T18:14:20.234Z"
+    },
+    {
+      "rank": 3,
+      "title": "群馬県の花火大会",
+      "date": "日期待确认",
+      "location": "群马县・地点待确认",
+      "visitors": "观众数待确认",
+      "fireworksCount": "花火数待确认",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "crawledAt": "2025-06-14T18:14:20.234Z"
+    },
+    {
+      "rank": 4,
+      "title": "第69回 前橋花火大会",
+      "date": "2025年8月9日(土)",
+      "location": "群马县・第69回 前橋花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          打ち上げ幅800メートルの超ワイドスターマインが圧巻\n                          群馬県・前橋市/利根川河畔大渡橋南北河川緑地",
+      "visitors": "观众数待确认",
+      "fireworksCount": "1万5000发",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "crawledAt": "2025-06-14T18:14:20.234Z"
+    },
+    {
+      "rank": 5,
+      "title": "第51回 高崎大花火大会",
+      "date": "2025年8月23日(土)",
+      "location": "群马县・第51回 高崎大花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          約1万5000発が50分で次々と放たれるスピード感が魅力\n                          群馬県・高崎市/烏川和田橋上流河川敷",
+      "visitors": "90万人",
+      "fireworksCount": "1万5000发",
+      "region": "群马县",
+      "source": "WalkerPlus",
+      "crawledAt": "2025-06-14T18:14:20.234Z"
+    }
+  ]
+}

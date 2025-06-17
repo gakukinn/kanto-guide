@@ -11,8 +11,10 @@ import { HanabiData } from '../types/hanabi';
 export const eventData: HanabiData = {
   id: 'odawara-sakawa-hanabi-2025',
   name: '第36回小田原酒匂川花火大会',
-  japaneseName: '第36回小田原酒匂川花火大会',
   englishName: '36th Odawara Sakawa River Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第36回小田原酒匂川花火大会'
+  },
   title: '第36回小田原酒匂川花火大会 - 8月神奈川花火大会',
   description: '在小田原市酒匂川体育广场举办的传统花火大会，约1万发花火照亮酒匂川夜空，是神奈川县西部地区的重要夏季活动。',
   year: 2025,

@@ -18,7 +18,7 @@ export const MatsuriEventSchema = z.object({
   prefecture: z.string().default('東京都'),
   lastUpdated: z.string().default(() => new Date().toISOString()),
   source: z.string().url(),
-  verified: z.boolean().default(false)
+  verified: z.boolean().default(false),
 });
 
 // TypeScript类型推导
@@ -31,7 +31,7 @@ export const DataSourceSchema = z.object({
   selector: z.string(),
   fields: z.record(z.string()),
   lastCrawled: z.string().optional(),
-  isActive: z.boolean().default(true)
+  isActive: z.boolean().default(true),
 });
 
 export type DataSource = z.infer<typeof DataSourceSchema>;
@@ -42,7 +42,7 @@ export const CrawlResultSchema = z.object({
   data: z.array(MatsuriEventSchema),
   errors: z.array(z.string()),
   timestamp: z.string(),
-  source: z.string()
+  source: z.string(),
 });
 
-export type CrawlResult = z.infer<typeof CrawlResultSchema>; 
+export type CrawlResult = z.infer<typeof CrawlResultSchema>;

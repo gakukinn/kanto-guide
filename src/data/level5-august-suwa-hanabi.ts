@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const suwaHanabiData: HanabiData = {
   id: 'suwa-kojyo-hanabi-2025',
   name: '第77回诏访湖祭湖上花火大会',
-  japaneseName: '第77回 諏訪湖祭湖上花火大会',
   englishName: '77th Suwa Lake Festival Fireworks Display',
+  _sourceData: {
+    japaneseName: '第77回 諏訪湖祭湖上花火大会'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月15日(金)',

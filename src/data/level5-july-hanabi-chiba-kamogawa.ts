@@ -3,9 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const kamogawaData: HanabiData = {
  id: 'kamogawa',
  name: '鴨川市民花火大会',
-  japaneseName: '鴨川市民花火大会',
-
  englishName: 'Kamogawa Citizens Fireworks Festival',
+  _sourceData: {
+    japaneseName: '鴨川市民花火大会'
+  },
   title: '鴨川市民花火大会 - 7月千叶花火大会',
   description: '鴨川市民花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

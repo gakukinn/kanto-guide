@@ -1,0 +1,162 @@
+{
+  "timestamp": "2025-06-14T13-08-51-836Z",
+  "localEventsCount": 14,
+  "walkerPlusEventsCount": 12,
+  "missingFromLocal": [
+    {
+      "title": "神宮外苑花火大会",
+      "audience": "100",
+      "rank": 1,
+      "location": "東京都新宿区"
+    },
+    {
+      "title": "葛飾納涼花火大会",
+      "audience": "77",
+      "rank": 3,
+      "location": "東京都葛飾区"
+    },
+    {
+      "title": "いたばし花火大会",
+      "audience": "57",
+      "rank": 4,
+      "location": "東京都板橋区"
+    },
+    {
+      "title": "足立の花火",
+      "audience": "40",
+      "rank": 5,
+      "location": "東京都足立区"
+    },
+    {
+      "title": "調布花火",
+      "audience": "30",
+      "rank": 7,
+      "location": "東京都調布市"
+    },
+    {
+      "title": "昭島市民くじら祭夢花火",
+      "audience": "12",
+      "rank": 8,
+      "location": "東京都昭島市"
+    },
+    {
+      "title": "奥多摩納涼花火大会",
+      "audience": "1",
+      "rank": 11,
+      "location": "東京都奥多摩町"
+    }
+  ],
+  "extraInLocal": [
+    "东京竞马场花火 2025",
+    "第59回葛饰纳凉花火大会",
+    "2025 神宫外苑花火大会",
+    "第66回板桥花火大会",
+    "第48回多摩川花火大会",
+    "町制施行70周年纪念 奥多摩纳凉花火大会",
+    "第53回 昭岛市民鲸鱼祭梦花火",
+    "第40回调布花火",
+    "第47回 足立花火"
+  ],
+  "walkerPlusRanking": [
+    {
+      "title": "神宮外苑花火大会",
+      "audience": "100",
+      "location": "東京都新宿区",
+      "rank": 1,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "隅田川花火大会",
+      "audience": "91",
+      "location": "東京都台東区・墨田区",
+      "rank": 2,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "葛飾納涼花火大会",
+      "audience": "77",
+      "location": "東京都葛飾区",
+      "rank": 3,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "いたばし花火大会",
+      "audience": "57",
+      "location": "東京都板橋区",
+      "rank": 4,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "足立の花火",
+      "audience": "40",
+      "location": "東京都足立区",
+      "rank": 5,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "世田谷区たまがわ花火大会",
+      "audience": "31",
+      "location": "東京都世田谷区",
+      "rank": 6,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "調布花火",
+      "audience": "30",
+      "location": "東京都調布市",
+      "rank": 7,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "昭島市民くじら祭夢花火",
+      "audience": "12",
+      "location": "東京都昭島市",
+      "rank": 8,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "北区花火会",
+      "audience": "5",
+      "location": "東京都北区",
+      "rank": 9,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "江戸川区花火大会",
+      "audience": "3",
+      "location": "東京都江戸川区",
+      "rank": 10,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "奥多摩納涼花火大会",
+      "audience": "1",
+      "location": "東京都奥多摩町",
+      "rank": 11,
+      "source": "Crowd Ranking Analysis"
+    },
+    {
+      "title": "八王子花火大会",
+      "audience": "15",
+      "location": "東京都八王子市",
+      "rank": 12,
+      "source": "Crowd Ranking Analysis"
+    }
+  ],
+  "localEventsList": [
+    "东京竞马场花火 2025",
+    "第48回 隅田川花火大会",
+    "第59回葛饰纳凉花火大会",
+    "第50回江戸川区花火大会",
+    "2025 神宫外苑花火大会",
+    "第66回板桥花火大会",
+    "第48回多摩川花火大会",
+    "第47回 世田谷区たまがわ花火大会",
+    "第11回北区花火会",
+    "町制施行70周年纪念 奥多摩纳凉花火大会",
+    "第53回 昭岛市民鲸鱼祭梦花火",
+    "第40回调布花火",
+    "第47回 足立花火",
+    "第38回 八王子花火大会"
+  ]
+}

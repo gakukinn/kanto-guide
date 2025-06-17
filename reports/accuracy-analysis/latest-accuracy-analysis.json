@@ -1,0 +1,369 @@
+{
+  "generatedAt": "2025-06-16T05:01:20.862Z",
+  "analysis": {
+    "criticalIssues": [
+      {
+        "eventId": "numata-hanabi-2025",
+        "eventName": "第13回沼田花火大会",
+        "issues": [
+          {
+            "type": "location_inconsistency",
+            "description": "地点信息严重不一致",
+            "details": {
+              "consistencyScore": 0.3333333333333333,
+              "conflicts": [
+                "群馬県沼田市/沼田市運動公園",
+                "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火"
+              ],
+              "mostCommon": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会"
+            }
+          }
+        ],
+        "recommendations": [
+          {
+            "action": "update_location_consistency",
+            "description": "统一所有数据源的地点为: 群馬県沼田市/沼田市運動公園",
+            "files": [
+              {
+                "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+                "source": "official_website_link",
+                "currentValue": "",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+                "source": "walkerplus_link",
+                "currentValue": "",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+                "source": "four_layer_detail",
+                "currentValue": "群馬県沼田市/沼田市運動公園",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+                "source": "seo_description",
+                "currentValue": "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/kitakanto/hanabi/page.tsx",
+                "source": "three_layer_list",
+                "currentValue": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+                "needsUpdate": true
+              }
+            ],
+            "priority": "immediate"
+          }
+        ]
+      },
+      {
+        "eventId": "urayasu-hanabi",
+        "eventName": "第42回浦安市花火大会",
+        "issues": [
+          {
+            "type": "location_inconsistency",
+            "description": "地点信息严重不一致",
+            "details": {
+              "consistencyScore": 0.3333333333333333,
+              "conflicts": [
+                "浦安市日之出明海地区",
+                "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空"
+              ],
+              "mostCommon": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆"
+            }
+          }
+        ],
+        "recommendations": [
+          {
+            "action": "update_location_consistency",
+            "description": "统一所有数据源的地点为: 浦安市日之出明海地区",
+            "files": [
+              {
+                "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+                "source": "official_website_link",
+                "currentValue": "",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+                "source": "walkerplus_link",
+                "currentValue": "",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+                "source": "four_layer_detail",
+                "currentValue": "浦安市日之出明海地区",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+                "source": "seo_description",
+                "currentValue": "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/chiba/hanabi/page.tsx",
+                "source": "three_layer_list",
+                "currentValue": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+                "needsUpdate": true
+              }
+            ],
+            "priority": "immediate"
+          }
+        ]
+      },
+      {
+        "eventId": "sayama-tanabata",
+        "eventName": "狭山市入间川七夕祭花火大会",
+        "issues": [
+          {
+            "type": "location_inconsistency",
+            "description": "地点信息严重不一致",
+            "details": {
+              "consistencyScore": 0.3333333333333333,
+              "conflicts": [
+                "埼玉县狭山市",
+                "狭山市入间川七夕祭花火大会 七夕竹饰与河川敷花火的美丽结合"
+              ],
+              "mostCommon": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会"
+            }
+          }
+        ],
+        "recommendations": [
+          {
+            "action": "update_location_consistency",
+            "description": "统一所有数据源的地点为: 埼玉县狭山市",
+            "files": [
+              {
+                "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+                "source": "official_website_link",
+                "currentValue": "",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+                "source": "walkerplus_link",
+                "currentValue": "",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+                "source": "four_layer_detail",
+                "currentValue": "埼玉县狭山市",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+                "source": "seo_description",
+                "currentValue": "狭山市入间川七夕祭花火大会 七夕竹饰与河川敷花火的美丽结合",
+                "needsUpdate": true
+              },
+              {
+                "path": "src/app/saitama/hanabi/page.tsx",
+                "source": "three_layer_list",
+                "currentValue": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+                "needsUpdate": true
+              }
+            ],
+            "priority": "immediate"
+          }
+        ]
+      },
+      {
+        "eventId": "saitama-owada-2025",
+        "eventName": "埼玉大和田花火大会2025",
+        "issues": [
+          {
+            "type": "date_inconsistency",
+            "description": "日期信息严重不一致",
+            "details": {
+              "consistencyScore": 0,
+              "conflicts": [],
+              "mostCommon": null
+            }
+          }
+        ],
+        "recommendations": []
+      },
+      {
+        "eventId": "seaparadise-hanabi-symphonia",
+        "eventName": "Sea Paradise花火交响乐",
+        "issues": [
+          {
+            "type": "date_inconsistency",
+            "description": "日期信息严重不一致",
+            "details": {
+              "consistencyScore": 0,
+              "conflicts": [],
+              "mostCommon": null
+            }
+          }
+        ],
+        "recommendations": []
+      }
+    ],
+    "highPriorityIssues": [],
+    "mediumPriorityIssues": [],
+    "summary": {
+      "totalEvents": 18,
+      "poorConsistency": 6,
+      "fairConsistency": 12,
+      "criticalCount": 5,
+      "highPriorityCount": 0,
+      "mediumPriorityCount": 0
+    }
+  },
+  "correctionPlan": {
+    "immediate": [
+      {
+        "eventId": "numata-hanabi-2025",
+        "eventName": "第13回沼田花火大会",
+        "action": "update_location_consistency",
+        "description": "统一所有数据源的地点为: 群馬県沼田市/沼田市運動公園",
+        "files": [
+          {
+            "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+            "source": "official_website_link",
+            "currentValue": "",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+            "source": "walkerplus_link",
+            "currentValue": "",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+            "source": "four_layer_detail",
+            "currentValue": "群馬県沼田市/沼田市運動公園",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx",
+            "source": "seo_description",
+            "currentValue": "利根川河川敷从見沼田花火大会 美利根川将背景在打上的約7,000発的花火",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/kitakanto/hanabi/page.tsx",
+            "source": "three_layer_list",
+            "currentValue": "北关东花火大会2025 - 茨城栃木群马精彩花火活动完整指南 北关东地区2025年花火大会完整指南，包含土浦全国花火竞技大会",
+            "needsUpdate": true
+          }
+        ],
+        "estimatedTime": "15-30分钟"
+      },
+      {
+        "eventId": "urayasu-hanabi",
+        "eventName": "第42回浦安市花火大会",
+        "action": "update_location_consistency",
+        "description": "统一所有数据源的地点为: 浦安市日之出明海地区",
+        "files": [
+          {
+            "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+            "source": "official_website_link",
+            "currentValue": "",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+            "source": "walkerplus_link",
+            "currentValue": "",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+            "source": "four_layer_detail",
+            "currentValue": "浦安市日之出明海地区",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx",
+            "source": "seo_description",
+            "currentValue": "浦安市花火大会主要花火绽放场景 豪迈绽放的花火照亮东京湾夜空",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/chiba/hanabi/page.tsx",
+            "source": "three_layer_list",
+            "currentValue": "千叶花火大会2025 - 幕张海滩市川木更津等18场精彩花火祭典完整攻略 千叶地区2025年花火大会完整指南，包含幕张海滩花火节庆",
+            "needsUpdate": true
+          }
+        ],
+        "estimatedTime": "15-30分钟"
+      },
+      {
+        "eventId": "sayama-tanabata",
+        "eventName": "狭山市入间川七夕祭花火大会",
+        "action": "update_location_consistency",
+        "description": "统一所有数据源的地点为: 埼玉县狭山市",
+        "files": [
+          {
+            "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+            "source": "official_website_link",
+            "currentValue": "",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+            "source": "walkerplus_link",
+            "currentValue": "",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+            "source": "four_layer_detail",
+            "currentValue": "埼玉县狭山市",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/saitama/hanabi/sayama-tanabata/page.tsx",
+            "source": "seo_description",
+            "currentValue": "狭山市入间川七夕祭花火大会 七夕竹饰与河川敷花火的美丽结合",
+            "needsUpdate": true
+          },
+          {
+            "path": "src/app/saitama/hanabi/page.tsx",
+            "source": "three_layer_list",
+            "currentValue": "埼玉花火大会2025 - 戸田橋熊谷朝霞等17场精彩花火祭典完整攻略 埼玉地区2025年花火大会完整指南，包含戸田橋花火大会",
+            "needsUpdate": true
+          }
+        ],
+        "estimatedTime": "15-30分钟"
+      }
+    ],
+    "within24Hours": [],
+    "within1Week": [],
+    "summary": {
+      "totalActions": 3,
+      "immediateActions": 3,
+      "urgentActions": 0,
+      "plannedActions": 0
+    }
+  },
+  "businessImpact": {
+    "severity": "high",
+    "affectedEvents": 5,
+    "potentialIssues": [
+      "用户可能获得错误的日期或地点信息",
+      "影响用户体验和网站可信度"
+    ],
+    "recommendedActions": [
+      "立即修正关键数据不一致问题"
+    ]
+  },
+  "nextSteps": [
+    {
+      "step": 1,
+      "action": "立即修正关键数据不一致",
+      "description": "修正 3 个关键问题",
+      "timeframe": "立即执行",
+      "priority": "critical"
+    }
+  ]
+}

@@ -1,26 +1,29 @@
-// Commitlint配置 - 强制使用传统提交格式
-// 支持的类型：feat, fix, docs, style, refactor, test, chore
 module.exports = {
-  extends: ["@commitlint/config-conventional"],
+  extends: ['@commitlint/config-conventional'],
   rules: {
-    "type-enum": [
+    'type-enum': [
       2,
-      "always",
+      'always',
       [
-        "feat",    // 新功能
-        "fix",     // 修复
-        "docs",    // 文档
-        "style",   // 格式
-        "refactor", // 重构
-        "test",    // 测试
-        "chore",   // 构建过程或辅助工具的变动
-        "perf",    // 性能优化
-        "ci",      // CI配置
-        "build",   // 构建系统
-        "revert",  // 回退
+        'feat', // 新功能
+        'fix', // 修复bug
+        'docs', // 文档变更
+        'style', // 代码格式化(不影响代码逻辑)
+        'refactor', // 代码重构
+        'perf', // 性能优化
+        'test', // 测试相关
+        'build', // 构建系统或外部依赖变更
+        'ci', // CI配置文件和脚本变更
+        'chore', // 其他不修改src或test文件的变更
+        'revert', // 回滚之前的提交
       ],
     ],
-    "subject-max-length": [2, "always", 100],
-    "subject-case": [0], // 关闭主题大小写检查以支持中文
+    'type-case': [2, 'always', 'lowerCase'],
+    'type-empty': [2, 'never'],
+    'scope-case': [2, 'always', 'lowerCase'],
+    'subject-empty': [2, 'never'],
+    'subject-full-stop': [2, 'never', '.'],
+    'header-max-length': [2, 'always', 72],
+    'body-max-line-length': [2, 'always', 100],
   },
-}; 
+};

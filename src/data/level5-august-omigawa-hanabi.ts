@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const hanabiDetailData: HanabiData = {
  id: "omigawa-hanabi",
  name: "第126回 水郷小见川花火大会",
-  japaneseName: "第126回 水郷おみがわ花火大会",
  englishName: "126th Suigo Omigawa Fireworks Festival",
+  _sourceData: {
+    japaneseName: '第126回 水郷おみがわ花火大会'
+  },
  year: 2025,
  date: "2025年8月1日",
  time: "19:15-20:45",

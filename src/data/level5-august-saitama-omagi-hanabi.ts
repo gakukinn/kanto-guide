@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const saitamaOmagiHanabiData: HanabiData = {
  id: 'saitama-omagi-hanabi-2025',
  name: '埼玉市花火大会大间木公园会场',
-  japaneseName: 'さいたま市花火大会 大間木公園会場',
  englishName: 'Saitama City Fireworks Festival Omagi Park Venue',
+  _sourceData: {
+    japaneseName: 'さいたま市花火大会 大間木公園会場'
+  },
  year: 2025,
  date: '2025年8月9日',
  time: '19:00～20:30（预定）',

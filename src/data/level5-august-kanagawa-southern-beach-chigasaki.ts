@@ -11,8 +11,10 @@ import { HanabiData } from '../types/hanabi';
 export const eventData: HanabiData = {
   id: 'southern-beach-chigasaki-hanabi-2025',
   name: '第51回南海滩茅崎花火大会',
-  japaneseName: '第51回サザンビーチちがさき花火大会',
   englishName: '51st Southern Beach Chigasaki Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第51回サザンビーチちがさき花火大会'
+  },
   title: '第51回南海滩茅崎花火大会 - 8月神奈川花火大会',
   description: '在茅崎市南海滩茅崎海水浴场举办的海滨花火大会，约2000发花火与湘南海岸的美景相映成辉，是神奈川县湘南地区的夏季风物诗。',
   year: 2025,

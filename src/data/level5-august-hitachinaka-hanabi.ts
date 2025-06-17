@@ -11,8 +11,10 @@ import { HanabiData } from '../types/hanabi';
 export const hitachinakaHanabiData: HanabiData = {
  id: 'hitachinaka-august',
  name: '第31回常陆那珂祭花火大会',
-  japaneseName: '第31回ひたちなか祭花火大会',
  englishName: '31st Hitachinaka Festival Fireworks',
+  _sourceData: {
+    japaneseName: '第31回ひたちなか祭花火大会'
+  },
   title: '第31回常陆那珂祭花火大会 - 8月北关东花火大会',
   description: '第31回常陆那珂祭花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

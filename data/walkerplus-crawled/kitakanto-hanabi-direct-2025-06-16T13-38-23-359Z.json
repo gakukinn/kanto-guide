@@ -1,0 +1,109 @@
+{
+  "timestamp": "2025-06-16T13:38:17.531Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0308/",
+  "method": "Playwright+Cheerio",
+  "totalEvents": 10,
+  "events": [
+    {
+      "title": "第38回 利根川大花火大会",
+      "date": "2025年9月13日(土)",
+      "location": "茨城県・猿島郡境町/さかいリバーサイドパーク(利根川河川敷)",
+      "audience": "約30万人",
+      "fireworks": "約3万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e01044/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.338Z"
+    },
+    {
+      "title": "ちくせい花火大会2025",
+      "date": "2025年10月18日(土)",
+      "location": "茨城県・筑西市/道の駅グランテラス筑西",
+      "audience": "",
+      "fireworks": "2万21発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e408443/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.339Z"
+    },
+    {
+      "title": "第58回 常総きぬ川花火大会",
+      "date": "2025年9月20日(土)",
+      "location": "茨城県・常総市/鬼怒川河畔、橋本運動公園",
+      "audience": "約12万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00248/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.340Z"
+    },
+    {
+      "title": "第94回 土浦全国花火競技大会",
+      "date": "2025年11月1日(土)",
+      "location": "茨城県・土浦市/土浦市 桜川畔(学園大橋付近)",
+      "audience": "約60万人",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00280/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.341Z"
+    },
+    {
+      "title": "大洗海上花火大会2025〜千櫓祭〜",
+      "date": "2025年9月27日(土)",
+      "location": "茨城県・東茨城郡大洗町/大洗サンビーチ",
+      "audience": "約18万人",
+      "fireworks": "約1万8000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00860/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.342Z"
+    },
+    {
+      "title": "第70回 とりで利根川大花火",
+      "date": "2025年8月9日(土)",
+      "location": "茨城県・取手市/取手緑地運動公園",
+      "audience": "約12万人",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00914/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.342Z"
+    },
+    {
+      "title": "2025 いなしき夏まつり花火大会",
+      "date": "2025年8月23日(土)(予定)",
+      "location": "茨城県・稲敷市/江戸崎総合運動公園周辺",
+      "audience": "約10万人",
+      "fireworks": "約1万発(予定)",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e00879/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.343Z"
+    },
+    {
+      "title": "第44回鹿嶋市花火大会",
+      "date": "2024年10月12日(土)",
+      "location": "茨城県・鹿嶋市/大船津地内北浦湖上",
+      "audience": "約10万人",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e01114/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.348Z"
+    },
+    {
+      "title": "第47回 東海まつり花火大会",
+      "date": "2025年8月10日(日)",
+      "location": "茨城県・那珂郡東海村/久慈川河川敷運動場",
+      "audience": "約2万人",
+      "fireworks": "約7000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e356524/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.351Z"
+    },
+    {
+      "title": "サンセットフェスタ IN 天王崎2024　なめがたの湖上花火大会",
+      "date": "2024年10月26日(土)",
+      "location": "茨城県・行方市/天王崎公園",
+      "audience": "約2万人",
+      "fireworks": "約7000発(予定)",
+      "link": "https://hanabi.walkerplus.com/detail/ar0308e356530/",
+      "source": "WalkerPlus",
+      "extractedAt": "2025-06-16T13:38:23.352Z"
+    }
+  ],
+  "errors": []
+}

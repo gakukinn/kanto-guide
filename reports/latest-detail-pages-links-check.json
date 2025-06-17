@@ -1,0 +1,655 @@
+{
+  "timestamp": "2025-06-17T02:38:17.709Z",
+  "summary": {
+    "total": 86,
+    "checked": 86,
+    "errors": 6,
+    "warnings": 0,
+    "success": 80
+  },
+  "details": {
+    "errors": [
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-joso-kinugawa-hanabi.ts",
+        "issues": [
+          {
+            "type": "MISSING_MAP_URL",
+            "severity": "ERROR",
+            "message": "缺少 mapEmbedUrl 字段"
+          }
+        ],
+        "mapEmbedUrl": null,
+        "website": "https://joso-hanabi.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-oarai-hanabi.ts",
+        "issues": [
+          {
+            "type": "MISSING_MAP_URL",
+            "severity": "ERROR",
+            "message": "缺少 mapEmbedUrl 字段"
+          }
+        ],
+        "mapEmbedUrl": null,
+        "website": "https://oarai-senyagura.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-tonegawa-hanabi.ts",
+        "issues": [
+          {
+            "type": "MISSING_MAP_URL",
+            "severity": "ERROR",
+            "message": "缺少 mapEmbedUrl 字段"
+          }
+        ],
+        "mapEmbedUrl": null,
+        "website": "https://www.sakai-hanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-fuji-kawaguchi-lake-hanabi.ts",
+        "issues": [
+          {
+            "type": "MISSING_MAP_URL",
+            "severity": "ERROR",
+            "message": "缺少 mapEmbedUrl 字段"
+          }
+        ],
+        "mapEmbedUrl": null,
+        "website": "https://fujisan.ne.jp/pages/396/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\level4-tokyo-kanda-matsuri.ts",
+        "issues": [
+          {
+            "type": "MISSING_MAP_URL",
+            "severity": "ERROR",
+            "message": "缺少 mapEmbedUrl 字段"
+          }
+        ],
+        "mapEmbedUrl": null,
+        "website": "https://www.kandamyoujin.or.jp/",
+        "hasMapInfo": false
+      },
+      {
+        "file": "src\\data\\level4-tokyo-sanja-matsuri.ts",
+        "issues": [
+          {
+            "type": "MISSING_MAP_URL",
+            "severity": "ERROR",
+            "message": "缺少 mapEmbedUrl 字段"
+          }
+        ],
+        "mapEmbedUrl": null,
+        "website": "https://www.asakusajinja.jp/",
+        "hasMapInfo": false
+      }
+    ],
+    "warnings": [],
+    "success": [
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-chiba-omigawa-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.123456789012!2d140.6234!3d35.8234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5bCP6KaL5bed5aSn5qmL5LiL5rWB!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.city.katori.lg.jp/sightseeing/gyoji/natsu/hanabi.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-hanabi-ichikawa.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.5!2d139.9223!3d35.7202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188957d7f88d8f%3A0x5c9c8d8c8d8c8d8c!2z5rGf5oi45bed5rKz5bed5pWx!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.city.ichikawa.lg.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-hanabi-kisarazu.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.567890123456!2d139.9234!3d35.3756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189cd1234567890%3A0x1234567890abcdef!2z5pyo5pu05rSl5Lit5LmL5bO25YWs5ZyS!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.kisarazu.lg.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-hanabi-makuhari-beach.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.234567890123!2d140.0345!3d35.6488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022f3ab1234567%3A0x1234567890abcdef!2z5bmV5byg5rW35rWc5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.chiba.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-hanabi-matsudo.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.567890123456!2d139.9012!3d35.7834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189cd1234567890%3A0x1234567890abcdef!2z5p2-5oi45biC5Y-k5Liq5bSO5oyv5bed5pWX5Lit5Zyw!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.matsudo.chiba.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-hanabi-narashino.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.567890123456!2d140.0234!3d35.6945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228cd1234567890%3A0x1234567890abcdef!2z6Imv5b-X6YeO6am_5bGv5Zyw!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.mod.go.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-hanabi-teganuma.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.567890123456!2d140.0234!3d35.8456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189cd1234567890%3A0x1234567890abcdef!2z5omL6LO45rKo6Kan5rC06YCR5rC05pWX5Lit5Zyw!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.abiko.chiba.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-august-omigawa-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.123456789!2d140.61233!3d35.89456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60228a123456789a%3A0x123456789abcdef!2z5Lqs6YCa5bed!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.katori.lg.jp/sightseeing/gyoji/natsu/hanabi.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-kamogawa.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7!2d140.03!3d35.64!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602285c9b9d4a2a7%3A0x123456789!2z5Y2D6JGJ55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.kamogawa-kanko.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-marines.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7!2d140.03!3d35.64!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602285c9b9d4a2a7%3A0x123456789!2z5Y2D6JGJ55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.marines.co.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-motherfarm.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7!2d140.03!3d35.64!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602285c9b9d4a2a7%3A0x123456789!2z5Y2D6JGJ55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.motherfarm.co.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-oamishirasato.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7!2d140.03!3d35.64!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602285c9b9d4a2a7%3A0x123456789!2z5Y2D6JGJ55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.city.oamishirasato.lg.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-july-hanabi-chiba-shirahama.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.7!2d140.03!3d35.64!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602285c9b9d4a2a7%3A0x123456789!2z5Y2D6JGJ55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.mboso-etoko.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-july-hanabi-futtsu.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.6!2d139.8!3d35.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDE4JzAwLjAiTiAxMznCsDQ4JzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://futtsu-hanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\chiba\\level4-october-chiba-urayasu-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.234567890123!2d139.8947!3d35.6586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5rWm5a6J5biC57eP5ZCI6YGL5YuV5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.urayasuhanabi.com/2023/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-august-atsugi-ayu-matsuri.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.2!2d139.3616!3d35.4407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184f123456789a%3A0xabcdef123456789!2z55u45qih5bed!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.atsugi-kankou.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-august-kanazawa-matsuri-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.123456789!2d139.6317!3d35.3564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ce0e17df4dd%3A0x2ef7031d1e8fd1a7!2z5rW35LmL5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-august-kurihama-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3256.8934!2d139.6899!3d35.2456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184e8b8c4c1234%3A0x5678901234567890!2z5LiF6YeM5rWc5rGf!5e0!3m2!1sja!2sjp!4v1634567890123",
+        "website": "https://perryfes.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-august-minato-mirai-smart.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.4!2d139.6194!3d35.4557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ce0e12345678%3A0x123456789abcdef!2z5riv5rWc5riv5pyq5p2l!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.yokohama-kankou.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-august-odawara-sakawa-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.8!2d139.1567!3d35.2561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184c4b123456789%3A0x123456789abcdef!2z6YWS5Yy46IOM5bed!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.odawara-kankou.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-august-sagamiko-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.123!2d139.224!3d35.613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z55u45qih5rmW!5e0!3m2!1sja!2sjp!4v1629876543210!5m2!1sja!2sjp",
+        "website": "https://www.e-sagamihara.com/event/event-737/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-august-southern-beach-chigasaki.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.7!2d139.4023!3d35.3234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184e2f12345678%3A0x123456789abcdef!2z6Iy65bSO5biC!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.chigasaki-kankou.org/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-july-hanabi-kanagawa-kamakura.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.2!2d139.62!3d35.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0c0c0c0c0c%3A0x0c0c0c0c0c0c0c0c!2z56We5aWI5bed55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.kamakura-info.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-july-hanabi-kanagawa-nightflowers.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.2!2d139.62!3d35.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0c0c0c0c0c%3A0x0c0c0c0c0c0c0c0c!2z56We5aWI5bed55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.city.yokohama.lg.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-july-hanabi-kanagawa-seaparadise.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.2!2d139.62!3d35.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185c0c0c0c0c0c%3A0x0c0c0c0c0c0c0c0c!2z56We5aWI5bed55yM!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "http://www.seaparadise.co.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-june-yokohama-kaikou-matsuri.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.1!2d139.6917!3d35.4530!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ce6dbe22349%3A0x3b9b3b3b3b3b3b3b!2z5pyq5p2l5riv!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.kaikosai.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-september-kanagawa-seaparadise-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.1234567890123!2d139.619!3d35.337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185b0e00000001%3A0x0000000000000000!2z5qiq5rWc44Gu44Kk44Oz44K544Kv44O844K444Kn44O844K544Kv44O844K5!5e0!3m2!1szh-CN!2sjp!4v1234567890",
+        "website": "https://www.seaparadise.co.jp/2025summer_hanabi/index.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kanagawa\\level4-september-kanagawa-yokohama-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.2!2d139.6917!3d35.4437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ce0e17df5d7%3A0x2ef2d2b4b8a8b8a8!2z5aSn5qCn5qmL5Zu96Zqb5a6i6Iiq6Iir56K66aKt!5e0!3m2!1sja!2sjp!4v1642000000000!5m2!1sja!2sjp",
+        "website": "https://www.yokohama-sparkling-twilight.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-august-ashikaga-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.123!2d139.449!3d36.337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDIwJzEzLjIiTiAxMznCsDI2JzU2LjQiRQ!5e0!3m2!1sja!2sjp!4v1629876543210!5m2!1sja!2sjp",
+        "website": "https://www.city.ashikaga.tochigi.jp/industory/000061/000326/p007200.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-august-koga-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.8942!2d139.6951!3d36.1892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60203e5b4c5d2b69%3A0x8c9b7c8d9e2f1a34!2z5Y2k5rKz44K044Ko44Or44OV44Oq44Oz44Kv44K5!5e0!3m2!1sja!2sjp!4v1639123456789!5m2!1sja!2sjp",
+        "website": "https://www.city.ibaraki-koga.lg.jp/soshiki/kanko/4_1/2025hanabi.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-august-maebashi-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3226.3456789012345!2d139.0600000123456!3d36.3900000012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5YmN5qmL5biC!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.maebashihanabi.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-august-takasaki-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d139.01!3d36.32!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z6auY5bSO5biC!5e0!3m2!1sja!2sjp!4v1620000000000!5m2!1sja!2sjp",
+        "website": "https://www.takasaki-matsuri.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-august-toride-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.2345678901234!2d140.0500000123456!3d35.9000000012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5Y+W5omL57ay5Zyw6YGL5YuV5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.toride-kankou.net/page/page000028.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-mito-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d140.46!3d36.36!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDE4JzAwLjAiTiAxNDDCsDI3JzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://mitokoumon.com/koumon/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-moka-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3215.234!2d139.9936!3d36.4403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f6b6b8b8b8b8b%3A0x1!2z6Z2f5bKh5biC5b255omA!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.moka-kankou.org/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-numata-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d139.0!3d36.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzZCsDM2JzAwLjAiTiAxMznCsDAwJzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://numatahanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-oyama-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d139.8!3d36.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDE4JzAwLjAiTiAxMznCsDQ4JzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1620000000000!5m2!1sja!2sjp",
+        "website": "https://www.oyamanohanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\kitakanto\\level4-september-kitakanto-rindoko-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d139.9!3d37.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDAwJzAwLjAiTiAxMznCsDU0JzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.rindo.co.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-anime-classics-anisong-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.234!2d138.456789!3d35.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5a-M5aOr5bed!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://animeclassics-hanabi.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-august-hanabi-ichikawa.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.123456789!2d139.9234!3d35.7234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018861234567890%3A0x1234567890abcdef!2z5biC5bed5biC5rGf5oi45bed5bed5pW39Y2V!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.ichikawa.lg.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-august-kawaguchi-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.1234567890123!2d138.7512345678901!3d35.5056789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019a123456789ab%3A0x123456789abcdef0!2z5rKz5Y-j5rmW5rmW55Wc6Iq55rSl5rWc!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.town.fujikawaguchiko.lg.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-august-nagaoka-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.8234567890123!2d138.8512345678901!3d37.4456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff7a123456789ab%3A0x123456789abcdef0!2z6ZW35bKh5biC5L-h5r-D5bed5rKz5bed5pW7!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://nagaokamatsuri.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-august-niigata-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.8234567890123!2d139.0364567890123!3d37.9161234567890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8a123456789a%3A0x123456789abcdef0!2z5paw5r2f5biC5Lit5aSu5Yy65L-h5r-D5bed5rKz55Wt!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://niigata-matsuri.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-august-shinmei-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.8234567890123!2d138.4851234567890!3d35.6762345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8a123456789a%3A0x123456789abcdef0!2z5LiJ6YOh5qmL5LiL5rWB56yb5ZC55bed5rKz55Wt!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.town.ichikawamisato.yamanashi.jp/shinmei/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-august-suwa-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.8234567890123!2d138.1234567890123!3d36.0456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8a123456789a%3A0x123456789abcdef0!2z6K-P6K6_5rmW56WW5rmW5LiK!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://suwako-hanabi.com/kojyou/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-august-ueda-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.8234567890123!2d138.2512345678901!3d36.4056789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8a123456789a%3A0x123456789abcdef0!2z5LiK55Sw5biC5bi45pWw5bed5rKz5bed5pW7!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.ucci.or.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-gion-kashiwazaki-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25377.896234567!2d138.558!3d37.3667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff8b5e0000000001%3A0x000000001!2z5p-P5bSO5biC5Lit5aSu5rW357SN!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-nojiri-lake-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3195.123456789!2d138.2345678!3d36.7890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzbCsDQ3JzIwLjQiTiAxMzjCsDEzJzUyLjQiRQ!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.shinano-machi.com/event",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-sanjo-natsumatsuri-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8888888888895!2d138.9667!3d37.4333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDE4JzAwLjAiTiAxMzjCsDU4JzAwLjAiRQ!5e0!3m2!1sen!2sjp!4v1609459200000!5m2!1sen!2sjp",
+        "website": "https://sanjo-natsumatsuri.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-september-koshinetsu-asahara-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d138.8!3d37.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE4JzAwLjAiTiAxMzjCsDQ4JzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "http://katakaimachi-enkakyokai.info/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\koshinetsu\\level4-september-koshinetsu-shinsaku-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.8!2d138.1!3d36.0!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDE4JzAwLjAiTiAxMzjCsDQ4JzAwLjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://suwako-hanabi.com/shinsaku/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-asaka-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.8!2d139.59!3d35.80!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c3c3c3c3c3c3%3A0x3c3c3c3c3c3c3c3c!2z5pyd6Ive5Lit5aSu5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.sainatsusai.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-hanabi-choshi-minato.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.567890123456!2d140.8234!3d35.7345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6022f5cd1234567%3A0x1234567890abcdef!2z6ZO/5a2Q5biC5Yip5qC55bed!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.choshi.chiba.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-higashimatsuyama-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.8234567890123!2d139.3827814!3d35.9154578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e1234567890a%3A0x1234567890abcdef!2z6YO95bep5bed44Oq44OQ44O844K144Kk44OJ44OR44O844Kv!5e0!3m2!1sja!2sjp!4v1609459200000!5m2!1sja!2sjp",
+        "website": "https://www.higashimatsuyama-kanko.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-hitachinaka-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3228.5678901234567!2d140.5300000123456!3d36.4100000012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5bi46ZmP6YKj6LKC5biC!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://hitachikaihin.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-ina-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.8234567890123!2d139.6327814!3d35.9754578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e1234567890a%3A0x1234567890abcdef!2z5LyK5aW555S65Yi25pe96KGM6KiY5b-15YWs5ZyS!5e0!3m2!1sja!2sjp!4v1609459200000!5m2!1sja!2sjp",
+        "website": "https://inakanko.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-kumagaya-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3220.5!2d139.39!3d36.15!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f0a0a0a0a0a0a%3A0xa0a0a0a0a0a0a0a0!2z54aK6LC35biC!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.kumagayahanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-saitama-omagi-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.123456789!2d139.683456!3d35.832123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dbf12345678a%3A0x123456789abcdef0!2z5aSn6ZaT5pyo5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1609459200000!5m2!1sja!2sjp",
+        "website": "https://www.city.saitama.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-august-todabashi-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.5!2d139.67!3d35.79!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60189c5c5c5c5c5c%3A0x5c5c5c5c5c5c5c5c!2z5oi45LiO6ahL!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.todabashi-hanabi.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-july-hanabi-iruma-base.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3235.0123456789!2d139.4123456!3d35.8234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e6a1234567%3A0x1234567890abcdef!2s%E8%88%AA%E7%A9%BA%E8%87%AA%E8%A1%9B%E9%9A%8A%E5%85%A5%E9%96%93%E5%9F%BA%E5%9C%B0!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.mod.go.jp/asdf/iruma/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-july-hanabi-koshigaya.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3234.0123456789!2d139.7123456!3d35.8834567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c3a1234567%3A0x1234567890abcdef!2s%E8%B6%8A%E8%B0%B7%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%B8%82%E6%B0%91%E4%BC%9A%E9%A4%A8!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://www.koshigaya-sightseeing.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-july-hanabi-metsza-nordic.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.6!2d139.3336!3d35.8567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e2c7a7b8f123%3A0x789abc123def456!2z44Oh44OD44C444O844CA77yI5aKr546J44Kr5p2R77yJ!5e0!3m2!1sja!2sjp!4v1640000000000!5m2!1sja!2sjp",
+        "website": "https://metsa-hanno.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-july-hanabi-ogawa-tanabata.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.5!2d139.3431!3d36.0536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f0c8c8c8c8c8c%3A0x8c8c8c8c8c8c8c8c!2z5bCP5bed55S65bCP5bed55S65rWe!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.town.ogawa.saitama.jp/kanko/kanko_tokusan/ogawamachitanabatamatsuri/5267.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-july-hanabi-saitama-owada.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3229.5!2d139.6464!3d35.9309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c2d4d4d4d4d4%3A0x4d4d4d4d4d4d4d4d!2z5aSn5ZKM55Sw5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://visitsaitamacity.jp/events/28",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\saitama\\level4-seibu-en-hanabi-2025.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.1!2d139.4661!3d35.7653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018dc0a1234567%3A0x123456789abcdef!2z6KW_5q2m5ZyS5ri45aWz5Zyw!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://twitter.com/seibuenyuuenchi?ref_src=twsrc%5Etfw",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-august-akishima-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.8!2d139.3536!3d35.7089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s昭島市民球場!5e0!3m2!1sja!2sjp!4v1000000000000!5m2!1sja!2sjp",
+        "website": "https://akishima-kujiramatsuri.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-august-edogawa-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.1651234567!2d139.9345678901!3d35.7123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188559c5b8c5c5%3A0x7e4c5e5b8a2c8c8c!2z6YO96ZGf5bed5Yy65r2t5bSO6aeF!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://www.city.edogawa.tokyo.jp/hanabi/index.html",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-august-hanabi-tamagawa.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.316!2d139.6267!3d35.6125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c93c5c0f1d%3A0x9c8b4e8f1234567!2z5Yy655Sw6LC35bee5pWo5aC05YW45a2Q546J5bed57iA5Zyw6YGL5YuV5aC0!5e0!3m2!1szh!2sjp!4v1704000000000!5m2!1szh!2sjp",
+        "website": "https://www.tamagawa-hanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-august-itabashi-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.1!2d139.6!3d35.8!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c5b8c5c5c5c%3A0x7e4c5e5b8a2c8c8c!2z6I2J5bed5Yy66I2J5bed!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://itabashihanabi.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-august-jingu-gaien-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8962076617846!2d139.71655131525377!3d35.67417038019742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d2de1fbc23b%3A0x6756949f8b5d6b8f!2z5piO5rK754We5a6u5aSW6IuR!5e0!3m2!1sja!2sjp!4v1699000000000!5m2!1sja!2sjp",
+        "website": "https://www.jinguhanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-august-kozushima-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12997.123456789!2d139.1284567890!3d34.2073456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601958b1c2d3e4f5%3A0x12345678901234!2z56We5rSl5bO25riv!5e0!3m2!1sja!2sjp!4v1600000000000!5m2!1sja!2sjp",
+        "website": "https://kozushima.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-august-okutama-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.8!2d139.0953!3d35.8097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019343f5c3a4f3f%3A0x8e2c4c7d9e5f5e5e!2z44CSMTk4LTA0MDIg5p2x5Lqs6YO95a-F5aSa5pGp6YOh6YOv5aSa5pGp6YOh!5e0!3m2!1sja!2sjp!4v1672531200000!5m2!1sja!2sjp",
+        "website": "https://www.town.okutama.tokyo.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-katsushika-noryo.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.567890123456!2d139.8631!3d35.7558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c2eb3b3b3b3%3A0x1234567890abcdef!2z6JGJ6aWzIOaftOWPiOmHjeuQgOWgtA!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://www.city.katsushika.lg.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-mikurajima.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.123456789012!2d139.6043456!3d33.8695432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184c5ea3b3b3b3%3A0x1234567890abcdef!2z5b6h6JeP5bO25riv!5e0!3m2!1sja!2sjp!4v1234567890456",
+        "website": "https://www.mikurasima.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-tachikawa-showa.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.234567890123!2d139.4087!3d35.6973!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c0000000000%3A0x1234567890abcdef!2z5Zu96JCl5pit5ZKM6KiY5b-15YWs5ZyS!5e0!3m2!1sja!2sjp!4v1234567890123",
+        "website": "https://hanabi.tokyo-tachikawa.org/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-tokyo-hachioji.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.5!2d139.3397!3d35.6581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5a-M5aOr5qOu5YWs5ZyS!5e0!3m2!1sja!2sjp!4v1635724800000!5m2!1sja!2sjp",
+        "website": "https://www.hkc.or.jp/fireworks/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-tokyo-keibajo.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.123456789!2d139.4812345!3d35.6656789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f123456789ab%3A0x123456789abcdef0!2z5p2x5Lqs56uL6LSs5aC0!5e0!3m2!1szh-CN!2sjp!4v1698836200000!5m2!1szh-CN!2sjp",
+        "website": "https://hanabitokyo.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-july-hanabi-tokyo-sumida.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.1234567890123!2d139.80123456789012!3d35.71234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0abc12345%3A0x1234567890abcdef!2z6ZqF55Sw5bed6Iqx54Gr5aSn5Lya!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+        "website": "https://www.sumidagawa-hanabi.com/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-september-tokyo-chofu-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.123456789!2d139.5436!3d35.6517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDM5JzA2LjEiTiAxMznCsDMyJzM3LjAiRQ!5e0!3m2!1sja!2sjp!4v1234567890123!5m2!1sja!2sjp",
+        "website": "https://hanabi.csa.gr.jp/",
+        "hasMapInfo": true
+      },
+      {
+        "file": "src\\data\\hanabi\\tokyo\\level4-setagaya-tamagawa-hanabi.ts",
+        "issues": [],
+        "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.316789012345!2d139.6267123!3d35.6125456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c93c5c0f1d%3A0x9c8b4e8f1234567!2z5LqM5a2Q546J5ben57iA5Zyw6YGL5YuV5aC0!5e0!3m2!1szh!2sjp!4v1704000000000!5m2!1szh!2sjp",
+        "website": "https://tamagawa-hanabi.com/",
+        "hasMapInfo": true
+      }
+    ]
+  }
+}

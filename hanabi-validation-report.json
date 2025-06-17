@@ -1,0 +1,105 @@
+{
+  "timestamp": "2025-06-17T02:50:34.733Z",
+  "summary": {
+    "totalFiles": 99,
+    "filesWithMedia": 15,
+    "validFiles": 99,
+    "errorFiles": 0,
+    "warningFiles": 13
+  },
+  "interface": {
+    "requiredFields": [
+      "url",
+      "title",
+      "description"
+    ],
+    "optionalFields": [
+      "alt",
+      "caption",
+      "thumbnail",
+      "duration"
+    ]
+  },
+  "errors": [],
+  "warnings": [
+    {
+      "file": "src\\app\\chiba\\hanabi\\asahi-iioka-you-yu\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\chiba\\hanabi\\urayasu-hanabi\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)",
+        "使用了废弃字段: caption (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\kanagawa\\hanabi\\kawasaki-tamagawa\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\kanagawa\\hanabi\\yokohama-kaikosai\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\kitakanto\\hanabi\\numata-hanabi-2025\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\kitakanto\\hanabi\\oarai-hanabi-2025\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\koshinetsu\\hanabi\\asahara-jinja-aki-hanabi\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\koshinetsu\\hanabi\\chikuma-chikumagawa-hanabi\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\koshinetsu\\hanabi\\ojiya-matsuri-hanabi\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\koshinetsu\\hanabi\\yamanakako-houkosai-hanabi\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\saitama\\hanabi\\kounosu-shoukoukai-22\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\saitama\\hanabi\\sayama-tanabata\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    },
+    {
+      "file": "src\\app\\tokyo\\hanabi\\setagaya-tamagawa\\page.tsx",
+      "warnings": [
+        "使用了废弃字段: alt (应使用 title/description)"
+      ]
+    }
+  ]
+}

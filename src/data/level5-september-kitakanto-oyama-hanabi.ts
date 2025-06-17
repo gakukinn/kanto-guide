@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const oyamaHanabiData: HanabiData = {
   id: 'oyama-hanabi',
   name: '第73回小山花火',
-  japaneseName: '第73回 小山の花火',
   englishName: '73rd Oyama Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第73回 小山の花火'
+  },
   year: 2025,
   date: '2025年9月23日',
   time: '18:30～',

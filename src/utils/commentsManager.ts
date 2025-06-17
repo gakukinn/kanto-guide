@@ -22,13 +22,15 @@ export class CommentsDataManager {
   // 获取指定活动的评论
   getComments(eventId: string): Comment[] {
     if (typeof window === 'undefined') return [];
-    
+
     const stored = localStorage.getItem(this.storageKey);
     if (!stored) return [];
-    
+
     try {
       const allComments = JSON.parse(stored);
-      return allComments.filter((comment: Comment) => comment.eventId === eventId);
+      return allComments.filter(
+        (comment: Comment) => comment.eventId === eventId
+      );
     } catch {
       return [];
     }
@@ -40,7 +42,7 @@ export class CommentsDataManager {
       ...comment,
       id: Date.now().toString(),
       date: new Date().toLocaleDateString('zh-CN'),
-      likes: 0
+      likes: 0,
     };
 
     if (typeof window !== 'undefined') {
@@ -56,10 +58,10 @@ export class CommentsDataManager {
   // 点赞评论
   likeComment(commentId: string): void {
     if (typeof window === 'undefined') return;
-    
+
     const stored = localStorage.getItem(this.storageKey);
     if (!stored) return;
-    
+
     try {
       const allComments = JSON.parse(stored);
       const comment = allComments.find((c: Comment) => c.id === commentId);
@@ -77,7 +79,7 @@ export class CommentsDataManager {
     const comments = this.getComments(eventId);
     return {
       total: comments.length,
-      totalLikes: comments.reduce((sum, comment) => sum + comment.likes, 0)
+      totalLikes: comments.reduce((sum, comment) => sum + comment.likes, 0),
     };
   }
 }

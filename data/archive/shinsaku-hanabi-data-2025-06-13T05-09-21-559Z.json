@@ -1,0 +1,119 @@
+{
+  "id": "shinsaku-hanabi-2025",
+  "title": "全国新作花火挑战杯2025",
+  "titleEn": "National New Fireworks Challenge Cup 2025",
+  "date": "2025年9月6日-10月26日",
+  "dateEn": "September 6 - October 26, 2025",
+  "time": "预选：20:30-20:50 / 18:30-18:50，决赛：17:30-17:50",
+  "timeEn": "Preliminaries: 20:30-20:50 / 18:30-18:50, Final: 17:30-17:50",
+  "location": "长野县诏访市诏访湖上",
+  "locationEn": "Lake Suwa, Suwa City, Nagano Prefecture",
+  "venue": "诏访湖湖畔公园周边",
+  "venueEn": "Around Lake Suwa Lakeside Park",
+  "fireworksCount": "约400发×5回",
+  "fireworksCountEn": "Approximately 400 fireworks × 5 sessions",
+  "expectedVisitors": "约5万人",
+  "expectedVisitorsEn": "Approximately 50,000 visitors",
+  "category": "竞技花火",
+  "categoryEn": "Competitive Fireworks",
+  "region": "甲信越",
+  "regionEn": "Koshinetsu",
+  "prefecture": "长野县",
+  "prefectureEn": "Nagano Prefecture",
+  "city": "诏访市",
+  "cityEn": "Suwa City",
+  "officialWebsite": "https://suwako-hanabi.com/shinsaku/",
+  "description": "6年来首次重新举办的全国新作花火竞技大会，采用预选4回、决赛1回的分散举办方式。全国选拔的20名烟火师将以\"色彩优秀、华丽\"为主题进行竞技。",
+  "descriptionEn": "The National New Fireworks Challenge Cup, held for the first time in 6 years, features a distributed format with 4 preliminary rounds and 1 final. 20 selected pyrotechnicians from across Japan compete with the theme of \"excellent and gorgeous colors\".",
+  "highlights": [
+    "6年来首次重新举办",
+    "全国20名烟火师竞技",
+    "分散举办方式",
+    "色彩华丽主题",
+    "诏访湖绝美会场"
+  ],
+  "highlightsEn": [
+    "First time in 6 years",
+    "20 pyrotechnicians nationwide",
+    "Distributed format",
+    "Gorgeous color theme",
+    "Beautiful Lake Suwa venue"
+  ],
+  "access": {
+    "train": "JR中央本线上诏访站步行8分钟",
+    "trainEn": "JR Chuo Main Line Kami-Suwa Station, 8 minutes walk",
+    "car": "中央自动车道诏访IC约15分钟",
+    "carEn": "Chuo Expressway Suwa IC, about 15 minutes",
+    "parking": "有临时停车场",
+    "parkingEn": "Temporary parking available"
+  },
+  "schedule": [
+    {
+      "date": "2025年9月6日(土)",
+      "time": "20:30-20:50",
+      "event": "预选第1回",
+      "eventEn": "Preliminary Round 1"
+    },
+    {
+      "date": "2025年9月13日(土)",
+      "time": "20:30-20:50",
+      "event": "预选第2回",
+      "eventEn": "Preliminary Round 2"
+    },
+    {
+      "date": "2025年9月20日(土)",
+      "time": "18:30-18:50",
+      "event": "预选第3回",
+      "eventEn": "Preliminary Round 3"
+    },
+    {
+      "date": "2025年9月27日(土)",
+      "time": "18:30-18:50",
+      "event": "预选第4回",
+      "eventEn": "Preliminary Round 4"
+    },
+    {
+      "date": "2025年10月26日(日)",
+      "time": "17:30-17:50",
+      "event": "优胜决定战",
+      "eventEn": "Championship Final"
+    }
+  ],
+  "viewingSpots": [
+    {
+      "name": "诏访湖湖畔公园",
+      "nameEn": "Lake Suwa Lakeside Park",
+      "description": "最佳观赏地点，可欣赏湖面倒影",
+      "descriptionEn": "Best viewing spot with lake reflections",
+      "distance": "会场正面",
+      "distanceEn": "Front of venue"
+    },
+    {
+      "name": "上诏访站前",
+      "nameEn": "Kami-Suwa Station Area",
+      "description": "交通便利的观赏地点",
+      "descriptionEn": "Convenient viewing spot near station",
+      "distance": "步行8分钟",
+      "distanceEn": "8 minutes walk"
+    }
+  ],
+  "contact": {
+    "name": "新作花火大会实行委员会（诏访观光协会内）",
+    "nameEn": "New Fireworks Competition Executive Committee (Suwa Tourism Association)",
+    "phone": "0266-52-2111",
+    "website": "https://suwako-hanabi.com/shinsaku/"
+  },
+  "weather": {
+    "note": "雨天决行（台风・灾害时延期）",
+    "noteEn": "Held rain or shine (postponed in case of typhoon or disaster)"
+  },
+  "history": {
+    "description": "诏访湖拥有全国屈指可数的花火打上场所和观览场所。以此诏访湖为舞台，全国有志的烟火师以不拘泥于传统框架的崭新发想和独创技术，创作艺术性极高的新作花火进行竞技的大会。",
+    "descriptionEn": "Lake Suwa boasts one of the finest fireworks launch and viewing locations in Japan. Using this lake as a stage, ambitious pyrotechnicians from across the nation compete with highly artistic new fireworks created through innovative ideas and original techniques that break free from traditional frameworks."
+  },
+  "mapUrl": "https://www.google.com/maps/place/Lake+Suwa/@36.0505,138.1147,15z",
+  "coordinates": {
+    "lat": 36.0505,
+    "lng": 138.1147
+  }
+}

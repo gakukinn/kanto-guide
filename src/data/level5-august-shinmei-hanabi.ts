@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const shinmeiHanabiData: HanabiData = {
   id: 'shinmei-hanabi-2025',
   name: '市川三郷町故乡夏日祭第37回神明花火大会',
-  japaneseName: '市川三郷町ふるさと夏まつり 第37回「神明の花火大会」',
   englishName: 'Ichikawamisato Hometown Summer Festival 37th Shinmei Fireworks',
+  _sourceData: {
+    japaneseName: '市川三郷町ふるさと夏まつり 第37回「神明の花火大会」'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月7日(木)',

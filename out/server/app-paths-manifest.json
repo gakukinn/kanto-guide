@@ -1,8 +1,0 @@
-{
-  "/api/matsuri/koshinetsu/route": "app/api/matsuri/koshinetsu/route.js",
-  "/page": "app/page.js",
-  "/tokyo/page": "app/tokyo/page.js",
-  "/tokyo/matsuri/page": "app/tokyo/matsuri/page.js",
-  "/koshinetsu/matsuri/page": "app/koshinetsu/matsuri/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
-}

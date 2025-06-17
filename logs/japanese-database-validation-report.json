@@ -1,0 +1,350 @@
+{
+  "timestamp": "2025-06-17T12:59:14.957Z",
+  "summary": {
+    "total": 42,
+    "passed": 42,
+    "failed": 0,
+    "passRate": "100.0%"
+  },
+  "details": [
+    {
+      "field": "date",
+      "eventName": "第48回 隅田川花火大会",
+      "value": "2025年7月26日",
+      "valid": true,
+      "message": "日期格式正确：2025年7月26日",
+      "priority": "highest"
+    },
+    {
+      "field": "location",
+      "eventName": "第48回 隅田川花火大会",
+      "value": "東京都墨田区 隅田川河川敷",
+      "valid": true,
+      "message": "地址格式符合WalkerPlus标准：東京都墨田区 隅田川河川敷",
+      "priority": "highest"
+    },
+    {
+      "field": "expectedVisitors",
+      "eventName": "第48回 隅田川花火大会",
+      "value": "約91万人",
+      "valid": true,
+      "message": "观众数格式正确：約91万人",
+      "priority": "medium"
+    },
+    {
+      "field": "fireworksCount",
+      "eventName": "第48回 隅田川花火大会",
+      "value": "約2万発",
+      "valid": true,
+      "message": "花火数格式正确：約2万発",
+      "priority": "medium"
+    },
+    {
+      "field": "officialWebsite",
+      "eventName": "第48回 隅田川花火大会",
+      "value": "https://www.sumidagawa-hanabi.com/",
+      "valid": true,
+      "message": "官方网站格式正确：https://www.sumidagawa-hanabi.com/",
+      "priority": "high"
+    },
+    {
+      "field": "mapEmbedUrl",
+      "eventName": "第48回 隅田川花火大会",
+      "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.1234567890123!2d139.80123456789012!3d35.71234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0abc12345%3A0x1234567890abcdef!2z6ZqF55Sw5bed6Iqx54Gr5aSn5Lya!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+      "valid": true,
+      "message": "谷歌地图URL格式正确：已包含google.com/maps/embed",
+      "priority": "high"
+    },
+    {
+      "field": "date",
+      "eventName": "東京競馬場花火2025〜花火与J-POP BEST〜",
+      "value": "2025年7月2日",
+      "valid": true,
+      "message": "日期格式正确：2025年7月2日",
+      "priority": "highest"
+    },
+    {
+      "field": "location",
+      "eventName": "東京競馬場花火2025〜花火与J-POP BEST〜",
+      "value": "東京都府中市 JRA東京競馬場",
+      "valid": true,
+      "message": "地址格式符合WalkerPlus标准：東京都府中市 JRA東京競馬場",
+      "priority": "highest"
+    },
+    {
+      "field": "expectedVisitors",
+      "eventName": "東京競馬場花火2025〜花火与J-POP BEST〜",
+      "value": "非公表",
+      "valid": true,
+      "message": "观众数格式正确：非公表",
+      "priority": "medium"
+    },
+    {
+      "field": "fireworksCount",
+      "eventName": "東京競馬場花火2025〜花火与J-POP BEST〜",
+      "value": "約1万4000発",
+      "valid": true,
+      "message": "花火数格式正确：約1万4000発",
+      "priority": "medium"
+    },
+    {
+      "field": "officialWebsite",
+      "eventName": "東京競馬場花火2025〜花火与J-POP BEST〜",
+      "value": "https://www.jra.go.jp/",
+      "valid": true,
+      "message": "官方网站格式正确：https://www.jra.go.jp/",
+      "priority": "high"
+    },
+    {
+      "field": "mapEmbedUrl",
+      "eventName": "東京競馬場花火2025〜花火与J-POP BEST〜",
+      "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.789!2d139.486!3d35.663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSkRA!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+      "valid": true,
+      "message": "谷歌地图URL格式正确：已包含google.com/maps/embed",
+      "priority": "high"
+    },
+    {
+      "field": "date",
+      "eventName": "第59回葛饰纳凉花火大会",
+      "value": "2025年7月22日",
+      "valid": true,
+      "message": "日期格式正确：2025年7月22日",
+      "priority": "highest"
+    },
+    {
+      "field": "location",
+      "eventName": "第59回葛饰纳凉花火大会",
+      "value": "東京都葛飾区 柴又野球場",
+      "valid": true,
+      "message": "地址格式符合WalkerPlus标准：東京都葛飾区 柴又野球場",
+      "priority": "highest"
+    },
+    {
+      "field": "expectedVisitors",
+      "eventName": "第59回葛饰纳凉花火大会",
+      "value": "約77万人",
+      "valid": true,
+      "message": "观众数格式正确：約77万人",
+      "priority": "medium"
+    },
+    {
+      "field": "fireworksCount",
+      "eventName": "第59回葛饰纳凉花火大会",
+      "value": "約1万5000発",
+      "valid": true,
+      "message": "花火数格式正确：約1万5000発",
+      "priority": "medium"
+    },
+    {
+      "field": "officialWebsite",
+      "eventName": "第59回葛饰纳凉花火大会",
+      "value": "https://www.katsushika-hanabi.jp/",
+      "valid": true,
+      "message": "官方网站格式正确：https://www.katsushika-hanabi.jp/",
+      "priority": "high"
+    },
+    {
+      "field": "mapEmbedUrl",
+      "eventName": "第59回葛饰纳凉花火大会",
+      "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.123!2d139.864!3d35.741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z6JW16aOe!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+      "valid": true,
+      "message": "谷歌地图URL格式正确：已包含google.com/maps/embed",
+      "priority": "high"
+    },
+    {
+      "field": "date",
+      "eventName": "第50回江戸川区花火大会",
+      "value": "2025年8月2日",
+      "valid": true,
+      "message": "日期格式正确：2025年8月2日",
+      "priority": "highest"
+    },
+    {
+      "field": "location",
+      "eventName": "第50回江戸川区花火大会",
+      "value": "東京都江戸川区 江戸川河川敷",
+      "valid": true,
+      "message": "地址格式符合WalkerPlus标准：東京都江戸川区 江戸川河川敷",
+      "priority": "highest"
+    },
+    {
+      "field": "expectedVisitors",
+      "eventName": "第50回江戸川区花火大会",
+      "value": "約90万人",
+      "valid": true,
+      "message": "观众数格式正确：約90万人",
+      "priority": "medium"
+    },
+    {
+      "field": "fireworksCount",
+      "eventName": "第50回江戸川区花火大会",
+      "value": "約1万4000発",
+      "valid": true,
+      "message": "花火数格式正确：約1万4000発",
+      "priority": "medium"
+    },
+    {
+      "field": "officialWebsite",
+      "eventName": "第50回江戸川区花火大会",
+      "value": "https://www.edogawa-hanabi.jp/",
+      "valid": true,
+      "message": "官方网站格式正确：https://www.edogawa-hanabi.jp/",
+      "priority": "high"
+    },
+    {
+      "field": "mapEmbedUrl",
+      "eventName": "第50回江戸川区花火大会",
+      "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.456!2d139.852!3d35.696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5rGf5oi45bed!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+      "valid": true,
+      "message": "谷歌地图URL格式正确：已包含google.com/maps/embed",
+      "priority": "high"
+    },
+    {
+      "field": "date",
+      "eventName": "2025 神宫外苑花火大会",
+      "value": "2025年8月16日",
+      "valid": true,
+      "message": "日期格式正确：2025年8月16日",
+      "priority": "highest"
+    },
+    {
+      "field": "location",
+      "eventName": "2025 神宫外苑花火大会",
+      "value": "東京都新宿区 明治神宮外苑",
+      "valid": true,
+      "message": "地址格式符合WalkerPlus标准：東京都新宿区 明治神宮外苑",
+      "priority": "highest"
+    },
+    {
+      "field": "expectedVisitors",
+      "eventName": "2025 神宫外苑花火大会",
+      "value": "約100万人",
+      "valid": true,
+      "message": "观众数格式正确：約100万人",
+      "priority": "medium"
+    },
+    {
+      "field": "fireworksCount",
+      "eventName": "2025 神宫外苑花火大会",
+      "value": "約1万発",
+      "valid": true,
+      "message": "花火数格式正确：約1万発",
+      "priority": "medium"
+    },
+    {
+      "field": "officialWebsite",
+      "eventName": "2025 神宫外苑花火大会",
+      "value": "https://jinguugaienhanabi.com/",
+      "valid": true,
+      "message": "官方网站格式正确：https://jinguugaienhanabi.com/",
+      "priority": "high"
+    },
+    {
+      "field": "mapEmbedUrl",
+      "eventName": "2025 神宫外苑花火大会",
+      "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.789!2d139.717!3d35.674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z56We5a6u!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+      "valid": true,
+      "message": "谷歌地图URL格式正确：已包含google.com/maps/embed",
+      "priority": "high"
+    },
+    {
+      "field": "date",
+      "eventName": "第66回板桥花火大会",
+      "value": "2025年8月2日",
+      "valid": true,
+      "message": "日期格式正确：2025年8月2日",
+      "priority": "highest"
+    },
+    {
+      "field": "location",
+      "eventName": "第66回板桥花火大会",
+      "value": "東京都板橋区 荒川河川敷",
+      "valid": true,
+      "message": "地址格式符合WalkerPlus标准：東京都板橋区 荒川河川敷",
+      "priority": "highest"
+    },
+    {
+      "field": "expectedVisitors",
+      "eventName": "第66回板桥花火大会",
+      "value": "約57万人",
+      "valid": true,
+      "message": "观众数格式正确：約57万人",
+      "priority": "medium"
+    },
+    {
+      "field": "fireworksCount",
+      "eventName": "第66回板桥花火大会",
+      "value": "約1万5000発",
+      "valid": true,
+      "message": "花火数格式正确：約1万5000発",
+      "priority": "medium"
+    },
+    {
+      "field": "officialWebsite",
+      "eventName": "第66回板桥花火大会",
+      "value": "https://hanabi.walkerplus.com/",
+      "valid": true,
+      "message": "官方网站格式正确：https://hanabi.walkerplus.com/",
+      "priority": "high"
+    },
+    {
+      "field": "mapEmbedUrl",
+      "eventName": "第66回板桥花火大会",
+      "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.456!2d139.712!3d35.751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z6I2S5bed!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+      "valid": true,
+      "message": "谷歌地图URL格式正确：已包含google.com/maps/embed",
+      "priority": "high"
+    },
+    {
+      "field": "date",
+      "eventName": "Metsa Nordic 花火大会",
+      "value": "2025年7月12日",
+      "valid": true,
+      "message": "日期格式正确：2025年7月12日",
+      "priority": "highest"
+    },
+    {
+      "field": "location",
+      "eventName": "Metsa Nordic 花火大会",
+      "value": "埼玉県飯能市 メッツァビレッジ",
+      "valid": true,
+      "message": "地址格式符合WalkerPlus标准：埼玉県飯能市 メッツァビレッジ",
+      "priority": "highest"
+    },
+    {
+      "field": "expectedVisitors",
+      "eventName": "Metsa Nordic 花火大会",
+      "value": "約2万人",
+      "valid": true,
+      "message": "观众数格式正确：約2万人",
+      "priority": "medium"
+    },
+    {
+      "field": "fireworksCount",
+      "eventName": "Metsa Nordic 花火大会",
+      "value": "約3000発",
+      "valid": true,
+      "message": "花火数格式正确：約3000発",
+      "priority": "medium"
+    },
+    {
+      "field": "officialWebsite",
+      "eventName": "Metsa Nordic 花火大会",
+      "value": "https://metsa-hanno.com/",
+      "valid": true,
+      "message": "官方网站格式正确：https://metsa-hanno.com/",
+      "priority": "high"
+    },
+    {
+      "field": "mapEmbedUrl",
+      "eventName": "Metsa Nordic 花火大会",
+      "value": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.123!2d139.312!3d35.856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z44Oh44OD44OE44Kh!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+      "valid": true,
+      "message": "谷歌地图URL格式正确：已包含google.com/maps/embed",
+      "priority": "high"
+    }
+  ],
+  "criticalIssues": [],
+  "highIssues": [],
+  "mediumIssues": []
+}

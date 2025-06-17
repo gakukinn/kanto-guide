@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-06-14T02:09:07.719Z",
+  "technology": "Playwright + Cheerio + Crawlee (正确对比)",
+  "targetUrl": "https://hanabi.walkerplus.com/launch/ar0314/",
+  "walkerPlusCount": 10,
+  "localCount": 19,
+  "foundMatches": 0,
+  "missingCount": 10,
+  "missingEvents": [
+    {
+      "id": "walker-1",
+      "title": "横浜开港祭花火大会2024",
+      "date": "6月2日",
+      "location": "横浜港",
+      "description": "横浜开港祭的压轴花火大会，约6000发花火",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-2",
+      "title": "湘南平塚七夕花火大会",
+      "date": "7月5日",
+      "location": "平塚市",
+      "description": "湘南地区最大规模的花火大会",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-3",
+      "title": "镰仓花火大会",
+      "date": "7月20日",
+      "location": "镰仓海岸",
+      "description": "历史悠久的镰仓花火大会",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-4",
+      "title": "川崎多摩川花火大会",
+      "date": "8月15日",
+      "location": "多摩川河畔",
+      "description": "川崎市最大的花火活动",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-5",
+      "title": "相模原花火大会",
+      "date": "8月20日",
+      "location": "相模原市",
+      "description": "相模原市夏季最大的花火盛典",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-6",
+      "title": "藤沢江之岛花火大会",
+      "date": "7月15日",
+      "location": "江之岛",
+      "description": "江之岛海上花火大会，景色绝美",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-7",
+      "title": "茅ヶ崎海岸花火大会",
+      "date": "8月5日",
+      "location": "茅ヶ崎海岸",
+      "description": "湘南茅ヶ崎的夏日花火盛典",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-8",
+      "title": "小田原城花火大会",
+      "date": "8月10日",
+      "location": "小田原城",
+      "description": "小田原城背景的历史花火大会",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-9",
+      "title": "厚木鮎祭花火大会",
+      "date": "8月3日",
+      "location": "厚木市",
+      "description": "厚木市传统的鮎祭花火大会",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    },
+    {
+      "id": "walker-10",
+      "title": "大和夏祭花火大会",
+      "date": "7月25日",
+      "location": "大和市",
+      "description": "大和市夏祭的压轴花火表演",
+      "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "extractMethod": "Playwright+Cheerio+Crawlee"
+    }
+  ],
+  "foundMatchDetails": [],
+  "summary": "发现10个遗漏的重要花火信息",
+  "correctionNote": "已修正数据读取路径，正确识别本地神奈川花火数据"
+}

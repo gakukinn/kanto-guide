@@ -6,8 +6,10 @@ import { HanabiData } from '@/types/hanabi';
 export const tatebayashiHanabiData: HanabiData = {
  id: 'tatebayashi-hanabi-2025',
  name: '館林手筒花火大会',
-  japaneseName: '第26回 館林手筒花火大会',
  englishName: 'Tatebayashi Tezutsu Fireworks Festival 2025',
+  _sourceData: {
+    japaneseName: '第26回 館林手筒花火大会'
+  },
  year: 2025,
  date: '2025年7月26日',
  time: '19:30-20:30',

@@ -3,8 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const tamagawaHanabiData: HanabiData = {
   id: 'tamagawa-hanabi-2025',
   name: '第47回世田谷区多摩川花火大会',
-  japaneseName: '第47回 世田谷区たまがわ花火大会',
   englishName: '47th Setagaya Tamagawa Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第47回 世田谷区たまがわ花火大会'
+  },
   year: 2025,
   date: '2025年10月4日',
   time: '18:00～19:00',

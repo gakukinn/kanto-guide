@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "crawlTime": "2025-06-14T06:20:53.056Z",
+    "sourceUrl": "https://hanabi.walkerplus.com/detail/ar0415e00060/",
+    "crawler": "ojiya-matsuri-crawler.js",
+    "version": "1.0.0"
+  },
+  "basicInfo": {
+    "title": "令和7年度 おぢやまつり大花火大会",
+    "date": "",
+    "time": "19:15～21:00(予定)",
+    "location": "新潟県の花火大会",
+    "venue": "",
+    "address": ""
+  },
+  "fireworksInfo": {
+    "count": "",
+    "expectedVisitors": "",
+    "scale": ""
+  },
+  "accessInfo": {
+    "nearestStation": "",
+    "walkTime": "",
+    "carAccess": "",
+    "parking": ""
+  },
+  "contactInfo": {
+    "organizer": "",
+    "phone": "",
+    "website": "",
+    "officialSite": ""
+  },
+  "description": {
+    "summary": "",
+    "features": [],
+    "highlights": []
+  },
+  "media": {
+    "images": [
+      {
+        "url": "https://ms-cache.walkerplus.com/qrcode/hanabi/detail/event/0415/00060.png",
+        "alt": "",
+        "caption": "令和7年度 おぢやまつり大花火大会"
+      }
+    ],
+    "videos": []
+  },
+  "rawData": {
+    "pageTitle": "令和7年度 おぢやまつり大花火大会（小千谷市）の日程・開催情報 - 花火大会2025 - ウォーカープラス",
+    "h1Title": "令和7年度 おぢやまつり大花火大会",
+    "metaDescription": "【※大会プログラムは過去の情報になります。開催予定の大会については詳細が決定次第、情報を更新します】新潟県小千谷市の最大の祭り「おぢやまつり」で開催される大花火大会。「おぢやまつり」は3日間の日程で行われ、注目は8月24日(土)・25日(日...",
+    "pageText": "\n  \n  \n<iframe src=\"//www.googletagmanager.com/ns.html?id=GTM-MFFS32\"\n        height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe>\n(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-MFFS32');\n\n  \n  \n    \n      \n      \n        \n  \n    \n      \n.plus {fill:url(#gradient);}.font {fill: #fff; }\n            \n            \n          \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n      \n    \n    \n      \n      \n    \n    \n  \n\n\n        \n\n\n\n全国約900大会の花火大会情報をお届け！\n\n \n\n\n \n    \n    \n    \n    \n\n                  \n            \n              \n                \n                  花火特集2025\n                  北海道\n                  東北\n                  関東\n                    \n                      東京\n                      神奈川\n          "
+  }
+}

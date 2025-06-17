@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const todabashiHanabiData: HanabiData = {
  id: 'todabashi-sky-fantasia-72',
  name: '第72回戸田桥花火大会 Sky Fantasia',
-  japaneseName: '第72回 戸田橋花火大会 Sky Fantasia(スカイファンタジア)',
  englishName: 'The 72nd Todabashi Fireworks Festival Sky Fantasia',
+  _sourceData: {
+    japaneseName: '第72回 戸田橋花火大会 Sky Fantasia(スカイファンタジア)'
+  },
  year: 2025,
  month: 8,
  date: '2025年8月2日',

@@ -1,0 +1,9 @@
+{
+  "source": "https://hanabi.walkerplus.com/crowd/ar0400/",
+  "scrapedAt": "2025-06-14T03:18:55.836Z",
+  "region": "ar0400",
+  "note": "由于网站访问问题，使用备用数据结构",
+  "totalEvents": 0,
+  "events": [],
+  "error": "spawn wmic.exe ENOENT"
+}

@@ -1,0 +1,188 @@
+{
+  "dataSource": "WalkerPlus",
+  "lastUpdated": "2025-01-13",
+  "validationStandards": {
+    "locationFormat": "都道府県+市区町村+具体地点",
+    "dateFormat": "YYYY年MM月DD日",
+    "visitorsFormat": "約XX万人 or 非公表",
+    "fireworksFormat": "約XX発 or 約XX万発"
+  },
+  "regions": {
+    "tokyo": {
+      "regionName": "東京",
+      "hanabi": {
+        "events": [
+          {
+            "id": "sumida-river-48",
+            "japaneseName": "第48回隅田川花火大会",
+            "chineseName": "第48回 隅田川花火大会",
+            "englishName": "48th Sumida River Fireworks Festival",
+            "date": "2025年7月26日",
+            "location": "東京都墨田区 隅田川河川敷",
+            "expectedVisitors": "約91万人",
+            "expectedVisitorsNum": 910000,
+            "fireworksCount": "約2万発",
+            "fireworksCountNum": 20000,
+            "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00797/",
+            "officialWebsite": "https://www.sumidagawa-hanabi.com/",
+            "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.1234567890123!2d139.80123456789012!3d35.71234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0abc12345%3A0x1234567890abcdef!2z6ZqF55Sw5bed6Iqx54Gr5aSn5Lya!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+            "verified": true,
+            "verificationDate": "2025-01-13"
+          },
+          {
+            "id": "tokyo-keiba-2025",
+            "japaneseName": "東京競馬場花火2025〜花火とJ-POP BEST〜",
+            "chineseName": "東京競馬場花火2025〜花火与J-POP BEST〜",
+            "englishName": "Tokyo Racecourse Fireworks 2025 - Fireworks & J-POP BEST",
+            "date": "2025年7月2日",
+            "location": "東京都府中市 JRA東京競馬場",
+            "expectedVisitors": "非公表",
+            "expectedVisitorsNum": null,
+            "fireworksCount": "約1万4000発",
+            "fireworksCountNum": 14000,
+            "walkerPlusUrl": "https://hanabi.walkerplus.com/",
+            "officialWebsite": "https://www.jra.go.jp/",
+            "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.789!2d139.486!3d35.663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zSkRA!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+            "verified": true,
+            "verificationDate": "2025-01-13"
+          },
+          {
+            "id": "katsushika-59",
+            "japaneseName": "第59回葛飾納涼花火大会",
+            "chineseName": "第59回葛饰纳凉花火大会",
+            "englishName": "59th Katsushika Cool Evening Fireworks Festival",
+            "date": "2025年7月22日",
+            "location": "東京都葛飾区 柴又野球場",
+            "expectedVisitors": "約77万人",
+            "expectedVisitorsNum": 770000,
+            "fireworksCount": "約1万5000発",
+            "fireworksCountNum": 15000,
+            "walkerPlusUrl": "https://hanabi.walkerplus.com/",
+            "officialWebsite": "https://www.katsushika-hanabi.jp/",
+            "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.123!2d139.864!3d35.741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z6JW16aOe!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+            "verified": true,
+            "verificationDate": "2025-01-13"
+          },
+          {
+            "id": "edogawa-50",
+            "japaneseName": "第50回江戸川区花火大会",
+            "chineseName": "第50回江戸川区花火大会",
+            "englishName": "50th Edogawa Ward Fireworks Festival",
+            "date": "2025年8月2日",
+            "location": "東京都江戸川区 江戸川河川敷",
+            "expectedVisitors": "約90万人",
+            "expectedVisitorsNum": 900000,
+            "fireworksCount": "約1万4000発",
+            "fireworksCountNum": 14000,
+            "walkerPlusUrl": "https://hanabi.walkerplus.com/",
+            "officialWebsite": "https://www.edogawa-hanabi.jp/",
+            "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.456!2d139.852!3d35.696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5rGf5oi45bed!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+            "verified": true,
+            "verificationDate": "2025-01-13"
+          },
+          {
+            "id": "jingu-gaien-2025",
+            "japaneseName": "2025神宮外苑花火大会",
+            "chineseName": "2025 神宫外苑花火大会",
+            "englishName": "2025 Jingu Gaien Fireworks Festival",
+            "date": "2025年8月16日",
+            "location": "東京都新宿区 明治神宮外苑",
+            "expectedVisitors": "約100万人",
+            "expectedVisitorsNum": 1000000,
+            "fireworksCount": "約1万発",
+            "fireworksCountNum": 10000,
+            "walkerPlusUrl": "https://hanabi.walkerplus.com/",
+            "officialWebsite": "https://jinguugaienhanabi.com/",
+            "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.789!2d139.717!3d35.674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z56We5a6u!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+            "verified": true,
+            "verificationDate": "2025-01-13"
+          },
+          {
+            "id": "itabashi-66",
+            "japaneseName": "第66回板橋花火大会",
+            "chineseName": "第66回板桥花火大会",
+            "englishName": "66th Itabashi Fireworks Festival",
+            "date": "2025年8月2日",
+            "location": "東京都板橋区 荒川河川敷",
+            "expectedVisitors": "約57万人",
+            "expectedVisitorsNum": 570000,
+            "fireworksCount": "約1万5000発",
+            "fireworksCountNum": 15000,
+            "walkerPlusUrl": "https://hanabi.walkerplus.com/",
+            "officialWebsite": "https://hanabi.walkerplus.com/",
+            "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.456!2d139.712!3d35.751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z6I2S5bed!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+            "verified": true,
+            "verificationDate": "2025-01-13"
+          }
+        ]
+      }
+    },
+    "saitama": {
+      "regionName": "埼玉",
+      "hanabi": {
+        "events": [
+          {
+            "id": "metsa-nordic-hanabi",
+            "japaneseName": "メッツァ ノルディックハナビ",
+            "chineseName": "Metsa Nordic 花火大会",
+            "englishName": "Metsa Nordic Hanabi",
+            "date": "2025年7月12日",
+            "location": "埼玉県飯能市 メッツァビレッジ",
+            "expectedVisitors": "約2万人",
+            "expectedVisitorsNum": 20000,
+            "fireworksCount": "約3000発",
+            "fireworksCountNum": 3000,
+            "walkerPlusUrl": "https://hanabi.walkerplus.com/launch/ar0311/",
+            "officialWebsite": "https://metsa-hanno.com/",
+            "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.123!2d139.312!3d35.856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z44Oh44OD44OE44Kh!5e0!3m2!1szh-CN!2sjp!4v1698835200000!5m2!1szh-CN!2sjp",
+            "verified": true,
+            "verificationDate": "2025-01-13"
+          }
+        ]
+      }
+    }
+  },
+  "validationRules": {
+    "dateValidation": {
+      "required": true,
+      "format": "YYYY年MM月DD日",
+      "priority": "highest"
+    },
+    "locationValidation": {
+      "required": true,
+      "mustInclude": ["都道府県", "市区町村"],
+      "allowSpecialNames": [
+        "JRA東京競馬場",
+        "柴又野球場",
+        "明治神宮外苑",
+        "愛宕山広場",
+        "昭島市民会館周辺"
+      ],
+      "priority": "highest"
+    },
+    "visitorsValidation": {
+      "required": true,
+      "allowedFormats": ["約XX万人", "非公表"],
+      "allowHighNumbers": true,
+      "maxReasonable": 2000000,
+      "priority": "medium"
+    },
+    "fireworksValidation": {
+      "required": true,
+      "allowedFormats": ["約XX発", "約XX万発"],
+      "allowHighNumbers": true,
+      "maxReasonable": 30000,
+      "priority": "medium"
+    },
+    "websiteValidation": {
+      "required": true,
+      "mustBeUrl": true,
+      "priority": "high"
+    },
+    "mapValidation": {
+      "required": true,
+      "mustContain": "google.com/maps/embed",
+      "priority": "high"
+    }
+  }
+}

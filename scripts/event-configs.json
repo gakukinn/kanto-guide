@@ -1,0 +1,146 @@
+[
+  {
+    "id": "numata-hanabi-2025",
+    "name": "第13回沼田花火大会",
+    "officialUrl": "https://www.city.numata.gunma.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0310e40188/",
+    "regionPath": "kitakanto",
+    "detailPagePath": "src/app/kitakanto/hanabi/numata-hanabi-2025/page.tsx"
+  },
+  {
+    "id": "oarai-hanabi-2025",
+    "name": "大洗海上花火大会2025",
+    "officialUrl": "https://www.oarai-info.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0308e00860/",
+    "regionPath": "kitakanto",
+    "detailPagePath": "src/app/kitakanto/hanabi/oarai-hanabi-2025/page.tsx"
+  },
+  {
+    "id": "urayasu-hanabi",
+    "name": "第42回浦安市花火大会",
+    "officialUrl": "https://www.city.urayasu.lg.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0312e00806/",
+    "regionPath": "chiba",
+    "detailPagePath": "src/app/chiba/hanabi/urayasu-hanabi/page.tsx"
+  },
+  {
+    "id": "sayama-tanabata",
+    "name": "狭山市入间川七夕祭花火大会",
+    "officialUrl": "https://www.city.sayama.saitama.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00806/",
+    "regionPath": "saitama",
+    "detailPagePath": "src/app/saitama/hanabi/sayama-tanabata/page.tsx"
+  },
+  {
+    "id": "setagaya-tamagawa",
+    "name": "第47回世田谷区多摩川花火大会",
+    "officialUrl": "https://www.tamagawa-hanabi.com/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00806/",
+    "regionPath": "tokyo",
+    "detailPagePath": "src/app/tokyo/hanabi/setagaya-tamagawa/page.tsx"
+  },
+  {
+    "id": "chikuma-chikumagawa-hanabi",
+    "name": "第94回信州千曲市千曲川納涼煙火大会",
+    "officialUrl": "https://www.city.chikuma.lg.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0420e00806/",
+    "regionPath": "koshinetsu",
+    "detailPagePath": "src/app/koshinetsu/hanabi/chikuma-chikumagawa-hanabi/page.tsx"
+  },
+  {
+    "id": "asahara-jinja-aki-hanabi",
+    "name": "浅原神社秋季例大祭奉納大煙火",
+    "officialUrl": "https://katakaimachi-hanabi.com/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0415e00806/",
+    "regionPath": "koshinetsu",
+    "detailPagePath": "src/app/koshinetsu/hanabi/asahara-jinja-aki-hanabi/page.tsx"
+  },
+  {
+    "id": "agano-gozareya",
+    "name": "第51回阿賀野川来吧花火",
+    "officialUrl": "https://www.city.niigata.lg.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0415e00807/",
+    "regionPath": "koshinetsu",
+    "detailPagePath": "src/app/koshinetsu/hanabi/agano-gozareya/page.tsx"
+  },
+  {
+    "id": "akishima",
+    "name": "昭岛市民鲸鱼祭梦花火",
+    "officialUrl": "https://www.city.akishima.lg.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00807/",
+    "regionPath": "tokyo",
+    "detailPagePath": "src/app/tokyo/hanabi/akishima/page.tsx"
+  },
+  {
+    "id": "edogawa",
+    "name": "江戸川区花火大会",
+    "officialUrl": "https://www.city.edogawa.tokyo.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00808/",
+    "regionPath": "tokyo",
+    "detailPagePath": "src/app/tokyo/hanabi/edogawa/page.tsx"
+  },
+  {
+    "id": "itabashi",
+    "name": "板桥花火大会",
+    "officialUrl": "https://www.city.itabashi.tokyo.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00809/",
+    "regionPath": "tokyo",
+    "detailPagePath": "src/app/tokyo/hanabi/itabashi/page.tsx"
+  },
+  {
+    "id": "okutama",
+    "name": "奥多摩花火大会",
+    "officialUrl": "https://www.town.okutama.tokyo.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0313e00810/",
+    "regionPath": "tokyo",
+    "detailPagePath": "src/app/tokyo/hanabi/okutama/page.tsx"
+  },
+  {
+    "id": "omigawa",
+    "name": "小見川花火大会",
+    "officialUrl": "https://www.city.katori.lg.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0312e00807/",
+    "regionPath": "chiba",
+    "detailPagePath": "src/app/chiba/hanabi/omigawa/page.tsx"
+  },
+  {
+    "id": "saitama-owada-2025",
+    "name": "埼玉大和田花火大会2025",
+    "officialUrl": "https://www.city.saitama.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00807/",
+    "regionPath": "saitama",
+    "detailPagePath": "src/app/saitama/hanabi/saitama-owada-2025/page.tsx"
+  },
+  {
+    "id": "metsza-nordic-2025",
+    "name": "Metsza Nordic 2025花火大会",
+    "officialUrl": "https://metsza.com/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00808/",
+    "regionPath": "saitama",
+    "detailPagePath": "src/app/saitama/hanabi/metsza-nordic-2025/page.tsx"
+  },
+  {
+    "id": "ogawa-tanabata-2025",
+    "name": "小川七夕祭花火大会2025",
+    "officialUrl": "https://www.town.ogawa.saitama.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00809/",
+    "regionPath": "saitama",
+    "detailPagePath": "src/app/saitama/hanabi/ogawa-tanabata-2025/page.tsx"
+  },
+  {
+    "id": "seibu-en-2025",
+    "name": "西武园花火大会2025",
+    "officialUrl": "https://www.seibu-leisure.co.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0311e00810/",
+    "regionPath": "saitama",
+    "detailPagePath": "src/app/saitama/hanabi/seibu-en-2025/page.tsx"
+  },
+  {
+    "id": "seaparadise-hanabi-symphonia",
+    "name": "Sea Paradise花火交响乐",
+    "officialUrl": "https://www.seaparadise.co.jp/",
+    "walkerPlusUrl": "https://hanabi.walkerplus.com/detail/ar0314e00806/",
+    "regionPath": "kanagawa",
+    "detailPagePath": "src/app/kanagawa/hanabi/seaparadise-hanabi-symphonia/page.tsx"
+  }
+]

@@ -3,9 +3,10 @@ import { HanabiData } from '../types/hanabi';
 export const kamakuraData: HanabiData = {
  id: 'kamakura',
  name: '第77回 镰仓花火大会',
-  japaneseName: '第77回 鎌倉花火大会',
-
  englishName: 'The 77th Kamakura Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第77回 鎌倉花火大会'
+  },
   title: '第77回 镰仓花火大会 - 7月神奈川花火大会',
   description: '第77回 镰仓花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

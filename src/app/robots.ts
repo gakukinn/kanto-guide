@@ -1,6 +1,6 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
-export const dynamic = 'force-static'
+export const dynamic = 'force-static';
 
 export default function robots(): MetadataRoute.Robots {
   return {
@@ -10,5 +10,5 @@ export default function robots(): MetadataRoute.Robots {
       disallow: ['/admin/', '/api/'],
     },
     sitemap: 'https://tokyo-seasonal-guide.vercel.app/sitemap.xml',
-  }
-} 
+  };
+}

@@ -2,6 +2,9 @@ import { NextRequest, NextResponse } from 'next/server';
 import { MatsuriDataService } from '@/lib/services/matsuri-data-service';
 import { matsuriScheduler } from '@/lib/scheduler/matsuri-scheduler';
 
+// 静态导出配置
+export const dynamic = 'force-static';
+
 // 懒加载服务实例
 let dataService: MatsuriDataService | null = null;
 
@@ -23,7 +26,7 @@ export async function GET(request: NextRequest) {
         // 获取仪表板数据
         const [stats, schedulerStatus] = await Promise.all([
           matsuriScheduler.getDataStats(),
-          Promise.resolve(matsuriScheduler.getStatus())
+          Promise.resolve(matsuriScheduler.getStatus()),
         ]);
 
         return NextResponse.json({
@@ -36,51 +39,51 @@ export async function GET(request: NextRequest) {
               platform: process.platform,
               uptime: process.uptime(),
               memoryUsage: process.memoryUsage(),
-              timestamp: new Date().toISOString()
-            }
-          }
+              timestamp: new Date().toISOString(),
+            },
+          },
         });
 
       case 'stats':
         // 获取详细统计信息
         const detailedStats = await matsuriScheduler.getDataStats();
-        
+
         return NextResponse.json({
           success: true,
           stats: detailedStats,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
         });
 
       case 'scheduler':
         // 获取调度器状态
         const status = matsuriScheduler.getStatus();
-        
+
         return NextResponse.json({
           success: true,
           scheduler: status,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
         });
 
       case 'validate':
         // 验证所有数据
         const prefecture = searchParams.get('prefecture') || 'tokyo';
         const validation = await getDataService().validateData(prefecture);
-        
+
         return NextResponse.json({
           success: true,
           validation,
           prefecture,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
         });
 
       case 'health':
         // 健康检查
         const healthCheck = await performHealthCheck();
-        
+
         return NextResponse.json({
           success: true,
           health: healthCheck,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
         });
 
       default:
@@ -89,14 +92,13 @@ export async function GET(request: NextRequest) {
           { status: 400 }
         );
     }
-
   } catch (error) {
     console.error('Admin API Error:', error);
     return NextResponse.json(
-      { 
-        success: false, 
+      {
+        success: false,
         error: 'Failed to fetch admin data',
-        details: error instanceof Error ? error.message : 'Unknown error'
+        details: error instanceof Error ? error.message : 'Unknown error',
       },
       { status: 500 }
     );
@@ -113,32 +115,32 @@ export async function POST(request: NextRequest) {
       case 'start-scheduler':
         // 启动调度器
         matsuriScheduler.start();
-        
+
         return NextResponse.json({
           success: true,
           message: 'Scheduler started successfully',
-          status: matsuriScheduler.getStatus()
+          status: matsuriScheduler.getStatus(),
         });
 
       case 'stop-scheduler':
         // 停止调度器
         matsuriScheduler.stop();
-        
+
         return NextResponse.json({
           success: true,
           message: 'Scheduler stopped successfully',
-          status: matsuriScheduler.getStatus()
+          status: matsuriScheduler.getStatus(),
         });
 
       case 'manual-update':
         // 手动更新数据
         const updateResult = await matsuriScheduler.manualUpdate(prefecture);
-        
+
         return NextResponse.json({
           success: true,
           message: `Manual update completed for ${prefecture}`,
           prefecture,
-          timestamp: new Date().toISOString()
+          timestamp: new Date().toISOString(),
         });
 
       case 'clear-data':
@@ -150,24 +152,24 @@ export async function POST(request: NextRequest) {
             { status: 400 }
           );
         }
-        
+
         // 这里实现数据清除逻辑
         // 注意：这是危险操作，需要额外的安全检查
-        
+
         return NextResponse.json({
           success: true,
           message: `Data cleared for ${prefecture}`,
-          warning: 'This action cannot be undone'
+          warning: 'This action cannot be undone',
         });
 
       case 'backup-data':
         // 备份数据
         const backupResult = await createDataBackup(prefecture);
-        
+
         return NextResponse.json({
           success: true,
           message: 'Data backup created successfully',
-          backup: backupResult
+          backup: backupResult,
         });
 
       case 'restore-data':
@@ -179,13 +181,13 @@ export async function POST(request: NextRequest) {
             { status: 400 }
           );
         }
-        
+
         const restoreResult = await restoreDataFromBackup(prefecture, backupId);
-        
+
         return NextResponse.json({
           success: true,
           message: 'Data restored successfully',
-          restore: restoreResult
+          restore: restoreResult,
         });
 
       default:
@@ -194,14 +196,13 @@ export async function POST(request: NextRequest) {
           { status: 400 }
         );
     }
-
   } catch (error) {
     console.error('Admin API POST Error:', error);
     return NextResponse.json(
-      { 
-        success: false, 
+      {
+        success: false,
         error: 'Failed to process admin request',
-        details: error instanceof Error ? error.message : 'Unknown error'
+        details: error instanceof Error ? error.message : 'Unknown error',
       },
       { status: 500 }
     );
@@ -222,13 +223,13 @@ async function performHealthCheck(): Promise<{
     checks.dataFiles = {
       status: 'ok',
       count: tokyoData.length,
-      message: `Found ${tokyoData.length} Tokyo matsuri events`
+      message: `Found ${tokyoData.length} Tokyo matsuri events`,
     };
   } catch (error) {
     checks.dataFiles = {
       status: 'error',
       message: 'Failed to load data files',
-      error: error instanceof Error ? error.message : 'Unknown error'
+      error: error instanceof Error ? error.message : 'Unknown error',
     };
     overallStatus = 'error';
   }
@@ -238,7 +239,9 @@ async function performHealthCheck(): Promise<{
   checks.scheduler = {
     status: schedulerStatus.isRunning ? 'ok' : 'warning',
     activeTasks: schedulerStatus.activeTasks.length,
-    message: schedulerStatus.isRunning ? 'Scheduler is running' : 'Scheduler is stopped'
+    message: schedulerStatus.isRunning
+      ? 'Scheduler is running'
+      : 'Scheduler is stopped',
   };
 
   if (!schedulerStatus.isRunning && overallStatus === 'healthy') {
@@ -251,7 +254,7 @@ async function performHealthCheck(): Promise<{
   checks.memory = {
     status: memUsageMB > 500 ? 'warning' : 'ok',
     usage: `${memUsageMB}MB`,
-    message: `Memory usage: ${memUsageMB}MB`
+    message: `Memory usage: ${memUsageMB}MB`,
   };
 
   if (memUsageMB > 500 && overallStatus === 'healthy') {
@@ -263,12 +266,12 @@ async function performHealthCheck(): Promise<{
   checks.uptime = {
     status: 'ok',
     hours: uptimeHours,
-    message: `System uptime: ${uptimeHours} hours`
+    message: `System uptime: ${uptimeHours} hours`,
   };
 
   return {
     status: overallStatus,
-    checks
+    checks,
   };
 }
 
@@ -280,28 +283,31 @@ async function createDataBackup(prefecture: string): Promise<{
 }> {
   const backupId = `backup-${prefecture}-${Date.now()}`;
   const timestamp = new Date().toISOString();
-  
+
   // 这里实现实际的备份逻辑
   // 可以保存到文件系统或云存储
-  
+
   return {
     backupId,
     timestamp,
-    size: 0 // 实际备份文件大小
+    size: 0, // 实际备份文件大小
   };
 }
 
 // 从备份恢复数据
-async function restoreDataFromBackup(prefecture: string, backupId: string): Promise<{
+async function restoreDataFromBackup(
+  prefecture: string,
+  backupId: string
+): Promise<{
   restored: boolean;
   timestamp: string;
   recordsRestored: number;
 }> {
   // 这里实现实际的恢复逻辑
-  
+
   return {
     restored: true,
     timestamp: new Date().toISOString(),
-    recordsRestored: 0
+    recordsRestored: 0,
   };
-} 
+}

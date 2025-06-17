@@ -1,7 +1,7 @@
 'use client';
 
-import Link from 'next/link';
 import FeaturedActivities from '@/components/FeaturedActivities';
+import Link from 'next/link';
 
 interface RegionConfig {
   name: string;
@@ -35,38 +35,129 @@ const activityTypes = {
     name: '传统祭典',
     emoji: '🏮',
     description: '神社祭典与传统文化体验',
-    color: 'from-red-50 to-red-100 border-red-200/60'
+    bgColor: 'from-red-50 to-red-100',
+    borderColor: 'border-red-200/60',
   },
   hanami: {
     name: '花見会',
     emoji: '🌸',
     description: '春季赏花聚会体验',
-    color: 'from-pink-50 to-pink-100 border-pink-200/60'
+    bgColor: 'from-pink-50 to-pink-100',
+    borderColor: 'border-pink-200/60',
   },
   hanabi: {
     name: '花火大会',
     emoji: '🎆',
     description: '夏季烟花节庆的璀璨夜空',
-    color: 'from-blue-50 to-blue-100 border-blue-200/60'
+    bgColor: 'from-blue-50 to-blue-100',
+    borderColor: 'border-blue-200/60',
   },
   culture: {
     name: '文化艺术',
     emoji: '🎨',
     description: '美术馆博物馆精彩展览',
-    color: 'from-green-50 to-green-100 border-green-200/60'
+    bgColor: 'from-green-50 to-green-100',
+    borderColor: 'border-green-200/60',
   },
   momiji: {
     name: '红叶狩',
     emoji: '🍁',
     description: '秋季红叶观赏的传统活动',
-    color: 'from-orange-50 to-orange-100 border-orange-200/60'
+    bgColor: 'from-orange-50 to-orange-100',
+    borderColor: 'border-orange-200/60',
   },
   illumination: {
     name: '灯光秀',
     emoji: '✨',
     description: '点灯活动与夜间灯光秀',
-    color: 'from-purple-50 to-purple-100 border-purple-200/60'
+    bgColor: 'from-purple-50 to-purple-100',
+    borderColor: 'border-purple-200/60',
+  },
+};
+
+// 地区标题颜色配置
+const getRegionTitleGradient = (regionKey: string) => {
+  const gradients = {
+    tokyo: 'from-red-600 via-rose-500 to-orange-600',
+    saitama: 'from-orange-600 via-amber-500 to-red-600',
+    chiba: 'from-sky-600 via-cyan-500 to-blue-600',
+    kanagawa: 'from-blue-600 via-blue-500 to-cyan-600',
+    kitakanto: 'from-green-600 via-emerald-500 to-blue-600',
+    koshinetsu: 'from-purple-600 via-violet-500 to-blue-600',
+  };
+
+  return gradients[regionKey as keyof typeof gradients] || gradients.tokyo;
+};
+
+// 地区循环导航配置
+const getRegionNavigation = (regionKey: string) => {
+  const regionCycle = [
+    { key: 'tokyo', name: '东京都', emoji: '🗼', href: '/tokyo' },
+    { key: 'saitama', name: '埼玉县', emoji: '🌸', href: '/saitama' },
+    { key: 'chiba', name: '千叶县', emoji: '🌊', href: '/chiba' },
+    { key: 'kanagawa', name: '神奈川', emoji: '⛵', href: '/kanagawa' },
+    { key: 'kitakanto', name: '北关东', emoji: '🏔️', href: '/kitakanto' },
+    { key: 'koshinetsu', name: '甲信越', emoji: '⛰️', href: '/koshinetsu' },
+  ];
+
+  const currentIndex = regionCycle.findIndex(
+    region => region.key === regionKey
+  );
+
+  if (currentIndex === -1) {
+    return {
+      prev: {
+        name: '甲信越',
+        href: '/koshinetsu',
+        emoji: '⛰️',
+        key: 'koshinetsu',
+      },
+      current: { name: '东京都', emoji: '🗼', key: 'tokyo' },
+      next: { name: '埼玉县', href: '/saitama', emoji: '🌸', key: 'saitama' },
+    };
   }
+
+  const prevIndex =
+    (currentIndex - 1 + regionCycle.length) % regionCycle.length;
+  const nextIndex = (currentIndex + 1) % regionCycle.length;
+
+  const prevRegion = regionCycle[prevIndex];
+  const currentRegion = regionCycle[currentIndex];
+  const nextRegion = regionCycle[nextIndex];
+
+  return {
+    prev: {
+      name: prevRegion.name,
+      href: prevRegion.href,
+      emoji: prevRegion.emoji,
+      key: prevRegion.key,
+    },
+    current: {
+      name: currentRegion.name,
+      emoji: currentRegion.emoji,
+      key: currentRegion.key,
+    },
+    next: {
+      name: nextRegion.name,
+      href: nextRegion.href,
+      emoji: nextRegion.emoji,
+      key: nextRegion.key,
+    },
+  };
+};
+
+// 地区背景色配置
+const getRegionBgColor = (regionKey: string) => {
+  const bgColors = {
+    tokyo: 'bg-gradient-to-br from-red-50 to-rose-100',
+    saitama: 'bg-gradient-to-br from-orange-50 to-amber-100',
+    chiba: 'bg-gradient-to-br from-sky-50 to-cyan-100',
+    kanagawa: 'bg-gradient-to-br from-blue-100 to-blue-200',
+    kitakanto: 'bg-gradient-to-br from-green-50 to-emerald-100',
+    koshinetsu: 'bg-gradient-to-br from-purple-50 to-violet-100',
+  };
+
+  return bgColors[regionKey as keyof typeof bgColors] || bgColors.tokyo;
 };
 
 interface RegionPageTemplateProps {
@@ -74,81 +165,100 @@ interface RegionPageTemplateProps {
   config: RegionConfig;
 }
 
-export default function RegionPageTemplate({ regionKey, config }: RegionPageTemplateProps) {
+export default function RegionPageTemplate({
+  regionKey,
+  config,
+}: RegionPageTemplateProps) {
   return (
-    <div className={`min-h-screen bg-gradient-to-br ${config.bgColor} relative overflow-hidden`}>
+    <div
+      className={`min-h-screen bg-gradient-to-br ${config.bgColor} relative overflow-hidden`}
+    >
       {/* 装饰性背景元素 */}
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-10 left-10 w-32 h-32 bg-white/30 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute top-1/4 right-20 w-24 h-24 bg-white/20 rounded-full blur-lg animate-pulse delay-1000"></div>
-        <div className="absolute bottom-1/4 left-1/4 w-40 h-40 bg-white/10 rounded-full blur-2xl animate-pulse delay-2000"></div>
-        <div className="absolute bottom-10 right-10 w-28 h-28 bg-white/25 rounded-full blur-xl animate-pulse delay-500"></div>
+        <div className="absolute left-10 top-10 h-32 w-32 animate-pulse rounded-full bg-white/30 blur-xl"></div>
+        <div className="absolute right-20 top-1/4 h-24 w-24 animate-pulse rounded-full bg-white/20 blur-lg delay-1000"></div>
+        <div className="delay-2000 absolute bottom-1/4 left-1/4 h-40 w-40 animate-pulse rounded-full bg-white/10 blur-2xl"></div>
+        <div className="absolute bottom-10 right-10 h-28 w-28 animate-pulse rounded-full bg-white/25 blur-xl delay-500"></div>
       </div>
+      {/* 面包屑导航 */}
+      <nav className="relative z-20 pb-2 pt-4">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center space-x-2 text-gray-600">
+            <Link
+              href="/"
+              className="font-medium transition-colors hover:text-blue-600"
+            >
+              🏠 首页
+            </Link>
+            <span className="text-gray-400">›</span>
+            <span className="font-medium text-blue-600">
+              {config.emoji} {config.name}活动
+            </span>
+          </div>
+        </div>
+      </nav>
+
       {/* 主要内容 */}
       <main className="relative z-10">
         {/* 标题区域 */}
-        <section className="pt-16 pb-16 text-center bg-gradient-to-b from-white/50 to-white/30 backdrop-blur-sm">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center justify-center space-x-10 mb-10">
-              <div className="text-8xl drop-shadow-2xl transform hover:scale-110 transition-transform duration-300 filter hover:brightness-110">{config.emoji}</div>
+        <section className="bg-gradient-to-b from-white/50 to-white/30 pb-16 pt-12 text-center backdrop-blur-sm">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <div className="mb-6 flex items-center justify-center space-x-10">
+              <div className="transform text-8xl drop-shadow-2xl filter transition-transform duration-300 hover:scale-110 hover:brightness-110">
+                {config.emoji}
+              </div>
               <div>
-                <h1 className="text-6xl md:text-7xl font-bold text-gray-800 mb-4 drop-shadow-lg tracking-tight">
-                  {config.name} <span className={`text-${config.themeColor}-600 bg-gradient-to-r from-${config.themeColor}-500 to-${config.themeColor}-700 bg-clip-text text-transparent`}>活动指南</span>
+                <h1
+                  className={`mb-4 bg-gradient-to-r text-6xl font-bold tracking-tight md:text-7xl ${getRegionTitleGradient(regionKey)} bg-clip-text text-transparent drop-shadow-lg`}
+                >
+                  {config.name} 活动指南
                 </h1>
               </div>
             </div>
-            
-            {/* 面包屑导航 */}
-            <nav className="flex justify-center items-center space-x-2 text-gray-600">
-              <Link href="/" className={`hover:text-${config.themeColor}-600 transition-colors`}>
-                关东旅游指南
-              </Link>
-              <span>›</span>
-              <span className={`text-${config.themeColor}-600 font-medium`}>{config.name}</span>
-            </nav>
           </div>
         </section>
 
         {/* 活动类型选择 */}
-        <section className="py-16 bg-gradient-to-b from-white/40 to-white/20 backdrop-blur-sm">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-gray-800 mb-6 tracking-wide">选择您感兴趣的活动类型</h2>
-              <p className="text-gray-600 text-xl leading-relaxed max-w-3xl mx-auto">{config.name}为您提供丰富多彩的活动体验，每一种都承载着独特的文化魅力</p>
+        <section className="bg-gradient-to-b from-white/40 to-white/20 py-16 backdrop-blur-sm">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="mb-16 text-center">
+              <h2 className="mb-6 text-4xl font-bold tracking-wide text-gray-800">
+                选择您感兴趣的活动类型
+              </h2>
+              <p className="mx-auto max-w-3xl text-xl leading-relaxed text-gray-600">
+                {config.name}
+                为您提供丰富多彩的活动体验，每一种都承载着独特的文化魅力
+              </p>
             </div>
-            
+
             {/* 活动类型网格 */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3">
               {Object.entries(activityTypes).map(([key, activity]) => (
                 <Link
                   key={key}
-                  href={key === 'hanabi' && regionKey === 'tokyo' ? '/tokyo/hanabi' : `/${regionKey}/${key}`}
+                  href={
+                    key === 'hanabi' && regionKey === 'tokyo'
+                      ? '/tokyo/hanabi'
+                      : `/${regionKey}/${key}`
+                  }
                   className="group block"
                 >
-                  <div className={`
-                    relative p-10 rounded-3xl bg-gradient-to-br ${activity.color}
-                    border-2 border-white/60 backdrop-blur-sm
-                    shadow-2xl shadow-black/10
-                    transform transition-all duration-500 ease-in-out
-                    hover:scale-110 hover:shadow-3xl hover:shadow-black/20 hover:border-white/80
-                    hover:-translate-y-3 hover:rotate-1
-                    cursor-pointer overflow-hidden
-                    before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/20 before:to-transparent before:opacity-0 hover:before:opacity-100 before:transition-opacity before:duration-500
-                  `}>
-                    
+                  <div
+                    className={`relative rounded-3xl bg-gradient-to-br p-10 ${activity.bgColor} hover:shadow-3xl transform cursor-pointer overflow-hidden border-2 ${activity.borderColor} shadow-2xl shadow-black/10 backdrop-blur-sm transition-all duration-500 ease-in-out before:absolute before:inset-0 before:bg-gradient-to-br before:from-white/20 before:to-transparent before:opacity-0 before:transition-opacity before:duration-500 hover:-translate-y-3 hover:rotate-1 hover:scale-110 hover:shadow-black/20 hover:before:opacity-100`}
+                  >
                     {/* 内容 */}
                     <div className="relative z-10 text-center">
-                      <div className="text-8xl mb-8 transform group-hover:scale-125 group-hover:rotate-12 transition-all duration-500 drop-shadow-2xl filter group-hover:brightness-110">
+                      <div className="mb-8 transform text-8xl drop-shadow-2xl filter transition-all duration-500 group-hover:rotate-12 group-hover:scale-125 group-hover:brightness-110">
                         {activity.emoji}
                       </div>
-                      <h3 className={`text-3xl font-bold text-gray-800 mb-6 group-hover:text-${config.themeColor}-600 transition-all duration-300 leading-tight tracking-wide group-hover:scale-105`}>
+                      <h3
+                        className={`mb-6 text-3xl font-bold text-gray-800 group-hover:text-${config.themeColor}-600 leading-tight tracking-wide transition-all duration-300 group-hover:scale-105`}
+                      >
                         {activity.name}
                       </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed opacity-80 group-hover:opacity-100 transition-opacity duration-300">
+                      <p className="text-sm leading-relaxed text-gray-600 opacity-80 transition-opacity duration-300 group-hover:opacity-100">
                         {activity.description}
                       </p>
-                      
-
                     </div>
                   </div>
                 </Link>
@@ -158,43 +268,63 @@ export default function RegionPageTemplate({ regionKey, config }: RegionPageTemp
         </section>
 
         {/* 热门推荐区域 */}
-        <FeaturedActivities 
+        <FeaturedActivities
           region={config.name}
           activities={config.featuredActivities}
         />
 
-        {/* 快速导航 */}
-        <section className="py-8 bg-white/10 backdrop-blur-sm border-t border-white/20">
-          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-6">
+        {/* 快速导航 - 地区循环 */}
+        <section className="border-t border-white/20 bg-white/10 py-8 backdrop-blur-sm">
+          <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+            <div className="mb-6 text-center">
               <h3 className="text-lg font-bold text-gray-800">探索其他地区</h3>
             </div>
-            
+
             <div className="flex items-center justify-center space-x-4">
               {/* 上一个地区 */}
-              <Link href={config.prevRegion.path} className={`group flex items-center space-x-3 bg-gradient-to-br ${config.prevRegion.bgColor} border-2 border-gray-300/60 hover:border-gray-400/70 rounded-xl px-6 py-4 shadow-md hover:shadow-lg transition-all duration-300`}>
-                <div className="text-2xl">{config.prevRegion.emoji}</div>
+              <Link
+                href={getRegionNavigation(regionKey).prev.href}
+                className={`group flex items-center space-x-3 rounded-xl border-2 border-gray-300/60 px-6 py-4 shadow-md transition-all duration-300 hover:shadow-lg ${getRegionBgColor(getRegionNavigation(regionKey).prev.key)}`}
+              >
+                <div className="text-2xl">
+                  {getRegionNavigation(regionKey).prev.emoji}
+                </div>
                 <div className="text-left">
                   <div className="text-sm text-gray-700">← 上一个</div>
-                  <div className="font-bold text-gray-800 group-hover:text-gray-900 transition-colors">{config.prevRegion.name}活动</div>
+                  <div className="font-bold text-gray-800 transition-colors group-hover:text-gray-900">
+                    {getRegionNavigation(regionKey).prev.name}
+                  </div>
                 </div>
               </Link>
 
               {/* 当前地区 */}
-              <div className={`flex items-center space-x-3 bg-gradient-to-br ${config.bgColor} border-2 border-gray-300/60 rounded-xl px-8 py-4`}>
+              <div
+                className={`flex items-center space-x-3 bg-gradient-to-br ${config.bgColor} rounded-xl border-2 border-gray-300/60 px-8 py-4`}
+              >
                 <div className="text-3xl">{config.emoji}</div>
                 <div className="text-center">
-                  <div className={`text-sm text-${config.themeColor}-600`}>当前位置</div>
-                  <div className={`font-bold text-${config.themeColor}-700`}>{config.name}</div>
+                  <div className={`text-sm text-${config.themeColor}-600`}>
+                    当前位置
+                  </div>
+                  <div className={`font-bold text-${config.themeColor}-700`}>
+                    {config.name}
+                  </div>
                 </div>
               </div>
 
               {/* 下一个地区 */}
-              <Link href={config.nextRegion.path} className={`group flex items-center space-x-3 bg-gradient-to-br ${config.nextRegion.bgColor} border-2 border-gray-300/60 hover:border-gray-400/70 rounded-xl px-6 py-4 shadow-md hover:shadow-lg transition-all duration-300`}>
-                <div className="text-2xl">{config.nextRegion.emoji}</div>
+              <Link
+                href={getRegionNavigation(regionKey).next.href}
+                className={`group flex items-center space-x-3 rounded-xl border-2 border-gray-300/60 px-6 py-4 shadow-md transition-all duration-300 hover:shadow-lg ${getRegionBgColor(getRegionNavigation(regionKey).next.key)}`}
+              >
+                <div className="text-2xl">
+                  {getRegionNavigation(regionKey).next.emoji}
+                </div>
                 <div className="text-right">
                   <div className="text-sm text-gray-700">下一个 →</div>
-                  <div className="font-bold text-gray-800 group-hover:text-gray-900 transition-colors">{config.nextRegion.name}活动</div>
+                  <div className="font-bold text-gray-800 transition-colors group-hover:text-gray-900">
+                    {getRegionNavigation(regionKey).next.name}
+                  </div>
                 </div>
               </Link>
             </div>
@@ -203,4 +333,4 @@ export default function RegionPageTemplate({ regionKey, config }: RegionPageTemp
       </main>
     </div>
   );
-} 
+}

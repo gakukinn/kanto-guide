@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-06-14T18:41:22.430Z",
+  "totalActivities": 11,
+  "fixedActivities": 10,
+  "fixMappings": {
+    "numata-hanabi-2025": {
+      "date": "2025年9月13日",
+      "location": "群馬県・沼田市/沼田市運動公園",
+      "fireworksCount": "約3000発",
+      "expectedVisitors": "約9万人"
+    },
+    "oyama-hanabi-2025": {
+      "date": "2025年9月23日",
+      "location": "栃木県・小山市/観晃橋下流思川河畔",
+      "fireworksCount": "約2万発",
+      "expectedVisitors": "約43万人"
+    },
+    "moka-hanabi": {
+      "date": "2025年7月26日",
+      "location": "栃木県・真岡市/真岡市役所东侧五行川沿い",
+      "fireworksCount": "約2万発",
+      "expectedVisitors": "約17万人"
+    },
+    "tsuchiura-hanabi-2025": {
+      "date": "2025年11月1日",
+      "location": "茨城県・土浦市/桜川畔学園大橋付近",
+      "fireworksCount": "約2万発",
+      "expectedVisitors": "約60万人"
+    },
+    "tonegawa-hanabi-2025": {
+      "date": "2025年9月13日",
+      "location": "茨城県・境町/利根川河川敷",
+      "fireworksCount": "約3万発",
+      "expectedVisitors": "約30万人"
+    },
+    "mito-hanabi-2025": {
+      "date": "2025年7月26日",
+      "location": "茨城県・水戸市/千波湖畔",
+      "fireworksCount": "約5000発",
+      "expectedVisitors": "約20万人"
+    },
+    "oarai-hanabi-2025": {
+      "date": "2025年9月27日",
+      "location": "茨城県・大洗町/大洗サンビーチ",
+      "fireworksCount": "約1万発",
+      "expectedVisitors": "約18万人"
+    },
+    "maebashi-hanabi-2025": {
+      "date": "2025年8月9日",
+      "location": "群馬県・前橋市/利根川河畔大渡桥南北河川绿地",
+      "fireworksCount": "約1万5000発",
+      "expectedVisitors": "約45万人"
+    },
+    "tamamura-hanabi-2025": {
+      "date": "2025年8月23日",
+      "location": "群馬県・玉村町/上陽地区（上陽小学校西側）",
+      "fireworksCount": "約3000発",
+      "expectedVisitors": "約2万人"
+    },
+    "joso-kinugawa-hanabi-2025": {
+      "date": "2025年9月20日",
+      "location": "茨城県・常總市/鬼怒川河畔、橋本運動公園",
+      "fireworksCount": "約2万発",
+      "expectedVisitors": "約12万人"
+    },
+    "koga-hanabi-2025": {
+      "date": "2025年8月2日",
+      "location": "茨城県・古河市/古河ゴルフリンクス",
+      "fireworksCount": "約2万5000発",
+      "expectedVisitors": "約20万人"
+    }
+  }
+}

@@ -3,9 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const tachikawaShowaHanabiData: HanabiData = {
  id: 'tachikawa-showa-kinen-hanabi',
  name: '立川祭国营昭和纪念公园花火大会',
-  japaneseName: '第67回 立川まつり国営昭和記念公園花火大会',
-
  englishName: 'Tachikawa Festival Showa Kinen Park Fireworks',
+  _sourceData: {
+    japaneseName: '第67回 立川まつり国営昭和記念公園花火大会'
+  },
  year: 2025,
  date: '2025年7月26日(土)',
  time: '19:15开场，20:15结束',

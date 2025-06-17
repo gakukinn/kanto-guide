@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const asaharaHanabiData: HanabiData = {
   id: 'asahara-hanabi',
   name: '浅原神社秋季例大祭奉納大煙火',
-  japaneseName: '浅原神社 秋季例大祭奉納大煙火',
   englishName: 'Asahara Shrine Autumn Festival Fireworks',
+  _sourceData: {
+    japaneseName: '浅原神社 秋季例大祭奉納大煙火'
+  },
   year: 2025,
   date: '2025年9月12日・13日',
   time: '19:30～22:20',

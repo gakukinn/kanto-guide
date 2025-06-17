@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const eventData: HanabiData = {
   id: 'yokohama-seaparadise-hanabi',
   name: '横滨・八景岛海洋天堂「花火交响曲」',
-  japaneseName: '横浜・八景島シーパラダイス「花火シンフォニア」',
   englishName: 'Yokohama Hakkeijima Sea Paradise Fireworks Symphonia',
+  _sourceData: {
+    japaneseName: '横浜・八景島シーパラダイス「花火シンフォニア」'
+  },
   title: '横滨・八景岛海洋天堂「花火交响曲」- 8月神奈川花火大会',
   description: '在横滨八景岛海洋天堂举办的特色花火表演，音乐与花火完美融合，点亮夏夜海岸。',
   year: 2025,

@@ -11,8 +11,10 @@ import { HanabiData } from '../types/hanabi';
 export const maebashiHanabiData: HanabiData = {
  id: 'maebashi-august',
  name: '第69回前桥花火大会',
-  japaneseName: '第69回前橋花火大会',
  englishName: '69th Maebashi Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第69回前橋花火大会'
+  },
   title: '第69回前桥花火大会 - 8月北关东花火大会',
   description: '第69回前桥花火大会详情信息，包含举办时间、地点、交通方式、观赏攻略等完整信息。',
  year: 2025,

@@ -1,0 +1,112 @@
+{
+  "id": "sanjo-natsu-matsuri-hanabi-2024",
+  "name": "三条市合并20周年纪念 第21回三条夏祭大花火大会",
+  "japaneseName": "三条市合併20周年記念 第21回 三条夏まつり大花火大会",
+  "englishName": "21st Sanjo Summer Festival Grand Fireworks - 20th Anniversary of Sanjo City Merger",
+  "year": 2024,
+  "date": "2024年8月4日(周日)",
+  "time": "19:30~21:00",
+  "duration": "约90分钟",
+  "fireworksCount": "约8,000发",
+  "expectedVisitors": "约10万人",
+  "weather": "夏季河川凉爽",
+  "ticketPrice": "免费观赏",
+  "status": "scheduled",
+  "themeColor": "blue",
+  "month": 8,
+  "tags": {
+    "timeTag": "8月",
+    "regionTag": "新潟县",
+    "typeTag": "花火",
+    "layerTag": "Layer 4详情页"
+  },
+  "related": {
+    "regionRecommendations": [
+      {
+        "id": "agano-gozareya-hanabi-2024",
+        "name": "第51回阿贺野川ござれや花火大会",
+        "date": "2024年8月15日",
+        "location": "阿贺野川河川敷",
+        "visitors": "约8万人",
+        "link": "/koshinetsu/hanabi/agano-gozareya"
+      }
+    ],
+    "timeRecommendations": [
+      {
+        "id": "shinshu-ueda-dai-hanabi-2024",
+        "name": "上田市诞生20周年纪念第38回信州上田大花火大会",
+        "date": "2024年8月5日",
+        "location": "千曲川河川敷",
+        "visitors": "约12万人",
+        "link": "/koshinetsu/hanabi/shinshu-ueda-dai"
+      }
+    ]
+  },
+  "venues": [
+    {
+      "name": "信浓川河川敷",
+      "location": "新潟县三条市",
+      "startTime": "19:30",
+      "features": ["河川敷观赏", "免费入场", "20周年纪念"]
+    }
+  ],
+  "access": [
+    {
+      "venue": "信浓川河川敷",
+      "stations": [
+        {
+          "name": "三条站",
+          "lines": ["JR信越本线"],
+          "walkTime": "步行约15分钟"
+        }
+      ]
+    }
+  ],
+  "viewingSpots": [
+    {
+      "name": "信浓川河川敷观赏区",
+      "rating": 4,
+      "crowdLevel": "拥挤",
+      "tips": "建议提前2小时到达",
+      "pros": ["视野开阔", "免费观赏", "纪念意义"],
+      "cons": ["人流较多", "停车困难"]
+    }
+  ],
+  "history": {
+    "established": 2004,
+    "significance": "三条市合并20周年纪念特别花火大会，第21回三条夏祭的压轴活动",
+    "highlights": ["21年历史", "三条市20周年", "夏祭压轴", "信浓川河畔"]
+  },
+  "tips": [
+    {
+      "category": "交通建议",
+      "items": ["建议使用JR信越本线", "有临时停车场", "河川敷步行距离适中"]
+    },
+    {
+      "category": "观赏建议",
+      "items": ["携带防虫用品", "准备野餐垫", "注意河边安全"]
+    }
+  ],
+  "contact": {
+    "organizer": "三条夏祭实行委员会",
+    "phone": "0256-34-5511",
+    "website": "https://www.city.sanjo.niigata.jp/",
+    "socialMedia": ""
+  },
+  "mapInfo": {
+    "hasMap": true,
+    "mapNote": "会场位于信浓川河川敷",
+    "parking": "有临时停车场\n约1200台\n免费"
+  },
+  "weatherInfo": {
+    "month": "8月",
+    "temperature": "最高31°C，最低22°C",
+    "humidity": "75-85%",
+    "rainfall": "夏季雷雨可能",
+    "recommendation": "建议携带雨具和防暑用品",
+    "rainPolicy": "小雨举行，大雨延期",
+    "note": "河边夜晚较凉，请注意保暖"
+  },
+  "mapEmbedUrl": "https://maps.google.com/maps?q=37.6333,138.9500",
+  "media": []
+}

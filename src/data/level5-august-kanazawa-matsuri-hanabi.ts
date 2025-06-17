@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const kanazawaMatsurihanabiData: HanabiData = {
   id: 'kanazawa-matsuri-hanabi-2025',
   name: '第51回金泽祭花火大会',
-  japaneseName: '第51回 金沢まつり 花火大会',
   englishName: '51st Kanazawa Festival Fireworks Display',
+  _sourceData: {
+    japaneseName: '第51回 金沢まつり 花火大会'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月30日(土)',

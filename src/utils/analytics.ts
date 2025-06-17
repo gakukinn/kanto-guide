@@ -11,7 +11,12 @@ export class Analytics {
   }
 
   // 追踪事件
-  static trackEvent(action: string, category: string, label?: string, value?: number) {
+  static trackEvent(
+    action: string,
+    category: string,
+    label?: string,
+    value?: number
+  ) {
     if (typeof window !== 'undefined' && window.gtag) {
       window.gtag('event', action, {
         event_category: category,
@@ -22,13 +27,25 @@ export class Analytics {
   }
 
   // 追踪联盟链接点击
-  static trackAffiliateClick(provider: string, linkType: string, location?: string) {
-    this.trackEvent('affiliate_click', 'monetization', `${provider}_${linkType}_${location}`);
+  static trackAffiliateClick(
+    provider: string,
+    linkType: string,
+    location?: string
+  ) {
+    this.trackEvent(
+      'affiliate_click',
+      'monetization',
+      `${provider}_${linkType}_${location}`
+    );
   }
 
   // 追踪花火大会查看
   static trackHanabiView(hanabiName: string, region: string, month: string) {
-    this.trackEvent('hanabi_view', 'engagement', `${month}_${region}_${hanabiName}`);
+    this.trackEvent(
+      'hanabi_view',
+      'engagement',
+      `${month}_${region}_${hanabiName}`
+    );
   }
 
   // 追踪搜索
@@ -57,4 +74,4 @@ declare global {
   interface Window {
     gtag: (...args: any[]) => void;
   }
-} 
+}

@@ -1,0 +1,38 @@
+{
+  "crawledAt": "2025-06-17T03:21:38.000Z",
+  "sourceUrl": "https://hanabi.walkerplus.com/detail/ar0420e00911/",
+  "dataSource": "USER_PROVIDED_OFFICIAL",
+  "eventInfo": {
+    "title": "第94回 信州千曲市千曲川納涼煙火大会",
+    "date": "2025年8月7日",
+    "time": "19:30～21:00",
+    "duration": "约90分钟",
+    "fireworksCount": "约1万发",
+    "expectedVisitors": "约6万5000人",
+    "location": "长野县千曲市",
+    "venue": "户仓上山田温泉千曲川河畔(大正桥～万叶桥间)",
+    "weatherPolicy": "小雨决行，恶劣天气中止",
+    "ticketPrice": "有料席（详细未定）",
+    "foodStalls": "有屋台",
+    "parking": "1100台有料・无料停车场",
+    "access": "【电车】信浓铁道户仓站徒步15分钟 【车】上信越道坂城IC约8分钟，长野道更埴IC约15分钟",
+    "contact": "026-261-0300 千曲川納涼煙火大会实行委员会事务局",
+    "officialWebsite": "https://www.chikuma-hanabi.jp/",
+    "googleMaps": "https://www.google.com/maps?ll=36.483485,138.146028&z=16&t=m&hl=zh-CN&gl=US&mapclient=embed&q=36%C2%B029%2700.6%22N+138%C2%B008%2745.7%22E+36.483485,+138.146028@36.483485,138.146028"
+  },
+  "dataIntegrity": {
+    "allFieldsComplete": true,
+    "sourceVerified": true,
+    "lastUpdated": "2025-06-17T03:21:38.000Z",
+    "verificationMethod": "USER_PROVIDED_OFFICIAL_DATA"
+  },
+  "requiredFields": {
+    "date": "2025年8月7日",
+    "time": "19:30～21:00",
+    "location": "户仓上山田温泉千曲川河畔(大正桥～万叶桥间)",
+    "googleMaps": "https://www.google.com/maps?ll=36.483485,138.146028&z=16&t=m&hl=zh-CN&gl=US&mapclient=embed&q=36%C2%B029%2700.6%22N+138%C2%B008%2745.7%22E+36.483485,+138.146028@36.483485,138.146028",
+    "officialWebsite": "https://www.chikuma-hanabi.jp/",
+    "expectedVisitors": "约6万5000人",
+    "fireworksCount": "约1万发"
+  }
+}

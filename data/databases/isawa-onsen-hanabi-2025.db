@@ -1,0 +1,35 @@
+{
+  "crawledAt": "2025-06-17T03:16:32.000Z",
+  "sourceUrl": "https://hanabi.walkerplus.com/detail/ar0419e00682/",
+  "dataSource": "USER_PROVIDED_OFFICIAL",
+  "eventInfo": {
+    "title": "第61回 石和温泉花火大会",
+    "date": "2025年8月24日",
+    "time": "19:30～21:00",
+    "duration": "90分钟",
+    "fireworksCount": "约1万发",
+    "expectedVisitors": "约1万2000人",
+    "location": "山梨县笛吹市石和町",
+    "venue": "笛吹川河畔",
+    "weatherPolicy": "小雨决行，恶劣天气时延期至2025年8月25日(月)",
+    "ticketPrice": "免费观览（无有料席）",
+    "foodStalls": "约80店预定",
+    "officialWebsite": "https://www.fuefuki-kanko.jp/",
+    "googleMaps": "https://www.google.com/maps/place/35%C2%B038'49.0%22N+138%C2%B038'27.5%22E/@35.646935,138.640983,16z/data=!4m4!3m3!8m2!3d35.646935!4d138.640983!5m1!1e4?hl=zh-CN&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "dataIntegrity": {
+    "allFieldsComplete": true,
+    "sourceVerified": true,
+    "lastUpdated": "2025-06-17T03:16:32.000Z",
+    "verificationMethod": "USER_PROVIDED_OFFICIAL_DATA"
+  },
+  "requiredFields": {
+    "date": "2025年8月24日",
+    "time": "19:30～21:00", 
+    "location": "山梨县笛吹市石和町",
+    "googleMaps": "https://www.google.com/maps/place/35%C2%B038'49.0%22N+138%C2%B038'27.5%22E/@35.646935,138.640983,16z/data=!4m4!3m3!8m2!3d35.646935!4d138.640983!5m1!1e4?hl=zh-CN&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D",
+    "officialWebsite": "https://www.fuefuki-kanko.jp/",
+    "expectedVisitors": "约1万2000人",
+    "fireworksCount": "约1万发"
+  }
+} 

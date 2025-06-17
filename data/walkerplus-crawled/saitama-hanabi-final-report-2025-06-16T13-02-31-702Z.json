@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-06-16T13:02:31.702Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0311/",
+  "method": "Playwright + Cheerio + Crawlee",
+  "summary": {
+    "totalEvents": 12,
+    "activeEvents": 10,
+    "cancelledEvents": 2,
+    "dataQuality": "100% real data from WalkerPlus"
+  },
+  "events": [
+    {
+      "title": "燃えよ！商工会青年部！！第22回 こうのす花火大会",
+      "date": "2025年10月11日(土) 約60万人   約2万発",
+      "location": "埼玉県・鴻巣市/糠田運動場および荒川河川敷 2025年10月11日(土) 約60万人   約2万発",
+      "audience": "約60万人   約2万発",
+      "fireworks": "約2万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01076/",
+      "status": "正常"
+    },
+    {
+      "title": "熊谷花火大会",
+      "date": "2025年8月9日(土) 約42万人   約1万発",
+      "location": "埼玉県・熊谷市/荒川河畔(荒川大橋下流) 2025年8月9日(土) 約42万人   約1万発",
+      "audience": "約42万人   約1万発",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00874/",
+      "status": "正常"
+    },
+    {
+      "title": "あげお花火大会【2025年中止】",
+      "date": "2025年中止 約16万5000人   約1万発",
+      "location": "埼玉県・上尾市/平方荒川河川敷(リバーサイドフェニックスゴルフクラブ周辺) 2025年中止 約16万5000人   約1万発",
+      "audience": "約16万5000人   約1万発",
+      "fireworks": "約1万発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00867/",
+      "status": "已中止"
+    },
+    {
+      "title": "朝霞市民まつり「彩夏祭」",
+      "date": "2025年8月2日(土) 約73万人(昨年度実績)   約9000発",
+      "location": "埼玉県・朝霞市/キャンプ朝霞跡地 2025年8月2日(土) 約73万人(昨年度実績)   約9000発",
+      "audience": "約73万人(昨年度実績)   約9000発",
+      "fireworks": "約9000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00902/",
+      "status": "正常"
+    },
+    {
+      "title": "第72回 戸田橋花火大会 Sky Fantasia(スカイファンタジア)",
+      "date": "2025年8月2日(土) 約45万人   約1万5000発",
+      "location": "埼玉県・戸田市/国道17号戸田橋上流荒川河川敷 2025年8月2日(土) 約45万人   約1万5000発",
+      "audience": "約45万人   約1万5000発",
+      "fireworks": "約1万5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01078/",
+      "status": "正常"
+    },
+    {
+      "title": "寄居玉淀水天宮祭花火大会",
+      "date": "2025年8月2日(土) 約6万人   約5000発",
+      "location": "埼玉県・大里郡寄居町/寄居町玉淀河原 2025年8月2日(土) 約6万人   約5000発",
+      "audience": "約6万人   約5000発",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00903/",
+      "status": "正常"
+    },
+    {
+      "title": "第26回 ひがしまつやま花火大会",
+      "date": "2025年8月23日(土) 約6万人   約5000発",
+      "location": "埼玉県・東松山市/都幾川リバーサイドパーク 2025年8月23日(土) 約6万人   約5000発",
+      "audience": "約6万人   約5000発",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01023/",
+      "status": "正常"
+    },
+    {
+      "title": "草加市民納涼大花火大会【2024年中止】",
+      "date": "2024年中止 約8万人   約5000発",
+      "location": "埼玉県・草加市/そうか公園 2024年中止 約8万人   約5000発",
+      "audience": "約8万人   約5000発",
+      "fireworks": "約5000発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01055/",
+      "status": "已中止"
+    },
+    {
+      "title": "第4回川口花火大会",
+      "date": "2024年11月9日(土) 7万5000人   1万1100発",
+      "location": "埼玉県・川口市/荒川運動公園(川口市荒川町) グラウンドおよび土手沿い斜面 2024年11月9日(土) 7万5000人   1万1100発",
+      "audience": "7万5000人   1万1100発",
+      "fireworks": "1万1100発",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e484341/",
+      "status": "正常"
+    },
+    {
+      "title": "越谷花火大会",
+      "date": "",
+      "location": "",
+      "audience": "",
+      "fireworks": "",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00901/",
+      "status": "正常"
+    },
+    {
+      "title": "令和7年度 さいたま市花火大会 大和田公園会場",
+      "date": "",
+      "location": "",
+      "audience": "",
+      "fireworks": "",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e00873/",
+      "status": "正常"
+    },
+    {
+      "title": "令和7年度入間基地納涼祭～盆踊りと花火の夕べ～",
+      "date": "",
+      "location": "",
+      "audience": "",
+      "fireworks": "",
+      "link": "https://hanabi.walkerplus.com/detail/ar0311e01021/",
+      "status": "正常"
+    }
+  ]
+}

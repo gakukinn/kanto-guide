@@ -12,7 +12,7 @@ export class MatsuriScheduler {
   // 启动所有定时任务
   start() {
     console.log('Starting Matsuri Scheduler...');
-    
+
     // 每月1日凌晨2点更新数据
     this.scheduleTask('monthly-update', '0 2 1 * *', async () => {
       console.log('Running monthly matsuri data update...');
@@ -31,7 +31,9 @@ export class MatsuriScheduler {
     });
 
     console.log('Matsuri Scheduler started successfully');
-    console.log('Schedule: Monthly updates (1st), validation (15th), weekly upcoming checks (Monday)');
+    console.log(
+      'Schedule: Monthly updates (1st), validation (15th), weekly upcoming checks (Monday)'
+    );
   }
 
   // 停止所有定时任务
@@ -46,18 +48,29 @@ export class MatsuriScheduler {
   }
 
   // 调度单个任务
-  private scheduleTask(name: string, cronExpression: string, callback: () => Promise<void>) {
-    const task = cron.schedule(cronExpression, async () => {
-      try {
-        console.log(`Executing scheduled task: ${name}`);
-        await callback();
-        console.log(`Completed scheduled task: ${name}`);
-      } catch (error) {
-        console.error(`Error in scheduled task ${name}:`, error instanceof Error ? error.message : String(error));
+  private scheduleTask(
+    name: string,
+    cronExpression: string,
+    callback: () => Promise<void>
+  ) {
+    const task = cron.schedule(
+      cronExpression,
+      async () => {
+        try {
+          console.log(`Executing scheduled task: ${name}`);
+          await callback();
+          console.log(`Completed scheduled task: ${name}`);
+        } catch (error) {
+          console.error(
+            `Error in scheduled task ${name}:`,
+            error instanceof Error ? error.message : String(error)
+          );
+        }
+      },
+      {
+        timezone: 'Asia/Tokyo',
       }
-    }, {
-      timezone: 'Asia/Tokyo'
-    });
+    );
 
     this.tasks.set(name, task);
     task.start();
@@ -67,22 +80,27 @@ export class MatsuriScheduler {
   // 更新所有都道府县的数据
   private async updateAllPrefectures() {
     const prefectures = ['tokyo', 'kanagawa', 'saitama', 'chiba'];
-    
+
     for (const prefecture of prefectures) {
       try {
         console.log(`Updating data for ${prefecture}...`);
         const result = await this.dataService.updateMatsuriData(prefecture);
-        
+
         if (result.success) {
-          console.log(`✅ Successfully updated ${prefecture}: ${result.data.length} events`);
+          console.log(
+            `✅ Successfully updated ${prefecture}: ${result.data.length} events`
+          );
         } else {
           console.error(`❌ Failed to update ${prefecture}:`, result.errors);
         }
-        
+
         // 添加延迟避免过于频繁的请求
         await this.delay(5000);
       } catch (error) {
-        console.error(`Error updating ${prefecture}:`, error instanceof Error ? error.message : String(error));
+        console.error(
+          `Error updating ${prefecture}:`,
+          error instanceof Error ? error.message : String(error)
+        );
       }
     }
   }
@@ -90,23 +108,29 @@ export class MatsuriScheduler {
   // 验证所有数据
   private async validateAllData() {
     const prefectures = ['tokyo', 'kanagawa', 'saitama', 'chiba'];
-    
+
     for (const prefecture of prefectures) {
       try {
         console.log(`Validating data for ${prefecture}...`);
         const validation = await this.dataService.validateData(prefecture);
-        
+
         if (validation.isValid) {
           console.log(`✅ ${prefecture} data is valid`);
         } else {
-          console.error(`❌ ${prefecture} data validation failed:`, validation.errors);
+          console.error(
+            `❌ ${prefecture} data validation failed:`,
+            validation.errors
+          );
         }
-        
+
         if (validation.warnings.length > 0) {
           console.warn(`⚠️ ${prefecture} data warnings:`, validation.warnings);
         }
       } catch (error) {
-        console.error(`Error validating ${prefecture}:`, error instanceof Error ? error.message : String(error));
+        console.error(
+          `Error validating ${prefecture}:`,
+          error instanceof Error ? error.message : String(error)
+        );
       }
     }
   }
@@ -115,14 +139,19 @@ export class MatsuriScheduler {
   private async checkUpcomingEvents() {
     try {
       const stats = await this.dataService.getMatsuriStats('tokyo');
-      
+
       if (stats.upcoming > 0) {
-        console.log(`📅 Found ${stats.upcoming} upcoming matsuri events in Tokyo`);
+        console.log(
+          `📅 Found ${stats.upcoming} upcoming matsuri events in Tokyo`
+        );
       }
-      
+
       // 这里可以添加通知逻辑，比如发送邮件或推送通知
     } catch (error) {
-      console.error('Error checking upcoming events:', error instanceof Error ? error.message : String(error));
+      console.error(
+        'Error checking upcoming events:',
+        error instanceof Error ? error.message : String(error)
+      );
     }
   }
 
@@ -131,14 +160,19 @@ export class MatsuriScheduler {
     console.log(`Manual update triggered for ${prefecture}`);
     try {
       const result = await this.dataService.updateMatsuriData(prefecture);
-      
+
       if (result.success) {
-        console.log(`✅ Manual update successful: ${result.data.length} events`);
+        console.log(
+          `✅ Manual update successful: ${result.data.length} events`
+        );
       } else {
         console.error(`❌ Manual update failed:`, result.errors);
       }
     } catch (error) {
-      console.error('Manual update error:', error instanceof Error ? error.message : String(error));
+      console.error(
+        'Manual update error:',
+        error instanceof Error ? error.message : String(error)
+      );
       throw error;
     }
   }
@@ -151,21 +185,22 @@ export class MatsuriScheduler {
   } {
     const activeTasks = Array.from(this.tasks.keys());
     const nextRuns: Record<string, string> = {};
-    
+
     this.tasks.forEach((task, name) => {
       try {
         // 注意：node-cron 可能没有直接的 getNextRun 方法
         // 这里提供一个基本的实现
         nextRuns[name] = 'Next run time not available';
       } catch (error) {
-        nextRuns[name] = `Error getting next run time: ${error instanceof Error ? error.message : String(error)}`;
+        nextRuns[name] =
+          `Error getting next run time: ${error instanceof Error ? error.message : String(error)}`;
       }
     });
 
     return {
       isRunning: this.tasks.size > 0,
       activeTasks,
-      nextRuns
+      nextRuns,
     };
   }
 
@@ -178,15 +213,17 @@ export class MatsuriScheduler {
   async getDataStats(): Promise<Record<string, any>> {
     const prefectures = ['tokyo', 'kanagawa', 'saitama', 'chiba'];
     const stats: Record<string, any> = {};
-    
+
     for (const prefecture of prefectures) {
       try {
         stats[prefecture] = await this.dataService.getMatsuriStats(prefecture);
       } catch (error) {
-        stats[prefecture] = { error: `Failed to get stats: ${error instanceof Error ? error.message : String(error)}` };
+        stats[prefecture] = {
+          error: `Failed to get stats: ${error instanceof Error ? error.message : String(error)}`,
+        };
       }
     }
-    
+
     return stats;
   }
 }
@@ -208,4 +245,4 @@ if (typeof window === 'undefined') {
     matsuriScheduler.stop();
     process.exit(0);
   });
-} 
+}

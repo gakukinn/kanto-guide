@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const higashimatsuyamaHanabiData: HanabiData = {
  id: 'higashimatsuyama-hanabi-2025',
  name: '第26回东松山花火大会',
-  japaneseName: '第26回 ひがしまつやま花火大会',
  englishName: '26th Higashimatsuyama Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第26回 ひがしまつやま花火大会'
+  },
  year: 2025,
  date: '2025年8月23日',
  time: '19:00～20:30',

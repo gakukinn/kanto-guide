@@ -1,0 +1,167 @@
+[
+  {
+    "rank": 1,
+    "name": "東京競馬場花火 2025 ～花火と聴きたい J-POP BEST～",
+    "description": "首都圏最大級！約15,000発の迫力ある花火と人気楽曲がシンクロ",
+    "location": "東京都・府中市/東京競馬場",
+    "date": "2025年7月22日(火)",
+    "audience": "約10万人",
+    "fireworks_count": "約15,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 2,
+    "name": "第48回 隅田川花火大会",
+    "description": "東京の夏の風物詩！歴史ある花火大会",
+    "location": "東京都・墨田区、台東区/隅田川",
+    "date": "2025年7月26日(土)",
+    "audience": "約95万人",
+    "fireworks_count": "約12,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 3,
+    "name": "第40回 調布花火",
+    "description": "音楽と花火がコラボレーション！",
+    "location": "東京都・調布市/多摩川河川敷",
+    "date": "2025年10月26日(日)",
+    "audience": "約30万人",
+    "fireworks_count": "約10,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 4,
+    "name": "第59回 葛飾納涼花火大会",
+    "description": "下町情緒あふれる花火大会",
+    "location": "東京都・葛飾区/江戸川河川敷",
+    "date": "2025年7月22日(火)",
+    "audience": "約77万人",
+    "fireworks_count": "約10,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 5,
+    "name": "第50回 江戸川区花火大会",
+    "description": "東京屈指の規模を誇る花火大会",
+    "location": "東京都・江戸川区/江戸川河川敷",
+    "date": "2025年8月2日(土)",
+    "audience": "約90万人",
+    "fireworks_count": "約10,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 6,
+    "name": "第36回 世田谷区たまがわ花火大会",
+    "description": "音楽と花火の饗宴",
+    "location": "東京都・世田谷区/多摩川河川敷",
+    "date": "2025年10月11日(土)",
+    "audience": "約23万人",
+    "fireworks_count": "約8,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 7,
+    "name": "いたばし花火大会",
+    "description": "尺玉100連発が圧巻！",
+    "location": "東京都・板橋区/荒川河川敷",
+    "date": "2025年8月9日(土)",
+    "audience": "約52万人",
+    "fireworks_count": "約8,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 8,
+    "name": "足立の花火",
+    "description": "夏の始まりを告げる花火大会",
+    "location": "東京都・足立区/荒川河川敷",
+    "date": "2025年7月19日(土)",
+    "audience": "約66万人",
+    "fireworks_count": "約7,500発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 9,
+    "name": "第33回 大田区平和都市宣言記念事業 花火の祭典",
+    "description": "平和への願いを込めた花火大会",
+    "location": "東京都・大田区/多摩川河川敷",
+    "date": "2025年8月16日(土)",
+    "audience": "約40万人",
+    "fireworks_count": "約7,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 10,
+    "name": "青梅市納涼花火大会",
+    "description": "奥多摩の自然を背景に打ち上がる花火",
+    "location": "東京都・青梅市/多摩川河川敷",
+    "date": "2025年8月2日(土)",
+    "audience": "約8万人",
+    "fireworks_count": "約6,000発",
+    "paid_seats": "なし",
+    "stalls": "あり"
+  },
+  {
+    "rank": 11,
+    "name": "立川まつり 国営昭和記念公園花火大会",
+    "description": "立川市最大のイベント、まつりのフィナーレを飾る花火大会",
+    "location": "東京都・立川市/国営昭和記念公園",
+    "date": "2025年7月26日(土)",
+    "audience": "約30万人",
+    "fireworks_count": "5000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 12,
+    "name": "八王子花火大会",
+    "description": "多摩地区屈指の花火大会",
+    "location": "東京都・八王子市/富士森公園",
+    "date": "2025年7月26日(土)",
+    "audience": "約8万人",
+    "fireworks_count": "約4,000発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  },
+  {
+    "rank": 13,
+    "name": "第53回 昭島市民くじら祭 夢花火",
+    "description": "昭島の夏の風物詩",
+    "location": "東京都・昭島市/昭和公園",
+    "date": "2025年8月23日(土)",
+    "audience": "約9万人",
+    "fireworks_count": "約2,000発",
+    "paid_seats": "なし",
+    "stalls": "あり"
+  },
+  {
+    "rank": 14,
+    "name": "お台場レインボー花火2024",
+    "description": "東京湾の夜景とともに楽しむ花火",
+    "location": "東京都・港区/お台場海浜公園",
+    "date": "2024年12月7日(土)・14日(土)・21日(土)・28日(土)",
+    "audience": "非公開",
+    "fireworks_count": "約1,300発（各日）",
+    "paid_seats": "あり",
+    "stalls": "なし"
+  },
+  {
+    "rank": 15,
+    "name": "よみうりランド 花火＆大迫力噴水ショー",
+    "description": "遊園地で楽しむ花火と噴水のコラボレーション",
+    "location": "東京都・稲城市/よみうりランド",
+    "date": "2025年1月11日(土)～2月23日(日)の土日祝",
+    "audience": "非公開",
+    "fireworks_count": "1200発",
+    "paid_seats": "あり",
+    "stalls": "あり"
+  }
+]

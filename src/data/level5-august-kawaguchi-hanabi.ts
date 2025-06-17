@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const kawaguchiHanabiData: HanabiData = {
   id: 'kawaguchi-lake-festival-2025',
   name: '河口湖湖上祭',
-  japaneseName: '河口湖湖上祭',
   englishName: 'Lake Kawaguchi Festival',
+  _sourceData: {
+    japaneseName: '河口湖湖上祭'
+  },
   year: 2025,
   month: 8,
   date: '2025年8月5日(火)',

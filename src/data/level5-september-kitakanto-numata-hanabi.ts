@@ -3,8 +3,10 @@ import { HanabiData } from '@/types/hanabi';
 export const numataHanabiData: HanabiData = {
   id: 'numata-hanabi',
   name: '第13回沼田花火大会',
-  japaneseName: '第13回 沼田花火大会',
   englishName: '13th Numata Fireworks Festival',
+  _sourceData: {
+    japaneseName: '第13回 沼田花火大会'
+  },
   year: 2025,
   date: '2025年9月13日',
   time: '19:00～20:30',

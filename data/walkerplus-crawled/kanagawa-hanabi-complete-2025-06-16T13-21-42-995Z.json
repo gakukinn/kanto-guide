@@ -1,0 +1,179 @@
+{
+  "timestamp": "2025-06-16T13:21:42.995Z",
+  "source": "https://hanabi.walkerplus.com/launch/ar0314/",
+  "method": "Playwright+Cheerio+Crawlee Complete Pagination",
+  "region": "神奈川県",
+  "summary": {
+    "totalPagesProcessed": 5,
+    "totalEventsFound": 95,
+    "uniqueEvents": 13,
+    "errors": 0
+  },
+  "events": [
+    {
+      "title": "芦ノ湖夏まつりウィーク  湖水祭花火大会",
+      "rawContent": "\n                      \n                        \n                        芦ノ湖夏まつりウィーク  湖水祭花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          芦ノ湖夏まつりウィークの始まりを告げる\n                          神奈川県・足柄下郡箱根町/芦ノ湖上(元箱根)\n                          期間：2024年7月31日(水)\n                            \n                              例年の人出：データなし\n                              ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00893/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 11,
+      "location": "神奈川県・足柄下郡箱根町/芦ノ湖上(元箱根)",
+      "date": "2024年7月31日(水)",
+      "audience": "データなし",
+      "fireworks": "約5000発"
+    },
+    {
+      "title": "よこすか開国花火大会2024",
+      "rawContent": "\n                      \n                        \n                        よこすか開国花火大会2024\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          多彩な花火が真夏の夜空に次々と咲く\n                          神奈川県・横須賀市/うみかぜ公園、三笠公園ほか\n                          期間：2024年10月6日(日)\n                            \n                              例年の人出：約18万人\n                              行ってみたい：",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00244/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 6,
+      "location": "神奈川県・横須賀市/うみかぜ公園、三笠公園ほか",
+      "date": "2024年10月6日(日)",
+      "audience": "約18万人",
+      "fireworks": "約1万発"
+    },
+    {
+      "title": "第73回 さがみ湖湖上祭花火大会",
+      "rawContent": "\n                      \n                        \n                        第73回 さがみ湖湖上祭花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          相模湖の豊かな自然の中で夜空を豪華に彩る花火\n                          神奈川県・相模原市緑区/相模湖上\n                          期間：2025年8月1日(金)\n                            \n                              例年の人出：約5万5000人\n                              行ってみた",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00894/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 12,
+      "location": "神奈川県・相模原市緑区/相模湖上",
+      "date": "2025年8月1日(金)",
+      "audience": "約5万5000人",
+      "fireworks": "約4000発"
+    },
+    {
+      "title": "第36回 小田原酒匂川花火大会",
+      "rawContent": "\n                      \n                        \n                        第36回 小田原酒匂川花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          エンターテイメント性の強い花火ショー\n                          神奈川県・小田原市/酒匂川スポーツ広場\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約25万人\n                              行ってみたい：26\n",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00865/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 4,
+      "location": "神奈川県・小田原市/酒匂川スポーツ広場",
+      "date": "2025年8月2日(土)",
+      "audience": "約25万人",
+      "fireworks": "約1万発"
+    },
+    {
+      "title": "市制70周年記念 第79回 あつぎ鮎まつり",
+      "rawContent": "\n                      \n                        \n                        市制70周年記念 第79回 あつぎ鮎まつり\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          フィナーレを飾る大ナイアガラ\n                          神奈川県・厚木市/相模川河川敷(三川合流点)\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約28万人\n                              行ってみた",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00243/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 5,
+      "location": "神奈川県・厚木市/相模川河川敷(三川合流点)",
+      "date": "2025年8月2日(土)",
+      "audience": "約28万人",
+      "fireworks": "約1万発"
+    },
+    {
+      "title": "久里浜ペリー祭花火大会",
+      "rawContent": "\n                      \n                        \n                        2025 久里浜ペリー祭花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          ペリー上陸から172周年、開国を記念したダイナミックな花火が復活\n                          神奈川県・横須賀市/久里浜海岸付近\n                          期間：2025年8月2日(土)\n                            \n                              例年の人出：約8万人\n                            ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00880/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 7,
+      "location": "神奈川県・横須賀市/久里浜海岸付近",
+      "date": "2025年8月2日(土)",
+      "audience": "約8万人",
+      "fireworks": "約7000発"
+    },
+    {
+      "title": "箱根園サマーナイトフェスタ",
+      "rawContent": "\n                      \n                        \n                        箱根園サマーナイトフェスタ\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          芦ノ湖面に映える水上スターマイン\n                          神奈川県・足柄下郡箱根町/箱根園湾(箱根園湖上)\n                          期間：2025年8月2日(土)・3日(日)\n                            \n                              例年の人出：約6000人\n                              行っ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00261/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 9,
+      "location": "神奈川県・足柄下郡箱根町/箱根園湾(箱根園湖上)",
+      "date": "2025年8月2日(土)・3日(日)",
+      "audience": "約6000人",
+      "fireworks": "5000発(1日約2500発)"
+    },
+    {
+      "title": "第84回 川崎市制記念多摩川花火大会",
+      "rawContent": "\n                      \n                        \n                        第84回 川崎市制記念多摩川花火大会\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          秋の風物詩となった、伝統ある花火大会\n                          神奈川県・川崎市高津区/多摩川河川敷\n                          期間：2025年10月4日(土)\n                            \n                              例年の人出：約30万人\n                              行ってみたい：",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e182441/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 8,
+      "location": "神奈川県・川崎市高津区/多摩川河川敷",
+      "date": "2025年10月4日(土)",
+      "audience": "約30万人",
+      "fireworks": "約6000発"
+    },
+    {
+      "title": "えびな市民まつり 2025",
+      "rawContent": "\n                      \n                        \n                        えびな市民まつり 2025\n                      \n                      \n                        \n                        \n                      \n                      \n                        \n                          秋の海老名に5000発の花火が打ち上がる\n                          神奈川県・海老名市/海老名運動公園\n                          期間：2025年11月16日(日)\n                            \n                              例年の人出：14万人\n                              行ってみたい：19\n ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00451/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 10,
+      "location": "神奈川県・海老名市/海老名運動公園",
+      "date": "2025年11月16日(日)",
+      "audience": "14万人",
+      "fireworks": "5000発"
+    },
+    {
+      "title": "第77回 鎌倉花火大会",
+      "rawContent": "第77回 鎌倉花火大会",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e00875/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 1
+    },
+    {
+      "title": "みなとみらいスマートフェスティバル 2025",
+      "rawContent": "みなとみらいスマートフェスティバル 2025",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e356531/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 2
+    },
+    {
+      "title": "横浜ナイトフラワーズ2025",
+      "rawContent": "\n                        3\n                        横浜ナイトフラワーズ2025\n                      ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e541039/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 15
+    },
+    {
+      "title": "横浜・八景島シーパラダイス「花火シンフォニア」",
+      "rawContent": "\n                        4\n                        横浜・八景島シーパラダイス「花火シンフォニア」\n                      ",
+      "link": "https://hanabi.walkerplus.com/detail/ar0314e01077/",
+      "extractedFrom": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "pageIndex": 16
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "url": "https://hanabi.walkerplus.com/launch/ar0314/",
+      "eventsCount": 19,
+      "totalLinksFound": 19,
+      "timestamp": "2025-06-16T13:21:22.117Z"
+    },
+    {
+      "pageNumber": 2,
+      "url": "https://hanabi.walkerplus.com/launch/ar0314/?page=2",
+      "eventsCount": 19,
+      "totalLinksFound": 19,
+      "timestamp": "2025-06-16T13:21:27.372Z"
+    },
+    {
+      "pageNumber": 3,
+      "url": "https://hanabi.walkerplus.com/launch/ar0314/?page=3",
+      "eventsCount": 19,
+      "totalLinksFound": 19,
+      "timestamp": "2025-06-16T13:21:32.602Z"
+    },
+    {
+      "pageNumber": 4,
+      "url": "https://hanabi.walkerplus.com/launch/ar0314/?page=4",
+      "eventsCount": 19,
+      "totalLinksFound": 19,
+      "timestamp": "2025-06-16T13:21:37.810Z"
+    },
+    {
+      "pageNumber": 5,
+      "url": "https://hanabi.walkerplus.com/launch/ar0314/?page=5",
+      "eventsCount": 19,
+      "totalLinksFound": 19,
+      "timestamp": "2025-06-16T13:21:42.987Z"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,34 @@
+{
+  "navigation": {
+    "home": "Home",
+    "hanabi": "Fireworks",
+    "matsuri": "Festivals",
+    "about": "About"
+  },
+  "hanabi": {
+    "title": "Fireworks Festivals",
+    "subtitle": "Kanto Region Fireworks Festival Information",
+    "date": "Date",
+    "location": "Location",
+    "fireworks": "Fireworks Count",
+    "visitors": "Expected Visitors",
+    "website": "Official Website",
+    "viewDetails": "View Details"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Page not found",
+    "languageSwitch": "Language Switch",
+    "currentLanguage": "Current Language Information",
+    "navigationHome": "Navigation Home",
+    "fireworksFestival": "Fireworks Festival",
+    "festival": "Festival",
+    "systemTest": "Multilingual System Test",
+    "sampleDate": "August 2, 2025",
+    "kantoRegion": "Kanto Region",
+    "sampleFireworks": "Approximately 20,000 fireworks",
+    "sampleVisitors": "Approximately 450,000 visitors",
+    "officialWebsite": "Official Website"
+  }
+}

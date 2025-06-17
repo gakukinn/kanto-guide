@@ -1,0 +1,85 @@
+{
+  "totalChecked": 86,
+  "validMapUrls": 80,
+  "invalidMapUrls": 6,
+  "validOfficialSites": 86,
+  "invalidOfficialSites": 0,
+  "errors": [],
+  "regionSummary": {
+    "tokyo": {
+      "name": "东京都",
+      "totalFiles": 14,
+      "validatedEvents": 14,
+      "issues": []
+    },
+    "saitama": {
+      "name": "埼玉县",
+      "totalFiles": 13,
+      "validatedEvents": 13,
+      "issues": []
+    },
+    "chiba": {
+      "name": "千叶县",
+      "totalFiles": 14,
+      "validatedEvents": 14,
+      "issues": []
+    },
+    "kanagawa": {
+      "name": "神奈川县",
+      "totalFiles": 8,
+      "validatedEvents": 8,
+      "issues": []
+    },
+    "kitakanto": {
+      "name": "北关东",
+      "totalFiles": 13,
+      "validatedEvents": 13,
+      "issues": [
+        {
+          "event": "第58回常总绹川花火大会",
+          "type": "map",
+          "issue": "未设置地图URL"
+        },
+        {
+          "event": "大洗海上花火大会2025〜千櫓祭〜",
+          "type": "map",
+          "issue": "未设置地图URL"
+        },
+        {
+          "event": "第38回利根川大花火大会",
+          "type": "map",
+          "issue": "未设置地图URL"
+        }
+      ]
+    },
+    "koshinetsu": {
+      "name": "甲信越",
+      "totalFiles": 14,
+      "validatedEvents": 14,
+      "issues": [
+        {
+          "event": "河口湖湖上祭",
+          "type": "map",
+          "issue": "未设置地图URL"
+        }
+      ]
+    },
+    "mixed": {
+      "name": "混合地区(src/data根目录)",
+      "totalFiles": 10,
+      "validatedEvents": 10,
+      "issues": [
+        {
+          "event": "神田祭",
+          "type": "map",
+          "issue": "未设置地图URL"
+        },
+        {
+          "event": "三社祭",
+          "type": "map",
+          "issue": "未设置地图URL"
+        }
+      ]
+    }
+  }
+}

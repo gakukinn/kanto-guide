@@ -1,0 +1,499 @@
+{
+  "timestamp": "2025-06-14T14:20:47.312Z",
+  "summary": {
+    "totalActivities": 40,
+    "hanabiActivities": 16,
+    "matsuriActivities": 24,
+    "detailFiles": 92,
+    "databaseRecords": 0,
+    "consistentActivities": 18,
+    "consistencyRate": "45.0%"
+  },
+  "inconsistencies": {
+    "hanabi": [],
+    "matsuri": [
+      {
+        "id": "sanno-matsuri",
+        "name": "山王祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "fukagawa-matsuri",
+        "name": "深川祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "mitama-matsuri",
+        "name": "御魂祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "kagurazaka-matsuri",
+        "name": "神楽坂祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "shibuya-matsuri",
+        "name": "渋谷氷川神社例大祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-daishi-matsuri",
+        "name": "东京大师祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "sensoji-hozuki-ichi",
+        "name": "浅草寺酸浆市",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "harajuku-omotesando-matsuri",
+        "name": "原宿表参道祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "ginza-matsuri",
+        "name": "银座祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-setsubun-matsuri",
+        "name": "东京节分祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-cherry-blossom-matsuri",
+        "name": "东京樱花祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-noh-matsuri",
+        "name": "东京能乐祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-taiko-matsuri",
+        "name": "东京太鼓祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "asakusa-samba-carnival",
+        "name": "浅草桑巴嘉年华",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "shinjuku-eisa-matsuri",
+        "name": "新宿冲绳太鼓祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tomioka-hachiman-reitaisai",
+        "name": "富冈八幡宫例大祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "meiji-jingu-aki-matsuri",
+        "name": "明治神宫秋祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-christmas-market",
+        "name": "东京圣诞市集",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "hatsumode-matsuri",
+        "name": "东京新年参拜祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tsukiji-matsuri",
+        "name": "筑地祭",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-international-film-festival",
+        "name": "东京国际电影节",
+        "issue": "缺少四层详情文件"
+      },
+      {
+        "id": "tokyo-anime-fair",
+        "name": "东京动漫祭",
+        "issue": "缺少四层详情文件"
+      }
+    ],
+    "orphanFiles": [
+      {
+        "file": "level5-anime-classics-anisong-hanabi.ts",
+        "name": "动漫经典动画歌曲花火",
+        "id": "anime-classics-anison-hanabi"
+      },
+      {
+        "file": "level5-august-asaka-hanabi.ts",
+        "name": "朝霞市民祭「彩夏祭」",
+        "id": "asaka-sainatsusai-2025"
+      },
+      {
+        "file": "level5-august-ashikaga-hanabi.ts",
+        "name": "第109回足利花火大会",
+        "id": "ashikaga-hanabi-2025"
+      },
+      {
+        "file": "level5-august-hanabi-choshi-minato.ts",
+        "name": "铫子港祭花火大会",
+        "id": "choshi-minato-hanabi"
+      },
+      {
+        "file": "level5-august-hanabi-ichikawa.ts",
+        "name": "第41回市川市民纳凉花火大会",
+        "id": "ichikawa-hanabi"
+      },
+      {
+        "file": "level5-august-hanabi-kisarazu.ts",
+        "name": "第78回木更津港祭",
+        "id": "kisarazu-hanabi"
+      },
+      {
+        "file": "level5-august-hanabi-makuhari-beach.ts",
+        "name": "幕张海滩花火节2025(第47回千叶市民花火大会)",
+        "id": "makuhari-beach-hanabi"
+      },
+      {
+        "file": "level5-august-hanabi-matsudo.ts",
+        "name": "松户花火大会2025",
+        "id": "matsudo-hanabi"
+      },
+      {
+        "file": "level5-august-hanabi-narashino.ts",
+        "name": "令和7年习志野驻屯地夏祭",
+        "id": "narashino-hanabi"
+      },
+      {
+        "file": "level5-august-hanabi-teganuma.ts",
+        "name": "手贺沼花火大会2025",
+        "id": "teganuma-hanabi"
+      },
+      {
+        "file": "level5-august-higashimatsuyama-hanabi.ts",
+        "name": "第26回东松山花火大会",
+        "id": "higashimatsuyama-hanabi-2025"
+      },
+      {
+        "file": "level5-august-hitachinaka-hanabi.ts",
+        "name": "第31回常陆那珂祭花火大会",
+        "id": "hitachinaka-august"
+      },
+      {
+        "file": "level5-august-ina-hanabi.ts",
+        "name": "2025伊奈祭",
+        "id": "ina-hanabi"
+      },
+      {
+        "file": "level5-august-kanagawa-atsugi-ayu-matsuri.ts",
+        "name": "市制70周年記念 第79回 あつぎ鮎まつり",
+        "id": "atsugi-ayu-matsuri"
+      },
+      {
+        "file": "level5-august-kanagawa-odawara-sakawa.ts",
+        "name": "第36回小田原酒匂川花火大会",
+        "id": "odawara-sakawa-hanabi-2025"
+      },
+      {
+        "file": "level5-august-kanagawa-southern-beach-chigasaki.ts",
+        "name": "第51回南海滩茅崎花火大会",
+        "id": "southern-beach-chigasaki-hanabi-2025"
+      },
+      {
+        "file": "level5-august-kanagawa-yokohama-night-flowers.ts",
+        "name": "横滨夜间花火2025",
+        "id": "yokohama-night-flowers-2025"
+      },
+      {
+        "file": "level5-august-kanagawa-yokohama-seaparadise.ts",
+        "name": "横滨・八景岛海洋天堂「花火交响曲」",
+        "id": "yokohama-seaparadise-hanabi"
+      },
+      {
+        "file": "level5-august-kanazawa-matsuri-hanabi.ts",
+        "name": "第51回金泽祭花火大会",
+        "id": "kanazawa-matsuri-hanabi-2025"
+      },
+      {
+        "file": "level5-august-kawaguchi-hanabi.ts",
+        "name": "河口湖湖上祭",
+        "id": "kawaguchi-lake-festival-2025"
+      },
+      {
+        "file": "level5-august-koga-hanabi.ts",
+        "name": "第20回 古河花火大会",
+        "id": "koga-august-hanabi-2025"
+      },
+      {
+        "file": "level5-august-kumagaya-hanabi.ts",
+        "name": "熊谷花火大会",
+        "id": "kumagaya-hanabi-2025"
+      },
+      {
+        "file": "level5-august-kurihama-hanabi.ts",
+        "name": "2025久里浜佩里祭花火大会",
+        "id": "kurihama-perry-hanabi-2025"
+      },
+      {
+        "file": "level5-august-maebashi-hanabi.ts",
+        "name": "第69回前桥花火大会",
+        "id": "maebashi-august"
+      },
+      {
+        "file": "level5-august-minato-mirai-smart.ts",
+        "name": "港未来智能节庆2025",
+        "id": "minato-mirai-smart-festival-2025"
+      },
+      {
+        "file": "level5-august-nagaoka-hanabi.ts",
+        "name": "长冈祭大花火大会",
+        "id": "nagaoka-matsuri-hanabi"
+      },
+      {
+        "file": "level5-august-niigata-hanabi.ts",
+        "name": "新潟祭花火大会",
+        "id": "niigata-matsuri-hanabi-2025"
+      },
+      {
+        "file": "level5-august-omigawa-hanabi.ts",
+        "name": "第126回 水郷小见川花火大会",
+        "id": "omigawa-hanabi"
+      },
+      {
+        "file": "level5-august-sagamiko-hanabi.ts",
+        "name": "第73回相模湖湖上祭花火大会",
+        "id": "sagamiko-hanabi-2025"
+      },
+      {
+        "file": "level5-august-saitama-omagi-hanabi.ts",
+        "name": "埼玉市花火大会大间木公园会场",
+        "id": "saitama-omagi-hanabi-2025"
+      },
+      {
+        "file": "level5-august-shinmei-hanabi.ts",
+        "name": "市川三郷町故乡夏日祭第37回神明花火大会",
+        "id": "shinmei-hanabi-2025"
+      },
+      {
+        "file": "level5-august-suwa-hanabi.ts",
+        "name": "第77回诹访湖祭湖上花火大会",
+        "id": "suwako-hanabi"
+      },
+      {
+        "file": "level5-august-takasaki-hanabi.ts",
+        "name": "第51回高崎大花火大会",
+        "id": "takasaki-hanabi-2025"
+      },
+      {
+        "file": "level5-august-todabashi-hanabi.ts",
+        "name": "第72回戸田桥花火大会 Sky Fantasia",
+        "id": "todabashi-sky-fantasia-72"
+      },
+      {
+        "file": "level5-august-toride-hanabi.ts",
+        "name": "第70回利根川大花火",
+        "id": "toride-august"
+      },
+      {
+        "file": "level5-august-ueda-hanabi.ts",
+        "name": "上田市诞生20周年纪念第38回信州上田大花火大会",
+        "id": "ueda-shinshu-hanabi-2025"
+      },
+      {
+        "file": "level5-fuji-kawaguchi-lake-hanabi.ts",
+        "name": "河口湖湖上祭",
+        "id": "kawaguchiko-kojosai-2025"
+      },
+      {
+        "file": "level5-gion-kashiwazaki-hanabi.ts",
+        "name": "祇园柏崎祭海之大花火大会",
+        "id": "gion-kashiwazaki-matsuri-hanabi"
+      },
+      {
+        "file": "level5-july-hanabi-chiba-kamogawa.ts",
+        "name": "鴨川市民花火大会",
+        "id": "kamogawa"
+      },
+      {
+        "file": "level5-july-hanabi-chiba-marines.ts",
+        "name": "MARINES HANABI (海洋队花火)",
+        "id": "marines"
+      },
+      {
+        "file": "level5-july-hanabi-chiba-motherfarm.ts",
+        "name": "母亲牧場 夏夜农场",
+        "id": "motherfarm"
+      },
+      {
+        "file": "level5-july-hanabi-chiba-oamishirasato.ts",
+        "name": "和的花火",
+        "id": "oamishirasato"
+      },
+      {
+        "file": "level5-july-hanabi-chiba-shirahama.ts",
+        "name": "第61回 南房総白浜海女祭典",
+        "id": "shirahama"
+      },
+      {
+        "file": "level5-july-hanabi-futtsu.ts",
+        "name": "富津市民花火大会",
+        "id": "futtsu-shimin-hanabi"
+      },
+      {
+        "file": "level5-july-hanabi-iruma-base.ts",
+        "name": "入间基地纳凉祭~盆踊与花火之夜",
+        "id": "iruma-base-2025"
+      },
+      {
+        "file": "level5-july-hanabi-kanagawa-kamakura.ts",
+        "name": "第77回 镰仓花火大会",
+        "id": "kamakura"
+      },
+      {
+        "file": "level5-july-hanabi-kanagawa-nightflowers.ts",
+        "name": "横滨夜间花火2025",
+        "id": "nightflowers"
+      },
+      {
+        "file": "level5-july-hanabi-kanagawa-seaparadise.ts",
+        "name": "横滨、八景岛海洋天堂「花火交响曲」",
+        "id": "seaparadise"
+      },
+      {
+        "file": "level5-july-hanabi-koshigaya.ts",
+        "name": "越谷花火大会",
+        "id": "koshigaya-2025"
+      },
+      {
+        "file": "level5-july-hanabi-metsza-nordic.ts",
+        "name": "梅兹塔北欧花火2025",
+        "id": "metsza-nordic-2025"
+      },
+      {
+        "file": "level5-july-hanabi-ogawa-tanabata.ts",
+        "name": "第77回小川町七夕祭花火大会",
+        "id": "ogawa-tanabata-2025"
+      },
+      {
+        "file": "level5-july-hanabi-saitama-owada.ts",
+        "name": "埼玉市花火大会大和田公园会场",
+        "id": "saitama-owada-2025"
+      },
+      {
+        "file": "level5-july-hanabi-seibu-en.ts",
+        "name": "西武园游乐园大火祭",
+        "id": "seibu-en-2025"
+      },
+      {
+        "file": "level5-mito-hanabi.ts",
+        "name": "水戸偕楽園花火大会",
+        "id": "mito-kairakuen-hanabi-2025"
+      },
+      {
+        "file": "level5-moka-hanabi.ts",
+        "name": "真岡市夏祭大花火大会",
+        "id": "moka-natsumatsuri-hanabi-2025"
+      },
+      {
+        "file": "level5-nojiri-lake-hanabi.ts",
+        "name": "第101回野尻湖花火大会",
+        "id": "nojiri-lake-hanabi"
+      },
+      {
+        "file": "level5-sanjo-natsumatsuri-hanabi.ts",
+        "name": "三条市合并20周年记念第21回三条夏祭大花火大会",
+        "id": "sanjo-natsumatsuri-hanabi"
+      },
+      {
+        "file": "level5-september-kanagawa-seaparadise-hanabi.ts",
+        "name": "横浜・八景岛海洋天堂「花火交响曲」",
+        "id": "seaparadise-hanabi-symphonia-september"
+      },
+      {
+        "file": "level5-september-kanagawa-yokohama-hanabi.ts",
+        "name": "横浜夜间花火2025",
+        "id": "yokohama-night-flowers-2025"
+      },
+      {
+        "file": "level5-september-kitakanto-joso-kinugawa-hanabi.ts",
+        "name": "第58回常总绹川花火大会",
+        "id": "joso-kinugawa-hanabi-september"
+      },
+      {
+        "file": "level5-september-kitakanto-numata-hanabi.ts",
+        "name": "第13回沼田花火大会",
+        "id": "numata-hanabi"
+      },
+      {
+        "file": "level5-september-kitakanto-oarai-hanabi.ts",
+        "name": "大洗海上花火大会2025〜千櫓祭〜",
+        "id": "oarai-hanabi-september"
+      },
+      {
+        "file": "level5-september-kitakanto-oyama-hanabi.ts",
+        "name": "第73回小山花火",
+        "id": "oyama-hanabi"
+      },
+      {
+        "file": "level5-september-kitakanto-rindoko-hanabi.ts",
+        "name": "第31回りんどう湖花火大会",
+        "id": "rindoko-hanabi"
+      },
+      {
+        "file": "level5-september-kitakanto-tonegawa-hanabi.ts",
+        "name": "第38回利根川大花火大会",
+        "id": "tonegawa-hanabi-september"
+      },
+      {
+        "file": "level5-september-koshinetsu-asahara-hanabi.ts",
+        "name": "浅原神社 秋季例大祭奉納大煙火",
+        "id": "asahara-jinja-aki-hanabi"
+      },
+      {
+        "file": "level5-september-koshinetsu-shinsaku-hanabi.ts",
+        "name": "全国新作花火挑战杯2025",
+        "id": "shinsaku-hanabi"
+      },
+      {
+        "file": "level5-september-saitama-metsa-hanabi.ts",
+        "name": "梅兹塔北欧花火2025",
+        "id": "metsa-nordic-hanabi-2025"
+      },
+      {
+        "file": "level5-september-saitama-seibu-hanabi.ts",
+        "name": "西武园游乐园大火祭",
+        "id": "seibu-yuenchi-daika-matsuri-2025"
+      },
+      {
+        "file": "level5-suzaka-minna-hanabi.ts",
+        "name": "第38回须坂大家花火大会",
+        "id": "suzaka-minna-hanabi"
+      },
+      {
+        "file": "level5-tamura-hanabi.ts",
+        "name": "玉村花火大会",
+        "id": "tamura-hanabi-2025"
+      },
+      {
+        "file": "level5-tatebayashi-hanabi.ts",
+        "name": "館林手筒花火大会",
+        "id": "tatebayashi-hanabi-2025"
+      },
+      {
+        "file": "tokyo-jingu-yakyujo-hanabi.ts",
+        "name": "夏休み神宫花火夜场",
+        "id": "jingu-yakyujo-hanabi"
+      }
+    ]
+  },
+  "recommendations": [
+    "为缺少详情文件的祭典活动创建四层页面",
+    "处理孤立的详情文件，或添加对应的三层列表项",
+    "数据一致性低于90%，需要全面审查"
+  ]
+}

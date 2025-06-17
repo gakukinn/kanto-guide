@@ -1,0 +1,64 @@
+{
+  "crawlInfo": {
+    "url": "https://hanabi.walkerplus.com/detail/ar0308e00248/",
+    "crawlDate": "2025-01-18",
+    "crawlMethod": "Playwright Browser",
+    "dataSource": "WalkerPlus Official",
+    "verified": true
+  },
+  "eventData": {
+    "id": "joso-kinugawa-hanabi-2025",
+    "name": "第58回 常総きぬ川花火大会",
+    "japaneseName": "第58回 常總きぬ川花火大会",
+    "englishName": "58th Joso Kinugawa Fireworks Festival",
+    "date": "2025-09-20",
+    "displayDate": "2025年9月20日(土)",
+    "time": "18:05～19:45",
+    "duration": "約100分",
+    "venue": "鬼怒川河畔、橋本運動公園",
+    "location": "茨城県常総市",
+    "coordinates": {
+      "lat": 36.0274614,
+      "lng": 139.9852845,
+      "address": "Mitsukaido Hashimotocho, Joso, Ibaraki 303-0003",
+      "plusCode": "2XGP+X4 常総市 茨城県"
+    },
+    "fireworksCount": "約2万発",
+    "expectedVisitors": "約12万人",
+    "ticketInfo": {
+      "mas席": "18,000円",
+      "イス席": "6,000円",
+      "販売期間": "詳細は公式サイト参照"
+    },
+    "access": {
+      "train": "関東鉄道水海道駅から徒歩15分",
+      "car": "常磐道谷和原ICから約10分",
+      "parking": {
+        "capacity": "2000台",
+        "fee": "2000円～3000円/台",
+        "type": "臨時駐車場"
+      }
+    },
+    "contact": {
+      "organizer": "常總きぬ川花火大会実行委員会",
+      "phone": "0297-23-9088",
+      "website": "https://joso-hanabi.jp/"
+    },
+    "highlights": [
+      "日本屈指の名花火師の競演",
+      "青一色に染まる幻想的な夜空",
+      "白銀に輝く華やかなスターマイン",
+      "約2万発の大規模打上げ",
+      "100分間の長時間開催"
+    ],
+    "weatherPolicy": "荒天時は延期（日程は延期決定後に告知）",
+    "established": 1968,
+    "history": "茨城県常総市の代表的花火大会として、日本屈指の名花火師による競演で知られる歴史ある大会"
+  },
+  "technicalData": {
+    "crawlTechnology": "Playwright + Cheerio + Crawlee",
+    "dataValidation": true,
+    "sourceVerification": true,
+    "lastUpdated": "2025-01-18T10:00:00Z"
+  }
+}

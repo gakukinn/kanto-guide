@@ -13,8 +13,10 @@ import { HanabiData } from '@/types/hanabi';
 export const teganumaHanabiData: HanabiData = {
  id: 'teganuma-hanabi',
  name: '手贺沼花火大会2025',
-  japaneseName: '手賀沼花火大会2025',
  englishName: 'Lake Teganuma Fireworks Festival 2025',
+  _sourceData: {
+    japaneseName: '手賀沼花火大会2025'
+  },
  year: 2025,
  date: '2025年8月2日(土)',
  time: '19:00开始',

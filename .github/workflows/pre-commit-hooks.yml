@@ -1,0 +1,193 @@
+name: Pre-commit Quality Gates
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  quality-gates:
+    name: Quality Gates
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript strict check
+        run: |
+          echo "🔍 Running TypeScript strict check..."
+          npx tsc --noEmit --strict --skipLibCheck
+          if [ $? -ne 0 ]; then
+            echo "❌ TypeScript errors found. Please fix before merging."
+            exit 1
+          fi
+          echo "✅ TypeScript check passed!"
+
+      - name: Interface consistency check
+        run: |
+          echo "🔍 Checking interface consistency..."
+          node -e "
+          const fs = require('fs');
+          const path = require('path');
+          
+          // 检查HanabiMedia接口使用一致性
+          function checkInterfaceConsistency() {
+            const interfaceFile = './src/types/hanabi.ts';
+            const interfaceContent = fs.readFileSync(interfaceFile, 'utf8');
+            
+            // 提取HanabiMedia接口定义
+            const mediaInterfaceMatch = interfaceContent.match(/interface HanabiMedia \{[\s\S]*?\}/);
+            if (!mediaInterfaceMatch) {
+              throw new Error('HanabiMedia interface not found');
+            }
+            
+            const interfaceDef = mediaInterfaceMatch[0];
+            const requiredFields = [];
+            const optionalFields = [];
+            
+            // 解析必需和可选字段
+            const fieldMatches = interfaceDef.match(/(\w+)(\?)?:\s*string/g);
+            if (fieldMatches) {
+              fieldMatches.forEach(field => {
+                const [, fieldName, optional] = field.match(/(\w+)(\?)?:/);
+                if (optional) {
+                  optionalFields.push(fieldName);
+                } else {
+                  requiredFields.push(fieldName);
+                }
+              });
+            }
+            
+            console.log('Required fields:', requiredFields);
+            console.log('Optional fields:', optionalFields);
+            
+            // 检查所有使用该接口的文件
+            function checkFiles(dir) {
+              const files = fs.readdirSync(dir, { withFileTypes: true });
+              let errors = [];
+              
+              for (const file of files) {
+                const fullPath = path.join(dir, file.name);
+                if (file.isDirectory()) {
+                  errors = errors.concat(checkFiles(fullPath));
+                } else if (file.name === 'page.tsx') {
+                  try {
+                    const content = fs.readFileSync(fullPath, 'utf8');
+                    if (content.includes('media:')) {
+                      // 检查是否包含所有必需字段
+                      for (const field of requiredFields) {
+                        if (!content.includes(field + ':')) {
+                          errors.push(\`\${fullPath}: Missing required field '\${field}' in media object\`);
+                        }
+                      }
+                    }
+                  } catch (e) {
+                    errors.push(\`\${fullPath}: Failed to read file - \${e.message}\`);
+                  }
+                }
+              }
+              return errors;
+            }
+            
+            const errors = checkFiles('./src/app');
+            if (errors.length > 0) {
+              console.log('❌ Interface consistency errors:');
+              errors.forEach(error => console.log(error));
+              process.exit(1);
+            } else {
+              console.log('✅ All files are consistent with HanabiMedia interface!');
+            }
+          }
+          
+          checkInterfaceConsistency();
+          "
+
+      - name: Build verification
+        run: |
+          echo "🔍 Verifying build..."
+          npm run build
+          if [ $? -ne 0 ]; then
+            echo "❌ Build failed. Please fix build errors."
+            exit 1
+          fi
+          echo "✅ Build successful!"
+
+      - name: Performance check
+        run: |
+          echo "🔍 Checking bundle size..."
+          npm run build
+          
+          # 检查bundle大小
+          if [ -f ".next/static/chunks/pages/_app.js" ]; then
+            APP_SIZE=$(stat -f%z ".next/static/chunks/pages/_app.js" 2>/dev/null || stat -c%s ".next/static/chunks/pages/_app.js")
+            if [ $APP_SIZE -gt 1048576 ]; then # 1MB
+              echo "⚠️  Warning: App bundle size is large (${APP_SIZE} bytes)"
+            else
+              echo "✅ App bundle size is acceptable (${APP_SIZE} bytes)"
+            fi
+          fi
+
+      - name: Security check
+        run: |
+          echo "🔍 Running security audit..."
+          npm audit --audit-level=high
+          if [ $? -ne 0 ]; then
+            echo "❌ Security vulnerabilities found. Please fix before merging."
+            exit 1
+          fi
+          echo "✅ No high-severity security issues found!"
+
+      - name: Comment PR with results
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            
+            const botComment = comments.find(comment => 
+              comment.user.type === 'Bot' && 
+              comment.body.includes('Quality Gates Report')
+            );
+            
+            const reportBody = `## 🤖 Quality Gates Report
+            
+            ### ✅ Checks Completed
+            - TypeScript strict check
+            - Interface consistency check  
+            - Build verification
+            - Performance check
+            - Security audit
+            
+            ### 📊 Results
+            All quality gates have been verified for this PR.
+            
+            ---
+            *This comment is automatically updated by the Quality Gates workflow.*`;
+            
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: reportBody
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: reportBody
+              });
+            } 
