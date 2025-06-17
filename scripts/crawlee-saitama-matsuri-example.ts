@@ -61,7 +61,7 @@ class CrawleeSaitamaMatsuriScraper {
           const $ = cheerio.load(content);
           
           // 使用你现有的数据提取逻辑
-          const pageEvents = await this.extractMatsuriEvents(cheerio.load(content), request.url);
+          const pageEvents = await this.extractMatsuriEvents($, request.url);
           
           // 🎯 Crawlee优势：自动数据存储和去重
           for (const event of pageEvents) {
@@ -85,7 +85,7 @@ class CrawleeSaitamaMatsuriScraper {
   }
 
   // 保持你现有的数据提取逻辑
-  private async extractMatsuriEvents($: cheerio.CheerioAPI, url: string): Promise<ScrapeMatsuriEvent[]> {
+  private async extractMatsuriEvents($: any, url: string): Promise<ScrapeMatsuriEvent[]> {
     const events: ScrapeMatsuriEvent[] = [];
     
     // 检查页面标题确认正确性
