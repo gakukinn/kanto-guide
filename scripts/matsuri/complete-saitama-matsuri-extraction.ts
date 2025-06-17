@@ -140,11 +140,11 @@ class CompleteSaitamaMatsuriExtractor {
     return broadKeywords.some(keyword => text.includes(keyword));
   }
 
-  private async extractSpecialStructures($: cheerio.CheerioAPI, events: CompleteMatsuriEvent[]) {
+  private async extractSpecialStructures($: any, events: CompleteMatsuriEvent[]) {
     console.log('🔍 寻找特殊的活动信息结构...');
     
     // 查找链接中的活动
-    $('a[href]').each((index, element) => {
+    $('a[href]').each((index: number, element: any) => {
       const $link = $(element);
       const href = $link.attr('href') || '';
       const linkText = $link.text().trim();
@@ -160,7 +160,7 @@ class CompleteSaitamaMatsuriExtractor {
     });
 
     // 查找图片的alt文本
-    $('img[alt]').each((index, element) => {
+    $('img[alt]').each((index: number, element: any) => {
       const $img = $(element);
       const alt = $img.attr('alt') || '';
       
@@ -174,7 +174,7 @@ class CompleteSaitamaMatsuriExtractor {
     });
 
     // 查找特定的容器元素
-    $('.post, .event, .festival, .matsuri, article, .content').each((index, element) => {
+    $('.post, .event, .festival, .matsuri, article, .content').each((index: number, element: any) => {
       const $container = $(element);
       const containerText = $container.text().trim();
       

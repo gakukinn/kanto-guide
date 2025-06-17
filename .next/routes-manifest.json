@@ -1,0 +1,662 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:file((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+)/",
+      "destination": "/:file",
+      "internal": true,
+      "missing": [
+        {
+          "type": "header",
+          "key": "x-nextjs-data"
+        }
+      ],
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/]+\\.\\w+))/$"
+    },
+    {
+      "source": "/:notfile((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+)",
+      "destination": "/:notfile/",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?!\\.well-known(?:/.*)?)(?:[^/]+/)*[^/\\.]+))$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/chiba",
+      "regex": "^/chiba(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi",
+      "regex": "^/chiba/hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/asahi-iioka-you-yu",
+      "regex": "^/chiba/hanabi/asahi\\-iioka\\-you\\-yu(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/asahi\\-iioka\\-you\\-yu(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/choshi-minato-hanabi",
+      "regex": "^/chiba/hanabi/choshi\\-minato\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/choshi\\-minato\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/futtsu-shimin-hanabi",
+      "regex": "^/chiba/hanabi/futtsu\\-shimin\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/futtsu\\-shimin\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/ichikawa",
+      "regex": "^/chiba/hanabi/ichikawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/ichikawa(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/kamogawa-shimin-hanabi",
+      "regex": "^/chiba/hanabi/kamogawa\\-shimin\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/kamogawa\\-shimin\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/kisarazu",
+      "regex": "^/chiba/hanabi/kisarazu(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/kisarazu(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/makuhari-beach-hanabi",
+      "regex": "^/chiba/hanabi/makuhari\\-beach\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/makuhari\\-beach\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/matsudo",
+      "regex": "^/chiba/hanabi/matsudo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/matsudo(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/narashino",
+      "regex": "^/chiba/hanabi/narashino(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/narashino(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/oamishirasato-hanabi",
+      "regex": "^/chiba/hanabi/oamishirasato\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/oamishirasato\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/omigawa",
+      "regex": "^/chiba/hanabi/omigawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/omigawa(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/shirahama-ama-matsuri",
+      "regex": "^/chiba/hanabi/shirahama\\-ama\\-matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/shirahama\\-ama\\-matsuri(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/teganuma",
+      "regex": "^/chiba/hanabi/teganuma(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/teganuma(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/urayasu-hanabi",
+      "regex": "^/chiba/hanabi/urayasu\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/urayasu\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/chiba/hanabi/yachiyo-furusato-oyako",
+      "regex": "^/chiba/hanabi/yachiyo\\-furusato\\-oyako(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/hanabi/yachiyo\\-furusato\\-oyako(?:/)?$"
+    },
+    {
+      "page": "/chiba/matsuri",
+      "regex": "^/chiba/matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chiba/matsuri(?:/)?$"
+    },
+    {
+      "page": "/kanagawa",
+      "regex": "^/kanagawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi",
+      "regex": "^/kanagawa/hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/atsugi-ayu-matsuri",
+      "regex": "^/kanagawa/hanabi/atsugi\\-ayu\\-matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/atsugi\\-ayu\\-matsuri(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/kamakura",
+      "regex": "^/kanagawa/hanabi/kamakura(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/kamakura(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/kanazawa-matsuri-hanabi",
+      "regex": "^/kanagawa/hanabi/kanazawa\\-matsuri\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/kanazawa\\-matsuri\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/kawasaki-tamagawa",
+      "regex": "^/kanagawa/hanabi/kawasaki\\-tamagawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/kawasaki\\-tamagawa(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/kurihama",
+      "regex": "^/kanagawa/hanabi/kurihama(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/kurihama(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/minato-mirai-smart",
+      "regex": "^/kanagawa/hanabi/minato\\-mirai\\-smart(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/minato\\-mirai\\-smart(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/odawara-sakawa",
+      "regex": "^/kanagawa/hanabi/odawara\\-sakawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/odawara\\-sakawa(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/sagamihara",
+      "regex": "^/kanagawa/hanabi/sagamihara(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/sagamihara(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/sagamiko",
+      "regex": "^/kanagawa/hanabi/sagamiko(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/sagamiko(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/seaparadise-hanabi-symphonia",
+      "regex": "^/kanagawa/hanabi/seaparadise\\-hanabi\\-symphonia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/seaparadise\\-hanabi\\-symphonia(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/southern-beach-chigasaki",
+      "regex": "^/kanagawa/hanabi/southern\\-beach\\-chigasaki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/southern\\-beach\\-chigasaki(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/yokohama-hanabi",
+      "regex": "^/kanagawa/hanabi/yokohama\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/yokohama\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/yokohama-kaisai",
+      "regex": "^/kanagawa/hanabi/yokohama\\-kaisai(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/yokohama\\-kaisai(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/yokohama-night-flowers",
+      "regex": "^/kanagawa/hanabi/yokohama\\-night\\-flowers(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/yokohama\\-night\\-flowers(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/hanabi/yokohama-seaparadise",
+      "regex": "^/kanagawa/hanabi/yokohama\\-seaparadise(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/hanabi/yokohama\\-seaparadise(?:/)?$"
+    },
+    {
+      "page": "/kanagawa/matsuri",
+      "regex": "^/kanagawa/matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kanagawa/matsuri(?:/)?$"
+    },
+    {
+      "page": "/kitakanto",
+      "regex": "^/kitakanto(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi",
+      "regex": "^/kitakanto/hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/ashikaga",
+      "regex": "^/kitakanto/hanabi/ashikaga(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/ashikaga(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/joso-kinugawa-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/joso\\-kinugawa\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/joso\\-kinugawa\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/koga-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/koga\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/koga\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/maebashi-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/maebashi\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/maebashi\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/mito-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/mito\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/mito\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/moka",
+      "regex": "^/kitakanto/hanabi/moka(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/moka(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/numata-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/numata\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/numata\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/oarai-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/oarai\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/oarai\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/oyama-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/oyama\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/oyama\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/takasaki",
+      "regex": "^/kitakanto/hanabi/takasaki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/takasaki(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/tamamura-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/tamamura\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/tamamura\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/hanabi/tonegawa-hanabi-2025",
+      "regex": "^/kitakanto/hanabi/tonegawa\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/hanabi/tonegawa\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/kitakanto/matsuri",
+      "regex": "^/kitakanto/matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/kitakanto/matsuri(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu",
+      "regex": "^/koshinetsu(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi",
+      "regex": "^/koshinetsu/hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/agano-gozareya",
+      "regex": "^/koshinetsu/hanabi/agano\\-gozareya(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/agano\\-gozareya(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/anime",
+      "regex": "^/koshinetsu/hanabi/anime(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/anime(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/asahara-jinja-aki-hanabi",
+      "regex": "^/koshinetsu/hanabi/asahara\\-jinja\\-aki\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/asahara\\-jinja\\-aki\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/chikuma-chikumagawa-hanabi",
+      "regex": "^/koshinetsu/hanabi/chikuma\\-chikumagawa\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/chikuma\\-chikumagawa\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/ichikawa-shinmei",
+      "regex": "^/koshinetsu/hanabi/ichikawa\\-shinmei(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/ichikawa\\-shinmei(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/isawa-onsen-hanabi-2025",
+      "regex": "^/koshinetsu/hanabi/isawa\\-onsen\\-hanabi\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/isawa\\-onsen\\-hanabi\\-2025(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/kashiwazaki",
+      "regex": "^/koshinetsu/hanabi/kashiwazaki(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/kashiwazaki(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/nagaoka",
+      "regex": "^/koshinetsu/hanabi/nagaoka(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/nagaoka(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/ojiya-matsuri-hanabi",
+      "regex": "^/koshinetsu/hanabi/ojiya\\-matsuri\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/ojiya\\-matsuri\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/hanabi/yamanakako-houkosai-hanabi",
+      "regex": "^/koshinetsu/hanabi/yamanakako\\-houkosai\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/hanabi/yamanakako\\-houkosai\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/koshinetsu/matsuri",
+      "regex": "^/koshinetsu/matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/koshinetsu/matsuri(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/saitama",
+      "regex": "^/saitama(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi",
+      "regex": "^/saitama/hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/asaka",
+      "regex": "^/saitama/hanabi/asaka(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/asaka(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/higashimatsuyama",
+      "regex": "^/saitama/hanabi/higashimatsuyama(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/higashimatsuyama(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/ina",
+      "regex": "^/saitama/hanabi/ina(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/ina(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/iruma-base-2025",
+      "regex": "^/saitama/hanabi/iruma\\-base\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/iruma\\-base\\-2025(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/koshigaya-2025",
+      "regex": "^/saitama/hanabi/koshigaya\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/koshigaya\\-2025(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/kounosu-shoukoukai-22",
+      "regex": "^/saitama/hanabi/kounosu\\-shoukoukai\\-22(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/kounosu\\-shoukoukai\\-22(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/kumagaya",
+      "regex": "^/saitama/hanabi/kumagaya(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/kumagaya(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/metsza-nordic-2025",
+      "regex": "^/saitama/hanabi/metsza\\-nordic\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/metsza\\-nordic\\-2025(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/ogawa-tanabata-2025",
+      "regex": "^/saitama/hanabi/ogawa\\-tanabata\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/ogawa\\-tanabata\\-2025(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/saitama-owada-2025",
+      "regex": "^/saitama/hanabi/saitama\\-owada\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/saitama\\-owada\\-2025(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/sayama-tanabata",
+      "regex": "^/saitama/hanabi/sayama\\-tanabata(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/sayama\\-tanabata(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/seibu-en-2025",
+      "regex": "^/saitama/hanabi/seibu\\-en\\-2025(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/seibu\\-en\\-2025(?:/)?$"
+    },
+    {
+      "page": "/saitama/hanabi/todabashi",
+      "regex": "^/saitama/hanabi/todabashi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/hanabi/todabashi(?:/)?$"
+    },
+    {
+      "page": "/saitama/matsuri",
+      "regex": "^/saitama/matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/saitama/matsuri(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/tokyo",
+      "regex": "^/tokyo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi",
+      "regex": "^/tokyo/hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/akishima",
+      "regex": "^/tokyo/hanabi/akishima(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/akishima(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/chofu-hanabi",
+      "regex": "^/tokyo/hanabi/chofu\\-hanabi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/chofu\\-hanabi(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/edogawa",
+      "regex": "^/tokyo/hanabi/edogawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/edogawa(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/hachioji",
+      "regex": "^/tokyo/hanabi/hachioji(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/hachioji(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/itabashi",
+      "regex": "^/tokyo/hanabi/itabashi(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/itabashi(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/jingu-gaien",
+      "regex": "^/tokyo/hanabi/jingu\\-gaien(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/jingu\\-gaien(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/katsushika-noryo",
+      "regex": "^/tokyo/hanabi/katsushika\\-noryo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/katsushika\\-noryo(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/keibajo",
+      "regex": "^/tokyo/hanabi/keibajo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/keibajo(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/kozushima",
+      "regex": "^/tokyo/hanabi/kozushima(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/kozushima(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/mikurajima",
+      "regex": "^/tokyo/hanabi/mikurajima(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/mikurajima(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/okutama",
+      "regex": "^/tokyo/hanabi/okutama(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/okutama(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/setagaya-tamagawa",
+      "regex": "^/tokyo/hanabi/setagaya\\-tamagawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/setagaya\\-tamagawa(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/sumida",
+      "regex": "^/tokyo/hanabi/sumida(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/sumida(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/tachikawa-showa",
+      "regex": "^/tokyo/hanabi/tachikawa\\-showa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/tachikawa\\-showa(?:/)?$"
+    },
+    {
+      "page": "/tokyo/hanabi/tamagawa",
+      "regex": "^/tokyo/hanabi/tamagawa(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/hanabi/tamagawa(?:/)?$"
+    },
+    {
+      "page": "/tokyo/matsuri",
+      "regex": "^/tokyo/matsuri(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tokyo/matsuri(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

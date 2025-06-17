@@ -153,7 +153,7 @@ class KitakantoHanabiValidator {
   /**
    * 从元素中提取文本
    */
-  private extractText($el: cheerio.Cheerio<any>, selector: string): string {
+  private extractText($el: any, selector: string): string {
     const element = $el.find(selector).first();
     return element.length > 0 ? element.text().trim() : '';
   }

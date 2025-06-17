@@ -120,7 +120,7 @@ class CrawleeSaitamaMatsuriScraper {
           if (eventItems.length > 2) {
             console.log(`🎯 处理 ${eventItems.length} 个潜在事件项 (${eventSelector})`);
             
-            eventItems.each((index, element) => {
+            eventItems.each((index: number, element: any) => {
               const $event = $(element);
               const text = $event.text().trim();
               
