@@ -59,8 +59,7 @@
     "validate-static": "node scripts/static-site-validator.js",
     "validate-weekly": "npm run validate-static",
     "validate-complete": "npm run validate-static && npm run validate-all && npm run full-japanese-check",
-    "crawl-tokyo": "npx ts-node --esm scripts/crawl-tokyo-data.ts",
-    "prepare": "husky"
+    "crawl-tokyo": "npx ts-node --esm scripts/crawl-tokyo-data.ts"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
