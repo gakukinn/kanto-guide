@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import sharp from 'sharp';
+const fs = require('fs');
+const path = require('path');
+const sharp = require('sharp');
 
 // 配置
 const CONFIG = {
@@ -139,8 +139,8 @@ async function main() {
 }
 
 // 运行脚本
-if (process.argv[1] === new URL(import.meta.url).pathname) {
+if (require.main === module) {
   main().catch(console.error);
 }
 
-export { generateImageMap, optimizeImage };
+module.exports = { optimizeImage, generateImageMap };

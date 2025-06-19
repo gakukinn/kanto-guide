@@ -33,7 +33,7 @@ export default function HomePage() {
               {Object.entries(regionConfig).map(([regionKey, region]) => (
                 <Link
                   key={regionKey}
-                  href={`/${regionKey}`}
+                  href={`/${regionKey}` as any}
                   className={`group relative block transform rounded-3xl bg-gradient-to-br p-6 transition-all duration-500 ${region.color} hover:shadow-3xl cursor-pointer overflow-hidden border-2 ${region.borderColor} shadow-2xl backdrop-blur-sm hover:-translate-y-2 hover:scale-105 hover:shadow-black/20`}
                   style={{ gridArea: region.gridArea }}
                 >
