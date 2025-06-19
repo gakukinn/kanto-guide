@@ -67,7 +67,10 @@
     "backup:list": "node scripts/auto-backup.js list",
     "backup:clean": "node scripts/auto-backup.js clean",
     "backup:restore": "node scripts/auto-backup.js restore",
-    "backup:deploy": "npm run backup && npm run pre-deploy"
+    "backup:deploy": "npm run backup && npm run pre-deploy",
+    "optimize-images": "node --experimental-modules scripts/optimize-images.js",
+    "build-optimized": "npm run optimize-images && npm run build",
+    "export": "next export"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
@@ -108,18 +111,22 @@
     "@commitlint/config-conventional": "^19.8.1",
     "@eslint/eslintrc": "^3.3.1",
     "@tailwindcss/language-server": "^0.14.21",
-    "@types/node": "^20.19.0",
+    "@types/node": "^20",
     "@types/node-cron": "^3.0.11",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "15.3.3",
+    "eslint-config-next": "14.2.3",
     "glob": "^11.0.3",
     "lint-staged": "^16.1.2",
     "postcss": "^8",
     "prettier-plugin-tailwindcss": "^0.6.12",
     "tailwindcss": "^3.4.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "sharp": "^0.33.4",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^8.0.0",
+    "imagemin-mozjpeg": "^10.0.0"
   }
 }

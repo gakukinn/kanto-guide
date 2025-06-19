@@ -4,6 +4,21 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
+    formats: ['image/webp', 'image/avif'],
+    quality: 75,
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+      },
+    ],
+    minimumCacheTTL: 60 * 60 * 24 * 30,
   },
   // 允许开发环境的跨域请求
   allowedDevOrigins: ['192.168.3.2'],
@@ -29,6 +44,12 @@ const nextConfig = {
     return config;
   },
   serverExternalPackages: ['playwright', 'cheerio', 'crawlee'],
+  experimental: {
+    typedRoutes: true,
+  },
+  compress: true,
+  output: 'export',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
 };
 
 export default nextConfig;

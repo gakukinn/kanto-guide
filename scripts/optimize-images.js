@@ -1,229 +1,146 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import sharp from 'sharp';
 
-// 花火大会专业占位符SVG模板
-const createHanabiPlaceholderSVG = (name, location, color = '#ff6b6b') => {
-  return `<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="bg" cx="50%" cy="50%">
-      <stop offset="0%" style="stop-color:#001122;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#000000;stop-opacity:1" />
-    </radialGradient>
-    <radialGradient id="firework1" cx="50%" cy="50%">
-      <stop offset="0%" style="stop-color:${color};stop-opacity:1" />
-      <stop offset="100%" style="stop-color:${color};stop-opacity:0" />
-    </radialGradient>
-    <radialGradient id="firework2" cx="50%" cy="50%">
-      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#ffd700;stop-opacity:0" />
-    </radialGradient>
-  </defs>
-  
-  <!-- 夜空背景 -->
-  <rect width="800" height="600" fill="url(#bg)"/>
-  
-  <!-- 星星 -->
-  <circle cx="100" cy="80" r="1" fill="#ffffff" opacity="0.7"/>
-  <circle cx="200" cy="50" r="1" fill="#ffffff" opacity="0.8"/>
-  <circle cx="300" cy="70" r="1" fill="#ffffff" opacity="0.6"/>
-  <circle cx="500" cy="60" r="1" fill="#ffffff" opacity="0.9"/>
-  <circle cx="600" cy="90" r="1" fill="#ffffff" opacity="0.7"/>
-  <circle cx="700" cy="45" r="1" fill="#ffffff" opacity="0.8"/>
-  
-  <!-- 主花火 -->
-  <circle cx="400" cy="200" r="120" fill="url(#firework1)" opacity="0.8"/>
-  <circle cx="400" cy="200" r="80" fill="url(#firework1)" opacity="0.6"/>
-  <circle cx="400" cy="200" r="40" fill="${color}" opacity="1"/>
-  
-  <!-- 副花火 -->
-  <circle cx="250" cy="150" r="60" fill="url(#firework2)" opacity="0.6"/>
-  <circle cx="250" cy="150" r="30" fill="#ffd700" opacity="1"/>
-  
-  <circle cx="550" cy="180" r="80" fill="url(#firework1)" opacity="0.4"/>
-  <circle cx="550" cy="180" r="40" fill="${color}" opacity="0.8"/>
-  
-  <!-- 花火光芒 -->
-  <g stroke="${color}" stroke-width="2" opacity="0.8">
-    <line x1="400" y1="80" x2="400" y2="320" />
-    <line x1="280" y1="200" x2="520" y2="200" />
-    <line x1="330" y1="130" x2="470" y2="270" />
-    <line x1="470" y1="130" x2="330" y2="270" />
-  </g>
-  
-  <!-- 地面轮廓 -->
-  <path d="M0,550 Q200,530 400,540 Q600,550 800,535 L800,600 L0,600 Z" fill="#1a1a2e" opacity="0.8"/>
-  
-  <!-- 标题文字 -->
-  <text x="400" y="480" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">
-    ${name}
-  </text>
-  <text x="400" y="510" text-anchor="middle" fill="#cccccc" font-family="Arial, sans-serif" font-size="18">
-    ${location}
-  </text>
-</svg>`;
+// 配置
+const CONFIG = {
+  inputDir: './public/images',
+  outputDir: './public/images/optimized',
+  formats: ['webp', 'jpeg'],
+  qualities: {
+    webp: 80,
+    jpeg: 85,
+  },
+  sizes: [
+    { name: 'thumbnail', width: 400, height: 300 },
+    { name: 'medium', width: 800, height: 600 },
+    { name: 'large', width: 1200, height: 900 },
+  ],
 };
 
-// 专业图片映射配置
-const imageMapping = {
-  // 东京地区花火
-  'edogawa-fireworks.jpg': { name: '江户川区花火大会', location: '东京都江户川区', color: '#ff6b6b' },
-  'itabashi-fireworks.jpg': { name: '板桥花火大会', location: '东京都板桥区', color: '#4ecdc4' },
-  'okutama-fireworks.jpg': { name: '奥多摩纳凉花火', location: '东京都奥多摩町', color: '#45b7d1' },
-  'jingu-gaien-fireworks.jpg': { name: '神宫外苑花火大会', location: '东京都新宿区', color: '#f9ca24' },
-  'kozushima-fireworks.jpg': { name: '神津岛渚花火大会', location: '东京都神津岛', color: '#6c5ce7' },
-  'akishima-fireworks.jpg': { name: '昭岛市民花火大会', location: '东京都昭岛市', color: '#fd79a8' },
-  
-  // 千叶地区花火
-  'shirahama-fireworks.jpg': { name: '南房总白浜海女祭', location: '千叶县南房总市', color: '#00b894' },
-  'futtsu-fireworks.jpg': { name: '富津市民花火大会', location: '千叶县富津市', color: '#e17055' },
-  'kamogawa-fireworks.jpg': { name: '鸭川市民花火大会', location: '千叶县鸭川市', color: '#0984e3' },
-  'marines-fireworks.jpg': { name: '千叶罗德花火', location: '千叶县千叶市', color: '#74b9ff' },
-  
-  // 神奈川地区花火
-  'kamakura-fireworks.jpg': { name: '镰仓花火大会', location: '神奈川县镰仓市', color: '#fd79a8' },
-  'yokohama-night-flowers.jpg': { name: '横浜夜间花火', location: '神奈川县横浜市', color: '#6c5ce7' },
-  
-  // 甲信越地区花火
-  'kawaguchi-lake-fireworks.jpg': { name: '河口湖山开花火大会', location: '山梨县富士河口湖町', color: '#e84393' },
-  'anime-classics-fireworks.jpg': { name: '动漫经典动画歌曲花火', location: '山梨县富士川町', color: '#00cec9' },
-  
-  // 北关东地区花火
-  'mito-fireworks.jpg': { name: '水户偕乐园花火大会', location: '茨城县水户市', color: '#ff7675' },
-  'tamura-fireworks.jpg': { name: '玉村花火大会', location: '群马县玉村町', color: '#fd79a8' }
-};
+// 获取所有图片文件
+function getImageFiles(dir) {
+  const files = [];
+  const items = fs.readdirSync(dir, { withFileTypes: true });
 
-// 创建图片目录
-function ensureDirectoryExists(dirPath) {
-  if (!fs.existsSync(dirPath)) {
-    fs.mkdirSync(dirPath, { recursive: true });
+  for (const item of items) {
+    const fullPath = path.join(dir, item.name);
+    if (item.isDirectory()) {
+      files.push(...getImageFiles(fullPath));
+    } else if (/\.(jpg|jpeg|png|gif)$/i.test(item.name)) {
+      files.push(fullPath);
+    }
   }
+
+  return files;
 }
 
-// 生成所有占位符图片
-function generatePlaceholderImages() {
-  const hanabiDir = path.join(__dirname, '../public/images/hanabi');
-  ensureDirectoryExists(hanabiDir);
-  
-  console.log('🎆 开始生成专业花火占位符图片...');
-  
-  let generated = 0;
-  
-  Object.entries(imageMapping).forEach(([filename, config]) => {
-    const svgFilename = filename.replace('.jpg', '.svg');
-    const svgPath = path.join(hanabiDir, svgFilename);
-    
-    if (!fs.existsSync(svgPath)) {
-      const svgContent = createHanabiPlaceholderSVG(config.name, config.location, config.color);
-      fs.writeFileSync(svgPath, svgContent);
-      console.log(`✅ 生成: ${svgFilename}`);
-      generated++;
-    } else {
-      console.log(`⏭️  跳过: ${svgFilename} (已存在)`);
-    }
-  });
-  
-  console.log(`\n🎯 占位符生成完成: ${generated} 个新文件`);
-}
+// 优化单个图片
+async function optimizeImage(inputPath, outputDir) {
+  const filename = path.basename(inputPath, path.extname(inputPath));
+  const relativePath = path.relative(CONFIG.inputDir, path.dirname(inputPath));
+  const outputSubDir = path.join(outputDir, relativePath);
 
-// 更新数据文件中的图片路径
-function updateImagePaths() {
-  const dataDir = path.join(__dirname, '../src/data');
-  const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.ts'));
-  
-  console.log('\n🔄 开始更新图片路径...');
-  
-  let updatedFiles = 0;
-  
-  files.forEach(file => {
-    const filePath = path.join(dataDir, file);
-    let content = fs.readFileSync(filePath, 'utf8');
-    let hasChanges = false;
-    
-    // 将.jpg替换为.svg
-    Object.keys(imageMapping).forEach(jpgFile => {
-      const svgFile = jpgFile.replace('.jpg', '.svg');
-      const oldPath = `/images/hanabi/${jpgFile}`;
-      const newPath = `/images/hanabi/${svgFile}`;
-      
-      if (content.includes(oldPath)) {
-        content = content.replace(new RegExp(oldPath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), newPath);
-        hasChanges = true;
-      }
-    });
-    
-    if (hasChanges) {
-      fs.writeFileSync(filePath, content);
-      console.log(`✅ 更新: ${file}`);
-      updatedFiles++;
-    }
-  });
-  
-  console.log(`\n🎯 路径更新完成: ${updatedFiles} 个文件`);
-}
+  // 确保输出目录存在
+  fs.mkdirSync(outputSubDir, { recursive: true });
 
-// 生成图片优化报告
-function generateOptimizationReport() {
-  const hanabiDir = path.join(__dirname, '../public/images/hanabi');
-  const dataDir = path.join(__dirname, '../src/data');
-  
-  console.log('\n📊 生成图片优化报告...');
-  
-  // 统计现有图片
-  const existingImages = fs.readdirSync(hanabiDir);
-  const svgImages = existingImages.filter(file => file.endsWith('.svg'));
-  
-  // 扫描数据文件中的图片引用
-  const files = fs.readdirSync(dataDir).filter(file => file.endsWith('.ts'));
-  const imageReferences = new Set();
-  
-  files.forEach(file => {
-    const content = fs.readFileSync(path.join(dataDir, file), 'utf8');
-    const matches = content.match(/\/images\/hanabi\/[^'"\s]+/g);
-    if (matches) {
-      matches.forEach(match => imageReferences.add(match));
-    }
-  });
-  
-  console.log('\n📈 优化报告:');
-  console.log(`📁 现有SVG图片: ${svgImages.length} 个`);
-  console.log(`🔗 数据文件引用: ${imageReferences.size} 个`);
-  console.log(`✨ 占位符映射: ${Object.keys(imageMapping).length} 个`);
-  
-  // 检查缺失的图片
-  const missingImages = [];
-  imageReferences.forEach(ref => {
-    const filename = path.basename(ref);
-    if (!existingImages.includes(filename)) {
-      missingImages.push(filename);
-    }
-  });
-  
-  if (missingImages.length > 0) {
-    console.log(`\n⚠️  缺失图片: ${missingImages.length} 个`);
-    missingImages.forEach(img => console.log(`   - ${img}`));
-  } else {
-    console.log('\n✅ 所有图片资源完整');
-  }
-}
-
-// 主执行函数
-function optimizeImages() {
-  console.log('🚀 启动专业图片优化系统...\n');
-  
   try {
-    generatePlaceholderImages();
-    updateImagePaths();
-    generateOptimizationReport();
-    
-    console.log('\n🎉 图片优化完成！网站性能已提升。');
+    const image = sharp(inputPath);
+    const metadata = await image.metadata();
+
+    console.log(`处理: ${inputPath}`);
+    console.log(
+      `原始尺寸: ${metadata.width}x${metadata.height}, 大小: ${metadata.size} bytes`
+    );
+
+    for (const size of CONFIG.sizes) {
+      for (const format of CONFIG.formats) {
+        const outputPath = path.join(
+          outputSubDir,
+          `${filename}-${size.name}.${format}`
+        );
+
+        await image
+          .resize(size.width, size.height, {
+            fit: 'cover',
+            position: 'center',
+          })
+          .toFormat(format, {
+            quality: CONFIG.qualities[format],
+            progressive: true,
+            mozjpeg: format === 'jpeg',
+          })
+          .toFile(outputPath);
+
+        const stats = fs.statSync(outputPath);
+        console.log(`  生成: ${outputPath} (${stats.size} bytes)`);
+      }
+    }
+
+    // 生成原始尺寸的WebP版本
+    const originalWebP = path.join(outputSubDir, `${filename}-original.webp`);
+    await image
+      .toFormat('webp', { quality: CONFIG.qualities.webp })
+      .toFile(originalWebP);
+
+    const webpStats = fs.statSync(originalWebP);
+    console.log(`  原始WebP: ${originalWebP} (${webpStats.size} bytes)`);
   } catch (error) {
-    console.error('❌ 优化过程中出现错误:', error);
+    console.error(`处理失败 ${inputPath}:`, error.message);
   }
 }
 
-// 如果直接运行此脚本
-if (require.main === module) {
-  optimizeImages();
+// 生成图片映射文件
+function generateImageMap(outputDir) {
+  const imageMap = {};
+
+  function scanDir(dir, prefix = '') {
+    const items = fs.readdirSync(dir, { withFileTypes: true });
+
+    for (const item of items) {
+      const fullPath = path.join(dir, item.name);
+      if (item.isDirectory()) {
+        scanDir(fullPath, prefix + item.name + '/');
+      } else if (/\.(webp|jpeg)$/i.test(item.name)) {
+        const key = prefix + item.name;
+        const relativePath = path.relative('./public', fullPath);
+        imageMap[key] = `/${relativePath.replace(/\\/g, '/')}`;
+      }
+    }
+  }
+
+  scanDir(outputDir);
+
+  const mapPath = './src/config/image-map.json';
+  fs.writeFileSync(mapPath, JSON.stringify(imageMap, null, 2));
+  console.log(`图片映射文件已生成: ${mapPath}`);
 }
 
-module.exports = { optimizeImages, createHanabiPlaceholderSVG, imageMapping }; 
+// 主函数
+async function main() {
+  console.log('开始图片优化...');
+
+  // 创建输出目录
+  fs.mkdirSync(CONFIG.outputDir, { recursive: true });
+
+  // 获取所有图片文件
+  const imageFiles = getImageFiles(CONFIG.inputDir);
+  console.log(`找到 ${imageFiles.length} 个图片文件`);
+
+  // 优化所有图片
+  for (const imagePath of imageFiles) {
+    await optimizeImage(imagePath, CONFIG.outputDir);
+  }
+
+  // 生成图片映射
+  generateImageMap(CONFIG.outputDir);
+
+  console.log('图片优化完成！');
+}
+
+// 运行脚本
+if (process.argv[1] === new URL(import.meta.url).pathname) {
+  main().catch(console.error);
+}
+
+export { generateImageMap, optimizeImage };
