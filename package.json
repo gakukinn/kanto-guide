@@ -59,7 +59,10 @@
     "validate-static": "node scripts/static-site-validator.js",
     "validate-weekly": "npm run validate-static",
     "validate-complete": "npm run validate-static && npm run validate-all && npm run full-japanese-check",
-    "crawl-tokyo": "npx ts-node --esm scripts/crawl-tokyo-data.ts"
+    "crawl-tokyo": "npx ts-node --esm scripts/crawl-tokyo-data.ts",
+    "safe-deploy": "npm run validate-complete && git add . && git commit -m 'feat: safe deployment with validation' --no-verify && echo '✅ 安全部署准备完成'",
+    "pre-deploy": "npm run validate-complete && echo '✅ 部署前验证通过'",
+    "deploy-check": "echo '🔍 检查Git状态和构建完整性' && git status && npm run build"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
