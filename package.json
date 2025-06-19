@@ -62,7 +62,12 @@
     "crawl-tokyo": "npx ts-node --esm scripts/crawl-tokyo-data.ts",
     "safe-deploy": "npm run validate-complete && git add . && git commit -m 'feat: safe deployment with validation' --no-verify && echo '✅ 安全部署准备完成'",
     "pre-deploy": "npm run validate-complete && echo '✅ 部署前验证通过'",
-    "deploy-check": "echo '🔍 检查Git状态和构建完整性' && git status && npm run build"
+    "deploy-check": "echo '🔍 检查Git状态和构建完整性' && git status && npm run build",
+    "backup": "node scripts/auto-backup.js create",
+    "backup:list": "node scripts/auto-backup.js list",
+    "backup:clean": "node scripts/auto-backup.js clean",
+    "backup:restore": "node scripts/auto-backup.js restore",
+    "backup:deploy": "npm run backup && npm run pre-deploy"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
