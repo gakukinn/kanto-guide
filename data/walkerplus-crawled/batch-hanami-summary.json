@@ -1,0 +1,499 @@
+{
+  "metadata": {
+    "batchType": "hanami",
+    "technology": "Playwright + Cheerio (Precise)",
+    "level": "三層",
+    "commercial": "真实数据，严禁编造",
+    "processedAt": "2025-06-18T09:45:46.680Z",
+    "duration": "47秒",
+    "totalRegions": 6,
+    "successCount": 6,
+    "failCount": 0,
+    "totalSpots": 60
+  },
+  "regions": {
+    "ar0313": {
+      "regionName": "东京都",
+      "success": true,
+      "dataCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0313-hanami-precise-2025-06-18T09-45-03Z.json",
+      "scrapedAt": "2025-06-18T09:45:03.644Z",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "六本木ヒルズ 毛利庭園・六本木さくら坂の桜",
+          "location": "港区",
+          "wantToVisit": "16",
+          "haveVisited": "12"
+        },
+        {
+          "rank": 2,
+          "name": "戸山公園の桜",
+          "location": "新宿区",
+          "wantToVisit": "13",
+          "haveVisited": "18"
+        },
+        {
+          "rank": 3,
+          "name": "目黒川の桜",
+          "location": "目黒区",
+          "wantToVisit": "173",
+          "haveVisited": "118"
+        }
+      ]
+    },
+    "ar0314": {
+      "regionName": "神奈川县",
+      "success": true,
+      "dataCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0314-hanami-precise-2025-06-18T09-45-12Z.json",
+      "scrapedAt": "2025-06-18T09:45:12.332Z",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "二ヶ領用水宿河原堀の桜",
+          "location": "神奈川県・川崎市多摩区",
+          "wantToVisit": "74",
+          "haveVisited": "93"
+        },
+        {
+          "rank": 2,
+          "name": "県立三ツ池公園の桜",
+          "location": "神奈川県・横浜市鶴見区",
+          "wantToVisit": "96",
+          "haveVisited": "79"
+        },
+        {
+          "rank": 3,
+          "name": "建長寺の桜",
+          "location": "神奈川県・鎌倉市",
+          "wantToVisit": "5",
+          "haveVisited": "19"
+        }
+      ]
+    },
+    "ar0312": {
+      "regionName": "千叶县",
+      "success": true,
+      "dataCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0312-hanami-precise-2025-06-18T09-45-20Z.json",
+      "scrapedAt": "2025-06-18T09:45:20.878Z",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "千葉公園の桜",
+          "location": "千葉県・千葉市中央区",
+          "wantToVisit": "30",
+          "haveVisited": "28"
+        },
+        {
+          "rank": 2,
+          "name": "佐倉ふるさと広場の桜",
+          "location": "千葉県・佐倉市",
+          "wantToVisit": "4",
+          "haveVisited": "7"
+        },
+        {
+          "rank": 3,
+          "name": "本土寺の桜",
+          "location": "千葉県・松戸市",
+          "wantToVisit": "5",
+          "haveVisited": "5"
+        }
+      ]
+    },
+    "ar0311": {
+      "regionName": "埼玉县",
+      "success": true,
+      "dataCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0311-hanami-precise-2025-06-18T09-45-29Z.json",
+      "scrapedAt": "2025-06-18T09:45:29.431Z",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "幸手権現堂桜堤(県営権現堂公園)の桜",
+          "location": "埼玉県・幸手市",
+          "wantToVisit": "584",
+          "haveVisited": "582"
+        },
+        {
+          "rank": 2,
+          "name": "古代蓮の里の桜",
+          "location": "埼玉県・行田市",
+          "wantToVisit": "6",
+          "haveVisited": "6"
+        },
+        {
+          "rank": 3,
+          "name": "元荒川の桜並木の桜",
+          "location": "埼玉県・鴻巣市",
+          "wantToVisit": "38",
+          "haveVisited": "28"
+        }
+      ]
+    },
+    "ar0300": {
+      "regionName": "北关东",
+      "success": true,
+      "dataCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0300-hanami-precise-2025-06-18T09-45-37Z.json",
+      "scrapedAt": "2025-06-18T09:45:37.987Z",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "六本木ヒルズ 毛利庭園・六本木さくら坂の桜",
+          "location": "港区",
+          "wantToVisit": "16",
+          "haveVisited": "12"
+        },
+        {
+          "rank": 2,
+          "name": "幸手権現堂桜堤(県営権現堂公園)の桜",
+          "location": "埼玉県・幸手市",
+          "wantToVisit": "584",
+          "haveVisited": "582"
+        },
+        {
+          "rank": 3,
+          "name": "戸山公園の桜",
+          "location": "新宿区",
+          "wantToVisit": "13",
+          "haveVisited": "18"
+        }
+      ]
+    },
+    "ar0400": {
+      "regionName": "甲信越",
+      "success": true,
+      "dataCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0400-hanami-precise-2025-06-18T09-45-46Z.json",
+      "scrapedAt": "2025-06-18T09:45:46.673Z",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "山高神代桜",
+          "location": "山梨県・北杜市",
+          "wantToVisit": "447",
+          "haveVisited": "452"
+        },
+        {
+          "rank": 2,
+          "name": "弘法山古墳の桜",
+          "location": "長野県・松本市",
+          "wantToVisit": "69",
+          "haveVisited": "61"
+        },
+        {
+          "rank": 3,
+          "name": "光城山の桜",
+          "location": "長野県・安曇野市",
+          "wantToVisit": "35",
+          "haveVisited": "29"
+        }
+      ]
+    }
+  },
+  "regionalStats": [
+    {
+      "regionCode": "ar0313",
+      "regionName": "东京都",
+      "spotCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0313-hanami-precise-2025-06-18T09-45-03Z.json",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "六本木ヒルズ 毛利庭園・六本木さくら坂の桜",
+          "location": "港区",
+          "wantToVisit": "16",
+          "haveVisited": "12"
+        },
+        {
+          "rank": 2,
+          "name": "戸山公園の桜",
+          "location": "新宿区",
+          "wantToVisit": "13",
+          "haveVisited": "18"
+        },
+        {
+          "rank": 3,
+          "name": "目黒川の桜",
+          "location": "目黒区",
+          "wantToVisit": "173",
+          "haveVisited": "118"
+        }
+      ]
+    },
+    {
+      "regionCode": "ar0314",
+      "regionName": "神奈川县",
+      "spotCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0314-hanami-precise-2025-06-18T09-45-12Z.json",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "二ヶ領用水宿河原堀の桜",
+          "location": "神奈川県・川崎市多摩区",
+          "wantToVisit": "74",
+          "haveVisited": "93"
+        },
+        {
+          "rank": 2,
+          "name": "県立三ツ池公園の桜",
+          "location": "神奈川県・横浜市鶴見区",
+          "wantToVisit": "96",
+          "haveVisited": "79"
+        },
+        {
+          "rank": 3,
+          "name": "建長寺の桜",
+          "location": "神奈川県・鎌倉市",
+          "wantToVisit": "5",
+          "haveVisited": "19"
+        }
+      ]
+    },
+    {
+      "regionCode": "ar0312",
+      "regionName": "千叶县",
+      "spotCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0312-hanami-precise-2025-06-18T09-45-20Z.json",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "千葉公園の桜",
+          "location": "千葉県・千葉市中央区",
+          "wantToVisit": "30",
+          "haveVisited": "28"
+        },
+        {
+          "rank": 2,
+          "name": "佐倉ふるさと広場の桜",
+          "location": "千葉県・佐倉市",
+          "wantToVisit": "4",
+          "haveVisited": "7"
+        },
+        {
+          "rank": 3,
+          "name": "本土寺の桜",
+          "location": "千葉県・松戸市",
+          "wantToVisit": "5",
+          "haveVisited": "5"
+        }
+      ]
+    },
+    {
+      "regionCode": "ar0311",
+      "regionName": "埼玉县",
+      "spotCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0311-hanami-precise-2025-06-18T09-45-29Z.json",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "幸手権現堂桜堤(県営権現堂公園)の桜",
+          "location": "埼玉県・幸手市",
+          "wantToVisit": "584",
+          "haveVisited": "582"
+        },
+        {
+          "rank": 2,
+          "name": "古代蓮の里の桜",
+          "location": "埼玉県・行田市",
+          "wantToVisit": "6",
+          "haveVisited": "6"
+        },
+        {
+          "rank": 3,
+          "name": "元荒川の桜並木の桜",
+          "location": "埼玉県・鴻巣市",
+          "wantToVisit": "38",
+          "haveVisited": "28"
+        }
+      ]
+    },
+    {
+      "regionCode": "ar0300",
+      "regionName": "北关东",
+      "spotCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0300-hanami-precise-2025-06-18T09-45-37Z.json",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "六本木ヒルズ 毛利庭園・六本木さくら坂の桜",
+          "location": "港区",
+          "wantToVisit": "16",
+          "haveVisited": "12"
+        },
+        {
+          "rank": 2,
+          "name": "幸手権現堂桜堤(県営権現堂公園)の桜",
+          "location": "埼玉県・幸手市",
+          "wantToVisit": "584",
+          "haveVisited": "582"
+        },
+        {
+          "rank": 3,
+          "name": "戸山公園の桜",
+          "location": "新宿区",
+          "wantToVisit": "13",
+          "haveVisited": "18"
+        }
+      ]
+    },
+    {
+      "regionCode": "ar0400",
+      "regionName": "甲信越",
+      "spotCount": 10,
+      "savedFile": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0400-hanami-precise-2025-06-18T09-45-46Z.json",
+      "topSpots": [
+        {
+          "rank": 1,
+          "name": "山高神代桜",
+          "location": "山梨県・北杜市",
+          "wantToVisit": "447",
+          "haveVisited": "452"
+        },
+        {
+          "rank": 2,
+          "name": "弘法山古墳の桜",
+          "location": "長野県・松本市",
+          "wantToVisit": "69",
+          "haveVisited": "61"
+        },
+        {
+          "rank": 3,
+          "name": "光城山の桜",
+          "location": "長野県・安曇野市",
+          "wantToVisit": "35",
+          "haveVisited": "29"
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "summary": {
+    "mostPopularSpots": [
+      {
+        "rank": 1,
+        "name": "幸手権現堂桜堤(県営権現堂公園)の桜",
+        "location": "埼玉県・幸手市",
+        "wantToVisit": "584",
+        "haveVisited": "582",
+        "regionName": "埼玉县",
+        "totalVotes": 1166
+      },
+      {
+        "rank": 2,
+        "name": "幸手権現堂桜堤(県営権現堂公園)の桜",
+        "location": "埼玉県・幸手市",
+        "wantToVisit": "584",
+        "haveVisited": "582",
+        "regionName": "北关东",
+        "totalVotes": 1166
+      },
+      {
+        "rank": 1,
+        "name": "山高神代桜",
+        "location": "山梨県・北杜市",
+        "wantToVisit": "447",
+        "haveVisited": "452",
+        "regionName": "甲信越",
+        "totalVotes": 899
+      },
+      {
+        "rank": 3,
+        "name": "目黒川の桜",
+        "location": "目黒区",
+        "wantToVisit": "173",
+        "haveVisited": "118",
+        "regionName": "东京都",
+        "totalVotes": 291
+      },
+      {
+        "rank": 2,
+        "name": "県立三ツ池公園の桜",
+        "location": "神奈川県・横浜市鶴見区",
+        "wantToVisit": "96",
+        "haveVisited": "79",
+        "regionName": "神奈川县",
+        "totalVotes": 175
+      },
+      {
+        "rank": 1,
+        "name": "二ヶ領用水宿河原堀の桜",
+        "location": "神奈川県・川崎市多摩区",
+        "wantToVisit": "74",
+        "haveVisited": "93",
+        "regionName": "神奈川县",
+        "totalVotes": 167
+      },
+      {
+        "rank": 2,
+        "name": "弘法山古墳の桜",
+        "location": "長野県・松本市",
+        "wantToVisit": "69",
+        "haveVisited": "61",
+        "regionName": "甲信越",
+        "totalVotes": 130
+      },
+      {
+        "rank": 3,
+        "name": "元荒川の桜並木の桜",
+        "location": "埼玉県・鴻巣市",
+        "wantToVisit": "38",
+        "haveVisited": "28",
+        "regionName": "埼玉县",
+        "totalVotes": 66
+      },
+      {
+        "rank": 3,
+        "name": "光城山の桜",
+        "location": "長野県・安曇野市",
+        "wantToVisit": "35",
+        "haveVisited": "29",
+        "regionName": "甲信越",
+        "totalVotes": 64
+      },
+      {
+        "rank": 1,
+        "name": "千葉公園の桜",
+        "location": "千葉県・千葉市中央区",
+        "wantToVisit": "30",
+        "haveVisited": "28",
+        "regionName": "千叶县",
+        "totalVotes": 58
+      }
+    ],
+    "regionComparison": [
+      {
+        "regionName": "东京都",
+        "spotCount": 10,
+        "avgRanking": "100.0%"
+      },
+      {
+        "regionName": "神奈川县",
+        "spotCount": 10,
+        "avgRanking": "100.0%"
+      },
+      {
+        "regionName": "千叶县",
+        "spotCount": 10,
+        "avgRanking": "100.0%"
+      },
+      {
+        "regionName": "埼玉县",
+        "spotCount": 10,
+        "avgRanking": "100.0%"
+      },
+      {
+        "regionName": "北关东",
+        "spotCount": 10,
+        "avgRanking": "100.0%"
+      },
+      {
+        "regionName": "甲信越",
+        "spotCount": 10,
+        "avgRanking": "100.0%"
+      }
+    ]
+  }
+}

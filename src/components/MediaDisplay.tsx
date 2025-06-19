@@ -29,6 +29,7 @@ export default function MediaDisplay({
 }: MediaDisplayProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [imageError, setImageError] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   if (!media || media.length === 0) {
     // 如果没有媒体内容，显示专业级默认占位符
@@ -47,11 +48,23 @@ export default function MediaDisplay({
     );
   }
 
-  // 只取第一个媒体项
-  const currentMedia = media[0];
+  // 使用当前索引的媒体项，支持多张图片切换
+  const currentMedia = media[currentIndex];
 
   const handlePlay = () => {
     setIsPlaying(!isPlaying);
+  };
+
+  // 切换到上一张图片
+  const handlePrevious = () => {
+    setCurrentIndex(prev => (prev - 1 + media.length) % media.length);
+    setImageError(false); // 重置错误状态
+  };
+
+  // 切换到下一张图片
+  const handleNext = () => {
+    setCurrentIndex(prev => (prev + 1) % media.length);
+    setImageError(false); // 重置错误状态
   };
 
   return (
@@ -152,6 +165,73 @@ export default function MediaDisplay({
                 />
               )}
             </div>
+          )}
+
+          {/* 多张图片时显示切换按钮和指示器 */}
+          {media.length > 1 && (
+            <>
+              {/* 左右切换按钮 */}
+              <button
+                onClick={handlePrevious}
+                className="absolute left-4 top-1/2 -translate-y-1/2 rounded-full bg-black/50 p-2 text-white transition-all hover:scale-110 hover:bg-black/70"
+              >
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M15 19l-7-7 7-7"
+                  />
+                </svg>
+              </button>
+
+              <button
+                onClick={handleNext}
+                className="absolute right-4 top-1/2 -translate-y-1/2 rounded-full bg-black/50 p-2 text-white transition-all hover:scale-110 hover:bg-black/70"
+              >
+                <svg
+                  className="h-6 w-6"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+
+              {/* 图片指示器 */}
+              <div className="absolute bottom-4 left-1/2 flex -translate-x-1/2 space-x-2">
+                {media.map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => {
+                      setCurrentIndex(index);
+                      setImageError(false);
+                    }}
+                    className={`h-2 w-2 rounded-full transition-all ${
+                      index === currentIndex
+                        ? 'scale-125 bg-white'
+                        : 'bg-white/50 hover:bg-white/80'
+                    }`}
+                  />
+                ))}
+              </div>
+
+              {/* 图片计数器 */}
+              <div className="absolute right-4 top-4 rounded bg-black/60 px-2 py-1 text-xs text-white">
+                {currentIndex + 1} / {media.length}
+              </div>
+            </>
           )}
         </div>
 

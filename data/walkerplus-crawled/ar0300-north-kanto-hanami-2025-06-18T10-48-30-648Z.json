@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "regionCode": "ar0300",
+    "regionName": "北关东",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0300/",
+    "scrapedAt": "2025-06-18T10:48:30.648Z",
+    "totalResults": 1,
+    "technology": "Playwright + Cheerio (Multi-Page)",
+    "commercial": "真实数据，严禁编造",
+    "precision": "从关东地区数据中筛选北关东三县",
+    "quality": "仅包含茨城县、栃木县、群马县的真实花见地点数据",
+    "filterCriteria": [
+      "茨城県",
+      "栃木県",
+      "群馬県"
+    ]
+  },
+  "data": [
+    {
+      "rank": 1,
+      "name": "雨引観音の桜",
+      "location": "桜川市",
+      "viewingSeason": "3月下旬",
+      "wantToVisit": "55",
+      "haveVisited": "63",
+      "subTitle": "放し飼いにされた孔雀と共に満開の桜を愛でる",
+      "prefecture": "茨城县",
+      "regionCode": "ar0300",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0308e25718/",
+      "scrapedAt": "2025-06-18T10:48:30.603Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0300/"
+    }
+  ]
+}

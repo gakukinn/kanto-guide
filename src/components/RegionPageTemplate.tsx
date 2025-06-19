@@ -26,56 +26,58 @@ interface RegionConfig {
     description: string;
     emoji: string;
     bgColor: string;
+    detailLink?: string;
+    imageUrl?: string;
   }>;
 }
 
-// 活动类型配置（统一配置）
+// 活动类型配置
 const activityTypes = {
   matsuri: {
     name: '传统祭典',
     emoji: '🏮',
-    description: '神社祭典与传统文化体验',
-    bgColor: 'from-red-50 to-red-100',
-    borderColor: 'border-red-200/60',
+    description: '传统祭典庆典，感受文化魅力',
+    bgColor: 'from-yellow-100 to-orange-100',
+    borderColor: 'border-yellow-200',
   },
   hanami: {
-    name: '花見会',
+    name: '花见会',
     emoji: '🌸',
-    description: '春季赏花聚会体验',
-    bgColor: 'from-pink-50 to-pink-100',
-    borderColor: 'border-pink-200/60',
+    description: '春日樱花盛开，诗意赏花之旅',
+    bgColor: 'from-pink-100 to-rose-100',
+    borderColor: 'border-pink-200',
   },
   hanabi: {
     name: '花火大会',
     emoji: '🎆',
-    description: '夏季烟花节庆的璀璨夜空',
-    bgColor: 'from-blue-50 to-blue-100',
-    borderColor: 'border-blue-200/60',
+    description: '夏夜绚烂烟花，璀璨夜空盛宴',
+    bgColor: 'from-red-100 to-pink-100',
+    borderColor: 'border-red-200',
   },
   culture: {
     name: '文化艺术',
     emoji: '🎨',
-    description: '美术馆博物馆精彩展览',
-    bgColor: 'from-green-50 to-green-100',
-    borderColor: 'border-green-200/60',
+    description: '深度文化体验，艺术品味之旅',
+    bgColor: 'from-green-100 to-teal-100',
+    borderColor: 'border-green-200',
   },
   momiji: {
     name: '红叶狩',
     emoji: '🍁',
-    description: '秋季红叶观赏的传统活动',
-    bgColor: 'from-orange-50 to-orange-100',
-    borderColor: 'border-orange-200/60',
+    description: '秋日红叶如画，层林尽染之美',
+    bgColor: 'from-orange-100 to-red-100',
+    borderColor: 'border-orange-200',
   },
   illumination: {
     name: '灯光秀',
     emoji: '✨',
-    description: '点灯活动与夜间灯光秀',
-    bgColor: 'from-purple-50 to-purple-100',
-    borderColor: 'border-purple-200/60',
+    description: '璀璨灯光艺术，梦幻夜景体验',
+    bgColor: 'from-purple-100 to-blue-100',
+    borderColor: 'border-purple-200',
   },
 };
 
-// 地区标题颜色配置
+// 地区标题渐变色配置
 const getRegionTitleGradient = (regionKey: string) => {
   const gradients = {
     tokyo: 'from-red-600 via-rose-500 to-orange-600',
@@ -180,6 +182,7 @@ export default function RegionPageTemplate({
         <div className="delay-2000 absolute bottom-1/4 left-1/4 h-40 w-40 animate-pulse rounded-full bg-white/10 blur-2xl"></div>
         <div className="absolute bottom-10 right-10 h-28 w-28 animate-pulse rounded-full bg-white/25 blur-xl delay-500"></div>
       </div>
+
       {/* 面包屑导航 */}
       <nav className="relative z-20 pb-2 pt-4">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -201,7 +204,7 @@ export default function RegionPageTemplate({
       {/* 主要内容 */}
       <main className="relative z-10">
         {/* 标题区域 */}
-        <section className="bg-gradient-to-b from-white/50 to-white/30 pb-16 pt-12 text-center backdrop-blur-sm">
+        <section className="bg-gradient-to-b from-white/60 to-white/40 pb-8 pt-12 text-center backdrop-blur-sm">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <div className="mb-6 flex items-center justify-center space-x-10">
               <div className="transform text-8xl drop-shadow-2xl filter transition-transform duration-300 hover:scale-110 hover:brightness-110">
@@ -218,8 +221,14 @@ export default function RegionPageTemplate({
           </div>
         </section>
 
+        {/* 热门推荐区域 - 移动到顶部 */}
+        <FeaturedActivities
+          region={config.name}
+          activities={config.featuredActivities}
+        />
+
         {/* 活动类型选择 */}
-        <section className="bg-gradient-to-b from-white/40 to-white/20 py-16 backdrop-blur-sm">
+        <section className="bg-gradient-to-b from-white/30 to-white/20 py-16 backdrop-blur-sm">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mb-16 text-center">
               <h2 className="mb-6 text-4xl font-bold tracking-wide text-gray-800">
@@ -267,14 +276,8 @@ export default function RegionPageTemplate({
           </div>
         </section>
 
-        {/* 热门推荐区域 */}
-        <FeaturedActivities
-          region={config.name}
-          activities={config.featuredActivities}
-        />
-
         {/* 快速导航 - 地区循环 */}
-        <section className="border-t border-white/20 bg-white/10 py-8 backdrop-blur-sm">
+        <section className="bg-gradient-to-b from-white/20 to-white/10 py-12 backdrop-blur-sm">
           <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
             <div className="mb-6 text-center">
               <h3 className="text-lg font-bold text-gray-800">探索其他地区</h3>

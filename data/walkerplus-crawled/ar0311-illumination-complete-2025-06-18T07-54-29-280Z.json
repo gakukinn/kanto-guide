@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-06-18T07:54:29.280Z",
+  "source": "https://illumi.walkerplus.com/ranking/ar0311/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "埼玉県",
+  "regionCode": "ar0311",
+  "activityType": "illumination",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 2,
+    "dataFields": [
+      "name",
+      "location",
+      "date",
+      "time",
+      "lightBulbs",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "国営武蔵丘陵森林公園 スターライトイルミネーション",
+      "location": "埼玉県・比企郡滑川町 / 国営武蔵丘陵森林公園",
+      "date": "2024年12月13日(金)",
+      "time": "16:00～20:00",
+      "lightBulbs": "550,000",
+      "wantToVisit": "62",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0311e206965/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T07:54:29.277Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "イルミネーションフェスタ2024",
+      "location": "埼玉県・比企郡吉見町 / フレサよしみ(吉見町民会館)",
+      "date": "2024年12月7日(土)",
+      "time": "17:00～20:00",
+      "lightBulbs": "80,000",
+      "wantToVisit": "8",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0311e52440/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T07:54:29.280Z",
+      "rank": 2,
+      "pageIndex": 2
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://illumi.walkerplus.com/ranking/ar0311/",
+    "timestamp": "2025-06-18T07:54:29.280Z"
+  },
+  "errors": []
+}

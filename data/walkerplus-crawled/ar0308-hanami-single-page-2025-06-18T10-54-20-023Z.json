@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "regionCode": "ar0308",
+    "regionName": "茨城县",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0308/",
+    "crawlTime": "2025-06-18T10:54:20.023Z",
+    "totalCount": 2,
+    "dataStructure": "三层（地区→花见会→列表）"
+  },
+  "data": [
+    {
+      "rank": 9,
+      "name": "雨引観音の桜 放し飼いにされた孔雀と共に満開の桜を愛でる 茨城県",
+      "location": "茨城県・桜川市",
+      "viewingSeason": "3月下旬〜4月中旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "桜川市 例年の見頃：3月下旬〜4月中旬 行ってみたい：55 行ってよかった：63",
+      "prefecture": "茨城県",
+      "regionCode": "ar0308",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0308e25718/"
+    },
+    {
+      "rank": 10,
+      "name": "龍ケ崎のしだれ桜 県の天然記念物に指定された巨大なしだれ桜 茨城県",
+      "location": "茨城県・龍ケ崎市",
+      "viewingSeason": "3月中旬～3月下旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "龍ケ崎市 例年の見頃：3月中旬～3月下旬 行ってみたい：68 行ってよかった：33",
+      "prefecture": "茨城県",
+      "regionCode": "ar0308",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0308e25712/"
+    }
+  ]
+}

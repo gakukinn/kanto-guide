@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "regionCode": "ar0400",
+    "regionName": "甲信越",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0400/",
+    "crawlTime": "2025-06-18T10:59:08.053Z",
+    "totalCount": 3,
+    "dataStructure": "三层（地区→花见会→列表）",
+    "targetPrefectures": [
+      "山梨県",
+      "長野県",
+      "新潟県"
+    ]
+  },
+  "data": [
+    {
+      "rank": 8,
+      "name": "山高神代桜 日本最古",
+      "location": "山梨県・北杜市",
+      "viewingSeason": "3月下旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "最大級のエドヒガンザクラ 山梨県・北杜市 例年の見頃：3月下旬 行ってみたい：447 行ってよかった：452",
+      "prefecture": "山梨県",
+      "regionCode": "ar0400",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0419e25973/"
+    },
+    {
+      "rank": 9,
+      "name": "弘法山古墳の桜 4000本の桜が山全体を桜色に染め上げる 長野県",
+      "location": "長野県・松本市",
+      "viewingSeason": "4月上旬～4月中旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "松本市 例年の見頃：4月上旬～4月中旬 行ってみたい：69 行ってよかった：61",
+      "prefecture": "長野県",
+      "regionCode": "ar0400",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0420e60571/"
+    },
+    {
+      "rank": 10,
+      "name": "光城山の桜 咲き上がる光景が“昇り竜”に例えられる名所 長野県",
+      "location": "長野県・安曇野市",
+      "viewingSeason": "4月上旬〜4月中旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "安曇野市 例年の見頃：4月上旬〜4月中旬 行ってみたい：35 行ってよかった：29",
+      "prefecture": "長野県",
+      "regionCode": "ar0400",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0420e60570/"
+    }
+  ]
+}

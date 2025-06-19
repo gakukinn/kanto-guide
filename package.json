@@ -79,7 +79,7 @@
     "autoprefixer": "^10.4.21",
     "axios": "^1.9.0",
     "cheerio": "^1.1.0",
-    "crawlee": "^3.13.7",
+    "crawlee": "^3.13.8",
     "date-fns": "^4.1.0",
     "mcp-client": "^1.12.3",
     "next": "15.3.3",

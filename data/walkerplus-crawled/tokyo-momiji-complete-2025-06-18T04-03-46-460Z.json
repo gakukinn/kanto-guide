@@ -1,0 +1,148 @@
+{
+  "timestamp": "2025-06-18T04:03:46.460Z",
+  "source": "https://koyo.walkerplus.com/ranking/ar0313/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "東京都",
+  "activityType": "momiji",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 10,
+    "dataFields": [
+      "name",
+      "location",
+      "coloringStart",
+      "bestViewing",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "国営昭和記念公園の紅葉",
+      "location": "東京都・立川市",
+      "coloringStart": "10月下旬",
+      "bestViewing": "10月下旬～11月下旬",
+      "wantToVisit": "78",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e13052/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.449Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "文京区立肥後細川庭園の紅葉",
+      "location": "東京都・文京区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "7",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e372630/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.453Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "靖国神社の紅葉",
+      "location": "東京都・千代田区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "12",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e154522/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.454Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "小石川後楽園の紅葉",
+      "location": "東京都・文京区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "40",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e12666/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.455Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "高尾山の紅葉",
+      "location": "東京都・八王子市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～12月上旬",
+      "wantToVisit": "43",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e13090/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.455Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "芝公園の紅葉",
+      "location": "東京都・港区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月下旬",
+      "wantToVisit": "12",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e154517/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.456Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "東京都庭園美術館の紅葉",
+      "location": "東京都・港区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "12月上旬",
+      "wantToVisit": "22",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e154523/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.457Z",
+      "rank": 7,
+      "pageIndex": 7
+    },
+    {
+      "name": "大田黒公園の紅葉",
+      "location": "東京都・杉並区",
+      "coloringStart": "11月下旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "56",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e372631/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.457Z",
+      "rank": 8,
+      "pageIndex": 8
+    },
+    {
+      "name": "明治神宮外苑の紅葉",
+      "location": "東京都・新宿区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～12月上旬",
+      "wantToVisit": "26",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e12672/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.458Z",
+      "rank": 9,
+      "pageIndex": 9
+    },
+    {
+      "name": "奥多摩(奥多摩湖畔)の紅葉",
+      "location": "東京都・西多摩郡奥多摩町",
+      "coloringStart": "奥多摩湖10月中旬",
+      "bestViewing": "10月下旬～11月中旬",
+      "wantToVisit": "98",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0313e12825/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T04:03:46.459Z",
+      "rank": 10,
+      "pageIndex": 10
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://koyo.walkerplus.com/ranking/ar0313/",
+    "timestamp": "2025-06-18T04:03:46.460Z"
+  },
+  "errors": []
+}

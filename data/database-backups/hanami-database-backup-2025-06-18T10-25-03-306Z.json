@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "created": "2025-06-18T10:07:49.421Z",
+    "lastUpdated": "2025-06-18T10:07:49.421Z",
+    "version": "1.0.0",
+    "description": "日本花见活动统一数据库",
+    "dataStructure": "三层：地区 → 花见会 → 列表",
+    "totalRegions": 0,
+    "totalSpots": 0
+  },
+  "regions": {}
+}

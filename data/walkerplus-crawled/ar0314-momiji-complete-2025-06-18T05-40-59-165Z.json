@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-06-18T05:40:59.165Z",
+  "source": "https://koyo.walkerplus.com/ranking/ar0314/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "神奈川県",
+  "regionCode": "ar0314",
+  "activityType": "momiji",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 10,
+    "dataFields": [
+      "name",
+      "location",
+      "coloringStart",
+      "bestViewing",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "三溪園の紅葉",
+      "location": "神奈川県・横浜市中区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～12月中旬",
+      "wantToVisit": "78",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e123975/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.158Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "箱根美術館の紅葉",
+      "location": "神奈川県・足柄下郡箱根町",
+      "coloringStart": "11月上旬",
+      "bestViewing": "11月上旬～11月下旬",
+      "wantToVisit": "34",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e154535/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.160Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "日本大通りの紅葉",
+      "location": "神奈川県・横浜市中区",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～12月上旬",
+      "wantToVisit": "10",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e373603/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.161Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "一条恵観山荘の紅葉",
+      "location": "神奈川県・鎌倉市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～12月中旬",
+      "wantToVisit": "15",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e478572/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.161Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "生田緑地の紅葉",
+      "location": "神奈川県・川崎市多摩区",
+      "coloringStart": "11月上旬",
+      "bestViewing": "11月中旬～12月中旬",
+      "wantToVisit": "22",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e154539/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.161Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "大山寺・大山阿夫利神社下社の紅葉",
+      "location": "神奈川県・伊勢原市",
+      "coloringStart": "11月上旬～11月中旬",
+      "bestViewing": "11月中旬～11月下旬",
+      "wantToVisit": "100",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e12675/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.162Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "丹沢湖の紅葉",
+      "location": "神奈川県・足柄上郡山北町",
+      "coloringStart": "11月上旬",
+      "bestViewing": "11月上旬～11月下旬",
+      "wantToVisit": "50",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e13171/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.162Z",
+      "rank": 7,
+      "pageIndex": 7
+    },
+    {
+      "name": "鶴岡八幡宮の紅葉",
+      "location": "神奈川県・鎌倉市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "10",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e154526/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.163Z",
+      "rank": 8,
+      "pageIndex": 8
+    },
+    {
+      "name": "明月院の紅葉",
+      "location": "神奈川県・鎌倉市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月中旬",
+      "wantToVisit": "20",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e322957/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.164Z",
+      "rank": 9,
+      "pageIndex": 9
+    },
+    {
+      "name": "根岸森林公園の紅葉",
+      "location": "神奈川県・横浜市中区",
+      "coloringStart": "11月上旬〜12月上旬",
+      "bestViewing": "11月上旬～12月上旬",
+      "wantToVisit": "11",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0314e393173/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T05:40:59.164Z",
+      "rank": 10,
+      "pageIndex": 10
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://koyo.walkerplus.com/ranking/ar0314/",
+    "timestamp": "2025-06-18T05:40:59.165Z"
+  },
+  "errors": []
+}

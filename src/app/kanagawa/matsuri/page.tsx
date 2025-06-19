@@ -2,10 +2,9 @@ import MatsuriPageTemplate from '@/components/MatsuriPageTemplate';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title:
-    '神奈川传统祭典2025 - 镰仓祭湘南平塚七夕祭小田原梅祭等神奈川祭典完整攻略',
+  title: '神奈川传统祭典2025 - 湘南平塚七夕祭详细攻略',
   description:
-    '神奈川县2025年传统祭典完整指南，体验镰仓祭的古都文化、湘南平塚七夕祭的海滨风情、小田原梅祭的早春美景等15个精彩传统活动。提供详细的举办时间、观赏地点、历史文化背景、交通方式，感受湘南地区千年文化传承的精髓，探索神奈川独特的祭典魅力与海洋文化之美。',
+    '神奈川县2025年传统祭典指南，重点介绍湘南ひらつか七夕まつり这一湘南地区最大級的七夕祭典。提供详细的举办时间、观赏地点、交通方式、活动内容，感受湘南地区夏日祭典的魅力与传统文化之美。',
   keywords: [
     '神奈川传统祭典',
     '镰仓祭',
@@ -24,10 +23,9 @@ export const metadata: Metadata = {
     '文化传承',
   ],
   openGraph: {
-    title:
-      '神奈川传统祭典2025 - 镰仓祭湘南平塚七夕祭小田原梅祭等神奈川祭典完整攻略',
+    title: '神奈川传统祭典2025 - 湘南平塚七夕祭详细攻略',
     description:
-      '神奈川县2025年传统祭典完整指南，镰仓祭、湘南平塚七夕祭、小田原梅祭等15个精彩活动等您来体验。感受湘南地区千年文化传承的精髓。',
+      '神奈川县2025年传统祭典指南，湘南ひらつか七夕まつり湘南地区最大級の七夕祭典详细介绍。感受湘南地区夏日祭典的魅力与传统文化之美。',
     type: 'website',
     locale: 'zh_CN',
     url: 'https://www.kanto-travel-guide.com/kanagawa/matsuri',
@@ -43,10 +41,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title:
-      '神奈川传统祭典2025 - 镰仓祭湘南平塚七夕祭小田原梅祭等神奈川祭典完整攻略',
+    title: '神奈川传统祭典2025 - 湘南平塚七夕祭详细攻略',
     description:
-      '神奈川县2025年传统祭典完整指南，镰仓祭、湘南平塚七夕祭等15个精彩活动等您来体验。',
+      '神奈川县2025年传统祭典指南，湘南ひらつか七夕まつり湘南地区最大級の七夕祭典详细介绍。',
     images: ['/images/matsuri/kanagawa-matsuri.svg'],
   },
   alternates: {
@@ -71,7 +68,7 @@ const kanagawaRegionConfig = {
   displayName: '神奈川',
   emoji: '⛩️',
   description:
-    '神奈川县融合了古都文化与现代海滨风情，从镰仓的古刹祭典到湘南的海洋庆典，每一个祭典都展现着神奈川独特的文化魅力与历史传承。',
+    '神奈川县湘南地区举办着关东地区最大級の七夕祭典，湘南ひらつか七夕まつり以其华丽的竹饰装饰和传统文化魅力吸引着众多游客，展现着神奈川独特的夏日祭典风情。',
   navigationLinks: {
     prev: { name: '东京祭典', url: '/tokyo/matsuri', emoji: '🏮' },
     next: { name: '千叶祭典', url: '/chiba/matsuri', emoji: '🌸' },
@@ -79,79 +76,47 @@ const kanagawaRegionConfig = {
   },
 };
 
-// 神奈川祭典事件数据（基于 omaturilink.com 官方数据）
+// 神奈川祭典事件数据（仅包含有四层详情页面的活动）
 const kanagawaMatsuriEvents = [
-  {
-    id: 'kamakura-matsuri',
-    title: '镰仓祭',
-    _sourceData: {
-      japaneseName: '鎌倉祭典',
-      japaneseDescription: '鎌倉祭典',
-    },
-    englishName: 'Kamakura Festival',
-    name: '镰仓祭',
-    date: '2025-04-13',
-    dates: '2025年4月13-21日',
-    endDate: '2025-04-21',
-    location: '镰仓市',
-    venue: '鹤冈八幡宫',
-    highlights: ['🏛️ 鹤冈八幡宫', '🌸 樱花季节', '⚔️ 武士文化', '🏺 古都风情'],
-    features: ['🏛️ 鹤冈八幡宫', '🌸 樱花季节', '⚔️ 武士文化', '🏺 古都风情'],
-    likes: 456,
-    website: 'https://www.city.kamakura.kanagawa.jp/',
-    description:
-      '镰仓祭在樱花盛开的季节举行，以鹤冈八幡宫为中心展开的传统祭典。古都镰仓的武士文化与佛教传统在此融合，展现日本历史文化的深厚底蕴。',
-    category: '古都祭典',
-    prefecture: '神奈川县',
-    region: 'kanagawa',
-  },
   {
     id: 'hiratsuka-tanabata',
     title: '湘南平塚七夕祭',
     _sourceData: {
-      japaneseName: '湘南平塚七夕祭典',
-      japaneseDescription: '湘南平塚七夕祭典',
+      japaneseName: '湘南ひらつか七夕まつり',
+      japaneseDescription: '湘南ひらつか七夕まつり',
     },
     englishName: 'Shonan Hiratsuka Tanabata Festival',
     name: '湘南平塚七夕祭',
     date: '2025-07-04',
     dates: '2025年7月4-6日',
     endDate: '2025-07-06',
-    location: '平塚市',
-    venue: '平塚市中心商店街',
-    highlights: ['🎋 七夕装饰', '🌊 湘南海滨', '🎨 竹饰艺术', '🌟 夏日庆典'],
-    features: ['🎋 七夕装饰', '🌊 湘南海滨', '🎨 竹饰艺术', '🌟 夏日庆典'],
-    likes: 378,
-    website: 'https://www.hiratsuka-tanabata.com/',
+    location: '神奈川県平塚市',
+    venue: 'ＪＲ平塚駅北口商店街を中心とする市内各所',
+    highlights: [
+      '🎋 华やかな七夕装飾',
+      '🌊 湘南地区最大級',
+      '🎨 商店街を彩る竹飾り',
+      '🌟 約500店舗の出店',
+    ],
+    features: [
+      '🎋 华やかな七夕装飾',
+      '🌊 湘南地区最大級',
+      '🎨 商店街を彩る竹飾り',
+      '🌟 約500店舗の出店',
+    ],
+    likes: 1250,
+    website: 'https://www.jalan.net/event/evt_343917/',
     description:
-      '湘南平塚七夕祭是关东地区最大规模的七夕祭典，华丽的竹饰装饰覆盖整个商店街。夏日海滨城市的浪漫氛围与传统七夕文化完美结合。',
-    category: '七夕祭典',
-    prefecture: '神奈川县',
+      '湘南ひらつか七夕まつりは神奈川県平塚市で毎年7月に開催される湘南地区最大級の七夕祭りです。ＪＲ平塚駅北口商店街を中心とする市内各所が色とりどりの美しい七夕装飾で彩られ、約500店舗が出店する賑やかなお祭りです。',
+    category: '七夕祭り',
+    prefecture: '神奈川県',
     region: 'kanagawa',
-  },
-  {
-    id: 'odawara-ume-matsuri',
-    title: '小田原梅祭',
-    _sourceData: {
-      japaneseName: '小田原梅祭典',
-      japaneseDescription: '小田原梅祭典',
-    },
-    englishName: 'Odawara Plum Festival',
-    name: '小田原梅祭',
-    date: '2025-02-01',
-    dates: '2025年2月1日-3月2日',
-    endDate: '2025-03-02',
-    location: '小田原市',
-    venue: '曾我梅林',
-    highlights: ['🌸 梅花盛开', '🏔️ 富士山景', '🌱 早春风景', '📸 摄影胜地'],
-    features: ['🌸 梅花盛开', '🏔️ 富士山景', '🌱 早春风景', '📸 摄影胜地'],
-    likes: 298,
-    website: 'https://www.city.odawara.kanagawa.jp/',
-    description:
-      '小田原梅祭在早春时节举行，曾我梅林的梅花与远山的富士山构成绝美景色。这是神奈川县迎接春天的传统祭典，梅花香气弥漫整个山谷。',
-    category: '花祭',
-    prefecture: '神奈川县',
-    region: 'kanagawa',
+    detailLink: '/kanagawa/matsuri/hiratsuka-tanabata',
+    organizer: '湘南ひらつか七夕まつり実行委員会',
+    contact:
+      '湘南ひらつか七夕まつり実行委員会（平塚市商業観光課内）　0463-35-8107',
+    access: 'ＪＲ東海道本線「平塚駅」から徒歩2分',
+    schedule: '七夕まつり終了時間/20:00（最終日は19:00）',
   },
 ];
 
@@ -160,8 +125,8 @@ export default function KanagawaMatsuri() {
     <MatsuriPageTemplate
       region={kanagawaRegionConfig}
       events={kanagawaMatsuriEvents}
-      pageTitle="神奈川传统祭典"
-      pageDescription="体验神奈川古都文化与海滨风情，镰仓祭、湘南平塚七夕祭等知名祭典汇聚神奈川"
+      pageTitle="神奈川传统祭典活动列表"
+      pageDescription="体验神奈川湘南地区最大級の七夕祭典，湘南ひらつか七夕まつり华丽竹饰装饰与传统文化魅力"
       regionKey="kanagawa"
       activityKey="matsuri"
     />

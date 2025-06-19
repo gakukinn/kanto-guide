@@ -1,0 +1,35 @@
+{
+  "metadata": {
+    "created": "2025-06-18T10:07:49.421Z",
+    "lastUpdated": "2025-06-18T10:25:03.308Z",
+    "version": "1.0.0",
+    "description": "日本花见活动统一数据库",
+    "dataStructure": "三层：地区 → 花见会 → 列表",
+    "totalRegions": 1,
+    "totalSpots": 1
+  },
+  "regions": {
+    "ar0313": {
+      "regionName": "东京都",
+      "spots": [
+        {
+          "rank": 0,
+          "name": "最近見た桜名所・お花見スポットページはありません。",
+          "location": "地点待确认",
+          "viewingSeason": "时期待确认",
+          "detailUrl": "",
+          "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0313/",
+          "scrapedAt": "2025-06-18T10:25:03.265Z"
+        }
+      ],
+      "lastUpdated": "2025-06-18T10:25:03.306Z",
+      "metadata": {
+        "totalSpots": 1,
+        "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0313/",
+        "scrapedAt": "2025-06-18T10:25:03.305Z",
+        "technology": "Playwright + Cheerio",
+        "commercial": "真实数据，严禁编造"
+      }
+    }
+  }
+}

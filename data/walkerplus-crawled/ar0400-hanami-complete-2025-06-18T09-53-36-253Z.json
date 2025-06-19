@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "regionCode": "ar0400",
+    "regionName": "甲信越",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0400/",
+    "scrapedAt": "2025-06-18T09:53:36.193Z",
+    "technology": "Playwright + Cheerio",
+    "commercial": "真实数据，严禁编造"
+  },
+  "data": []
+}

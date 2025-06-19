@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-06-18T07:55:19.270Z",
+  "source": "https://illumi.walkerplus.com/ranking/ar0400/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "甲信越",
+  "regionCode": "ar0400",
+  "activityType": "illumination",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 7,
+    "dataFields": [
+      "name",
+      "location",
+      "date",
+      "time",
+      "lightBulbs",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "軽井沢白糸の滝・真冬のライトアップ ’24～’25",
+      "location": "甲信越内",
+      "date": "2024年12月20日(金)～2025年2月11日",
+      "time": "17:00〜19:00。バレンタインセッション17:30～19:30",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "17",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0420e216136/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T07:55:19.266Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "樫山工業イルミネーション 2024-2025 “不思議の国のアリス”",
+      "location": "甲信越内",
+      "date": "2024年11月14日(木)～2025年2月28日",
+      "time": "16:30～24:00",
+      "lightBulbs": "250,000",
+      "wantToVisit": "6",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0420e206232/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T07:55:19.267Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "天空の楽園 NIGHT TOUR(ナイトツアー) ウインター営業",
+      "location": "甲信越内",
+      "date": "2024年12月21日(土)～2025年3月30日",
+      "time": "18:00～19:30",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "9",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0420e211897/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T07:55:19.268Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "ワインリゾートクリスマス2024",
+      "location": "甲信越内",
+      "date": "2024年12月1日(日)",
+      "time": "22:00 ワインリゾートクリスマスは14:00～22:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "19",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0419e417125/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T07:55:19.268Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "軽井沢ウィンターフェスティバル2024",
+      "location": "甲信越内",
+      "date": "2024年11月23日(祝)～2025年2月28日",
+      "time": "16:30～23:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "12",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0420e208498/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T07:55:19.269Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "Azumino.光のページェント",
+      "location": "甲信越内",
+      "date": "2024年12月7日(土)～2025年1月31日",
+      "time": "17:00～22:30",
+      "lightBulbs": "150,000",
+      "wantToVisit": "38",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0420e378771/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T07:55:19.269Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "松本市イルミネーション2024-2025",
+      "location": "甲信越内",
+      "date": "2024年12月14日(土)～2025年2月16日",
+      "time": "18:00～22:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "11",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0420e450307/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T07:55:19.269Z",
+      "rank": 7,
+      "pageIndex": 7
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://illumi.walkerplus.com/ranking/ar0400/",
+    "timestamp": "2025-06-18T07:55:19.270Z"
+  },
+  "errors": []
+}

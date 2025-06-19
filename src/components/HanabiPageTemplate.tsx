@@ -425,9 +425,72 @@ export default function HanabiPageTemplate({
     return truncateText(description, 100);
   };
 
+  // Features自动图标处理函数 - 一劳永逸方案
+  const addIconToFeature = (feature: string): string => {
+    // 如果已有emoji图标，直接返回
+    if (/[\u{1F300}-\u{1F9FF}]/u.test(feature)) return feature;
+
+    // 花火大会常用关键词-图标映射表
+    const iconMappings = [
+      // 花火相关
+      { keywords: ['万発', '発', '花火', '打上'], icon: '🎆' },
+      { keywords: ['スターマイン', 'ナイアガラ', '仕掛花火'], icon: '🎇' },
+
+      // 人数/规模
+      { keywords: ['万人', '人', '観客', '来場'], icon: '👥' },
+      { keywords: ['大規模', '規模', '大型'], icon: '📏' },
+
+      // 会场/场地
+      { keywords: ['会場', '河川敷', '運動場'], icon: '🏟️' },
+      { keywords: ['公園', '広場'], icon: '🏞️' },
+      { keywords: ['川', '河', '海', '湖'], icon: '🌊' },
+      { keywords: ['港', '漁港', 'ポート'], icon: '⚓' },
+      { keywords: ['駅', '交通'], icon: '🚂' },
+
+      // 音乐/娱乐
+      { keywords: ['音楽', 'ミュージック', 'BGM'], icon: '🎵' },
+      { keywords: ['ライブ', 'コンサート'], icon: '🎤' },
+
+      // 美食/设施
+      { keywords: ['屋台', '露店', '出店', '縁日'], icon: '🍭' },
+      { keywords: ['グルメ', '食べ物', '飲食'], icon: '🍜' },
+
+      // 时间/特色
+      { keywords: ['夏祭', '夏季', '夏の'], icon: '🌻' },
+      { keywords: ['秋', '秋季'], icon: '🍂' },
+      { keywords: ['夜景', '夜空', '夜間'], icon: '🌃' },
+      { keywords: ['伝統', '歴史', '由緒'], icon: '🏛️' },
+      { keywords: ['名物', '名所', '有名'], icon: '⭐' },
+
+      // 地域特色
+      { keywords: ['関東', '首都圏'], icon: '🏙️' },
+      { keywords: ['温泉', 'スパ'], icon: '♨️' },
+      { keywords: ['山', '山間', '高原'], icon: '⛰️' },
+      { keywords: ['海岸', '浜', 'ビーチ'], icon: '🏖️' },
+
+      // 体验特色
+      { keywords: ['無料', '入場無料', 'フリー'], icon: '🎁' },
+      { keywords: ['有料', '入場料', 'チケット'], icon: '🎫' },
+      { keywords: ['駐車場', 'パーキング'], icon: '🅿️' },
+      { keywords: ['アクセス', '便利'], icon: '🚌' },
+    ];
+
+    // 遍历映射表，找到第一个匹配的关键词
+    for (const mapping of iconMappings) {
+      for (const keyword of mapping.keywords) {
+        if (feature.includes(keyword)) {
+          return `${mapping.icon} ${feature}`;
+        }
+      }
+    }
+
+    // 如果没有匹配到特定图标，使用默认花火图标
+    return `🎆 ${feature}`;
+  };
+
   // ==================== 日期处理系统 ====================
 
-  const formatDate = (dateString: string) => {
+  const formatDate = (dateString: string | undefined) => {
     if (!dateString) return '日期待定';
 
     // 如果已经包含年份，直接返回
@@ -453,7 +516,10 @@ export default function HanabiPageTemplate({
     return dateString;
   };
 
-  const formatDateRange = (eventDateStr: string, endDate?: string) => {
+  const formatDateRange = (
+    eventDateStr: string | undefined,
+    endDate?: string
+  ) => {
     if (!eventDateStr) return '日期待定';
 
     try {
@@ -968,7 +1034,7 @@ export default function HanabiPageTemplate({
                                 key={idx}
                                 className="rounded-full bg-white/70 px-3 py-1 text-sm font-medium text-gray-700"
                               >
-                                {truncateHighlight(highlight)}
+                                {truncateHighlight(addIconToFeature(highlight))}
                               </span>
                             )
                           )}

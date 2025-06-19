@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-06-18T05:47:23.519Z",
+  "source": "https://koyo.walkerplus.com/ranking/ar0400/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "甲信越",
+  "regionCode": "ar0400",
+  "activityType": "momiji",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 10,
+    "dataFields": [
+      "name",
+      "location",
+      "coloringStart",
+      "bestViewing",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "苗場ドラゴンドラの紅葉",
+      "location": "甲信越内",
+      "coloringStart": "山頂10月上旬、中腹10月中旬、山麓10月下旬",
+      "bestViewing": "2024年10月5日(土)～11月4日(振休)",
+      "wantToVisit": "1345",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0415e12614/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.513Z",
+      "rank": 1,
+      "pageIndex": 2
+    },
+    {
+      "name": "栂池自然園の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "9月中旬",
+      "bestViewing": "9月下旬～10月中旬",
+      "wantToVisit": "127",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0420e12595/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.514Z",
+      "rank": 2,
+      "pageIndex": 3
+    },
+    {
+      "name": "河口湖の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "10月下旬",
+      "bestViewing": "11月上旬～11月下旬",
+      "wantToVisit": "335",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0419e13079/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.515Z",
+      "rank": 3,
+      "pageIndex": 4
+    },
+    {
+      "name": "美ケ原高原の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "10月上旬",
+      "bestViewing": "10月中旬～10月下旬",
+      "wantToVisit": "52",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0420e12930/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.515Z",
+      "rank": 4,
+      "pageIndex": 5
+    },
+    {
+      "name": "高瀬渓谷の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "10月上旬",
+      "bestViewing": "10月中旬～11月上旬",
+      "wantToVisit": "20",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0420e12558/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.516Z",
+      "rank": 5,
+      "pageIndex": 6
+    },
+    {
+      "name": "乗鞍岳の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "9月下旬",
+      "bestViewing": "9月下旬～10月上旬",
+      "wantToVisit": "24",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0420e13162/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.517Z",
+      "rank": 6,
+      "pageIndex": 7
+    },
+    {
+      "name": "上高地(大正池、河童橋周辺)の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "10月上旬",
+      "bestViewing": "10月中旬～10月下旬",
+      "wantToVisit": "17",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0420e13025/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.517Z",
+      "rank": 7,
+      "pageIndex": 8
+    },
+    {
+      "name": "奥只見湖の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "10月中旬",
+      "bestViewing": "10月中旬～11月上旬",
+      "wantToVisit": "93",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0415e13265/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.518Z",
+      "rank": 8,
+      "pageIndex": 9
+    },
+    {
+      "name": "松川渓谷の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "10月上旬",
+      "bestViewing": "10月中旬～11月上旬",
+      "wantToVisit": "18",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0420e154596/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.518Z",
+      "rank": 9,
+      "pageIndex": 10
+    },
+    {
+      "name": "弥彦公園(もみじ谷)の紅葉",
+      "location": "甲信越内",
+      "coloringStart": "10月中旬",
+      "bestViewing": "10月中旬～11月中旬",
+      "wantToVisit": "26",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0415e13277/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0400/",
+      "extractedAt": "2025-06-18T05:47:23.519Z",
+      "rank": 10,
+      "pageIndex": 11
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://koyo.walkerplus.com/ranking/ar0400/",
+    "timestamp": "2025-06-18T05:47:23.519Z"
+  },
+  "errors": []
+}

@@ -1,6 +1,8 @@
 // 祭典数据验证和转换工具
 // 防止API数据格式不一致导致的错误
 
+import { HanabiMedia } from '../types/hanabi';
+
 export interface MatsuriEvent {
   id: string;
   title: string;
@@ -14,6 +16,15 @@ export interface MatsuriEvent {
   likes: number;
   website: string;
   description: string;
+  // 新增字段 - 来自爬取数据
+  address?: string; // 所在地
+  schedule?: string; // 開催期間（详细时间）
+  venue?: string; // 開催場所
+  access?: string; // 交通アクセス
+  organizer?: string; // 主催
+  contact?: string; // 問合せ先
+  googleMapsUrl?: string; // Google地图链接
+  media?: HanabiMedia[]; // 媒体内容（图片和视频）
 }
 
 export interface ApiMatsuriEvent {

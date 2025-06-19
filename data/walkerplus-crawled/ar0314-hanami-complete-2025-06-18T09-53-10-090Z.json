@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "regionCode": "ar0314",
+    "regionName": "神奈川县",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0314/",
+    "scrapedAt": "2025-06-18T09:53:10.028Z",
+    "technology": "Playwright + Cheerio",
+    "commercial": "真实数据，严禁编造"
+  },
+  "data": []
+}

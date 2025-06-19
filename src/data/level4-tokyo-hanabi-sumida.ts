@@ -259,10 +259,22 @@ export const sumidaData: HanabiData = {
   media: [
     {
       type: 'image',
-      url: '/images/sumida-hanabi-main.jpg',
+      url: '/images/tokyo/hanabi/sumida/sumida-hanabi-main.jpg (1).png',
       title: '隅田川花火大会精彩瞬间',
       description:
         '2024年隅田川花火大会现场实拍，感受江户时代传承至今的花火魅力',
+    },
+    {
+      type: 'image',
+      url: '/images/tokyo/hanabi/sumida/sumida-hanabi-main.jpg (2).png',
+      title: '隅田川花火大会夜景',
+      description: '壮观的花火绽放在隅田川上空，与东京晴空塔形成绝美夜景',
+    },
+    {
+      type: 'image',
+      url: '/images/tokyo/hanabi/sumida/sumida-hanabi-main.jpg (3).png',
+      title: '隅田川花火大会观赏现场',
+      description: '观众在隅田川沿岸观赏花火的热闹场面，展现传统文化的魅力',
     },
   ],
 };

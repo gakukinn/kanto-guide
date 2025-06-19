@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "regionCode": "ar0311",
+    "regionName": "埼玉县",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0311/",
+    "scrapedAt": "2025-06-18T09:53:23.116Z",
+    "technology": "Playwright + Cheerio",
+    "commercial": "真实数据，严禁编造"
+  },
+  "data": []
+}

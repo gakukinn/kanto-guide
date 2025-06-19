@@ -1,0 +1,31 @@
+{
+  "region": "千葉県",
+  "type": "文化芸術活動",
+  "crawledAt": "2025-06-18T15:05:22.357Z",
+  "totalCount": 2,
+  "source": "jalan.net",
+  "activities": [
+    {
+      "name": "TOKYO OUTDOOR SHOW 2025",
+      "region": "千葉県",
+      "area": "舞浜・浦安・船橋・幕張",
+      "period": "2025年6月27日～29日",
+      "location": "千葉市 幕張メッセ 国際展示場 展示ホール1・2・3",
+      "description": "国内最大級の屋内アウトドアイベント「TOKYO OUTDOOR SHOW」が、幕張メッセで開催されます。「自然に優しく、自然を楽しむ。アウトドアを通じて多様性のある生活をもっと楽しむ。」をテーマとしたイベントです。",
+      "detailUrl": "https://www.jalan.net/event/evt_334704/",
+      "crawledAt": "2025-06-18T15:05:22.351Z",
+      "source": "jalan.net"
+    },
+    {
+      "name": "ワンダーフェスティバル2025［夏］",
+      "region": "千葉県",
+      "area": "舞浜・浦安・船橋・幕張",
+      "period": "2025年7月27日",
+      "location": "千葉市 幕張メッセ 国際展示場 1～8ホール",
+      "description": "世界最大級の造形・フィギュアの祭典「ワンダーフェスティバル」が、幕張メッセ国際展示場1～8ホールで開催されます。プロ、アマチュアを問わず、製作した造形物を持ち寄って展示、販売することができるイベントです。",
+      "detailUrl": "https://www.jalan.net/event/evt_343684/",
+      "crawledAt": "2025-06-18T15:05:22.352Z",
+      "source": "jalan.net"
+    }
+  ]
+}

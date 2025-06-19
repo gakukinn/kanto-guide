@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "regionCode": "ar0310",
+    "regionName": "群马县",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0310/",
+    "crawlTime": "2025-06-18T10:55:10.870Z",
+    "totalCount": 2,
+    "dataStructure": "三层（地区→花见会→列表）"
+  },
+  "data": [
+    {
+      "rank": 9,
+      "name": "高崎城址公園の桜 高崎の街を彩る約300本のソメイヨシノ 群馬県",
+      "location": "群馬県・高崎市",
+      "viewingSeason": "3月下旬～4月上旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "高崎市 例年の見頃：3月下旬～4月上旬 行ってみたい：13 行ってよかった：13",
+      "prefecture": "群馬県",
+      "regionCode": "ar0310",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0310e25743/"
+    },
+    {
+      "rank": 10,
+      "name": "赤城南面千本桜 約1.3キロメートルの市道が満開時には桜のトンネルに 群馬県",
+      "location": "群馬県・前橋市",
+      "viewingSeason": "3月下旬～4月中旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "前橋市 例年の見頃：3月下旬～4月中旬 行ってみたい：75 行ってよかった：75",
+      "prefecture": "群馬県",
+      "regionCode": "ar0310",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0310e25753/"
+    }
+  ]
+}
