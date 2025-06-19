@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "regionCode": "ar0313",
+    "regionName": "东京都",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0313/",
+    "scrapedAt": "2025-06-18T10:00:43.295Z",
+    "technology": "Playwright + Cheerio",
+    "commercial": "真实数据，严禁编造"
+  },
+  "data": [
+    {
+      "rank": 1,
+      "name": "六本木ヒルズ 毛利庭園・六本木さくら坂の桜",
+      "location": "位置未知",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0313e25848/",
+      "scrapedAt": "2025-06-18T10:00:43.290Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    },
+    {
+      "rank": 2,
+      "name": "戸山公園の桜",
+      "location": "位置未知",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0313e60564/",
+      "scrapedAt": "2025-06-18T10:00:43.292Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    },
+    {
+      "rank": 3,
+      "name": "目黒川の桜",
+      "location": "位置未知",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0313e25849/",
+      "scrapedAt": "2025-06-18T10:00:43.293Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    },
+    {
+      "rank": 4,
+      "name": "墨田区立旧中川水辺公園の桜",
+      "location": "墨田区",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0313e380311/",
+      "scrapedAt": "2025-06-18T10:00:43.293Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    },
+    {
+      "rank": 5,
+      "name": "千鳥ヶ淵緑道の桜",
+      "location": "位置未知",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0313e25833/",
+      "scrapedAt": "2025-06-18T10:00:43.294Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    },
+    {
+      "rank": 6,
+      "name": "幸手権現堂桜堤(県営権現堂公園)の桜",
+      "location": "位置未知",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0311e25762/",
+      "scrapedAt": "2025-06-18T10:00:43.294Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    },
+    {
+      "rank": 7,
+      "name": "雨引観音の桜",
+      "location": "位置未知",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0308e25718/",
+      "scrapedAt": "2025-06-18T10:00:43.295Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    },
+    {
+      "rank": 8,
+      "name": "古代蓮の里の桜",
+      "location": "位置未知",
+      "viewingSeason": "见顷时期未知",
+      "wantToVisit": "0",
+      "haveVisited": "0",
+      "prefecture": "东京都",
+      "regionCode": "ar0313",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0311e403610/",
+      "scrapedAt": "2025-06-18T10:00:43.295Z",
+      "source": "https://hanami.walkerplus.com/ranking/ar0313/"
+    }
+  ]
+}

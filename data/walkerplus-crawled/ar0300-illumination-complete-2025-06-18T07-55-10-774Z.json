@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-06-18T07:55:10.774Z",
+  "source": "https://illumi.walkerplus.com/ranking/ar0300/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "北関東",
+  "regionCode": "ar0300",
+  "activityType": "illumination",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 10,
+    "dataFields": [
+      "name",
+      "location",
+      "date",
+      "time",
+      "lightBulbs",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "榛名湖イルミネーションフェスタ2024",
+      "location": "北関東内",
+      "date": "2024年12月13日(金)",
+      "time": "17:00～21:00",
+      "lightBulbs": "200,000",
+      "wantToVisit": "66",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0310e17509/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.769Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "青の洞窟 SHIBUYA",
+      "location": "北関東内",
+      "date": "2024年12月6日(金)",
+      "time": "15:00～22:00",
+      "lightBulbs": "600,000",
+      "wantToVisit": "194",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e165714/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.770Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "さがみ湖イルミリオン さがみ湖 MORI MORI",
+      "location": "北関東内",
+      "date": "2024年11月16日(土)～2025年5月11日",
+      "time": "16:00～21:00",
+      "lightBulbs": "6,000,000",
+      "wantToVisit": "77",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e17464/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.771Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "あしかがフラワーパーク「光の花の庭」",
+      "location": "北関東内",
+      "date": "2024年10月18日(金)～2025年2月16日",
+      "time": "15:30～20:30",
+      "lightBulbs": "5,000,000",
+      "wantToVisit": "496",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0309e17508/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.771Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "東京メガイルミ(大井競馬場)",
+      "location": "北関東内",
+      "date": "2024年11月2日(土)～2025年1月12日",
+      "time": "16:30～21:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "1640",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e323872/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.771Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "丸の内イルミネーション 2024",
+      "location": "北関東内",
+      "date": "2024年11月14日(木)～2025年2月16日",
+      "time": "16:00～23:00",
+      "lightBulbs": "820,000",
+      "wantToVisit": "219",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17371/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.772Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "サンシャイン水族館 マリンガーデンイルミネーション",
+      "location": "北関東内",
+      "date": "情報確認中",
+      "time": "18:15～21:00",
+      "lightBulbs": "23,500",
+      "wantToVisit": "9",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17432/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.772Z",
+      "rank": 7,
+      "pageIndex": 7
+    },
+    {
+      "name": "六本木ヒルズ Roppongi Hills Christmas 2024 けやき坂イルミネーション",
+      "location": "北関東内",
+      "date": "2024年11月7日(木)",
+      "time": "17:00～23:00",
+      "lightBulbs": "900,000",
+      "wantToVisit": "74",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17503/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.773Z",
+      "rank": 8,
+      "pageIndex": 8
+    },
+    {
+      "name": "霞ヶ浦総合公園 第13回光がつくる“Art(アート)”水郷桜イルミネーション",
+      "location": "北関東内",
+      "date": "2024年11月23日(祝)～2025年1月13日",
+      "time": "17:00～21:00",
+      "lightBulbs": "217,000",
+      "wantToVisit": "51",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0308e126464/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.773Z",
+      "rank": 9,
+      "pageIndex": 9
+    },
+    {
+      "name": "2025もばら冬の七夕まつり",
+      "location": "北関東内",
+      "date": "2025年1月19日(日)",
+      "time": "17:00～21:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "4",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e378933/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T07:55:10.773Z",
+      "rank": 10,
+      "pageIndex": 10
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://illumi.walkerplus.com/ranking/ar0300/",
+    "timestamp": "2025-06-18T07:55:10.774Z"
+  },
+  "errors": []
+}

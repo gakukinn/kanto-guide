@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "regionCode": "north-kanto",
+    "regionName": "北关东",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceRegions": [
+      "茨城県",
+      "栃木県",
+      "群馬県"
+    ],
+    "sourceUrl": [
+      "https://hanami.walkerplus.com/ranking/ar0308/",
+      "https://hanami.walkerplus.com/ranking/ar0309/",
+      "https://hanami.walkerplus.com/ranking/ar0310/"
+    ],
+    "mergeTime": "2025-06-18T10:57:56.839Z",
+    "totalCount": 6,
+    "dataStructure": "三层（地区→花见会→列表）",
+    "sourceFiles": [
+      {
+        "region": "茨城县",
+        "file": "ar0308-hanami-single-page-2025-06-18T10-54-20-023Z.json",
+        "count": 2,
+        "crawlTime": "2025-06-18T10:54:20.023Z"
+      },
+      {
+        "region": "栃木县",
+        "file": "ar0309-hanami-single-page-2025-06-18T10-55-33-353Z.json",
+        "count": 2,
+        "crawlTime": "2025-06-18T10:55:33.354Z"
+      },
+      {
+        "region": "群马县",
+        "file": "ar0310-hanami-single-page-2025-06-18T10-55-10-869Z.json",
+        "count": 2,
+        "crawlTime": "2025-06-18T10:55:10.870Z"
+      }
+    ]
+  },
+  "data": [
+    {
+      "rank": 9,
+      "name": "雨引観音の桜 放し飼いにされた孔雀と共に満開の桜を愛でる 茨城県",
+      "location": "茨城県・桜川市",
+      "viewingSeason": "3月下旬〜4月中旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "桜川市 例年の見頃：3月下旬〜4月中旬 行ってみたい：55 行ってよかった：63",
+      "prefecture": "茨城県",
+      "regionCode": "ar0308",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0308e25718/"
+    },
+    {
+      "rank": 10,
+      "name": "龍ケ崎のしだれ桜 県の天然記念物に指定された巨大なしだれ桜 茨城県",
+      "location": "茨城県・龍ケ崎市",
+      "viewingSeason": "3月中旬～3月下旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "龍ケ崎市 例年の見頃：3月中旬～3月下旬 行ってみたい：68 行ってよかった：33",
+      "prefecture": "茨城県",
+      "regionCode": "ar0308",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0308e25712/"
+    },
+    {
+      "rank": 9,
+      "name": "かしの森公園の桜 見事に咲き誇る公園内の桜と周辺の桜並木 栃木県",
+      "location": "栃木県・芳賀郡芳賀町",
+      "viewingSeason": "4月上旬～4月中旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "芳賀郡芳賀町 例年の見頃：4月上旬～4月中旬 行ってみたい：9 行ってよかった：6",
+      "prefecture": "栃木県",
+      "regionCode": "ar0309",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0309e25735/"
+    },
+    {
+      "rank": 10,
+      "name": "太平山の桜 4000本のソメイヨシノが山全体を彩る 栃木県",
+      "location": "栃木市",
+      "viewingSeason": "3月下旬～4月上旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "栃木市 例年の見頃：3月下旬～4月上旬 行ってみたい：41 行ってよかった：42",
+      "prefecture": "栃木県",
+      "regionCode": "ar0309",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0309e60540/"
+    },
+    {
+      "rank": 9,
+      "name": "高崎城址公園の桜 高崎の街を彩る約300本のソメイヨシノ 群馬県",
+      "location": "群馬県・高崎市",
+      "viewingSeason": "3月下旬～4月上旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "高崎市 例年の見頃：3月下旬～4月上旬 行ってみたい：13 行ってよかった：13",
+      "prefecture": "群馬県",
+      "regionCode": "ar0310",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0310e25743/"
+    },
+    {
+      "rank": 10,
+      "name": "赤城南面千本桜 約1.3キロメートルの市道が満開時には桜のトンネルに 群馬県",
+      "location": "群馬県・前橋市",
+      "viewingSeason": "3月下旬～4月中旬",
+      "wantToVisit": 0,
+      "haveVisited": 0,
+      "subTitle": "前橋市 例年の見頃：3月下旬～4月中旬 行ってみたい：75 行ってよかった：75",
+      "prefecture": "群馬県",
+      "regionCode": "ar0310",
+      "detailUrl": "https://hanami.walkerplus.com/detail/ar0310e25753/"
+    }
+  ]
+}

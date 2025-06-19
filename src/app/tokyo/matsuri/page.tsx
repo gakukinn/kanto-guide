@@ -695,7 +695,7 @@ export default function TokyoMatsuriPage() {
     <MatsuriPageTemplate
       region={tokyoRegionConfig}
       events={tokyoMatsuriEvents}
-      pageTitle="东京传统祭典"
+      pageTitle="东京传统祭典活动列表"
       pageDescription="探索东京最具代表性的传统祭典活动，从江户三大祭到现代都市祭典，感受首都独特的文化魅力"
       regionKey="tokyo"
       activityKey="matsuri"

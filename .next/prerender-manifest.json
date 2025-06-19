@@ -1,7 +1,173 @@
 {
   "version": 4,
   "routes": {
-    "/chiba/hanabi/asahi-iioka-you-yu": {
+    "/api/matsuri/koshinetsu": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/koshinetsu/layout,_N_T_/api/matsuri/koshinetsu/route,_N_T_/api/matsuri/koshinetsu/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/matsuri/koshinetsu",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/api/matsuri/saitama": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/saitama/layout,_N_T_/api/matsuri/saitama/route,_N_T_/api/matsuri/saitama/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/matsuri/saitama",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/api/matsuri/tokyo": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/tokyo/layout,_N_T_/api/matsuri/tokyo/route,_N_T_/api/matsuri/tokyo/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/matsuri/tokyo",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/robots.txt": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "text/plain",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/robots.txt/layout,_N_T_/robots.txt/route,_N_T_/robots.txt/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/robots.txt",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/sitemap.xml": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "application/xml",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap.xml/layout,_N_T_/sitemap.xml/route,_N_T_/sitemap.xml/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sitemap.xml",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/chiba/culture": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/chiba/culture",
+      "dataRoute": "/chiba/culture.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/chiba/hanabi/choshi-minato-hanabi": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -15,8 +181,8 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/chiba/hanabi/asahi-iioka-you-yu",
-      "dataRoute": "/chiba/hanabi/asahi-iioka-you-yu.rsc",
+      "srcRoute": "/chiba/hanabi/choshi-minato-hanabi",
+      "dataRoute": "/chiba/hanabi/choshi-minato-hanabi.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -124,56 +290,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/chiba/hanabi/matsudo": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/chiba/hanabi/matsudo",
-      "dataRoute": "/chiba/hanabi/matsudo.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/chiba/hanabi/choshi-minato-hanabi": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/chiba/hanabi/choshi-minato-hanabi",
-      "dataRoute": "/chiba/hanabi/choshi-minato-hanabi.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/chiba/hanabi/makuhari-beach-hanabi": {
       "experimentalBypassFor": [
         {
@@ -199,7 +315,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/chiba/hanabi/narashino": {
+    "/chiba/hanabi/asahi-iioka-you-yu": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -213,8 +329,33 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/chiba/hanabi/narashino",
-      "dataRoute": "/chiba/hanabi/narashino.rsc",
+      "srcRoute": "/chiba/hanabi/asahi-iioka-you-yu",
+      "dataRoute": "/chiba/hanabi/asahi-iioka-you-yu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/chiba/hanabi/matsudo": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/chiba/hanabi/matsudo",
+      "dataRoute": "/chiba/hanabi/matsudo.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -249,6 +390,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/chiba/hanabi/narashino": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/chiba/hanabi/narashino",
+      "dataRoute": "/chiba/hanabi/narashino.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/chiba/hanabi/omigawa": {
       "experimentalBypassFor": [
         {
@@ -274,6 +440,55 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/chiba/hanabi": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/chiba/hanabi",
+      "dataRoute": "/chiba/hanabi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/chiba/hanabi/shirahama-ama-matsuri": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/chiba/hanabi/shirahama-ama-matsuri",
+      "dataRoute": "/chiba/hanabi/shirahama-ama-matsuri.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/chiba/hanabi/teganuma": {
       "experimentalBypassFor": [
         {
@@ -290,30 +505,6 @@
       "initialExpireSeconds": 31536000,
       "srcRoute": "/chiba/hanabi/teganuma",
       "dataRoute": "/chiba/hanabi/teganuma.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/chiba/hanabi": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/chiba/hanabi",
-      "dataRoute": "/chiba/hanabi.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -373,32 +564,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/chiba/hanabi/shirahama-ama-matsuri": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/chiba/hanabi/shirahama-ama-matsuri",
-      "dataRoute": "/chiba/hanabi/shirahama-ama-matsuri.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/chiba/matsuri": {
+    "/chiba/hanami": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -411,8 +577,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/chiba/matsuri",
-      "dataRoute": "/chiba/matsuri.rsc",
+      "srcRoute": "/chiba/hanami",
+      "dataRoute": "/chiba/hanami.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -422,7 +588,11 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/chiba": {
+    "/api/hanami/chiba": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/hanami/layout,_N_T_/api/hanami/chiba/layout,_N_T_/api/hanami/chiba/route,_N_T_/api/hanami/chiba/"
+      },
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -435,8 +605,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/chiba",
-      "dataRoute": "/chiba.rsc",
+      "srcRoute": "/api/hanami/chiba",
+      "dataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -446,7 +616,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kanagawa/hanabi/atsugi-ayu-matsuri": {
+    "/chiba/matsuri/narita-gion-festival": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -459,8 +629,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/kanagawa/hanabi/atsugi-ayu-matsuri",
-      "dataRoute": "/kanagawa/hanabi/atsugi-ayu-matsuri.rsc",
+      "srcRoute": "/chiba/matsuri/narita-gion-festival",
+      "dataRoute": "/chiba/matsuri/narita-gion-festival.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -470,7 +640,11 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kanagawa/hanabi/kamakura": {
+    "/api/hanami/saitama": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/hanami/layout,_N_T_/api/hanami/saitama/layout,_N_T_/api/hanami/saitama/route,_N_T_/api/hanami/saitama/"
+      },
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -482,10 +656,137 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/kanagawa/hanabi/kamakura",
-      "dataRoute": "/kanagawa/hanabi/kamakura.rsc",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/hanami/saitama",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/chiba/illumination": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/chiba/illumination",
+      "dataRoute": "/chiba/illumination.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/api/hanabi/kitakanto": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/hanabi/layout,_N_T_/api/hanabi/kitakanto/layout,_N_T_/api/hanabi/kitakanto/route,_N_T_/api/hanabi/kitakanto/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/hanabi/kitakanto",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/chiba/momiji": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/chiba/momiji",
+      "dataRoute": "/chiba/momiji.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/api/hanami/kitakanto": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/hanami/layout,_N_T_/api/hanami/kitakanto/layout,_N_T_/api/hanami/kitakanto/route,_N_T_/api/hanami/kitakanto/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/hanami/kitakanto",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/culture": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/culture",
+      "dataRoute": "/kanagawa/culture.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -520,7 +821,11 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kanagawa/hanabi/kawasaki-tamagawa": {
+    "/api/matsuri/kitakanto": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/kitakanto/layout,_N_T_/api/matsuri/kitakanto/route,_N_T_/api/matsuri/kitakanto/"
+      },
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -532,10 +837,65 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/kanagawa/hanabi/kawasaki-tamagawa",
-      "dataRoute": "/kanagawa/hanabi/kawasaki-tamagawa.rsc",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/matsuri/kitakanto",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/api/matsuri/kanagawa": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/kanagawa/layout,_N_T_/api/matsuri/kanagawa/route,_N_T_/api/matsuri/kanagawa/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/matsuri/kanagawa",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/api/matsuri/chiba": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/chiba/layout,_N_T_/api/matsuri/chiba/route,_N_T_/api/matsuri/chiba/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/matsuri/chiba",
+      "dataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -570,6 +930,34 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/api/hanami/kanagawa": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/hanami/layout,_N_T_/api/hanami/kanagawa/layout,_N_T_/api/hanami/kanagawa/route,_N_T_/api/hanami/kanagawa/"
+      },
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/api/hanami/kanagawa",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/kanagawa/hanabi/minato-mirai-smart": {
       "experimentalBypassFor": [
         {
@@ -586,103 +974,6 @@
       "initialExpireSeconds": 31536000,
       "srcRoute": "/kanagawa/hanabi/minato-mirai-smart",
       "dataRoute": "/kanagawa/hanabi/minato-mirai-smart.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/kanagawa/hanabi/odawara-sakawa": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kanagawa/hanabi/odawara-sakawa",
-      "dataRoute": "/kanagawa/hanabi/odawara-sakawa.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/kanagawa/hanabi/sagamihara": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kanagawa/hanabi/sagamihara",
-      "dataRoute": "/kanagawa/hanabi/sagamihara.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/kanagawa/hanabi": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kanagawa/hanabi",
-      "dataRoute": "/kanagawa/hanabi.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/kanagawa/hanabi/sagamiko": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/kanagawa/hanabi/sagamiko",
-      "dataRoute": "/kanagawa/hanabi/sagamiko.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -717,30 +1008,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kanagawa/hanabi/southern-beach-chigasaki": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kanagawa/hanabi/southern-beach-chigasaki",
-      "dataRoute": "/kanagawa/hanabi/southern-beach-chigasaki.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/kanagawa/hanabi/yokohama-hanabi": {
       "experimentalBypassFor": [
         {
@@ -765,7 +1032,11 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kanagawa/hanabi/yokohama-kaisai": {
+    "/api/hanami/koshinetsu": {
+      "initialHeaders": {
+        "content-type": "application/json",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/hanami/layout,_N_T_/api/hanami/koshinetsu/layout,_N_T_/api/hanami/koshinetsu/route,_N_T_/api/hanami/koshinetsu/"
+      },
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -778,32 +1049,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/kanagawa/hanabi/yokohama-kaisai",
-      "dataRoute": "/kanagawa/hanabi/yokohama-kaisai.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/kanagawa/hanabi/yokohama-night-flowers": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kanagawa/hanabi/yokohama-night-flowers",
-      "dataRoute": "/kanagawa/hanabi/yokohama-night-flowers.rsc",
+      "srcRoute": "/api/hanami/koshinetsu",
+      "dataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -837,6 +1084,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/kanagawa/hanabi/yokohama-night-flowers": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/hanabi/yokohama-night-flowers",
+      "dataRoute": "/kanagawa/hanabi/yokohama-night-flowers.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/matsuri/hiratsuka-tanabata": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/matsuri/hiratsuka-tanabata",
+      "dataRoute": "/kanagawa/matsuri/hiratsuka-tanabata.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/illumination": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/illumination",
+      "dataRoute": "/kanagawa/illumination.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/kanagawa/matsuri": {
       "experimentalBypassFor": [
         {
@@ -861,6 +1180,79 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/kanagawa/momiji": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/momiji",
+      "dataRoute": "/kanagawa/momiji.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/hanabi/kawasaki-tamagawa": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/kanagawa/hanabi/kawasaki-tamagawa",
+      "dataRoute": "/kanagawa/hanabi/kawasaki-tamagawa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/culture": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kitakanto/culture",
+      "dataRoute": "/kitakanto/culture.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/kanagawa": {
       "experimentalBypassFor": [
         {
@@ -876,6 +1268,54 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/kanagawa",
       "dataRoute": "/kanagawa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/chiba/matsuri": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/chiba/matsuri",
+      "dataRoute": "/chiba/matsuri.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/hanabi/atsugi-ayu-matsuri": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/hanabi/atsugi-ayu-matsuri",
+      "dataRoute": "/kanagawa/hanabi/atsugi-ayu-matsuri.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -935,6 +1375,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/kanagawa/hanabi/kamakura": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/kanagawa/hanabi/kamakura",
+      "dataRoute": "/kanagawa/hanabi/kamakura.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/kitakanto/hanabi/koga-hanabi-2025": {
       "experimentalBypassFor": [
         {
@@ -959,7 +1424,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kitakanto/hanabi/maebashi-hanabi-2025": {
+    "/chiba": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -972,32 +1437,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/kitakanto/hanabi/maebashi-hanabi-2025",
-      "dataRoute": "/kitakanto/hanabi/maebashi-hanabi-2025.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/kitakanto/hanabi/mito-hanabi-2025": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/kitakanto/hanabi/mito-hanabi-2025",
-      "dataRoute": "/kitakanto/hanabi/mito-hanabi-2025.rsc",
+      "srcRoute": "/chiba",
+      "dataRoute": "/chiba.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1057,7 +1498,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kitakanto/hanabi/oarai-hanabi-2025": {
+    "/kanagawa/hanabi/southern-beach-chigasaki": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1069,10 +1510,33 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/kitakanto/hanabi/oarai-hanabi-2025",
-      "dataRoute": "/kitakanto/hanabi/oarai-hanabi-2025.rsc",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/hanabi/southern-beach-chigasaki",
+      "dataRoute": "/kanagawa/hanabi/southern-beach-chigasaki.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/hanabi/odawara-sakawa": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/hanabi/odawara-sakawa",
+      "dataRoute": "/kanagawa/hanabi/odawara-sakawa.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1106,7 +1570,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kitakanto/hanabi": {
+    "/kanagawa/hanabi/sagamiko": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1120,8 +1584,8 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/kitakanto/hanabi",
-      "dataRoute": "/kitakanto/hanabi.rsc",
+      "srcRoute": "/kanagawa/hanabi/sagamiko",
+      "dataRoute": "/kanagawa/hanabi/sagamiko.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1131,7 +1595,79 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kitakanto/hanabi/tamamura-hanabi-2025": {
+    "/kitakanto/hanabi/mito-hanabi-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kitakanto/hanabi/mito-hanabi-2025",
+      "dataRoute": "/kitakanto/hanabi/mito-hanabi-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/matsuri/maebashi-tanabata": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kitakanto/matsuri/maebashi-tanabata",
+      "dataRoute": "/kitakanto/matsuri/maebashi-tanabata.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/hanami": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kitakanto/hanami",
+      "dataRoute": "/kitakanto/hanami.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/hanabi/oarai-hanabi-2025": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1145,8 +1681,8 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/kitakanto/hanabi/tamamura-hanabi-2025",
-      "dataRoute": "/kitakanto/hanabi/tamamura-hanabi-2025.rsc",
+      "srcRoute": "/kitakanto/hanabi/oarai-hanabi-2025",
+      "dataRoute": "/kitakanto/hanabi/oarai-hanabi-2025.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1181,7 +1717,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/kitakanto/hanabi/tonegawa-hanabi-2025": {
+    "/kanagawa/hanami": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1194,8 +1730,32 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/kitakanto/hanabi/tonegawa-hanabi-2025",
-      "dataRoute": "/kitakanto/hanabi/tonegawa-hanabi-2025.rsc",
+      "srcRoute": "/kanagawa/hanami",
+      "dataRoute": "/kanagawa/hanami.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/hanabi/sagamihara": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/hanabi/sagamihara",
+      "dataRoute": "/kanagawa/hanabi/sagamihara.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1253,6 +1813,127 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/kitakanto/hanabi/tamamura-hanabi-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/kitakanto/hanabi/tamamura-hanabi-2025",
+      "dataRoute": "/kitakanto/hanabi/tamamura-hanabi-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/illumination": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kitakanto/illumination",
+      "dataRoute": "/kitakanto/illumination.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/hanabi/tonegawa-hanabi-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kitakanto/hanabi/tonegawa-hanabi-2025",
+      "dataRoute": "/kitakanto/hanabi/tonegawa-hanabi-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/momiji": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kitakanto/momiji",
+      "dataRoute": "/kitakanto/momiji.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/koshinetsu/culture": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/koshinetsu/culture",
+      "dataRoute": "/koshinetsu/culture.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/koshinetsu/hanabi/agano-gozareya": {
       "experimentalBypassFor": [
         {
@@ -1268,56 +1949,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/koshinetsu/hanabi/agano-gozareya",
       "dataRoute": "/koshinetsu/hanabi/agano-gozareya.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/koshinetsu/hanabi/anime": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/koshinetsu/hanabi/anime",
-      "dataRoute": "/koshinetsu/hanabi/anime.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/koshinetsu/hanabi/asahara-jinja-aki-hanabi": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/koshinetsu/hanabi/asahara-jinja-aki-hanabi",
-      "dataRoute": "/koshinetsu/hanabi/asahara-jinja-aki-hanabi.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1352,30 +1983,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/koshinetsu/hanabi/ichikawa-shinmei": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/koshinetsu/hanabi/ichikawa-shinmei",
-      "dataRoute": "/koshinetsu/hanabi/ichikawa-shinmei.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/koshinetsu/hanabi/isawa-onsen-hanabi-2025": {
       "experimentalBypassFor": [
         {
@@ -1392,6 +1999,31 @@
       "initialExpireSeconds": 31536000,
       "srcRoute": "/koshinetsu/hanabi/isawa-onsen-hanabi-2025",
       "dataRoute": "/koshinetsu/hanabi/isawa-onsen-hanabi-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/hanabi": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/kitakanto/hanabi",
+      "dataRoute": "/kitakanto/hanabi.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1426,7 +2058,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/koshinetsu/hanabi/nagaoka": {
+    "/kanagawa/hanabi": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/hanabi",
+      "dataRoute": "/kanagawa/hanabi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/koshinetsu/hanabi/yamanakako-houkosai-hanabi": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1440,8 +2096,8 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/koshinetsu/hanabi/nagaoka",
-      "dataRoute": "/koshinetsu/hanabi/nagaoka.rsc",
+      "srcRoute": "/koshinetsu/hanabi/yamanakako-houkosai-hanabi",
+      "dataRoute": "/koshinetsu/hanabi/yamanakako-houkosai-hanabi.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1451,11 +2107,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/api/matsuri/saitama": {
-      "initialHeaders": {
-        "content-type": "application/json",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/saitama/layout,_N_T_/api/matsuri/saitama/route,_N_T_/api/matsuri/saitama/"
-      },
+    "/koshinetsu/hanabi/asahara-jinja-aki-hanabi": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1467,9 +2119,10 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/api/matsuri/saitama",
-      "dataRoute": null,
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/koshinetsu/hanabi/asahara-jinja-aki-hanabi",
+      "dataRoute": "/koshinetsu/hanabi/asahara-jinja-aki-hanabi.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1504,6 +2157,55 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/koshinetsu/hanabi/nagaoka": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/koshinetsu/hanabi/nagaoka",
+      "dataRoute": "/koshinetsu/hanabi/nagaoka.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/koshinetsu/hanabi/ichikawa-shinmei": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/koshinetsu/hanabi/ichikawa-shinmei",
+      "dataRoute": "/koshinetsu/hanabi/ichikawa-shinmei.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/koshinetsu/hanabi": {
       "experimentalBypassFor": [
         {
@@ -1528,11 +2230,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/api/matsuri/tokyo": {
-      "initialHeaders": {
-        "content-type": "application/json",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/tokyo/layout,_N_T_/api/matsuri/tokyo/route,_N_T_/api/matsuri/tokyo/"
-      },
+    "/koshinetsu/hanami": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1545,8 +2243,80 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/api/matsuri/tokyo",
-      "dataRoute": null,
+      "srcRoute": "/koshinetsu/hanami",
+      "dataRoute": "/koshinetsu/hanami.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kanagawa/hanabi/yokohama-kaisai": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/kanagawa/hanabi/yokohama-kaisai",
+      "dataRoute": "/kanagawa/hanabi/yokohama-kaisai.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/koshinetsu/illumination": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/koshinetsu/illumination",
+      "dataRoute": "/koshinetsu/illumination.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1571,83 +2341,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/koshinetsu/matsuri",
       "dataRoute": "/koshinetsu/matsuri.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/koshinetsu": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/koshinetsu",
-      "dataRoute": "/koshinetsu.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/api/hanabi/kitakanto": {
-      "initialHeaders": {
-        "content-type": "application/json",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/hanabi/layout,_N_T_/api/hanabi/kitakanto/layout,_N_T_/api/hanabi/kitakanto/route,_N_T_/api/hanabi/kitakanto/"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/api/hanabi/kitakanto",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/saitama/hanabi/higashimatsuyama": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/saitama/hanabi/higashimatsuyama",
-      "dataRoute": "/saitama/hanabi/higashimatsuyama.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1682,6 +2375,78 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/koshinetsu": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/koshinetsu",
+      "dataRoute": "/koshinetsu.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saitama/culture": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama/culture",
+      "dataRoute": "/saitama/culture.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/koshinetsu/momiji": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/koshinetsu/momiji",
+      "dataRoute": "/koshinetsu/momiji.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/saitama/hanabi/iruma-base-2025": {
       "experimentalBypassFor": [
         {
@@ -1706,7 +2471,57 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/saitama/hanabi/koshigaya-2025": {
+    "/saitama/hanabi/higashimatsuyama": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/saitama/hanabi/higashimatsuyama",
+      "dataRoute": "/saitama/hanabi/higashimatsuyama.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saitama/hanabi/ina": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/saitama/hanabi/ina",
+      "dataRoute": "/saitama/hanabi/ina.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/kitakanto/hanabi/maebashi-hanabi-2025": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1719,8 +2534,33 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/saitama/hanabi/koshigaya-2025",
-      "dataRoute": "/saitama/hanabi/koshigaya-2025.rsc",
+      "srcRoute": "/kitakanto/hanabi/maebashi-hanabi-2025",
+      "dataRoute": "/kitakanto/hanabi/maebashi-hanabi-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/koshinetsu/hanabi/anime": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/koshinetsu/hanabi/anime",
+      "dataRoute": "/koshinetsu/hanabi/anime.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1780,6 +2620,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/saitama/hanabi/saitama-owada-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/saitama/hanabi/saitama-owada-2025",
+      "dataRoute": "/saitama/hanabi/saitama-owada-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/saitama/hanabi/ogawa-tanabata-2025": {
       "experimentalBypassFor": [
         {
@@ -1829,35 +2694,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/api/matsuri/kanagawa": {
-      "initialHeaders": {
-        "content-type": "application/json",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/kanagawa/layout,_N_T_/api/matsuri/kanagawa/route,_N_T_/api/matsuri/kanagawa/"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/api/matsuri/kanagawa",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/saitama/hanabi/saitama-owada-2025": {
+    "/saitama/hanabi/todabashi": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1871,8 +2708,56 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/saitama/hanabi/saitama-owada-2025",
-      "dataRoute": "/saitama/hanabi/saitama-owada-2025.rsc",
+      "srcRoute": "/saitama/hanabi/todabashi",
+      "dataRoute": "/saitama/hanabi/todabashi.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saitama/matsuri/chichibu-kawase-festival": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama/matsuri/chichibu-kawase-festival",
+      "dataRoute": "/saitama/matsuri/chichibu-kawase-festival.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saitama/hanabi/koshigaya-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama/hanabi/koshigaya-2025",
+      "dataRoute": "/saitama/hanabi/koshigaya-2025.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1907,11 +2792,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/api/matsuri/koshinetsu": {
-      "initialHeaders": {
-        "content-type": "application/json",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/koshinetsu/layout,_N_T_/api/matsuri/koshinetsu/route,_N_T_/api/matsuri/koshinetsu/"
-      },
+    "/saitama/hanami": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1924,8 +2805,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/api/matsuri/koshinetsu",
-      "dataRoute": null,
+      "srcRoute": "/saitama/hanami",
+      "dataRoute": "/saitama/hanami.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1935,7 +2816,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/saitama/hanabi/todabashi": {
+    "/saitama/matsuri/honjo-gion-matsuri": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -1947,10 +2828,81 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/saitama/hanabi/todabashi",
-      "dataRoute": "/saitama/hanabi/todabashi.rsc",
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama/matsuri/honjo-gion-matsuri",
+      "dataRoute": "/saitama/matsuri/honjo-gion-matsuri.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saitama": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama",
+      "dataRoute": "/saitama.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saitama/hanabi/seibu-en-2025": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama/hanabi/seibu-en-2025",
+      "dataRoute": "/saitama/hanabi/seibu-en-2025.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/saitama/illumination": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama/illumination",
+      "dataRoute": "/saitama/illumination.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1984,11 +2936,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/api/matsuri/kitakanto": {
-      "initialHeaders": {
-        "content-type": "application/json",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/kitakanto/layout,_N_T_/api/matsuri/kitakanto/route,_N_T_/api/matsuri/kitakanto/"
-      },
+    "/test-culture-art": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -2001,8 +2949,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/api/matsuri/kitakanto",
-      "dataRoute": null,
+      "srcRoute": "/test-culture-art",
+      "dataRoute": "/test-culture-art.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2062,7 +3010,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/koshinetsu/hanabi/yamanakako-houkosai-hanabi": {
+    "/saitama/momiji": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/saitama/momiji",
+      "dataRoute": "/saitama/momiji.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/hanabi/edogawa": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -2076,8 +3048,8 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/koshinetsu/hanabi/yamanakako-houkosai-hanabi",
-      "dataRoute": "/koshinetsu/hanabi/yamanakako-houkosai-hanabi.rsc",
+      "srcRoute": "/tokyo/hanabi/edogawa",
+      "dataRoute": "/tokyo/hanabi/edogawa.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2112,59 +3084,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/api/matsuri/chiba": {
-      "initialHeaders": {
-        "content-type": "application/json",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/api/layout,_N_T_/api/matsuri/layout,_N_T_/api/matsuri/chiba/layout,_N_T_/api/matsuri/chiba/route,_N_T_/api/matsuri/chiba/"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/api/matsuri/chiba",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/saitama/hanabi/ina": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/saitama/hanabi/ina",
-      "dataRoute": "/saitama/hanabi/ina.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/tokyo/hanabi/katsushika-noryo": {
       "experimentalBypassFor": [
         {
@@ -2181,6 +3100,30 @@
       "initialExpireSeconds": 31536000,
       "srcRoute": "/tokyo/hanabi/katsushika-noryo",
       "dataRoute": "/tokyo/hanabi/katsushika-noryo.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/culture": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tokyo/culture",
+      "dataRoute": "/tokyo/culture.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2215,7 +3158,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/tokyo/hanabi/mikurajima": {
+    "/tokyo/hanabi/jingu-gaien": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -2229,8 +3172,33 @@
       ],
       "initialRevalidateSeconds": 86400,
       "initialExpireSeconds": 31536000,
-      "srcRoute": "/tokyo/hanabi/mikurajima",
-      "dataRoute": "/tokyo/hanabi/mikurajima.rsc",
+      "srcRoute": "/tokyo/hanabi/jingu-gaien",
+      "dataRoute": "/tokyo/hanabi/jingu-gaien.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/hanabi/keibajo": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/tokyo/hanabi/keibajo",
+      "dataRoute": "/tokyo/hanabi/keibajo.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2265,7 +3233,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/": {
+    "/tokyo/hanabi/mikurajima": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -2277,9 +3245,35 @@
           "value": "multipart/form-data;.*"
         }
       ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/",
-      "dataRoute": "/index.rsc",
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/tokyo/hanabi/mikurajima",
+      "dataRoute": "/tokyo/hanabi/mikurajima.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/hanabi/setagaya-tamagawa": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": 86400,
+      "initialExpireSeconds": 31536000,
+      "srcRoute": "/tokyo/hanabi/setagaya-tamagawa",
+      "dataRoute": "/tokyo/hanabi/setagaya-tamagawa.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2338,31 +3332,6 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/tokyo/hanabi/setagaya-tamagawa": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/tokyo/hanabi/setagaya-tamagawa",
-      "dataRoute": "/tokyo/hanabi/setagaya-tamagawa.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/tokyo/hanabi/tachikawa-showa": {
       "experimentalBypassFor": [
         {
@@ -2379,103 +3348,6 @@
       "initialExpireSeconds": 31536000,
       "srcRoute": "/tokyo/hanabi/tachikawa-showa",
       "dataRoute": "/tokyo/hanabi/tachikawa-showa.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/tokyo/hanabi/jingu-gaien": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/tokyo/hanabi/jingu-gaien",
-      "dataRoute": "/tokyo/hanabi/jingu-gaien.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/tokyo/hanabi/tamagawa": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/tokyo/hanabi/tamagawa",
-      "dataRoute": "/tokyo/hanabi/tamagawa.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/saitama/hanabi/seibu-en-2025": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/saitama/hanabi/seibu-en-2025",
-      "dataRoute": "/saitama/hanabi/seibu-en-2025.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/tokyo/matsuri": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/tokyo/matsuri",
-      "dataRoute": "/tokyo/matsuri.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2510,6 +3382,174 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/tokyo/hanami": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tokyo/hanami",
+      "dataRoute": "/tokyo/hanami.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/hanabi/tamagawa": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tokyo/hanabi/tamagawa",
+      "dataRoute": "/tokyo/hanabi/tamagawa.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/koshinetsu/matsuri/matsumoto-castle-taiko": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/koshinetsu/matsuri/matsumoto-castle-taiko",
+      "dataRoute": "/koshinetsu/matsuri/matsumoto-castle-taiko.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/momiji": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tokyo/momiji",
+      "dataRoute": "/tokyo/momiji.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/momiji/mount-takao": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tokyo/momiji/mount-takao",
+      "dataRoute": "/tokyo/momiji/mount-takao.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/matsuri": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tokyo/matsuri",
+      "dataRoute": "/tokyo/matsuri.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/tokyo/illumination": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "Next-Action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/tokyo/illumination",
+      "dataRoute": "/tokyo/illumination.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/tokyo": {
       "experimentalBypassFor": [
         {
@@ -2525,55 +3565,6 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/tokyo",
       "dataRoute": "/tokyo.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/tokyo/hanabi/edogawa": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/tokyo/hanabi/edogawa",
-      "dataRoute": "/tokyo/hanabi/edogawa.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/saitama": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/saitama",
-      "dataRoute": "/saitama.rsc",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2607,96 +3598,13 @@
         "x-next-revalidated-tags",
         "x-next-revalidate-tag-token"
       ]
-    },
-    "/tokyo/hanabi/keibajo": {
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": 86400,
-      "initialExpireSeconds": 31536000,
-      "srcRoute": "/tokyo/hanabi/keibajo",
-      "dataRoute": "/tokyo/hanabi/keibajo.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/sitemap.xml": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "application/xml",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap.xml/layout,_N_T_/sitemap.xml/route,_N_T_/sitemap.xml/"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/sitemap.xml",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/robots.txt": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "text/plain",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/robots.txt/layout,_N_T_/robots.txt/route,_N_T_/robots.txt/"
-      },
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "Next-Action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/robots.txt",
-      "dataRoute": null,
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
     }
   },
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "9de5fb562019672fe1a71611fd4024ac",
-    "previewModeSigningKey": "dc313aa862d0851d4af20136b6671f70cafdff7064fcd37ebc5b28fe2d30e26b",
-    "previewModeEncryptionKey": "be0360baa6af9a9c7e436f542bfa6d1e8d6768bf5b874cfb9959e2edb97c8482"
+    "previewModeId": "aaad49c678db3b3a05d3ad551b397ffb",
+    "previewModeSigningKey": "cc0557b435276789a38973e22fc6ab3333f90dea114af79fdd71579043d75706",
+    "previewModeEncryptionKey": "a079ee84ec01865fcd151eaf7043deed85fbd6c44bc158bfb1e2d761fac27f98"
   }
 }

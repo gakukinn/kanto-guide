@@ -1,0 +1,121 @@
+{
+  "timestamp": "2025-06-18T07:54:53.554Z",
+  "source": "https://illumi.walkerplus.com/ranking/ar0312/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "千葉県",
+  "regionCode": "ar0312",
+  "activityType": "illumination",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 7,
+    "dataFields": [
+      "name",
+      "location",
+      "date",
+      "time",
+      "lightBulbs",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "2025もばら冬の七夕まつり",
+      "location": "千葉県・茂原市 / 豊田川沿い県道長生茂原自転車道",
+      "date": "2025年1月19日(日)",
+      "time": "17:00～21:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "4",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e378933/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T07:54:53.549Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "東京ドイツ村 ウインターイルミネーション 2024-2025",
+      "location": "千葉県・袖ケ浦市 / 東京ド",
+      "date": "2024年11月1日(金)～2025年4月6日",
+      "time": "20:00(最終入園 19:30) 行ってみたい：27 行ってよかった：17 電球数：3,000,000",
+      "lightBulbs": "3,000,000",
+      "wantToVisit": "27",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e17438/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T07:54:53.551Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "森のイルミネーション2024",
+      "location": "千葉県・市原市 / いちはらクオードの森",
+      "date": "2024年11月16日(土)",
+      "time": "17:00～20:00",
+      "lightBulbs": "300,000",
+      "wantToVisit": "70",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e331225/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T07:54:53.551Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "千葉ニュータウン イルミライ★INZAI",
+      "location": "千葉県・印西市 / 北総線 千葉ニュータウン中央駅周辺",
+      "date": "2024年11月30日(土)～2025年1月26日",
+      "time": "17:00～21:00",
+      "lightBulbs": "600,000",
+      "wantToVisit": "350",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e325037/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T07:54:53.552Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "東京ディズニーリゾート(R)のクリスマス(東京ディズニーランド)",
+      "location": "千葉県・浦安市 / 東京ディズニー",
+      "date": "2024年11月15日(金)",
+      "time": "情報確認中",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "4",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e17495/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T07:54:53.552Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "マザー牧場 イルミネーション 光の花園 2024-2025",
+      "location": "千葉県・富津市 / マザー牧場",
+      "date": "2024年11月2日(土)～2025年2月24日",
+      "time": "16:00～19:30",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "3",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e17531/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T07:54:53.552Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "イオンモール幕張新都心 クリスマスイルミネーション",
+      "location": "千葉県・千葉市美浜区 /",
+      "date": "2024年11月8日(金)～2025年1月31日",
+      "time": "17:00～21:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "35",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0312e331212/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T07:54:53.553Z",
+      "rank": 7,
+      "pageIndex": 7
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://illumi.walkerplus.com/ranking/ar0312/",
+    "timestamp": "2025-06-18T07:54:53.554Z"
+  },
+  "errors": []
+}

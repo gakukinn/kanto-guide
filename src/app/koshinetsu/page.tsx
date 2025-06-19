@@ -84,6 +84,18 @@ export default function KoshinetsuPage() {
           bgColor: 'from-red-50 to-rose-100',
         },
         featuredActivities: [
+          // 长野县主要活动 - 第37回国宝松本城太鼓まつり
+          {
+            id: 'matsumoto-castle-taiko',
+            title: '第37回国宝松本城太鼓まつり',
+            description:
+              '国宝松本城を舞台に開催される太鼓まつり。全国各地から集まった出演団体による迫力ある太鼓演奏が披露され、プロゲストとの合同演奏のフィナーレは圧巻です。',
+            emoji: '🥁',
+            bgColor: 'from-orange-50 to-red-100',
+            detailLink: '/koshinetsu/matsuri/matsumoto-castle-taiko',
+            imageUrl:
+              '/images/koshinetsu/Matsuri/Matsumoto%20Castle%20Taiko%20Festival/Matsumoto%20Castle%20Taiko%20Festival%20(1).jpg',
+          },
           // 新潟县主要活动
           {
             id: 'nagaoka-hanabi',
@@ -91,14 +103,6 @@ export default function KoshinetsuPage() {
             description: '日本三大花火大会之一',
             emoji: '🎆',
             bgColor: 'from-red-50 to-orange-100',
-          },
-          // 长野县主要活动
-          {
-            id: 'matsumoto-castle-festival',
-            title: '松本城太鼓祭',
-            description: '国宝松本城的传统祭典',
-            emoji: '🏯',
-            bgColor: 'from-blue-50 to-indigo-100',
           },
           // 山梨县主要活动
           {

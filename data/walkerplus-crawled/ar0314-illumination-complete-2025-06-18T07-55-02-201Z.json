@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-06-18T07:55:02.201Z",
+  "source": "https://illumi.walkerplus.com/ranking/ar0314/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "神奈川県",
+  "regionCode": "ar0314",
+  "activityType": "illumination",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 10,
+    "dataFields": [
+      "name",
+      "location",
+      "date",
+      "time",
+      "lightBulbs",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "さがみ湖イルミリオン さがみ湖 MORI MORI",
+      "location": "神奈川県・相模原市緑区 / さがみ湖MORI MORI",
+      "date": "2024年11月16日(土)～2025年5月11日",
+      "time": "16:00～21:00",
+      "lightBulbs": "6,000,000",
+      "wantToVisit": "77",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e17464/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.196Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "よこはまコスモワールド「大観覧車 光のアート」",
+      "location": "神奈川県・横浜市中区 / よこはまコスモワールド",
+      "date": "情報確認中",
+      "time": "情報確認中",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "8",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e450297/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.198Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "湘南の宝石～江の島を彩る光と色の祭典～",
+      "location": "神奈川県・藤沢市 / 江の島サムエル・コッキング苑",
+      "date": "2024年11月23日(祝)～2025年2月28日",
+      "time": "17:00～20:00",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "22",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e127375/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.198Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "クイーンズスクエア横浜クリスマス2024",
+      "location": "神奈川県・横浜市西区 / ク",
+      "date": "2024年11月5日(火)",
+      "time": "16:00・17:00・18:00・19:00・20:00・21:00 行ってみたい：2 行ってよかった：3",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "2",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e17385/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.199Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "InterContinental Christmas 2024 (インターコンチネンタル クリスマス 2024)",
+      "location": "神奈川県・横浜市西区 / ヨコハマ グ",
+      "date": "2024年11月8日(金)",
+      "time": "情報確認中",
+      "lightBulbs": "情報確認中",
+      "wantToVisit": "2",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e17473/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.199Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "宮ヶ瀬湖畔園地・水の郷地域 ジャンボクリスマスツリーの点灯",
+      "location": "神奈川県・愛甲郡清川村 / 宮ヶ瀬湖畔園地・水の郷地域",
+      "date": "2024年11月23日(祝)",
+      "time": "17:00～22:00",
+      "lightBulbs": "710,000",
+      "wantToVisit": "16",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e17484/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.199Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "TOKYU DEPARTMENT STORE 2024 CHRISTMAS(東急百貨店2024クリスマス) たまプラーザ店",
+      "location": "神奈川県・横浜市青葉区 / 東急百貨店たまプ",
+      "date": "2024年11月7日(木)",
+      "time": "10:00～20:00",
+      "lightBulbs": "9,800",
+      "wantToVisit": "1",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e18456/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.200Z",
+      "rank": 7,
+      "pageIndex": 7
+    },
+    {
+      "name": "第22回 松田きらきらフェスタ",
+      "location": "神奈川県・足柄上郡松田町 / 西平畑公園",
+      "date": "2024年11月30日(土)～2024年12月29日",
+      "time": "17:00～21:00",
+      "lightBulbs": "240,000",
+      "wantToVisit": "20",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e19235/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.200Z",
+      "rank": 8,
+      "pageIndex": 8
+    },
+    {
+      "name": "東戸塚ミュージックライト2024-2025",
+      "location": "神奈川県・横浜市戸塚区 / モレ",
+      "date": "2024年10月26日(土)～2025年2月14日",
+      "time": "17:00～24:00",
+      "lightBulbs": "100,000",
+      "wantToVisit": "12",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e330082/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.200Z",
+      "rank": 9,
+      "pageIndex": 9
+    },
+    {
+      "name": "ホテルニューグランドのクリスマス 2024",
+      "location": "神奈川県・横浜市中区 / ホテルニューグ",
+      "date": "2024年11月30日(土)",
+      "time": "23:30 行ってみたい：4 行ってよかった：3 電球数：15,000",
+      "lightBulbs": "15,000",
+      "wantToVisit": "4",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0314e450150/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0314/",
+      "extractedAt": "2025-06-18T07:55:02.201Z",
+      "rank": 10,
+      "pageIndex": 10
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://illumi.walkerplus.com/ranking/ar0314/",
+    "timestamp": "2025-06-18T07:55:02.201Z"
+  },
+  "errors": []
+}

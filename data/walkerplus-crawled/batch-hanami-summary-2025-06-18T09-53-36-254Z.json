@@ -1,0 +1,85 @@
+{
+  "batchMetadata": {
+    "activityType": "hanami",
+    "level": "三層",
+    "technology": "Playwright + Cheerio",
+    "commercial": "真实数据，严禁编造",
+    "executedAt": "2025-06-18T09:53:36.254Z",
+    "regions": [
+      {
+        "code": "ar0313",
+        "name": "东京都"
+      },
+      {
+        "code": "ar0314",
+        "name": "神奈川县"
+      },
+      {
+        "code": "ar0312",
+        "name": "千叶县"
+      },
+      {
+        "code": "ar0311",
+        "name": "埼玉县"
+      },
+      {
+        "code": "ar0300",
+        "name": "北关东"
+      },
+      {
+        "code": "ar0400",
+        "name": "甲信越"
+      }
+    ]
+  },
+  "summary": {
+    "totalRegions": 6,
+    "successfulRegions": 6,
+    "failedRegions": 0,
+    "totalSpots": 0,
+    "results": [
+      {
+        "region": "东京都",
+        "regionCode": "ar0313",
+        "spots": 0,
+        "status": "success",
+        "savedPath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0313-hanami-complete-2025-06-18T09-53-03-536Z.json"
+      },
+      {
+        "region": "神奈川县",
+        "regionCode": "ar0314",
+        "spots": 0,
+        "status": "success",
+        "savedPath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0314-hanami-complete-2025-06-18T09-53-10-090Z.json"
+      },
+      {
+        "region": "千叶县",
+        "regionCode": "ar0312",
+        "spots": 0,
+        "status": "success",
+        "savedPath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0312-hanami-complete-2025-06-18T09-53-16-630Z.json"
+      },
+      {
+        "region": "埼玉县",
+        "regionCode": "ar0311",
+        "spots": 0,
+        "status": "success",
+        "savedPath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0311-hanami-complete-2025-06-18T09-53-23-179Z.json"
+      },
+      {
+        "region": "北关东",
+        "regionCode": "ar0300",
+        "spots": 0,
+        "status": "success",
+        "savedPath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0300-hanami-complete-2025-06-18T09-53-29-725Z.json"
+      },
+      {
+        "region": "甲信越",
+        "regionCode": "ar0400",
+        "spots": 0,
+        "status": "success",
+        "savedPath": "C:\\Users\\GAKU\\Desktop\\Kanto Guide\\data\\walkerplus-crawled\\ar0400-hanami-complete-2025-06-18T09-53-36-253Z.json"
+      }
+    ]
+  }
+}

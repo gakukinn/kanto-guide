@@ -1,0 +1,219 @@
+/**
+ * 埼玉县花见会页面 - 三层页面
+ * 路径: /saitama/hanami
+ * 使用: HanamiPageTemplate模板
+ * 数据源: 真实爬取的AR0311埼玉县花见数据
+ *
+ * ⚠️ 商业网站重要提醒：所有数据均基于真实来源，严禁编造任何信息！
+ */
+
+import HanamiPageTemplate from '@/components/HanamiPageTemplate';
+
+// 基于真实爬取数据的埼玉县花见景点
+const saitamaHanamiEvents = [
+  {
+    id: 'satte-gongendo-sakura-tsutsumi',
+    name: '幸手権現堂桜堤(県営権現堂公園)の桜',
+    location: '幸手市',
+    viewingSeason: '3月下旬～4月上旬',
+    wantToVisit: 584,
+    haveVisited: 582,
+    description:
+      '桜と菜の花が織り成すピンクと黄色のコントラストが見事。埼玉県内最高人気の花見スポット。',
+    likes: 1166,
+    category: '花见会',
+    rank: 1,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e25762/',
+    sakuraVariety: 'ソメイヨシノ',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～4月上旬',
+    features: ['🌸 桜並木', '🌻 菜の花', '📸 コントラスト'],
+  },
+  {
+    id: 'kodai-hasu-no-sato-sakura',
+    name: '古代蓮の里の桜',
+    location: '行田市',
+    viewingSeason: '3月下旬～4月上旬',
+    wantToVisit: 6,
+    haveVisited: 6,
+    description:
+      '展望台から見下ろす桜並木は一見の価値あり。行田市の古代蓮で有名な公園での花見。',
+    likes: 12,
+    category: '花见会',
+    rank: 2,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e403610/',
+    sakuraVariety: 'ソメイヨシノ',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～4月上旬',
+    features: ['🏗️ 展望台', '🌸 桜並木', '🏞️ 古代蓮'],
+  },
+  {
+    id: 'moto-arakawa-sakura-namiki',
+    name: '元荒川の桜並木の桜',
+    location: '鴻巣市',
+    viewingSeason: '3月下旬～4月上旬',
+    wantToVisit: 38,
+    haveVisited: 28,
+    description:
+      '川沿い2.5キロに及ぶ埼玉県内有数の桜の名所。鴻巣市の代表的な花見スポット。',
+    likes: 66,
+    category: '花见会',
+    rank: 3,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e60429/',
+    sakuraVariety: 'ソメイヨシノ',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～4月上旬',
+    features: ['🌊 川沿い', '🚶‍♀️ 2.5キロ', '🌸 名所'],
+  },
+  {
+    id: 'ishido-kaba-zakura',
+    name: '石戸蒲ザクラ',
+    location: '北本市',
+    viewingSeason: '4月上旬～4月中旬',
+    wantToVisit: 33,
+    haveVisited: 22,
+    description:
+      '国指定の天然記念物、日本五大桜に選ばれし名木。北本市の貴重な桜の名木。',
+    likes: 55,
+    category: '花见会',
+    rank: 4,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e25768/',
+    sakuraVariety: 'カバザクラ',
+    prefecture: '埼玉县',
+    peakTime: '4月上旬～4月中旬',
+    features: ['🏛️ 天然記念物', '👑 日本五大桜', '🌸 名木'],
+  },
+  {
+    id: 'minoyama-park-sakura',
+    name: '美の山(みのやま)公園の桜',
+    location: '秩父市',
+    viewingSeason: '3月下旬～5月上旬',
+    wantToVisit: 17,
+    haveVisited: 15,
+    description:
+      '1ヶ月にわたり花見を楽しめるスポット。秩父市の山間部での長期花見。',
+    likes: 32,
+    category: '花见会',
+    rank: 5,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e25764/',
+    sakuraVariety: '多品種の桜',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～5月上旬',
+    features: ['🏔️ 山間部', '📅 長期観賞', '🌸 多品種'],
+  },
+  {
+    id: 'konosu-park-sakura',
+    name: '鴻巣公園の桜',
+    location: '鴻巣市',
+    viewingSeason: '3月下旬～4月上旬',
+    wantToVisit: 5,
+    haveVisited: 11,
+    description:
+      '家族でのんびり花見を楽しめる憩いのスポット。鴻巣市の地域密着型公園。',
+    likes: 16,
+    category: '花见会',
+    rank: 6,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e60428/',
+    sakuraVariety: 'ソメイヨシノ',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～4月上旬',
+    features: ['👨‍👩‍👧‍👦 家族向け', '🏞️ 憩いの場', '🌸 公園'],
+  },
+  {
+    id: 'ina-musen-yama-sakura-namiki',
+    name: '伊奈町無線山桜並木の桜',
+    location: '北足立郡伊奈町',
+    viewingSeason: '3月下旬～4月上旬',
+    wantToVisit: 17,
+    haveVisited: 20,
+    description:
+      '満開時には樹齢80年を超える桜並木が絶景。伊奈町の歴史ある桜並木。',
+    likes: 37,
+    category: '花见会',
+    rank: 7,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e60436/',
+    sakuraVariety: 'ソメイヨシノ',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～4月上旬',
+    features: ['🌳 樹齢80年', '🌸 桜並木', '🏛️ 歴史'],
+  },
+  {
+    id: 'saitama-stadium-2002-park-sakura',
+    name: '埼玉スタジアム2002公園の桜',
+    location: 'さいたま市',
+    viewingSeason: '3月下旬～4月上旬',
+    wantToVisit: 5,
+    haveVisited: 4,
+    description:
+      'サッカー専用スタジアムを彩る桜。さいたま市の現代的なスポーツ施設での花見。',
+    likes: 9,
+    category: '花见会',
+    rank: 8,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e138594/',
+    sakuraVariety: 'ソメイヨシノ',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～4月上旬',
+    features: ['⚽ サッカー場', '🏟️ スタジアム', '🌸 桜'],
+  },
+  {
+    id: 'omiya-park-sakura',
+    name: '大宮公園の桜',
+    location: 'さいたま市',
+    viewingSeason: '3月下旬～4月上旬',
+    wantToVisit: 65,
+    haveVisited: 64,
+    description:
+      '約700本の桜が咲き競う、埼玉県内屈指の桜の名所。さいたま市の代表的花見スポット。',
+    likes: 129,
+    category: '花见会',
+    rank: 9,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e25759/',
+    sakuraVariety: 'ソメイヨシノ',
+    prefecture: '埼玉县',
+    peakTime: '3月下旬～4月上旬',
+    features: ['🌸 700本の桜', '🏞️ 県内名所', '👥 人気スポット'],
+  },
+  {
+    id: 'sunagawa-bori-shidare-zakura',
+    name: '砂川堀のしだれ桜',
+    location: '所沢市',
+    viewingSeason: '3月中旬～4月上旬',
+    wantToVisit: 18,
+    haveVisited: 10,
+    description:
+      '樹齢30年のしだれ桜が約500メートルにわたり咲き誇る。所沢市の美しい桜並木。',
+    likes: 28,
+    category: '花见会',
+    rank: 10,
+    detailLink: 'https://hanami.walkerplus.com/detail/ar0311e382691/',
+    sakuraVariety: 'しだれ桜',
+    prefecture: '埼玉县',
+    peakTime: '3月中旬～4月上旬',
+    features: ['🌸 しだれ桜', '📏 500メートル', '🌳 樹齢30年'],
+  },
+];
+
+const regionConfig = {
+  name: 'saitama',
+  displayName: '埼玉县',
+  emoji: '🌸',
+  description: '関東平野の美しい花見景点',
+  navigationLinks: {
+    prev: { name: '东京都', url: '/tokyo/hanami', emoji: '🗼' },
+    next: { name: '千叶县', url: '/chiba/hanami', emoji: '🌊' },
+    current: { name: '埼玉县', url: '/saitama' },
+  },
+};
+
+export default function SaitamaHanamiPage() {
+  return (
+    <HanamiPageTemplate
+      region={regionConfig}
+      events={saitamaHanamiEvents}
+      regionKey="saitama"
+      activityKey="hanami"
+      pageTitle="埼玉县花见会活动列表"
+      pageDescription="🌸埼玉县花见会🌸 体验关东平野最美樱花盛开，感受都市近郊的春日浪漫。"
+    />
+  );
+}

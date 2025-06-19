@@ -56,6 +56,26 @@ export const MATSURI_REGIONS: NavigationRegion[] = [
   },
 ];
 
+// 文化艺术活动地区循环导航顺序
+export const CULTURE_REGIONS: NavigationRegion[] = [
+  { name: '东京', slug: 'tokyo', href: '/tokyo/culture', emoji: '🗼' },
+  { name: '埼玉', slug: 'saitama', href: '/saitama/culture', emoji: '🌾' },
+  { name: '千叶', slug: 'chiba', href: '/chiba/culture', emoji: '🌊' },
+  { name: '神奈川', slug: 'kanagawa', href: '/kanagawa/culture', emoji: '⛩️' },
+  {
+    name: '北关东',
+    slug: 'kitakanto',
+    href: '/kitakanto/culture',
+    emoji: '🏔️',
+  },
+  {
+    name: '甲信越',
+    slug: 'koshinetsu',
+    href: '/koshinetsu/culture',
+    emoji: '🗻',
+  },
+];
+
 // 获取花火地区的前后导航链接
 export function getRegionNavigation(currentSlug: string) {
   const currentIndex = JULY_REGIONS.findIndex(
@@ -171,6 +191,49 @@ export function getHanabiRegionNavigation(currentSlug: string) {
   const prevRegion = HANABI_REGIONS[prevIndex];
   const nextRegion = HANABI_REGIONS[nextIndex];
   const currentRegion = HANABI_REGIONS[currentIndex];
+
+  return {
+    prev: {
+      name: prevRegion.name,
+      href: prevRegion.href,
+      emoji: prevRegion.emoji,
+    },
+    current: {
+      name: currentRegion.name,
+      href: currentRegion.href,
+      emoji: currentRegion.emoji,
+    },
+    next: {
+      name: nextRegion.name,
+      href: nextRegion.href,
+      emoji: nextRegion.emoji,
+    },
+  };
+}
+
+// 获取文化艺术活动地区的循环导航链接
+export function getCultureRegionNavigation(currentSlug: string) {
+  const currentIndex = CULTURE_REGIONS.findIndex(
+    region => region.slug === currentSlug
+  );
+
+  if (currentIndex === -1) {
+    // 如果找不到当前地区，返回默认导航
+    return {
+      prev: { name: '甲信越', href: '/koshinetsu/culture', emoji: '🗻' },
+      current: { name: '东京', href: '/tokyo/culture', emoji: '🗼' },
+      next: { name: '埼玉', href: '/saitama/culture', emoji: '🌾' },
+    };
+  }
+
+  // 循环导航：前一个和后一个
+  const prevIndex =
+    (currentIndex - 1 + CULTURE_REGIONS.length) % CULTURE_REGIONS.length;
+  const nextIndex = (currentIndex + 1) % CULTURE_REGIONS.length;
+
+  const prevRegion = CULTURE_REGIONS[prevIndex];
+  const nextRegion = CULTURE_REGIONS[nextIndex];
+  const currentRegion = CULTURE_REGIONS[currentIndex];
 
   return {
     prev: {

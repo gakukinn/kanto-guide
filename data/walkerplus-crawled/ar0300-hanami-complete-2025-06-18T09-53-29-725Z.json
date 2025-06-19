@@ -1,0 +1,13 @@
+{
+  "metadata": {
+    "regionCode": "ar0300",
+    "regionName": "北关东",
+    "activityType": "hanami",
+    "level": "三層",
+    "sourceUrl": "https://hanami.walkerplus.com/ranking/ar0300/",
+    "scrapedAt": "2025-06-18T09:53:29.651Z",
+    "technology": "Playwright + Cheerio",
+    "commercial": "真实数据，严禁编造"
+  },
+  "data": []
+}

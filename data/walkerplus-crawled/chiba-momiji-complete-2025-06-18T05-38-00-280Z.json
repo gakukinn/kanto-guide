@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-06-18T05:38:00.280Z",
+  "source": "https://koyo.walkerplus.com/ranking/ar0312/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "千葉県",
+  "activityType": "momiji",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 6,
+    "dataFields": [
+      "name",
+      "location",
+      "coloringStart",
+      "bestViewing",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "本土寺の紅葉",
+      "location": "千葉県・松戸市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬",
+      "wantToVisit": "125",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0312e13255/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T05:38:00.276Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "養老渓谷の紅葉",
+      "location": "千葉県・夷隅郡大多喜町",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "82",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0312e13014/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T05:38:00.277Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "成田山新勝寺 成田山公園の紅葉",
+      "location": "千葉県・成田市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～11月下旬",
+      "wantToVisit": "25",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0312e12657/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T05:38:00.278Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "小松寺の紅葉",
+      "location": "千葉県・南房総市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "8",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0312e13012/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T05:38:00.278Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "亀山湖の紅葉",
+      "location": "千葉県・君津市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～12月上旬",
+      "wantToVisit": "47",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0312e13257/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T05:38:00.278Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "東漸寺の紅葉",
+      "location": "千葉県・松戸市",
+      "coloringStart": "11月下旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "29",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0312e448708/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0312/",
+      "extractedAt": "2025-06-18T05:38:00.279Z",
+      "rank": 6,
+      "pageIndex": 6
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://koyo.walkerplus.com/ranking/ar0312/",
+    "timestamp": "2025-06-18T05:38:00.280Z"
+  },
+  "errors": []
+}

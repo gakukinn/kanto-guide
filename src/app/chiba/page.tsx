@@ -79,18 +79,18 @@ export default function ChibaPage() {
         },
         featuredActivities: [
           {
-            id: 'kamogawa-hanabi',
-            title: '鸭川海岸花火大会',
-            description: '太平洋海岸线上的夏日烟花',
-            emoji: '🎆',
-            bgColor: 'from-blue-50 to-blue-100',
-          },
-          {
             id: 'narita-gion-festival',
             title: '成田祇园祭',
             description: '成田山新胜寺的传统祭典',
             emoji: '⛩️',
             bgColor: 'from-red-50 to-orange-100',
+          },
+          {
+            id: 'kamogawa-hanabi',
+            title: '鸭川海岸花火大会',
+            description: '太平洋海岸线上的夏日烟花',
+            emoji: '🎆',
+            bgColor: 'from-blue-50 to-blue-100',
           },
           {
             id: 'kujukuri-beach',

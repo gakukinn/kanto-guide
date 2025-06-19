@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-06-18T05:35:37.529Z",
+  "source": "https://koyo.walkerplus.com/ranking/ar0311/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "埼玉県",
+  "activityType": "momiji",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 7,
+    "dataFields": [
+      "name",
+      "location",
+      "coloringStart",
+      "bestViewing",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "メッツァ(メッツァビレッジ・ムーミンバレーパーク)の紅葉",
+      "location": "埼玉県・飯能市",
+      "coloringStart": "11月上旬",
+      "bestViewing": "11月中旬～12月中旬",
+      "wantToVisit": "68",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0311e392865/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T05:35:37.524Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "天覧山の紅葉",
+      "location": "埼玉県・飯能市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬～12月上旬",
+      "wantToVisit": "6",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0311e12653/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T05:35:37.526Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "鳥居観音の紅葉",
+      "location": "埼玉県・飯能市",
+      "coloringStart": "10月中旬",
+      "bestViewing": "11月上旬～11月中旬",
+      "wantToVisit": "36",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0311e12655/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T05:35:37.527Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "長瀞の紅葉",
+      "location": "埼玉県・秩父郡長瀞町",
+      "coloringStart": "10月下旬",
+      "bestViewing": "11月上旬～11月下旬",
+      "wantToVisit": "17",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0311e13177/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T05:35:37.527Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "嵐山渓谷の紅葉",
+      "location": "埼玉県・比企郡嵐山町",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～12月上旬",
+      "wantToVisit": "52",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0311e154493/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T05:35:37.527Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "国営武蔵丘陵森林公園の紅葉",
+      "location": "埼玉県・比企郡滑川町",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月中旬～11月下旬",
+      "wantToVisit": "54",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0311e154497/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T05:35:37.528Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "熊谷スポーツ文化公園の紅葉",
+      "location": "埼玉県・熊谷市",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月上旬～11月下旬",
+      "wantToVisit": "5",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0311e372623/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0311/",
+      "extractedAt": "2025-06-18T05:35:37.528Z",
+      "rank": 7,
+      "pageIndex": 7
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://koyo.walkerplus.com/ranking/ar0311/",
+    "timestamp": "2025-06-18T05:35:37.529Z"
+  },
+  "errors": []
+}

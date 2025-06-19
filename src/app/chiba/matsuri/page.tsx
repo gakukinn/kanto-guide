@@ -79,81 +79,43 @@ const chibaRegionConfig = {
 // 千叶祭典事件数据（基于 omaturilink.com 官方数据）
 const chibaMatsuriEvents = [
   {
-    id: 'sawara-taisai',
-    title: '佐原大祭',
+    id: 'narita-gion-festival',
+    title: '成田祇园祭',
     _sourceData: {
-      japaneseName: '佐原大祭',
-      japaneseDescription: '佐原大祭',
+      japaneseName: '成田祇園祭',
+      japaneseDescription: '成田祇園祭',
     },
-    englishName: 'Sawara Grand Festival',
-    name: '佐原大祭',
-    date: '2025-07-12',
-    dates: '2025年7月12-14日',
-    endDate: '2025-07-14',
-    location: '香取市佐原',
-    venue: '佐原市街地',
-    highlights: ['🚗 山车巡游', '🎭 传统艺能', '🏛️ 江户风情', '🌊 利根川'],
-    features: ['🚗 山车巡游', '🎭 传统艺能', '🏛️ 江户风情', '🌊 利根川'],
-    likes: 389,
-    website: 'https://www.city.katori.lg.jp/',
-    description:
-      '佐原大祭是千叶县最著名的传统祭典，以精美的山车和传统艺能表演闻名。在保留江户时代风貌的佐原老街中，华丽的山车穿行其间，重现历史的辉煌。',
-    category: '山车祭典',
-    prefecture: '千叶县',
-    region: 'chiba',
-  },
-  {
-    id: 'mobara-tanabata',
-    title: '茂原七夕祭',
-    _sourceData: {
-      japaneseName: '茂原七夕祭典',
-      japaneseDescription: '茂原七夕祭典',
-    },
-    englishName: 'Mobara Tanabata Festival',
-    name: '茂原七夕祭',
-    date: '2025-07-25',
-    dates: '2025年7月25-27日',
-    endDate: '2025-07-27',
-    location: '茂原市',
-    venue: '茂原市中心商店街',
-    highlights: ['🎋 七夕装饰', '🌟 竹饰艺术', '🎨 手工艺品', '🌃 夜间灯饰'],
-    features: ['🎋 七夕装饰', '🌟 竹饰艺术', '🎨 手工艺品', '🌃 夜间灯饰'],
-    likes: 267,
-    website: 'https://www.city.mobara.chiba.jp/',
-    description:
-      '茂原七夕祭以华丽的竹饰装饰闻名，整个商店街都被五彩斑斓的七夕装饰覆盖。夏夜中灯火辉煌的竹饰在微风中摇曳，创造出梦幻般的夏日风情。',
-    category: '七夕祭典',
-    prefecture: '千叶县',
-    region: 'chiba',
-  },
-  {
-    id: 'naritasan-matsuri',
-    title: '成田山祭',
-    _sourceData: {
-      japaneseName: '成田山祭',
-      japaneseDescription: '成田山祭',
-    },
-    englishName: 'Naritasan Festival',
-    name: '成田山祭',
-    date: '2025-04-28',
-    dates: '2025年4月28-30日',
-    endDate: '2025-04-30',
+    englishName: 'Narita Gion Festival',
+    name: '成田祇园祭',
+    date: '2025-07-04',
+    dates: '2025年7月4-6日',
+    endDate: '2025-07-06',
     location: '成田市',
-    venue: '成田山新胜寺',
+    venue: '成田山新勝寺とその周辺',
     highlights: [
-      '🏯 成田山新胜寺',
-      '🙏 宗教仪式',
-      '🎌 传统表演',
-      '🌸 春季祭典',
+      '🏮 祇园会祭礼',
+      '⛩️ 奥之院开帐',
+      '🚗 山车巡游',
+      '🎭 传统表演',
+      '🙏 40万人参加',
+      '📿 300年历史',
     ],
-    features: ['🏯 成田山新胜寺', '🙏 宗教仪式', '🎌 传统表演', '🌸 春季祭典'],
-    likes: 324,
-    website: 'https://www.naritasan.or.jp/',
+    features: [
+      '🏮 祇园会祭礼',
+      '⛩️ 奥之院开帐',
+      '🚗 山车巡游',
+      '🎭 传统表演',
+      '🙏 40万人参加',
+      '📿 300年历史',
+    ],
+    likes: 420,
+    website: 'https://www.nrtk.jp/enjoy/shikisaisai/gion-festival.html',
     description:
-      '成田山祭在著名的成田山新胜寺举行，是一场庄严的宗教祭典。春天的樱花季节中，传统的宗教仪式与文化表演相结合，展现日本深厚的佛教文化传统。',
-    category: '宗教祭典',
+      '成田祇园祭是为供养成田山新勝寺奥之院大日如来而举行的历史悠久的夏祭。以约300年历史的"成田山祇园会"为中心，豪华绚烂的御舆和10台山车在市内巡游3天，传统舞蹈与囃子竞演热闹非凡，每年吸引40万人以上观赏。',
+    category: '祇园祭',
     prefecture: '千叶县',
     region: 'chiba',
+    detailLink: '/chiba/matsuri/narita-gion-festival',
   },
 ];
 
@@ -162,7 +124,7 @@ export default function ChibaMatsuri() {
     <MatsuriPageTemplate
       region={chibaRegionConfig}
       events={chibaMatsuriEvents}
-      pageTitle="千叶传统祭典"
+      pageTitle="千叶传统祭典活动列表"
       pageDescription="探索千叶县的传统祭典文化，佐原大祭、茂原七夕祭等知名祭典汇聚千叶"
       regionKey="chiba"
       activityKey="matsuri"

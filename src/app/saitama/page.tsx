@@ -79,11 +79,12 @@ export default function SaitamaPage() {
         },
         featuredActivities: [
           {
-            id: 'omiya-hanabi',
-            title: '大宫花火大会',
-            description: '大宫市的传统夏日烟花节',
-            emoji: '🎆',
-            bgColor: 'from-blue-50 to-blue-100',
+            id: 'honjo-gion-matsuri',
+            title: '本庄祇園まつり',
+            description: '埼玉县无形民俗文化财指定的传统祭典',
+            emoji: '🏮',
+            bgColor: 'from-orange-50 to-red-100',
+            detailLink: '/saitama/matsuri/honjo-gion-matsuri',
           },
           {
             id: 'kawagoe-festival',

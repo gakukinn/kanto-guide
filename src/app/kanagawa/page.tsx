@@ -80,6 +80,16 @@ export default function KanagawaPage() {
         },
         featuredActivities: [
           {
+            id: 'hiratsuka-tanabata',
+            title: '湘南平塚七夕祭',
+            description: '神奈川県最大级的七夕祭典',
+            emoji: '🎋',
+            bgColor: 'from-pink-50 to-purple-100',
+            detailLink: '/kanagawa/matsuri/hiratsuka-tanabata',
+            imageUrl:
+              '/images/kanagawa/Matsuri/Shonan Hiratsuka Tanabata Festival/Shonan Hiratsuka Tanabata Festival.jpg',
+          },
+          {
             id: 'yokohama-port-festival',
             title: '横浜港祭',
             description: '横滨港湾区的盛大烟花表演',
@@ -92,13 +102,6 @@ export default function KanagawaPage() {
             description: '古都镰仓的传统祭典',
             emoji: '⛩️',
             bgColor: 'from-purple-50 to-indigo-100',
-          },
-          {
-            id: 'shonan-beach-festival',
-            title: '湘南海岸祭',
-            description: '湘南海滩的夏日庆典',
-            emoji: '🌺',
-            bgColor: 'from-orange-50 to-red-100',
           },
         ],
       }}

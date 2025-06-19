@@ -1,0 +1,160 @@
+{
+  "timestamp": "2025-06-18T06:53:34.155Z",
+  "source": "https://illumi.walkerplus.com/ranking/ar0313/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "東京都",
+  "regionCode": "ar0313",
+  "activityType": "illumination",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 10,
+    "dataFields": [
+      "name",
+      "location",
+      "date",
+      "time",
+      "lightBulbs",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "青の洞窟 SHIBUYA",
+      "location": "東京都・渋谷区 / 渋谷公園通りから代々木公園ケヤキ並木",
+      "date": "2024年12月6日(金)～25日(水)",
+      "time": "15:00～22:00、イルミネーションは17:00より点灯 雨天等、諸般の事情により、開催時間や実施内容は変更になる可能性あり",
+      "lightBulbs": "600,000",
+      "wantToVisit": "194",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e165714/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.147Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "東京メガイルミ(大井競馬場)",
+      "location": "東京都・品川区 / 大井競馬場",
+      "date": "2024年11月2日(土)～2025年1月12日(日)",
+      "time": "原則16:30～21:00 (最終入場時間は20:00) 詳細は公式サイト等を確認",
+      "lightBulbs": "未知",
+      "wantToVisit": "1640",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e323872/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.149Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "丸の内イルミネーション 2024",
+      "location": "東京都・千代田区 / 丸の内仲通り、東京駅前周辺、ほか",
+      "date": "2024年11月14日(木)～2025年2月16日(日)",
+      "time": "情報確認中",
+      "lightBulbs": "820,000",
+      "wantToVisit": "219",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17371/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.150Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "サンシャイン水族館 マリンガーデンイルミネーション",
+      "location": "東京都・豊島区 / サンシャ",
+      "date": "通年",
+      "time": "日没～営業終了まで点灯。 夜間特別営業に合わせ、18:15～21:00は特別バーションに変わる場合あり。最終入場は終了1時間前まで",
+      "lightBulbs": "23,500",
+      "wantToVisit": "9",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17432/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.151Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "六本木ヒルズ Roppongi Hills Christmas 2024 けやき坂イルミネーション",
+      "location": "東京都・港区 / 六本木ヒルズ",
+      "date": "2024年11月7日(木)～12月25日(水)",
+      "time": "17:00～23:00",
+      "lightBulbs": "900,000",
+      "wantToVisit": "74",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17503/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.151Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "六本木ヒルズ Roppongi Hills Christmas 2024 (六本木ヒルズクリスマス2024) ウェストウォーク デコレーション",
+      "location": "東京都・港区 / 六本木ヒルズ",
+      "date": "2024年11月中旬～12月25日(水)",
+      "time": "11:00～23:00",
+      "lightBulbs": "未知",
+      "wantToVisit": "8",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17367/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.152Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "光の祭典2024",
+      "location": "東京都・足立区 / 元渕江公園",
+      "date": "2024年11月30日(土)",
+      "time": "17:00～21:00 竹ノ塚駅前および竹の塚けやき大通りは22:00まで",
+      "lightBulbs": "350,000",
+      "wantToVisit": "55",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17384/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.152Z",
+      "rank": 7,
+      "pageIndex": 7
+    },
+    {
+      "name": "よみうりランド ジュエルミネーション",
+      "location": "東京都・稲城市 / よみうり",
+      "date": "2024年10月24日(木)～2025年4月6日(日)",
+      "time": "16:00～20:30 ※休園日・営業時間の詳細は公式サイトをご確認ください",
+      "lightBulbs": "6,500,000",
+      "wantToVisit": "264",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17494/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.153Z",
+      "rank": 8,
+      "pageIndex": 8
+    },
+    {
+      "name": "お台場イルミネーション“YAKEI”",
+      "location": "東京都・港区 / デックス東京ビーチ",
+      "date": "通年",
+      "time": "点灯時間 日没～24:00 点灯時間を変更している場合があります。詳細は公式サイトをご確認ください",
+      "lightBulbs": "未知",
+      "wantToVisit": "22",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e17523/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.154Z",
+      "rank": 9,
+      "pageIndex": 9
+    },
+    {
+      "name": "新宿ミナミルミ",
+      "location": "東京都・渋谷区 / 新宿サザンテ",
+      "date": "2024年11月15日(金)～2025年2月14日(金)",
+      "time": "17:00～24:00 (12月以降16:30～) 一部点灯時間が異なる",
+      "lightBulbs": "未知",
+      "wantToVisit": "14",
+      "detailUrl": "https://illumi.walkerplus.com/detail/ar0313e125429/",
+      "sourceUrl": "https://illumi.walkerplus.com/ranking/ar0313/",
+      "extractedAt": "2025-06-18T06:53:34.154Z",
+      "rank": 10,
+      "pageIndex": 10
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://illumi.walkerplus.com/ranking/ar0313/",
+    "timestamp": "2025-06-18T06:53:34.155Z"
+  },
+  "errors": []
+}

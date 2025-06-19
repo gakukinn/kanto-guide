@@ -1,0 +1,49 @@
+{
+  "id": "evt_343509",
+  "name": "前橋七夕まつり",
+  "japaneseName": "前橋七夕まつり",
+  "englishName": "Maebashi Tanabata Festival",
+  "period": "2025年7月11日～13日",
+  "startDate": "2025-07-11",
+  "endDate": "2025-07-13",
+  "time": "10:00-21:30",
+  "venue": "前橋市　前橋市中心市街地",
+  "location": "〒371 - 0022　群馬県前橋市千代田町",
+  "prefecture": "群馬県",
+  "city": "前橋市",
+  "address": "群馬県前橋市千代田町",
+  "googleMapLink": "https://maps.google.com/maps?ll=36.388833,139.072396&z=15&t=m&hl=ja-JP&gl=US&mapclient=apiv3",
+  "organizer": "前橋七夕まつり実施委員会",
+  "contact": "前橋七夕まつり実施委員会事務局（前橋市まちづくり公社内）　027-289-5565",
+  "homepage": "https://maebashi-tanabata.jp/",
+  "access": "ＪＲ「前橋駅」から徒歩10分、または関越自動車道「前橋IC」から車約10分",
+  "nearestStation": "JR前橋駅",
+  "walkingTime": "徒歩10分",
+  "carAccess": "関越自動車道「前橋IC」から車約10分",
+  "category": "matsuri",
+  "subcategory": "tanabata",
+  "region": "kitakanto",
+  "prefecture_code": "gunma",
+  "level": "detailed",
+  "description": "前橋七夕まつりの開催期間：2025年7月11日～13日。じゃらんnetでは前橋七夕まつりへの口コミや投稿写真をご紹介。前橋七夕まつりへのアクセス情報や混雑状況などもご確認頂けます。前橋七夕まつり周辺のホテル/観光スポット/ご当地グルメ/イベント情報も充実。",
+  "features": [
+    "伝統的な七夕飾り",
+    "前橋市中心市街地開催",
+    "3日間開催",
+    "夜間開催（21:30まで）"
+  ],
+  "dataSource": "jalan.net",
+  "crawledAt": "2025-06-19T10:33:11.825Z",
+  "lastUpdated": "2025-06-19T10:34:04.790Z",
+  "sourceUrl": "https://www.jalan.net/event/evt_343509/?screenId=OUW1702",
+  "images": [
+    "https://www.jalan.net/jalan/img/3/event/0343/KL/e343509.jpg"
+  ],
+  "metadata": {
+    "extractionMethod": "Playwright + Cheerio",
+    "storageFormat": "JSON（自动化配置规则）",
+    "classification": "北关东 > 祭典 > 四层详情",
+    "dataQuality": "high",
+    "completeness": 100
+  }
+}

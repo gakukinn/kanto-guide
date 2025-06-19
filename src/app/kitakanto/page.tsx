@@ -86,6 +86,16 @@ export default function KitakantoPage() {
         featuredActivities: [
           // 最具代表性的三个活动
           {
+            id: 'maebashi-tanabata',
+            title: '前橋七夕まつり',
+            description: '群馬県最大級の七夕祭典',
+            emoji: '🎋',
+            bgColor: 'from-purple-50 to-pink-100',
+            detailLink: '/kitakanto/matsuri/maebashi-tanabata',
+            imageUrl:
+              '/images/kitakanto/Matsuri/Maebashi Tanabata Festival/Maebashi Tanabata Festival (1).jpg',
+          },
+          {
             id: 'tsuchiura-hanabi',
             title: '土浦全国花火競技大会',
             description: '日本三大花火大会之一',
@@ -98,13 +108,6 @@ export default function KitakantoPage() {
             description: '日本三大名汤之一',
             emoji: '♨️',
             bgColor: 'from-orange-50 to-red-100',
-          },
-          {
-            id: 'ashikaga-flower-park',
-            title: '足利花卉公园',
-            description: '世界著名的紫藤花祭',
-            emoji: '🌸',
-            bgColor: 'from-purple-50 to-indigo-100',
           },
         ],
       }}

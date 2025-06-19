@@ -1,14 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  // 移除静态导出，改为支持Vercel部署
   trailingSlash: true,
   images: {
     unoptimized: true,
   },
   // 允许开发环境的跨域请求
   allowedDevOrigins: ['192.168.3.2'],
-  // redirects不能与output: 'export'一起使用
-  // 静态导出不支持服务器端重定向
+
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {

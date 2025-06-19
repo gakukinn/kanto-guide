@@ -1,0 +1,149 @@
+{
+  "timestamp": "2025-06-18T05:43:16.050Z",
+  "source": "https://koyo.walkerplus.com/ranking/ar0300/",
+  "method": "Pure Playwright + Cheerio Complete Scraping",
+  "region": "北関東",
+  "regionCode": "ar0300",
+  "activityType": "momiji",
+  "level": "三層",
+  "summary": {
+    "totalEventsFound": 10,
+    "dataFields": [
+      "name",
+      "location",
+      "coloringStart",
+      "bestViewing",
+      "wantToVisit"
+    ],
+    "extractionMethod": "First Page Only",
+    "errors": 0
+  },
+  "events": [
+    {
+      "name": "伊香保温泉の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月中旬",
+      "bestViewing": "10月下旬～11月上旬",
+      "wantToVisit": "103",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0310e154488/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.043Z",
+      "rank": 1,
+      "pageIndex": 1
+    },
+    {
+      "name": "本土寺の紅葉",
+      "location": "北関東内",
+      "coloringStart": "11月中旬",
+      "bestViewing": "11月下旬",
+      "wantToVisit": "125",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0312e13255/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.045Z",
+      "rank": 2,
+      "pageIndex": 2
+    },
+    {
+      "name": "谷川岳の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月上旬",
+      "bestViewing": "9月下旬～10月上旬",
+      "wantToVisit": "178",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0310e12824/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.046Z",
+      "rank": 3,
+      "pageIndex": 3
+    },
+    {
+      "name": "袋田の滝の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月下旬",
+      "bestViewing": "11月上旬～11月中旬",
+      "wantToVisit": "105",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0308e13083/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.046Z",
+      "rank": 4,
+      "pageIndex": 4
+    },
+    {
+      "name": "日光(いろは坂)の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月中旬",
+      "bestViewing": "10月中旬～11月上旬",
+      "wantToVisit": "62",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0309e12983/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.046Z",
+      "rank": 5,
+      "pageIndex": 5
+    },
+    {
+      "name": "日光(中禅寺湖湖畔)の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月中旬",
+      "bestViewing": "10月中旬～11月上旬",
+      "wantToVisit": "26",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0309e13029/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.047Z",
+      "rank": 6,
+      "pageIndex": 6
+    },
+    {
+      "name": "塩原の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月中旬",
+      "bestViewing": "10月下旬～11月中旬",
+      "wantToVisit": "73",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0309e12844/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.047Z",
+      "rank": 7,
+      "pageIndex": 7
+    },
+    {
+      "name": "世界遺産 日光の社寺(日光東照宮・日光山輪王寺・日光二荒山神社)の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月下旬",
+      "bestViewing": "11月上旬～11月中旬",
+      "wantToVisit": "13",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0309e13068/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.048Z",
+      "rank": 8,
+      "pageIndex": 8
+    },
+    {
+      "name": "湯西川温泉(平家の里)の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月中旬",
+      "bestViewing": "10月中旬～11月中旬",
+      "wantToVisit": "15",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0309e154477/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.048Z",
+      "rank": 9,
+      "pageIndex": 9
+    },
+    {
+      "name": "那須平成の森の紅葉",
+      "location": "北関東内",
+      "coloringStart": "10月下旬",
+      "bestViewing": "10月下旬",
+      "wantToVisit": "8",
+      "detailUrl": "https://koyo.walkerplus.com/detail/ar0309e394016/",
+      "sourceUrl": "https://koyo.walkerplus.com/ranking/ar0300/",
+      "extractedAt": "2025-06-18T05:43:16.049Z",
+      "rank": 10,
+      "pageIndex": 10
+    }
+  ],
+  "metadata": {
+    "pageProcessed": 1,
+    "url": "https://koyo.walkerplus.com/ranking/ar0300/",
+    "timestamp": "2025-06-18T05:43:16.050Z"
+  },
+  "errors": []
+}
