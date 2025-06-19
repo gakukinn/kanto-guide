@@ -198,87 +198,118 @@ export default function HanabiDetailTemplate({
                   )}
 
                   {/* 活动状态标签 */}
-                  <div className="flex flex-wrap gap-2">
-                    <span
-                      className={`${themeColors.bg200} ${themeColors.text800} rounded-full border px-4 py-2 text-base font-bold ${themeColors.border200} whitespace-nowrap shadow-sm`}
-                    >
-                      {getStatusText(data.status)}
-                    </span>
-                    <span className="whitespace-nowrap rounded-full bg-pink-200 px-4 py-2 text-center text-base font-bold leading-tight text-pink-900 shadow-sm">
-                      {data.ticketPrice}
-                    </span>
-                  </div>
-                </div>
-              </div>
-
-              {/* 地图&交通卡片 */}
-              <div className="transform rounded-3xl border-2 border-red-200 bg-gradient-to-br from-white/60 to-white/40 p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl">
-                <h3 className="mb-4 text-xl font-bold text-gray-900">
-                  地图&交通
-                </h3>
-                <div className="space-y-4 text-base">
-                  <div className="border-b border-gray-200 pb-3">
-                    <div className="flex items-center justify-between">
-                      <span className="flex items-center font-semibold text-gray-800">
-                        📍 地图
-                      </span>
-                      <button
-                        onClick={handleMapClick}
-                        className={`${themeColors.text600} hover:${themeColors.text800} flex items-center space-x-1 font-bold transition-colors duration-300`}
-                      >
-                        <span>查看详细地图 →</span>
-                      </button>
-                    </div>
-                  </div>
-                  <div>
-                    <span className="flex items-center font-semibold text-gray-800">
-                      🚗 停车场
-                    </span>
-                    <div className="mt-2 whitespace-pre-line font-bold text-red-700">
-                      {data.mapInfo?.parking || '停车信息请参考官方网站'}
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* 天气提醒卡片 */}
-              <div className="transform rounded-3xl border-2 border-red-200 bg-gradient-to-br from-white/60 to-white/40 p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl">
-                <h3 className="mb-4 text-xl font-bold text-gray-900">
-                  天气提醒
-                </h3>
-                <div className="space-y-4 text-base">
-                  {data.weatherInfo?.rainPolicy && (
-                    <div className="border-b border-gray-200 pb-3">
-                      <span className="flex items-center font-semibold text-gray-800">
-                        🌦️ 举办条件
-                      </span>
-                      <span className="mt-2 font-bold text-gray-900">
-                        {data.weatherInfo.rainPolicy}
-                      </span>
-                    </div>
-                  )}
-                  {data.weatherInfo?.note && (
-                    <div className="border-b border-gray-200 pb-3">
-                      <span className="flex items-center font-semibold text-gray-800">
-                        💡 建议
-                      </span>
-                      <span className="mt-2 font-bold text-orange-700">
-                        {data.weatherInfo.note}
-                      </span>
-                    </div>
-                  )}
                   <div
                     className={`${themeColors.bg50} border ${themeColors.border200} rounded-xl p-4`}
                   >
                     <span
                       className={`${themeColors.text700} text-base font-medium`}
                     >
-                      💡 {data.weatherInfo?.recommendation || '请关注天气变化'}
+                      📍 状态：{getStatusText(data.status)}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* 交通指南卡片 */}
+              <div className="transform rounded-3xl border-2 border-red-200 bg-gradient-to-br from-white/60 to-white/40 p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl">
+                <h3 className="mb-4 text-xl font-bold text-gray-900">
+                  地图&交通
+                </h3>
+                <div className="space-y-4 text-base">
+                  <div className="border-b border-gray-200 pb-3">
+                    <span className="flex items-center font-semibold text-gray-800">
+                      ⏰ 详细时间
+                    </span>
+                    <span className="mt-2 font-bold text-gray-900">
+                      {data.time}
+                    </span>
+                  </div>
+                  {data.access[0]?.stations?.[0] && (
+                    <div className="border-b border-gray-200 pb-3">
+                      <span className="flex items-center font-semibold text-gray-800">
+                        🚇 交通方式
+                      </span>
+                      <span className="mt-2 font-bold text-gray-900">
+                        {data.access[0].stations[0].name}
+                      </span>
+                      <p className="mt-1 text-sm text-gray-600">
+                        {data.access[0].stations[0].walkTime}
+                      </p>
+                    </div>
+                  )}
+                  <div
+                    className={`${themeColors.bg50} border ${themeColors.border200} rounded-xl p-4`}
+                  >
+                    <button
+                      onClick={handleMapClick}
+                      className={`${themeColors.text700} flex w-full items-center justify-center space-x-2 text-base font-medium`}
+                    >
+                      <span>🗺️</span>
+                      <span>查看详细地图 ↓</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              {/* 参与建议卡片 */}
+              <div className="transform rounded-3xl border-2 border-red-200 bg-gradient-to-br from-white/60 to-white/40 p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl">
+                <h3 className="mb-4 text-xl font-bold text-gray-900">
+                  参与建议
+                </h3>
+                <div className="space-y-4 text-base">
+                  <div className="border-b border-gray-200 pb-3">
+                    <span className="flex items-center font-semibold text-gray-800">
+                      👘 着装建议
+                    </span>
+                    <span className="mt-2 font-bold text-gray-900">
+                      建议穿着浴衣或轻便服装
+                    </span>
+                  </div>
+                  <div className="border-b border-gray-200 pb-3">
+                    <span className="flex items-center font-semibold text-gray-800">
+                      💡 参与提醒
+                    </span>
+                    <span className="mt-2 font-bold text-gray-900">
+                      请遵守现场秩序，注意安全
+                    </span>
+                  </div>
+                  <div
+                    className={`${themeColors.bg50} border ${themeColors.border200} rounded-xl p-4`}
+                  >
+                    <span
+                      className={`${themeColors.text700} text-base font-medium`}
+                    >
+                      💡 建议提前了解活动流程和注意事项
                     </span>
                   </div>
                 </div>
               </div>
             </div>
+
+            {/* 位置地图卡片 */}
+            {data.mapEmbedUrl && (
+              <div id="map-section" className="mt-8">
+                <div className="transform rounded-3xl border-2 border-red-200 bg-gradient-to-br from-white/60 to-white/40 p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.01] hover:shadow-2xl">
+                  <h3 className="mb-6 flex items-center space-x-3 text-2xl font-bold text-gray-900">
+                    <span className="text-2xl">🗺️</span>
+                    <span>位置地图</span>
+                  </h3>
+                  <div className="h-96 w-full overflow-hidden rounded-2xl bg-gray-100 shadow-lg">
+                    <iframe
+                      src={data.mapEmbedUrl}
+                      width="100%"
+                      height="100%"
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title={`${data.name}会场位置`}
+                      className="rounded-2xl"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </section>
 
@@ -412,31 +443,6 @@ export default function HanabiDetailTemplate({
                         </div>
                       )}
                   </div>
-
-                  {/* 地图 */}
-                  {data.mapEmbedUrl && (
-                    <div id="map-section" className="mt-8">
-                      <div className="transform rounded-3xl border-2 border-red-200 bg-gradient-to-br from-white/90 to-white/70 p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.01] hover:shadow-2xl">
-                        <h4 className="mb-6 flex items-center space-x-3 text-2xl font-bold text-gray-800">
-                          <span className="text-2xl">🗺️</span>
-                          <span>会场地图</span>
-                        </h4>
-                        <div className="h-96 w-full overflow-hidden rounded-2xl bg-gray-100 shadow-lg">
-                          <iframe
-                            src={data.mapEmbedUrl}
-                            width="100%"
-                            height="100%"
-                            style={{ border: 0 }}
-                            allowFullScreen
-                            loading="lazy"
-                            referrerPolicy="no-referrer-when-downgrade"
-                            title={`${data.name}会场位置`}
-                            className="rounded-2xl"
-                          ></iframe>
-                        </div>
-                      </div>
-                    </div>
-                  )}
                 </div>
               )}
 
