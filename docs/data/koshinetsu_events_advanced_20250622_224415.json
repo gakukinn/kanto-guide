@@ -1,0 +1,71 @@
+[
+  {
+    "name": "河口湖ハーブフェスティバル",
+    "location": "〒401 - 0305　山梨県富士河口湖町大石2585",
+    "period": "2025年6月21日～7月21日 9:00～17:00",
+    "venue": "山梨県富士河口湖町　河口湖畔　大石公園",
+    "access": "富士急行「河口湖駅」から河口湖周遊バス約30分「河口湖自然生活館」下車",
+    "organizer": "河口湖ハーブフェスティバル実行委員会",
+    "fee": "無料",
+    "contact": "河口湖ハーブフェスティバル実行委員会（富士河口湖町観光課内）　0555-72-3168",
+    "website": "https://point.recruit.co.jp/member/relExpCont?siteCd=JLN",
+    "description": "",
+    "category": "祭典",
+    "prefecture": "新潟県",
+    "region": "甲信越",
+    "google_map": "https://maps.google.com/?q=35.523073,138.745577",
+    "coordinates": {
+      "lat": 35.523073,
+      "lng": 138.745577
+    },
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d138.745577!3d35.523073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5rSb5YuV5L2N572u!5e0!3m2!1sja!2sjp!4v1750599849889!5m2!1sja!2sjp",
+    "coords_source": "Google Maps链接: https://maps.google.com/maps?ll=35.523073,138.745577&z=14&t=m&hl=en-US&gl=US&mapclient=apiv3",
+    "extraction_method": "link"
+  },
+  {
+    "name": "山梨市制施行20周年記念事業　笛吹川県下納涼花火大会",
+    "location": "〒405 - 0018　山梨県山梨市上神内川",
+    "period": "2025年7月26日 花火打ち上げ/19:30～21:00（予定） ※小雨決行、荒天時は翌日に順延",
+    "venue": "山梨県山梨市　笛吹川万力大橋下流",
+    "access": "ＪＲ中央本線「山梨市駅」から徒歩3分",
+    "organizer": "笛吹川県下納涼花火大会山梨市実行委員会",
+    "fee": "有料観覧席なし",
+    "contact": "笛吹川県下納涼花火大会山梨市実行委員会　0553-22-1111",
+    "website": "https://point.recruit.co.jp/member/relExpCont?siteCd=JLN",
+    "description": "",
+    "category": "花火",
+    "prefecture": "新潟県",
+    "region": "甲信越",
+    "google_map": "https://maps.google.com/?q=35.689679,138.682815",
+    "coordinates": {
+      "lat": 35.689679,
+      "lng": 138.682815
+    },
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d138.682815!3d35.689679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5rSb5YuV5L2N572u!5e0!3m2!1sja!2sjp!4v1750599852740!5m2!1sja!2sjp",
+    "coords_source": "Google Maps链接: https://maps.google.com/maps?ll=35.689679,138.682815&z=15&t=m&hl=en-US&gl=US&mapclient=apiv3",
+    "extraction_method": "link"
+  },
+  {
+    "name": "市川三郷町ふるさと夏まつり　「神明の花火大会」",
+    "location": "〒409 - 3606　山梨県市川三郷町高田682",
+    "period": "2025年8月7日 19:15～21:00 ※雨天決行、荒天時は8日または9日に順延",
+    "venue": "山梨県市川三郷町　三郡橋下流笛吹川河畔",
+    "access": "ＪＲ身延線「市川大門駅」から徒歩10分、または中央自動車道「甲府南IC」から車約20分、または中部横断自動車道「増穂IC」から車約5分",
+    "organizer": "市川三郷町ふるさと夏まつり実行委員会",
+    "fee": "有料観覧席あり/ダイナミックVIP席10万円、ダイナミックリクライニング席2万円、通常席4000円～　ほか",
+    "contact": "市川三郷町ふるさと夏まつり実行委員会　055-272-1101",
+    "website": "https://point.recruit.co.jp/member/relExpCont?siteCd=JLN",
+    "description": "",
+    "category": "花火",
+    "prefecture": "新潟県",
+    "region": "甲信越",
+    "google_map": "https://maps.google.com/?q=35.561077,138.483284",
+    "coordinates": {
+      "lat": 35.561077,
+      "lng": 138.483284
+    },
+    "embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d138.483284!3d35.561077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z5rSb5YuV5L2N572u!5e0!3m2!1sja!2sjp!4v1750599855640!5m2!1sja!2sjp",
+    "coords_source": "Google Maps链接: https://maps.google.com/maps?ll=35.561077,138.483284&z=15&t=m&hl=en-US&gl=US&mapclient=apiv3",
+    "extraction_method": "link"
+  }
+]
