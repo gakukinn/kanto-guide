@@ -439,7 +439,7 @@ export default function UniversalStaticDetailTemplate({
                 <h3 className="mb-4 text-xl font-bold text-gray-900">
                   📍 位置地图
                 </h3>
-                <div className="w-full h-96 rounded-2xl overflow-hidden border-2 border-gray-300">
+                <div className="w-full aspect-[16/9] rounded-2xl overflow-hidden border-2 border-gray-300">
                   <iframe
                     src={data.googleMap}
                     width="100%"

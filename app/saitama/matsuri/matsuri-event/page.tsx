@@ -52,7 +52,7 @@ const matsuriData = {
   "access": "从JR高崎线“本庄站”北出口步行5分钟",
   "googleMapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.2!2d139.7587!3d35.6658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDM5JzU2LjkiTiAxMznCsDQ1JzMxLjMiRQ!5e0!3m2!1sja!2sjp!4v1640000000000!5m2!1sja!2sjp",
   "history": {
-    "description": "Honjo Gion Matsuri是一个传统节日，每年7月在埼玉县Honjo市举行。它继承了祇园祭的传统，作为一个由花车和神龛在市区游行的雄壮的节日，深受当地人的喜爱。"
+    "description": "Honjo Gion Matsuri是一个传统节日，每年7月在埼玉县Honjo市举行。它继承了祇园祭的传统，作为一个由花车和神灵在市区游玩的雄伟的节日，深深受到当地人的喜爱。"
   },
   "highlights": [
     "祇園祭",
@@ -84,7 +84,7 @@ const matsuriData = {
     "mapUrl": "https://maps.google.com/?q=本庄市中央,埼玉県",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3225.0!2d139.190556!3d36.244444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601f01a1b1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2z5pys5bqE5biC5Lit5aSu!5e0!3m2!1sja!2sjp!4v1640000000000!5m2!1sja!2sjp"
   },
-  "description": "Honjo Gion Matsuri是一个传统节日，每年7月在埼玉县Honjo市举行。它继承了祇园祭的传统，作为一个由花车和神龛在市区游行的雄壮的节日，深受当地人的喜爱。",
+  "description": "Honjo Gion Matsuri是一个传统节日，每年7月在埼玉县Honjo市举行。它继承了祇园祭的传统，作为一个由花车和神灵在市区游玩的雄伟的节日，深深受到当地人的喜爱。",
   "media": [
     {
       "type": "image",
