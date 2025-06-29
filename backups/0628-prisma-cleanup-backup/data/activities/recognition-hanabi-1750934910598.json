@@ -1,0 +1,30 @@
+{
+  "id": "recognition-hanabi-1750934910598",
+  "name": "長岡まつり大花火大会",
+  "address": "JR長岡駅",
+  "datetime": "2025年8月2日(土)・3日(日) 19:20～21:10 (打ち上げ時間)",
+  "venue": "信濃川河川敷",
+  "access": "【電車】JR長岡駅から徒歩30分 【車】関越道長岡ICから約20分MAP",
+  "organizer": "",
+  "price": "あり\n詳細は公式サイトをご確認ください",
+  "contact": "0570-082-083 (ナビダイヤル)長岡花火チケットセンター",
+  "website": "https://www.nagaokamatsuri.com",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.44944,138.831511&center=37.44944,138.831511",
+  "region": "koshinetsu",
+  "description": "例年8月2日・3日に開催される、長岡空襲で亡くなった方々への慰霊と復興に尽力した先人への感謝、恒久平和への願いなど、度重なる苦難を乗り越えてきた長岡市民の特別な想いが込められた花火大会。信濃川の両岸に観覧席が設けられており、両方向から花火を観ることができる。その特性を活かし、尺玉を多用した演出が多い稀有な存在の花火大会だ。",
+  "activityType": "hanabi",
+  "detailLink": "/koshinetsu/hanabi/activity--34910598",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/2c125205-dec5-46a5-9b39-c0ebace7239a/0_2.png",
+      "title": "長岡まつり大花火大会图片1",
+      "alt": "長岡まつり大花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-28T10:58:34.599Z",
+  "updatedAt": "2025-06-28T10:58:34.599Z"
+}

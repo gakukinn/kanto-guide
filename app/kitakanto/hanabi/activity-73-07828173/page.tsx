@@ -1,0 +1,59 @@
+/**
+ * 第73回 小山の花火 详情页面
+ * 自动生成于 2025-06-29T06:17:10.604Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "第73回 小山の花火",
+  "fireworksCount": "約2万発",
+  "fireworksTime": "详见官网",
+  "expectedVisitors": "約43万人",
+  "date": "2025年9月23日(祝)",
+  "time": "18:30～",
+  "venue": "観晃橋下流　思川河畔",
+  "access": "【電車】JR小山駅西口から徒歩8分MAP",
+  "weatherInfo": "雨天決行、荒天時は中止",
+  "parking": "×",
+  "price": "あり\nテーブルイス席6名30000円～25200円、プレミアムリクライニング席2名15000円、ベンチ席2名8000円、芝生席4名5000円、ペア階段席・北エリア:2名6000円、北エリア:1名3000円、階段席中央・南エリア:1名3500円、市庁舎内4～6階西側廊下席1名10000円、カメラマン席2名8000円、第2駐車場内丸テーブルイス席4名22000円、城山公園内丸テーブルイス席4名20000円、城山公園内芝生席1名1000円※問い合わせ先は小山の花火有料席センター070-2294-8036",
+  "contact": "0285-22-9273 おやまサマーフェスティバル2024実行委員会",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.oyamanohanabi.com/",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.316432,139.796341&center=36.316432,139.796341",
+  "id": "1751107828174",
+  "region": "kitakanto",
+  "activityType": "hanabi",
+  "description": "【※大会プログラムは過去の情報になります。開催予定の大会については詳細が決定次第、情報を更新します】栃木県小山市の清流思川を会場に開催される、関東有数の規模を誇る大会。市制70周年の今年は、おやまサマーフェスティバル2024「天に願いを 希望の花火！～make history～」をテーマに様々な花火が打ち上げられる。会場には有料席が設けられ迫力満点の花火が堪能できる。",
+  "highlights": "市制70周年を記念し、花火に加え、新たな試みとしてドローンショーを実施。プログラムされたドローン500機が音楽に合わせて夜空に絵や文字を描く。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/88c50829-f45d-4251-bace-c1c87bf66a65/0_0.png",
+      "title": "第73回 小山の花火图片1",
+      "alt": "第73回 小山の花火图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/kitakanto/hanabi/activity-73-07828173",
+  "createdAt": "2025-06-29T06:17:10.603Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="kitakanto"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '第73回 小山の花火 - 日本活动指南',
+  description: '【※大会プログラムは過去の情報になります。開催予定の大会については詳細が決定次第、情報を更新します】栃木県小山市の清流思川を会場に開催される、関東有数の規模を誇る大会。市制70周年の今年は、おやまサマーフェスティバル2024「天に願いを 希望の花火！～make history～」をテーマに様々な花火が打ち上げられる。会場には有料席が設けられ迫力満点の花火が堪能できる。',
+};

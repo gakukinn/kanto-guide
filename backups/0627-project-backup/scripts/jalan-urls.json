@@ -1,0 +1,12 @@
+{
+  "description": "Jalan活动URL配置文件",
+  "urls": [
+    "https://www.jalan.net/event/evt_341998/?screenId=OUW1702",
+    "https://www.jalan.net/event/evt_342198/?screenId=OUW1702"
+  ],
+  "notes": [
+    "配置文件使用方法: node scripts/jalan-universal-crawler.js --config scripts/jalan-urls.json",
+    "可以随时添加新的URL到urls数组中",
+    "爬虫会按顺序处理每个URL，并提供详细的统计信息"
+  ]
+} 

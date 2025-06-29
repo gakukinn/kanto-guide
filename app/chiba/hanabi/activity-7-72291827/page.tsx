@@ -1,0 +1,59 @@
+/**
+ * 令和7年度  流山花火大会 详情页面
+ * 自动生成于 2025-06-29T04:44:51.829Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "令和7年度  流山花火大会",
+  "fireworksCount": "約8000発　三郷市と合わせて約12000発",
+  "fireworksTime": "40分",
+  "expectedVisitors": "約12万人(2023年度)",
+  "date": "2025年10月4日(土)",
+  "time": "18:00～18:40",
+  "venue": "流山1丁目～3丁目地先江戸川堤",
+  "access": "【電車】流鉄流山線流山駅または平和台駅から徒歩5分。つくばエクスプレス流山セントラルパーク駅、南流山駅、JR武蔵野線南流山駅から徒歩25分MAP",
+  "weatherInfo": "小雨決行、荒天時は中止",
+  "parking": "×",
+  "price": "あり\nグループ席(指定席6人用)24000円、S席(指定席1人用)5500円、A席(自由席1人用)2500円。2024年8月16日(金曜日)10時から発売開始※詳細は公式サイトで確認。",
+  "contact": "04-7168-1047 流山市流山本町・利根運河ツーリズム推進課、または04-7158-6111(流山商工会議所内 花火大会実行委員会)",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.city.nagareyama.chiba.jp/tourism/1013059/1050206.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.853892,139.896764&center=35.853892,139.896764",
+  "id": "1751172291827",
+  "region": "chiba",
+  "activityType": "hanabi",
+  "description": "【※大会プログラムは過去の情報になります。開催予定の大会については詳細が決定次第、情報を更新します】千葉県と埼玉県の県境である江戸川の広大な河川敷で開催する。大会会場の周辺には、歴史的な建造物や古民家を改装したカフェやレストランがあるほか、住民手作りの切り絵行灯が約120基設置されている。趣き深い町並みも楽しみながら花火が見られるところも魅力の1つ。",
+  "highlights": "河川敷が会場となっているため、ビューポイントも広く楽しめる。花火と音楽がシンクロする「流山スカイミュージカル」やスターマインは見どころ。埼玉県三郷市と同時開催で、毎年たくさんの人で賑わいを見せる。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/60656915-ba00-447f-aac6-5323ed29d7ea/0_1.png",
+      "title": "令和7年度  流山花火大会图片1",
+      "alt": "令和7年度  流山花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/chiba/hanabi/activity-7-72291827",
+  "createdAt": "2025-06-29T04:44:51.827Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="chiba"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '令和7年度  流山花火大会 - 日本活动指南',
+  description: '【※大会プログラムは過去の情報になります。開催予定の大会については詳細が決定次第、情報を更新します】千葉県と埼玉県の県境である江戸川の広大な河川敷で開催する。大会会場の周辺には、歴史的な建造物や古民家を改装したカフェやレストランがあるほか、住民手作りの切り絵行灯が約120基設置されている。趣き深い町並みも楽しみながら花火が見られるところも魅力の1つ。',
+};

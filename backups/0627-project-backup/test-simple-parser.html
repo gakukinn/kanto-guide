@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简化解析器测试</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto p-6">
+        <h1 class="text-2xl font-bold mb-6 text-center">🎯 简化智能解析器测试</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <textarea id="testContent" rows="15" class="w-full p-3 border rounded">
+大会名（活动名称）	市制70周年記念 第79回 あつぎ鮎まつり
+打ち上げ数（花火数）	約1万発　
+打ち上げ時間（花火时间）	60分
+例年の人出（往年观众数）	約28万人　
+開催期間（举办日期）	2025年8月2日(土)
+開催時間	（活动时间）19:00～20:00
+荒天の場合（恶劣天气情况）	雨天決行。荒天時は中止
+有料席（付费座位）	あり
+会場（会场名称）	相模川河川敷(三川合流点)
+会場アクセス（抵达方式）	【電車】小田急小田原線本厚木駅北口から徒歩15分MAP
+駐車場（停车场）	×
+問い合わせ（联系方式）	080-7826-4362 あつぎ鮎まつり実行委員会
+公式サイト（官方网站）	公式サイトほか、関連サイトはこちら
+                </textarea>
+                <button onclick="testParse()" class="mt-3 w-full bg-green-500 text-white p-2 rounded">🎯 解析</button>
+            </div>
+            
+            <div>
+                <div id="results" class="bg-gray-50 p-4 rounded min-h-96"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function testParse() {
+            const content = document.getElementById('testContent').value;
+            const result = {};
+            const lines = content.split('\n');
+            
+            for (const line of lines) {
+                const trimmed = line.trim();
+                if (!trimmed) continue;
+                
+                if (trimmed.includes('大会名（活动名称）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.name = parts[1].trim();
+                }
+                
+                if (trimmed.includes('打ち上げ数（花火数）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.fireworksCount = parts[1].trim();
+                }
+                
+                if (trimmed.includes('打ち上げ時間（花火时间）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.duration = parts[1].trim();
+                }
+                
+                if (trimmed.includes('例年の人出（往年观众数）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.expectedVisitors = parts[1].trim();
+                }
+                
+                if (trimmed.includes('開催期間（举办日期）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) {
+                        let dateStr = parts[1].trim();
+                        const match = dateStr.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+                        if (match) {
+                            result.date = `${match[1]}-${match[2].padStart(2, '0')}-${match[3].padStart(2, '0')}`;
+                        } else {
+                            result.date = dateStr;
+                        }
+                    }
+                }
+                
+                if (trimmed.includes('開催時間') && trimmed.includes('活动时间')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) {
+                        const timeStr = parts[1].trim();
+                        const match = timeStr.match(/(\d{1,2}):(\d{2})\s*[～~－-]\s*(\d{1,2}):(\d{2})/);
+                        if (match) {
+                            result.startTime = `${match[1].padStart(2, '0')}:${match[2]}`;
+                            result.endTime = `${match[3].padStart(2, '0')}:${match[4]}`;
+                        }
+                    }
+                }
+                
+                if (trimmed.includes('荒天の場合（恶劣天气情况）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.weather = parts[1].trim();
+                }
+                
+                if (trimmed.includes('有料席（付费座位）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.ticketInfo = parts[1].trim();
+                }
+                
+                if (trimmed.includes('会場（会场名称）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.venue = parts[1].trim();
+                }
+                
+                if (trimmed.includes('会場アクセス（抵达方式）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.access = parts[1].trim();
+                }
+                
+                if (trimmed.includes('駐車場（停车场）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.parking = parts[1].trim();
+                }
+                
+                if (trimmed.includes('問い合わせ（联系方式）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) {
+                        const contact = parts[1].trim();
+                        const phoneMatch = contact.match(/(\d{3}-\d{4}-\d{4})/);
+                        if (phoneMatch) result.contactPhone = phoneMatch[1];
+                    }
+                }
+                
+                if (trimmed.includes('公式サイト（官方网站）')) {
+                    const parts = trimmed.split('\t');
+                    if (parts.length >= 2) result.website = parts[1].trim();
+                }
+            }
+            
+            // 显示结果
+            let html = '<h3 class="font-bold mb-3">解析结果：</h3>';
+            const recognizedCount = Object.keys(result).length;
+            html += `<p class="mb-4 text-green-600">识别到 ${recognizedCount} 个字段</p>`;
+            
+            for (const [key, value] of Object.entries(result)) {
+                html += `<div class="mb-2"><strong>${getLabel(key)}:</strong> ${value}</div>`;
+            }
+            
+            document.getElementById('results').innerHTML = html;
+        }
+        
+        function getLabel(key) {
+            const labels = {
+                name: '活动名称',
+                fireworksCount: '花火数量',
+                duration: '花火时长',
+                expectedVisitors: '观众数量',
+                date: '举办日期',
+                startTime: '开始时间',
+                endTime: '结束时间',
+                weather: '天气备案',
+                ticketInfo: '票务信息',
+                venue: '会场',
+                access: '交通方式',
+                parking: '停车场',
+                contactPhone: '联系电话',
+                website: '官方网站'
+            };
+            return labels[key] || key;
+        }
+        
+        // 自动测试
+        setTimeout(testParse, 1000);
+    </script>
+</body>
+</html> 

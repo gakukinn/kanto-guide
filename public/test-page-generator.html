@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎆 页面生成器测试</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .input-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #4f46e5;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #4f46e5;
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s;
+            margin: 5px;
+        }
+        button:hover {
+            transform: translateY(-2px);
+        }
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        button.official {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            font-family: monospace;
+            display: none;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .success {
+            background: #d1fae5;
+            border: 2px solid #34d399;
+            color: #065f46;
+        }
+        .error {
+            background: #fee2e2;
+            border: 2px solid #f87171;
+            color: #991b1b;
+        }
+        .info {
+            background: #e0f2fe;
+            border: 2px solid #0284c7;
+            color: #0c4a6e;
+            margin-bottom: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #4f46e5;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #6b7280;
+            margin-bottom: 30px;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .step {
+            margin-bottom: 15px;
+            padding: 15px;
+            border-left: 4px solid #4f46e5;
+            background: #f8fafc;
+            border-radius: 0 10px 10px 0;
+        }
+        .step h4 {
+            margin: 0 0 10px 0;
+            color: #4f46e5;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎆 页面生成器测试</h1>
+        <p class="subtitle">基于数据库记录生成HanabiDetailTemplate页面</p>
+        
+        <div class="info">
+            <h3>💡 功能说明</h3>
+            <p>输入数据库记录ID，系统将：</p>
+            <ul>
+                <li>从Prisma数据库读取记录</li>
+                <li>转换为HanabiData格式</li>
+                <li>使用HanabiDetailTemplate生成页面</li>
+                <li>保存到app/[region]/hanabi/[eventId]/page.tsx</li>
+            </ul>
+        </div>
+        
+        <div class="step">
+            <h4>第一步：测试数据库连接</h4>
+            <p>确认数据库记录存在且可以正常读取</p>
+        </div>
+        
+        <div class="step">
+            <h4>第二步：测试数据转换</h4>
+            <p>验证数据库记录能正确转换为HanabiData格式</p>
+        </div>
+        
+        <div class="step">
+            <h4>第三步：实际生成页面</h4>
+            <p>使用正式API创建真实的页面文件</p>
+        </div>
+        
+        <div class="input-group">
+            <label for="databaseId">🗄️ 数据库记录ID：</label>
+            <input 
+                type="text" 
+                id="databaseId" 
+                placeholder="请输入数据库记录ID（如：cmc66rwgl0001vl5wjardlbtt）"
+                value="cmc66rwgl0001vl5wjardlbtt"
+            >
+            <small style="color: #6b7280; display: block; margin-top: 5px;">
+                默认ID：cmc66rwgl0001vl5wjardlbtt（久里浜ペリー祭花火大会）
+            </small>
+        </div>
+        
+        <div class="button-group">
+            <button onclick="testDatabase()" id="testBtn">
+                🔍 步骤1: 测试数据库连接
+            </button>
+            <button onclick="testGeneration()" id="testGenerateBtn">
+                🧪 步骤2: 测试数据转换
+            </button>
+            <button onclick="realGeneration()" id="realGenerateBtn" class="official">
+                🚀 步骤3: 实际生成页面
+            </button>
+        </div>
+        
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        async function testDatabase() {
+            const resultDiv = document.getElementById('result');
+            const testBtn = document.getElementById('testBtn');
+            
+            // 显示加载状态
+            testBtn.disabled = true;
+            testBtn.textContent = '⏳ 测试中...';
+            resultDiv.style.display = 'none';
+            
+            try {
+                console.log('测试数据库连接...');
+                
+                const response = await fetch('/api/test-database', {
+                    method: 'GET'
+                });
+                
+                console.log('测试API响应状态:', response.status);
+                const result = await response.json();
+                console.log('测试API响应结果:', result);
+                
+                if (result.success) {
+                    const message = `✅ 步骤1完成：数据库连接测试成功！
+
+📊 数据库总记录数: ${result.data.totalRecords}
+🎆 目标记录信息:
+  - ID: ${result.data.targetRecord.id}
+  - 名称: ${result.data.targetRecord.name}
+  - Event ID: ${result.data.targetRecord.eventId}
+  - 日期: ${result.data.targetRecord.date}
+  - 地点: ${result.data.targetRecord.location}
+  - 地区: ${result.data.targetRecord.region.nameCn} (${result.data.targetRecord.region.code})
+  
+🎉 数据库连接正常，可以进行下一步测试！`;
+                    
+                    showResult(message, 'success');
+                } else {
+                    showResult(`❌ 步骤1失败：数据库测试失败：${result.message}`, 'error');
+                }
+                
+            } catch (error) {
+                console.error('请求失败:', error);
+                showResult(`❌ 网络错误：${error.message}`, 'error');
+            } finally {
+                // 恢复按钮状态
+                testBtn.disabled = false;
+                testBtn.textContent = '🔍 步骤1: 测试数据库连接';
+            }
+        }
+        
+        async function testGeneration() {
+            const databaseId = document.getElementById('databaseId').value.trim();
+            const resultDiv = document.getElementById('result');
+            const testGenerateBtn = document.getElementById('testGenerateBtn');
+            
+            if (!databaseId) {
+                showResult('请输入数据库记录ID', 'error');
+                return;
+            }
+            
+            // 显示加载状态
+            testGenerateBtn.disabled = true;
+            testGenerateBtn.textContent = '⏳ 测试中...';
+            resultDiv.style.display = 'none';
+            
+            try {
+                console.log('发送生成请求到测试API，数据库ID:', databaseId);
+                
+                const response = await fetch('/api/test-database', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        databaseId: databaseId
+                    })
+                });
+                
+                console.log('生成API响应状态:', response.status);
+                const result = await response.json();
+                console.log('生成API响应结果:', result);
+                
+                if (result.success) {
+                    const message = `✅ 步骤2完成：数据转换测试成功！
+
+📄 模拟页面文件: ${result.data.filePath}
+🌐 模拟访问URL: ${result.data.url}
+🎆 活动名称: ${result.data.name}
+🏷️ 地区: ${result.data.regionKey}
+🆔 Event ID: ${result.data.eventId}
+📅 测试时间: ${new Date().toLocaleString('zh-CN')}
+
+📋 记录详情:
+  - 数据库ID: ${result.data.recordData.id}
+  - 活动名称: ${result.data.recordData.name}
+  - 举办日期: ${result.data.recordData.date}
+  - 活动地点: ${result.data.recordData.location}
+  - 地区: ${result.data.recordData.region}
+
+🎉 数据读取和转换功能正常，可以进行实际页面生成！
+⚠️ 注意：这是测试模式，未实际创建文件`;
+                    
+                    showResult(message, 'success');
+                } else {
+                    showResult(`❌ 步骤2失败：${result.message}`, 'error');
+                }
+                
+            } catch (error) {
+                console.error('请求失败:', error);
+                showResult(`❌ 网络错误：${error.message}`, 'error');
+            } finally {
+                // 恢复按钮状态
+                testGenerateBtn.disabled = false;
+                testGenerateBtn.textContent = '🧪 步骤2: 测试数据转换';
+            }
+        }
+        
+        async function realGeneration() {
+            const databaseId = document.getElementById('databaseId').value.trim();
+            const resultDiv = document.getElementById('result');
+            const realGenerateBtn = document.getElementById('realGenerateBtn');
+            
+            if (!databaseId) {
+                showResult('请输入数据库记录ID', 'error');
+                return;
+            }
+            
+            // 显示加载状态
+            realGenerateBtn.disabled = true;
+            realGenerateBtn.textContent = '⏳ 正在生成真实页面...';
+            resultDiv.style.display = 'none';
+            
+            try {
+                console.log('发送实际生成请求到正式API，数据库ID:', databaseId);
+                
+                const response = await fetch('/api/page-generator', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        databaseId: databaseId
+                    })
+                });
+                
+                console.log('正式API响应状态:', response.status);
+                const result = await response.json();
+                console.log('正式API响应结果:', result);
+                
+                if (result.success) {
+                    const message = `🎉 步骤3完成：实际页面生成成功！
+
+📄 页面文件已创建: ${result.data.filePath}
+🌐 页面访问URL: ${result.data.url}
+🎆 活动名称: ${result.data.name}
+🏷️ 地区: ${result.data.regionKey}
+🆔 Event ID: ${result.data.eventId}
+📅 生成时间: ${new Date().toLocaleString('zh-CN')}
+
+✅ 成功完成所有步骤：
+  1. ✅ 数据库连接正常
+  2. ✅ 数据转换成功 
+  3. ✅ 页面文件已创建
+
+🎊 恭喜！基于数据库记录的HanabiDetailTemplate页面生成系统工作正常！
+
+🔗 你现在可以访问: http://localhost:3000${result.data.url}`;
+                    
+                    showResult(message, 'success');
+                } else {
+                    showResult(`❌ 步骤3失败：实际生成失败：${result.message}
+错误详情：${result.error || '未知错误'}`, 'error');
+                }
+                
+            } catch (error) {
+                console.error('请求失败:', error);
+                showResult(`❌ 网络错误：${error.message}`, 'error');
+            } finally {
+                // 恢复按钮状态
+                realGenerateBtn.disabled = false;
+                realGenerateBtn.textContent = '🚀 步骤3: 实际生成页面';
+            }
+        }
+        
+        function showResult(message, type) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.className = `result ${type}`;
+            resultDiv.textContent = message;
+            resultDiv.style.display = 'block';
+        }
+        
+        // 页面加载完成后的初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('页面生成器测试页面已加载');
+            
+            // 允许回车键触发第三步
+            document.getElementById('databaseId').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    realGeneration();
+                }
+            });
+        });
+    </script>
+</body>
+</html> 

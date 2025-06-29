@@ -1,0 +1,59 @@
+/**
+ * 第77回 鎌倉花火大会 详情页面
+ * 自动生成于 2025-06-29T06:00:24.578Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "第77回 鎌倉花火大会",
+  "fireworksCount": "約2500発　(予定)",
+  "fireworksTime": "約50分",
+  "expectedVisitors": "約16万人　(2024年実績)",
+  "date": "2025年7月18日(金)",
+  "time": "19:20～20:10",
+  "venue": "由比ヶ浜海岸・材木座海岸",
+  "access": "【電車】江ノ島電鉄由比ヶ浜駅または和田塚駅から徒歩5分、JR・江ノ島電鉄鎌倉駅から徒歩15分 ※当日は会場周辺で交通規制ありMAP",
+  "weatherInfo": "雨天・荒天・高波等の場合は中止",
+  "parking": "×",
+  "price": "あり\n販売予定あり。クラウドファンディングの返礼品として砂浜シート席あり。詳細は公式サイト参照",
+  "contact": "0467-23-3050 鎌倉花火大会実行委員会(公益社団法人 鎌倉市観光協会内)",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.trip-kamakura.com/site/kamakura-hanabi/",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.307631,139.544287&center=35.307631,139.544287",
+  "id": "1751102890960",
+  "region": "kanagawa",
+  "activityType": "hanabi",
+  "description": "鎌倉海岸で繰り広げられる名物花火大会。水中花火をはじめ、スターマインなど約2500発の花火が夜空と海上を彩る。鎌倉夏の風物詩として1948年(昭和23年)の開始以来、長年愛され継続してきた大会だ。5年ぶりに再開された前回と同規模の混雑が想定されるため、公共交通機関の利用が推奨される。なお、予備日は設けられておらず、荒天時は中止となる場合がある。",
+  "highlights": "移動する船から海へ投げ込まれ、海上で勢いよく扇状に開く水中花火は、鎌倉花火大会ならではの伝統演出。波や潮流を読みながら広がる扇形の光景は、職人技が息づく唯一無二の美しさを誇る。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://image-ichiba2.storage.googleapis.com/prod/auctions/932/images/aspect_ratio_3to2___1747741996__2%E6%A0%A1_%E7%AC%AC77%E5%9B%9E%E9%8E%8C%E5%80%89%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A_CF%E3%83%81%E3%83%A9%E3%82%B7_%E3%83%8F%E3%82%99%E3%83%8A%E3%83%BC.jpg",
+      "title": "第77回 鎌倉花火大会图片1",
+      "alt": "第77回 鎌倉花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/kanagawa/hanabi/activity-77-02890959",
+  "createdAt": "2025-06-29T06:00:24.577Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="kanagawa"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '第77回 鎌倉花火大会 - 日本活动指南',
+  description: '鎌倉海岸で繰り広げられる名物花火大会。水中花火をはじめ、スターマインなど約2500発の花火が夜空と海上を彩る。鎌倉夏の風物詩として1948年(昭和23年)の開始以来、長年愛され継続してきた大会だ。5年ぶりに再開された前回と同規模の混雑が想定されるため、公共交通機関の利用が推奨される。なお、予備日は設けられておらず、荒天時は中止となる場合がある。',
+};

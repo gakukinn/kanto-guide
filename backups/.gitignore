@@ -1,0 +1,10 @@
+# 忽略所有备份文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 但保留这个目录
+!.gitignore
+
+# 备份说明文件
+!README.md 

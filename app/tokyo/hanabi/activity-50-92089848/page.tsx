@@ -1,0 +1,59 @@
+/**
+ * 第50回 江戸川区花火大会 详情页面
+ * 自动生成于 2025-06-29T03:16:34.615Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "第50回 江戸川区花火大会",
+  "fireworksCount": "約1万発",
+  "fireworksTime": "約60分",
+  "expectedVisitors": "約100万人",
+  "date": "2025年8月16日(土)",
+  "time": "花火打ち上げ時間19:30～20:30",
+  "venue": "明治神宮外苑",
+  "access": "【電車】JR千駄ヶ谷駅または信濃町駅から徒歩5～10分、東京メトロ外苑前駅または青山1丁目駅または表参道駅または北参道駅から徒歩5～10分、都営地下鉄国立競技場駅から徒歩5～10分MAP",
+  "weatherInfo": "小雨決行。荒天の場合は2025年8月17日(日)に順延 ※荒天中止決定は、開催日の正午に公式サイト、各SNSで配信。",
+  "parking": "×",
+  "price": "あり\n神宮球場(全席指定)、秩父宮ラグビー場(全席指定)、料金・詳細は公式サイトで確認",
+  "contact": "详见官网",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.city.edogawa.tokyo.jp/hanabi/index.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.718451,139.903274&center=35.718451,139.903274",
+  "id": "1751092089850",
+  "region": "tokyo",
+  "activityType": "hanabi",
+  "description": "2025年で50回の節目を迎える江戸川区花火大会。厚みのある多層構造の花火、BGMとシンクロした演出が特徴で、創業360年を超える宗家花火「鍵屋」が担当する。オープニングの5秒で1000発の迫力ある打ち上げ、国内最大級の富士の大仕掛け、クライマックスを飾る怒涛の金カムロは圧巻だ。6月中旬ごろから有料席の一般販売も行われる(詳細は公式サイト参照)。",
+  "highlights": "異なる7つのテーマをもとに、それぞれのイメージに沿ったBGMを流しながら夜空を美しい花火が彩る。大会50周年の目玉企画として、江戸川名物「富士の大仕掛け」が「最も高い山型の仕掛け花火」でギネス世界記録(R)に挑戦。そのほか、花火のデザインを公募。宗家花火鍵屋による審査のもと、自由で独創的な花火が打ち上がる。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/4249ed1a-b154-4a69-9d90-e8e61c01358d/0_1.png",
+      "title": "第50回 江戸川区花火大会图片1",
+      "alt": "第50回 江戸川区花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/tokyo/hanabi/activity-50-92089848",
+  "createdAt": "2025-06-29T03:16:34.613Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="tokyo"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '第50回 江戸川区花火大会 - 日本活动指南',
+  description: '2025年で50回の節目を迎える江戸川区花火大会。厚みのある多層構造の花火、BGMとシンクロした演出が特徴で、創業360年を超える宗家花火「鍵屋」が担当する。オープニングの5秒で1000発の迫力ある打ち上げ、国内最大級の富士の大仕掛け、クライマックスを飾る怒涛の金カムロは圧巻だ。6月中旬ごろから有料席の一般販売も行われる(詳細は公式サイト参照)。',
+};

@@ -1,0 +1,59 @@
+/**
+ * 中央区誕生15周年記念 第52回 相模原納涼花火大会 详情页面
+ * 自动生成于 2025-06-29T05:59:33.836Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "中央区誕生15周年記念 第52回 相模原納涼花火大会",
+  "fireworksCount": "約1万発",
+  "fireworksTime": "約60分",
+  "expectedVisitors": "約20万人",
+  "date": "2025年9月6日(土)",
+  "time": "19:00～20:00(予定)",
+  "venue": "相模原市中央区水郷田名 相模川高田橋上流",
+  "access": "【電車】JR相模原駅からバスで水郷田名停留所下車、徒歩5分。JR淵野辺駅または上溝駅または橋本駅からバスで田名バスターミナル停留所下車、徒歩15分 【車】さがみ縦貫道(圏央道)相模原愛川ICまたは相模原ICから約20分 ※花火大会当日は道路が渋滞するため、早めの来場を推奨MAP",
+  "weatherInfo": "荒天時、相模川増水時は2025年9月7日(日)に延期",
+  "parking": "○詳細未定",
+  "price": "あり\n詳細未定。決定次第公式サイトにて発表",
+  "contact": "042-770-7777 相模原市コールセンター",
+  "foodStalls": "あり",
+  "notes": "JR横浜線各駅より路線バスで通常約30分程度ですが、開催日当日は2時間以上かかることが予想されます。各駅15:00頃までに路線バスに乗車されないと、開始までに到着できない場合があります。JR相模線「上溝駅」からは徒歩で1時間程度です。花火大会当日、相模原駅発の水郷田名行便は、14:00頃(調整中)から「田名バスターミナル」での折り返し運転が実施される予定です。折り返し運転後に田名バスターミナルから先、高田橋方面へ向かうバスはありません。",
+  "website": "https://sagamiharahanabi.com/",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.544894,139.328519&center=35.544894,139.328519",
+  "id": "1751176773835",
+  "region": "kanagawa",
+  "activityType": "hanabi",
+  "description": "約1万発という、神奈川県でも有数のスケールを誇る相模原市の花火大会。打ち上げ場所から一番近い市民協賛者席では、迫力ある花火を体感することができる。特に空中ナイアガラや大スターマインは必見。会場には多くの露店が並び、屋台料理を味わいながら祭の雰囲気も堪能できる。",
+  "highlights": "花火の打ち上げとともに場内でメッセージを流すメッセージ花火も楽しめる。空中ナイアガラやフィナーレの百花繚乱に注目だ。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://pbs.twimg.com/media/GubG5m7aYAA5f5V.jpg",
+      "title": "中央区誕生15周年記念 第52回 相模原納涼花火大会图片1",
+      "alt": "中央区誕生15周年記念 第52回 相模原納涼花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/kanagawa/hanabi/activity-15-52-76773834",
+  "createdAt": "2025-06-29T05:59:33.835Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="kanagawa"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '中央区誕生15周年記念 第52回 相模原納涼花火大会 - 日本活动指南',
+  description: '約1万発という、神奈川県でも有数のスケールを誇る相模原市の花火大会。打ち上げ場所から一番近い市民協賛者席では、迫力ある花火を体感することができる。特に空中ナイアガラや大スターマインは必見。会場には多くの露店が並び、屋台料理を味わいながら祭の雰囲気も堪能できる。',
+};

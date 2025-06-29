@@ -1,0 +1,96 @@
+/* 首页专用样式模块 */
+
+/* 地区网格布局 */
+.regionGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 140px);
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  grid-template-areas:
+    'koshinetsu kitakanto kitakanto kitakanto'
+    'koshinetsu saitama saitama chiba'
+    'koshinetsu tokyo tokyo chiba'
+    'kanagawa kanagawa kanagawa chiba';
+}
+
+.regionGrid > * {
+  min-height: 140px !important;
+  padding: 1.2rem !important;
+}
+
+.regionGrid h3 {
+  font-size: 1.2rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.regionGrid .text-6xl {
+  font-size: 2.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* 地区卡片grid-area定义 - 替代内联样式 */
+.regionCard[data-region='koshinetsu'] {
+  grid-area: koshinetsu;
+}
+
+.regionCard[data-region='kitakanto'] {
+  grid-area: kitakanto;
+}
+
+.regionCard[data-region='saitama'] {
+  grid-area: saitama;
+}
+
+.regionCard[data-region='chiba'] {
+  grid-area: chiba;
+}
+
+.regionCard[data-region='tokyo'] {
+  grid-area: tokyo;
+}
+
+.regionCard[data-region='kanagawa'] {
+  grid-area: kanagawa;
+}
+
+/* 响应式布局 */
+@media (max-width: 768px) {
+  .regionGrid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: repeat(5, 120px) !important;
+    gap: 1rem !important;
+    max-width: 500px !important;
+    grid-template-areas:
+      'kitakanto kitakanto'
+      'koshinetsu koshinetsu'
+      'saitama saitama'
+      'tokyo chiba'
+      'kanagawa kanagawa' !important;
+  }
+
+  .regionGrid > * {
+    min-height: 120px !important;
+    padding: 1rem !important;
+  }
+}
+
+/* 地区卡片样式 */
+.regionCard {
+  /* grid-area 现在通过data属性选择器设置 */
+}
+
+/* 悬停效果增强 */
+.regionCard:hover {
+  transform: translateY(-8px) scale(1.05);
+}
+
+/* 图标动画 */
+.regionIcon {
+  transition: transform 0.3s ease;
+}
+
+.regionCard:hover .regionIcon {
+  transform: scale(1.15);
+}

@@ -1,0 +1,957 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* 基本通用样式 */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* 修复可能的样式冲突 */
+* {
+  box-sizing: border-box;
+}
+
+/* 确保渐变背景正常工作 */
+[class*='bg-gradient'] {
+  background-image: var(--tw-gradient-stops);
+}
+
+/* 基本按钮和表单样式 */
+button {
+  cursor: pointer;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* 🔧 Stagewise插件全局样式冲突修复 - 一劳永逸解决方案 */
+
+/* 强制覆盖所有可能的样式冲突 */
+* {
+  box-sizing: border-box !important;
+}
+
+/* 确保所有渐变背景正常显示 */
+[class*='bg-gradient'],
+[class*='from-'],
+[class*='to-'] {
+  background-image: var(--tw-gradient-stops) !important;
+}
+
+/* 强制所有颜色类生效 */
+.text-white {
+  color: #ffffff !important;
+}
+.text-black {
+  color: #000000 !important;
+}
+.text-gray-50 {
+  color: #f9fafb !important;
+}
+.text-gray-100 {
+  color: #f3f4f6 !important;
+}
+.text-gray-200 {
+  color: #e5e7eb !important;
+}
+.text-gray-300 {
+  color: #d1d5db !important;
+}
+.text-gray-400 {
+  color: #9ca3af !important;
+}
+.text-gray-500 {
+  color: #6b7280 !important;
+}
+.text-gray-600 {
+  color: #4b5563 !important;
+}
+.text-gray-700 {
+  color: #374151 !important;
+}
+.text-gray-800 {
+  color: #1f2937 !important;
+}
+.text-gray-900 {
+  color: #111827 !important;
+}
+
+.text-red-50 {
+  color: #fef2f2 !important;
+}
+.text-red-100 {
+  color: #fee2e2 !important;
+}
+.text-red-200 {
+  color: #fecaca !important;
+}
+.text-red-300 {
+  color: #fca5a5 !important;
+}
+.text-red-400 {
+  color: #f87171 !important;
+}
+.text-red-500 {
+  color: #ef4444 !important;
+}
+.text-red-600 {
+  color: #dc2626 !important;
+}
+.text-red-700 {
+  color: #b91c1c !important;
+}
+.text-red-800 {
+  color: #991b1b !important;
+}
+.text-red-900 {
+  color: #7f1d1d !important;
+}
+
+.text-blue-50 {
+  color: #eff6ff !important;
+}
+.text-blue-100 {
+  color: #dbeafe !important;
+}
+.text-blue-200 {
+  color: #bfdbfe !important;
+}
+.text-blue-300 {
+  color: #93c5fd !important;
+}
+.text-blue-400 {
+  color: #60a5fa !important;
+}
+.text-blue-500 {
+  color: #3b82f6 !important;
+}
+.text-blue-600 {
+  color: #2563eb !important;
+}
+.text-blue-700 {
+  color: #1d4ed8 !important;
+}
+.text-blue-800 {
+  color: #1e40af !important;
+}
+.text-blue-900 {
+  color: #1e3a8a !important;
+}
+
+.text-green-50 {
+  color: #f0fdf4 !important;
+}
+.text-green-100 {
+  color: #dcfce7 !important;
+}
+.text-green-200 {
+  color: #bbf7d0 !important;
+}
+.text-green-300 {
+  color: #86efac !important;
+}
+.text-green-400 {
+  color: #4ade80 !important;
+}
+.text-green-500 {
+  color: #22c55e !important;
+}
+.text-green-600 {
+  color: #16a34a !important;
+}
+.text-green-700 {
+  color: #15803d !important;
+}
+.text-green-800 {
+  color: #166534 !important;
+}
+.text-green-900 {
+  color: #14532d !important;
+}
+
+.text-yellow-50 {
+  color: #fefce8 !important;
+}
+.text-yellow-100 {
+  color: #fef3c7 !important;
+}
+.text-yellow-200 {
+  color: #fde68a !important;
+}
+.text-yellow-300 {
+  color: #fcd34d !important;
+}
+.text-yellow-400 {
+  color: #fbbf24 !important;
+}
+.text-yellow-500 {
+  color: #f59e0b !important;
+}
+.text-yellow-600 {
+  color: #d97706 !important;
+}
+.text-yellow-700 {
+  color: #b45309 !important;
+}
+.text-yellow-800 {
+  color: #92400e !important;
+}
+.text-yellow-900 {
+  color: #78350f !important;
+}
+
+.text-purple-50 {
+  color: #faf5ff !important;
+}
+.text-purple-100 {
+  color: #f3e8ff !important;
+}
+.text-purple-200 {
+  color: #e9d5ff !important;
+}
+.text-purple-300 {
+  color: #d8b4fe !important;
+}
+.text-purple-400 {
+  color: #c084fc !important;
+}
+.text-purple-500 {
+  color: #a855f7 !important;
+}
+.text-purple-600 {
+  color: #9333ea !important;
+}
+.text-purple-700 {
+  color: #7c3aed !important;
+}
+.text-purple-800 {
+  color: #6b21a8 !important;
+}
+.text-purple-900 {
+  color: #581c87 !important;
+}
+
+.text-pink-50 {
+  color: #fdf2f8 !important;
+}
+.text-pink-100 {
+  color: #fce7f3 !important;
+}
+.text-pink-200 {
+  color: #fbcfe8 !important;
+}
+.text-pink-300 {
+  color: #f9a8d4 !important;
+}
+.text-pink-400 {
+  color: #f472b6 !important;
+}
+.text-pink-500 {
+  color: #ec4899 !important;
+}
+.text-pink-600 {
+  color: #db2777 !important;
+}
+.text-pink-700 {
+  color: #be185d !important;
+}
+.text-pink-800 {
+  color: #9d174d !important;
+}
+.text-pink-900 {
+  color: #831843 !important;
+}
+
+.text-orange-50 {
+  color: #fff7ed !important;
+}
+.text-orange-100 {
+  color: #ffedd5 !important;
+}
+.text-orange-200 {
+  color: #fed7aa !important;
+}
+.text-orange-300 {
+  color: #fdba74 !important;
+}
+.text-orange-400 {
+  color: #fb923c !important;
+}
+.text-orange-500 {
+  color: #f97316 !important;
+}
+.text-orange-600 {
+  color: #ea580c !important;
+}
+.text-orange-700 {
+  color: #c2410c !important;
+}
+.text-orange-800 {
+  color: #9a3412 !important;
+}
+.text-orange-900 {
+  color: #7c2d12 !important;
+}
+
+/* 强制所有背景色类生效 */
+.bg-white {
+  background-color: #ffffff !important;
+}
+.bg-black {
+  background-color: #000000 !important;
+}
+.bg-gray-50 {
+  background-color: #f9fafb !important;
+}
+.bg-gray-100 {
+  background-color: #f3f4f6 !important;
+}
+.bg-gray-200 {
+  background-color: #e5e7eb !important;
+}
+.bg-gray-300 {
+  background-color: #d1d5db !important;
+}
+.bg-gray-400 {
+  background-color: #9ca3af !important;
+}
+.bg-gray-500 {
+  background-color: #6b7280 !important;
+}
+.bg-gray-600 {
+  background-color: #4b5563 !important;
+}
+.bg-gray-700 {
+  background-color: #374151 !important;
+}
+.bg-gray-800 {
+  background-color: #1f2937 !important;
+}
+.bg-gray-900 {
+  background-color: #111827 !important;
+}
+
+.bg-red-50 {
+  background-color: #fef2f2 !important;
+}
+.bg-red-100 {
+  background-color: #fee2e2 !important;
+}
+.bg-red-200 {
+  background-color: #fecaca !important;
+}
+.bg-red-300 {
+  background-color: #fca5a5 !important;
+}
+.bg-red-400 {
+  background-color: #f87171 !important;
+}
+.bg-red-500 {
+  background-color: #ef4444 !important;
+}
+.bg-red-600 {
+  background-color: #dc2626 !important;
+}
+.bg-red-700 {
+  background-color: #b91c1c !important;
+}
+.bg-red-800 {
+  background-color: #991b1b !important;
+}
+.bg-red-900 {
+  background-color: #7f1d1d !important;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff !important;
+}
+.bg-blue-100 {
+  background-color: #dbeafe !important;
+}
+.bg-blue-200 {
+  background-color: #bfdbfe !important;
+}
+.bg-blue-300 {
+  background-color: #93c5fd !important;
+}
+.bg-blue-400 {
+  background-color: #60a5fa !important;
+}
+.bg-blue-500 {
+  background-color: #3b82f6 !important;
+}
+.bg-blue-600 {
+  background-color: #2563eb !important;
+}
+.bg-blue-700 {
+  background-color: #1d4ed8 !important;
+}
+.bg-blue-800 {
+  background-color: #1e40af !important;
+}
+.bg-blue-900 {
+  background-color: #1e3a8a !important;
+}
+
+.bg-green-50 {
+  background-color: #f0fdf4 !important;
+}
+.bg-green-100 {
+  background-color: #dcfce7 !important;
+}
+.bg-green-200 {
+  background-color: #bbf7d0 !important;
+}
+.bg-green-300 {
+  background-color: #86efac !important;
+}
+.bg-green-400 {
+  background-color: #4ade80 !important;
+}
+.bg-green-500 {
+  background-color: #22c55e !important;
+}
+.bg-green-600 {
+  background-color: #16a34a !important;
+}
+.bg-green-700 {
+  background-color: #15803d !important;
+}
+.bg-green-800 {
+  background-color: #166534 !important;
+}
+.bg-green-900 {
+  background-color: #14532d !important;
+}
+
+.bg-yellow-50 {
+  background-color: #fefce8 !important;
+}
+.bg-yellow-100 {
+  background-color: #fef3c7 !important;
+}
+.bg-yellow-200 {
+  background-color: #fde68a !important;
+}
+.bg-yellow-300 {
+  background-color: #fcd34d !important;
+}
+.bg-yellow-400 {
+  background-color: #fbbf24 !important;
+}
+.bg-yellow-500 {
+  background-color: #f59e0b !important;
+}
+.bg-yellow-600 {
+  background-color: #d97706 !important;
+}
+.bg-yellow-700 {
+  background-color: #b45309 !important;
+}
+.bg-yellow-800 {
+  background-color: #92400e !important;
+}
+.bg-yellow-900 {
+  background-color: #78350f !important;
+}
+
+.bg-purple-50 {
+  background-color: #faf5ff !important;
+}
+.bg-purple-100 {
+  background-color: #f3e8ff !important;
+}
+.bg-purple-200 {
+  background-color: #e9d5ff !important;
+}
+.bg-purple-300 {
+  background-color: #d8b4fe !important;
+}
+.bg-purple-400 {
+  background-color: #c084fc !important;
+}
+.bg-purple-500 {
+  background-color: #a855f7 !important;
+}
+.bg-purple-600 {
+  background-color: #9333ea !important;
+}
+.bg-purple-700 {
+  background-color: #7c3aed !important;
+}
+.bg-purple-800 {
+  background-color: #6b21a8 !important;
+}
+.bg-purple-900 {
+  background-color: #581c87 !important;
+}
+
+.bg-pink-50 {
+  background-color: #fdf2f8 !important;
+}
+.bg-pink-100 {
+  background-color: #fce7f3 !important;
+}
+.bg-pink-200 {
+  background-color: #fbcfe8 !important;
+}
+.bg-pink-300 {
+  background-color: #f9a8d4 !important;
+}
+.bg-pink-400 {
+  background-color: #f472b6 !important;
+}
+.bg-pink-500 {
+  background-color: #ec4899 !important;
+}
+.bg-pink-600 {
+  background-color: #db2777 !important;
+}
+.bg-pink-700 {
+  background-color: #be185d !important;
+}
+.bg-pink-800 {
+  background-color: #9d174d !important;
+}
+.bg-pink-900 {
+  background-color: #831843 !important;
+}
+
+.bg-orange-50 {
+  background-color: #fff7ed !important;
+}
+.bg-orange-100 {
+  background-color: #ffedd5 !important;
+}
+.bg-orange-200 {
+  background-color: #fed7aa !important;
+}
+.bg-orange-300 {
+  background-color: #fdba74 !important;
+}
+.bg-orange-400 {
+  background-color: #fb923c !important;
+}
+.bg-orange-500 {
+  background-color: #f97316 !important;
+}
+.bg-orange-600 {
+  background-color: #ea580c !important;
+}
+.bg-orange-700 {
+  background-color: #c2410c !important;
+}
+.bg-orange-800 {
+  background-color: #9a3412 !important;
+}
+.bg-orange-900 {
+  background-color: #7c2d12 !important;
+}
+
+/* 强制渐变背景生效 */
+.bg-gradient-to-r {
+  background-image: linear-gradient(
+    to right,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+.bg-gradient-to-l {
+  background-image: linear-gradient(
+    to left,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+.bg-gradient-to-t {
+  background-image: linear-gradient(
+    to top,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+.bg-gradient-to-b {
+  background-image: linear-gradient(
+    to bottom,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+.bg-gradient-to-tr {
+  background-image: linear-gradient(
+    to top right,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+.bg-gradient-to-tl {
+  background-image: linear-gradient(
+    to top left,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+.bg-gradient-to-br {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+.bg-gradient-to-bl {
+  background-image: linear-gradient(
+    to bottom left,
+    var(--tw-gradient-stops)
+  ) !important;
+}
+
+/* 确保z-index正常工作 */
+.z-0 {
+  z-index: 0 !important;
+}
+.z-10 {
+  z-index: 10 !important;
+}
+.z-20 {
+  z-index: 20 !important;
+}
+.z-30 {
+  z-index: 30 !important;
+}
+.z-40 {
+  z-index: 40 !important;
+}
+.z-50 {
+  z-index: 50 !important;
+}
+.z-auto {
+  z-index: auto !important;
+}
+
+/* 强制按钮样式 */
+button,
+[role='button'],
+.btn,
+a[class*='bg-'],
+a[class*='border-'] {
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+/* 强制主要内容区域 */
+main {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* 强制标签和徽章样式 */
+.badge,
+[class*='rounded-full'],
+span[class*='bg-'],
+span[class*='text-'] {
+  display: inline-flex !important;
+  align-items: center !important;
+  position: relative !important;
+  z-index: 5 !important;
+}
+
+/* 防止Stagewise工具栏干扰 */
+#stagewise-toolbar,
+[data-stagewise],
+[class*='stagewise'] {
+  z-index: 9999 !important;
+}
+
+/* 确保我们的内容在工具栏之下但可见 */
+body > * {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* 骨架屏效果使用Tailwind配置中的动画 */
+.animate-gradient {
+  background-size: 400% 100% !important;
+}
+
+.bg-size-200 {
+  background-size: 200% 100% !important;
+}
+
+/* 🎨 自定义动画效果 - 热门推荐卡片动画增强 */
+
+/* 浮动动画 */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* 慢速旋转动画 */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* 反向慢速旋转动画 */
+@keyframes spin-slow-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-spin-slow-reverse {
+  animation: spin-slow-reverse 12s linear infinite;
+}
+
+/* 增强的阴影效果 */
+.shadow-3xl {
+  box-shadow: 0 35px 60px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* 光效动画 */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s ease-in-out infinite;
+}
+
+/* 呼吸效果动画 */
+@keyframes breathe {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.animate-breathe {
+  animation: breathe 4s ease-in-out infinite;
+}
+
+/* 脉冲发光动画 */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.8), 0 0 30px rgba(59, 130, 246, 0.6);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* 渐变背景动画 */
+@keyframes gradient-shift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-shift {
+  background-size: 200% 200%;
+  animation: gradient-shift 4s ease infinite;
+}
+
+/* 弹跳进入动画 */
+@keyframes bounce-in {
+  0% {
+    transform: scale(0.3) translateY(20px);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.05) translateY(-5px);
+  }
+  70% {
+    transform: scale(0.9) translateY(2px);
+  }
+  100% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.6s ease-out;
+}
+
+/* 淡入向上动画 */
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out;
+}
+
+/* 放大淡入动画 */
+@keyframes scale-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scale-in 0.5s ease-out;
+}
+
+/* 悬停时的微妙晃动 */
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  75% {
+    transform: rotate(-1deg);
+  }
+}
+
+.hover\:animate-wiggle:hover {
+  animation: wiggle 0.5s ease-in-out;
+}
+
+/* 粒子效果动画 */
+@keyframes particle-float {
+  0%, 100% {
+    transform: translateY(0px) translateX(0px);
+    opacity: 0.7;
+  }
+  33% {
+    transform: translateY(-10px) translateX(5px);
+    opacity: 1;
+  }
+  66% {
+    transform: translateY(-5px) translateX(-3px);
+    opacity: 0.8;
+  }
+}
+
+.animate-particle-float {
+  animation: particle-float 4s ease-in-out infinite;
+}
+
+/* 呼吸发光效果 */
+@keyframes glow-pulse {
+  0%, 100% {
+    filter: brightness(1) drop-shadow(0 0 5px rgba(255, 255, 255, 0.3));
+  }
+  50% {
+    filter: brightness(1.2) drop-shadow(0 0 15px rgba(255, 255, 255, 0.6));
+  }
+}
+
+.animate-glow-pulse {
+  animation: glow-pulse 2s ease-in-out infinite;
+}
+
+/* 动画延迟类 */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+.delay-300 {
+  animation-delay: 300ms;
+}
+
+.delay-500 {
+  animation-delay: 500ms;
+}
+
+.delay-700 {
+  animation-delay: 700ms;
+}
+
+.delay-1000 {
+  animation-delay: 1000ms;
+}
+
+.delay-2000 {
+  animation-delay: 2000ms;
+}
+
+/* 响应式动画控制 */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-spin-slow,
+  .animate-spin-slow-reverse,
+  .animate-shimmer,
+  .animate-breathe,
+  .animate-pulse-glow,
+  .animate-gradient-shift,
+  .animate-particle-float,
+  .animate-glow-pulse {
+    animation: none;
+  }
+}

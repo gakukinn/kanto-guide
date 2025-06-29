@@ -1,0 +1,37 @@
+{
+  "id": "1751108476506",
+  "name": "新潟まつり花火大会",
+  "fireworksCount": "非公開",
+  "fireworksTime": "約60分",
+  "expectedVisitors": "約34万人　(2024年)",
+  "date": "2025年8月10日(日)",
+  "time": "19:20〜20:20(1時間程度)",
+  "venue": "新潟市中央区信濃川河畔(昭和大橋周辺)",
+  "access": "【電車】JR新潟駅から徒歩20分。JR白山駅から徒歩15分MAP",
+  "weatherInfo": "荒天の場合は中止(順延なし)",
+  "parking": "×周辺の民間駐車場を利用",
+  "price": "なし\nただし、協賛席あり。詳細は公式サイトを参照",
+  "contact": "025-226-2608 新潟まつり実行委員会(新潟市観光政策課内)",
+  "foodStalls": "详见官网",
+  "notes": "详见官网",
+  "website": "https://niigata-matsuri.com/",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.911683,139.040403&center=37.911683,139.040403",
+  "description": "2025年8月8日(金)から10日(祝)の3日間にわたり開催される新潟まつりは、新潟を代表する夏の風物詩。そのフィナーレを飾る花火大会では、音楽花火や、迫力満点のワイドスターマインなどが観客を楽しませる。日本一長い川として知られる信濃川を舞台に、優美な景観を堪能できる。",
+  "highlights": "信濃川沿いの街並みと一体となって繰り広げられる花火大会は、夏の思い出にぴったり。広々とした川面と夜空を背景に、色とりどりの花火が打ち上げられる。",
+  "region": "koshinetsu",
+  "activityType": "hanabi",
+  "detailLink": "/koshinetsu/hanabi/activity--08476505",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://yakei-fan.com/images/magazine/fireworks/pic_niigata-hanabi202301.jpg",
+      "title": "新潟まつり花火大会图片1",
+      "alt": "新潟まつり花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-29T06:24:25.018Z",
+  "updatedAt": "2025-06-29T06:24:25.018Z"
+}

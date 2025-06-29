@@ -1,0 +1,86 @@
+import React from 'react';
+import MatsuriDetailTemplate from '../../../../src/components/MatsuriDetailTemplate';
+
+/**
+ * 传统祭典详情页面
+ * 数据库ID: cmc963j9p0003vlr0yxv9btl2
+ * 生成时间: 2025/6/24 22:04:44
+ * 模板: MatsuriDetailTemplate
+ * 
+ * 十项核心数据:
+ * 1. 名称: 下館祇園まつり（しもだてぎおんまつり）
+ * 2. 所在地: 〒308-0031　茨城県筑西市
+ * 3. 开催期间: 2025年7月24日～27日　 【24日～26日】18:00～22:00　　【27日】6:00～9:00　※最新情報はホームページ参照
+ * 4. 开催场所: 茨城県筑西市　下館駅前通りおよびその周辺　五行川大橋　ほか
+ * 5. 交通方式: ＪＲ水戸線「下館駅」北口からすぐ
+ * 6. 主办方: 下館祇園まつり実行委員会
+ * 7. 料金: 未设置
+ * 8. 联系方式: 筑西市商工観光課　0296-20-1160
+ * 9. 官方网站: https://www.chikuseikanko.jp/
+ * 10. 谷歌地图: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.97858!3d36.304892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750770240343!5m2!1sja!2sjp
+ */
+
+const DetailPage = () => {
+  // 转换后的活动数据
+  const activityData = {
+  id: "cmc963j9p0003vlr0yxv9btl2",
+  name: "下館祇園まつり（しもだてぎおんまつり）",
+    description: activityData.description || "详见官网",
+  address: "〒308-0031　茨城県筑西市",
+  datetime: "2025年7月24日～27日　 【24日～26日】18:00～22:00　　【27日】6:00～9:00　※最新情報はホームページ参照",
+  venue: "茨城県筑西市　下館駅前通りおよびその周辺　五行川大橋　ほか",
+  access: "ＪＲ水戸線「下館駅」北口からすぐ",
+  organizer: "下館祇園まつり実行委員会",
+  price: "",
+  contact: "筑西市商工観光課　0296-20-1160",
+  website: "https://www.chikuseikanko.jp/",
+  googleMap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.97858!3d36.304892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750770240343!5m2!1sja!2sjp",
+  region: "kitakanto",
+  themeColor: "red",
+  status: "scheduled",
+  media: [
+    {
+      type: "image" as const,
+      url: "https://stat.ameba.jp/user_images/20230617/16/sayapepe38/d9/e8/j/o1500099815300309130.jpg",
+      title: "下館祇園まつり（しもだてぎおんまつり）图片1",      alt: "下館祇園まつり（しもだてぎおんまつり）图片1",
+      caption: ""
+    }
+  ]
+};
+
+  // 确定地区键 - 使用标准化的地区映射
+  const REGION_MAP = {
+    'tokyo': 'tokyo',
+    'saitama': 'saitama', 
+    'chiba': 'chiba',
+    'kanagawa': 'kanagawa',
+    'kitakanto': 'kitakanto',
+    'koshinetsu': 'koshinetsu',
+    '東京都': 'tokyo',
+    '東京': 'tokyo',
+    '埼玉県': 'saitama',
+    '埼玉': 'saitama',
+    '千葉県': 'chiba',
+    '千葉': 'chiba',
+    '神奈川県': 'kanagawa',
+    '神奈川': 'kanagawa',
+    '茨城県': 'kitakanto',
+    '栃木県': 'kitakanto',
+    '群馬県': 'kitakanto',
+    '新潟県': 'koshinetsu',
+    '長野県': 'koshinetsu',
+    '山梨県': 'koshinetsu'
+  };
+  const regionKey = REGION_MAP["kitakanto"] || 'tokyo';
+
+  return (
+    <div className="min-h-screen">
+      <MatsuriDetailTemplate
+        data={activityData}
+        regionKey={regionKey}
+      />
+    </div>
+  );
+};
+
+export default DetailPage;

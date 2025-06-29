@@ -1,0 +1,30 @@
+{
+  "id": "1751107930764",
+  "name": "第94回 土浦全国花火競技大会",
+  "address": "JR常磐線土浦駅西口",
+  "datetime": "2025年11月1日(土) 17:30～20:00",
+  "venue": "土浦市 桜川畔(学園大橋付近)",
+  "access": "【電車】JR常磐線土浦駅西口から徒歩30分 ※JR線土浦駅から有料シャトルバス運行 【車】常磐道桜土浦ICまたは土浦北ICから約20分MAP",
+  "organizer": "",
+  "price": "あり\n詳細未定",
+  "contact": "029-826-1111 土浦全国花火競技大会実行委員会",
+  "website": "https://www.tsuchiura-hanabi.jp/",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.085995,140.179707&center=36.085995,140.179707",
+  "region": "kitakanto",
+  "description": "1925年(大正14年)から続く伝統ある花火競技大会で、全国の煙火業者が技を競い合う、国内屈指の大会。競技は、数百発の花火を連続で打ち上げるスターマイン、開いたときの星の配列や発色などがポイントの10号玉、決まった型にとらわれない新しいアイデアを披露する創造花火の3部門で行われる。",
+  "activityType": "hanabi",
+  "detailLink": "/kitakanto/hanabi/activity-94-07930763",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/509b6a31-7b31-4ecd-8ce7-f6c22997be32/0_1.png",
+      "title": "第94回 土浦全国花火競技大会图片1",
+      "alt": "第94回 土浦全国花火競技大会图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-28T10:52:10.771Z",
+  "updatedAt": "2025-06-28T10:52:10.771Z"
+}

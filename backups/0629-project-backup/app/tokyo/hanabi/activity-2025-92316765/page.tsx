@@ -1,0 +1,59 @@
+/**
+ * 2025 神宮外苑花火大会 详情页面
+ * 自动生成于 2025-06-29T03:43:44.971Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "2025 神宮外苑花火大会",
+  "fireworksCount": "約1万発",
+  "fireworksTime": "約60分",
+  "expectedVisitors": "約100万人",
+  "date": "2025年8月16日(土)",
+  "time": "花火打ち上げ時間19:30～20:30",
+  "venue": "明治神宮外苑",
+  "access": "【電車】JR千駄ヶ谷駅または信濃町駅から徒歩5～10分、東京メトロ外苑前駅または青山1丁目駅または表参道駅または北参道駅から徒歩5～10分、都営地下鉄国立競技場駅から徒歩5～10分MAP",
+  "weatherInfo": "小雨決行。荒天の場合は2025年8月17日(日)に順延 ※荒天中止決定は、開催日の正午に公式サイト、各SNSで配信。",
+  "parking": "×",
+  "price": "あり\n神宮球場(全席指定)、秩父宮ラグビー場(全席指定)、料金・詳細は公式サイトで確認",
+  "contact": "详见官网",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.jinguhanabi.com/index.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.678662,139.717665&center=35.678662,139.717665",
+  "id": "1751092316766",
+  "region": "tokyo",
+  "activityType": "hanabi",
+  "description": "東京都の明治神宮外苑(神宮球場、秩父宮ラグビー場)で開催される花火大会。アーティストによるライブコンサートを楽しんだ後に、自分の席からゆっくりと花火を鑑賞できる都市型の花火大会として知られている。都内で唯一、山手線内で開催されるこの花火大会は、長年にわたり多くの人々に親しまれている。出演アーティストやチケットの情報は公式サイトで発表される予定。",
+  "highlights": "大小のスターマインなど、音楽に合わせて約1万発の花火が夜空に打ち上げられ、至近距離から迫力を体感できる。花火とともに豪華ゲストによるライブを楽しめるのが魅力だ。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/f1735108-3f24-40b3-80fa-7daa995b3066/0_3.png",
+      "title": "2025 神宮外苑花火大会图片1",
+      "alt": "2025 神宮外苑花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/tokyo/hanabi/activity-2025-92316765",
+  "createdAt": "2025-06-29T03:43:44.970Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="tokyo"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '2025 神宮外苑花火大会 - 日本活动指南',
+  description: '東京都の明治神宮外苑(神宮球場、秩父宮ラグビー場)で開催される花火大会。アーティストによるライブコンサートを楽しんだ後に、自分の席からゆっくりと花火を鑑賞できる都市型の花火大会として知られている。都内で唯一、山手線内で開催されるこの花火大会は、長年にわたり多くの人々に親しまれている。出演アーティストやチケットの情報は公式サイトで発表される予定。',
+};

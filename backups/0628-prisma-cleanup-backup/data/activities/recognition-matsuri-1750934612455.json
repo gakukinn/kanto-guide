@@ -1,0 +1,29 @@
+{
+  "id": "recognition-matsuri-1750934612455",
+  "name": "前橋七夕まつり（まえばしたなばたまつり）",
+  "address": "〒371-0022　群馬県前橋市千代田町",
+  "datetime": "2025年7月11日～13日　 10:00～21:30",
+  "venue": "前橋市　前橋市中心市街地",
+  "access": "ＪＲ「前橋駅」から徒歩10分、または関越自動車道「前橋IC」から車約10分",
+  "organizer": "前橋七夕まつり実施委員会",
+  "price": "",
+  "contact": "前橋七夕まつり実施委員会事務局（前橋市まちづくり公社内）　027-289-5565",
+  "website": "https://maebashi-tanabata.jp/",
+  "googleMap": "https://maps.google.com/maps?q=36.388833,139.072396&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "kitakanto",
+  "description": "昭和26年（1951年）に始まった「前橋七夕まつり」が、中心市街地で開催されます。今年も前橋市の中心市街地で開催されます。市内中心部および周辺商店街などに七夕飾りが飾られるほか、中央イベント広場には七夕願い事短冊飾りが飾られ、七夕の雰囲気が演出されます。",
+  "activityType": "matsuri",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://www.maebashi-cvb.com/image/rendering/attraction_image/789/keep/1200?v=b41fd6641c9447dddbaa2a818643dbb9786976b0",
+      "title": "前橋七夕まつり（まえばしたなばたまつり）图片1",
+      "alt": "前橋七夕まつり（まえばしたなばたまつり）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-26T10:43:32.468Z",
+  "updatedAt": "2025-06-26T10:43:32.468Z"
+}

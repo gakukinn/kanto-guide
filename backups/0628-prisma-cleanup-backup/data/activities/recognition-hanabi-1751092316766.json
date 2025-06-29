@@ -1,0 +1,30 @@
+{
+  "id": "1751092316766",
+  "name": "2025 神宮外苑花火大会",
+  "address": "JR千駄ヶ谷駅または信濃町駅",
+  "datetime": "2025年8月16日(土) 花火打ち上げ時間19:30～20:30",
+  "venue": "明治神宮外苑",
+  "access": "【電車】JR千駄ヶ谷駅または信濃町駅から徒歩5～10分、東京メトロ外苑前駅または青山1丁目駅または表参道駅または北参道駅から徒歩5～10分、都営地下鉄国立競技場駅から徒歩5～10分MAP",
+  "organizer": "",
+  "price": "あり\n神宮球場(全席指定)、秩父宮ラグビー場(全席指定)、料金・詳細は公式サイトで確認",
+  "contact": "打ち上げ数: 約1万発\n打ち上げ時間: 約60分\n例年の人出: 約100万人\n荒天の場合: 小雨決行。荒天の場合は2025年8月17日(日)に順延 ※荒天中止決定は、開催日の正午に公式サイト、各SNSで配信。\n屋台など: あり\n駐車場: ×",
+  "website": "https://www.jinguhanabi.com/index.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.678662,139.717665&center=35.678662,139.717665",
+  "region": "tokyo",
+  "description": "東京都の明治神宮外苑(神宮球場、秩父宮ラグビー場)で開催される花火大会。アーティストによるライブコンサートを楽しんだ後に、自分の席からゆっくりと花火を鑑賞できる都市型の花火大会として知られている。都内で唯一、山手線内で開催されるこの花火大会は、長年にわたり多くの人々に親しまれている。出演アーティストやチケットの情報は公式サイトで発表される予定。",
+  "activityType": "hanabi",
+  "detailLink": "/tokyo/hanabi/activity-2025-92316765",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/f1735108-3f24-40b3-80fa-7daa995b3066/0_3.png",
+      "title": "2025 神宮外苑花火大会图片1",
+      "alt": "2025 神宮外苑花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-28T06:31:56.774Z",
+  "updatedAt": "2025-06-28T06:31:56.774Z"
+}

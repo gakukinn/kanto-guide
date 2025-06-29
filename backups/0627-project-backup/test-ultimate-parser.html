@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>终极简化版解析器测试</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .input-section {
+            margin-bottom: 30px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #34495e;
+        }
+        textarea {
+            width: 100%;
+            height: 200px;
+            padding: 15px;
+            border: 2px solid #e1e8ed;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            resize: vertical;
+        }
+        button {
+            background: #e74c3c;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        button:hover {
+            background: #c0392b;
+        }
+        .results {
+            margin-top: 30px;
+        }
+        .stats {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .field-result {
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+            background: #f1f3f4;
+        }
+        .field-result.found {
+            border-left-color: #27ae60;
+            background: #d5f4e6;
+        }
+        .field-result.not-found {
+            border-left-color: #e74c3c;
+            background: #fdeaea;
+        }
+        .field-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .field-value {
+            margin-top: 5px;
+            color: #27ae60;
+            font-family: inherit;
+        }
+        .example {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff3cd;
+            border-radius: 6px;
+            border: 1px solid #ffeaa7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎆 终极简化版解析器测试</h1>
+        
+        <div class="input-section">
+            <label>粘贴您的花火活动数据（使用标准格式）：</label>
+            <textarea id="inputText" placeholder="请粘贴标准格式的数据"></textarea>
+            <button onclick="parseContent()">🔍 解析数据</button>
+        </div>
+
+        <div class="example">
+            <strong>💡 提示：</strong>请使用标准格式粘贴数据进行解析。
+        </div>
+
+        <div id="results" class="results" style="display: none;"></div>
+    </div>
+
+    <script>
+        // 终极简化版解析器类
+        class UltimateParser {
+            parse(content) {
+                const result = {};
+                const lines = content.split('\n');
+                
+                for (const line of lines) {
+                    const cleanLine = line.trim();
+                    if (!cleanLine) continue;
+                    
+                    try {
+                        // 1. 大会名（活动名称）
+                        if (cleanLine.includes('大会名') || cleanLine.includes('活动名称')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) result.name = value;
+                        }
+                        
+                        // 2. 打ち上げ数（花火数）
+                        else if (cleanLine.includes('打ち上げ数') || cleanLine.includes('花火数')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) result.fireworksCount = value;
+                        }
+                        
+                        // 3. 打ち上げ時間（花火时间）
+                        else if (cleanLine.includes('打ち上げ時間') || cleanLine.includes('花火时间')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) result.duration = value;
+                        }
+                        
+                        // 4. 例年の人出（往年观众数）
+                        else if (cleanLine.includes('例年の人出') || cleanLine.includes('往年观众数')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) result.expectedVisitors = value;
+                        }
+                        
+                        // 5. 開催期間（举办日期）
+                        else if (cleanLine.includes('開催期間') || cleanLine.includes('举办日期')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) {
+                                result.date = this.formatDate(value);
+                            }
+                        }
+                        
+                        // 6. 開催時間（活动时间）
+                        else if (cleanLine.includes('開催時間') || cleanLine.includes('活动时间')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) {
+                                const timeRange = this.parseTimeRange(value);
+                                if (timeRange) {
+                                    result.startTime = timeRange.start;
+                                    result.endTime = timeRange.end;
+                                }
+                            }
+                        }
+                        
+                        // 7. 荒天の場合（恶劣天气情况）
+                        else if (cleanLine.includes('荒天の場合') || cleanLine.includes('恶劣天气')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) result.weather = value;
+                        }
+                        
+                        // 8. 有料席（付费座位）
+                        else if (cleanLine.includes('有料席') || cleanLine.includes('付费座位')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) result.ticketInfo = value;
+                        }
+                        
+                        // 9. 有料観覧席につきましては公式サイトをご確認ください
+                        else if (cleanLine.includes('有料観覧席') && cleanLine.includes('公式サイト')) {
+                            result.ticketInfo = cleanLine;
+                        }
+                        
+                        // 10. 屋台など（小吃摊）
+                        else if (cleanLine.includes('屋台') || cleanLine.includes('小吃摊')) {
+                            const value = this.extractValue(cleanLine);
+                            if (value) result.foodStalls = value;
+                        }
+                        
+                    } catch (error) {
+                        console.log(`解析行出错: ${cleanLine}`, error);
+                        continue;
+                    }
+                }
+                
+                // 智能推断地区
+                result.region = this.inferRegion(content);
+                
+                return result;
+            }
+            
+            extractValue(line) {
+                // 尝试多种分隔符
+                const separators = ['\t', '　', '：', ':', '）', ')', ' '];
+                
+                for (const sep of separators) {
+                    if (line.includes(sep)) {
+                        const parts = line.split(sep);
+                        if (parts.length >= 2) {
+                            const value = parts[parts.length - 1].trim();
+                            if (value && value.length > 0) {
+                                return value;
+                            }
+                        }
+                    }
+                }
+                
+                return null;
+            }
+            
+            formatDate(dateStr) {
+                // 2025年8月2日(土) -> 2025-08-02
+                const match = dateStr.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+                if (match) {
+                    const year = match[1];
+                    const month = match[2].padStart(2, '0');
+                    const day = match[3].padStart(2, '0');
+                    return `${year}-${month}-${day}`;
+                }
+                return dateStr;
+            }
+            
+            parseTimeRange(timeStr) {
+                // 19:00～20:00
+                const match = timeStr.match(/(\d{1,2}):(\d{2})\s*[～~－-]\s*(\d{1,2}):(\d{2})/);
+                if (match) {
+                    return {
+                        start: `${match[1].padStart(2, '0')}:${match[2]}`,
+                        end: `${match[3].padStart(2, '0')}:${match[4]}`
+                    };
+                }
+                return null;
+            }
+            
+            inferRegion(content) {
+                const regionKeywords = {
+                    'tokyo': ['東京', '新宿', '渋谷', '池袋', '銀座', '浅草', '上野', '品川'],
+                    'kanagawa': ['神奈川', '横浜', '川崎', '藤沢', '鎌倉', '小田原', '厚木'],
+                    'chiba': ['千葉', '船橋', '松戸', '市川', '浦安', '木更津', '成田'],
+                    'saitama': ['埼玉', 'さいたま', '川口', '所沢', '春日部', '熊谷'],
+                    'kitakanto': ['茨城', '栃木', '群馬', '水戸', 'つくば', '宇都宮'],
+                    'koshinetsu': ['新潟', '長野', '山梨', '松本', '甲府', '長岡']
+                };
+                
+                for (const [region, keywords] of Object.entries(regionKeywords)) {
+                    for (const keyword of keywords) {
+                        if (content.includes(keyword)) {
+                            return region;
+                        }
+                    }
+                }
+                
+                return undefined;
+            }
+            
+            getStats(parsedData) {
+                const fields = ['name', 'fireworksCount', 'duration', 'expectedVisitors', 'date', 'startTime', 'weather', 'ticketInfo', 'foodStalls'];
+                let identified = 0;
+                
+                for (const field of fields) {
+                    if (parsedData[field]) {
+                        identified++;
+                    }
+                }
+                
+                return {
+                    identified,
+                    total: fields.length,
+                    percentage: Math.round((identified / fields.length) * 100)
+                };
+            }
+        }
+
+        // 全局解析器实例
+        const parser = new UltimateParser();
+
+        function parseContent() {
+            const inputText = document.getElementById('inputText').value.trim();
+            if (!inputText) {
+                alert('请输入要解析的文本');
+                return;
+            }
+
+            // 解析数据
+            const parsedData = parser.parse(inputText);
+            const stats = parser.getStats(parsedData);
+
+            // 显示结果
+            displayResults(parsedData, stats);
+        }
+
+        function displayResults(parsedData, stats) {
+            const resultsDiv = document.getElementById('results');
+            
+            const fieldMap = {
+                'name': '大会名（活动名称）',
+                'fireworksCount': '打ち上げ数（花火数）',
+                'duration': '打ち上げ時間（花火时间）',
+                'expectedVisitors': '例年の人出（往年观众数）',
+                'date': '開催期間（举办日期）',
+                'startTime': '開催時間-开始（活动时间）',
+                'endTime': '開催時間-结束（活动时间）',
+                'weather': '荒天の場合（恶劣天气情况）',
+                'ticketInfo': '有料席（付费座位）',
+                'foodStalls': '屋台など（小吃摊）',
+                'region': '推断地区'
+            };
+
+            let html = `
+                <div class="stats">
+                    <h3>📊 识别统计</h3>
+                    <p>成功识别 <strong>${stats.identified}</strong> / ${stats.total} 个字段 (${stats.percentage}%)</p>
+                </div>
+                <h3>🔍 解析结果</h3>
+            `;
+
+            // 显示所有字段
+            for (const [field, label] of Object.entries(fieldMap)) {
+                const value = parsedData[field];
+                const hasValue = value && value.toString().length > 0;
+                
+                html += `
+                    <div class="field-result ${hasValue ? 'found' : 'not-found'}">
+                        <div class="field-name">${label}</div>
+                        ${hasValue ? `<div class="field-value">${value}</div>` : '<div style="color: #e74c3c;">未识别</div>'}
+                    </div>
+                `;
+            }
+
+            resultsDiv.innerHTML = html;
+            resultsDiv.style.display = 'block';
+
+            // 输出到控制台用于调试
+            console.log('解析结果:', parsedData);
+            console.log('统计信息:', stats);
+        }
+
+        // 页面加载时填入示例数据
+        document.addEventListener('DOMContentLoaded', function() {
+            const exampleData = `大会名（活动名称）	市制70周年記念 第79回 あつぎ鮎まつり
+打ち上げ数（花火数）	約1万発　
+打ち上げ時間（花火时间）	60分
+例年の人出（往年观众数）	約28万人　
+開催期間（举办日期）	2025年8月2日(土)
+開催時間（活动时间）19:00～20:00
+荒天の場合（恶劣天气情况）	雨天中止
+有料席（付费座位）あり
+有料観覧席につきましては公式サイトをご確認ください。
+屋台など（小吃摊）あり`;
+            
+            document.getElementById('inputText').value = exampleData;
+        });
+    </script>
+</body>
+</html> 

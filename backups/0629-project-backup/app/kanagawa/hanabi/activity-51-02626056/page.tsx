@@ -1,0 +1,59 @@
+/**
+ * 第51回 金沢まつり 花火大会 详情页面
+ * 自动生成于 2025-06-29T05:52:46.453Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "第51回 金沢まつり 花火大会",
+  "fireworksCount": "約3500発",
+  "fireworksTime": "60分",
+  "expectedVisitors": "約25万5000人",
+  "date": "2025年8月30日(土)",
+  "time": "19:00～20:00(予定)",
+  "venue": "海の公園",
+  "access": "【電車】JR新杉田駅または京浜急行金沢八景駅から横浜シーサイドラインで海の公園南口駅または海の公園柴口駅下車すぐ。京浜急行金沢文庫駅から徒歩20分MAP",
+  "weatherInfo": "荒天時は中止、順延なし",
+  "parking": "×公共交通機関をご利用ください",
+  "price": "なし",
+  "contact": "050-3159-6791 当日実施案内(8月30日(土)9:00～)",
+  "foodStalls": "あり",
+  "notes": "前日からの場所取り禁止。砂浜を含む海の公園内は禁煙。ペット入場不可。ゴミは持ち帰り。大会当日は非常に混雑するため、車、バイク、自転車での来場は不可。周辺道路は18:30～21:00に交通規制あり。",
+  "website": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/maturi2025/maturi.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.340969,139.635978&center=35.340969,139.635978",
+  "id": "1751102626058",
+  "region": "kanagawa",
+  "activityType": "hanabi",
+  "description": "横浜市金沢区海の公園で開催される花火大会。60分間にわたって約3500発の花火が打ち上げられる。八景島、海の公園、野島に囲まれた海上から、横浜の夜空に色とりどりの花火が打ち上がる。多様なスターマインの連続が大会を華やかに彩り、毎年恒例の特大スターマインがフィナーレを飾る。",
+  "highlights": "入場無料で、砂浜や公園内の芝生に座って花火見物ができるのもうれしい。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://assets.st-note.com/production/uploads/images/197217762/rectangle_large_type_2_dc7306e749f35b7e8beae385e92e0d63.png?width=2000&height=2000&fit=bounds&quality=85",
+      "title": "第51回 金沢まつり 花火大会图片1",
+      "alt": "第51回 金沢まつり 花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/kanagawa/hanabi/activity-51-02626056",
+  "createdAt": "2025-06-29T05:52:46.452Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="kanagawa"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '第51回 金沢まつり 花火大会 - 日本活动指南',
+  description: '横浜市金沢区海の公園で開催される花火大会。60分間にわたって約3500発の花火が打ち上げられる。八景島、海の公園、野島に囲まれた海上から、横浜の夜空に色とりどりの花火が打ち上がる。多様なスターマインの連続が大会を華やかに彩り、毎年恒例の特大スターマインがフィナーレを飾る。',
+};

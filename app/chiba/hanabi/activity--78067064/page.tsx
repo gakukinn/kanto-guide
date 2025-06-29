@@ -1,0 +1,59 @@
+/**
+ * ぎおん柏崎まつり 海の大花火大会 详情页面
+ * 自动生成于 2025-06-29T06:21:07.066Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "ぎおん柏崎まつり 海の大花火大会",
+  "fireworksCount": "約1万6000発",
+  "fireworksTime": "約100分",
+  "expectedVisitors": "約17万人　2024年実績",
+  "date": "2025年7月26日(土)",
+  "time": "19:30～21:10",
+  "venue": "柏崎市中央海岸・みなとまち海浜公園一帯",
+  "access": "【電車】JR柏崎駅から徒歩25分 ※2025年はシャトルバスの運行なしMAP",
+  "weatherInfo": "雨天決行、荒天の場合は実施可能日まで順延の可能性あり ※当日の朝9時に防災無線と市の公式サイトで発表",
+  "parking": "○2500台",
+  "price": "あり\n2025年4月28日に、有料観覧席の申し込みは終了",
+  "contact": "0257-21-2334 ぎおん柏崎まつり協賛会",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/index.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.375582,138.546519&center=37.375582,138.546519",
+  "id": "1751178067064",
+  "region": "chiba",
+  "activityType": "hanabi",
+  "description": "新潟県柏崎市の夏を代表する一大花火イベント。川の長岡、山の片貝、海の柏崎と、越後三大花火の一つに数えられている。新型コロナウイルスのまん延により2年連続で中止になっていたが、2022年に3年ぶりに開催された。2025年も、1万6000発の花火が柏崎の夜空に打ちあがる。",
+  "highlights": "海中空スターマインをはじめ、海の広さを利用した幅600メートルのワイドスターマイン、柏崎でしか見られない尺玉100発一斉打上など、百花繚乱の花火は見るものを魅了する。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/8f53196e-88df-4cca-a018-4f7ac85004b5/0_2.png",
+      "title": "ぎおん柏崎まつり 海の大花火大会图片1",
+      "alt": "ぎおん柏崎まつり 海の大花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/chiba/hanabi/activity--78067064",
+  "createdAt": "2025-06-29T06:21:07.064Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="chiba"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: 'ぎおん柏崎まつり 海の大花火大会 - 日本活动指南',
+  description: '新潟県柏崎市の夏を代表する一大花火イベント。川の長岡、山の片貝、海の柏崎と、越後三大花火の一つに数えられている。新型コロナウイルスのまん延により2年連続で中止になっていたが、2022年に3年ぶりに開催された。2025年も、1万6000発の花火が柏崎の夜空に打ちあがる。',
+};

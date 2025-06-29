@@ -1,0 +1,213 @@
+{
+	"meta": {
+		"generatedAt": "2025-06-23T12:44:41.307Z",
+		"tasksAnalyzed": 13,
+		"totalTasks": 13,
+		"analysisCount": 25,
+		"thresholdScore": 5,
+		"projectName": "Taskmaster",
+		"usedResearch": false
+	},
+	"complexityAnalysis": [
+		{
+			"taskId": 1,
+			"taskTitle": "建立项目基础架构",
+			"complexityScore": 9,
+			"recommendedSubtasks": 5,
+			"expansionPrompt": "细化页面路由设计、组件结构、数据流管理、导航系统实现和组件库搭建。",
+			"reasoning": "该任务涉及多个层级的设计和实现，复杂度高，需要明确每个部分的具体实现细节。"
+		},
+		{
+			"taskId": 2,
+			"taskTitle": "设计数据库架构",
+			"complexityScore": 8,
+			"recommendedSubtasks": 4,
+			"expansionPrompt": "设计活动数据表、地区和活动类型关联、数据验证规则和API接口实现。",
+			"reasoning": "数据库设计需要考虑多种关系和数据完整性，复杂度较高，建议分解为多个子任务。"
+		},
+		{
+			"taskId": 3,
+			"taskTitle": "开发内容管理后台",
+			"complexityScore": 7,
+			"recommendedSubtasks": 4,
+			"expansionPrompt": "设计用户界面、实现批量导入功能、单个编辑功能和数据验证机制。",
+			"reasoning": "内容管理后台需要提供多种功能，涉及用户交互和数据处理，复杂度适中。"
+		},
+		{
+			"taskId": 4,
+			"taskTitle": "实现数据采集系统",
+			"complexityScore": 6,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "完善爬虫功能、确保数据准确性和处理异常情况。",
+			"reasoning": "数据采集系统需要处理多种数据源和确保数据质量，复杂度中等。"
+		},
+		{
+			"taskId": 5,
+			"taskTitle": "开发首页和地区总览页面",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "设计首页布局、地区页面设计和活动类型展示。",
+			"reasoning": "首页和地区总览页面设计相对简单，但仍需考虑用户体验和视觉效果。"
+		},
+		{
+			"taskId": 6,
+			"taskTitle": "实现三层活动列表页面",
+			"complexityScore": 6,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "设计活动列表页面布局、信息展示和筛选功能实现。",
+			"reasoning": "活动列表页面需要展示大量信息和实现筛选功能，复杂度适中。"
+		},
+		{
+			"taskId": 7,
+			"taskTitle": "创建四层活动详情页面模板",
+			"complexityScore": 7,
+			"recommendedSubtasks": 4,
+			"expansionPrompt": "设计模板结构、信息字段展示和本地化处理。",
+			"reasoning": "活动详情页面模板需要考虑多种信息展示和用户体验，复杂度较高。"
+		},
+		{
+			"taskId": 8,
+			"taskTitle": "集成Google地图功能",
+			"complexityScore": 5,
+			"recommendedSubtasks": 2,
+			"expansionPrompt": "集成Google Maps API和实现交通路线规划功能。",
+			"reasoning": "集成地图功能相对简单，但需要确保准确性和兼容性。"
+		},
+		{
+			"taskId": 9,
+			"taskTitle": "实现搜索和筛选功能",
+			"complexityScore": 6,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "设计搜索界面、实现多维度筛选和智能推荐功能。",
+			"reasoning": "搜索和筛选功能需要处理多种条件，复杂度适中。"
+		},
+		{
+			"taskId": 10,
+			"taskTitle": "优化移动端体验",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "进行响应式设计优化、触屏交互改进和加载速度优化。",
+			"reasoning": "移动端体验优化需要考虑多种设备，复杂度适中。"
+		},
+		{
+			"taskId": 11,
+			"taskTitle": "建立数据验证和监控系统",
+			"complexityScore": 8,
+			"recommendedSubtasks": 4,
+			"expansionPrompt": "设计监控机制、数据验证规则和异常报警系统。",
+			"reasoning": "数据验证和监控系统需要确保数据质量和时效性，复杂度较高。"
+		},
+		{
+			"taskId": 12,
+			"taskTitle": "SEO优化和性能调优",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "优化页面结构、meta标签和加载速度。",
+			"reasoning": "SEO优化和性能调优相对简单，但需要细致的实施和测试。"
+		},
+		{
+			"taskId": 13,
+			"taskTitle": "Test TaskMaster AI Functionality",
+			"complexityScore": 7,
+			"recommendedSubtasks": 5,
+			"expansionPrompt": "审查规格、设置测试环境、创建测试用例、执行测试和用户验收测试。",
+			"reasoning": "测试任务涉及多个步骤和细节，复杂度适中到高。"
+		},
+		{
+			"taskId": "1",
+			"taskTitle": "建立项目基础架构",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 建立项目基础架构.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "2",
+			"taskTitle": "设计数据库架构",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 设计数据库架构.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "3",
+			"taskTitle": "开发内容管理后台",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 开发内容管理后台.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "4",
+			"taskTitle": "实现数据采集系统",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 实现数据采集系统.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "5",
+			"taskTitle": "开发首页和地区总览页面",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 开发首页和地区总览页面.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "6",
+			"taskTitle": "实现三层活动列表页面",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 实现三层活动列表页面.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "7",
+			"taskTitle": "创建四层活动详情页面模板",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 创建四层活动详情页面模板.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "8",
+			"taskTitle": "集成Google地图功能",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 集成google地图功能.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "9",
+			"taskTitle": "实现搜索和筛选功能",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 实现搜索和筛选功能.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "10",
+			"taskTitle": "优化移动端体验",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 优化移动端体验.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "11",
+			"taskTitle": "建立数据验证和监控系统",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on 建立数据验证和监控系统.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		},
+		{
+			"taskId": "12",
+			"taskTitle": "SEO优化和性能调优",
+			"complexityScore": 5,
+			"recommendedSubtasks": 3,
+			"expansionPrompt": "Break down this task with a focus on seo优化和性能调优.",
+			"reasoning": "Automatically added due to missing analysis in AI response."
+		}
+	]
+}

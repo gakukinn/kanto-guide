@@ -1,0 +1,52 @@
+import WalkerPlusHanabiTemplate from '@/components/WalkerPlusHanabiTemplate';
+
+const activityData = {
+  "id": "recognition-hanabi-1750953405620",
+  "name": "第109回足利花火大会（あしかがはなびたいかい）",
+  "address": "〒326-0054　栃木県足利市伊勢南町",
+  "datetime": "2025年8月2日　 19:15～20:50　※雨天時は翌日に順延",
+  "venue": "栃木県足利市　渡良瀬川河畔　田中橋下流",
+  "access": "ＪＲ両毛線「足利駅」から徒歩5分、または東武伊勢崎線「足利市駅」から徒歩10分、または東北自動車道「佐野藤岡IC」から車約20分、または北関東自動車道「足利IC」から車約10分",
+  "organizer": "足利花火大会実行委員会",
+  "price": "有料観覧席あり（問い合わせが必要）",
+  "contact": "足利花火大会実行委員会（足利商工会議所内）　0284-21-1354",
+  "website": "https://ashikaga.info/",
+  "googleMap": "https://maps.google.com/maps?q=36.328025,139.457238&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "kitakanto",
+  "description": "足利花火大会は、明治36年（1903年）に創始され、120年以上の伝統と歴史のある花火大会です。関東地域でも屈指の花火大会として知られ、毎年関東一円から多くの観覧者が訪れ、足利が最も活気に満ちた一日となります。スターマインを中心に5号玉の連発、尺玉、大玉の同時打上げ、ワイドスターマインなど、約2万発（予定）の花火が足利の夜空を彩ります。特にクライマックスの「ナイアガラ」は圧巻です。 ※打ち上げ数：昨年度2万発 観客数：昨年度45万人",
+  "activityType": "hanabi",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://pbs.twimg.com/media/GsMHXMlaUAA_vyg?format=jpg&name=medium",
+      "title": "第109回足利花火大会（あしかがはなびたいかい）图片1",
+      "alt": "第109回足利花火大会（あしかがはなびたいかい）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-26T15:56:45.705Z",
+  "updatedAt": "2025-06-26T15:56:45.705Z",
+  "detailLink": "/kitakanto/hanabi/activity-event-109-53405620",
+  "fireworksCount": "详见官网",
+  "fireworksTime": "详见官网",
+  "expectedVisitors": "详见官网",
+  "weatherInfo": "详见官网",
+  "parking": "详见官网",
+  "foodStalls": "详见官网",
+  "notes": "足利花火大会は、明治36年（1903年）に創始され、120年以上の伝統と歴史のある花火大会です。関東地域でも屈指の花火大会として知られ、毎年関東一円から多くの観覧者が訪れ、足利が最も活気に満ちた一日となります。スターマインを中心に5号玉の連発、尺玉、大玉の同時打上げ、ワイドスターマインなど、約2万発（予定）の花火が足利の夜空を彩ります。特にクライマックスの「ナイアガラ」は圧巻です。 ※打ち上げ数：昨年度2万発 観客数：昨年度45万人",
+  "date": "详见官网",
+  "time": "详见官网"
+};
+
+export default function DetailPage() {
+  return <WalkerPlusHanabiTemplate data={activityData} regionKey="kitakanto" activityKey="hanabi" />;
+}
+
+export async function generateMetadata() {
+  return {
+    title: '第109回足利花火大会（あしかがはなびたいかい） - 北关东花火大会',
+    description: '足利花火大会は、明治36年（1903年）に創始され、120年以上の伝統と歴史のある花火大会です。関東地域でも屈指の花火大会として知られ、毎年関東一円から多くの観覧者が訪れ、足利が最も活気に満ちた一日と...',
+  };
+}

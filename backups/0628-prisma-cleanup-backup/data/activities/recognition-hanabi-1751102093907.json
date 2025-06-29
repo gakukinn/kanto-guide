@@ -1,0 +1,30 @@
+{
+  "id": "1751102093907",
+  "name": "銚子みなとまつり花火大会",
+  "address": "JR・銚子電鉄銚子駅",
+  "datetime": "2025年8月2日(土) 19:30～20:20 ※花火打上げ開始は19:30を予定、約50分程度",
+  "venue": "利根川河畔",
+  "access": "【電車】JR・銚子電鉄銚子駅から徒歩10分 【車】東関東道佐原香取ICから約50分MAP",
+  "organizer": "",
+  "price": "あり",
+  "contact": "0479-24-8932 銚子みなとまつり実行委員会(銚子市役所観光商工課: 花火担当)",
+  "website": "https://www.city.choshi.chiba.jp/event/page1103_00076.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.736236,140.829739&center=35.736236,140.829739",
+  "region": "chiba",
+  "description": "千葉県銚子市の夏を彩る一大イベント「銚子みなとまつり」の一環で開催される夏の風物詩。8月2日(土)に花火、翌3日(日)にみこしパレードが実施され、駅前のメインストリートには露店がずらりと並び、銚子の街全体がお祭りムード一色に包まれる。当日の現場は混雑が予想されるため、公共交通機関を利用するのがおすすめ(※近隣の店舗や住宅への無断駐車、違法駐車は固くお断りします。マナーを守ってご来場ください)。",
+  "activityType": "hanabi",
+  "detailLink": "/chiba/hanabi/activity--02093905",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/7d265be9-c75e-404d-b100-d9805306d125/0_2.png",
+      "title": "銚子みなとまつり花火大会图片1",
+      "alt": "銚子みなとまつり花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-28T09:14:53.915Z",
+  "updatedAt": "2025-06-28T09:14:53.915Z"
+}

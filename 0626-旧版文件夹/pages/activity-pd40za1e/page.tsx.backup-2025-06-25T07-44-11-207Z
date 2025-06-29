@@ -1,0 +1,92 @@
+import React from 'react';
+import MatsuriDetailTemplate from '../../../../src/components/MatsuriDetailTemplate';
+
+/**
+ * 传统祭典详情页面
+ * 数据库ID: cmc96m7ti0013vlr0pd40za1e
+ * 生成时间: 2025/6/25 00:09:35
+ * 模板: MatsuriDetailTemplate
+ * 
+ * 十项核心数据:
+ * 1. 名称: 村上大祭（むらかみたいさい）
+ * 2. 所在地: 〒958-0851　新潟県村上市
+ * 3. 开催期间: 2025年7月6日～7日
+ * 4. 开催场所: 新潟県村上市　西奈彌羽黒神社、村上市内城下町エリア（屋台山車巡行）
+ * 5. 交通方式: ＪＲ羽越本線「村上駅」から徒歩20分
+ * 6. 主办方: 未设置
+ * 7. 料金: 未设置
+ * 8. 联系方式: 村上市観光協会　0254-53-2258
+ * 9. 官方网站: https://www.sake3.com/
+ * 10. 谷歌地图: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.478247!3d38.21757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750688297595!5m2!1sja!2sjp
+ */
+
+const DetailPage = () => {
+  // 转换后的活动数据
+  const activityData = {
+  id: "cmc96m7ti0013vlr0pd40za1e",
+  name: "村上大祭（むらかみたいさい）",
+    description: activityData.description || "详见官网",
+  address: "〒958-0851　新潟県村上市",
+  datetime: "2025年7月6日～7日",
+  venue: "新潟県村上市　西奈彌羽黒神社、村上市内城下町エリア（屋台山車巡行）",
+  access: "ＪＲ羽越本線「村上駅」から徒歩20分",
+  organizer: "",
+  price: "",
+  contact: "村上市観光協会　0254-53-2258",
+  website: "https://www.sake3.com/",
+  googleMap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d139.478247!3d38.21757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750688297595!5m2!1sja!2sjp",
+  region: "koshinetsu",
+  themeColor: "red",
+  status: "scheduled",
+  media: [
+    {
+      type: "image" as const,
+      url: "https://enjoyniigata.com/image/rendering/attraction_image/4196/keep/1200?v=b284a442c1c140c07fff71ae5591a4a4deccf363",
+      title: "村上大祭（むらかみたいさい）图片1",      alt: "村上大祭（むらかみたいさい）图片1",
+      caption: ""
+    },
+    {
+      type: "image" as const,
+      url: "https://upload.wikimedia.org/wikipedia/commons/3/3e/%E6%9D%91%E4%B8%8A%E5%A4%A7%E7%A5%AD.jpg",
+      title: "村上大祭（むらかみたいさい）图片2",      alt: "村上大祭（むらかみたいさい）图片2",
+      caption: ""
+    }
+  ]
+};
+
+  // 确定地区键 - 使用标准化的地区映射
+  const REGION_MAP = {
+    'tokyo': 'tokyo',
+    'saitama': 'saitama', 
+    'chiba': 'chiba',
+    'kanagawa': 'kanagawa',
+    'kitakanto': 'kitakanto',
+    'koshinetsu': 'koshinetsu',
+    '東京都': 'tokyo',
+    '東京': 'tokyo',
+    '埼玉県': 'saitama',
+    '埼玉': 'saitama',
+    '千葉県': 'chiba',
+    '千葉': 'chiba',
+    '神奈川県': 'kanagawa',
+    '神奈川': 'kanagawa',
+    '茨城県': 'kitakanto',
+    '栃木県': 'kitakanto',
+    '群馬県': 'kitakanto',
+    '新潟県': 'koshinetsu',
+    '長野県': 'koshinetsu',
+    '山梨県': 'koshinetsu'
+  };
+  const regionKey = REGION_MAP["koshinetsu"] || 'tokyo';
+
+  return (
+    <div className="min-h-screen">
+      <MatsuriDetailTemplate
+        data={activityData}
+        regionKey={regionKey}
+      />
+    </div>
+  );
+};
+
+export default DetailPage;

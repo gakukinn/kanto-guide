@@ -1,0 +1,92 @@
+import React from 'react';
+import MatsuriDetailTemplate from '../../../../src/components/MatsuriDetailTemplate';
+
+/**
+ * 传统祭典详情页面
+ * 数据库ID: cmc96smg5001jvlr036knmft1
+ * 生成时间: 2025/6/25 00:14:15
+ * 模板: MatsuriDetailTemplate
+ * 
+ * 十项核心数据:
+ * 1. 名称: 第100回謙信公祭（けんしんこうさい）
+ * 2. 所在地: 〒943-0802　新潟県上越市大豆　ほか
+ * 3. 开催期间: 2025年8月23日～24日　 【22日】前夜祭　　【23日】出陣行列、川中島合戦の再現　ほか　　【24日】献納米合戦、大民踊流し　ほか
+ * 4. 开催场所: 新潟県上越市　春日山城跡、春日山城史跡広場　ほか
+ * 5. 交通方式: えちごトキめき鉄道「春日山駅」から徒歩20分
+ * 6. 主办方: 謙信公祭協賛会
+ * 7. 料金: 未设置
+ * 8. 联系方式: 謙信公祭協賛会事務局（上越市観光振興課内）　025-520-5741
+ * 9. 官方网站: https://joetsukankonavi.jp/kenshinkousai/
+ * 10. 谷歌地图: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d138.205247!3d37.146603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750688603273!5m2!1sja!2sjp
+ */
+
+const DetailPage = () => {
+  // 转换后的活动数据
+  const activityData = {
+  id: "cmc96smg5001jvlr036knmft1",
+  name: "第100回謙信公祭（けんしんこうさい）",
+    description: activityData.description || "详见官网",
+  address: "〒943-0802　新潟県上越市大豆　ほか",
+  datetime: "2025年8月23日～24日　 【22日】前夜祭　　【23日】出陣行列、川中島合戦の再現　ほか　　【24日】献納米合戦、大民踊流し　ほか",
+  venue: "新潟県上越市　春日山城跡、春日山城史跡広場　ほか",
+  access: "えちごトキめき鉄道「春日山駅」から徒歩20分",
+  organizer: "謙信公祭協賛会",
+  price: "",
+  contact: "謙信公祭協賛会事務局（上越市観光振興課内）　025-520-5741",
+  website: "https://joetsukankonavi.jp/kenshinkousai/",
+  googleMap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d138.205247!3d37.146603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750688603273!5m2!1sja!2sjp",
+  region: "koshinetsu",
+  themeColor: "red",
+  status: "scheduled",
+  media: [
+    {
+      type: "image" as const,
+      url: "https://cdn.clipkit.co/tenants/1044/articles/images/000/004/406/large/fb6f2777-0fff-442e-8c85-e8ca29321cb0.jpg?1722584280;",
+      title: "第100回謙信公祭（けんしんこうさい）图片1",      alt: "第100回謙信公祭（けんしんこうさい）图片1",
+      caption: ""
+    },
+    {
+      type: "image" as const,
+      url: "https://enjoyniigata.com/image/rendering/attraction_image/27709/keep/1200?v=3d4d6a7a0c01787b358fc5be9b0693ebe784858d",
+      title: "第100回謙信公祭（けんしんこうさい）图片2",      alt: "第100回謙信公祭（けんしんこうさい）图片2",
+      caption: ""
+    }
+  ]
+};
+
+  // 确定地区键 - 使用标准化的地区映射
+  const REGION_MAP = {
+    'tokyo': 'tokyo',
+    'saitama': 'saitama', 
+    'chiba': 'chiba',
+    'kanagawa': 'kanagawa',
+    'kitakanto': 'kitakanto',
+    'koshinetsu': 'koshinetsu',
+    '東京都': 'tokyo',
+    '東京': 'tokyo',
+    '埼玉県': 'saitama',
+    '埼玉': 'saitama',
+    '千葉県': 'chiba',
+    '千葉': 'chiba',
+    '神奈川県': 'kanagawa',
+    '神奈川': 'kanagawa',
+    '茨城県': 'kitakanto',
+    '栃木県': 'kitakanto',
+    '群馬県': 'kitakanto',
+    '新潟県': 'koshinetsu',
+    '長野県': 'koshinetsu',
+    '山梨県': 'koshinetsu'
+  };
+  const regionKey = REGION_MAP["koshinetsu"] || 'tokyo';
+
+  return (
+    <div className="min-h-screen">
+      <MatsuriDetailTemplate
+        data={activityData}
+        regionKey={regionKey}
+      />
+    </div>
+  );
+};
+
+export default DetailPage;

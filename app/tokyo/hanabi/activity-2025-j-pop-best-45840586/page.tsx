@@ -1,0 +1,59 @@
+/**
+ * 東京競馬場花火 2025 〜花火と聴きたい J-POP BEST〜 详情页面
+ * 自动生成于 2025-06-29T00:49:24.065Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "東京競馬場花火 2025 〜花火と聴きたい J-POP BEST〜",
+  "fireworksCount": "1万4000発",
+  "fireworksTime": "70分(予定)",
+  "expectedVisitors": "未公开",
+  "date": "2025年7月2日(水)",
+  "time": "19:30～20:40(終演後は規制退場あり) 17:00開場",
+  "venue": "JRA東京競馬場",
+  "access": "【電車】京王線府中競馬正門前駅から徒歩2分MAP",
+  "weatherInfo": "雨天決行、荒天時中止。天候不良の場合、実施の判断は当日の12:00に公式サイトおよびSNSにて発表。※途中で中止の場合は、払戻しなし",
+  "parking": "×公共交通機関をご利用ください",
+  "price": "あり\nプレミアムシート1万1000円、プレミアムグループ席(4枚)5万円、シートチケットS席8800円、シートチケットA席7700円、車椅子ペアチケット1万7600円(駐車場1台付き・2名分)、府中市民割チケット5000円、芝生エリアチケット(最大4名観覧可・レジャーシート配布)3万5000円。※未就学児膝上無料。プレミアム席は専用の入場口、トイレ、ドリンク売り場を利用可",
+  "contact": "详见官网",
+  "foodStalls": "あり",
+  "notes": "花火演出家、参加煙火店は公式サイトにて紹介",
+  "website": "https://hanabitokyo.com/",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.662505,139.485592&center=35.662505,139.485592",
+  "id": "1751045840586",
+  "region": "tokyo",
+  "activityType": "hanabi",
+  "description": "2025年のテーマは「J-POP BEST」で、「昭和100年」という記念の年にふさわしく、 誰もが知る名曲に合わせて花火が打ちあがる。およそ2キロのコースを有する広大な競馬場を舞台に、音楽とシンクロした大規模な花火が繰り広げられるのは、ここだけの特別な体験。全席指定席で混雑を気にせずゆったり鑑賞でき、トイレや飲食ブースなどの設備も整っているため、幅広い世代が快適に楽しめる。会場は最寄り駅から徒歩すぐというアクセスの良さも魅力で、都内からも気軽に訪れることができる。",
+  "highlights": "音楽の世界観を最大限に引き出すために、色や形、高さ、消え際の余韻まで計算された花火演出が展開される。なかでも特筆すべきは、観覧席からわずか100メートルという近距離で打ち上がるダイナミックな花火。音と光が一体となる体感型のショーは、ほかでは味わえない臨場感を楽しめる貴重な機会となっている。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/3dcfd8d4-709a-4c41-8c90-32cb53103215/0_0.png",
+      "title": "東京競馬場花火 2025 〜花火と聴きたい J-POP BEST〜图片1",
+      "alt": "東京競馬場花火 2025 〜花火と聴きたい J-POP BEST〜图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/tokyo/hanabi/activity-2025-j-pop-best-45840586",
+  "createdAt": "2025-06-29T00:49:24.063Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="tokyo"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '東京競馬場花火 2025 〜花火と聴きたい J-POP BEST〜 - 日本活动指南',
+  description: '2025年のテーマは「J-POP BEST」で、「昭和100年」という記念の年にふさわしく、 誰もが知る名曲に合わせて花火が打ちあがる。およそ2キロのコースを有する広大な競馬場を舞台に、音楽とシンクロした大規模な花火が繰り広げられるのは、ここだけの特別な体験。全席指定席で混雑を気にせずゆったり鑑賞でき、トイレや飲食ブースなどの設備も整っているため、幅広い世代が快適に楽しめる。会場は最寄り駅から徒歩すぐというアクセスの良さも魅力で、都内からも気軽に訪れることができる。',
+};

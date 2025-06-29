@@ -1,0 +1,30 @@
+{
+  "id": "1751102626058",
+  "name": "第51回 金沢まつり 花火大会",
+  "address": "JR新杉田駅または京浜急行金沢八景駅",
+  "datetime": "2025年8月30日(土) 19:00～20:00(予定)",
+  "venue": "海の公園",
+  "access": "【電車】JR新杉田駅または京浜急行金沢八景駅から横浜シーサイドラインで海の公園南口駅または海の公園柴口駅下車すぐ。京浜急行金沢文庫駅から徒歩20分MAP",
+  "organizer": "",
+  "price": "なし",
+  "contact": "050-3159-6791 当日実施案内(8月30日(土)9:00～)",
+  "website": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/maturi2025/maturi.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.340969,139.635978&center=35.340969,139.635978",
+  "region": "kanagawa",
+  "description": "横浜市金沢区海の公園で開催される花火大会。60分間にわたって約3500発の花火が打ち上げられる。八景島、海の公園、野島に囲まれた海上から、横浜の夜空に色とりどりの花火が打ち上がる。多様なスターマインの連続が大会を華やかに彩り、毎年恒例の特大スターマインがフィナーレを飾る。",
+  "activityType": "hanabi",
+  "detailLink": "/kanagawa/hanabi/activity-51-02626056",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/ead6b34a-80a2-4c3c-a48d-f2a4a02287d8/0_1.png",
+      "title": "第51回 金沢まつり 花火大会图片1",
+      "alt": "第51回 金沢まつり 花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-28T09:23:46.065Z",
+  "updatedAt": "2025-06-28T09:23:46.065Z"
+}

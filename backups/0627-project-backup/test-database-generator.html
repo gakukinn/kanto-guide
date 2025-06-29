@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数据库记录生成器测试</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        .record-select {
+            margin-bottom: 20px;
+        }
+        
+        select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        
+        .record-info {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            width: 100%;
+            transition: transform 0.2s;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+        }
+        
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #ffffff;
+            border-radius: 50%;
+            border-top-color: transparent;
+            animation: spin 1s ease-in-out infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .success {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        
+        .error {
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        
+        .info {
+            background: #e2f3ff;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🗄️ 数据库记录生成器</h1>
+        
+        <div class="info">
+            <h3>💡 功能说明</h3>
+            <p>选择已存储的数据库记录，系统将自动转换为HanabiData格式，并使用HanabiDetailTemplate生成完整的花火详情页面。</p>
+        </div>
+        
+        <div class="record-select">
+            <label for="recordSelect"><strong>选择数据库记录：</strong></label>
+            <select id="recordSelect">
+                <option value="">-- 加载记录中... --</option>
+            </select>
+        </div>
+        
+        <div id="recordInfo" class="record-info" style="display: none;">
+            <h3>📋 记录详情</h3>
+            <div id="recordDetails"></div>
+        </div>
+        
+        <button id="generateBtn" onclick="generatePage()" disabled>
+            🚀 基于数据库记录生成页面
+        </button>
+        
+        <div id="result" class="result"></div>
+    </div>
+
+    <script>
+        let databaseRecords = [];
+        let selectedRecord = null;
+        
+        // 页面加载时获取数据库记录
+        document.addEventListener('DOMContentLoaded', async function() {
+            await loadDatabaseRecords();
+        });
+        
+        // 加载数据库记录
+        async function loadDatabaseRecords() {
+            try {
+                const response = await fetch('/api/page-generator');
+                const result = await response.json();
+                
+                if (result.success) {
+                    databaseRecords = result.data;
+                    populateSelect();
+                } else {
+                    showResult('error', '获取数据库记录失败：' + result.message);
+                }
+            } catch (error) {
+                console.error('加载数据库记录失败:', error);
+                showResult('error', '加载数据库记录失败，请检查网络连接');
+            }
+        }
+        
+        // 填充选择框
+        function populateSelect() {
+            const select = document.getElementById('recordSelect');
+            select.innerHTML = '<option value="">-- 请选择一个记录 --</option>';
+            
+            databaseRecords.forEach(record => {
+                const option = document.createElement('option');
+                option.value = record.id;
+                option.textContent = `${record.name} (${record.date}) - ${record.location} [${record.region.nameCn}]`;
+                select.appendChild(option);
+            });
+            
+            // 监听选择变化
+            select.addEventListener('change', function() {
+                const recordId = this.value;
+                if (recordId) {
+                    selectedRecord = databaseRecords.find(r => r.id === recordId);
+                    showRecordInfo(selectedRecord);
+                    document.getElementById('generateBtn').disabled = false;
+                } else {
+                    selectedRecord = null;
+                    document.getElementById('recordInfo').style.display = 'none';
+                    document.getElementById('generateBtn').disabled = true;
+                }
+            });
+        }
+        
+        // 显示记录详情
+        function showRecordInfo(record) {
+            const infoDiv = document.getElementById('recordInfo');
+            const detailsDiv = document.getElementById('recordDetails');
+            
+            detailsDiv.innerHTML = `
+                <p><strong>活动名称：</strong>${record.name}</p>
+                <p><strong>举办日期：</strong>${record.date}</p>
+                <p><strong>举办地点：</strong>${record.location}</p>
+                <p><strong>所属地区：</strong>${record.region.nameCn} (${record.region.code})</p>
+                <p><strong>事件ID：</strong>${record.eventId}</p>
+                <p><strong>创建时间：</strong>${new Date(record.createdAt).toLocaleString('zh-CN')}</p>
+            `;
+            
+            infoDiv.style.display = 'block';
+        }
+        
+        // 生成页面
+        async function generatePage() {
+            if (!selectedRecord) {
+                alert('请选择一个数据库记录');
+                return;
+            }
+            
+            const button = document.getElementById('generateBtn');
+            const originalText = button.innerHTML;
+            
+            // 显示加载状态
+            button.innerHTML = '<span class="loading"></span> 生成中...';
+            button.disabled = true;
+            
+            try {
+                const response = await fetch('/api/page-generator', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        databaseId: selectedRecord.id
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    showResult('success', `
+                        <h3>✅ 生成成功！</h3>
+                        <p><strong>活动名称：</strong>${result.data.name}</p>
+                        <p><strong>页面文件：</strong>${result.data.filePath}</p>
+                        <p><strong>访问URL：</strong><a href="${result.data.url}" target="_blank">${result.data.url}</a></p>
+                        <p><strong>地区：</strong>${result.data.regionKey}</p>
+                        <p><strong>数据库ID：</strong>${result.data.databaseId}</p>
+                        <p class="mt-2">基于数据库记录成功生成了完整的花火详情页面！</p>
+                    `);
+                } else {
+                    showResult('error', `❌ 生成失败：${result.message}`);
+                }
+            } catch (error) {
+                console.error('生成失败:', error);
+                showResult('error', '生成失败，请检查网络连接');
+            } finally {
+                // 恢复按钮状态
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }
+        }
+        
+        // 显示结果
+        function showResult(type, message) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.className = `result ${type}`;
+            resultDiv.innerHTML = message;
+            resultDiv.style.display = 'block';
+            
+            // 滚动到结果区域
+            resultDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html> 

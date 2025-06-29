@@ -1,0 +1,59 @@
+/**
+ * 第78回 木更津港まつり 详情页面
+ * 自动生成于 2025-06-29T04:39:08.389Z
+ * 使用模板: UniversalStaticDetailTemplate
+ */
+import UniversalStaticDetailTemplate from '../../../../src/components/UniversalStaticDetailTemplate';
+
+const pageData = {
+  "name": "第78回 木更津港まつり",
+  "fireworksCount": "約1万3000発",
+  "fireworksTime": "85分",
+  "expectedVisitors": "28万4500人",
+  "date": "2025年8月15日(金)",
+  "time": "19:05～20:30",
+  "venue": "中の島公園",
+  "access": "【電車】JR木更津駅西口から徒歩10分 【車】館山道木更津南ICから国道127号・16号経由で約10分MAP",
+  "weatherInfo": "中止",
+  "parking": "○ただし、公共交通機関の利用を推奨",
+  "price": "あり\n1席5000円。チケット販売は7月1日(火)を予定",
+  "contact": "0438-23-8459 第78回木更津港まつり実行委員会事務局(木更津市観光振興課)",
+  "foodStalls": "详见官网",
+  "notes": "详见官网",
+  "website": "https://www.city.kisarazu.lg.jp/soshiki/keizai/kankoshinko/2/2/12167.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.385377,139.911528&center=35.385377,139.911528",
+  "id": "1751171948387",
+  "region": "chiba",
+  "activityType": "matsuri",
+  "description": "古くから港町として栄えた木更津に、築港など郷土の繁栄の基礎を築いた先覚者の霊を慰めようと、1948年にスタートした木更津港まつり。第78回目となる2025年の木更津港まつりでは、8月14日(木)にやっさいもっさい踊り大会を開催。8月15日(金)には花火大会が行われ、日暮れと共に大輪の花火が夜空に打ち上げられる。",
+  "highlights": "港のシンボル「中の島大橋」が光の中に映え、木更津ならではの風情を見せてくれる。また、関東屈指の火薬量を誇る超特大のスターマインは一見の価値がある。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://kisacon.com/wp-content/uploads/2025/05/minatomaturi2025.png",
+      "title": "第78回 木更津港まつり图片1",
+      "alt": "第78回 木更津港まつり图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/chiba/matsuri/activity-78-71948387",
+  "createdAt": "2025-06-29T04:39:08.387Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <UniversalStaticDetailTemplate
+      data={pageData}
+      regionKey="chiba"
+      activityKey="matsuri"
+    />
+  );
+}
+
+export const metadata = {
+  title: '第78回 木更津港まつり - 日本活动指南',
+  description: '古くから港町として栄えた木更津に、築港など郷土の繁栄の基礎を築いた先覚者の霊を慰めようと、1948年にスタートした木更津港まつり。第78回目となる2025年の木更津港まつりでは、8月14日(木)にやっさいもっさい踊り大会を開催。8月15日(金)には花火大会が行われ、日暮れと共に大輪の花火が夜空に打ち上げられる。',
+};

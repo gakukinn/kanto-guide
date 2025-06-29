@@ -1,0 +1,86 @@
+import React from 'react';
+import HanamiDetailTemplate from '../../../../src/components/HanamiDetailTemplate';
+
+/**
+ * 花见会详情页面
+ * 数据库ID: cmc96hbrt000tvlr0txqmxmey
+ * 生成时间: 2025/6/24 20:35:21
+ * 模板: HanamiDetailTemplate
+ * 
+ * 十项核心数据:
+ * 1. 名称: 河口湖音楽と森の美術館のバラ（かわぐちこおんがくともりのびじゅつかんのバラ）
+ * 2. 所在地: 〒401-0304　山梨県富士河口湖町河口3077-20
+ * 3. 开催期间: 2025年6月1日～30日　 10:00～17:30（最終入館17:00）　※休館日は毎週火水曜。営業時間は状況により変更となる場合あり。開花時期は、気候や生育状況などにより変動する場合あり
+ * 4. 开催场所: 山梨県富士河口湖町　河口湖音楽と森の美術館
+ * 5. 交通方式: 富士急行「河口湖駅」から河口湖周遊バス「河口湖音楽と森の美術館」下車
+ * 6. 主办方: 未设置
+ * 7. 料金: 平日/大人1800円、大高生1300円、中小生1000円　　土日祝/大人2100円、大高生1600円、中小生1000円
+ * 8. 联系方式: 河口湖音楽と森の美術館　0570-010-223
+ * 9. 官方网站: https://kawaguchikomusicforest.jp/
+ * 10. 谷歌地图: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d138.768709!3d35.522451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750688055750!5m2!1sja!2sjp
+ */
+
+const DetailPage = () => {
+  // 转换后的活动数据
+  const activityData = {
+  id: "cmc96hbrt000tvlr0txqmxmey",
+  name: "河口湖音楽と森の美術館のバラ（かわぐちこおんがくともりのびじゅつかんのバラ）",
+    description: activityData.description || "详见官网",
+  address: "〒401-0304　山梨県富士河口湖町河口3077-20",
+  datetime: "2025年6月1日～30日　 10:00～17:30（最終入館17:00）　※休館日は毎週火水曜。営業時間は状況により変更となる場合あり。開花時期は、気候や生育状況などにより変動する場合あり",
+  venue: "山梨県富士河口湖町　河口湖音楽と森の美術館",
+  access: "富士急行「河口湖駅」から河口湖周遊バス「河口湖音楽と森の美術館」下車",
+  organizer: "",
+  price: "平日/大人1800円、大高生1300円、中小生1000円　　土日祝/大人2100円、大高生1600円、中小生1000円",
+  contact: "河口湖音楽と森の美術館　0570-010-223",
+  website: "https://kawaguchikomusicforest.jp/",
+  googleMap: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0!2d138.768709!3d35.522451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z!5e0!3m2!1sja!2sjp!4v1750688055750!5m2!1sja!2sjp",
+  region: "koshinetsu",
+  themeColor: "red",
+  status: "scheduled",
+  media: [
+    {
+      type: "image" as const,
+      url: "http://kawaguchikomusicforest.jp/wp-content/uploads/2020/10/garden_d.jpg",
+      title: "河口湖音楽と森の美術館のバラ（かわぐちこおんがくともりのびじゅつかんのバラ）图片1",      alt: "河口湖音楽と森の美術館のバラ（かわぐちこおんがくともりのびじゅつかんのバラ）图片1",
+      caption: ""
+    }
+  ]
+};
+
+  // 确定地区键 - 使用标准化的地区映射
+  const REGION_MAP = {
+    'tokyo': 'tokyo',
+    'saitama': 'saitama', 
+    'chiba': 'chiba',
+    'kanagawa': 'kanagawa',
+    'kitakanto': 'kitakanto',
+    'koshinetsu': 'koshinetsu',
+    '東京都': 'tokyo',
+    '東京': 'tokyo',
+    '埼玉県': 'saitama',
+    '埼玉': 'saitama',
+    '千葉県': 'chiba',
+    '千葉': 'chiba',
+    '神奈川県': 'kanagawa',
+    '神奈川': 'kanagawa',
+    '茨城県': 'kitakanto',
+    '栃木県': 'kitakanto',
+    '群馬県': 'kitakanto',
+    '新潟県': 'koshinetsu',
+    '長野県': 'koshinetsu',
+    '山梨県': 'koshinetsu'
+  };
+  const regionKey = REGION_MAP["koshinetsu"] || 'tokyo';
+
+  return (
+    <div className="min-h-screen">
+      <HanamiDetailTemplate
+        data={activityData}
+        regionKey={regionKey}
+      />
+    </div>
+  );
+};
+
+export default DetailPage;

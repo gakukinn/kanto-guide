@@ -1,0 +1,29 @@
+{
+  "id": "recognition-matsuri-1750953298211",
+  "name": "山あげ祭（やまあげまつり）",
+  "address": "〒321-0621　栃木県那須烏山市中央　ほか",
+  "datetime": "2025年7月25日～27日　 上演時間は日により異なる",
+  "venue": "栃木県那須烏山市　烏山市街地",
+  "access": "ＪＲ烏山線「烏山駅」から徒歩5分～30分、または北関東自動車道「宇都宮上三川IC」から車約50分",
+  "organizer": "山あげ祭実行委員会",
+  "price": "有料観覧席あり　桟敷席一般席1席/1000円、特別席1席/1万円（20席限定※要予約）",
+  "contact": "那須烏山市観光協会　0287-84-1977、那須烏山市商工観光課　0287-83-1115",
+  "website": "https://www.city.nasukarasuyama.lg.jp/page/dir001128.html",
+  "googleMap": "https://maps.google.com/maps?q=36.656457,140.153973&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "kitakanto",
+  "description": "八雲神社例大祭の奉納行事として開催される「山あげ祭」では、地元の特産である烏山和紙を使った「はりか山」が舞台背景となり、本格的な野外歌舞伎舞踊が上演されます。観客の前に据えられた舞台から道路上約100mの間に、山や舘、橋などが程良く配置され、それらを背景に町の踊り子らによる絢爛豪華な舞が披露されます。一つの舞台が終わると次の場所に舞台を移動し、1日に4～6回の所作狂言が行われます。国の重要無形民俗文化財に指定され、2016年に、ユネスコ無形文化遺産に登録された「山・鉾・屋台行事」33の祭礼のひとつです。",
+  "activityType": "matsuri",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/2014_Yamaage_Matsuri_04.JPG/1200px-2014_Yamaage_Matsuri_04.JPG",
+      "title": "山あげ祭（やまあげまつり）图片1",
+      "alt": "山あげ祭（やまあげまつり）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-26T15:54:58.237Z",
+  "updatedAt": "2025-06-26T15:54:58.237Z"
+}

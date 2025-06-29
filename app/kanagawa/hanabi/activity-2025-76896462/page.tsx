@@ -1,0 +1,59 @@
+/**
+ * えびな市民まつり 2025 详情页面
+ * 自动生成于 2025-06-29T06:01:36.464Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const pageData = {
+  "name": "えびな市民まつり 2025",
+  "fireworksCount": "5000発",
+  "fireworksTime": "详见官网",
+  "expectedVisitors": "14万人　(まつり全体)",
+  "date": "2025年11月16日(日)",
+  "time": "17:30〜18:00(予定) まつり開催時間 10:00〜18:30",
+  "venue": "海老名運動公園",
+  "access": "【電車】JR・小田急・相鉄海老名駅、海老名市役所から無料シャトルバスで約20分。JR・小田急厚木駅またはJR社家駅から徒歩15分MAP",
+  "weatherInfo": "荒天時は中止",
+  "parking": "×",
+  "price": "あり\n10月中旬頃販売予定(詳細未定)",
+  "contact": "046-235-4794 えびな市民まつり実行委員会事務局(市民活動推進課内)",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.city.ebina.kanagawa.jp/shisei/profile/1008687/1008890.html",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.42906,139.374398&center=35.42906,139.374398",
+  "id": "1751176896463",
+  "region": "kanagawa",
+  "activityType": "hanabi",
+  "description": "【※大会プログラムは過去の情報になります。開催予定の大会については詳細が決定次第、情報を更新します】神奈川県海老名市で開催され、毎年多くの来場者でにぎわう「えびな市民まつり」。会場内では一般団体によるブース出展やステージ出演など、さまざまな企画を実施し、海老名の「魅力」、「活力」、「地域力」を発信する。まつりのフィナーレを飾る花火は、約5000発が打ち上げられる。色鮮やかな花火が、秋の澄みきった海老名の夜空を彩る。",
+  "highlights": "花火の打ち上げのほか、飲食・物販・体験などのブース出店やステージでの演目、スポーツ体験など、海老名運動公園内を5会場に分け、子どもから大人まで、幅広い世代が1日中楽しめるまつりになっている。",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://pbs.twimg.com/media/GnWJLjba0AAAUpj.jpg:large",
+      "title": "えびな市民まつり 2025图片1",
+      "alt": "えびな市民まつり 2025图片1",
+      "caption": ""
+    }
+  ],
+  "detailLink": "/kanagawa/hanabi/activity-2025-76896462",
+  "createdAt": "2025-06-29T06:01:36.463Z",
+  "source": "walkerplus-generator"
+} as const;
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={pageData}
+      regionKey="kanagawa"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: 'えびな市民まつり 2025 - 日本活动指南',
+  description: '【※大会プログラムは過去の情報になります。開催予定の大会については詳細が決定次第、情報を更新します】神奈川県海老名市で開催され、毎年多くの来場者でにぎわう「えびな市民まつり」。会場内では一般団体によるブース出展やステージ出演など、さまざまな企画を実施し、海老名の「魅力」、「活力」、「地域力」を発信する。まつりのフィナーレを飾る花火は、約5000発が打ち上げられる。色鮮やかな花火が、秋の澄みきった海老名の夜空を彩る。',
+};

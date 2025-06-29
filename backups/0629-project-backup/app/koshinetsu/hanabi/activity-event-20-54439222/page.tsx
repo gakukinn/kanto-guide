@@ -1,0 +1,52 @@
+import WalkerPlusHanabiTemplate from '@/components/WalkerPlusHanabiTemplate';
+
+const activityData = {
+  "id": "recognition-hanabi-1750954439222",
+  "name": "山梨市制施行20周年記念事業　笛吹川県下納涼花火大会（ふえふきがわけんかのうりょうはなびたいかい）",
+  "address": "〒405-0018　山梨県山梨市上神内川",
+  "datetime": "2025年7月26日　 花火打ち上げ/19:30～21:00（予定）　※小雨決行、荒天時は翌日に順延",
+  "venue": "山梨県山梨市　笛吹川万力大橋下流",
+  "access": "ＪＲ中央本線「山梨市駅」から徒歩3分",
+  "organizer": "笛吹川県下納涼花火大会山梨市実行委員会",
+  "price": "有料観覧席なし",
+  "contact": "笛吹川県下納涼花火大会山梨市実行委員会　0553-22-1111",
+  "website": "https://www.city.yamanashi.yamanashi.jp/soshiki/17/",
+  "googleMap": "https://maps.google.com/maps?q=35.689679,138.682815&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "koshinetsu",
+  "description": "梅雨明けと同時に開催される花火大会です。2025年は「山梨市制施行20周年記念事業」として、例年より約2000発増発して、実施されます。4号玉、早打ち、スターマイン、大スターマイン、仕掛花火などが夜空を華やかに彩り、笛吹川の清流と万力林の緑豊かな自然を背景に打ち上げられる花火は、観客を魅了します。打ち上げ場所と観覧場所が近いため、息を呑むほどの迫力が体感できます。 ※打ち上げ数：5000発、昨年度3000発 観客数：2万5000人、昨年度2万人",
+  "activityType": "hanabi",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/ead6b34a-80a2-4c3c-a48d-f2a4a02287d8/0_0.png",
+      "title": "山梨市制施行20周年記念事業　笛吹川県下納涼花火大会（ふえふきがわけんかのうりょうはなびたいかい）图片1",
+      "alt": "山梨市制施行20周年記念事業　笛吹川県下納涼花火大会（ふえふきがわけんかのうりょうはなびたいかい）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-26T16:13:59.253Z",
+  "updatedAt": "2025-06-26T16:13:59.253Z",
+  "detailLink": "/koshinetsu/hanabi/activity-event-20-54439222",
+  "fireworksCount": "详见官网",
+  "fireworksTime": "详见官网",
+  "expectedVisitors": "详见官网",
+  "weatherInfo": "详见官网",
+  "parking": "详见官网",
+  "foodStalls": "详见官网",
+  "notes": "梅雨明けと同時に開催される花火大会です。2025年は「山梨市制施行20周年記念事業」として、例年より約2000発増発して、実施されます。4号玉、早打ち、スターマイン、大スターマイン、仕掛花火などが夜空を華やかに彩り、笛吹川の清流と万力林の緑豊かな自然を背景に打ち上げられる花火は、観客を魅了します。打ち上げ場所と観覧場所が近いため、息を呑むほどの迫力が体感できます。 ※打ち上げ数：5000発、昨年度3000発 観客数：2万5000人、昨年度2万人",
+  "date": "详见官网",
+  "time": "详见官网"
+};
+
+export default function DetailPage() {
+  return <WalkerPlusHanabiTemplate data={activityData} regionKey="koshinetsu" activityKey="hanabi" />;
+}
+
+export async function generateMetadata() {
+  return {
+    title: '山梨市制施行20周年記念事業　笛吹川県下納涼花火大会（ふえふきがわけんかのうりょうはなびたいかい） - 甲信越花火大会',
+    description: '梅雨明けと同時に開催される花火大会です。2025年は「山梨市制施行20周年記念事業」として、例年より約2000発増発して、実施されます。4号玉、早打ち、スターマイン、大スターマイン、仕掛花火などが夜空...',
+  };
+}
