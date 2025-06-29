@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有\n详细信息请参照官方网站",
   "contact": "04 -200-3939谢谢你",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.kawasaki.jp/280/page/0000117559.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.604451,139.631898&center=35.604451,139.631898",

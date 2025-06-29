@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "神宫球场（全席指定）、秩父宫橄榄球场（全席指定）、费用、详细资料在官方网站确认",
   "contact": "详见官网",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.edogawa.tokyo.jp/hanabi/index.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.718451,139.903274&center=35.718451,139.903274",

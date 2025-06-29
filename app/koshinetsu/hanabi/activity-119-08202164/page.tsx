@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "销售完后就结束了。※详情在官方网站确认",
   "contact": "026-227-2428 長野商工会議所",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://nagano-ebisukou.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.623519,138.189511&center=36.623519,138.189511",

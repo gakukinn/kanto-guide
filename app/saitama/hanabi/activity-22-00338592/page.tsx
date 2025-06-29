@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○2000台3000日圆~/1日（部分赞助者免费）赞助者停车场（免费）为12：00、糠田第2会场（收费）为9：30 ~ 17：00（预定）、吉见综合运动公园（收费）为9：30（预定）。",
   "price": "第一会场蓝布升降机（4人座位）23，000日元，椅子座位（2人座位）14，000日元，第二会场蓝布升降机（5人座位）22，000日元，椅子座位（1人座位）5，000日元※从2024年7月1日起在Lawson Ticket上发售",
   "contact": "详见官网",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://kounosuhanabi.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.062418,139.485659&center=36.062418,139.485659",

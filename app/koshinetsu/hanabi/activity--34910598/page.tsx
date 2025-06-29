@@ -18,7 +18,7 @@ const pageData = {
   "parking": "请查阅官方网站。",
   "price": "有\n详细信息请查看官方网站",
   "contact": "0570-082-083 （导航拨号）长冈烟花票务中心",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "当天是否举行将于上午7点决定，并在基金会官方网站上公布。",
   "website": "https://www.nagaokamatsuri.com",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.44944,138.831511&center=37.44944,138.831511",

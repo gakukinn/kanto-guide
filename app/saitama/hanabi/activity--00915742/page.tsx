@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "详细情况将在官方网站上公布。",
   "contact": "048-581-2121 寄居玉淀水天宫祭实行委员会事务局（寄居町推广战略课）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.town.yorii.saitama.jp/soshiki/13/yoriitamayodosuitengusai.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.110851,139.194526&center=36.110851,139.194526",

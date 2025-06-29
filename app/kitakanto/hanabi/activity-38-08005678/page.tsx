@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○ 4，000个屋檐下停车场（8月以后开始预约，提前预约制）",
   "price": "有\n详细信息请参照官方网站",
   "contact": "0280-81-1319 境町观光协会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.sakai-hanabi.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.105896,139.787251&center=36.105896,139.787251",

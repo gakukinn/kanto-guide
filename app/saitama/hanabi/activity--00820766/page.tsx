@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○2850台大型5000円、中型3000円、普通1000円、二輪500円大型80台、中型20台、普通2750台",
   "price": "有\n详情请查阅Chichibu旅游协会官方网站。",
   "contact": "0494-25-5209秩父祭对策本部（秩父市观光课）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://navi.city.chichibu.lg.jp/p_festival/1030/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.990162,139.090079&center=35.990162,139.090079",

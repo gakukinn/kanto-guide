@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "座位6人30，000日元~ 25，200日元，高级翻新座位2人15，000日元，长凳座位2人8，000日元，草坪座位4人5，000日元，双人楼梯座位/北区：2人6，000日元，北区：1人3，000日元，中央/南区：1人3500日元，市政厅内4~6楼西走廊座位1人10000日元，摄影师座位2人8000日元，第二停车场内圆桌座位4人22000日元，城山公园内圆桌座位4人20000日元，城山公园内草坪座位1人1000日元※请联系小山烟花收费座位中心070-2294-8036",
   "contact": "0285-22-9273山夏季节2024执行委员会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.oyamanohanabi.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.316432,139.796341&center=36.316432,139.796341",

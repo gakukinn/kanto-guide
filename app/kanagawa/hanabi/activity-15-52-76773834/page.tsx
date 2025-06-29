@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○詳細未定",
   "price": "没有详细的细节。决定后在官方网站公布",
   "contact": "042-770-7777 相模原市呼叫中心",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "从JR横滨线各站乘公共汽车通常约30分钟，但预计活动当天将需要2小时以上。如果您在每个车站15：00左右之前没有搭乘公交车，您可能无法在出发前到达。从JR相模线的“上沟站”步行约1小时。烟花大会当天，从相模原站出发前往水乡田名的航班，将于14：00左右（调整中）在“田名巴士总站”实施回程运行。返回运行后，从田纳巴士总站出发，没有开往高田桥方向的巴士。",
   "website": "https://sagamiharahanabi.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.544894,139.328519&center=35.544894,139.328519",

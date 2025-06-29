@@ -55,7 +55,7 @@ const hanamiData = {
     "venue": "水户市保和苑及周边史迹",
     "bestTime": "6月7日～29日",
     "varieties": "約100種類6,000株の紫陽花",
-    "price": "無料",
+    "price": "免费",
     "features": [
       "無料観賞",
       "多品種の紫陽花",

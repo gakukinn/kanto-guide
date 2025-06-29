@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "详情请参阅官方网站https：//itabashihanabi.jp/paidseat.html。",
   "contact": "03-3579-2255 板橋区観光協会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://itabashihanabi.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.798307,139.673254&center=35.798307,139.673254",

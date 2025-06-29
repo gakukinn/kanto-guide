@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有（有）",
   "contact": "047-483-1771八千代故乡母子祭实行委员会事务局（八千代商工会议所内）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://yachiyocci.jp/info/news/50th-oyako/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.733034,140.112285&center=35.733034,140.112285",

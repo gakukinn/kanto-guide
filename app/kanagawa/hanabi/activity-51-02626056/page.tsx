@@ -18,7 +18,7 @@ const pageData = {
   "parking": "* 请使用公共交通工具。",
   "price": "无（No）",
   "contact": "050-3159-6791活动日期（八月三十日星期六上午9：00）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "从前一天起就被禁止了。在包括沙滩在内的海洋公园内禁止吸烟。宠物不允许入境。垃圾带回家。比赛当天非常拥挤，因此不能乘坐汽车、摩托车、自行车来。周围道路在18：30~21：00有交通限制。",
   "website": "https://www.city.yokohama.lg.jp/kanazawa/kurashi/kyodo_manabi/kyodo_shien/chiiki/kanazawamaturi/maturi2025/maturi.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.340969,139.635978&center=35.340969,139.635978",

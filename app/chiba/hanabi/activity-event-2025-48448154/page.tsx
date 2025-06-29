@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "从2025年7月1日（星期二）中午开始发售。柏会场：1人席4500日元，双人席8500日元，4人席1.5万日元，看空席（1人席）2500日元。我须子会场：手贺沼公园（A席）5人席2万日元，手贺沼公园（A对席）2人席1万日元，手贺沼公园（A桌席）6人席3万日元，手贺沼公园（B对席）2人席6000日元，手贺沼公园（B席）5人席1万5000日元，手贺沼公园（C桌席）4人席2万日元，手贺沼横丁（桌席）4人席2万日元。步行街座位每人2000日元。请在官方网站上确认购买方法。",
   "contact": "04-7182-3131 (我孫子会場、我孫子市商工会)",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://teganuma-hanabi.kashiwa-cci.or.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.861508,140.008208&center=35.861508,140.008208",

@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有\n未定",
   "contact": "042-481-7311 調布市花火実行委員会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://hanabi.csa.gr.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.636585,139.547833&center=35.636585,139.547833",

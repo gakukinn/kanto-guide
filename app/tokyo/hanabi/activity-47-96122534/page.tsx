@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "没有\n收费座位的销售未定。详情请浏览官方网站。",
   "contact": "03-5432-3333给了我一个电话",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.tamagawa-hanabi.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.614007,139.615716&center=35.614007,139.615716",

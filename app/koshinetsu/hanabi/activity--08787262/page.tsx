@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○2500台",
   "price": "到2025年4月28日，收费观众席的申请已经结束。",
   "contact": "0257-21-2334柏崎祭赞助会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/index.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.375582,138.546519&center=37.375582,138.546519",

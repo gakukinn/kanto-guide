@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "预计将于10月中旬发售（详情待定）",
   "contact": "046-235-4794虾野市民节实行委员会事务局（市民活动推进课内）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.ebina.kanagawa.jp/shisei/profile/1008687/1008890.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.42906,139.374398&center=35.42906,139.374398",

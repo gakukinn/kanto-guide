@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有（有）",
   "contact": "050-3665-9607 NTT IP Voice音频介绍。2024年7月19日（星期五）至8月17日（星期六）（24小时支持）* 预付费式手机、部分IP、光纤线路等可能无法使用。",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://visitsaitamacity.jp/events/28",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.923585,139.639607&center=35.923585,139.639607",

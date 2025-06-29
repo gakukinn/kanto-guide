@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有\n小组席（指定席6人用）24000日元，S席（指定席1人用）5500日元，A席（自由席1人用）2500日元。2024年8月16日（星期五）从10点开始发售的详细内容在官方网站上确认。",
   "contact": "04-7168-1047流山市流山本町·利根运河旅游推进科，或04-7158-6111（流山商工会议所内烟花大会实行委员会）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.nagareyama.chiba.jp/tourism/1013059/1050206.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.853892,139.896764&center=35.853892,139.896764",

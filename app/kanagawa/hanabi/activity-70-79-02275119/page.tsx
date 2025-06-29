@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有\n有关收费观众席的信息，请查看官方网站。",
   "contact": "080-7826-4362节实行委员会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.atsugi.kanagawa.jp/soshiki/shogyonigiwaika/7_1/5/43235.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.450898,139.370935&center=35.450898,139.370935",

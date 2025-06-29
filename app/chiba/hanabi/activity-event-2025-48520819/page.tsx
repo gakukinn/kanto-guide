@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "销售将于6月中旬开始。官方网站参考",
   "contact": "047-366-7327松户市文化体育部文化热闹创造课",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://matsudo-hanabi.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.803223,139.892193&center=35.803223,139.892193",

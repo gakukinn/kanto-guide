@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有免费座位，每人3000日元。详情请访问官方网站。",
   "contact": "025-259-5811 (協)北新潟商工振興会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.gozareya.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.94514,139.138071&center=37.94514,139.138071",

@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "详细情况请参见官方网站。",
   "contact": "048-463-2645 朝霞市民祭实行委员会事务局（朝霞市政府地区建设支援科内）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://saikasai.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.793258,139.591795&center=35.793258,139.591795",

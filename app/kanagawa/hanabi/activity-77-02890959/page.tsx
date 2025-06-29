@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "是的，有销售计划。有沙滩座位作为云范的回礼品。详情见官方网站",
   "contact": "0467-23-3050 鎌倉花火大会実行委員会(公益社団法人 鎌倉市観光協会内)",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.trip-kamakura.com/site/kamakura-hanabi/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.307631,139.544287&center=35.307631,139.544287",

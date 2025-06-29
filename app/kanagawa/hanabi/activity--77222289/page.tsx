@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○330辆车最初30分钟300日圆，之后30分钟150日圆或免费约330辆车停车。部分免费（免费）",
   "price": "无（No）",
   "contact": "0460-85-5700 箱根町综合观光介绍所",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.hakone.or.jp/8834",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.202095,139.029140&center=35.202095,139.029140",

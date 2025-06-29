@@ -18,7 +18,7 @@ const pageData = {
   "parking": "（a）费用未定。详情请参阅官方网站台数量限定，只限事前购买（当日不贩售）",
   "price": "有\n详细信息请参照官方网站",
   "contact": "048-431-0206 戸田橋花火大会実行委員会事務局(戸田市役所経済戦略室内)",
-  "foodStalls": "飲食出店あり",
+  "foodStalls": "有饮食摊位",
   "notes": "详见官网",
   "website": "https://www.todabashi-hanabi.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.80022,139.674092&center=35.80022,139.674092",

@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "它将于2025年6月出售。详情见官方网站",
   "contact": "046-834-1111久里浜行政中心内久里浜观光协会事务局",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://perryfes.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.224795,139.713526&center=35.224795,139.713526",

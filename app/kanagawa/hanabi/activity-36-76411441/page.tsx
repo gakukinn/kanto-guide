@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "从3500日元起（共7种型号出售）",
   "contact": "0465-20-4192 (一社)小田原市観光協会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.odawara-kankou.com/hanabi/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.267013,139.173331&center=35.267013,139.173331",

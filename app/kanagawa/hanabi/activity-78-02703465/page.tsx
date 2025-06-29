@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○临时停车场为汽车1次500日元、自动摩托车1次200日元临时停车场：本町小学校园、南中学校校园、末广小学校园。免费接驳巴士：从堀川小学临时停车场到“假名技术学院西部”运行免费接驳巴士",
   "price": "无（No）",
   "contact": "0463-82-5111秦野烟草祭实际银行职员会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.kankou-hadano.org/tabakomatsuri/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.372297,139.243158&center=35.372297,139.243158",

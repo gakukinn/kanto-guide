@@ -18,7 +18,7 @@ const pageData = {
   "parking": "* 请使用公共交通工具。",
   "price": "高级座位11，000日元，高级团体座位（4张）50，000日元，S座位8，800日元，A座位7，700日元，轮椅双人票17，600日元（包括1个停车场，2人），府中市民票5，000日元，草坪区票（最多可参观4人，分发座位）35，000日元。学龄前儿童膝上免费。高级座位可使用专用入口、卫生间、饮料柜台",
   "contact": "详见官网",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "烟火导演、参加烟火店在官方网站介绍",
   "website": "https://hanabitokyo.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.662505,139.485592&center=35.662505,139.485592",

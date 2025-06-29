@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○360台市政府停车场3000日元，唐子町停车场2000日元市政府250台，唐子町公园（临时停车场）110台。如果没有停车位，我们建议使用公共交通工具。",
   "price": "有（有）",
   "contact": "0479-24-8932子水节实行委员会（子市政府观光商工课：烟火负责）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.choshi.chiba.jp/event/page1103_00076.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.736236,140.829739&center=35.736236,140.829739",

@@ -18,7 +18,7 @@ const pageData = {
   "parking": "* 请使用公共交通工具。",
   "price": "有\n从2025年5月23日星期五13：00开始受理。收费座位详情请参阅官方网站“售票页面”",
   "contact": "0570-550-100收费观众席销售查询（FANY门票查询拨号）全天10：00~19：00",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "在2025年度，除了付费观众席的购买者和免费邀请席的获奖者以外，会场周围没有可观看的空间，因此，如果没有门票，请合作避免参观。有关收费观赏席的购买及免费邀请席的申请详细资料，请参阅官方网站内的“票页面”。",
   "website": "https://chiba-hanabi.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.643793,140.029589&center=35.643793,140.029589",

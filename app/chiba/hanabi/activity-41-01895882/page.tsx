@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "1 - 4人座位24，000日元，1 - 2人座位12，000日元，椅子座位8，000日元，自由座位5，000日元",
   "contact": "047-711-1142 市川市民納涼花火大会実行委員会事務局",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.ichikawa-hanabi.net/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.7188,139.901351&center=35.7188,139.901351",

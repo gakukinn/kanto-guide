@@ -18,7 +18,7 @@ const pageData = {
   "parking": "* 2 500美元。在官方网站上确认。",
   "price": "在往年的收费展览席销售期（6月下旬），将从众筹销售中剩余的座位进行第二次销售。详情请浏览官方网站。",
   "contact": "048-594-6677 熊谷市観光協会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.oideyo-kumagaya.com/cate-spot/303/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.131809,139.383212&center=36.131809,139.383212",

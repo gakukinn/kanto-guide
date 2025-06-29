@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有收费和免费都有观众席。",
   "contact": "027-330-5333 高崎祭实行委员会（高崎观光协会内）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.takasaki-matsuri.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.325092,138.995778&center=36.325092,138.995778",

@@ -18,7 +18,7 @@ const pageData = {
   "parking": "免费详情请参阅官方网站。",
   "price": "有桌子座位（桌子1台，椅子5个，停车场1台）2万5000日元，椅子座位（1个）4000日元，摄影师座位（1格约宽1米×深2米）8000日元。从2025年6月2日（星期一）开始，将在东方销售。详情见官方网站",
   "contact": "0278-23-1137 （沼田商工会议所）或0278-23-2111（沼田市政府观光交流课），均为沼田烟花大会执行委员会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "在某些情况下可能会有入境限制。",
   "website": "https://numatahanabi.com/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.647738,139.022947&center=36.647738,139.022947",

@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "无（No）",
   "contact": "048-971-9002 越谷市観光協会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.koshigaya-sightseeing.jp/spot-play/spot/%e8%b6%8a%e8%b0%b7%e8%8a%b1%e7%81%ab%e5%a4%a7%e4%bc%9a/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.889323,139.793332&center=35.889323,139.793332",

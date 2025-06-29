@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○约1000台免费，临时，小千谷市综合体育馆等",
   "price": "有\n桌席1套（定员4人）1万8000日元。1台长椅（定员3人）1万2000日元。收费楼梯座每人3000日元。Hontka。屋顶长椅座位1台（3人）9000日元。申请方式将在官方网站公布",
   "contact": "0258-86-0288 小千谷観光協会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.ojiya.niigata.jp/site/kanko/ojiyamatsuri.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.311973,138.806955&center=37.311973,138.806955",

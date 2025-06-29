@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "座位（蓝色塑料布1.8米x1.8米）7，000日元，椅子3，000日元，双桌座位（1.8米x0.45米和2张椅子）12，000日元，双人座位（2张椅子，宽敞空间）9，000日元，照相机面积10，000日元。收费座位详情请参照官方网站。",
   "contact": "0493-23-3344东松山市观光协会（仅平日）",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://hm-kanko.wixsite.com/hanabi/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.010561,139.403678&center=36.010561,139.403678",

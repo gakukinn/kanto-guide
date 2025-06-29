@@ -18,7 +18,7 @@ const pageData = {
   "parking": "○临时停车场2，000辆车（收费2，000日圆~ 3，000日圆/辆车）",
   "price": "有\n集体席1万8000日元，椅子席6000日元等。详情见官方网站",
   "contact": "0297-23-9088 常总无川烟火大会实行委员会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://joso-hanabi.jp/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.027418,139.985295&center=36.027418,139.985295",

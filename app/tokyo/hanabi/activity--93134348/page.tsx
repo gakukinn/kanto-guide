@@ -18,7 +18,7 @@ const pageData = {
   "parking": "×",
   "price": "有\n特别赞助社入场券（收费观众席）预定销售。详情一经决定，将在官方网站公布。",
   "contact": "042-527-2700立川祭国营昭和纪念公园烟花大会实行委员会",
-  "foodStalls": "あり",
+  "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://hanabi.tokyo-tachikawa.org/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.710765,139.397322&center=35.710765,139.397322",
