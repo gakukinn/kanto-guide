@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.city.ota.gunma.jp/",
   googleMap: "https://maps.google.com/maps?q=36.2588,139.320655&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kitakanto",
-  description: "「尾島ねぷたまつり」は、高さ7mにもおよぶ扇ねぷたと、ねぷた太鼓の運行が勇壮そのもので知られます。尾島のまつりに「弘前ねぷた」が登場するようになったのは、江戸時代に津軽藩の飛び地が太田市（現大舘町ほか）にあったことが由縁とされます。「ヤーヤドー」の掛け声とともに、約十台のねぷたと10尺大太鼓が会場を練り歩きます。中でも、まつりの最後に行われるねぷた太鼓とまつり囃子の合同演奏は、一番の見どころとなっています。津軽物産市として弘前市の特産品の販売も行われ、多くの人で賑わいます。 ※木崎駅から臨時バス運行",
+  description: "在“尾岛Neputa祭”中，高达7米的扇Neputa和Neputa太鼓的运行以其壮而闻名。“弘前Neputa”之所以出现在尾岛的祭祀活动中，是因为江户时代津轻藩的飞地位于太田市（现大馆町等）。伴随着“Yayadoo”的口号，大约十台neputa和10尺大鼓在会场游行。其中，在节日结束时举行的Neputa Daiko和Matsuri Hayashi的联合表演是最值得注意的。广崎市的特产也被出售，作为筑谷物产市场，吸引了很多人。※由木崎站运行临时巴士",
   themeColor: "red",
   status: "scheduled",
   media: [

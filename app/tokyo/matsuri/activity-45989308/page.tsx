@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.hachiojimatsuri.jp/",
   googleMap: "https://maps.google.com/maps?q=35.659889,139.335772&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "tokyo",
-  description: "精巧な彫刻が施された山車19台が、甲州街道2kmを勇壮に巡行するお祭りです。灯火に浮かび上がる夜の山車は、まさに“動く芸術品”。民踊流しや、関東太鼓大合戦、地元の宮神輿渡御も行われ、いずれも一見の価値があります。",
+  description: "这是一个由雕刻精美的花车19辆，在甲州街道2km雄壮地巡游的节日。在灯光中浮现的夜间山车，就是“移动的艺术品”。民间舞蹈表演、关东太鼓大战和当地的宫神神社都在进行，都值得一游。",
   themeColor: "red",
   status: "scheduled",
   media: [

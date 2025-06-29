@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.city.kumagaya.lg.jp/kanko/midokoro/nogoji.html",
   googleMap: "https://maps.google.com/maps?q=36.230979,139.339145&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "saitama",
-  description: "能護寺 あじさいの開催期間：2025年6月上旬～下旬。じゃらんnetでは能護寺 あじさいへの口コミや投稿写真をご紹介。能護寺 あじさいへのアクセス情報や混雑状況などもご確認頂けます。能護寺 あじさい周辺のホテル/観光スポット/ご当地グルメ/イベント情報も充実。",
+  description: "能护寺绣球举办期间：2025年6月上旬~下旬。在Jalannet上介绍了能护寺绣球的评论和投稿照片。你也可以在这里找到通往诺戈寺绣球的信息和拥挤的情况。Nogoji Ajisai附近的酒店/旅游景点/当地美食/活动信息也很丰富。",
   themeColor: "red",
   status: "scheduled",
   media: [

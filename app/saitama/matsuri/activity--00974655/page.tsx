@@ -23,7 +23,7 @@ const activityData = {
   website: "https://www.town.yorii.saitama.jp/soshiki/13/yoriitamayodosuitengusai.html",
   googleMap: "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.110851,139.194526&center=36.110851,139.194526",
   region: "saitama",
-  description: "埼玉県の寄居町で開催され、1931年(昭和6年)から続く由緒ある花火大会。寄居玉淀水天宮祭は「関東一の水祭り」と呼ばれる水難除けなどを祈願して行われるお祭りで、付け祭りとして県指定名勝「玉淀」の河原で花火大会が開催される。花火の打ち上げは19時から行われ、スターマインや仕掛け花火など、趣向を凝らした花火が魅力だ。",
+  description: "在埼玉县寄居町举办，自1931年（昭和6年）开始持续至今的历史烟火大会。寄居玉淀水天宫祭是为了祈祷被称为“关东第一水祭”的水难而举行的祭祀活动，作为祭祀活动，在县指定名胜“玉淀”的河滩上举行烟花大会。烟花的发射从19点开始进行，明星地雷和装置烟花等别具一格的烟花很有魅力。",
   activityType: "matsuri",
   detailLink: "/saitama/matsuri/activity--00974655",
   themeColor: "red",

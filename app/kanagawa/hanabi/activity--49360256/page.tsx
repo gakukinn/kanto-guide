@@ -13,7 +13,7 @@ const activityData = {
   "website": "https://www.city.hiratsuka.kanagawa.jp/kanko/page-c_01068.html",
   "googleMap": "https://maps.google.com/maps?q=35.314991,139.364417&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "kanagawa",
-  "description": "在相模川河口（湘南潮来）举行了作为湘南夏天的风景而受欢迎的“湘南平田烟火大会”。以湘南的大海为背景，约3000发五彩缤纷的烟花被燃放，在夏季的夜空中绽放巨大的花朵。在节目的后半部分，将举行与音乐和谐的音乐烟花表演，您可以欣赏到充满震撼力的烟花。※从平冢站南口开始的付费临时巴士运行：3000发，去年3000发观众：85，000人，去年85，000人",
+  "description": "在相模川河口（湘南潮来）举行了作为湘南夏天的风景而受欢迎的“湘南平田烟花大会”。以湘南的大海为背景，约3000发五彩缤纷的烟花被燃烧释放，在夏季的夜晚空中放生巨大的花朵。在节日目的后半部分，将举行与音乐和谐的音乐烟花表演，您可以欣赏到充满震撼力的烟花。※从平冢站南口开始的收费临时巴士运行：3000发，去年3000发观众：85，000人，去年85，000人",
   "activityType": "hanabi",
   "themeColor": "red",
   "status": "scheduled",

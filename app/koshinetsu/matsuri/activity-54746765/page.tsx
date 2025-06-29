@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://binzuru.info/",
   googleMap: "https://maps.google.com/maps?q=36.649251,138.187121&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "koshinetsu",
-  description: "ふるさとの市民祭りとして、長野の街に定着している「長野びんずる」が、今年も盛大に開催されます。2025年は「彩～忘れ得ぬ夏～」をスローガンに、名物「びんずる踊りコンテスト」をはじめ、長野の夏を熱く盛り上げるさまざまなイベントが行われます。",
+  description: "作为故乡的市民庆典，在长野的街道上固定下来的“长野邦祖”，今年也将盛大地举行。2025年，以“彩~难忘的夏天~”为口号，将举办以名产“宾祖舞蹈大赛”为首的各种活动，让长野的夏天热闹起来。",
   themeColor: "red",
   status: "scheduled",
   media: [

@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.koenji-awaodori.com/",
   googleMap: "https://maps.google.com/maps?q=35.701743,139.64957&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "tokyo",
-  description: "街の賑わいを求めて昭和32年（1957年）に始まった「東京高円寺阿波おどり」が、今年も華やかに開催されます。本場、徳島からの踊り手も加わり、延べ約160連、約1万人が、軽快なお囃子に乗って高円寺の街を練り歩く光景は圧巻です。例年延べ100万人の観客で賑わい、高円寺の街は阿波おどり一色に染まります。2025年の舞台公演は、セシオン杉並ホールで「おどれ高円寺セシオン」が、座・高円寺で「夏の座・高円寺阿波おどり」が行われます。",
+  description: "为了寻求街道的繁荣，昭和32年（1957年）开始的“东京高圆寺阿波舞”，今年也会举办华丽的活动。来自德岛的舞蹈演员也加入了进来，总共约有160人，约有10，000人，乘坐轻快的音乐伴奏，在Koenji街游行，这是一个壮观的景象。每年都有100万名观众，高圆寺的街道上充满了阿波舞的色彩。2025年的舞台表演将在Suginami Hall演出“Otokoenji Sezion”，在Za-Koenji演出“夏日剧场Koenji Awa Odori”。",
   themeColor: "red",
   status: "scheduled",
   media: [

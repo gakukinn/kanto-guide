@@ -13,7 +13,7 @@ const activityData = {
   "website": "https://visitsaitamacity.jp/events/29",
   "googleMap": "https://maps.google.com/maps?q=35.864478,139.710207&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "saitama",
-  "description": "埼玉市烟火大会之一，在浦和地区（东浦和大间木公园）举行。在夜空中快速射击，星星矿等被发射，你可以一边享受见沼的大自然，一边欣赏烟花。埼玉市烟花节在大宫地区（小和田公园）和岩崎地区（岩崎文化公园）举行。※发射数：去年2500发观众数：去年5万人次",
+  "description": "埼玉市烟火大会之一，在浦和地区（东浦和大间木公园）举行。在夜晚空中快速射击，星矿等被发射，你可以一边享受见沼的大自然，一边欣赏烟花。埼玉市烟花节在大宫地区（小和田公园）和岩崎地区（岩崎文化公园）举行。※发送数：去年2500发观众数：去年5万人次",
   "activityType": "hanabi",
   "themeColor": "red",
   "status": "scheduled",

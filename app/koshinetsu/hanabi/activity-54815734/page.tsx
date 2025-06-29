@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.ucci.or.jp/info/news/shinsyuuedadaihanabitaikai2025/",
   googleMap: "https://maps.google.com/maps?q=36.390707,138.252438&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "koshinetsu",
-  description: "信州上田の夏を彩る大花火大会が、千曲川河川敷で開催されます。2025年で第38回を迎え、創作花火、ワイドスターマイン、ミュージックスターマインを中心に、5号玉など約8000発の花火が打ち上げられます。見通しの良い河川敷にて、目の前に打ち上げられる迫力の花火を楽しむことができます。 ※打ち上げ数：昨年度8000発 観客数：昨年度8万人",
+  description: "为信州上田的夏天增色的大型烟花节将在千曲川河岸举行。2025年迎来第38回，以创作烟火、Wide Star Mine、Music Star Mine为中心，5号球等约8000发烟火将被施放。在风景优美的河岸上，你可以欣赏到在你眼前燃放的壮观烟花。※发射数：去年8000发观众数：去年80，000人",
   themeColor: "red",
   status: "scheduled",
   media: [

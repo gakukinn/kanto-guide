@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.kashiwa-cci.or.jp/other-organizations/kashiwamaturi",
   googleMap: "https://maps.google.com/maps?q=35.862268,139.971588&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "chiba",
-  description: "夏の柏市の一大イベント「柏まつり」が、柏駅東西中心街で華々しく開催されます。東口駅前ステージ、西口駅前広場でそれぞれ行われるオープニングセレモニーを皮切りに、オープニングパレード、ステージイベントなどが繰り広げられます。4基のみこしが練り歩く、みこしパレードも必見です。",
+  description: "今年夏天，柏市的一项大型活动“柏花节”在柏花站东西中心街举行，非常壮观。从东口站舞台和西口站广场分别举行的开幕式开始，开幕式和舞台活动将举行。有4个神轿游行，神轿游行也是必看的。",
   themeColor: "red",
   status: "scheduled",
   media: [

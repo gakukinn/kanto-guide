@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.hasedera.jp/",
   googleMap: "https://maps.google.com/maps?q=35.312492,139.533171&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kanagawa",
-  description: "長谷寺（長谷観音）のアジサイの開催期間：2025年5月下旬～7月上旬。じゃらんnetでは長谷寺（長谷観音）のアジサイへの口コミや投稿写真をご紹介。長谷寺（長谷観音）のアジサイへのアクセス情報や混雑状況などもご確認頂けます。長谷寺（長谷観音）のアジサイ周辺のホテル/観光スポット/ご当地グルメ/イベント情報も充実。",
+  description: "长谷寺（长谷观音）紫阳花举办期间：2025年5月下旬~7月上旬。在Jalannet上，你可以看到对Hase-ji寺绣球花的评论和张贴的照片。你也可以在这里找到通往Hase-ji寺（Hase-Kannon）绣球花的信息，以及拥挤的情况。酒店/旅游景点/当地美食/活动信息都在Hase-ji寺（Hase-Kannon）附近。",
   themeColor: "red",
   status: "scheduled",
   media: [

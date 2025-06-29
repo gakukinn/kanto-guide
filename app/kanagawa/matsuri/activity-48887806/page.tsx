@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.chigasaki-cci.or.jp/hamaori/",
   googleMap: "https://maps.google.com/maps?q=35.316378,139.396249&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kanagawa",
-  description: "西浜海岸（サザンビーチ西側）で海の日に、39基の神輿が練り渡る「茅ヶ崎海岸浜降祭」が開催されます。夜明けとともに、茅ヶ崎市と寒川町の各神社から神輿が集まり、「どっこい、どっこい」という相州神輿独特の掛け声も勇ましく、海岸で禊（みそぎ）が行われます。神奈川県の無形民俗文化財に指定されています。",
+  description: "在西滨海岸（南部海滩西侧）的海之日，会举办39座神轿横跨的“茅崎海岸滨降祭”。黎明时分，来自茅崎市和Samukawa镇的神庙的神道教神庙聚集在一起，“好吧，好吧!”的Shoshu神道教独特的口号也很响亮，在海滩上举行了一次mosogi（净化）活动。它已被指定为香川县的非物质民间文化财产。",
   themeColor: "red",
   status: "scheduled",
   media: [

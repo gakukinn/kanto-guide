@@ -13,7 +13,7 @@ const activityData = {
   "website": "http://www.chiba-kamogawa.jp",
   "googleMap": "https://maps.google.com/maps?q=35.10543,140.107426&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "chiba",
-  "description": "为了让孩子们愉快地度过鸭川的夏天，怀着希望能让能引以为豪鸭川的孩子多一个，举行了“鸭川市民烟花大会”。尺玉等发射的烟花约3000发，点亮了鸭川的夜空。被选为“日本的渚100选”之一的前原·横渚海岸沿岸的任何地方都可以看到烟火。从JR安福鸭川站步行5分钟，交通也很方便。* 发射次数：3000次，观众人数：30，000人",
+  "description": "为了让孩子们愉快地度过鸭川的夏天，怀着希望能让能引以为豪鸭川的孩子多一个，举行了“鸭川市民烟花大会”。尺玉等发射的烟花约3000发，点亮了鸭川的夜空。被选择为“日本的渚100选”之一的前原·横渚海岸沿岸的任何地方都可以看到烟花。从JR安福鸭川站步行5分钟，交通也很便利。*发射次数：3000次，观众人数：30，000人",
   "activityType": "hanabi",
   "themeColor": "red",
   "status": "scheduled",

@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://mitokoumon.com/event/summer/mitokairakuenhanabi/",
   googleMap: "https://maps.google.com/maps?q=36.371896,140.460808&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kitakanto",
-  description: "夏の水戸の夜空を彩る「水戸偕楽園花火大会」が、千波湖畔で開催されます。スターマインやミュージックスターマイン、尺玉、創作花火など、内閣総理大臣賞最多受賞の野村花火工業プロデュースによる趣向を凝らした約5000発の花火が打ち上げられ、千波湖面が美しく照らされます。千波湖の北側園路からの観覧がおすすめです。 ※打ち上げ数：昨年度5000発 観客数：昨年度23万人",
+  description: "为夏季水户夜空上色的“水户凯乐园烟火大会”，在千波湖畔举行。STARMINE、MUSIC STARMINE、尺玉、创作烟火等，内阁总理大臣奖最多获奖的野村烟火工业制作的约5000发烟火被施放，千波湖面被美丽地照亮。我们推荐您从千波湖北园路观赏。※发射数量：去年5000发观众数：去年23万人",
   themeColor: "red",
   status: "scheduled",
   media: [

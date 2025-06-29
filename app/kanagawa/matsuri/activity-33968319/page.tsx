@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "http://www.tanabata-hiratsuka.com/",
   googleMap: "https://maps.google.com/maps?q=35.327136,139.349616&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kanagawa",
-  description: "湘南に夏の訪れを告げる日本有数の「七夕まつり」が、JR平塚駅近辺を会場に開催されます。メイン会場である「湘南スターモール」や「紅谷パールロード」が、絢爛豪華な大型飾りで華やかに彩られます。",
+  description: "在JR平冢站附近举行的日本屈指可数的“七夕祭”，宣告湘南夏天的到来。主会场“湘南星光购物中心”和“红谷珍珠路”，将以绚烂豪华的大型装饰装饰华丽地装饰。",
   themeColor: "red",
   status: "scheduled",
   media: [

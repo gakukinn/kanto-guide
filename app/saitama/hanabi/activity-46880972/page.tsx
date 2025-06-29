@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.oideyo-kumagaya.com/",
   googleMap: "https://maps.google.com/maps?q=36.136385,139.380707&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "saitama",
-  description: "尺玉やスターマインなどの花火が夜空を彩る恒例の花火大会が、熊谷の荒川河川敷で行われます。昭和23年（1948年）、戦災からの立ち直りを願って「大熊谷復興花火大会」として開催されたのが始まりで、県内でも歴史ある花火大会として知られます。尺玉など約1万発が打ち上げられ、メッセージ花火や、複数の協賛者による「スクマム！ワイドスターマイン」なども見どころです。 ※打ち上げ数：昨年度1万発 観客数：昨年度42万人",
+  description: "在熊谷的荒川河边举行了一年一度的烟花节，其中包括Shakugama和Star Mine等烟花，照亮了夜空。昭和23年（1948年），为了从战灾中恢复，以“大熊谷复兴烟火大会”的形式开始举办，在县内也作为历史悠久的烟火大会而知名。尺玉等约1万发被发射，信息烟花和复数的赞助者的“斯库玛姆! Wide Star Mine”等也是看点。※发射数：去年1万发观众数：去年42万人",
   themeColor: "red",
   status: "scheduled",
   media: [

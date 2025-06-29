@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://fujisan.ne.jp/pages/380/",
   googleMap: "https://maps.google.com/maps?q=35.523073,138.745577&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "koshinetsu",
-  description: "世界遺産富士山をバックに、河口湖畔にラベンダーが咲く季節に、「河口湖ハーブフェスティバル」が開催されます。大石公園から望む富士山と河口湖、紫のじゅうたんを敷き詰めたかのような一面のラベンダーは、美しいコントラストを醸し、SNS映えする写真撮影を楽しむ人々で賑わいます。八木崎公園でもラベンダーを観賞することができます。",
+  description: "以世界遗产富士山为背景，在河口湖沿岸的盛开的季节，举行“川口草药节”。从大石公园望去富士山和川口湖，一片，就像铺上了紫色地毯一样，形成了美丽的对比，挤满了喜欢拍照的人，可以在SNS上拍照。你也可以在Yakizaki公园欣赏。",
   themeColor: "red",
   status: "scheduled",
   media: [

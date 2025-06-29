@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.abikokappa.website/",
   googleMap: "https://maps.google.com/maps?q=35.865514,140.014571&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "chiba",
-  description: "我孫子のシンボル的なお祭りとして、“カッパ”をテーマとした「あびこカッパまつり」が、手賀沼公園で開催されます。子どもから若者、高齢者まであらゆる世代が参加し、河童音頭大行進をはじめ、仮装カッパコンテスト、カッパダンスが行われます。ステージイベントが催されるほか、竹宵なども楽しめます。",
+  description: "作为我孙子的象征性祭典，以“河童”为主题的“绫子河童祭”，在手贺沼公园举行。从儿童到青年和老年人的所有年龄段的人都参加了Kappa Ondo游行、Kappa服装比赛和Kappa舞蹈。除了举办舞台活动外，还可以享受竹宵等乐趣。",
   themeColor: "red",
   status: "scheduled",
   media: [

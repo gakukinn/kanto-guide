@@ -13,7 +13,7 @@ const activityData = {
   "website": "https://www.ucci.or.jp/info/news/shinsyuuedadaihanabitaikai2025/",
   "googleMap": "https://maps.google.com/maps?q=36.390707,138.252438&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "koshinetsu",
-  "description": "为信州上田的夏天增色的大型烟花节将在千曲川河岸举行。2025年迎来第38回，以创作烟火、Wide Star Mine、Music Star Mine为中心，5号球等约8000发烟火将被施放。在风景优美的河岸上，你可以欣赏到在你眼前燃放的壮观烟花。※发射数：去年8000发观众数：去年80，000人",
+  "description": "为信州上田的夏天上色的大型烟花节将在千曲川河岸举行。2025年迎来第38回，以创作烟火、Wide Star Mine、Music Star Mine为中心，5号球等约8000发烟火将被施放。在景色优美的河岸上，你可以欣赏到在你眼前燃烧的壮观烟花。※发射数：去年8000发观众数：去年80，000人",
   "activityType": "hanabi",
   "themeColor": "red",
   "status": "scheduled",

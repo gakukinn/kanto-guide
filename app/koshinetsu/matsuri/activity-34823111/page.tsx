@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://visitmatsumoto.com/",
   googleMap: "https://maps.google.com/maps?q=36.238676,137.968866&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "koshinetsu",
-  description: "国宝松本城を舞台に「国宝松本城太鼓まつり」が、2日間にわたり開催されます。松本城公園内二の丸御殿跡メインステージでは、全国各地から集まった出演団体による、熱気あふれる力と技で生み出された大迫力の太鼓演奏が披露されます。両日行われるプロゲストと参加団体による、合同演奏のフィナーレは圧巻です。",
+  description: "“国宝松本城太鼓节”将以国宝松本城为舞台，为期两天。在松本城堡公园内的二之丸御殿遗址主舞台上，来自全国各地的表演团体将表演充满热情的力量和技巧所创造的令人震撼的太极表演。这两天由专业嘉宾和参与团体共同表演的最后一场演出是令人叹为观止的。",
   themeColor: "red",
   status: "scheduled",
   media: [

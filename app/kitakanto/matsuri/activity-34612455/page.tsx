@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://maebashi-tanabata.jp/",
   googleMap: "https://maps.google.com/maps?q=36.388833,139.072396&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kitakanto",
-  description: "昭和26年（1951年）に始まった「前橋七夕まつり」が、中心市街地で開催されます。今年も前橋市の中心市街地で開催されます。市内中心部および周辺商店街などに七夕飾りが飾られるほか、中央イベント広場には七夕願い事短冊飾りが飾られ、七夕の雰囲気が演出されます。",
+  description: "从昭和26年（1951年）开始举办的“前桥七夕祭”，在市中心市中心举办。今年也将在前桥市的中心市中心举行。除了在市中心部及周边商店街等地装饰著七夕装饰外，中央活动广场上还装饰著七夕愿事短册装饰，展现七夕的氛围。",
   themeColor: "red",
   status: "scheduled",
   media: [

@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://visitsaitamacity.jp/events/29",
   googleMap: "https://maps.google.com/maps?q=35.864478,139.710207&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "saitama",
-  description: "さいたま市花火大会のひとつが、浦和地区（東浦和大間木公園）で開催されます。夜空に早打ち、スターマインなどが打ち上げられ、見沼の大自然を満喫しながら、花火を堪能することができます。さいたま市花火大会は、大宮地区（大和田公園）、岩槻地区（岩槻文化公園）でも催されます。 ※打ち上げ数：昨年度2500発 観客数：昨年度5万人",
+  description: "埼玉市烟火大会之一，在浦和地区（东浦和大间木公园）举行。在夜空中快速射击，星星矿等被发射，你可以一边享受见沼的大自然，一边欣赏烟花。埼玉市烟花节在大宫地区（小和田公园）和岩崎地区（岩崎文化公园）举行。※发射数：去年2500发观众数：去年5万人次",
   themeColor: "red",
   status: "scheduled",
   media: [

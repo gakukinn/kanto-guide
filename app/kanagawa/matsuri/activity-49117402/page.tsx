@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.hachimangu.or.jp/matsuri/index.html#tabpanel8",
   googleMap: "https://maps.google.com/maps?q=35.32592,139.556253&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kanagawa",
-  description: "鎌倉の夏の風物詩「ぼんぼり祭」が鶴岡八幡宮で開催されます。鎌倉近在の文化人をはじめ、各界の著名人が揮毫した書画約400点が、ぼんぼりに仕立てられ、参道、流鏑馬馬場、舞殿周りに並びます。夕刻になるとぼんぼりに灯りが点されます。",
+  description: "玉仓的夏季风物诗“宝登祭”在鹤冈八幡宫举行。以镰仓附近的文化人士为首，各界著名人士挥毫的约400幅书画，被制作成灯笼，排列在参道、流布马马场、舞殿周围。到了晚上，灯光就会亮起。",
   themeColor: "red",
   status: "scheduled",
   media: [

@@ -13,7 +13,7 @@ const activityData = {
   "website": "https://sagamiharahanabi.com",
   "googleMap": "https://maps.google.com/maps?q=35.542701,139.329083&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "kanagawa",
-  "description": "被众多人喜爱的相模原市的夏季风物诗“相模原纳凉烟火大会”，在高田桥上游举行。星光和音乐烟花等各种烟花点缀着夜空，展现出令人难忘的景象。在发射地点和观众席附近，可以欣赏到有震撼力的烟花，这也是很受欢迎的地方之一。舞台活动也在筹划之中。* 发射次数：8，000次，观众人数：50，000人",
+  "description": "被众多人喜爱的相模原市的夏季风物诗“相模原纳凉烟花大会”，在高田桥上游览举行。星光和音乐烟花等各种烟花点缀着夜空，展现出令人难忘的景象。在发射地点和观众席附近，可以欣赏到有震撼力的烟花，这也是很受欢迎的地方之一。舞台活动也在策划中。*发射次数：8，000次，观众人数：50，000人",
   "activityType": "hanabi",
   "themeColor": "red",
   "status": "scheduled",

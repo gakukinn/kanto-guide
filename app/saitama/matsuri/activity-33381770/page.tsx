@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.honjo-kanko.jp/event/honjogionmatsuri.html",
   googleMap: "https://maps.google.com/maps?q=36.240437,139.186066&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "saitama",
-  description: "疫病を追い払うため、獅子舞を奉納し、みこしを担いだのが「本庄祇園まつり」の始まりとされます。八坂神社の境内で、無病息災や五穀豊穣などを祈念し、埼玉県の無形民俗文化財に指定されている獅子舞が奉納されます。「セイヤ、セイヤ」の威勢のよいかけ声とともに、旧中山道を大人みこしや子どもみこしが巡行し、大勢の観客で賑わいます。木遣り、纏（まとい）振り、梯子乗りなども披露されます。",
+  description: "为了驱除瘟疫，人们献上了舞狮舞，背上了神轿，这被认为是“本庄祇园祭”的开始。在靖国神社内，人们将供奉被指定为埼玉县非物质民间文化财产的狮子舞，以祈祷无病无灾、丰收等。伴随着“Sayya，Sayya”的气势，大人和小孩的轿车在旧中山路巡游，吸引了大批观众。还将展示木工、摇摆、乘梯子等。",
   themeColor: "red",
   status: "scheduled",
   media: [

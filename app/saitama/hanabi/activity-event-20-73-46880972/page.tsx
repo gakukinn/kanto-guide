@@ -13,7 +13,7 @@ const activityData = {
   "website": "https://www.oideyo-kumagaya.com/",
   "googleMap": "https://maps.google.com/maps?q=36.136385,139.380707&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "saitama",
-  "description": "在熊谷的荒川河边举行了一年一度的烟花节，其中包括Shakugama和Star Mine等烟花，照亮了夜空。昭和23年（1948年），为了从战灾中恢复，以“大熊谷复兴烟火大会”的形式开始举办，在县内也作为历史悠久的烟火大会而知名。尺玉等约1万发被发射，信息烟花和复数的赞助者的“斯库玛姆! Wide Star Mine”等也是看点。※发射数：去年1万发观众数：去年42万人",
+  "description": "在熊谷的荒川河边举行了一年一次的烟花节，其中包括Shakugama和Star Mine等烟花，照亮了夜空。昭和23年（1948年），为了从战祸中恢复，以“大熊谷复兴烟火大会”的形式开始举办，在县内也作为历史悠久的烟火大会而闻名。尺玉等约1万发被发射，信息烟花和复数的称赞者的“斯库玛姆! Wide Star Mine”等也是观点。※发射数：去年1万发观众数：去年42万人",
   "activityType": "hanabi",
   "themeColor": "red",
   "status": "scheduled",

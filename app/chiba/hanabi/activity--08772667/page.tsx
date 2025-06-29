@@ -19,7 +19,7 @@ const activityData = {
   "website": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/index.html",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=37.375582,138.546519&center=37.375582,138.546519",
   "media": [],
-  "description": "新潟県柏崎市の夏を代表する一大花火イベント。川の長岡、山の片貝、海の柏崎と、越後三大花火の一つに数えられている。新型コロナウイルスのまん延により2年連続で中止になっていたが、2022年に3年ぶりに開催された。2025年も、1万6000発の花火が柏崎の夜空に打ちあがる。",
+  "description": "代表新泻县柏崎市夏天的大型烟花活动。被称为河的长冈、山的片贝、海的柏崎和越后三大烟花之一。由于新型冠状病毒的蔓延，连续2年被中止，但在2022年时隔3年再次举办。2025年，16，000发烟花将在柏崎的夜空中燃放。",
   "highlights": "",
   "id": "1751108772668",
   "region": "chiba",

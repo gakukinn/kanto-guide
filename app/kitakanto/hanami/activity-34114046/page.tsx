@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.city.mito.lg.jp/site/kankouinfo/94415.html",
   googleMap: "https://maps.google.com/maps?q=36.391576,140.455102&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kitakanto",
-  description: "保和苑のあじさいの見頃に合わせ、「水戸のあじさいまつり」が開催されます。水戸市街北西部の保和苑を中心とした「水戸のロマンチックゾーン」を会場に、さまざまな催しが行われます。日本式庭園の保和苑内（1.5ha）では、青や白色の西洋アジサイやガクアジサイなど、約100品種6000株が色鮮やかに咲き誇り、来苑者を出迎えます。",
+  description: "为了配合Howaen绣球花的最佳观赏季节，举办了“Mito绣球节”。在以Mito市西北部的Howa-en为中心的Mito浪漫区举行的各种活动都将举行。在日本式庭园的保和苑内（1.5 ha），蓝色和白色的西洋八仙花和阁八仙花等，约100个品种6000株色彩鲜艳地盛开，迎接来苑者。",
   themeColor: "red",
   status: "scheduled",
   media: [

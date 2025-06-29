@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.hondoji.net/",
   googleMap: "https://maps.google.com/maps?q=35.839946,139.928461&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "chiba",
-  description: "本土寺のアジサイの開催期間：2025年6月上旬～7月上旬。じゃらんnetでは本土寺のアジサイへの口コミや投稿写真をご紹介。本土寺のアジサイへのアクセス情報や混雑状況などもご確認頂けます。本土寺のアジサイ周辺のホテル/観光スポット/ご当地グルメ/イベント情報も充実。",
+  description: "本土寺紫阳花举办时间：2025年6月上旬~7月上旬。在Jalannet上，我们介绍了对大岛寺绣球花的评论和投稿照片。你也可以在这里找到通往大岛寺绣球花的信息和拥挤的情况。酒店/观光景点/当地美食/活动信息都很丰富。大岛寺绣球周围的绣球花。",
   themeColor: "red",
   status: "scheduled",
   media: [

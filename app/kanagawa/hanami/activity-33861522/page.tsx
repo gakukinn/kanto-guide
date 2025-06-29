@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "",
   googleMap: "https://maps.google.com/maps?q=35.334897,139.551438&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kanagawa",
-  description: "明月院のアジサイの開催期間：2025年6月上旬～下旬。じゃらんnetでは明月院のアジサイへの口コミや投稿写真をご紹介。明月院のアジサイへのアクセス情報や混雑状況などもご確認頂けます。明月院のアジサイ周辺のホテル/観光スポット/ご当地グルメ/イベント情報も充実。",
+  description: "明月院八仙花举办期间：2025年6月上旬~下旬。在Jalannet，我们介绍了关于明月院绣球花的评论和投稿照片。你也可以在这里找到通往明治寺绣球花的信息，以及拥挤的情况。酒店/观光景点/当地美食/活动信息也很丰富。",
   themeColor: "red",
   status: "scheduled",
   media: [

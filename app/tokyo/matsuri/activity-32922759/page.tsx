@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "http://www.shinbashi.net/top/koichi/2025/",
   googleMap: "https://maps.google.com/maps?q=35.667108,139.757624&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "tokyo",
-  description: "新橋地区の有志により始められた「新橋こいち祭」が、JR新橋駅前SL広場をはじめ、桜田公園などで開催されます。桜田公園で盆踊りや「ゆかた美人コンテスト」が行われるほか、烏森通りで縁日などが催されます。会場周辺には屋台も多数出店し、2日間にわたり大勢の人で賑わいます。",
+  description: "由新桥地区志愿者发起的“新桥小一节”将在JR新桥站前SL广场、樱田公园等地举行。除了在樱田公园举行盂兰盆舞和“浴衣选美比赛”外，还将在乌森多里举行节庆活动。会场周围也有许多摊位，在两天的时间里，这里挤满了很多人。",
   themeColor: "red",
   status: "scheduled",
   media: [
