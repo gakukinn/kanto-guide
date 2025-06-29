@@ -15,7 +15,7 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 4. 开催场所: 神奈川県小田原市　酒匂川スポーツ広場
  * 5. 交通方式: ＪＲ東海道本線「鴨宮駅」から徒歩15分
  * 6. 主办方: 一般社団法人小田原市観光協会
- * 7. 料金: 有料観覧席あり　1人3500円～（全7タイプ販売）
+ * 7. 料金: 有料観覧席有　1人3500円～（全7タイプ販売）
  * 8. 联系方式: 一般社団法人小田原市観光協会　0465-20-4192
  * 9. 官方网站: https://www.odawara-kankou.com/
  * 10. 谷歌地图: 35.266076,139.174371
@@ -32,7 +32,7 @@ const DetailPage = () => {
   venue: "神奈川県小田原市　酒匂川スポーツ広場",
   access: "ＪＲ東海道本線「鴨宮駅」から徒歩15分",
   organizer: "一般社団法人小田原市観光協会",
-  price: "有料観覧席あり　1人3500円～（全7タイプ販売）",
+  price: "有料観覧席有　1人3500円～（全7タイプ販売）",
   contact: "一般社団法人小田原市観光協会　0465-20-4192",
   website: "https://www.odawara-kankou.com/",
   googleMap: "https://maps.google.com/maps?q=35.266076,139.174371&t=&z=15&ie=UTF8&iwloc=&output=embed",

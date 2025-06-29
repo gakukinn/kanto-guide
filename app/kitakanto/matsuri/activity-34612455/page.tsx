@@ -9,14 +9,14 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 静态渲染: 无客户端JavaScript
  * 
  * 十一项核心数据:
- * 1. 名称: 前橋七夕まつり（まえばしたなばたまつり）
+ * 1. 名称: 前橋七夕祭典（まえばしたなばた祭典）
  * 2. 所在地: 〒371-0022　群馬県前橋市千代田町
  * 3. 开催期间: 2025年7月11日～13日　 10:00～21:30
  * 4. 开催场所: 前橋市　前橋市中心市街地
- * 5. 交通方式: ＪＲ「前橋駅」から徒歩10分、または関越自動車道「前橋IC」から車約10分
- * 6. 主办方: 前橋七夕まつり実施委員会
+ * 5. 交通方式: ＪＲ「前橋駅」から徒歩10分、或関越自動車道「前橋IC」から車約10分
+ * 6. 主办方: 前橋七夕祭典実施委員会
  * 7. 料金: 未设置
- * 8. 联系方式: 前橋七夕まつり実施委員会事務局（前橋市まちづくり公社内）　027-289-5565
+ * 8. 联系方式: 前橋七夕祭典実施委員会事務局（前橋市まちづくり公社内）　027-289-5565
  * 9. 官方网站: https://maebashi-tanabata.jp/
  * 10. 谷歌地图: 36.388833,139.072396
  * 11. 地区: kitakanto
@@ -26,14 +26,14 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-matsuri-1750934612455",
-  name: "前橋七夕まつり（まえばしたなばたまつり）",
+  name: "前橋七夕祭典（まえばしたなばた祭典）",
   address: "〒371-0022　群馬県前橋市千代田町",
   datetime: "2025年7月11日～13日　 10:00～21:30",
   venue: "前橋市　前橋市中心市街地",
-  access: "ＪＲ「前橋駅」から徒歩10分、または関越自動車道「前橋IC」から車約10分",
-  organizer: "前橋七夕まつり実施委員会",
+  access: "ＪＲ「前橋駅」から徒歩10分、或関越自動車道「前橋IC」から車約10分",
+  organizer: "前橋七夕祭典実施委員会",
   price: "",
-  contact: "前橋七夕まつり実施委員会事務局（前橋市まちづくり公社内）　027-289-5565",
+  contact: "前橋七夕祭典実施委員会事務局（前橋市まちづくり公社内）　027-289-5565",
   website: "https://maebashi-tanabata.jp/",
   googleMap: "https://maps.google.com/maps?q=36.388833,139.072396&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kitakanto",
@@ -44,8 +44,8 @@ const DetailPage = () => {
     {
       type: "image" as const,
       url: "https://www.maebashi-cvb.com/image/rendering/attraction_image/789/keep/1200?v=b41fd6641c9447dddbaa2a818643dbb9786976b0",
-      title: "前橋七夕まつり（まえばしたなばたまつり）图片1",
-      alt: "前橋七夕まつり（まえばしたなばたまつり）图片1",
+      title: "前橋七夕祭典（まえばしたなばた祭典）图片1",
+      alt: "前橋七夕祭典（まえばしたなばた祭典）图片1",
       caption: ""
     }
   ]

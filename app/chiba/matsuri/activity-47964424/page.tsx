@@ -9,14 +9,14 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 静态渲染: 无客户端JavaScript
  * 
  * 十一项核心数据:
- * 1. 名称: 柏まつり（かしわまつり）
+ * 1. 名称: 柏祭典（かしわ祭典）
  * 2. 所在地: 〒277-0005　千葉県柏市柏
  * 3. 开催期间: 2025年7月26日～27日　 15:00～21:00
  * 4. 开催场所: 千葉県柏市　柏駅東西中心街
  * 5. 交通方式: ＪＲ常磐線「柏駅」下車
- * 6. 主办方: 柏まつり実行委員会
+ * 6. 主办方: 柏祭典実行委員会
  * 7. 料金: 未设置
- * 8. 联系方式: 柏まつり実行委員会（柏商工会議所内）　04-7162-3315
+ * 8. 联系方式: 柏祭典実行委員会（柏商工会議所内）　04-7162-3315
  * 9. 官方网站: https://www.kashiwa-cci.or.jp/other-organizations/kashiwamaturi
  * 10. 谷歌地图: 35.862268,139.971588
  * 11. 地区: chiba
@@ -26,14 +26,14 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-matsuri-1750947964424",
-  name: "柏まつり（かしわまつり）",
+  name: "柏祭典（かしわ祭典）",
   address: "〒277-0005　千葉県柏市柏",
   datetime: "2025年7月26日～27日　 15:00～21:00",
   venue: "千葉県柏市　柏駅東西中心街",
   access: "ＪＲ常磐線「柏駅」下車",
-  organizer: "柏まつり実行委員会",
+  organizer: "柏祭典実行委員会",
   price: "",
-  contact: "柏まつり実行委員会（柏商工会議所内）　04-7162-3315",
+  contact: "柏祭典実行委員会（柏商工会議所内）　04-7162-3315",
   website: "https://www.kashiwa-cci.or.jp/other-organizations/kashiwamaturi",
   googleMap: "https://maps.google.com/maps?q=35.862268,139.971588&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "chiba",
@@ -44,8 +44,8 @@ const DetailPage = () => {
     {
       type: "image" as const,
       url: "https://image.omatsurijapan.com/articleimg/2022/01/34b9a64a-img_7661_original-1200x900.jpg",
-      title: "柏まつり（かしわまつり）图片1",
-      alt: "柏まつり（かしわまつり）图片1",
+      title: "柏祭典（かしわ祭典）图片1",
+      alt: "柏祭典（かしわ祭典）图片1",
       caption: ""
     }
   ]

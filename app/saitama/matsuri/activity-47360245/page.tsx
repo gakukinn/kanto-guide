@@ -9,7 +9,7 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 静态渲染: 无客户端JavaScript
  * 
  * 十一项核心数据:
- * 1. 名称: 熊谷うちわ祭（くまがやうちわまつり）
+ * 1. 名称: 熊谷うちわ祭（くまがやうちわ祭典）
  * 2. 所在地: 〒360-0046　埼玉県熊谷市
  * 3. 开催期间: 2025年7月20日～22日　 ※開催日により異なる
  * 4. 开催场所: 埼玉県熊谷市　お祭り広場　ほか
@@ -26,7 +26,7 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-matsuri-1750947360245",
-  name: "熊谷うちわ祭（くまがやうちわまつり）",
+  name: "熊谷うちわ祭（くまがやうちわ祭典）",
   address: "〒360-0046　埼玉県熊谷市",
   datetime: "2025年7月20日～22日　 ※開催日により異なる",
   venue: "埼玉県熊谷市　お祭り広場　ほか",
@@ -44,8 +44,8 @@ const DetailPage = () => {
     {
       type: "image" as const,
       url: "https://images.keizai.biz/kumagaya_keizai/headline/1689683229_photo.jpg",
-      title: "熊谷うちわ祭（くまがやうちわまつり）图片1",
-      alt: "熊谷うちわ祭（くまがやうちわまつり）图片1",
+      title: "熊谷うちわ祭（くまがやうちわ祭典）图片1",
+      alt: "熊谷うちわ祭（くまがやうちわ祭典）图片1",
       caption: ""
     }
   ]

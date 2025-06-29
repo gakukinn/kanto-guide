@@ -4,10 +4,10 @@ const activityData = {
   "id": "recognition-hanabi-1750949980422",
   "name": "Mito Yomon Matsuri Mito Kairakuen烟花节（Mito Yomon Matsuri Mito Karakuen hataka）",
   "address": "〒310-0851　茨城県水戸市千波町",
-  "datetime": "2025年7月26日　 打ち上げ/19:30～20:30　※荒天時は翌日に順延",
+  "datetime": "2025年7月26日　 打燃放げ/19:30～20:30　※荒天時は翌日に順延",
   "venue": "水戸市　千波湖畔",
   "access": "从JR“水户站”步行15分钟，或从常磐自动车道“水户IC”开车约20分钟",
-  "organizer": "水戸黄門まつり実行委員会",
+  "organizer": "水戸黄門祭典実行委員会",
   "price": "有收费观众席※详情请在网站确认",
   "contact": "水户市观光课029-232-9189、水户观光会议协会029-224-0441",
   "website": "https://mitokoumon.com/event/summer/mitokairakuenhanabi/",
@@ -21,8 +21,8 @@ const activityData = {
     {
       "type": "image",
       "url": "https://cdn.midjourney.com/5dc66e40-2206-41b9-9550-0dcbfd33e650/0_3.png",
-      "title": "水戸黄門まつり　水戸偕楽園花火大会（みとこうもんまつり　みとかいらくえんはなびたいかい）图片1",
-      "alt": "水戸黄門まつり　水戸偕楽園花火大会（みとこうもんまつり　みとかいらくえんはなびたいかい）图片1",
+      "title": "水戸黄門祭典　水戸偕楽園花火大会（みとこうもん祭典　みとかいらくえんはなびたいかい）图片1",
+      "alt": "水戸黄門祭典　水戸偕楽園花火大会（みとこうもん祭典　みとかいらくえんはなびたいかい）图片1",
       "caption": ""
     }
   ],
@@ -46,7 +46,7 @@ export default function DetailPage() {
 
 export async function generateMetadata() {
   return {
-    title: '水戸黄門まつり　水戸偕楽園花火大会（みとこうもんまつり　みとかいらくえんはなびたいかい） - 北关东花火大会',
-    description: '夏の水戸の夜空を彩る「水戸偕楽園花火大会」が、千波湖畔で開催されます。スターマインやミュージックスターマイン、尺玉、創作花火など、内閣総理大臣賞最多受賞の野村花火工業プロデュースによる趣向を凝らした約...',
+    title: '水戸黄門祭典　水戸偕楽園花火大会（みとこうもん祭典　みとかいらくえんはなびたいかい） - 北关东花火大会',
+    description: '夏の水戸の装点夜空「水戸偕楽園花火大会」が、千波湖畔で開催举行。スターマインやミュージックスターマイン、尺玉、創作花火など、内閣総理大臣賞最多受賞の野村花火工業プロデュースによる趣向を凝らした約...',
   };
 }

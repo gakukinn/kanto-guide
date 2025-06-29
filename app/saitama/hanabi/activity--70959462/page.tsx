@@ -8,7 +8,7 @@ import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanab
 const pageData = {
   "name": "熊谷花火大会",
   "fireworksCount": "約1万発",
-  "fireworksTime": "120分(変更になる場合あり)",
+  "fireworksTime": "120分(変更になる場合有)",
   "expectedVisitors": "約42万人",
   "date": "2025年8月9日(土)",
   "time": "下午7：00至21：00（预定）",

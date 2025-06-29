@@ -9,14 +9,14 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 静态渲染: 无客户端JavaScript
  * 
  * 十一项核心数据:
- * 1. 名称: 八王子まつり（はちおうじまつり）
+ * 1. 名称: 八王子祭典（はちおうじ祭典）
  * 2. 所在地: 〒192-0063　東京都八王子市横山町から追分町
  * 3. 开催期间: 2025年8月1日～3日　 12:00～21:00
  * 4. 开催场所: 東京都八王子市　甲州街道および西放射線ユーロードとその周辺
- * 5. 交通方式: ＪＲ中央本線「八王子駅」北口から徒歩5分、またはＪＲ中央本線「西八王子駅」北口から徒歩10分、京王「京王八王子駅」から徒歩10分
- * 6. 主办方: 八王子まつり実行委員会
+ * 5. 交通方式: ＪＲ中央本線「八王子駅」北口から徒歩5分、或ＪＲ中央本線「西八王子駅」北口から徒歩10分、京王「京王八王子駅」から徒歩10分
+ * 6. 主办方: 八王子祭典実行委員会
  * 7. 料金: 未设置
- * 8. 联系方式: 八王子まつり実行委員会　042-686-0611　info@hachiojimatsuri.jp
+ * 8. 联系方式: 八王子祭典実行委員会　042-686-0611　info@hachiojimatsuri.jp
  * 9. 官方网站: https://www.hachiojimatsuri.jp/
  * 10. 谷歌地图: 35.659889,139.335772
  * 11. 地区: tokyo
@@ -26,14 +26,14 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-matsuri-1750945989308",
-  name: "八王子まつり（はちおうじまつり）",
+  name: "八王子祭典（はちおうじ祭典）",
   address: "〒192-0063　東京都八王子市横山町から追分町",
   datetime: "2025年8月1日～3日　 12:00～21:00",
   venue: "東京都八王子市　甲州街道および西放射線ユーロードとその周辺",
-  access: "ＪＲ中央本線「八王子駅」北口から徒歩5分、またはＪＲ中央本線「西八王子駅」北口から徒歩10分、京王「京王八王子駅」から徒歩10分",
-  organizer: "八王子まつり実行委員会",
+  access: "ＪＲ中央本線「八王子駅」北口から徒歩5分、或ＪＲ中央本線「西八王子駅」北口から徒歩10分、京王「京王八王子駅」から徒歩10分",
+  organizer: "八王子祭典実行委員会",
   price: "",
-  contact: "八王子まつり実行委員会　042-686-0611　info@hachiojimatsuri.jp",
+  contact: "八王子祭典実行委員会　042-686-0611　info@hachiojimatsuri.jp",
   website: "https://www.hachiojimatsuri.jp/",
   googleMap: "https://maps.google.com/maps?q=35.659889,139.335772&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "tokyo",
@@ -44,8 +44,8 @@ const DetailPage = () => {
     {
       type: "image" as const,
       url: "https://www.townnews.co.jp/0305/images/a001231439_03.jpg",
-      title: "八王子まつり（はちおうじまつり）图片1",
-      alt: "八王子まつり（はちおうじまつり）图片1",
+      title: "八王子祭典（はちおうじ祭典）图片1",
+      alt: "八王子祭典（はちおうじ祭典）图片1",
       caption: ""
     }
   ]

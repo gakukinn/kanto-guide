@@ -9,7 +9,7 @@ const activityData = {
   "fireworksCount": "详见官网",
   "fireworksTime": "详见官网",
   "expectedVisitors": "详见官网",
-  "ticketPrice": "あり\n2025年4月28日に、有料観覧席の申し込みは終了",
+  "ticketPrice": "有\n2025年4月28日に、有料観覧席の申し込みは終了",
   "weatherInfo": "详见官网",
   "foodStalls": "详见官网",
   "parking": "详见官网",
@@ -39,7 +39,7 @@ export default function DetailPage() {
 
 export async function generateMetadata() {
   return {
-    title: 'ぎおん柏崎まつり 海の大花火大会 - 千叶花火大会',
+    title: 'ぎおん柏崎祭典 海の大花火大会 - 千叶花火大会',
     description: '新潟県柏崎市の夏を代表する一大花火イベント。川の長岡、山の片貝、海の柏崎と、越後三大花火の一つに数えられている。新型コロナウイルスのまん延により2年連続で中止になっていたが、2022年に3年ぶりに開催...',
   };
 }

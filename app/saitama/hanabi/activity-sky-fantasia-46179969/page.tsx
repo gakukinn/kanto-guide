@@ -47,6 +47,6 @@ export default function DetailPage() {
 export async function generateMetadata() {
   return {
     title: '戸田橋花火大会　Sky Fantasia（とだばしはなびたいかい　スカイファンタシア） - 埼玉花火大会',
-    description: '荒川の夜空を彩る「戸田橋花火大会 Sky Fantasia」が、今年も開催されます。対岸の「いたばし花火大会」とあわせて、スターマイン、音楽花火、尺玉など、首都圏最大級の約1万5000発が打ち上げられ...',
+    description: '荒川の装点夜空「戸田橋花火大会 Sky Fantasia」が、今年も開催举行。対岸の「いたばし花火大会」とあわせて、スターマイン、音楽花火、尺玉など、首都圏最大級の約1万5000発が打燃放げられ...',
   };
 }

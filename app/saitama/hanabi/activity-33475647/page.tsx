@@ -15,7 +15,7 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 4. 开催场所: 埼玉県越谷市　越谷市中央市民会館東側、葛西用水中土手
  * 5. 交通方式: 東武スカイツリーライン「越谷駅」から徒歩8分
  * 6. 主办方: 一般社団法人越谷市観光協会
- * 7. 料金: 有料観覧席なし
+ * 7. 料金: 无收费观览席
  * 8. 联系方式: 一般社団法人越谷市観光協会　048-971-9002
  * 9. 官方网站: https://www.koshigaya-sightseeing.jp/
  * 10. 谷歌地图: 35.889863,139.791746
@@ -32,7 +32,7 @@ const DetailPage = () => {
   venue: "埼玉県越谷市　越谷市中央市民会館東側、葛西用水中土手",
   access: "東武スカイツリーライン「越谷駅」から徒歩8分",
   organizer: "一般社団法人越谷市観光協会",
-  price: "有料観覧席なし",
+  price: "无收费观览席",
   contact: "一般社団法人越谷市観光協会　048-971-9002",
   website: "https://www.koshigaya-sightseeing.jp/",
   googleMap: "https://maps.google.com/maps?q=35.889863,139.791746&t=&z=15&ie=UTF8&iwloc=&output=embed",

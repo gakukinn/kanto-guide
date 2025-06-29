@@ -9,7 +9,7 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 静态渲染: 无客户端JavaScript
  * 
  * 十一项核心数据:
- * 1. 名称: 本土寺のアジサイ（ほんどじのアジサイ）
+ * 1. 名称: 本土寺的紫阳花（ほんどじ的紫阳花）
  * 2. 所在地: 〒270-0002　千葉県松戸市平賀63
  * 3. 开催期间: 2025年6月上旬～7月上旬　 9:00～16:30（最終受付16:00）
  * 4. 开催场所: 千葉県松戸市　本土寺
@@ -26,7 +26,7 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-hanami-1750933800811",
-  name: "本土寺のアジサイ（ほんどじのアジサイ）",
+  name: "本土寺的紫阳花（ほんどじ的紫阳花）",
   address: "〒270-0002　千葉県松戸市平賀63",
   datetime: "2025年6月上旬～7月上旬　 9:00～16:30（最終受付16:00）",
   venue: "千葉県松戸市　本土寺",
@@ -44,8 +44,8 @@ const DetailPage = () => {
     {
       type: "image" as const,
       url: "https://maruchiba.jp/lsc/upfile/spot/0001/0041/10041_1_l.jpg",
-      title: "本土寺のアジサイ（ほんどじのアジサイ）图片1",
-      alt: "本土寺のアジサイ（ほんどじのアジサイ）图片1",
+      title: "本土寺的紫阳花（ほんどじ的紫阳花）图片1",
+      alt: "本土寺的紫阳花（ほんどじ的紫阳花）图片1",
       caption: ""
     }
   ]

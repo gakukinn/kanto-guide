@@ -16,9 +16,9 @@ const activityData = {
   address: "JR・東武鉄道・秩父鉄道寄居駅南口",
   datetime: "2025年8月2日(土) 19:00～21:00",
   venue: "寄居町玉淀河原",
-  access: "【電車】JR・東武鉄道・秩父鉄道寄居駅南口から徒歩15分 【車】関越道花園ICから国道140号を秩父方面へ約15分 ※当日は会場周辺で交通規制ありMAP",
+  access: "【電車】JR・東武鉄道・秩父鉄道寄居駅南口から徒歩15分 【車】関越道花園ICから国道140号を秩父方面へ約15分 ※当日は会場周辺で交通規制有MAP",
   organizer: "",
-  price: "あり\n詳細は公式サイトで発表予定",
+  price: "有\n詳細は公式サイトで発表予定",
   contact: "048-581-2121 寄居玉淀水天宮祭実行委員会事務局(寄居町プロモーション戦略課)",
   website: "https://www.town.yorii.saitama.jp/soshiki/13/yoriitamayodosuitengusai.html",
   googleMap: "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.110851,139.194526&center=36.110851,139.194526",
@@ -53,5 +53,5 @@ export default function ActivityDetailPage() {
 
 export const metadata = {
   title: '寄居玉淀水天宮祭花火大会 - 日本活动指南',
-  description: '埼玉県の寄居町で開催され、1931年(昭和6年)から続く由緒ある花火大会。寄居玉淀水天宮祭は「関東一の水祭り」と呼ばれる水難除けなどを祈願して行われるお祭りで、付け祭りとして県指定名勝「玉淀」の河原で花火大会が開催される。花火の打ち上げは19時から行われ、スターマインや仕掛け花火など、趣向を凝らした花火が魅力だ。',
+  description: '埼玉県の寄居町で開催され、1931年(昭和6年)から続く由緒ある花火大会。寄居玉淀水天宮祭は「関東一の水祭り」と呼ばれる水難除けなどを祈願して举行お祭りで、付け祭りとして県指定名勝「玉淀」の河原で花火大会が举办。花火の打燃放げは19時から行われ、スターマインや仕掛け花火など、趣向を凝らした花火が魅力だ。',
 };

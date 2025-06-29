@@ -21,8 +21,8 @@ const activityData = {
     {
       "type": "image",
       "url": "https://www.city.moka.lg.jp/material/images/group/19/moka-no-natumaturi-dasiyatai-buttuke-1.jpg",
-      "title": "真岡の夏まつり　荒神祭（もおかのなつまつり　こうじんさい）图片1",
-      "alt": "真岡の夏まつり　荒神祭（もおかのなつまつり　こうじんさい）图片1",
+      "title": "真岡の夏祭典　荒神祭（もおかのなつ祭典　こうじんさい）图片1",
+      "alt": "真岡の夏祭典　荒神祭（もおかのなつ祭典　こうじんさい）图片1",
       "caption": ""
     }
   ],
@@ -46,7 +46,7 @@ export default function DetailPage() {
 
 export async function generateMetadata() {
   return {
-    title: '真岡の夏まつり　荒神祭（もおかのなつまつり　こうじんさい） - 北关东花火大会',
-    description: '神輿や屋台の市内渡御や、勇壮な神輿の川渡御が見どころの「真岡の夏まつり 荒神祭」が3日間にわたり開催されます。初日の神輿の宮出しから町会渡御に始まり、2日目は市内中心部が歩行者天国となり“お祭り広場”...',
+    title: '真岡の夏祭典　荒神祭（もおかのなつ祭典　こうじんさい） - 北关东花火大会',
+    description: '神輿や屋台の市内渡御や、勇壮な神輿の川渡御が見どころの「真岡の夏祭典 荒神祭」が3日間にわたり開催举行。初日の神輿の宮出しから町会渡御に始まり、2日目は市内中心部が歩行者天国となり“お祭り広場”...',
   };
 }

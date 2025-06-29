@@ -9,12 +9,12 @@ import UniversalStaticDetailTemplate from '../../../../src/components/UniversalS
  * 静态渲染: 无客户端JavaScript
  * 
  * 十一项核心数据:
- * 1. 名称: 本庄祇園まつり（ほんじょうぎおんまつり）
+ * 1. 名称: 本庄祇園祭典（ほんじょうぎおん祭典）
  * 2. 所在地: 〒367-0053　埼玉県本庄市中央、銀座
  * 3. 开催期间: 2025年7月12日～13日　 【12日】16:00～22:00　　【13日】14:00～22:00
  * 4. 开催场所: 埼玉県本庄市　本庄市街地
  * 5. 交通方式: ＪＲ高崎線「本庄駅」北口から徒歩5分
- * 6. 主办方: 本庄祇園まつり実行委員会
+ * 6. 主办方: 本庄祇園祭典実行委員会
  * 7. 料金: 未设置
  * 8. 联系方式: 本庄市観光協会（本庄市役所商工観光課内）　0495-25-1111
  * 9. 官方网站: https://www.honjo-kanko.jp/event/honjogionmatsuri.html
@@ -26,12 +26,12 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-matsuri-1750933381770",
-  name: "本庄祇園まつり（ほんじょうぎおんまつり）",
+  name: "本庄祇園祭典（ほんじょうぎおん祭典）",
   address: "〒367-0053　埼玉県本庄市中央、銀座",
   datetime: "2025年7月12日～13日　 【12日】16:00～22:00　　【13日】14:00～22:00",
   venue: "埼玉県本庄市　本庄市街地",
   access: "ＪＲ高崎線「本庄駅」北口から徒歩5分",
-  organizer: "本庄祇園まつり実行委員会",
+  organizer: "本庄祇園祭典実行委員会",
   price: "",
   contact: "本庄市観光協会（本庄市役所商工観光課内）　0495-25-1111",
   website: "https://www.honjo-kanko.jp/event/honjogionmatsuri.html",
@@ -44,8 +44,8 @@ const DetailPage = () => {
     {
       type: "image" as const,
       url: "https://www.honjo-kanko.jp/wp-content/uploads/2017/02/395-DSC_7606-786x525.jpg",
-      title: "本庄祇園まつり（ほんじょうぎおんまつり）图片1",
-      alt: "本庄祇園まつり（ほんじょうぎおんまつり）图片1",
+      title: "本庄祇園祭典（ほんじょうぎおん祭典）图片1",
+      alt: "本庄祇園祭典（ほんじょうぎおん祭典）图片1",
       caption: ""
     }
   ]
