@@ -18,7 +18,7 @@ export const metadata = {
 const hanamiData = {
   "id": "cmc76havw0001vl5keikxtygf",
   "title": "第51回水戸のあじさいまつり",
-  "name": "第51回水戸のあじさいまつり",
+  "name": "第51回水户的魅力",
   "englishName": "The 51st Mito Hydrangea Festival",
   "_sourceData": {
     "japaneseName": "第51回水戸のあじさいまつり",
@@ -33,7 +33,7 @@ const hanamiData = {
   "location": "茨城県水戸市松本町13-19",
   "category": "hanami",
   "expectedVisitors": "数万人",
-  "venue": "茨城県水戸市松本町13-19",
+  "venue": "茨城县水户市松本町13-19",
   "prefecture": "北関東",
   "wantToVisit": 0,
   "haveVisited": 0,
@@ -48,7 +48,7 @@ const hanamiData = {
   "features": [
     "最佳观赏期：2025年6月中旬～下旬"
   ],
-  "description": "第51回水戸のあじさいまつり是位于茨城県水戸市松本町13-19的知名花见胜地，每年春季樱花盛开时期吸引众多游客前来观赏。这里的樱花景色优美，是体验日本传统花见文化的绝佳场所。",
+  "description": "第51回水户の紫阳祭是位于茨城县水户市松本町13-19的有名花观赏地，每年春季樱花盛开时期吸引众多游客前来观看。这里的樱花景色优美，是体验日本传统赏花文化的绝佳场所。",
   "media": [
     {
       "type": "image",

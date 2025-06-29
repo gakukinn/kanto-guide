@@ -6,17 +6,17 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "第51回 阿賀野川ござれや花火",
+  "name": "第51回阿贺野川花火",
   "fireworksCount": "約6000発　(予定)",
   "fireworksTime": "60分",
   "expectedVisitors": "20万人",
   "date": "2025年8月25日(月)",
-  "time": "19:30～20:00(予定)",
+  "time": "19：30 - 20：00（预定）",
   "venue": "阿賀野川松浜橋上流側",
-  "access": "【電車】JR新崎駅から徒歩30分 【車】日本海東北道新潟空港ICから約10分MAP",
+  "access": "[电车]从JR新崎站步行30分[车]从日本海东北道新潟机场IC约10分钟MAP",
   "weatherInfo": "小雨決行、荒天時中止",
   "parking": "×",
-  "price": "あり\n自由席1名3000円～。詳細は公式サイトをご確認ください",
+  "price": "有免费座位，每人3000日元。详情请访问官方网站。",
   "contact": "025-259-5811 (協)北新潟商工振興会",
   "foodStalls": "あり",
   "notes": "详见官网",
@@ -25,8 +25,8 @@ const pageData = {
   "id": "1751108553694",
   "region": "koshinetsu",
   "activityType": "hanabi",
-  "description": "新潟県で流れる阿賀野川で開催される花火大会。2025年のテーマは「『歩』Ayumu～未来への第一歩、ここから～」で、更なる存在と進化を求め、地域の活性化と未来の子どもたちとともに歩き続ける。色とりどりのスターマインで始まり、2尺玉、大切な方へのお祝い花火、夏をテーマに小学生約1000人から選ばれたデザイン花火5作品などが打ち上げられる。公式YouTubeチャンネルによる無料ライブ中継もある。",
-  "highlights": "フィナーレに打ち上げられる、幻想的なミュージックスターマインの「花鳥風月スペシャルver＋2尺玉」は必見。",
+  "description": "烟花节在新泻县的阿贺野川举行。2025年的主题是“‘步’Ayumu~迈向未来的第一步，从这里开始~”，追求更大的存在和进化，与地区的活性化和未来的孩子们一起继续行走。从五彩缤纷的星光开始，将燃放2尺玉、为重要的人举行祝贺烟花、从约1000名小学生中选出的以夏季为主题的设计烟花5件作品。还有一个免费的现场直播在官方YouTube频道。",
+  "highlights": "在决赛中发射的梦幻音乐之星Mine的“花鸟风月Special ver+2尺玉”是必看的。",
   "themeColor": "red",
   "status": "scheduled",
   "media": [

@@ -17,7 +17,7 @@ export const metadata = {
 const hanamiData = {
   "id": "cmc76havw0001vl5keikxtygf",
   "title": "第51回水戸のあじさいまつり",
-  "name": "第51回水戸のあじさいまつり",
+  "name": "第51回水户的魅力",
   "englishName": "The 51st Mito Hydrangea Festival",
   "_sourceData": {
     "japaneseName": "第51回水戸のあじさいまつり",
@@ -32,7 +32,7 @@ const hanamiData = {
   "location": "〒310-0052　茨城県水戸市松本町13-19",
   "category": "hanami",
   "expectedVisitors": "数万人",
-  "venue": "〒310-0052　茨城県水戸市松本町13-19",
+  "venue": "310-0052 13-19松本町，Mito，茨城",
   "prefecture": "北関東",
   "access": {
     "train": "ＪＲ「水戸駅」北口7番乗り場から「栄町経由茨大・渡里行」の茨城交通バス約15分「保和苑入口」～徒歩4分",
@@ -52,7 +52,7 @@ const hanamiData = {
     "观赏品种：約100種類6,000株の紫陽花"
   ],
   "tips": {
-    "venue": "水戸市　保和苑及び周辺史跡",
+    "venue": "水户市保和苑及周边史迹",
     "bestTime": "6月7日～29日",
     "varieties": "約100種類6,000株の紫陽花",
     "price": "無料",
@@ -62,9 +62,9 @@ const hanamiData = {
       "歴史ある庭園",
       "アクセス良好"
     ],
-    "notes": "水戸市の保和苑及び周辺史跡で開催される紫陽花祭り"
+    "notes": "在水户市的保和苑及周边史迹举办的紫阳花祭"
   },
-  "description": "第51回水戸のあじさいまつり是位于〒310-0052　茨城県水戸市松本町13-19的知名观赏胜地，每年夏季2025年6月7日～29日期间吸引众多游客前来观赏。这里的景色优美，約100種類6,000株の紫陽花品种丰富，是体验自然观赏文化的绝佳场所。",
+  "description": "第51届水户绣球节是位于茨城县水户市松本町13-19的著名观赏胜地，每年夏季2025年6月7日至29日期间吸引众多游客前来观赏。这里的景色优美，约100种类6，000株的紫阳花品种丰富，是体验自然观赏文化的绝佳场所。",
   "media": [],
   "website": "https://www.city.mito.lg.jp/site/kankouinfo/94415.html",
   "contact": {

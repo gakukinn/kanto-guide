@@ -1,11 +1,11 @@
 import WalkerPlusHanabiTemplate from '@/components/WalkerPlusHanabiTemplate';
 
 const activityData = {
-  "name": "ぎおん柏崎まつり 海の大花火大会",
-  "date": "2025年7月26日(土) 19:30～21:10",
-  "time": "19:30～21:10",
-  "venue": "柏崎市中央海岸・みなとまち海浜公園一帯",
-  "access": "【電車】JR柏崎駅から徒歩25分 ※2025年はシャトルバスの運行なしMAP",
+  "name": "柏崎祭海之大烟花大会",
+  "date": "星期六，七月26，2025 - 19：30 - 21：10",
+  "time": "19：30至21：10",
+  "venue": "柏崎市中央海岸·港町海滨公园一带",
+  "access": "[电车] JR柏崎站步行25分钟※2025年无接驳巴士服务MAP",
   "fireworksCount": "详见官网",
   "fireworksTime": "详见官网",
   "expectedVisitors": "详见官网",
@@ -13,7 +13,7 @@ const activityData = {
   "weatherInfo": "详见官网",
   "foodStalls": "详见官网",
   "parking": "详见官网",
-  "notes": "新潟県柏崎市の夏を代表する一大花火イベント。川の長岡、山の片貝、海の柏崎と、越後三大花火の一つに数えられている。新型コロナウイルスのまん延により2年連続で中止になっていたが、2022年に3年ぶりに開催された。2025年も、1万6000発の花火が柏崎の夜空に打ちあがる。",
+  "notes": "代表新泻县柏崎市夏天的大型烟花活动。被称为河的长冈、山的片贝、海的柏崎和越后三大烟花之一。由于新型冠状病毒的蔓延，连续2年被中止，但在2022年时隔3年再次举办。2025年，16，000发烟花将在柏崎的夜空中燃放。",
   "organizer": "详见官网",
   "contact": "详见官网",
   "website": "https://www.city.kashiwazaki.lg.jp/kashiwazakihanabi/index.html",
