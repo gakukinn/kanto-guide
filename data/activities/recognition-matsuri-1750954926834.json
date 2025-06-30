@@ -1,0 +1,29 @@
+{
+  "id": "recognition-matsuri-1750954926834",
+  "name": "村上大祭（むらかみたいさい）",
+  "address": "〒958-0851　新潟県村上市",
+  "datetime": "2025年7月6日～7日",
+  "venue": "新潟県村上市　西奈彌羽黒神社、村上市内城下町エリア（屋台山車巡行）",
+  "access": "ＪＲ羽越本線「村上駅」から徒歩20分",
+  "organizer": "",
+  "price": "",
+  "contact": "村上市観光協会　0254-53-2258",
+  "website": "https://www.sake3.com/",
+  "googleMap": "https://maps.google.com/maps?q=38.21757,139.478247&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "koshinetsu",
+  "description": "城下町村上ならではの勇壮にして華麗な祭り「村上大祭」が開催されます。3基の神輿に御神霊を奉還し、荒馬14騎、稚児行列を先導に町内を巡行する「お旅神事」が見どころとなっています。圧巻は、見事な彫刻と村上伝統の漆塗りを施したオシャギリ（屋台山車19台）で、その様子を一目見ようと、多くの観光客が訪れます。2018年1月に「村上祭の屋台行事」が、国の重要無形民俗文化財に指定されました。新潟三大高市（たかまち＝縁日のこと）としても知られ、多くの露店が立ち並び、大変賑わいます。",
+  "activityType": "matsuri",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://enjoyniigata.com/image/rendering/attraction_image/4196/keep/1200?v=b284a442c1c140c07fff71ae5591a4a4deccf363",
+      "title": "村上大祭（むらかみたいさい）图片1",
+      "alt": "村上大祭（むらかみたいさい）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-26T16:22:06.865Z",
+  "updatedAt": "2025-06-26T16:22:06.865Z"
+}

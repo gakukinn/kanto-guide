@@ -1,0 +1,47 @@
+{
+  "navigation": {
+    "home": "首页",
+    "activities": "活动"
+  },
+  "regions": {
+    "tokyo": "东京都",
+    "saitama": "埼玉县",
+    "chiba": "千叶县", 
+    "kanagawa": "神奈川县",
+    "kitakanto": "北关东",
+    "koshinetsu": "甲信越"
+  },
+  "activities": {
+    "hanabi": "花火大会",
+    "matsuri": "夏日祭典",
+    "hanami": "花见会",
+    "culture": "文化艺术",
+    "momiji": "红叶狩",
+    "illumination": "灯光秀"
+  },
+  "hanabi": {
+    "fireworksCount": "烟花数量",
+    "fireworksTime": "燃放时间",
+    "expectedVisitors": "预计观众",
+    "date": "举办日期",
+    "time": "举办时间",
+    "weatherInfo": "雨天安排",
+    "price": "门票信息",
+    "foodStalls": "小吃摊位",
+    "notes": "其他说明",
+    "venue": "举办地点",
+    "access": "交通方式",
+    "parking": "停车场",
+    "contact": "联系方式",
+    "highlights": "精彩看点",
+    "basicInfo": "花火大会信息",
+    "venueInfo": "会场・联系信息",
+    "activityIntro": "活动简介",
+    "locationMap": "位置地图"
+  },
+  "common": {
+    "seeOfficial": "详见官网",
+    "pleaseCheckOfficial": "请以官方信息为准",
+    "noImage": "暂无图片"
+  }
+} 

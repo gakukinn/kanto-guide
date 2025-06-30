@@ -1,0 +1,1036 @@
+{
+  "regions": [
+    {
+      "key": "tokyo",
+      "name": "东京",
+      "path": "/tokyo"
+    },
+    {
+      "key": "saitama",
+      "name": "埼玉",
+      "path": "/saitama"
+    },
+    {
+      "key": "chiba",
+      "name": "千叶",
+      "path": "/chiba"
+    },
+    {
+      "key": "kanagawa",
+      "name": "神奈川",
+      "path": "/kanagawa"
+    },
+    {
+      "key": "kitakanto",
+      "name": "北关东",
+      "path": "/kitakanto"
+    },
+    {
+      "key": "koshinetsu",
+      "name": "甲信越",
+      "path": "/koshinetsu"
+    }
+  ],
+  "activities": [
+    {
+      "key": "hanabi",
+      "name": "花火大会",
+      "icon": "🎆"
+    },
+    {
+      "key": "matsuri",
+      "name": "传统祭典",
+      "icon": "🏮"
+    },
+    {
+      "key": "culture",
+      "name": "文化艺术",
+      "icon": "🎨"
+    },
+    {
+      "key": "illumination",
+      "name": "灯光秀",
+      "icon": "💡"
+    },
+    {
+      "key": "hanami",
+      "name": "赏樱",
+      "icon": "🌸"
+    },
+    {
+      "key": "momiji",
+      "name": "红叶狩",
+      "icon": "🍁"
+    }
+  ],
+  "pages": [
+    {
+      "id": "tokyo-hanabi-akishima",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "akishima",
+      "url": "/tokyo/hanabi/akishima",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/akishima/"
+    },
+    {
+      "id": "tokyo-hanabi-chofu-hanabi",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "chofu-hanabi",
+      "url": "/tokyo/hanabi/chofu-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/chofu-hanabi/"
+    },
+    {
+      "id": "tokyo-hanabi-edogawa",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "edogawa",
+      "url": "/tokyo/hanabi/edogawa",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/edogawa/"
+    },
+    {
+      "id": "tokyo-hanabi-hachioji",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "hachioji",
+      "url": "/tokyo/hanabi/hachioji",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/hachioji/"
+    },
+    {
+      "id": "tokyo-hanabi-itabashi",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "itabashi",
+      "url": "/tokyo/hanabi/itabashi",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/itabashi/"
+    },
+    {
+      "id": "tokyo-hanabi-jingu-gaien",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "jingu-gaien",
+      "url": "/tokyo/hanabi/jingu-gaien",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/jingu-gaien/"
+    },
+    {
+      "id": "tokyo-hanabi-katsushika-noryo",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "katsushika-noryo",
+      "url": "/tokyo/hanabi/katsushika-noryo",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/katsushika-noryo/"
+    },
+    {
+      "id": "tokyo-hanabi-keibajo",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "keibajo",
+      "url": "/tokyo/hanabi/keibajo",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/keibajo/"
+    },
+    {
+      "id": "tokyo-hanabi-kozushima",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kozushima",
+      "url": "/tokyo/hanabi/kozushima",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/kozushima/"
+    },
+    {
+      "id": "tokyo-hanabi-mikurajima",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "mikurajima",
+      "url": "/tokyo/hanabi/mikurajima",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/mikurajima/"
+    },
+    {
+      "id": "tokyo-hanabi-okutama",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "okutama",
+      "url": "/tokyo/hanabi/okutama",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/okutama/"
+    },
+    {
+      "id": "tokyo-hanabi-setagaya-tamagawa",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "setagaya-tamagawa",
+      "url": "/tokyo/hanabi/setagaya-tamagawa",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/setagaya-tamagawa/"
+    },
+    {
+      "id": "tokyo-hanabi-sumida",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "sumida",
+      "url": "/tokyo/hanabi/sumida",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/sumida/"
+    },
+    {
+      "id": "tokyo-hanabi-tachikawa-showa",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "tachikawa-showa",
+      "url": "/tokyo/hanabi/tachikawa-showa",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/tachikawa-showa/"
+    },
+    {
+      "id": "tokyo-hanabi-tamagawa",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "tamagawa",
+      "url": "/tokyo/hanabi/tamagawa",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/hanabi/tamagawa/"
+    },
+    {
+      "id": "tokyo-matsuri-shinbashi-koichi-matsuri",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "matsuri",
+      "activityName": "传统祭典",
+      "page": "shinbashi-koichi-matsuri",
+      "url": "/tokyo/matsuri/shinbashi-koichi-matsuri",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/matsuri/shinbashi-koichi-matsuri/"
+    },
+    {
+      "id": "tokyo-momiji-mount-takao",
+      "region": "tokyo",
+      "regionName": "东京",
+      "activity": "momiji",
+      "activityName": "红叶狩",
+      "page": "mount-takao",
+      "url": "/tokyo/momiji/mount-takao",
+      "hasImages": true,
+      "imagePath": "/images/tokyo/momiji/mount-takao/"
+    },
+    {
+      "id": "saitama-hanabi-asaka",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "asaka",
+      "url": "/saitama/hanabi/asaka",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/asaka/"
+    },
+    {
+      "id": "saitama-hanabi-higashimatsuyama",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "higashimatsuyama",
+      "url": "/saitama/hanabi/higashimatsuyama",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/higashimatsuyama/"
+    },
+    {
+      "id": "saitama-hanabi-ina",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "ina",
+      "url": "/saitama/hanabi/ina",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/ina/"
+    },
+    {
+      "id": "saitama-hanabi-iruma-base-2025",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "iruma-base-2025",
+      "url": "/saitama/hanabi/iruma-base-2025",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/iruma-base-2025/"
+    },
+    {
+      "id": "saitama-hanabi-koshigaya-2025",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "koshigaya-2025",
+      "url": "/saitama/hanabi/koshigaya-2025",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/koshigaya-2025/"
+    },
+    {
+      "id": "saitama-hanabi-kounosu-shoukoukai-22",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kounosu-shoukoukai-22",
+      "url": "/saitama/hanabi/kounosu-shoukoukai-22",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/kounosu-shoukoukai-22/"
+    },
+    {
+      "id": "saitama-hanabi-kumagaya",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kumagaya",
+      "url": "/saitama/hanabi/kumagaya",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/kumagaya/"
+    },
+    {
+      "id": "saitama-hanabi-metsza-nordic-2025",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "metsza-nordic-2025",
+      "url": "/saitama/hanabi/metsza-nordic-2025",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/metsza-nordic-2025/"
+    },
+    {
+      "id": "saitama-hanabi-ogawa-tanabata-2025",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "ogawa-tanabata-2025",
+      "url": "/saitama/hanabi/ogawa-tanabata-2025",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/ogawa-tanabata-2025/"
+    },
+    {
+      "id": "saitama-hanabi-saitama-owada-2025",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "saitama-owada-2025",
+      "url": "/saitama/hanabi/saitama-owada-2025",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/saitama-owada-2025/"
+    },
+    {
+      "id": "saitama-hanabi-sayama-tanabata",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "sayama-tanabata",
+      "url": "/saitama/hanabi/sayama-tanabata",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/sayama-tanabata/"
+    },
+    {
+      "id": "saitama-hanabi-seibu-en-2025",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "seibu-en-2025",
+      "url": "/saitama/hanabi/seibu-en-2025",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/seibu-en-2025/"
+    },
+    {
+      "id": "saitama-hanabi-todabashi",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "todabashi",
+      "url": "/saitama/hanabi/todabashi",
+      "hasImages": true,
+      "imagePath": "/images/saitama/hanabi/todabashi/"
+    },
+    {
+      "id": "saitama-matsuri-chichibu-kawase-festival",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "matsuri",
+      "activityName": "传统祭典",
+      "page": "chichibu-kawase-festival",
+      "url": "/saitama/matsuri/chichibu-kawase-festival",
+      "hasImages": true,
+      "imagePath": "/images/saitama/matsuri/chichibu-kawase-festival/"
+    },
+    {
+      "id": "saitama-matsuri-honjo-gion-matsuri",
+      "region": "saitama",
+      "regionName": "埼玉",
+      "activity": "matsuri",
+      "activityName": "传统祭典",
+      "page": "honjo-gion-matsuri",
+      "url": "/saitama/matsuri/honjo-gion-matsuri",
+      "hasImages": true,
+      "imagePath": "/images/saitama/matsuri/honjo-gion-matsuri/"
+    },
+    {
+      "id": "chiba-hanabi-asahi-iioka-you-yu",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "asahi-iioka-you-yu",
+      "url": "/chiba/hanabi/asahi-iioka-you-yu",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/asahi-iioka-you-yu/"
+    },
+    {
+      "id": "chiba-hanabi-choshi-minato-hanabi",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "choshi-minato-hanabi",
+      "url": "/chiba/hanabi/choshi-minato-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/choshi-minato-hanabi/"
+    },
+    {
+      "id": "chiba-hanabi-futtsu-shimin-hanabi",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "futtsu-shimin-hanabi",
+      "url": "/chiba/hanabi/futtsu-shimin-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/futtsu-shimin-hanabi/"
+    },
+    {
+      "id": "chiba-hanabi-ichikawa",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "ichikawa",
+      "url": "/chiba/hanabi/ichikawa",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/ichikawa/"
+    },
+    {
+      "id": "chiba-hanabi-kamogawa-shimin-hanabi",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kamogawa-shimin-hanabi",
+      "url": "/chiba/hanabi/kamogawa-shimin-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/kamogawa-shimin-hanabi/"
+    },
+    {
+      "id": "chiba-hanabi-kisarazu",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kisarazu",
+      "url": "/chiba/hanabi/kisarazu",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/kisarazu/"
+    },
+    {
+      "id": "chiba-hanabi-makuhari-beach-hanabi",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "makuhari-beach-hanabi",
+      "url": "/chiba/hanabi/makuhari-beach-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/makuhari-beach-hanabi/"
+    },
+    {
+      "id": "chiba-hanabi-matsudo",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "matsudo",
+      "url": "/chiba/hanabi/matsudo",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/matsudo/"
+    },
+    {
+      "id": "chiba-hanabi-narashino",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "narashino",
+      "url": "/chiba/hanabi/narashino",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/narashino/"
+    },
+    {
+      "id": "chiba-hanabi-oamishirasato-hanabi",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "oamishirasato-hanabi",
+      "url": "/chiba/hanabi/oamishirasato-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/oamishirasato-hanabi/"
+    },
+    {
+      "id": "chiba-hanabi-omigawa",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "omigawa",
+      "url": "/chiba/hanabi/omigawa",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/omigawa/"
+    },
+    {
+      "id": "chiba-hanabi-shirahama-ama-matsuri",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "shirahama-ama-matsuri",
+      "url": "/chiba/hanabi/shirahama-ama-matsuri",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/shirahama-ama-matsuri/"
+    },
+    {
+      "id": "chiba-hanabi-teganuma",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "teganuma",
+      "url": "/chiba/hanabi/teganuma",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/teganuma/"
+    },
+    {
+      "id": "chiba-hanabi-urayasu-hanabi",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "urayasu-hanabi",
+      "url": "/chiba/hanabi/urayasu-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/urayasu-hanabi/"
+    },
+    {
+      "id": "chiba-hanabi-yachiyo-furusato-oyako",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "yachiyo-furusato-oyako",
+      "url": "/chiba/hanabi/yachiyo-furusato-oyako",
+      "hasImages": true,
+      "imagePath": "/images/chiba/hanabi/yachiyo-furusato-oyako/"
+    },
+    {
+      "id": "chiba-matsuri-narita-gion-festival",
+      "region": "chiba",
+      "regionName": "千叶",
+      "activity": "matsuri",
+      "activityName": "传统祭典",
+      "page": "narita-gion-festival",
+      "url": "/chiba/matsuri/narita-gion-festival",
+      "hasImages": true,
+      "imagePath": "/images/chiba/matsuri/narita-gion-festival/"
+    },
+    {
+      "id": "kanagawa-hanabi-atsugi-ayu-matsuri",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "atsugi-ayu-matsuri",
+      "url": "/kanagawa/hanabi/atsugi-ayu-matsuri",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/atsugi-ayu-matsuri/"
+    },
+    {
+      "id": "kanagawa-hanabi-kamakura",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kamakura",
+      "url": "/kanagawa/hanabi/kamakura",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/kamakura/"
+    },
+    {
+      "id": "kanagawa-hanabi-kanazawa-matsuri-hanabi",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kanazawa-matsuri-hanabi",
+      "url": "/kanagawa/hanabi/kanazawa-matsuri-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/kanazawa-matsuri-hanabi/"
+    },
+    {
+      "id": "kanagawa-hanabi-kawasaki-tamagawa",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kawasaki-tamagawa",
+      "url": "/kanagawa/hanabi/kawasaki-tamagawa",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/kawasaki-tamagawa/"
+    },
+    {
+      "id": "kanagawa-hanabi-kurihama",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kurihama",
+      "url": "/kanagawa/hanabi/kurihama",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/kurihama/"
+    },
+    {
+      "id": "kanagawa-hanabi-minato-mirai-smart",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "minato-mirai-smart",
+      "url": "/kanagawa/hanabi/minato-mirai-smart",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/minato-mirai-smart/"
+    },
+    {
+      "id": "kanagawa-hanabi-odawara-sakawa",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "odawara-sakawa",
+      "url": "/kanagawa/hanabi/odawara-sakawa",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/odawara-sakawa/"
+    },
+    {
+      "id": "kanagawa-hanabi-sagamihara",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "sagamihara",
+      "url": "/kanagawa/hanabi/sagamihara",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/sagamihara/"
+    },
+    {
+      "id": "kanagawa-hanabi-sagamiko",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "sagamiko",
+      "url": "/kanagawa/hanabi/sagamiko",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/sagamiko/"
+    },
+    {
+      "id": "kanagawa-hanabi-seaparadise-hanabi-symphonia",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "seaparadise-hanabi-symphonia",
+      "url": "/kanagawa/hanabi/seaparadise-hanabi-symphonia",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/seaparadise-hanabi-symphonia/"
+    },
+    {
+      "id": "kanagawa-hanabi-southern-beach-chigasaki",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "southern-beach-chigasaki",
+      "url": "/kanagawa/hanabi/southern-beach-chigasaki",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/southern-beach-chigasaki/"
+    },
+    {
+      "id": "kanagawa-hanabi-yokohama-hanabi",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "yokohama-hanabi",
+      "url": "/kanagawa/hanabi/yokohama-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/yokohama-hanabi/"
+    },
+    {
+      "id": "kanagawa-hanabi-yokohama-kaisai",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "yokohama-kaisai",
+      "url": "/kanagawa/hanabi/yokohama-kaisai",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/yokohama-kaisai/"
+    },
+    {
+      "id": "kanagawa-hanabi-yokohama-night-flowers",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "yokohama-night-flowers",
+      "url": "/kanagawa/hanabi/yokohama-night-flowers",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/yokohama-night-flowers/"
+    },
+    {
+      "id": "kanagawa-hanabi-yokohama-seaparadise",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "yokohama-seaparadise",
+      "url": "/kanagawa/hanabi/yokohama-seaparadise",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/hanabi/yokohama-seaparadise/"
+    },
+    {
+      "id": "kanagawa-matsuri-hiratsuka-tanabata",
+      "region": "kanagawa",
+      "regionName": "神奈川",
+      "activity": "matsuri",
+      "activityName": "传统祭典",
+      "page": "hiratsuka-tanabata",
+      "url": "/kanagawa/matsuri/hiratsuka-tanabata",
+      "hasImages": true,
+      "imagePath": "/images/kanagawa/matsuri/hiratsuka-tanabata/"
+    },
+    {
+      "id": "kitakanto-hanabi-ashikaga",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "ashikaga",
+      "url": "/kitakanto/hanabi/ashikaga",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/ashikaga/"
+    },
+    {
+      "id": "kitakanto-hanabi-joso-kinugawa-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "joso-kinugawa-hanabi-2025",
+      "url": "/kitakanto/hanabi/joso-kinugawa-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/joso-kinugawa-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-koga-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "koga-hanabi-2025",
+      "url": "/kitakanto/hanabi/koga-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/koga-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-maebashi-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "maebashi-hanabi-2025",
+      "url": "/kitakanto/hanabi/maebashi-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/maebashi-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-mito-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "mito-hanabi-2025",
+      "url": "/kitakanto/hanabi/mito-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/mito-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-moka",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "moka",
+      "url": "/kitakanto/hanabi/moka",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/moka/"
+    },
+    {
+      "id": "kitakanto-hanabi-numata-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "numata-hanabi-2025",
+      "url": "/kitakanto/hanabi/numata-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/numata-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-oarai-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "oarai-hanabi-2025",
+      "url": "/kitakanto/hanabi/oarai-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/oarai-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-oyama-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "oyama-hanabi-2025",
+      "url": "/kitakanto/hanabi/oyama-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/oyama-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-takasaki",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "takasaki",
+      "url": "/kitakanto/hanabi/takasaki",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/takasaki/"
+    },
+    {
+      "id": "kitakanto-hanabi-tamamura-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "tamamura-hanabi-2025",
+      "url": "/kitakanto/hanabi/tamamura-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/tamamura-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-hanabi-tonegawa-hanabi-2025",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "tonegawa-hanabi-2025",
+      "url": "/kitakanto/hanabi/tonegawa-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/hanabi/tonegawa-hanabi-2025/"
+    },
+    {
+      "id": "kitakanto-matsuri-maebashi-tanabata",
+      "region": "kitakanto",
+      "regionName": "北关东",
+      "activity": "matsuri",
+      "activityName": "传统祭典",
+      "page": "maebashi-tanabata",
+      "url": "/kitakanto/matsuri/maebashi-tanabata",
+      "hasImages": true,
+      "imagePath": "/images/kitakanto/matsuri/maebashi-tanabata/"
+    },
+    {
+      "id": "koshinetsu-hanabi-agano-gozareya",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "agano-gozareya",
+      "url": "/koshinetsu/hanabi/agano-gozareya",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/agano-gozareya/"
+    },
+    {
+      "id": "koshinetsu-hanabi-anime",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "anime",
+      "url": "/koshinetsu/hanabi/anime",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/anime/"
+    },
+    {
+      "id": "koshinetsu-hanabi-asahara-jinja-aki-hanabi",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "asahara-jinja-aki-hanabi",
+      "url": "/koshinetsu/hanabi/asahara-jinja-aki-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/asahara-jinja-aki-hanabi/"
+    },
+    {
+      "id": "koshinetsu-hanabi-chikuma-chikumagawa-hanabi",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "chikuma-chikumagawa-hanabi",
+      "url": "/koshinetsu/hanabi/chikuma-chikumagawa-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/chikuma-chikumagawa-hanabi/"
+    },
+    {
+      "id": "koshinetsu-hanabi-ichikawa-shinmei",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "ichikawa-shinmei",
+      "url": "/koshinetsu/hanabi/ichikawa-shinmei",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/ichikawa-shinmei/"
+    },
+    {
+      "id": "koshinetsu-hanabi-isawa-onsen-hanabi-2025",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "isawa-onsen-hanabi-2025",
+      "url": "/koshinetsu/hanabi/isawa-onsen-hanabi-2025",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/isawa-onsen-hanabi-2025/"
+    },
+    {
+      "id": "koshinetsu-hanabi-kashiwazaki",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "kashiwazaki",
+      "url": "/koshinetsu/hanabi/kashiwazaki",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/kashiwazaki/"
+    },
+    {
+      "id": "koshinetsu-hanabi-nagaoka",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "nagaoka",
+      "url": "/koshinetsu/hanabi/nagaoka",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/nagaoka/"
+    },
+    {
+      "id": "koshinetsu-hanabi-ojiya-matsuri-hanabi",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "ojiya-matsuri-hanabi",
+      "url": "/koshinetsu/hanabi/ojiya-matsuri-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/ojiya-matsuri-hanabi/"
+    },
+    {
+      "id": "koshinetsu-hanabi-yamanakako-houkosai-hanabi",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "hanabi",
+      "activityName": "花火大会",
+      "page": "yamanakako-houkosai-hanabi",
+      "url": "/koshinetsu/hanabi/yamanakako-houkosai-hanabi",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/hanabi/yamanakako-houkosai-hanabi/"
+    },
+    {
+      "id": "koshinetsu-matsuri-matsumoto-castle-taiko",
+      "region": "koshinetsu",
+      "regionName": "甲信越",
+      "activity": "matsuri",
+      "activityName": "传统祭典",
+      "page": "matsumoto-castle-taiko",
+      "url": "/koshinetsu/matsuri/matsumoto-castle-taiko",
+      "hasImages": true,
+      "imagePath": "/images/koshinetsu/matsuri/matsumoto-castle-taiko/"
+    }
+  ]
+}
