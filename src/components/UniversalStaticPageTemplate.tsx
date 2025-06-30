@@ -501,7 +501,7 @@ export default function UniversalStaticPageTemplate({
                         </div>
                       </div>
 
-                      <div className="flex flex-row items-center gap-2">
+                      <div className="flex flex-row items-center gap-2 md:flex-col md:items-center">
                         {/* 点赞按钮 - 显示随机红心数 */}
                         <button
                           onClick={() => handleLike(event.id)}
