@@ -19,7 +19,7 @@ const activityData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://cdn.midjourney.com/ca8d31c8-4dff-45b7-bdd4-f26c56d3a7f1/0_2.png",
       "title": "東浦和大間木公園会場花火大会（さいたましはなびたいかい　ひがしうらわおおまぎこうえんかいじょう）图片1",
       "alt": "東浦和大間木公園会場花火大会（さいたましはなびたいかい　ひがしうらわおおまぎこうえんかいじょう）图片1",
@@ -47,6 +47,6 @@ export default function DetailPage() {
 export async function generateMetadata() {
   return {
     title: '東浦和大間木公園会場花火大会（さいたましはなびたいかい　ひがしうらわおおまぎこうえんかいじょう） - 埼玉花火大会',
-    description: 'さいたま市花火大会のひとつが、浦和地区（東浦和大間木公園）で開催举行。夜空に早打ち、スターマインなどが打燃放げられ、見沼の大自然を満喫しながら、花火を堪能することができます。さいたま市花火大会は、...',
+    description: 'さいたま市花火大会のひとつが、浦和地区（東浦和大間木公園）で開催举行。夜空に早打ち、连发烟花などが打燃放げられ、見沼の大自然を満喫しながら、花火を堪能することができます。さいたま市花火大会は、...',
   };
 }

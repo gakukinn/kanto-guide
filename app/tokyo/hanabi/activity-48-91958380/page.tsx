@@ -13,7 +13,7 @@ const pageData = {
   "date": "2025年7月26日(土)",
   "time": "19：00 - 20：30 第一场会议19：00-第二场会议19：30-",
   "venue": "樱桥下游~言问桥上游（第一会场）、驹形桥下游~臼桥上游（第二会场）",
-  "access": "[火车]从东武铁路、东京地铁和东映地铁Asakusa站步行15分钟（第一会场），从东武铁路、东京地铁和东映地铁Asakusa站或东映地铁Kuramae站步行5分钟（第二会场）地图",
+  "access": "[火车]从东武铁路、东京地铁和东映地铁Asakusa站步行15分钟（第一会场），从东武铁路、东京地铁和东映地铁Asakusa站或东映地铁Kuramae站步行5分钟（第二会场）",
   "weatherInfo": "小雨将停止（如天气恶劣）",
   "parking": "* 请使用公共交通工具。",
   "price": "无（No）",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://cdn.midjourney.com/723153b0-19ff-4088-81ef-05a1a57abdaf/0_2.png",
       "title": "第48回 隅田川花火大会图片1",
       "alt": "第48回 隅田川花火大会图片1",

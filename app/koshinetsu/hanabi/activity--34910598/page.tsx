@@ -13,7 +13,7 @@ const pageData = {
   "date": "星期六和星期日，八月2，2025",
   "time": "19：20 - 21：10 （发射时间）",
   "venue": "信濃川河川敷",
-  "access": "[火车]从JR长冈站步行30分钟[汽车]从关越道长冈IC约20分钟地图",
+  "access": "[火车]从JR长冈站步行30分钟[汽车]从关越道长冈IC约20分钟",
   "weatherInfo": "小雨行（如发射场被淹水或强风，延期或取消）",
   "parking": "请查阅官方网站。",
   "price": "有\n详细信息请查看官方网站",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://tour.vipliner.biz/images/dj/hanabi/nagaoka/hanabi_img_1225x800_011.jpg",
       "title": "長岡祭典大花火大会图片1",
       "alt": "長岡祭典大花火大会图片1",

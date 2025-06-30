@@ -13,14 +13,14 @@ const pageData = {
   "date": "2025年8月9日(土)",
   "time": "下午7：00至21：00（预定）",
   "venue": "荒川河畔(荒川大橋下流)",
-  "access": "[电车]从JR·秩父铁路熊谷站南口步行5分钟[乘车]从关越道东松山IC约30分钟地图",
+  "access": "[电车]从JR·秩父铁路熊谷站南口步行5分钟[乘车]从关越道东松山IC约30分钟",
   "weatherInfo": "因恶劣天气而延期的情况下，将于2025年8月10日（星期日）举行，进一步延期的情况下，将于16日（星期六）、17日（星期日）举行",
   "parking": "* 2 500美元。在官方网站上确认。",
   "price": "在往年的收费展览席销售期（6月下旬），将从众筹销售中剩余的座位进行第二次销售。详情请浏览官方网站。",
   "contact": "048-594-6677 熊谷市観光協会",
   "foodStalls": "有",
   "notes": "详见官网",
-  "website": "https://www.oideyo-kumagaya.com/cate-spot/303/",
+  "website": "https://www.oideyo-熊谷.com/cate-spot/303/",
   "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.131809,139.383212&center=36.131809,139.383212",
   "id": "1751170959462",
   "region": "saitama",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://cdn.midjourney.com/1fa036a7-14dd-450b-a131-6191dd73fdbc/0_1.png",
       "title": "熊谷花火大会图片1",
       "alt": "熊谷花火大会图片1",
@@ -55,5 +55,5 @@ export default function DetailPage() {
 
 export const metadata = {
   title: '熊谷花火大会 - 日本活动指南',
-  description: '1948年(昭和23年)から続く伝統のイベントで、埼玉県では長い歴史を誇る花火大会。ウエディングや誕生日のメッセージを伝える「メッセージ花火」も名物だ。会場は見晴らしがよく遠くからでも眺められ、漆黒の夜空に大迫力の花火が映える。また、河川敷には約500の夜店がズラリと軒を並べ、圧巻だ。',
+  description: '1948年(昭和23年)から続く伝統の活动で、埼玉県では長い歴史を誇る花火大会。ウエディングや誕生日のメッセージを伝える「メッセージ花火」も名物だ。会場は見晴らしがよく遠くからでも眺められ、漆黒の夜空に大迫力の花火が映える。また、河川敷には約500の夜店がズラリと軒を並べ、圧巻だ。',
 };

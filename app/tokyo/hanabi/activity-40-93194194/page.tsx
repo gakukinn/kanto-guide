@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://cdn.midjourney.com/4249ed1a-b154-4a69-9d90-e8e61c01358d/0_3.png",
       "title": "第40回 調布花火图片1",
       "alt": "第40回 調布花火图片1",

@@ -85,7 +85,6 @@ const placeNameTranslations: Record<string, string> = {
   '会場': '会场',
   '会場周辺': '会场周边',
   '周辺': '周边',
-  '河川敷': '河滩',
   '公園': '公园',
   '駐車場': '停车场',
 };

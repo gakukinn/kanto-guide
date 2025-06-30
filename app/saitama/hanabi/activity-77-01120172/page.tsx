@@ -13,7 +13,7 @@ const pageData = {
   "date": "2025年7月26日(土)",
   "time": "烟花从20：00到20：15节从15：00到21：00",
   "venue": "小川町站附近",
-  "access": "[电车] JR·东武东上线小川町站即将地点MAP",
+  "access": "[电车] JR·东武东上线小川町站即将地点",
   "weatherInfo": "恶劣天气将推迟至2025年7月27日星期日",
   "parking": "●免费",
   "price": "无（No）",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://assets.st-note.com/production/uploads/images/196648553/rectangle_large_type_2_014daa201dd5198cd0cd1c01ea2de247.png?fit=bounds&quality=85&width=1280",
       "title": "第77回 小川町七夕祭典花火大会图片1",
       "alt": "第77回 小川町七夕祭典花火大会图片1",
@@ -55,5 +55,5 @@ export default function DetailPage() {
 
 export const metadata = {
   title: '第77回 小川町七夕祭典花火大会 - 日本活动指南',
-  description: '埼玉県の小川町で2日間举办七夕祭典の初日に、花火が被燃放。祭りは15時から始まり、竹飾りが街装点中で北関東屈指のよさこい踊りや屋台曳きまわし、手すき和紙実演などが行われ、地域の伝統と文化を堪能可以内容だ。イメージキャラクター「星夢(すたむ)ちゃん」のグッズ販売も有、祭典に華を添える。なお、荒天の場合は花火のみ翌日27日(日)に延期される。',
+  description: '埼玉県の小川町で2日間举办七夕祭典の初日に、花火が被燃放。祭りは15時から始まり、竹飾りが街装点中で北関東屈指のよさこい踊りや屋台曳きまわし、手すき和紙実演などが行われ、地域の伝統と文化を堪能可以内容だ。イメージキャラクター「星夢(すたむ)ちゃん」のグッズ販売も有、祭典に華を添える。なお、荒天の場合は花火のみ翌日27日(日)延期される。',
 };

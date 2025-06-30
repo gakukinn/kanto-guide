@@ -13,7 +13,7 @@ const pageData = {
   "date": "2025年7月26日(土)",
   "time": "19：00至20：15",
   "venue": "富士森公園",
-  "access": "火车：从JR八王子站或JR西八王子站步行20分钟。京王电铁山田站步行15分钟地图",
+  "access": "火车：从JR八王子站或JR西八王子站步行20分钟。京王电铁山田站步行15分钟",
   "weatherInfo": "中止",
   "parking": "×",
   "price": "无（No）",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://cdn.midjourney.com/92b34d50-cfda-40e1-b0f0-312f1555a8a7/0_3.png",
       "title": "八王子花火大会图片1",
       "alt": "八王子花火大会图片1",

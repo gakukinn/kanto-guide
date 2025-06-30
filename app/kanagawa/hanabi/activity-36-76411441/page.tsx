@@ -13,7 +13,7 @@ const pageData = {
   "date": "2025年8月2日(土)",
   "time": "19：10 - 20：00燃放烟花",
   "venue": "清酒川体育广场",
-  "access": "[电车] JR鸭宫站南口步行15分钟，JR小田急小田原站乘往城东车库的巴士今井站下车，步行5分钟MAP",
+  "access": "[电车] JR鸭宫站南口步行15分钟，JR小田急小田原站乘往城东车库的巴士今井站下车，步行5分钟",
   "weatherInfo": "小雨将停止（如天气恶劣）",
   "parking": "×",
   "price": "从3500日元起（共7种型号出售）",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://www.odawara-kankou.com/global-image/units/img/207961-1-20250606151331_b6842870b7aba5.jpg",
       "title": "第36回 小田原酒匂川花火大会图片1",
       "alt": "第36回 小田原酒匂川花火大会图片1",

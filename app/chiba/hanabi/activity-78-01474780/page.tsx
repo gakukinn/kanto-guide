@@ -13,7 +13,7 @@ const pageData = {
   "date": "2025年8月15日(金)",
   "time": "19：05至20：30",
   "venue": "中岛公园",
-  "access": "[电车] JR木更津站西口步行10分钟[车]馆山路木更津南IC经国道127号、16号约10分钟MAP",
+  "access": "[电车] JR木更津站西口步行10分钟[车]馆山路木更津南IC经国道127号、16号约10分钟",
   "weatherInfo": "中止",
   "parking": "然而，建议使用公共交通工具。",
   "price": "有一个座位5000日元。门票将于7月1日星期二发售。",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://kisacon.com/wp-content/uploads/2025/05/minatomaturi2025.png",
       "title": "第78回 木更津港祭典图片1",
       "alt": "第78回 木更津港祭典图片1",

@@ -9,7 +9,7 @@ const activityData = {
   "access": "从JR横滨线“桥本站”、“相模原站”、“渊野边站”或JR相模线“上沟站”搭乘“田纳巴士总站”的巴士“田纳巴士总站”~步行15分钟",
   "organizer": "相模原納涼花火大会実行委員会",
   "price": "有收费观众席，详细内容请参照网站",
-  "contact": "相模原納涼花火大会実行委員会　sagamihara.hanabi@gmail.com、相模原市観光協会　042-771-3767",
+  "contact": "相模原納涼花火大会実行委員会　相模原.hanabi@gmail.com、相模原市観光協会　042-771-3767",
   "website": "https://sagamiharahanabi.com",
   "googleMap": "https://maps.google.com/maps?q=35.542701,139.329083&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "kanagawa",
@@ -19,7 +19,7 @@ const activityData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://yakei-fan.com/images/magazine/fireworks/pic_sagamihara-hanabi202301.jpg",
       "title": "相模原納涼花火大会（さがみはらのうりょうはなびたいかい）图片1",
       "alt": "相模原納涼花火大会（さがみはらのうりょうはなびたいかい）图片1",
@@ -47,6 +47,6 @@ export default function DetailPage() {
 export async function generateMetadata() {
   return {
     title: '相模原納涼花火大会（さがみはらのうりょうはなびたいかい） - 神奈川花火大会',
-    description: '多くの人々に愛される相模原市の夏の風物詩、「相模原納涼花火大会」が、高田橋上流で開催举行。スターマインやミュージック花火など、さまざまな花火が夜空を彩り、心に残る光景が繰り広げられます。打燃放げ場...',
+    description: '多くの人々に愛される相模原市の夏の風物詩、「相模原納涼花火大会」が、高田橋上流で開催举行。连发烟花やミュージック花火など、さまざまな花火が夜空を彩り、心に残る光景が繰り広げられます。打燃放げ場...',
   };
 }

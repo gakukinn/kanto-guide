@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://cdn.midjourney.com/60b25ac0-953d-4f92-ac54-e4bf355ba70f/0_2.png",
       "title": "第119回 長野えびす講煙火大会图片1",
       "alt": "第119回 長野えびす講煙火大会图片1",

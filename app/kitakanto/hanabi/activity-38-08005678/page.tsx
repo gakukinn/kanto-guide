@@ -13,7 +13,7 @@ const pageData = {
   "date": "2025年9月13日(土)",
   "time": "发射时间为18：30~20：30，发射时间约为120分钟。仪式开始于18：00",
   "venue": "Sakai Riverside Park（利根川河岸）",
-  "access": "（车）距离圈央道境古河IC约10分钟（约3. 5 km）的烟花大会当天预计会堵塞，因此从境古河IC需要约3小时的时间。当天会场周边有交通管制地图",
+  "access": "（车）距离圈央道境古河IC约10分钟（约3. 5 km）的烟花大会当天预计会堵塞，因此从境古河IC需要约3小时的时间。当天会场周边有交通管制",
   "weatherInfo": "恶劣天气推迟至2025年9月14日星期日18：30 - 20：30（仪式18：00起）",
   "parking": "○ 4，000个屋檐下停车场（8月以后开始预约，提前预约制）",
   "price": "有\n详细信息请参照官方网站",
@@ -31,7 +31,7 @@ const pageData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://tshop.r10s.jp/f085464-sakai/cabinet/imgrc0095585912.jpg",
       "title": "第38回 利根川大花火大会图片1",
       "alt": "第38回 利根川大花火大会图片1",

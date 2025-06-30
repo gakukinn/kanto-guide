@@ -4,7 +4,7 @@ const activityData = {
   "id": "recognition-hanabi-1750949360256",
   "name": "湘南光之花火大会（Shonan光之花大会）",
   "address": "〒254-0803　神奈川県平塚市千石河岸",
-  "datetime": "2025年8月22日　 19:00～20:00（予定）　※雨天時は24日に延期",
+  "datetime": "2025年8月22日　 19:00～20:00（予定）　※雨天時は24日延期",
   "venue": "神奈川県平塚市　相模川河口（湘南潮来）",
   "access": "从JR东海道本线“平冢站”南口乘坐“须贺港”的巴士“终点”~步行5分钟，或从圈央道“茅崎海岸IC”开车约5分钟，或从小田原厚木道“平冢IC”开车约20分钟",
   "organizer": "湘南ひらつか花火大会実行委員会",
@@ -19,7 +19,7 @@ const activityData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://yakei-fan.com/images/magazine/fireworks/pic_shonan-hiratsuka-hanabi2023082501.jpg",
       "title": "湘南ひらつか花火大会（しょうなんひらつかはなびたいかい）图片1",
       "alt": "湘南ひらつか花火大会（しょうなんひらつかはなびたいかい）图片1",
@@ -47,6 +47,6 @@ export default function DetailPage() {
 export async function generateMetadata() {
   return {
     title: '湘南ひらつか花火大会（しょうなんひらつかはなびたいかい） - 神奈川花火大会',
-    description: '湘南の夏装点風物詩として親しまれている「湘南ひらつか花火大会」が、相模川河口（湘南潮来）で開催举行。湘南の海を背景に、スターマインなど、約3000発の色とりどりの花火が打燃放げられ、夏の夜空に大...',
+    description: '湘南の夏装点風物詩として親しまれている「湘南ひらつか花火大会」が、相模川河口（湘南潮来）で開催举行。湘南の海を背景に、连发烟花など、約3000発の色とりどりの花火が打燃放げられ、夏の夜空に大...',
   };
 }

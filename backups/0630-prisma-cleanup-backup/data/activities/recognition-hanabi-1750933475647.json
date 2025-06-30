@@ -1,0 +1,37 @@
+{
+  "id": "recognition-hanabi-1750933475647",
+  "name": "越谷花火大会",
+  "fireworksCount": "約5000発　(予定)",
+  "fireworksTime": "約120分",
+  "expectedVisitors": "27万人",
+  "date": "2025年7月26日(土)",
+  "time": "19:00～21:00",
+  "venue": "越谷市中央市民会館葛西用水中土手",
+  "access": "【電車】東武鉄道越谷駅から徒歩6分MAP",
+  "weatherInfo": "小雨決行。荒天時は中止",
+  "parking": "×",
+  "price": "なし",
+  "contact": "048-971-9002 越谷市観光協会",
+  "foodStalls": "あり",
+  "notes": "详见官网",
+  "website": "https://www.koshigaya-sightseeing.jp/spot-play/spot/%e8%b6%8a%e8%b0%b7%e8%8a%b1%e7%81%ab%e5%a4%a7%e4%bc%9a/",
+  "googleMap": "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.889323,139.793332&center=35.889323,139.793332",
+  "description": "埼玉県越谷市で開催される花火大会。会場は「水郷こしがや」の象徴ともいえる葛西用水の中土手で、水辺から打ち上げられる花火が夜空と川面を幻想的に照らし出す。色とりどりのスターマインや迫力ある大玉などが次々と打ち上がり、にぎやかな音とともに街を包み込む。会場周辺には屋台も並び、夏祭りの風情を楽しみながら花火を鑑賞できるのも魅力のひとつ。当日は17時から21時30分まで交通規制が実施されるため、早めの来場と公共交通機関の利用がおすすめ。小雨の場合は開催されるが、荒天時は中止となるため、天候の確認も忘れずにしたい。",
+  "highlights": "葛西用水の中州から打ち上げられる約5000発の花火は、スターマインや連発花火など見応えのある演出がそろい、川面に映る鮮やかな光と音が一体となって観客を包み込む。露店も充実しており、屋台グルメを楽しみながら夏のひとときを過ごすことができる。",
+  "region": "saitama",
+  "activityType": "hanabi",
+  "detailLink": "/saitama/hanabi/activity--33475647",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://koshigayalaketown.net/wp-content/uploads/416919a3812bed07f8e4b8101a72798b-1.jpg",
+      "title": "越谷花火大会图片1",
+      "alt": "越谷花火大会图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-06-29T04:26:18.551Z",
+  "updatedAt": "2025-06-29T04:26:18.551Z"
+}

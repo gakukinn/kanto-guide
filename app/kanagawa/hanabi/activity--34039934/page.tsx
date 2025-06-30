@@ -19,7 +19,7 @@ const activityData = {
   "status": "scheduled",
   "media": [
     {
-      "type": "image",
+      "type": "image" as const,
       "url": "https://yakei-fan.com/images/magazine/fireworks/pic_hanabi-kanagawa2023071501.jpg",
       "title": "久里浜ペリー祭　花火大会（くりはまペリーさい　はなびたいかい）图片1",
       "alt": "久里浜ペリー祭　花火大会（くりはまペリーさい　はなびたいかい）图片1",
@@ -47,6 +47,6 @@ export default function DetailPage() {
 export async function generateMetadata() {
   return {
     title: '久里浜ペリー祭　花火大会（くりはまペリーさい　はなびたいかい） - 神奈川花火大会',
-    description: '黒船来航で知られるペリー提督の偉業を称える「久里浜ペリー祭」の、フィナーレを飾る花火大会が久里浜海岸周辺で開催举行。4号玉、スターマインをはじめ、水面に映える雄大な花火が久里浜港から打燃放げられ、...',
+    description: '黒船来航で知られるペリー提督の偉業を称える「久里浜ペリー祭」の、フィナーレを飾る花火大会が久里浜海岸周辺で開催举行。4号玉、连发烟花をはじめ、水面に映える雄大な花火が久里浜港から打燃放げられ、...',
   };
 }
