@@ -18,7 +18,14 @@ export default function HomePage() {
                 {/* 文字背景光晕 */}
                 <div className="absolute inset-0 scale-110 bg-gradient-to-r from-orange-200 to-red-200 opacity-30 blur-xl"></div>
                 <h1 className="relative bg-gradient-to-r from-orange-600 via-red-600 to-pink-600 bg-clip-text text-5xl font-bold text-transparent drop-shadow-lg md:text-6xl">
-                  关东 旅游指南
+                  {/* 移动端：两行显示 - 强制样式 */}
+                  <span className="block lg:hidden leading-tight">
+                    关东<br />旅游指南
+                  </span>
+                  {/* 桌面端：单行显示 */}
+                  <span className="hidden lg:block">
+                    关东 旅游指南
+                  </span>
                 </h1>
               </div>
             </div>

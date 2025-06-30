@@ -390,19 +390,24 @@ export default function UniversalStaticPageTemplate({
       </nav>
 
       {/* 完全复制原始标题区域 - 样式不变 */}
-      <section className="pb-12 pt-12 text-center">
+      <section className="pb-4 md:pb-12 pt-12 text-center">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-6 flex items-center justify-center">
             <span className="mr-4 text-5xl">{region.emoji}</span>
             <h1
               className={`bg-gradient-to-r text-4xl font-bold md:text-5xl ${getTitleGradient()} bg-clip-text text-transparent`}
             >
-              {pageTitle || `${region.displayName}${activityDisplayName}列表`}
+              {pageTitle || (
+                <span className="block">
+                  <span className="block md:inline">{region.displayName}</span>
+                  <span className="block md:inline text-3xl md:text-5xl">{activityDisplayName}列表</span>
+                </span>
+              )}
             </h1>
             <span className="ml-4 text-5xl">{activityEmoji}</span>
           </div>
 
-          <p className="mx-auto max-w-7xl text-lg leading-relaxed text-gray-700 md:text-xl">
+          <p className="mx-auto max-w-7xl text-lg leading-relaxed text-gray-700 md:text-xl hidden md:block">
             {pageDescription ||
               `体验${region.displayName}最精彩的${activityDisplayName}，感受${region.description}`}
           </p>
@@ -410,7 +415,7 @@ export default function UniversalStaticPageTemplate({
       </section>
 
       {/* 完全复制原始日历筛选器 - 样式不变 */}
-      <section className="py-8">
+      <section className="py-4 md:py-8">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div
             className={`bg-gradient-to-r ${getStandardBackgroundGradient()} rounded-2xl border-2 border-white/30 p-6 shadow-lg`}
@@ -459,7 +464,7 @@ export default function UniversalStaticPageTemplate({
       </section>
 
       {/* 完全复制原始活动列表 - 样式不变 */}
-      <section className="py-12">
+      <section className="py-4 md:py-12">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 md:gap-8">
             {sortedEvents.map(event => (
@@ -496,7 +501,7 @@ export default function UniversalStaticPageTemplate({
                         </div>
                       </div>
 
-                      <div className="flex flex-col items-center gap-3">
+                      <div className="flex flex-row items-center gap-2">
                         {/* 点赞按钮 - 显示随机红心数 */}
                         <button
                           onClick={() => handleLike(event.id)}
@@ -540,7 +545,7 @@ export default function UniversalStaticPageTemplate({
             if (!navigation) return null;
 
             return (
-              <div className="flex items-center justify-center space-x-4">
+              <div className="flex flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
                 {/* 上一个地区 */}
                 <Link
                   href={navigation.prev.href as any}

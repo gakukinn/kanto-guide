@@ -1,0 +1,16 @@
+{
+  "name": "关东旅游指南",
+  "short_name": "关东指南",
+  "description": "关东地区花火大会、祭典活动完整攻略",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+} 

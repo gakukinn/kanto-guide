@@ -22,10 +22,10 @@ export const regionConfigs = {
     bgColor: 'from-sky-50 to-cyan-100',
     themeColor: 'cyan',
     prevRegion: { name: '埼玉县', path: '/saitama', emoji: '🌸', bgColor: 'from-orange-50 to-amber-100' },
-    nextRegion: { name: '神奈川县', path: '/kanagawa', emoji: '⛵', bgColor: 'from-blue-100 to-blue-200' }
+    nextRegion: { name: '神奈川', path: '/kanagawa', emoji: '⛵', bgColor: 'from-blue-100 to-blue-200' }
   },
   kanagawa: {
-    name: '神奈川县',
+    name: '神奈川',
     emoji: '⛵',
     bgColor: 'from-blue-100 to-blue-200',
     themeColor: 'blue',
@@ -37,7 +37,7 @@ export const regionConfigs = {
     emoji: '♨️',
     bgColor: 'from-green-50 to-emerald-100',
     themeColor: 'green',
-    prevRegion: { name: '神奈川县', path: '/kanagawa', emoji: '⛵', bgColor: 'from-blue-100 to-blue-200' },
+    prevRegion: { name: '神奈川', path: '/kanagawa', emoji: '⛵', bgColor: 'from-blue-100 to-blue-200' },
     nextRegion: { name: '甲信越', path: '/koshinetsu', emoji: '🗻', bgColor: 'from-purple-50 to-violet-100' }
   },
   koshinetsu: {
@@ -81,8 +81,8 @@ export const seoTemplates = {
     keywords: ['千叶活动', '市川花火', '成田祗园祭', '茂原樱花', '东京迪士尼', '千叶海岸', '千叶旅游', '关东旅游']
   },
   kanagawa: {
-    title: '神奈川县活动指南 | 镰仓花火、横滨文化节、江之岛灯光秀',
-    description: '探索神奈川县的海滨魅力：镰仓花火大会、横滨红砖文化节、江之岛灯光秀、箱根红叶祭等精彩活动',
+    title: '神奈川活动指南 | 镰仓花火、横滨文化节、江之岛灯光秀',
+    description: '探索神奈川的海滨魅力：镰仓花火大会、横滨红砖文化节、江之岛灯光秀、箱根红叶祭等精彩活动',
     keywords: ['神奈川活动', '镰仓花火', '横滨文化节', '江之岛灯光', '箱根红叶', '湘南海岸', '神奈川旅游', '关东旅游']
   },
   kitakanto: {

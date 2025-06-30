@@ -211,9 +211,16 @@ export default function RegionPageTemplate({
               </div>
               <div>
                 <h1
-                  className={`mb-4 bg-gradient-to-r text-6xl font-bold tracking-tight md:text-7xl ${getRegionTitleGradient(regionKey)} bg-clip-text text-transparent drop-shadow-lg`}
+                  className={`mb-4 bg-gradient-to-r text-6xl font-bold tracking-tight md:text-7xl ${getRegionTitleGradient(regionKey)} bg-clip-text text-transparent drop-shadow-lg leading-tight`}
                 >
-                  {config.name} 活动指南
+                  {/* 移动端：两行显示 */}
+                  <span className="block lg:hidden">
+                    {config.name}<br /><span className="text-4xl">活动指南</span>
+                  </span>
+                  {/* 桌面端：单行显示 */}
+                  <span className="hidden lg:block">
+                    {config.name} 活动指南
+                  </span>
                 </h1>
               </div>
             </div>
@@ -227,9 +234,9 @@ export default function RegionPageTemplate({
         />
 
         {/* 活动类型选择 */}
-        <section className="bg-gradient-to-b from-white/30 to-white/20 py-16 backdrop-blur-sm">
+        <section className="bg-gradient-to-b from-white/30 to-white/20 py-0 md:py-16 backdrop-blur-sm">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mb-16 text-center">
+            <div className="mb-16 text-center hidden md:block">
               <h2 className="mb-6 text-4xl font-bold tracking-wide text-gray-800">
                 选择您感兴趣的活动类型
               </h2>
@@ -282,7 +289,7 @@ export default function RegionPageTemplate({
               <h3 className="text-lg font-bold text-gray-800">探索其他地区</h3>
             </div>
 
-            <div className="flex items-center justify-center space-x-4">
+            <div className="flex flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
               {/* 上一个地区 */}
               <Link
                 href={getRegionNavigation(regionKey).prev.href as any}

@@ -30,15 +30,16 @@
 @media (max-width: 768px) {
   .region-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 120px);
+    grid-template-rows: repeat(6, 200px);
     gap: 1rem;
     max-width: 500px;
     grid-template-areas:
-      'kitakanto kitakanto'
-      'koshinetsu koshinetsu'
+      'tokyo tokyo'
       'saitama saitama'
-      'tokyo chiba'
-      'kanagawa kanagawa';
+      'chiba chiba'
+      'kanagawa kanagawa'
+      'kitakanto kitakanto'
+      'koshinetsu koshinetsu';
   }
 
   .region-grid > * {

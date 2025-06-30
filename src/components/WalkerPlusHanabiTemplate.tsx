@@ -298,6 +298,21 @@ export default function WalkerPlusHanabiTemplate({
     return `from-${regionColor.from} to-${activityColor.to}`;
   };
 
+  // 转换Google Maps URL为不依赖API密钥的格式
+  const convertMapUrl = (url: string) => {
+    if (!url) return url;
+    
+    // 如果是Google Maps Embed API格式，提取坐标并转换
+    const embedApiMatch = url.match(/[?&]q=([^&]+)/);
+    if (embedApiMatch) {
+      const coords = embedApiMatch[1];
+      return `https://maps.google.com/maps?q=${coords}&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+    }
+    
+    // 如果已经是嵌入格式，直接返回
+    return url;
+  };
+
   return (
     <div className={`min-h-screen bg-gradient-to-br ${getStandardBackgroundGradient()}`}>
       {/* 面包屑导航 */}
@@ -309,7 +324,7 @@ export default function WalkerPlusHanabiTemplate({
         <section className={`bg-gradient-to-r ${getStandardBackgroundGradient()} pb-8 pt-8`}>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {/* 图片展示卡片 - 与标题卡片样式一致 */}
-            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
+            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-2 md:p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
               <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
                 {data.media && data.media.length > 0 ? (
                   <img
@@ -540,7 +555,7 @@ export default function WalkerPlusHanabiTemplate({
                 </h3>
                 <div className="w-full aspect-[16/9] rounded-2xl overflow-hidden border-2 border-gray-300">
                   <iframe
-                    src={data.googleMap}
+                    src={convertMapUrl(data.googleMap)}
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

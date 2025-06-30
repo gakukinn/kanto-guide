@@ -1,6 +1,7 @@
 import UniversalStaticPageTemplate from '../../../src/components/UniversalStaticPageTemplate';
 import { getStaticRegionActivityData } from '../../../src/lib/data-fetcher';
 
+// 甲信越地区配置
 const koshinetsuRegionConfig = {
   name: 'koshinetsu',
   displayName: '甲信越',
@@ -21,8 +22,6 @@ export default async function KoshinetsuHanabiPage() {  // 读取koshinetsuhanab
     <UniversalStaticPageTemplate
       region={koshinetsuRegionConfig}
       events={events}
-      pageTitle="甲信越花火大会列表"
-      pageDescription="甲信越夏季花火大会活动完全指南"
       regionKey="koshinetsu"
       activityKey="hanabi"
       activityDisplayName="花火大会"

@@ -240,7 +240,7 @@ export default function FeaturedActivities({
         {/* 单个热门活动展示 - 大尺寸展示 */}
         <div className="mx-auto max-w-6xl">
           {/* 图片展示区域 - 采用四层页面样式 + 增强动画 */}
-          <div className="mb-8 rounded-3xl border-2 border-red-200 bg-white/40 p-6 shadow-2xl backdrop-blur-sm transform translate-y-0 opacity-100 scale-100 hover:shadow-3xl hover:-translate-y-2 hover:rotate-1 transition-all duration-300">
+          <div className="mb-8 rounded-3xl border-2 border-red-200 bg-white/40 p-2 md:p-6 shadow-2xl backdrop-blur-sm transform translate-y-0 opacity-100 scale-100 hover:shadow-3xl hover:-translate-y-2 hover:rotate-1 transition-all duration-300">
             {/* 16:9 图片展示区域 + 动画增强 */}
             <div
               className={`relative aspect-video bg-gradient-to-br ${featuredActivity.bgColor} overflow-hidden rounded-2xl group cursor-pointer`}
@@ -349,25 +349,35 @@ export default function FeaturedActivities({
               {/* 查看详情按钮 - 右侧 + 增强动画 */}
               <Link
                 href={detailLink as any}
-                className="group inline-flex items-center space-x-2 whitespace-nowrap rounded-full bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:scale-110 hover:from-blue-600 hover:to-purple-700 hover:shadow-2xl hover:shadow-blue-500/30 relative overflow-hidden"
+                className="group inline-flex items-center justify-center whitespace-nowrap rounded-full bg-gradient-to-r from-blue-500 to-purple-600 px-4 py-2 md:px-8 md:py-3 font-semibold text-white shadow-lg transition-all duration-300 hover:scale-110 hover:from-blue-600 hover:to-purple-700 hover:shadow-2xl hover:shadow-blue-500/30 relative overflow-hidden"
               >
                 {/* 按钮闪光效果 */}
                 <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent transform -skew-x-12 transition-transform duration-1000 group-hover:translate-x-full translate-x-[-200%]"></div>
                 
-                <span className="relative z-10 transition-transform duration-200 group-hover:scale-105">查看详情</span>
-                <svg
-                  className="h-5 w-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1 group-hover:scale-110"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
+                {/* 手机端：只显示文字，居中 */}
+                <span className="relative z-10 transition-transform duration-200 group-hover:scale-105 block md:hidden">
+                  查看
+                </span>
+                
+                {/* 桌面端：文字+图标，间距布局 */}
+                <div className="hidden md:flex items-center space-x-2">
+                  <span className="relative z-10 transition-transform duration-200 group-hover:scale-105">
+                    查看详情
+                  </span>
+                  <svg
+                    className="h-5 w-5 relative z-10 transition-transform duration-300 group-hover:translate-x-1 group-hover:scale-110"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </div>
               </Link>
             </div>
           </div>
