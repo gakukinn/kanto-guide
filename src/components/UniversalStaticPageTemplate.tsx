@@ -173,6 +173,77 @@ interface UniversalStaticPageTemplateProps {
   activityEmoji?: string; // 活动表情符号
 }
 
+// 智能日期解析函数 - 移到组件外部避免依赖问题
+const parseDateForSorting = (dateStr: string): Date => {
+  if (!dateStr) return new Date('2999-12-31'); // 无日期的放最后
+  
+  try {
+    // 1. 处理标准格式：2025年7月2日
+    const standardMatch = dateStr.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+    if (standardMatch) {
+      const [, year, month, day] = standardMatch;
+      return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+    }
+    
+    // 2. 处理季节格式：夏季、秋季、冬季、春季
+    const seasonMatch = dateStr.match(/(春季|夏季|秋季|冬季)/);
+    if (seasonMatch) {
+      const [, season] = seasonMatch;
+      const currentYear = new Date().getFullYear();
+      const seasonMonths = {
+        '春季': 2, // 3月1日
+        '夏季': 5, // 6月1日
+        '秋季': 8, // 9月1日
+        '冬季': 11 // 12月1日
+      };
+      return new Date(currentYear, seasonMonths[season as keyof typeof seasonMonths], 1);
+    }
+    
+    // 3. 处理上中下旬格式：7月上旬 → 7月5日，7月中旬 → 7月15日，7月下旬 → 7月25日
+    const periodMatch = dateStr.match(/(\d{1,2})月(上旬|中旬|下旬)/);
+    if (periodMatch) {
+      const [, month, period] = periodMatch;
+      const currentYear = new Date().getFullYear();
+      const periodDays = { '上旬': 5, '中旬': 15, '下旬': 25 };
+      return new Date(currentYear, parseInt(month) - 1, periodDays[period as keyof typeof periodDays]);
+    }
+    
+    // 4. 处理范围日期：7月22日・23日 或 7月19日-8月11日 - 取第一个日期
+    const rangeMatch = dateStr.match(/(\d{4}年)?(\d{1,2})月(\d{1,2})日/);
+    if (rangeMatch) {
+      const [, yearPart, month, day] = rangeMatch;
+      const year = yearPart ? parseInt(yearPart.replace('年', '')) : new Date().getFullYear();
+      return new Date(year, parseInt(month) - 1, parseInt(day));
+    }
+    
+    // 5. 处理简单月日格式：7月2日
+    const simpleMatch = dateStr.match(/(\d{1,2})月(\d{1,2})日/);
+    if (simpleMatch) {
+      const [, month, day] = simpleMatch;
+      const currentYear = new Date().getFullYear();
+      return new Date(currentYear, parseInt(month) - 1, parseInt(day));
+    }
+    
+    // 6. 处理无效日期：日期待定、TBD等
+    if (dateStr.includes('待定') || dateStr.includes('TBD') || dateStr.includes('未定')) {
+      return new Date('2999-12-31'); // 无效日期放最后
+    }
+    
+    // 7. 尝试原生Date解析
+    const parsed = new Date(dateStr);
+    if (!isNaN(parsed.getTime())) {
+      return parsed;
+    }
+    
+    console.warn('无法解析日期格式:', dateStr);
+    return new Date('2999-12-31'); // 无法解析的放最后
+    
+  } catch (error) {
+    console.warn('日期解析错误:', dateStr, error);
+    return new Date('2999-12-31'); // 错误的放最后
+  }
+};
+
 export default function UniversalStaticPageTemplate({
   region,
   events,
@@ -281,77 +352,40 @@ export default function UniversalStaticPageTemplate({
     setLikes(initialLikes);
   }, [validatedEvents]);
 
-  // 完全复制原始筛选逻辑
+
+
+  // 修复的筛选逻辑
   const filteredEvents = useMemo(() => {
+    if (!startDate && !endDate) return validatedEvents;
+    
+    const startDateTime = startDate ? new Date(startDate) : null;
+    const endDateTime = endDate ? new Date(endDate) : null;
+    
     return validatedEvents.filter(event => {
       const eventDateStr = event.date || event.dates || '';
       
-      if (!startDate && !endDate) return true;
-      
-      // 简化的日期筛选逻辑
-      if (startDate || endDate) {
-        // 这里可以添加更复杂的日期筛选逻辑
-        return true; // 暂时返回所有事件
+      try {
+        const eventDate = parseDateForSorting(eventDateStr);
+        
+        // 无效日期（2999年）在筛选时排除
+        if (eventDate.getFullYear() === 2999) {
+          return false;
+        }
+        
+        // 日期范围检查
+        if (startDateTime && eventDate < startDateTime) return false;
+        if (endDateTime && eventDate > endDateTime) return false;
+        
+        return true;
+      } catch (error) {
+        console.warn('筛选时日期解析错误:', eventDateStr, error);
+        return false;
       }
-      
-      return true;
     });
   }, [validatedEvents, startDate, endDate]);
 
   // 完全复制原始排序逻辑
   const sortedEvents = useMemo(() => {
-    // 智能日期解析函数 - 支持多种日期格式
-    const parseDateForSorting = (dateStr: string): Date => {
-      if (!dateStr) return new Date('2999-12-31'); // 无日期的放最后
-      
-      try {
-        // 1. 处理标准格式：2025年7月2日
-        const standardMatch = dateStr.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
-        if (standardMatch) {
-          const [, year, month, day] = standardMatch;
-          return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
-        }
-        
-        // 2. 处理上中下旬格式：7月上旬 → 7月5日，7月中旬 → 7月15日，7月下旬 → 7月25日
-        const periodMatch = dateStr.match(/(\d{1,2})月(上旬|中旬|下旬)/);
-        if (periodMatch) {
-          const [, month, period] = periodMatch;
-          const currentYear = new Date().getFullYear();
-          const periodDays = { '上旬': 5, '中旬': 15, '下旬': 25 };
-          return new Date(currentYear, parseInt(month) - 1, periodDays[period as keyof typeof periodDays]);
-        }
-        
-        // 3. 处理范围日期：7月22日・23日 或 7月19日-8月11日 - 取第一个日期
-        const rangeMatch = dateStr.match(/(\d{4}年)?(\d{1,2})月(\d{1,2})日/);
-        if (rangeMatch) {
-          const [, yearPart, month, day] = rangeMatch;
-          const year = yearPart ? parseInt(yearPart.replace('年', '')) : new Date().getFullYear();
-          return new Date(year, parseInt(month) - 1, parseInt(day));
-        }
-        
-        // 4. 处理简单月日格式：7月2日
-        const simpleMatch = dateStr.match(/(\d{1,2})月(\d{1,2})日/);
-        if (simpleMatch) {
-          const [, month, day] = simpleMatch;
-          const currentYear = new Date().getFullYear();
-          return new Date(currentYear, parseInt(month) - 1, parseInt(day));
-        }
-        
-        // 5. 尝试原生Date解析
-        const parsed = new Date(dateStr);
-        if (!isNaN(parsed.getTime())) {
-          return parsed;
-        }
-        
-        console.warn('无法解析日期格式:', dateStr);
-        return new Date('2999-12-31'); // 无法解析的放最后
-        
-      } catch (error) {
-        console.warn('日期解析错误:', dateStr, error);
-        return new Date('2999-12-31'); // 错误的放最后
-      }
-    };
-
     return filteredEvents.sort((a, b) => {
       const dateA = parseDateForSorting(a.date || (a as any).dates || '');
       const dateB = parseDateForSorting(b.date || (b as any).dates || '');
