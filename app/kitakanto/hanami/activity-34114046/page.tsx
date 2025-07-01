@@ -43,7 +43,7 @@ const DetailPage = () => {
   media: [
     {
       type: "image" as const,
-      url: "https://mitokoumon.com/img/slide/ajisai2025.jpg",
+      url: "https://cdn.midjourney.com/7f46298f-fb7b-4dcd-bd20-b5095483a6e1/0_1.png",
       title: "第51回水戸のあじさい祭典（みとのあじさい祭典）图片1",
       alt: "第51回水戸のあじさい祭典（みとのあじさい祭典）图片1",
       caption: ""

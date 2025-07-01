@@ -2,7 +2,7 @@ import WalkerPlusHanabiTemplate from '@/components/WalkerPlusHanabiTemplate';
 
 const activityData = {
   "id": "recognition-hanabi-1750949980422",
-  "name": "水户 Yomon Matsuri 水户 Kairakuen烟花节（水户 Yomon Matsuri 水户 Karakuen hataka）",
+  "name": "水户黄门祭水户偕乐园花火大会",
   "address": "〒310-0851　茨城県水戸市千波町",
   "datetime": "2025年7月26日　 打燃放げ/19:30～20:30　※恶劣天气时翌日に順延",
   "venue": "水戸市　千波湖畔",
@@ -13,7 +13,7 @@ const activityData = {
   "website": "https://mitokoumon.com/event/summer/mitokairakuenhanabi/",
   "googleMap": "https://maps.google.com/maps?q=36.371896,140.460808&t=&z=15&ie=UTF8&iwloc=&output=embed",
   "region": "kitakanto",
-  "description": "为夏季水户夜空上色的“水户凯乐园烟花大会”，在千波湖畔举行。连续花火、音乐连续花火、尺玉、创作烟火等，内阁总理大臣奖最多获奖的野村烟火工业制作的约5000发烟火被投放，千波湖面被美丽地照亮。我们推荐您从千波湖北园路观赏。发数量：去年5000发观众数：去年23万人。",
+  "description": "为夏季水户夜空上色的“水户凯乐园花火大会”，在千波湖畔举行。连续花火、音乐连续花火、尺玉、创作烟火等，内阁总理大臣奖最多获奖的野村烟火工业制作的约5000发烟火被投放，千波湖面被美丽地照亮。我们推荐您从千波湖北园路观赏。发数量：去年5000发观众数：去年23万人。",
   "activityType": "hanabi",
   "themeColor": "red",
   "status": "scheduled",
@@ -35,7 +35,7 @@ const activityData = {
   "weatherInfo": "详见官网",
   "parking": "详见官网",
   "foodStalls": "详见官网",
-  "notes": "为夏季水户夜空上色的“水户凯乐园烟火大会”，在千波湖畔举行。连续花火、音乐连续花火、尺玉、创作烟火等，内阁总理大臣奖最多获奖的野村烟火工业制作的约5000发烟火被施放，千波湖面被美丽地照亮。我们推荐您从千波湖北园路观赏。※发射数量：去年5000发观众数：去年23万人",
+  "notes": "为夏季水户夜空上色的“水户凯乐园花火大会”，在千波湖畔举行。连续花火、音乐连续花火、尺玉、创作烟火等，内阁总理大臣奖最多获奖的野村烟火工业制作的约5000发烟火被施放，千波湖面被美丽地照亮。我们推荐您从千波湖北园路观赏。※发射数量：去年5000发观众数：去年23万人",
   "date": "详见官网",
   "time": "详见官网"
 };

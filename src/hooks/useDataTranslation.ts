@@ -43,7 +43,7 @@ const walkerPlusTranslations: Record<string, string> = {
   'あり': '有',
   'なし': '无',
   '×': '无',
-  '○': '有',
+  '': '有',
   '詳見官網': '详见官网',
   '詳細': '详情',
   '公式': '官方',

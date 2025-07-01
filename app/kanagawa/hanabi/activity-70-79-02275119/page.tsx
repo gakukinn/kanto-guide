@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "市制70周年纪念第79回阿次甜祭",
+  "name": "市制70周年纪念第79回厚木鲇鱼祭",
   "fireworksCount": "約1万発",
   "fireworksTime": "60分",
   "expectedVisitors": "約28万人",
@@ -17,7 +17,7 @@ const pageData = {
   "weatherInfo": "下雨了。恶劣天气取消。",
   "parking": "×",
   "price": "有\n有关收费观众席的信息，请查看官方网站。",
-  "contact": "080-7826-4362节实行委员会",
+  "contact": "080-7826-4362",
   "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://www.city.atsugi.kanagawa.jp/soshiki/shogyonigiwaika/7_1/5/43235.html",
@@ -25,8 +25,8 @@ const pageData = {
   "id": "1751102275121",
   "region": "kanagawa",
   "activityType": "hanabi",
-  "description": "* 会议日程将是过去的信息。关于即将举行的比赛的详细信息一旦确定，我们将更新。“阿津阿鱼节”将在香川县Atsugi市举行。烟花大会在第一天晚上举行，表演了在制品烟花和创作烟花等。最后的结局是“大尼亚加拉”，它是该省最大的规模。此外，节日将持续两天，包括游行和舞蹈比赛等市民参与的丰富多彩的活动。",
-  "highlights": "从斯塔马因开始，大玉、创作烟花等陆续发射。你可以在各种节目中欣赏烟火表演。",
+  "description": "市制70周年纪念第79回厚木鲇鱼祭将在神奈川县厚木市举行，节日为期两天，首日晚间举办烟花大会，表演多种精美烟花和创作烟花，最后以规模盛大的“大尼亚加拉”作为压轴，场面震撼。此外活动期间还将举办市民参与的游行、舞蹈活动等丰富多彩的庆典活动，具体举办详情将在确定后更新。",
+  "highlights": "从连发星雷开始，大玉、创作烟花等陆续发射。你可以在各种节目中欣赏烟火表演。",
   "themeColor": "red",
   "status": "scheduled",
   "media": [

@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.hkc.or.jp/",
   googleMap: "https://maps.google.com/maps?q=35.65098,139.322728&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "tokyo",
-  description: "为八王子市的夜空上色的人气烟火大会，在富士森公园举行。连续花火等约4000发烟火爆发，可以欣赏各式各样的光之艺术。您可以近距离观看包括3号球在内的烟花，震撼力也是完美的。※发射数：去年4000发观众数：去年90，000人",
+  description: "为八王子市的夜空上色的人气花火大会，在富士森公园举行。连续花火等约4000发烟火爆发，可以欣赏各式各样的光之艺术。您可以近距离观看包括3号球在内的烟花，震撼力也是完美的。※发射数：去年4000发观众数：去年90，000人",
   themeColor: "red",
   status: "scheduled",
   media: [

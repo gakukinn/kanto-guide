@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "第119届长野惠比寿讲烟火大会",
+  "name": "第119届长野惠比寿讲花火大会",
   "fireworksCount": "約1万発",
   "fireworksTime": "約90分",
   "expectedVisitors": "約40万人",
@@ -16,7 +16,7 @@ const pageData = {
   "access": "【电车】JR长野站东口步行30分钟",
   "weatherInfo": "下雨了。如果发生自然灾害，则取消（无延期日期）",
   "parking": "×",
-  "price": "销售完后就结束了。※详情在官方网站确认",
+  "price": "详见官网",
   "contact": "026-227-2428 長野商工会議所",
   "foodStalls": "有",
   "notes": "详见官网",

@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.abiko河童.website/",
   googleMap: "https://maps.google.com/maps?q=35.865514,140.014571&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "chiba",
-  description: "作为我孙子的象征性祭典，以“河童”为主题的“绫子河童祭”，在手贺沼公园举行。从儿童到青年和老年人的所有年龄段的人都参加了河童 音头舞游行、河童服装比赛和河童舞蹈。除了举办舞台活动外，还可以享受竹宵等乐趣。",
+  description: "作为我孙子的象征性祭典，以“河童”为主题的“绫子河童祭”，在手贺沼公园举行。从儿童到青年和老年人的所有年龄段的人都参加了河童 音头舞游行、河童服装活动和河童舞蹈。除了举办舞台活动外，还可以享受竹宵等乐趣。",
   themeColor: "red",
   status: "scheduled",
   media: [

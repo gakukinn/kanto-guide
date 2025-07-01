@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "愚蠢的公民2025",
+  "name": "海老名市民祭典 2025",
   "fireworksCount": "5000発",
   "fireworksTime": "详见官网",
   "expectedVisitors": "14万人　(祭典全体)",
@@ -25,7 +25,7 @@ const pageData = {
   "id": "1751176896463",
   "region": "kanagawa",
   "activityType": "hanabi",
-  "description": "* 会日程将是过去的信息。一度我们决定了即将举行的比赛的详细信息，我们将更新有关信息。“Ebina公民节”在香川县Ebina市举行，每年都吸引着大量的游客。在会场内，将实施由一般团体参展展位和舞台演出等各种企划，传达海老名的“魅力”、“活力”、“地域力”。装饰庆典终点的烟花将发射5000多发。色艳艳的烟花照亮了秋天清澈的海老名夜空。",
+  "description": "海老名市民祭典2025将在神奈川县海老名市举办，每年吸引大量游客前来参与。会场内设有市民团体展位和舞台表演等多种活动，展现海老名的魅力、活力与地域特色。作为庆典压轴，将燃放超过五千发烟花，色彩绚丽的烟花将点亮秋日晴朗的海老名夜空。",
   "highlights": "除了燃放烟花外，还开设了食品、商品销售、体验等摊位、舞台表演、体育体验等，Ebina体育公园内分为5个会场，从儿童到成人，各年龄段都可以享受一整天的节日。",
   "themeColor": "red",
   "status": "scheduled",

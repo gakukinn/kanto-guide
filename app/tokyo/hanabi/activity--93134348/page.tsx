@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "立川祭国营昭和纪念公园烟花大会",
+  "name": "立川祭国营昭和纪念公园花火大会",
   "fireworksCount": "5000発　(予定)",
   "fireworksTime": "60分",
   "expectedVisitors": "32万2575人",
@@ -17,7 +17,7 @@ const pageData = {
   "weatherInfo": "少雨，少雨，少雨。",
   "parking": "×",
   "price": "有\n特别赞助社入场券（收费观众席）预定销售。详情一经决定，将在官方网站公布。",
-  "contact": "042-527-2700立川祭国营昭和纪念公园烟花大会实行委员会",
+  "contact": "042-527-2700立川祭国营昭和纪念公园花火大会实行委员会",
   "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://hanabi.tokyo-tachikawa.org/",
@@ -25,7 +25,7 @@ const pageData = {
   "id": "1751093134349",
   "region": "tokyo",
   "activityType": "hanabi",
-  "description": "在东京立川市举行的立川祭国营昭和纪念公园烟花节。这是立川夏季的特色菜，除了在东京很难见到的壮观烟花和火花，如长玉和一尺五寸玉，还有烟花工匠在比赛中获奖作品的艺术合作玉等，其特点是永远不会让观众感到厌倦。另外，每年都受到好评的付费观众席，在大赛日接近时可能会卖光，所以建议提早购买。",
+  "description": "在东京立川市举行的立川祭国营昭和纪念公园烟花节。这是立川夏季的特色活动，除了在东京很难见到的壮观烟花和火花，如长玉和一尺五寸玉，还有烟花工匠在活动中获奖作品的艺术合作玉等，其特点是永远不会让观众感到厌倦。另外，每年都受到好评的付费观众席，在活动日接近时可能会卖光，所以建议提早购买。",
   "highlights": "国家昭和纪念公园是主要的观赏地点，在宽阔的草坪上，有一个充满开放感的座位，让您可以放松和放松。当天18点以后，入园费将免费，但还设置了收费观众席，因此无需占用场地，就可以在最佳观看场所欣赏烟花。",
   "themeColor": "red",
   "status": "scheduled",

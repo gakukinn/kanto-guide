@@ -23,7 +23,7 @@ const activityData = {
   website: "https://yachiyocci.jp/info/news/50th-oyako/",
   googleMap: "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.733034,140.112285&center=35.733034,140.112285",
   region: "chiba",
-  description: "* 会议日程将是过去的信息。关于预定举行的大会的详细情况决定后，我们将更新信息]八千代故乡亲子节将在千叶县八千代市举行。巨大的烟花将八千代的夜空染成了色彩鲜艳的色彩。在最接近的地方享受烟花的震撼力的座席赞助座位门票和一般场地赞助门票都出售，让您可以慢慢地欣赏烟花。从当天16点开始，还将举行盂兰盆舞、惯例的灯火流和模拟店开张等活动。",
+  description: "* 活动日程可能有变化。关于预定举行的大会的详细情况决定后，我们将更新信息]八千代故乡亲子节将在千叶县八千代市举行。巨大的烟花将八千代的夜空染成了色彩鲜艳的色彩。在最接近的地方享受烟花的震撼力的座席赞助座位门票和一般场地赞助门票都出售，让您可以慢慢地欣赏烟花。从当天16点开始，还将举行盂兰盆舞、惯例的灯火流和模拟店开张等活动。",
   activityType: "matsuri",
   detailLink: "/chiba/matsuri/activity-51-01670724",
   themeColor: "red",

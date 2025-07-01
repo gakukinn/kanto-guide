@@ -82,7 +82,7 @@ export function useAutoTranslation() {
   const fallbackTranslation = async (text: string): Promise<string> => {
     // 备用方案1：简单的日文关键词替换
     const commonTranslations: Record<string, string> = {
-      '花火大会': '烟花大会',
+      '花火大会': '花火大会',
       '夏祭り': '夏日祭典',
       '打ち上げ': '燃放',
       'スターマイン': '连续烟花',

@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "长冈祭大烟花大会",
+  "name": "长冈祭大花火大会",
   "fireworksCount": "详见官网",
   "fireworksTime": "約110分",
   "expectedVisitors": "約34万5000人　2024年実績(2日間合計の有料観覧者数)",
@@ -14,7 +14,7 @@ const pageData = {
   "time": "19：20 - 21：10 （发射时间）",
   "venue": "信濃川河川敷",
   "access": "[火车]从JR长冈站步行30分钟[汽车]从关越道长冈IC约20分钟",
-  "weatherInfo": "小雨行（如发射场被淹水或强风，延期或取消）",
+  "weatherInfo": "雨天照常（如燃放场被淹水或强风，延期或取消）",
   "parking": "请查阅官方网站。",
   "price": "有\n详细信息请查看官方网站",
   "contact": "0570-082-083 （导航拨号）长冈烟花票务中心",
@@ -25,7 +25,7 @@ const pageData = {
   "id": "recognition-hanabi-1750934910598",
   "region": "koshinetsu",
   "activityType": "hanabi",
-  "description": "每年的8月2日和3日举行的烟花节，展示了长冈市民的特殊愿望，包括对在长冈空袭中丧生的人们的慰灵，对为重建做出努力的先辈的感谢，以及对永久和平的愿望。信浓川两岸设有观览席，可以从两个方向观看烟花。这是一个罕见的烟花节，有许多演出使用了大量的shakamatama。",
+  "description": "长冈祭大花火大会于8月2日和3日在长冈市举行，寄托市民对长冈空袭中罹难者的悼念、对重建先辈的感恩及对永久和平的祈愿。观众可在信浓川两岸观赏烟花，从不同方向欣赏绚丽景色。大会以大规模演出和大量尺玉烟花表演著称，是极具特色和震撼力的夏日盛会。",
   "highlights": "开花宽约650米的正三尺玉，以及开花宽约2公里的不死鸟飞舞的独一无二的烟火“复兴祈愿凤凰城”，在长冈的夜空中闪耀光芒的观光，是必看的。",
   "themeColor": "red",
   "status": "scheduled",

@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.koshigaya-sightseeing.jp/",
   googleMap: "https://maps.google.com/maps?q=35.889863,139.791746&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "saitama",
-  description: "以浮在水乡小屋上的烟火让许多人感动，并举办将梦想传递给周边地区的“越谷烟火大会”。以连续花火为中心，将燃放2.5号球等约5000发多彩的烟火，无数的光华将夜空和水面涂上色彩。由于发射的高度较低，您可以欣赏到充满活力的烟花。我们推荐的观赏地点是开赛亲水绿道。※发射数：去年5000发观众数：去年27万人",
+  description: "以浮在水乡小屋上的烟火让许多人感动，并举办将梦想传递给周边地区的“越谷花火大会”。以连续花火为中心，将燃放2.5号球等约5000发多彩的烟火，无数的光华将夜空和水面涂上色彩。由于发射的高度较低，您可以欣赏到充满活力的烟花。我们推荐的观赏地点是开赛亲水绿道。※发射数：去年5000发观众数：去年27万人",
   themeColor: "red",
   status: "scheduled",
   media: [

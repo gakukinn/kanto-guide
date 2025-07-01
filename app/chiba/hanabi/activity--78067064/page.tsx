@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "柏崎祭海之大烟花大会",
+  "name": "柏崎祭海之大花火大会",
   "fireworksCount": "約1万6000発",
   "fireworksTime": "約100分",
   "expectedVisitors": "約17万人　2024年実績",
@@ -14,8 +14,8 @@ const pageData = {
   "time": "19：30至21：10",
   "venue": "柏崎市中央海岸·港町海滨公园一带",
   "access": "[电车] JR柏崎站步行25分钟※2025年无接驳巴士服务",
-  "weatherInfo": "雨天行，如天气恶劣，则有可能顺延至实施可能日※当天上午9点在防灾无线电和市官方网站公布",
-  "parking": "○2500台",
+  "weatherInfo": "雨天照常举行，如天气恶劣，则有可能顺延至实施可能日※当天上午9点在防灾无线电和市官方网站公布",
+  "parking": "2500台",
   "price": "到2025年4月28日，收费观众席的申请已经结束。",
   "contact": "0257-21-2334柏崎祭赞助会",
   "foodStalls": "有",

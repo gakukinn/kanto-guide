@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://matsudo-hanabi.com/",
   googleMap: "https://maps.google.com/maps?q=35.803218,139.89228&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "chiba",
-  description: "松岛市夏季的大型活动“松岛烟花节2025”将在古崎河边体育广场举行。包含最大5号球的星矿和各种装置烟火等，约有1万发，为夏季夜空增添色彩。会场上有各种各样的厨房车，你可以一边享用食物和饮料一边欣赏烟花。※发射数：10，000发，去年15，000发，观众数：去年270，000人",
+  description: "松岛市夏季的大型活动“松岛烟花节2025”将在古崎河边体育广场举行。包含最大5号球的星火和各种装置烟火等，约有1万发，为夏季夜空增添色彩。会场上有各种各样的厨房车，你可以一边享用食物和饮料一边欣赏烟花。※发射数：10，000发，去年15，000发，观众数：去年270，000人",
   themeColor: "red",
   status: "scheduled",
   media: [

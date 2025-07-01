@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "http://www.shinbashi.net/top/koichi/2025/",
   googleMap: "https://maps.google.com/maps?q=35.667108,139.757624&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "tokyo",
-  description: "由新桥地区志愿者发起的“新桥小一节”将在日本铁路新桥站前蒸汽机车广场、樱田公园等地举行。除了在樱田公园举行盂兰盆舞和“浴衣选美比赛”外，还将在乌森多里举行节庆活动。会场周围也有许多摊位，在两天的时间里，这里挤满了很多人。",
+  description: "由新桥地区志愿者发起的“新桥小一节”将在日本铁路新桥站前蒸汽机车广场、樱田公园等地举行。除了在樱田公园举行盂兰盆舞和“浴衣选美活动”外，还将在乌森多里举行节庆活动。会场周围也有许多摊位，在两天的时间里，这里挤满了很多人。",
   themeColor: "red",
   status: "scheduled",
   media: [

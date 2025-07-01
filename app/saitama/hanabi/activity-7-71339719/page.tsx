@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "令和7年度埼玉市烟花大会小和田公园会场",
+  "name": "令和7年度埼玉市花火大会大和田公园会场",
   "fireworksCount": "未定",
   "fireworksTime": "約60分(予定)",
   "expectedVisitors": "約9万人(2023年実績)",
@@ -16,8 +16,8 @@ const pageData = {
   "access": "[电车]东武都市公园线（野田线）大宫公园站或小和田站步行15分钟",
   "weatherInfo": "暴风雨停止，无顺延日",
   "parking": "×",
-  "price": "有（有）",
-  "contact": "050-3665-9607 NTT IP Voice音频介绍。2024年7月19日（星期五）至8月17日（星期六）（24小时支持）* 预付费式手机、部分IP、光纤线路等可能无法使用。",
+  "price": "详见官网",
+  "contact": "050-3665-9607",
   "foodStalls": "有",
   "notes": "详见官网",
   "website": "https://visitsaitamacity.jp/events/28",
@@ -25,8 +25,8 @@ const pageData = {
   "id": "1751171339720",
   "region": "saitama",
   "activityType": "hanabi",
-  "description": "* 会日程将是过去的信息。有关计划举行的比赛的详细信息一旦确定，我们将更新。“埼玉市烟花大会”是埼玉县埼玉市的烟花大会，是关东地区最大的烟花大会之一，分为三个现场举行。小和田公园开幕的场地及其美丽的前景而自豪。在埼玉夏季的夜晚空中，燃放了快打、星马因等多种多样的烟花，出现了巨大的烟花。",
-  "highlights": "由于小和田公园周围是烟花节的场地，没有高大的建筑物，所以你可以从任何方向观看，并与家人和朋友一起欣赏。",
+  "description": "* 活动日程可能有变化。有关计划举办的活动的详细信息一旦确定，我们将更新。活动是关东地区最大的花火大会之一，分为三个现场举行。大和田公园开幕的场地及其美丽的前景而自豪。在埼玉夏季的夜晚空中，燃放了快打、星火等多种多样的烟花，出现了巨大的烟花。",
+  "highlights": "由于大和田公园周围是烟花节的场地，没有高大的建筑物，所以你可以从任何方向观看，并与家人和朋友一起欣赏。",
   "themeColor": "red",
   "status": "scheduled",
   "media": [

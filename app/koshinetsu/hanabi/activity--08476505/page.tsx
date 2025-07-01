@@ -6,7 +6,7 @@
 import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
 
 const pageData = {
-  "name": "新潟节烟花大会",
+  "name": "新潟节花火大会",
   "fireworksCount": "非公開",
   "fireworksTime": "約60分",
   "expectedVisitors": "約34万人　(2024年)",
@@ -16,7 +16,7 @@ const pageData = {
   "access": "火车：从JR新潟站步行20分钟。从JR白山站步行15分钟",
   "weatherInfo": "如遇恶劣天气，取消（不延期）",
   "parking": "* 使用附近的私人停车场",
-  "price": "没有，但有一个座位。详情请参见官方网站。",
+  "price": "详情请参见官方网站。",
   "contact": "025 - 226 - 2608新潟祭实行委员会（新潟市观光政策课内）",
   "foodStalls": "详见官网",
   "notes": "详见官网",
@@ -25,7 +25,7 @@ const pageData = {
   "id": "1751108476506",
   "region": "koshinetsu",
   "activityType": "hanabi",
-  "description": "2025年8月8日（星期五）至10日（节假日）为期3天的新潟祭，是代表新潟的夏季风景诗。在最后的烟火大会上，音乐烟花和充满震撼力的大型连续花火等让观众尽情享受。以被称为日本最长河流的信诺河为舞台，可以欣赏到优美景观。",
+  "description": "2025年8月8日（星期五）至10日（节假日）为期3天的新潟祭，是代表新潟的夏季风景诗。在最后的花火大会上，音乐烟花和充满震撼力的大型连续花火等让观众尽情享受。以被称为日本最长河流的信诺河为舞台，可以欣赏到优美景观。",
   "highlights": "与信诺河沿岸的街道融为一体的烟花节，是夏日记忆的完美场所。在宽阔的河流和夜空的背景下，燃放了五颜六色的烟花。",
   "themeColor": "red",
   "status": "scheduled",
