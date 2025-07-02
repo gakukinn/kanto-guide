@@ -39,6 +39,13 @@ npm run dev
 
 - 生产环境: https://kanto-guide-gjfy.vercel.app/
 
-## �� 许可证
+## 📅 许可证
 
 MIT License 
+
+## Auto-Update
+
+This project automatically updates daily at 9:00 AM (JST) to ensure the latest information is available.
+
+---
+*Last updated: 2025-07-02* 
