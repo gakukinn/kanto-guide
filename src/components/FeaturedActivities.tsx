@@ -184,10 +184,6 @@ const getRegionColors = (region: string) => {
       bgColor: 'from-blue-100 to-blue-200',
       borderColor: 'border-blue-200',
     },
-    神奈川: {
-      bgColor: 'from-blue-100 to-blue-200',
-      borderColor: 'border-blue-200',
-    },
     // 北关东：绿色系
     北关东: {
       bgColor: 'from-green-50 to-emerald-100',
