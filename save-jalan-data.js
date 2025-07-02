@@ -22,7 +22,7 @@ async function saveKurihamaHanabiData() {
         data: {
           code: 'kanagawa',
           nameJa: '神奈川県',
-          nameCn: '神奈川县',
+          nameCn: '神奈川',
           nameEn: 'Kanagawa Prefecture'
         }
       });

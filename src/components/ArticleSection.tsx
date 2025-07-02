@@ -51,7 +51,7 @@ export default function ArticleSection({
         {/* 标题区域 */}
         <div className="mb-8 text-center">
           <h2 className="mb-4 text-3xl font-bold text-gray-800">
-            📰 {regionName}深度阅读
+            📰 {regionName}活动主题
           </h2>
           <p className="text-lg text-gray-600">
             深入了解{regionName}的文化魅力，获取最新活动资讯
@@ -68,15 +68,17 @@ export default function ArticleSection({
               {/* 文章卡片主体 */}
               <div className="flex flex-col md:flex-row">
                 {/* 图片区域 - 左侧，16:9比例 */}
-                <div className="relative h-48 w-full md:h-32 md:w-48 lg:h-40 lg:w-64">
-                  <Image
-                    src={article.imageUrl}
-                    alt={article.title}
-                    fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    className="object-cover"
-                    loading="lazy"
-                  />
+                <div className="p-2">
+                  <div className="relative h-48 w-full md:h-32 md:w-48 lg:h-40 lg:w-64 overflow-hidden rounded-xl">
+                    <Image
+                      src={article.imageUrl}
+                      alt={article.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                      className="object-cover"
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
 
                 {/* 内容区域 - 右侧 */}

@@ -1,5 +1,5 @@
 /**
- * 神奈川县活动指南页面
+ * 神奈川活动指南页面
  */
 
 import RegionPageTemplate from '@/components/RegionPageTemplate';

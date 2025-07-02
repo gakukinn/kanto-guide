@@ -8,7 +8,7 @@ const kitakantoRegion = {
   emoji: '🌸',
   description: '群马栃木茨城三县的自然与传统',
   navigationLinks: {
-    prev: { name: '神奈川县', url: '/kanagawa/culture', emoji: '🗻' },
+    prev: { name: '神奈川', url: '/kanagawa/culture', emoji: '🗻' },
     next: { name: '甲信越', url: '/koshinetsu/culture', emoji: '🏔️' },
     current: { name: '北关东', url: '/kitakanto' }
   }

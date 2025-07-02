@@ -179,7 +179,7 @@ export interface CultureArtData {
   // 新增标签系统
   tags: {
     timeTag: string; // 时间标签：7月、8月、9月、10月
-    regionTag: string; // 地区标签：东京都、神奈川县、千叶县等
+    regionTag: string; // 地区标签：东京都、神奈川、千叶县等
     typeTag: string; // 活动类型标签：文化艺术
     layerTag: string; // 层级标签：Layer 4详情页
   };

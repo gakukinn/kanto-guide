@@ -85,7 +85,7 @@ export const regionConfig: Record<string, RegionConfig> = {
     },
   },
   kanagawa: {
-    name: '神奈川县',
+    name: '神奈川',
     emoji: '⛵',
     color: 'from-blue-100 to-blue-200',
     borderColor: 'border-white/60',

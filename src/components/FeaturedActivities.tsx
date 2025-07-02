@@ -179,8 +179,8 @@ const getRegionColors = (region: string) => {
       bgColor: 'from-sky-50 to-cyan-100',
       borderColor: 'border-sky-200',
     },
-    // 神奈川县：蓝色系
-    神奈川县: {
+    // 神奈川：蓝色系
+    神奈川: {
       bgColor: 'from-blue-100 to-blue-200',
       borderColor: 'border-blue-200',
     },

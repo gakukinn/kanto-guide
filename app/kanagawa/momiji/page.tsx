@@ -3,13 +3,13 @@ import UniversalStaticPageTemplate from '../../../src/components/UniversalStatic
 // 神奈川地区配置
 const kanagawaRegion = {
   name: 'kanagawa',
-  displayName: '神奈川县',
+  displayName: '神奈川',
   emoji: '🗻',
   description: '湘南海岸与古都镰仓的历史文化',
   navigationLinks: {
     prev: { name: '千叶县', url: '/chiba/momiji', emoji: '🌊' },
     next: { name: '北关东', url: '/kitakanto/momiji', emoji: '🌸' },
-    current: { name: '神奈川县', url: '/kanagawa' }
+    current: { name: '神奈川', url: '/kanagawa' }
   }
 };
 

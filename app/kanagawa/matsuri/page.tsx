@@ -4,13 +4,13 @@ import { getStaticRegionActivityData } from '../../../src/lib/data-fetcher';
 // 神奈川地区配置
 const kanagawaRegion = {
   name: 'kanagawa',
-  displayName: '神奈川县',
+  displayName: '神奈川',
   emoji: '⛰️',
   description: '富士山麓与湘南海岸的自然与文化',
   navigationLinks: {
     prev: { name: '千叶县', url: '/chiba/matsuri', emoji: '🌊' },
     next: { name: '北关东', url: '/kitakanto/matsuri', emoji: '🌄' },
-    current: { name: '神奈川县', url: '/kanagawa' }
+    current: { name: '神奈川', url: '/kanagawa' }
   }
 };
 

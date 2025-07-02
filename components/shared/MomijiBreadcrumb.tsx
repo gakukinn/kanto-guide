@@ -12,7 +12,7 @@ const getRegionName = (regionKey: string) => {
     tokyo: '东京都',
     saitama: '埼玉县',
     chiba: '千叶县',
-    kanagawa: '神奈川县',
+    kanagawa: '神奈川',
     kitakanto: '北关东',
     koshinetsu: '甲信越',
   };

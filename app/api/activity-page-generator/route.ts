@@ -490,7 +490,7 @@ export async function POST(request: NextRequest) {
           'tokyo': ['东京都', '東京都'],
           'saitama': ['埼玉県', '埼玉县'],
           'chiba': ['千葉県', '千叶县'],
-          'kanagawa': ['神奈川県', '神奈川县'],
+          'kanagawa': ['神奈川県', '神奈川'],
           'kitakanto': ['茨城県', '栃木県', '群馬県'],
           'koshinetsu': ['山梨県', '長野県', '新潟県', '富山県']
         };
