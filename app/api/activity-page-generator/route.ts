@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
-
 // 活动类型配置 - 统一使用UniversalStaticDetailTemplate
 const ACTIVITY_CONFIGS = {
   matsuri: {
@@ -410,16 +409,16 @@ const areAddressesSimilar = (addr1: string, addr2: string): boolean => {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { recognitionData, activityType, forceOverwrite = false, overwriteTargetId = null, options = {} } = body;
+    const { databaseId, recognitionData, activityType, forceOverwrite = false, overwriteTargetId = null, options = {} } = body;
     
     // 🐛 调试信息：检查forceOverwrite的值
     console.log(`🔧 调试信息 - forceOverwrite: ${forceOverwrite} (类型: ${typeof forceOverwrite})`);
 
     // 验证参数 - 支持两种模式：数据库模式和识别数据模式
-    if (!recognitionData) {
+    if (!databaseId && !recognitionData) {
       return NextResponse.json({
         success: false,
-        message: '缺少识别数据'
+        message: '缺少数据库记录ID或识别数据'
       }, { status: 400 });
     }
 
@@ -433,12 +432,46 @@ export async function POST(request: NextRequest) {
     const config = ACTIVITY_CONFIGS[activityType as keyof typeof ACTIVITY_CONFIGS];
     
     let data: any;
-    
+    let isRecognitionMode = false;
 
-    if (recognitionData) {
+    if (databaseId) {
+      // JSON文件模式 - 从data/activities目录读取活动数据
+      console.log(`开始生成${config.name}页面，活动ID: ${databaseId}`);
+      
+      try {
+        // 从JSON文件读取活动数据
+        const activitiesDir = path.join(process.cwd(), 'data', 'activities');
+        const activityFilePath = path.join(activitiesDir, `${databaseId.trim()}.json`);
+        
+        const content = await fs.readFile(activityFilePath, 'utf-8');
+        data = JSON.parse(content);
+        
+        // 验证活动类型是否匹配
+        if (data.activityType !== activityType) {
+          return NextResponse.json({
+            success: false,
+            message: `活动类型不匹配：期望 ${activityType}，实际 ${data.activityType}`
+          }, { status: 400 });
+        }
+        
+      } catch (fileError) {
+        console.error('JSON文件读取错误:', fileError);
+        return NextResponse.json({
+          success: false,
+          message: `读取活动数据失败: ${fileError instanceof Error ? fileError.message : '未知错误'}`
+        }, { status: 500 });
+      }
+
+      if (!data) {
+        return NextResponse.json({
+          success: false,
+          message: `未找到ID为 ${databaseId} 的${config.name}记录`
+        }, { status: 404 });
+      }
+    } else {
       // 识别数据模式
       console.log(`开始生成${config.name}页面，使用识别数据`);
-      
+      isRecognitionMode = true;
       
       // 从识别数据构建数据对象
       const textResult = recognitionData.textResult;
@@ -782,8 +815,8 @@ export async function POST(request: NextRequest) {
     const url = `http://localhost:3000/${regionPath}/${activityTypePath}/${detailPageFolder}`;
     const detailLink = `/${regionPath}/${activityTypePath}/${detailPageFolder}`;
 
-    // 🔗 静态模式：不需要数据库连接
-    console.log(`🤖 静态模式：页面已生成，使用JSON数据存储`);
+    // ✅ JSON文件模式：detailLink已在JSON文件生成时包含，无需额外更新
+    console.log(`✅ 页面链接已生成: ${detailLink}`);
 
     // 生成JSON文件
     const jsonResult = await generateJSONFiles(
@@ -802,7 +835,7 @@ export async function POST(request: NextRequest) {
           fileName,
           url,
           detailLink,
-          activityId: data.id,
+          databaseId: data.id,
           activityName: data.name,
           template: config.template,
           regionPath,
@@ -819,7 +852,7 @@ export async function POST(request: NextRequest) {
             total: 10,
             filled: [data.name, data.address, data.datetime, data.venue, data.access, data.organizer, data.price, data.contact, data.website, data.googleMap].filter(Boolean).length
           },
-        connectionEstablished: true ? '🤖 识别模式：页面已生成，未连接数据库' : '✅ 已自动建立与三层卡片的连接',
+        connectionEstablished: isRecognitionMode ? '🤖 识别模式：页面已生成，未连接数据库' : '✅ 已自动建立与三层卡片的连接',
         activityFile: jsonResult.activityFile,
         regionFile: jsonResult.regionFile,
         jsonData: jsonResult.data

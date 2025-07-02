@@ -1,0 +1,29 @@
+{
+  "id": "recognition-matsuri-1751378502925",
+  "name": "桐生八木節まつり（きりゅうやぎぶしまつり）",
+  "address": "〒376-0031　群馬県桐生市本町、末広町　ほか",
+  "datetime": "2025年8月1日～3日　 ※催しにより日時が異なる（詳細はホームページで要確認）",
+  "venue": "群馬県桐生市　本町通り、末広通り、市内各所",
+  "access": "ＪＲ両毛線「桐生駅」下車、または東武桐生線「新桐生駅」下車",
+  "organizer": "桐生八木節まつり協賛会",
+  "price": "",
+  "contact": "桐生市役所観光交流課　0277-44-0754、桐生商工会議所　0277-45-1201　※開催中の問い合わせは桐生八木節まつり協賛会事務局0277-46-5215へ",
+  "website": "http://kiryu-maturi.net/",
+  "googleMap": "https://maps.google.com/maps?q=36.410501,139.338471&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "kitakanto",
+  "description": "桐生の夏を代表する「桐生八木節まつり」が開催されます。群馬県内外からの参加者が自慢の音頭を披露する「全日本八木節競演大会」をはじめ、桐生祇園のみこし渡御、桐生織物メチャクチャ市、八木節おどり、八木節子ども大会、ダンス八木節などが市内各所で繰り広げられます。",
+  "activityType": "matsuri",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://cdn.midjourney.com/0f970f7b-6f11-4f17-91df-a50a8da4ef41/0_2.png",
+      "title": "桐生八木節まつり（きりゅうやぎぶしまつり）图片1",
+      "alt": "桐生八木節まつり（きりゅうやぎぶしまつり）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-07-01T14:01:42.972Z",
+  "updatedAt": "2025-07-01T14:01:42.972Z"
+}

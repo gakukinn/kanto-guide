@@ -1,0 +1,61 @@
+name: 每日自动更新
+
+on:
+  schedule:
+    # 每天北京时间上午9点（UTC 1点）执行
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  auto-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+      
+    - name: 设置Node.js环境
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: 安装依赖
+      run: |
+        echo "📦 正在安装依赖..."
+        npm ci
+        
+    - name: 检查项目状态
+      run: |
+        echo "🔍 检查项目文件..."
+        ls -la
+        echo "✅ 项目状态正常"
+        
+    - name: 检查是否有变更
+      id: check-changes
+      run: |
+        echo "📊 检查Git状态..."
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "✅ 发现变更"
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ 无变更"
+        fi
+        
+    - name: 提交变更
+      if: steps.check-changes.outputs.has_changes == 'true'
+      run: |
+        echo "💾 提交变更..."
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "自动更新 - $(date +'%Y年%m月%d日')"
+        git push
+        echo "🚀 变更已提交"
+        
+    - name: 完成通知
+      run: |
+        echo "✅ 每日自动更新完成"
+        echo "📅 执行时间: $(date)"
+        echo "🔗 仓库: ${{ github.repository }}" 

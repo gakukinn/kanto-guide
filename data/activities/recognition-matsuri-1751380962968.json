@@ -1,0 +1,29 @@
+{
+  "id": "recognition-matsuri-1751380962968",
+  "name": "津南まつり（つなんまつり）",
+  "address": "〒949-8201　新潟県津南町下船渡戊585",
+  "datetime": "2025年7月26日　 終日",
+  "venue": "新潟県津南町　津南町役場駐車場",
+  "access": "ＪＲ飯山線「津南駅」から鹿渡新田線の南越後観光バス約5分「津南役場前」下車",
+  "organizer": "津南まつり実行委員会",
+  "price": "花火/有料観覧席なし",
+  "contact": "津南町観光協会　025-765-5585",
+  "website": "https://tsunan.info/",
+  "googleMap": "https://maps.google.com/maps?q=37.014488,138.652975&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "koshinetsu",
+  "description": "ブランド米「魚沼産コシヒカリ」の生産が盛んな町として知られる津南町で、「津南まつり」が開催されます。津南町役場駐車場が会場となり、町民参加による民踊流しやおまつりパレードが繰り広げられるほか、ボルダリング体験をはじめ、マルシェ、全町マラソンなどが行われます。露店市が立ち、夜には花火も上がります。",
+  "activityType": "matsuri",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://tsunan.info/wp-content/uploads/2024/07/109329.jpg",
+      "title": "津南まつり（つなんまつり）图片1",
+      "alt": "津南まつり（つなんまつり）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-07-01T14:42:43.016Z",
+  "updatedAt": "2025-07-01T14:42:43.016Z"
+}

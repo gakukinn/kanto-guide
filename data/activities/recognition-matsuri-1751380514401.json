@@ -1,0 +1,29 @@
+{
+  "id": "recognition-matsuri-1751380514401",
+  "name": "水戸黄門まつり（みとこうもんまつり）",
+  "address": "〒310-0021　茨城県水戸市南町",
+  "datetime": "2025年8月2日～3日　 【2日】11:00～21:00　　【3日】11:00～20:00",
+  "venue": "水戸市　水戸市南町周辺（国道50号）",
+  "access": "ＪＲ「水戸駅」から徒歩10分",
+  "organizer": "水戸黄門まつり実行委員会",
+  "price": "",
+  "contact": "一般社団法人水戸観光コンベンション協会　029-224-0441、水戸市観光課　029-232-9189",
+  "website": "https://mitokoumon.com/koumon/",
+  "googleMap": "https://maps.google.com/maps?q=36.377547,140.466846&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "kitakanto",
+  "description": "昭和36年（1961年）に始まった水戸市の夏の一大イベント「水戸黄門まつり」が開催されます。「花火大会」をはじめ、多数の神輿が競い合う「神輿連合渡御」、黄門ばやしなどの音楽に合わせて踊りを披露する「水戸黄門カーニバル」、「山車巡行」、「水戸黄門提灯行列」など、さまざまな催しが行われます。",
+  "activityType": "matsuri",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://ibaraki-kenou-iju.jp/media/2023/02/230211_ph1_%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B3%E3%82%B0%E5%89%8D-1536x1024.jpg",
+      "title": "水戸黄門まつり（みとこうもんまつり）图片1",
+      "alt": "水戸黄門まつり（みとこうもんまつり）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-07-01T14:35:14.466Z",
+  "updatedAt": "2025-07-01T14:35:14.466Z"
+}

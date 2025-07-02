@@ -1,0 +1,29 @@
+{
+  "id": "recognition-matsuri-1751381542625",
+  "name": "南部の火祭り（なんぶのひまつり）",
+  "address": "〒409-2212　山梨県南部町南部地内",
+  "datetime": "2025年8月15日　 20:10～",
+  "venue": "山梨県南部町　富士川河川敷南部橋上下流",
+  "access": "ＪＲ身延線「内船駅」から徒歩20分、または中部横断自動車道「富沢IC」から車約10分",
+  "organizer": "南部町火祭り実行委員会",
+  "price": "有料観覧席なし",
+  "contact": "南部町火祭り実行委員会　0556-66-2111",
+  "website": "https://www.town.nanbu.yamanashi.jp/kankou/omatsuri/himatsuri/",
+  "googleMap": "https://maps.google.com/maps?q=35.285583,138.457869&t=&z=15&ie=UTF8&iwloc=&output=embed",
+  "region": "koshinetsu",
+  "description": "富士川河川敷南部橋上下流で、江戸時代中期に始まったとされる「南部の火祭り」が開催されます。盆の“送り火”や“虫送り”の意味を持っているお祭りです。スターマインや尺玉が見どころの花火大会をはじめ、読経が響く中の大松明、灯篭流しなどが行われるほか、両岸2kmにわたって並べられた108つのたきぎの山「百八たい」に火が灯され、幽玄の世界が演出されます。 ※打ち上げ数：3000発、昨年度3000発 観客数：3万人、昨年度3万人",
+  "activityType": "matsuri",
+  "themeColor": "red",
+  "status": "scheduled",
+  "media": [
+    {
+      "type": "image",
+      "url": "https://japan47go.g.kuroco-img.app/v=1688492435/files/topics/162339_ext_30_0.jpg?width=2048&quality=70",
+      "title": "南部の火祭り（なんぶのひまつり）图片1",
+      "alt": "南部の火祭り（なんぶのひまつり）图片1",
+      "caption": ""
+    }
+  ],
+  "createdAt": "2025-07-01T14:52:22.662Z",
+  "updatedAt": "2025-07-01T14:52:22.662Z"
+}

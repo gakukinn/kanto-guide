@@ -291,7 +291,7 @@ export default function UniversalStaticDetailTemplate({
         <section className={`bg-gradient-to-r ${getStandardBackgroundGradient()} pb-8 pt-8`}>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {/* 图片展示卡片 - 与标题卡片样式一致 */}
-            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-2 md:p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
+            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-2 md:p-4 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
               <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
                 {data.media && data.media.length > 0 ? (
                   <img
