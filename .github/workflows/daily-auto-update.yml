@@ -45,7 +45,7 @@ jobs:
           echo "✅ 发现变更"
         else
           echo "has_changes=false" >> $GITHUB_OUTPUT
-          echo "ℹ️ 没有变更"
+          echo "ℹ️ 无变更"
         fi
         
     - name: 提交变更（如有）
@@ -55,11 +55,11 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "🤖 每日自动更新: $(date '+%Y-%m-%d %H:%M:%S')"
+        git commit -m "🤖 自动更新: $(date '+%Y-%m-%d %H:%M:%S')"
         git push
         echo "🚀 变更已推送，Vercel将自动部署"
         
     - name: 完成通知
       run: |
-        echo "🎉 每日自动更新任务完成"
+        echo "🎉 每日自动更新完成"
         echo "⏰ 下次执行时间: 明天东京时间中午12点" 
