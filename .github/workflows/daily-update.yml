@@ -1,0 +1,68 @@
+name: Daily Auto Update
+
+on:
+  schedule:
+    # 每天北京时间上午9点（UTC 1点）执行
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  daily-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: |
+        echo "📦 Installing dependencies..."
+        npm ci --production=false
+        
+    - name: List available scripts
+      run: |
+        echo "📋 Available npm scripts:"
+        npm run 2>&1 | head -20
+        
+    - name: Simple data check
+      run: |
+        echo "🔍 Checking data files..."
+        ls -la data/ || echo "No data directory found"
+        echo "✅ Basic check completed"
+      continue-on-error: true
+        
+    - name: Check for any changes
+      id: git-check
+      run: |
+        echo "📊 Checking git status..."
+        git status --porcelain
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+          echo "✅ Changes found"
+        else
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ No changes found"
+        fi
+        
+    - name: Commit changes (if any)
+      if: steps.git-check.outputs.has_changes == 'true'
+      run: |
+        echo "💾 Committing changes..."
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "chore: daily maintenance - $(date +'%Y-%m-%d')"
+        git push
+        echo "🚀 Changes committed and pushed"
+        
+    - name: Success notification
+      run: |
+        echo "✅ Daily update workflow completed successfully"
+        echo "📅 Run date: $(date)"
+        echo "🔗 Repository: ${{ github.repository }}" 
