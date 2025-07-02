@@ -1,5 +1,7 @@
 // 🔄 纯静态页面模板 - 移除客户端交互
 import FeaturedActivities from '@/components/FeaturedActivities';
+import ArticleSection from '@/components/ArticleSection';
+import { getRegionArticleColors, getRegionDisplayName } from '@/utils/articleUtils';
 import Link from 'next/link';
 
 interface RegionConfig {
@@ -164,11 +166,21 @@ const getRegionBgColor = (regionKey: string) => {
 interface RegionPageTemplateProps {
   regionKey: string;
   config: RegionConfig;
+  articles?: Array<{
+    id: string;
+    title: string;
+    summary: string;
+    content: string;
+    imageUrl: string;
+    publishDate: string;
+    category: string;
+  }>;
 }
 
 export default function RegionPageTemplate({
   regionKey,
   config,
+  articles = [],
 }: RegionPageTemplateProps) {
   return (
     <div
@@ -281,6 +293,15 @@ export default function RegionPageTemplate({
             </div>
           </div>
         </section>
+
+        {/* 文章区域 */}
+        {articles && articles.length > 0 && (
+          <ArticleSection
+            articles={articles}
+            regionName={getRegionDisplayName(regionKey)}
+            regionColors={getRegionArticleColors(regionKey)}
+          />
+        )}
 
         {/* 快速导航 - 地区循环 */}
         <section className="bg-gradient-to-b from-white/20 to-white/10 py-12 backdrop-blur-sm">
