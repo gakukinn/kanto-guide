@@ -2,9 +2,11 @@ name: 每日自动更新
 
 on:
   schedule:
-    # 每天北京时间上午9点（UTC 1点）执行
-    - cron: '0 1 * * *'
+    # 每天东京时间中午12点（UTC 3点）执行
+    - cron: '0 3 * * *'
   workflow_dispatch: # 允许手动触发
+  push:
+    branches: [ main ] # 当推送到main分支时也触发，用于测试
 
 jobs:
   auto-update:
@@ -30,6 +32,8 @@ jobs:
         echo "🔍 检查项目文件..."
         ls -la
         echo "✅ 项目状态正常"
+        echo "🕐 当前时间: $(date)"
+        echo "🌏 执行位置: 东京时间中午12点定时任务"
         
     - name: 检查是否有变更
       id: check-changes
@@ -50,7 +54,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "自动更新 - $(date +'%Y年%m月%d日')"
+        git commit -m "自动更新 - $(date +'%Y年%m月%d日 %H:%M')"
         git push
         echo "🚀 变更已提交"
         
@@ -58,4 +62,5 @@ jobs:
       run: |
         echo "✅ 每日自动更新完成"
         echo "📅 执行时间: $(date)"
+        echo "🕐 定时: 东京时间每天中午12点"
         echo "🔗 仓库: ${{ github.repository }}" 
