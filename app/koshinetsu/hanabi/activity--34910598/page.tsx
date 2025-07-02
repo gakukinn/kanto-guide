@@ -25,14 +25,14 @@ const pageData = {
   "id": "recognition-hanabi-1750934910598",
   "region": "koshinetsu",
   "activityType": "hanabi",
-  "description": "长冈祭大花火大会于8月2日和3日在长冈市举行，寄托市民对长冈空袭中罹难者的悼念、对重建先辈的感恩及对永久和平的祈愿。观众可在信浓川两岸观赏烟花，从不同方向欣赏绚丽景色。大会以大规模演出和大量尺玉烟花表演著称，是极具特色和震撼力的夏日盛会。",
-  "highlights": "开花宽约650米的正三尺玉，以及开花宽约2公里的不死鸟飞舞的独一无二的烟火“复兴祈愿凤凰城”，在长冈的夜空中闪耀光芒的观光，是必看的。",
+  "description": "每年8月2日、3日举办的长冈花火大会，承载着对长冈空袭中逝者的慰灵、对为城市复兴付出努力先人的感谢，以及对永久和平的祈愿，是长冈市民在多次苦难中孕育出的特别情感所凝结的花火大会。信浓川两岸设有观赏席，可从两侧同时欣赏烟火，利用这一特性，大量使用大型花火进行演出，是极为罕见的花火大会。",
+  "highlights": "直径约650米绽放的正三尺玉、以及在约2公里范围内展翅飞舞的不死鸟形唯一烟火“复兴祈愿凤凰”在长冈夜空中绚烂盛放，令人叹为观止。",
   "themeColor": "red",
   "status": "scheduled",
   "media": [
     {
       "type": "image" as const,
-      "url": "https://tour.vipliner.biz/images/dj/hanabi/nagaoka/hanabi_img_1225x800_011.jpg",
+      "url": "https://cdn.midjourney.com/b717a365-c093-4ebc-8653-33d5640eb68a/0_1.png",
       "title": "長岡祭典大花火大会图片1",
       "alt": "長岡祭典大花火大会图片1",
       "caption": ""

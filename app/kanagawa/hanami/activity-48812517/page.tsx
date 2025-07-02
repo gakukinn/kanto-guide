@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.长谷寺dera.jp/",
   googleMap: "https://maps.google.com/maps?q=35.312492,139.533171&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kanagawa",
-  description: "长谷寺（长谷观音）紫阳花举办期间：2025年5月下旬~7月上旬。在旅游网站上，你可以看到对长谷寺-寺寺绣球花的评论和张贴的照片。你也可以在这里找到通往长谷寺-寺寺（长谷寺-观音）绣球花的信息，以及拥挤的情况。酒店/旅游景点/当地美食/活动信息都在长谷寺-寺寺（长谷寺-观音）附近。",
+  description: "在四季皆为赏花名胜而闻名的长谷寺，每年5月下旬至7月上旬，眺望散步道周边会绽放绣球花，包括甘茶、红额、姬绣球、黑姬等40余种约2500株，点缀整座山头，并设有可俯瞰镰仓海景和街景的观景台，是镰仓屈指可数的风景胜地，散步后还可在入山口的“寺屋咖啡”稍作休息。",
   themeColor: "red",
   status: "scheduled",
   media: [
