@@ -1,3 +1,4 @@
+# 每日自动更新工作流 - 东京时间中午12点执行
 name: 每日自动更新
 
 on:
@@ -44,23 +45,21 @@ jobs:
           echo "✅ 发现变更"
         else
           echo "has_changes=false" >> $GITHUB_OUTPUT
-          echo "ℹ️ 无变更"
+          echo "ℹ️ 没有变更"
         fi
         
-    - name: 提交变更
+    - name: 提交变更（如有）
       if: steps.check-changes.outputs.has_changes == 'true'
       run: |
         echo "💾 提交变更..."
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "自动更新 - $(date +'%Y年%m月%d日 %H:%M')"
+        git commit -m "🤖 每日自动更新: $(date '+%Y-%m-%d %H:%M:%S')"
         git push
-        echo "🚀 变更已提交"
+        echo "🚀 变更已推送，Vercel将自动部署"
         
     - name: 完成通知
       run: |
-        echo "✅ 每日自动更新完成"
-        echo "📅 执行时间: $(date)"
-        echo "🕐 定时: 东京时间每天中午12点"
-        echo "🔗 仓库: ${{ github.repository }}" 
+        echo "🎉 每日自动更新任务完成"
+        echo "⏰ 下次执行时间: 明天东京时间中午12点" 
