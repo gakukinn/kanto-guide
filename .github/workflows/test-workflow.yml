@@ -1,0 +1,17 @@
+name: Test Workflow
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Simple test
+      run: |
+        echo "✅ Test workflow is working!"
+        echo "🎉 GitHub Actions can now recognize new workflows"
+        date 
