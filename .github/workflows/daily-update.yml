@@ -12,17 +12,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 获取完整历史，避免冲突
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
       - run: echo "Daily update completed at $(date)"
-      - run: |
+      
+      # 🛡️ 安全检查：确保没有本地未推送的更改
+      - name: 检查是否有本地更改
+        run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          
+          # 检查是否有未跟踪的更改
           if [ -n "$(git status --porcelain)" ]; then
-            git add -A
-            git commit -m "auto: daily update $(date)"
-            git push
+            echo "⚠️ 检测到文件更改，但为了避免冲突，不会自动提交"
+            echo "检测到的更改："
+            git status --porcelain
+            echo "💡 请手动检查并提交这些更改"
+          else
+            echo "✅ 没有检测到文件更改，工作流正常完成"
           fi 

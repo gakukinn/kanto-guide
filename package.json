@@ -82,7 +82,12 @@
     "organize-data": "node scripts/auto-data-organizer.js",
     "clean-temp": "node -e \"const fs=require('fs'); const path=require('path'); const tempDir=path.join(__dirname,'data','temp'); if(fs.existsSync(tempDir)){fs.rmSync(tempDir,{recursive:true}); fs.mkdirSync(tempDir);} console.log('🧹 temp目录已清理');\"",
     "data-status": "node -e \"const fs=require('fs'); const path=require('path'); const activeDir=path.join(__dirname,'data','active'); if(fs.existsSync(activeDir)){const cats=fs.readdirSync(activeDir); cats.forEach(cat=>{const files=fs.readdirSync(path.join(activeDir,cat)); console.log(cat+': '+files.length+'个文件');})} else {console.log('数据目录不存在，请先运行 npm run organize-data');}\"",
-    "data-guide": "echo '📖 数据管理指南位于: data/DATA-MANAGEMENT-GUIDE.md'"
+    "data-guide": "echo '📖 数据管理指南位于: data/DATA-MANAGEMENT-GUIDE.md'",
+    "deploy-protection": "node scripts/deploy-protection.js",
+    "auto-commit": "node scripts/auto-commit.js",
+    "auto-commit:start": "node scripts/auto-commit.js --start",
+    "auto-commit:now": "node scripts/auto-commit.js --now",
+    "safe-auto-deploy": "npm run auto-commit:now && echo '🎉 安全自动部署完成！'"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx}": [
