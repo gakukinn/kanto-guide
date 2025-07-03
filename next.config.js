@@ -1,10 +1,5 @@
-// 临时禁用 next-intl 插件恢复首页
-// const createNextIntlPlugin = require('next-intl/plugin');
-
-// const withNextIntl = createNextIntlPlugin(
-//   // 指定i18n配置文件路径
-//   './src/i18n/request.ts'
-// );
+// 移除next-intl配置，使用自定义翻译系统
+// 不再需要next-intl插件
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -60,7 +55,6 @@ const nextConfig = {
   assetPrefix: process.env.NODE_ENV === 'production' ? '' : '',
 };
 
-// 临时恢复原配置
+// 使用标准Next.js配置，不依赖next-intl
 module.exports = nextConfig;
-// module.exports = withNextIntl(nextConfig);
  
