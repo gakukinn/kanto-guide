@@ -207,7 +207,7 @@ class ImprovedPathGenerator {
     // 提取关键词（去除常见后缀）
     const cleanName = name
       .replace(/（.*?）/g, '')     // 去除括号内容
-      .replace(/大会$|祭り$|祭$|会$|展$|フェス$|イベント$/g, '') // 去除常见后缀
+      .replace(/大会$|祭り$|祭$|会$|展$|フェス$|事件$/g, '') // 去除常见后缀
       .substring(0, 10);
 
     // 如果是纯日文，返回romanized版本的简化形式

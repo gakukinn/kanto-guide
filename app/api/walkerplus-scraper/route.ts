@@ -304,7 +304,7 @@ async function scrapeMainPage(html: string) {
           text.includes('テーマに') || 
           text.includes('実施され') || 
           text.includes('花火プログラム') ||
-          text.includes('イベントの開催') ||
+          text.includes('事件の開催') ||
           text.includes('祭典') ||
           text.includes('公園') ||
           text.includes('競馬場')
@@ -326,7 +326,7 @@ async function scrapeMainPage(html: string) {
           text.includes('花火') || 
           text.includes('祭') || 
           text.includes('開催') ||
-          text.includes('イベント')
+          text.includes('事件')
         )) {
           description = text;
 // console.log('第五层搜索找到描述:', description.substring(0, 100) + '...');
@@ -478,16 +478,16 @@ async function scrapeDataPage(html: string) {
         const parentText = $(elem).parent().text().trim();
         
         if (href && (
-          text.includes('公式サイト') || 
+          text.includes('官方网站') || 
           text.includes('関連サイト') || 
           text.includes('公式ホームページ') ||
           text.includes('詳細はこちら') ||
           text.includes('オフィシャルサイト') ||
           text.includes('公式WEB') ||
           text.includes('公式HP') ||
-          text.includes('公式サイトほか') ||
+          text.includes('官方网站ほか') ||
           text.includes('関連サイトはこちら') ||
-          parentText.includes('公式サイトほか') ||
+          parentText.includes('官方网站ほか') ||
           parentText.includes('関連サイトはこちら')
         )) {
           if (href.startsWith('http')) {

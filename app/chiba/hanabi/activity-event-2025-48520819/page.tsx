@@ -15,7 +15,7 @@ const pageData = {
   "venue": "古崎河边体育广场",
   "access": "[电车]从JR松户站或北松户站步行35分钟※请步行来临",
   "weatherInfo": "恶劣天气取消，不延期",
-  "parking": "×",
+  "parking": "无",
   "price": "销售将于6月中旬开始。详见官网",
   "contact": "047-366-7327松户市文化体育部文化热闹创造课",
   "foodStalls": "有",

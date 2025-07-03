@@ -80,7 +80,7 @@ export async function POST(request: NextRequest) {
       'div:contains("について") p',
       'div:contains("詳細") p', 
       'div:contains("概要") p',
-      'div:contains("イベント内容") p',
+      'div:contains("事件内容") p',
       'div:contains("内容") p',
       'section:contains("について") p',
       'section:contains("詳細") p',
@@ -113,7 +113,7 @@ export async function POST(request: NextRequest) {
           text.includes('花火') || 
           text.includes('祭') || 
           text.includes('開催') || 
-          text.includes('イベント') ||
+          text.includes('事件') ||
           text.includes('会場') ||
           text.includes('観客') ||
           text.includes('打ち上げ') ||
@@ -169,7 +169,7 @@ export async function POST(request: NextRequest) {
           text.includes('花火') || 
           text.includes('祭') || 
           text.includes('開催') ||
-          text.includes('イベント')
+          text.includes('事件')
         )) {
           description = text;
           console.log('方法5找到描述:', description.substring(0, 100) + '...');

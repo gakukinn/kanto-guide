@@ -18,7 +18,7 @@ interface WalkerPlusData {
   venue: string;               // 会場
   venueAccess: string;         // 会場アクセス
   parking: string;             // 駐車場
-  officialSite: string;        // 公式サイト
+  officialSite: string;        // 官方网站
   contactInfo: string;         // 問い合わせ
   
   // 自动提取的信息
@@ -211,7 +211,7 @@ function parseWalkerPlusText(text: string): WalkerPlusData {
           // 将内容简介存储到parsedDescription字段中
           result.parsedDescription = cleanValue;
           break;
-        case '公式サイト':
+        case '官方网站':
           result.officialSite = cleanValue;
           break;
         case '問い合わせ':

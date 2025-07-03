@@ -84,9 +84,9 @@ const docFiles = [
   'event_07_北海道.json',
   'event_06_東京.json',
   'event_05_全国.json',
-  'event_04_イベントガイド.json',
-  'event_03_イベントガイド.json',
-  'event_02_イベントガイド.json',
+  'event_04_事件ガイド.json',
+  'event_03_事件ガイド.json',
+  'event_02_事件ガイド.json',
   'event_01_遊び・体験.json'
 ];
 

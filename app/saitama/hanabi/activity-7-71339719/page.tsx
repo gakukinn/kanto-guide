@@ -15,7 +15,7 @@ const pageData = {
   "venue": "大和田公園周辺",
   "access": "[电车]东武都市公园线（野田线）大宫公园站或小和田站步行15分钟",
   "weatherInfo": "暴风雨停止，无顺延日",
-  "parking": "×",
+  "parking": "无",
   "price": "详见官网",
   "contact": "050-3665-9607",
   "foodStalls": "有",

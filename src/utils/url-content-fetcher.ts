@@ -273,21 +273,21 @@ class UrlContentFetcher {
       console.log('坐标提取完成，最终结果:', result.latitude, result.longitude);
 
       // ===== 增强：官方网站链接抓取 =====
-      // 1. 查找"公式サイト"相关区域
+      // 1. 查找"官方网站"相关区域
       const officialSiteElements = doc.querySelectorAll('*');
       let officialWebsite = '';
       
       officialSiteElements.forEach(element => {
         const text = element.textContent || '';
-        // 如果包含"公式サイト"、"公式ホームページ"、"オフィシャルサイト"等关键词
-        if ((text.includes('公式サイト') || text.includes('公式ホームページ') || text.includes('オフィシャルサイト') || text.includes('関連サイト')) && !officialWebsite) {
+        // 如果包含"官方网站"、"公式ホームページ"、"オフィシャルサイト"等关键词
+        if ((text.includes('官方网站') || text.includes('公式ホームページ') || text.includes('オフィシャルサイト') || text.includes('関連サイト')) && !officialWebsite) {
           // 在这个元素或其父元素中查找链接
           const linkInElement = element.querySelector('a[href^="http"]') || element.closest('*')?.querySelector('a[href^="http"]');
           if (linkInElement) {
             const href = linkInElement.getAttribute('href');
             if (href && href !== window.location.href && !href.includes('walkerplus.com')) {
               officialWebsite = href;
-              console.log('从公式サイト区域提取官网:', officialWebsite);
+              console.log('从官方网站区域提取官网:', officialWebsite);
             }
           }
         }

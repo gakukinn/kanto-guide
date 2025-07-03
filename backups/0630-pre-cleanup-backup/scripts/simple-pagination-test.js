@@ -65,7 +65,7 @@ async function testPagination() {
             'a[href*="/event/"]',
             'a[href*="event"]',
             'a[href*="evt"]',
-            'a[title*="イベント"]',
+            'a[title*="事件"]',
             'a'
         ];
         

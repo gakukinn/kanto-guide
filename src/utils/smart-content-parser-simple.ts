@@ -153,9 +153,9 @@ class SimpleContentParser {
         }
       }
       
-      // 公式サイト（官方网站）
-      if (trimmedLine.includes('公式サイト') && trimmedLine.includes('官方网站')) {
-        const match = trimmedLine.match(/公式サイト[^　\t]*?官方网站[^　\t]*?[：:\t　]+(.+)/);
+      // 官方网站
+      if (trimmedLine.includes('官方网站') && trimmedLine.includes('官方网站')) {
+        const match = trimmedLine.match(/官方网站[^　\t]*?官方网站[^　\t]*?[：:\t　]+(.+)/);
         if (match) {
           result.website = match[1].trim();
         }

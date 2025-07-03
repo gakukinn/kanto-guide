@@ -15,7 +15,7 @@ const pageData = {
   "venue": "長野大橋西側 犀川第2緑地",
   "access": "【电车】JR长野站东口步行30分钟",
   "weatherInfo": "下雨了。如果发生自然灾害，则取消（无延期日期）",
-  "parking": "×",
+  "parking": "无",
   "price": "详见官网",
   "contact": "026-227-2428 長野商工会議所",
   "foodStalls": "有",

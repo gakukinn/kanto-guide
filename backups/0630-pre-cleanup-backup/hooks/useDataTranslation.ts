@@ -47,7 +47,7 @@ const walkerPlusTranslations: Record<string, string> = {
   '詳見官網': '详见官网',
   '詳細': '详情',
   '公式': '官方',
-  '公式サイト': '官方网站',
+  '官方网站': '官方网站',
   
   // 价格相关
   '円': '日元',

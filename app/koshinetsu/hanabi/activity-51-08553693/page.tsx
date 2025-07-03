@@ -15,7 +15,7 @@ const pageData = {
   "venue": "阿賀野川松浜橋上流側",
   "access": "[电车]从JR新崎站步行30分[车]从日本海东北道新潟机场IC约10分钟",
   "weatherInfo": "小雨決行、荒天時中止",
-  "parking": "×",
+  "parking": "无",
   "price": "有免费座位。详情请访问官方网站。",
   "contact": "025-259-5811 (協)北新潟商工振興会",
   "foodStalls": "有",

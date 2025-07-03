@@ -55,13 +55,6 @@ const activityTypes = {
     bgColor: 'from-blue-50 via-sky-100 to-blue-100',
     borderColor: 'border-blue-200',
   },
-  culture: {
-    name: '文化艺术',
-    emoji: '🎨',
-    description: '深度文化体验，艺术品味之旅',
-    bgColor: 'from-teal-50 via-cyan-100 to-teal-100',
-    borderColor: 'border-teal-200',
-  },
   momiji: {
     name: '红叶狩',
     emoji: '🍁',
@@ -75,6 +68,13 @@ const activityTypes = {
     description: '璀璨灯光艺术，梦幻夜景体验',
     bgColor: 'from-purple-50 via-violet-100 to-purple-100',
     borderColor: 'border-purple-200',
+  },
+  culture: {
+    name: '文化艺术',
+    emoji: '🎨',
+    description: '深度文化体验，艺术品味之旅',
+    bgColor: 'from-teal-50 via-cyan-100 to-teal-100',
+    borderColor: 'border-teal-200',
   },
 };
 

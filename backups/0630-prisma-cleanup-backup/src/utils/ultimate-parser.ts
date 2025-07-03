@@ -14,14 +14,14 @@ export interface UltimateParsedData {
   endTime?: string;
   weather?: string;        // 7. 荒天の場合（恶劣天气情况）
   ticketInfo?: string;     // 8. 有料席（付费座位）
-  officialSiteNotice?: string; // 9. 有料観覧席につきましては公式サイトをご確認ください
+  officialSiteNotice?: string; // 9. 有料観覧席につきましては官方网站をご確認ください
   foodStalls?: string;     // 10. 屋台など（小吃摊）
   spotInfo?: string;       // 11. スポット情報（景点信息）
   venue?: string;          // 12. 会場（会场名称）
   access?: string;         // 13. 会場アクセス（抵达方式）
   parking?: string;        // 14. 駐車場（停车场）
   contactPhone?: string;   // 15. 問い合わせ（联系方式）
-  website?: string;        // 16. 公式サイト（官方网站）
+  website?: string;        // 16. 官方网站
   region?: 'tokyo' | 'kanagawa' | 'chiba' | 'saitama' | 'kitakanto' | 'koshinetsu';
 }
 
@@ -98,8 +98,8 @@ class UltimateParser {
           if (value) result.ticketInfo = value;
         }
         
-        // 9. 有料観覧席につきましては公式サイトをご確認ください
-        else if (cleanLine.includes('有料観覧席') && (cleanLine.includes('公式サイト') || cleanLine.includes('ご確認'))) {
+        // 9. 有料観覧席につきましては官方网站をご確認ください
+        else if (cleanLine.includes('有料観覧席') && (cleanLine.includes('官方网站') || cleanLine.includes('ご確認'))) {
           result.officialSiteNotice = cleanLine;
         }
         
@@ -141,8 +141,8 @@ class UltimateParser {
           }
         }
         
-        // 16. 公式サイト（官方网站）
-        else if (cleanLine.includes('公式サイト') && !cleanLine.includes('有料観覧席')) {
+        // 16. 官方网站
+        else if (cleanLine.includes('官方网站') && !cleanLine.includes('有料観覧席')) {
           const value = this.extractValue(cleanLine);
           if (value) result.website = value;
         }

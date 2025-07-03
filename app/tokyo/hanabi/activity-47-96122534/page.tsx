@@ -15,7 +15,7 @@ const pageData = {
   "venue": "区立二子玉川緑地運動場(二子橋上流)",
   "access": "【电车】从二子玉川站步行15分钟　※当日可能拥挤",
   "weatherInfo": "恶劣天气取消。",
-  "parking": "×",
+  "parking": "无",
   "price": "没有\n收费座位的销售未定。详情请浏览官方网站。",
   "contact": "03-5432-3333",
   "foodStalls": "有",

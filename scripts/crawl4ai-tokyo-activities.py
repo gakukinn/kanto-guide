@@ -150,7 +150,7 @@ class TokyoActivitiesCrawler:
                 "venue": "東京ビッグサイト",
                 "address": "東京都江東区有明3-11-1",
                 "type": "culture",
-                "description": "アジア最大級のアートイベント"
+                "description": "アジア最大級のアート事件"
             },
             {
                 "name": "THE ROAD RACE TOKYO TAMA 2025",

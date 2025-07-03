@@ -53,6 +53,10 @@ interface WalkerPlusHanabiData {
   // 时间戳字段
   createdAt?: string;
   updatedAt?: string;
+  
+  // 页面链接字段（与祭典模板保持一致）
+  detailLink?: string;
+  source?: string;
 }
 
 // 地区配置接口

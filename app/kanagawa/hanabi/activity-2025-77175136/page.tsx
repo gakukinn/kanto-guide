@@ -15,7 +15,7 @@ const pageData = {
   "venue": "久里浜海岸付近",
   "access": "[电车]京急久里浜站步行15分钟。从JR久里滨站步行17分钟",
   "weatherInfo": "小雨将停止，不延期。",
-  "parking": "×",
+  "parking": "无",
   "price": "2025年6月开始出售。详情见官方网站",
   "contact": "046-834-1111久里浜行政中心内久里浜观光协会事务局",
   "foodStalls": "有",

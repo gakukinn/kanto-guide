@@ -279,7 +279,7 @@ function calculateTextQuality(text: string): number {
   // 内容丰富性分（包含多种词性）
   const hasTimeWords = /年間|時代|期間|毎年|開催|行われ/.test(text);
   const hasLocationWords = /地区|神社|会場|場所|商店街/.test(text);
-  const hasEventWords = /まつり|祭|イベント|行事|催し/.test(text);
+  const hasEventWords = /まつり|祭|事件|行事|催し/.test(text);
   
   if (hasTimeWords) score += 10;
   if (hasLocationWords) score += 10;  

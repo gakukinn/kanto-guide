@@ -448,11 +448,11 @@ class SaitamaJalanCrawler {
   extractHomepage(root) {
     const selectors = [
       'dt:contains("ホームページ") + dd a',
-      'dt:contains("公式サイト") + dd a',
+      'dt:contains("官方网站") + dd a',
       'tr:has(th:contains("ホームページ")) td a',
       'tr:has(td:contains("ホームページ")) td:last-child a',
-      'tr:has(th:contains("公式サイト")) td a',
-      'tr:has(td:contains("公式サイト")) td:last-child a',
+      'tr:has(th:contains("官方网站")) td a',
+      'tr:has(td:contains("官方网站")) td:last-child a',
       '.official-site a',
       '.homepage a',
       'a[href*="http"]:contains("公式")',

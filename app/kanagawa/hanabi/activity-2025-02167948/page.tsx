@@ -15,7 +15,7 @@ const pageData = {
   "venue": "Minato Mirai 21区临海公园、杯面博物馆公园、横滨锤头9号码岸壁公园、抗震泊位等",
   "access": "[电车]横滨站步行20分钟",
   "weatherInfo": "在恶劣天气下，部分内容可能会被更改或取消。",
-  "parking": "×",
+  "parking": "无",
   "price": "详见官网",
   "contact": "050-1721-6481 平日11：00~17：00 Minato Mirai Smart Festival联系人办公室",
   "foodStalls": "详见官网",

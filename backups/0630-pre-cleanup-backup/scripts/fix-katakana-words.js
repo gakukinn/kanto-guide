@@ -5,7 +5,7 @@ const path = require('path');
 const katakanaReplacements = {
     'スターマイン': '连发烟花',
     'ホームページ': '官网', 
-    'イベント': '活动'
+    '事件': '活动'
 };
 
 // 扫描所有四层页面文件

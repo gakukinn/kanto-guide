@@ -255,7 +255,7 @@ function parseJapaneseEventText(text: string) {
     const venueText = result.venue;
     if (venueText.includes('花火大会') || venueText.includes('祭') || venueText.includes('フェスティバル')) {
       // 提取活动相关的关键词作为名称
-      const nameMatch = venueText.match(/([^　\s]*(?:花火大会|祭|フェスティバル|イベント)[^　\s]*)/);
+      const nameMatch = venueText.match(/([^　\s]*(?:花火大会|祭|フェスティバル|事件)[^　\s]*)/);
       if (nameMatch) {
         result.name = nameMatch[1];
       }

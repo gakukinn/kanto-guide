@@ -15,7 +15,7 @@ const pageData = {
   "venue": "清酒川体育广场",
   "access": "[电车] JR鸭宫站南口步行15分钟，JR小田急小田原站乘往城东车库的巴士今井站下车，步行5分钟",
   "weatherInfo": "小雨将停止（如天气恶劣）",
-  "parking": "×",
+  "parking": "无",
   "price": "从3500日元起（共7种型号出售）",
   "contact": "0465-20-4192 (一社)小田原市観光協会",
   "foodStalls": "有",

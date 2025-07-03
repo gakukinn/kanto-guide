@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://fujisan.ne.jp/pages/380/",
   googleMap: "https://maps.google.com/maps?q=35.523073,138.745577&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "koshinetsu",
-  description: "以世界遗产富士山为背景，在河口湖沿岸的盛开的季节，举行“川口草药节”。从大石公园望去富士山和川口湖，一片，就像铺上了紫色地毯一样，形成了美丽的对比，挤满了喜欢拍照的人，可以在社交媒体上拍照。你也可以在烧崎公园公园欣赏。",
+  description: "每年薰衣草盛开的季节，“河口湖香草节”在河口湖畔举行，以世界遗产富士山为背景，大石公园与八木崎公园的薰衣草如紫色地毯般铺满湖畔，与碧蓝湖水和雄伟富士山形成美丽对比，吸引众多游客前来拍摄打卡。园内还设有香草商品与美食摊位，让游客在欣赏盛夏花海与湖光山色的同时，尽享富士山下的初夏悠闲时光。",
   themeColor: "red",
   status: "scheduled",
   media: [

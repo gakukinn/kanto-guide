@@ -18,8 +18,14 @@ interface WalkerPlusData {
   venue: string;               // 会場
   venueAccess: string;         // 会場アクセス
   parking: string;             // 駐車場
-  officialSite: string;        // 公式サイト
+  officialSite: string;        // 官方网站
   contactInfo: string;         // 問い合わせ
+  
+  // 🏮 新增：祭典专用字段（保持花火字段不变）
+  reservationRequired: string; // 予約 (预约)
+  spotName: string;            // スポット名 (景点名)
+  spotAddress: string;         // 住所 (地址)
+  recommendedViewpoint: string;// おすすめビューポイント (推荐观赏点)
   
   // 自动提取的信息
   detectedRegion: string;      // 自动识别的地区
@@ -95,6 +101,13 @@ function parseWalkerPlusText(text: string): WalkerPlusData {
     parking: '',
     officialSite: '',
     contactInfo: '',
+    
+    // 🏮 新增：祭典专用字段初始化
+    reservationRequired: '',
+    spotName: '',
+    spotAddress: '',
+    recommendedViewpoint: '',
+    
     detectedRegion: '',
     detectedActivityType: '',
     parsedDescription: '', // 💡 新增字段初始化
@@ -136,7 +149,7 @@ function parseWalkerPlusText(text: string): WalkerPlusData {
       continue;
     }
 
-    // 改进的分隔符检测：支持制表符、多个空格、或冒号分隔
+    // 改进的分隔符检测：支持制表符、空格、或冒号分隔
     let key = '', value = '';
     if (line.includes('\t')) {
       [key, value] = line.split('\t', 2);
@@ -146,10 +159,18 @@ function parseWalkerPlusText(text: string): WalkerPlusData {
         key = colonMatch[1];
         value = colonMatch[2];
       } else {
-        const spaceMatch = line.match(/^([^\s]+)\s{2,}(.+)$/);
-        if (spaceMatch) {
-          key = spaceMatch[1];
-          value = spaceMatch[2];
+        // 🔧 修复：支持单个或多个空格分隔，优先匹配多个空格
+        const multiSpaceMatch = line.match(/^([^\s]+)\s{2,}(.+)$/);
+        if (multiSpaceMatch) {
+          key = multiSpaceMatch[1];
+          value = multiSpaceMatch[2];
+        } else {
+          // 🔧 新增：支持单个空格分隔（为祭典字段格式）
+          const singleSpaceMatch = line.match(/^([^\s]+)\s+(.+)$/);
+          if (singleSpaceMatch) {
+            key = singleSpaceMatch[1];
+            value = singleSpaceMatch[2];
+          }
         }
       }
     }
@@ -211,12 +232,29 @@ function parseWalkerPlusText(text: string): WalkerPlusData {
           // 将内容简介存储到parsedDescription字段中
           result.parsedDescription = cleanValue;
           break;
-        case '公式サイト':
+        case '官方网站':
           result.officialSite = cleanValue;
           break;
         case '問い合わせ':
+        case '問い合わせ1':
         case '問い合わせ２':
           result.contactInfo = cleanValue;
+          break;
+        // 🏮 新增：祭典专用字段解析
+        case '予約':
+          result.reservationRequired = cleanValue;
+          break;
+        case 'スポット名':
+          result.spotName = cleanValue;
+          break;
+        case '住所':
+          result.spotAddress = cleanValue;
+          break;
+        case 'おすすめビューポイント':
+          result.recommendedViewpoint = cleanValue;
+          break;
+        case '屋台の有無':
+          result.foodStalls = cleanValue;
           break;
         default:
           // 其他未知字段，不处理，绝不编造信息
@@ -460,9 +498,9 @@ function buildWalkerPlusDisplay(walkerData: WalkerPlusData): string {
   return displayLines.join('\n');
 }
 
-// 构建14项字段数组，用于前端分行显示
+// 构建字段数组，用于前端分行显示（包含花火和祭典字段）
 function buildWalkerFieldsArray(walkerData: WalkerPlusData): Array<{label: string, value: string}> {
-  return [
+  const baseFields = [
     { label: '大会名', value: walkerData.eventName || '' },
     { label: '打ち上げ数', value: walkerData.fireworksCount || '' },
     { label: '打ち上げ時間', value: walkerData.fireworksDuration || '' },
@@ -478,4 +516,14 @@ function buildWalkerFieldsArray(walkerData: WalkerPlusData): Array<{label: strin
     { label: '駐車場', value: walkerData.parking || '' },
     { label: '問い合わせ', value: walkerData.contactInfo || '' }
   ];
+
+  // 🏮 添加祭典专用字段
+  const matsuriFields = [
+    { label: '予約', value: walkerData.reservationRequired || '' },
+    { label: 'スポット名', value: walkerData.spotName || '' },
+    { label: '住所', value: walkerData.spotAddress || '' },
+    { label: 'おすすめビューポイント', value: walkerData.recommendedViewpoint || '' }
+  ];
+
+  return [...baseFields, ...matsuriFields];
 } 

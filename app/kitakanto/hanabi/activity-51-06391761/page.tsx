@@ -15,7 +15,7 @@ const pageData = {
   "venue": "烏川和田橋上流河川敷",
   "access": "[火车]从JR高崎站西口步行15分钟[乘车]从关越道高崎IC或前桥IC约25分钟。离上信越道藤冈IC或吉井IC约25分钟",
   "weatherInfo": "延期至星期日，八月24，2025",
-  "parking": "×",
+  "parking": "无",
   "price": "详见官网",
   "contact": "027-330-5333 高崎祭实行委员会（高崎观光协会内）",
   "foodStalls": "有",

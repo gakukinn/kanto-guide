@@ -109,7 +109,7 @@ async function saveKurihamaHanabiData() {
       
       weatherInfo: {
         cancelConditions: '荒天時中止',
-        backup: '延期情報は公式サイトで発表',
+        backup: '延期情報は官方网站で発表',
         season: '夏季（8月上旬）'
       },
       
@@ -122,7 +122,7 @@ async function saveKurihamaHanabiData() {
       
       related: {
         nearby: ['横須賀軍港めぐり', 'ペリー記念館'],
-        sameDay: ['ペリー祭市民祭', '久里浜商店街イベント'],
+        sameDay: ['ペリー祭市民祭', '久里浜商店街事件'],
         website: 'https://perryfes.jp/'
       },
       
@@ -134,14 +134,14 @@ async function saveKurihamaHanabiData() {
       
       tags: {
         keywords: ['ペリー祭', '歴史', '海岸', 'スターマイン'],
-        categories: ['伝統行事', '花火大会', '観光イベント'],
+        categories: ['伝統行事', '花火大会', '観光事件'],
         audience: ['ファミリー', 'カップル', '観光客']
       },
       
       regionId: kanagawaRegion.id
     };
 
-    // 既存のイベントをチェック
+    // 既存の事件をチェック
     const existingEvent = await prisma.hanabiEvent.findUnique({
       where: { eventId: hanabiData.eventId }
     });

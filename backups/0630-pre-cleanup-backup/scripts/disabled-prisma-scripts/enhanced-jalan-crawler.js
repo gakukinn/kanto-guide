@@ -247,7 +247,7 @@ class EnhancedJalanCrawler {
         {
           description: '网站链接通用',
           selectors: [
-            'a:contains("公式サイト")',
+            'a:contains("官方网站")',
             'a:contains("ホームページ")',
             'a:contains("公式")',
             '.website a',

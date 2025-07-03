@@ -15,7 +15,7 @@ const pageData = {
   "venue": "相模川河川敷(三川合流点)",
   "access": "[电车]小田急小田原线本厚木站北口步行15分钟",
   "weatherInfo": "下雨了。恶劣天气取消。",
-  "parking": "×",
+  "parking": "无",
   "price": "有\n有关收费观众席的信息，请查看官方网站。",
   "contact": "080-7826-4362",
   "foodStalls": "有",

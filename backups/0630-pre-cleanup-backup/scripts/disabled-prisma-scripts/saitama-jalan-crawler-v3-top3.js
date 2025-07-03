@@ -224,7 +224,7 @@ class SaitamaJalanCrawlerV3Top3 {
         for (const link of homepageLinks) {
           const href = link.href;
           const text = link.textContent;
-          if ((text.includes('ホームページ') || text.includes('公式サイト') || text.includes('詳細情報')) 
+          if ((text.includes('ホームページ') || text.includes('官方网站') || text.includes('詳細情報')) 
               && !href.includes('jalan.net')) {
             info.website = href;
             info.extractedFields.push('website');

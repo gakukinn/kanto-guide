@@ -15,7 +15,7 @@ const pageData = {
   "venue": "板橋区 荒川河川敷",
   "access": "[电车] JR浮间舟渡站步行20分钟，都营三田线高岛平站或西台站或莲根站步行20分钟",
   "weatherInfo": "少下雨了。恶劣天气下不顺延",
-  "parking": "×",
+  "parking": "无",
   "price": "详见官网",
   "contact": "03-3579-2255 板橋区観光協会",
   "foodStalls": "有",

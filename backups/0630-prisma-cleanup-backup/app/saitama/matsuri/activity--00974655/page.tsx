@@ -18,7 +18,7 @@ const activityData = {
   venue: "寄居町玉淀河原",
   access: "【電車】JR・東武鉄道・秩父鉄道寄居駅南口步行15分 【車】関越道花園ICから国道140号を秩父方面へ約15分 ※当日は会場周辺で交通規制有地图",
   organizer: "",
-  price: "有\n詳細は公式サイトで発表予定",
+  price: "有\n詳細は官方网站で発表予定",
   contact: "048-581-2121 寄居玉淀水天宮祭実行委員会事務局(寄居町プロモーション戦略課)",
   website: "https://www.town.yorii.saitama.jp/soshiki/13/yoriitamayodosuitengusai.html",
   googleMap: "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=36.110851,139.194526&center=36.110851,139.194526",

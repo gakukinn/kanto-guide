@@ -5,7 +5,9 @@
  * 保持与UniversalStaticDetailTemplate完全相同的布局和样式
  * 只是在卡片内容中显示14项WalkerPlus字段
  */
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { useTranslations } from '@/hooks/useTranslation';
+import Image from 'next/image';
 
 // WalkerPlus花火数据接口 - 对应14项字段
 interface WalkerPlusHanabiData {
@@ -83,6 +85,10 @@ export default function WalkerPlusHanabiTemplate({
   regionConfig,
   activityConfig,
 }: WalkerPlusHanabiTemplateProps) {
+  
+  // 添加翻译hooks
+  const t = useTranslations('hanabi');
+  const tCommon = useTranslations('common');
   
   // 默认地区配置
   const defaultRegionConfigs: Record<string, RegionConfig> = {
@@ -291,6 +297,21 @@ export default function WalkerPlusHanabiTemplate({
     return `from-${regionColor.from} to-${activityColor.to}`;
   };
 
+  // 转换Google Maps URL为不依赖API密钥的格式
+  const convertMapUrl = (url: string) => {
+    if (!url) return url;
+    
+    // 如果是Google Maps Embed API格式，提取坐标并转换
+    const embedApiMatch = url.match(/[?&]q=([^&]+)/);
+    if (embedApiMatch) {
+      const coords = embedApiMatch[1];
+      return `https://maps.google.com/maps?q=${coords}&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+    }
+    
+    // 如果已经是嵌入格式，直接返回
+    return url;
+  };
+
   return (
     <div className={`min-h-screen bg-gradient-to-br ${getStandardBackgroundGradient()}`}>
       {/* 面包屑导航 */}
@@ -302,7 +323,7 @@ export default function WalkerPlusHanabiTemplate({
         <section className={`bg-gradient-to-r ${getStandardBackgroundGradient()} pb-8 pt-8`}>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {/* 图片展示卡片 - 与标题卡片样式一致 */}
-            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
+            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-2 md:p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
               <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
                 {data.media && data.media.length > 0 ? (
                   <img
@@ -350,7 +371,7 @@ export default function WalkerPlusHanabiTemplate({
                 <div className={`mt-6 transform rounded-3xl bg-gradient-to-r ${getStandardBackgroundGradient()} p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
                   <h2 className="mb-3 flex items-center text-lg font-semibold text-gray-800">
                     <span className="mr-2">👀</span>
-                    见どころ
+                    {t('highlights')}
                   </h2>
                   <div className="text-gray-700 leading-relaxed">
                     {data.highlights.split('\n').map((paragraph, index) => (
@@ -374,69 +395,69 @@ export default function WalkerPlusHanabiTemplate({
               {/* 左边卡片 - 基本信息 */}
               <div className={`transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
                 <div className="mb-4">
-                  <h3 className="text-xl font-bold text-gray-900">🎆 花火大会信息</h3>
+                  <h3 className="text-xl font-bold text-gray-900">🎆 {t('basicInfo')}</h3>
                 </div>
                 <div className="space-y-4 text-base">
+                                      <div className="border-b border-gray-200 pb-3">
+                      <div className="font-semibold text-gray-800 mb-2">
+                        🎇 {t('fireworksCount')}：
+                      </div>
+                      <div className="font-bold text-gray-900">
+                        {data.fireworksCount || tCommon('seeOfficial')}
+                      </div>
+                    </div>
+
+                                      <div className="border-b border-gray-200 pb-3">
+                      <div className="font-semibold text-gray-800 mb-2">
+                        ⏱️ {t('fireworksTime')}：
+                      </div>
+                      <div className="font-bold text-gray-900">
+                        {data.fireworksTime || tCommon('seeOfficial')}
+                      </div>
+                    </div>
+
+                                      <div className="border-b border-gray-200 pb-3">
+                      <div className="font-semibold text-gray-800 mb-2">
+                        👥 {t('expectedVisitors')}：
+                      </div>
+                      <div className="font-bold text-gray-900">
+                        {data.expectedVisitors || tCommon('seeOfficial')}
+                      </div>
+                    </div>
+
+                    <div className="border-b border-gray-200 pb-3">
+                      <div className="font-semibold text-gray-800 mb-2">
+                        📅 {t('date')}：
+                      </div>
+                      <div className="font-bold text-gray-900">
+                        {data.date || tCommon('seeOfficial')}
+                      </div>
+                    </div>
+
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      🎇 打ち上げ数：
+                      ⏰ {t('time')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.fireworksCount || '详见官网'}
+                      {data.time || tCommon('seeOfficial')}
                     </div>
                   </div>
 
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      ⏱️ 打ち上げ時間：
+                      🌧️ {t('weatherInfo')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.fireworksTime || '详见官网'}
-                    </div>
-                  </div>
-
-                  <div className="border-b border-gray-200 pb-3">
-                    <div className="font-semibold text-gray-800 mb-2">
-                      👥 例年の人出：
-                    </div>
-                    <div className="font-bold text-gray-900">
-                      {data.expectedVisitors || '详见官网'}
-                    </div>
-                  </div>
-
-                  <div className="border-b border-gray-200 pb-3">
-                    <div className="font-semibold text-gray-800 mb-2">
-                      📅 開催期間：
-                    </div>
-                    <div className="font-bold text-gray-900">
-                      {data.date || '详见官网'}
-                    </div>
-                  </div>
-
-                  <div className="border-b border-gray-200 pb-3">
-                    <div className="font-semibold text-gray-800 mb-2">
-                      ⏰ 開催時間：
-                    </div>
-                    <div className="font-bold text-gray-900">
-                      {data.time || '详见官网'}
-                    </div>
-                  </div>
-
-                  <div className="border-b border-gray-200 pb-3">
-                    <div className="font-semibold text-gray-800 mb-2">
-                      🌧️ 荒天の場合：
-                    </div>
-                    <div className="font-bold text-gray-900">
-                      {data.weatherInfo || '详见官网'}
+                      {data.weatherInfo || tCommon('seeOfficial')}
                     </div>
                   </div>
 
                   <div>
                     <div className="font-semibold text-gray-800 mb-2">
-                      🎫 有料席：
+                      🎫 {t('price')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.price || '详见官网'}
+                      {data.price || tCommon('seeOfficial')}
                     </div>
                   </div>
                 </div>
@@ -445,60 +466,60 @@ export default function WalkerPlusHanabiTemplate({
               {/* 右边卡片 - 会场信息 */}
               <div className={`transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
                 <div className="mb-4">
-                  <h3 className="text-xl font-bold text-gray-900">📍 会场・联系信息</h3>
+                  <h3 className="text-xl font-bold text-gray-900">📍 {t('venueInfo')}</h3>
                 </div>
                 <div className="space-y-4 text-base">
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      🍜 屋台など：
+                      🍜 {t('foodStalls')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.foodStalls || '详见官网'}
+                      {data.foodStalls || tCommon('seeOfficial')}
                     </div>
                   </div>
 
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      📝 その他・全体備考：
+                      📝 {t('notes')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.notes || '详见官网'}
+                      {data.notes || tCommon('seeOfficial')}
                     </div>
                   </div>
 
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      🏟️ 会場：
+                      🏟️ {t('venue')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.venue || '详见官网'}
+                      {data.venue || tCommon('seeOfficial')}
                     </div>
                   </div>
 
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      🚇 会場アクセス：
+                      🚇 {t('access')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.access || '详见官网'}
+                      {data.access || tCommon('seeOfficial')}
                     </div>
                   </div>
 
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      🚗 駐車場：
+                      🚗 {t('parking')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.parking || '详见官网'}
+                      {data.parking || tCommon('seeOfficial')}
                     </div>
                   </div>
 
                   <div className="border-b border-gray-200 pb-3">
                     <div className="font-semibold text-gray-800 mb-2">
-                      📞 問い合わせ：
+                      📞 {t('contact')}：
                     </div>
                     <div className="font-bold text-gray-900">
-                      {data.contact || '详见官网'}
+                      {data.contact || tCommon('seeOfficial')}
                     </div>
                   </div>
 
@@ -514,7 +535,7 @@ export default function WalkerPlusHanabiTemplate({
                           rel="noopener noreferrer"
                           className={`${themeColors.text600} hover:${themeColors.text800} transition-colors duration-300`}
                         >
-                          请以官方信息为准
+                          {tCommon('pleaseCheckOfficial')}
                         </a>
                       ) : (
                         '无'
@@ -529,11 +550,11 @@ export default function WalkerPlusHanabiTemplate({
             {data.googleMap && (
               <div className={`mt-8 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-6 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
                 <h3 className="mb-4 text-xl font-bold text-gray-900">
-                  📍 位置地图
+                  📍 {t('locationMap')}
                 </h3>
-                <div className="w-full h-96 rounded-2xl overflow-hidden border-2 border-gray-300">
+                <div className="w-full aspect-[16/9] rounded-2xl overflow-hidden border-2 border-gray-300">
                   <iframe
-                    src={data.googleMap}
+                    src={convertMapUrl(data.googleMap)}
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

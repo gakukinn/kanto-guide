@@ -1,6 +1,6 @@
 /**
  * 通用四层静态详情页面模板 - 基于HanabiDetailTemplate.tsx
- * 支持6个地区 × 6种活动的详情页面
+ * 支持6个地区 无 6种活动的详情页面
  * 严格保持原样式和布局不变
  */
 import { useState } from 'react';

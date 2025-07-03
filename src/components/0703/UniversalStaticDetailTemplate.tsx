@@ -1,6 +1,6 @@
 /**
  * 通用四层静态详情页面模板 - 基于HanabiDetailTemplate.tsx
- * 支持6个地区 × 6种活动的详情页面
+ * 支持6个地区 无 6种活动的详情页面
  * 严格保持原样式和布局不变
  */
 import { useState } from 'react';
@@ -291,7 +291,7 @@ export default function UniversalStaticDetailTemplate({
         <section className={`bg-gradient-to-r ${getStandardBackgroundGradient()} pb-8 pt-8`}>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             {/* 图片展示卡片 - 与标题卡片样式一致 */}
-            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-8 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
+            <div className={`mb-12 transform rounded-3xl border-2 border-red-200 bg-gradient-to-r ${getStandardBackgroundGradient()} p-2 md:p-4 shadow-xl backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:shadow-2xl`}>
               <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
                 {data.media && data.media.length > 0 ? (
                   <img
@@ -439,7 +439,7 @@ export default function UniversalStaticDetailTemplate({
                 <h3 className="mb-4 text-xl font-bold text-gray-900">
                   📍 位置地图
                 </h3>
-                <div className="w-full h-96 rounded-2xl overflow-hidden border-2 border-gray-300">
+                <div className="w-full aspect-[16/9] rounded-2xl overflow-hidden border-2 border-gray-300">
                   <iframe
                     src={data.googleMap}
                     width="100%"

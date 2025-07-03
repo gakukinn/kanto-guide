@@ -40,6 +40,26 @@ const messages = {
     "activityIntro": "活动简介",
     "locationMap": "位置地图"
   },
+  "matsuri": {
+    "reservationSystem": "预约制度",
+    "viewingPoints": "观赏点",
+    "expectedVisitors": "预计观众",
+    "date": "举办日期",
+    "time": "举办时间",
+    "weatherInfo": "雨天安排",
+    "price": "门票信息",
+    "foodStalls": "小吃摊位",
+    "notes": "其他说明",
+    "venue": "举办地点",
+    "access": "交通方式",
+    "parking": "停车场",
+    "contact": "联系方式",
+    "highlights": "精彩看点",
+    "basicInfo": "祭典信息",
+    "venueInfo": "会场・联系信息",
+    "activityIntro": "活动简介",
+    "locationMap": "位置地图"
+  },
   "common": {
     "seeOfficial": "详见官网",
     "pleaseCheckOfficial": "请以官方信息为准",

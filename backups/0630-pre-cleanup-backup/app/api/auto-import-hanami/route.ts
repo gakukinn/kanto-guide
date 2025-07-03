@@ -417,7 +417,7 @@ function parseTextData(text: string): ParsedData {
   };
 
   for (const line of lines) {
-    if (line.includes('名称') || line.includes('イベント名')) {
+    if (line.includes('名称') || line.includes('事件名')) {
       parsed.name = line.split(/[：:]/)[1]?.trim() || '';
     } else if (line.includes('所在地') || line.includes('住所')) {
       parsed.address = line.split(/[：:]/)[1]?.trim() || '';

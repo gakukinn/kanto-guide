@@ -60,7 +60,7 @@ async function addFuttsuHanabi() {
           tips: {
             ticketInfo: '有料観覧席なし',
             weather: '小雨決行、荒天時中止',
-            parking: '詳細は公式サイトをご確認ください'
+            parking: '詳細は官方网站をご確認ください'
           },
           walkerPlusUrl: 'https://www.jalan.net/event/evt_343755/?screenId=OUW1702',
           verified: true,
@@ -114,7 +114,7 @@ async function addFuttsuHanabi() {
           tips: {
             ticketInfo: '有料観覧席なし',
             weather: '小雨決行、荒天時中止',
-            parking: '詳細は公式サイトをご確認ください'
+            parking: '詳細は官方网站をご確認ください'
           },
           walkerPlusUrl: 'https://www.jalan.net/event/evt_343755/?screenId=OUW1702',
           verified: true,

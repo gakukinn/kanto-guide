@@ -1,6 +1,6 @@
 /**
  * 通用三层静态页面模板 - 基于StaticHanabiPageTemplate.tsx
- * 支持6个地区 × 6种活动 = 36个页面
+ * 支持6个地区 无 6种活动 = 36个页面
  * 严格保持原样式和布局不变
  */
 'use client';
@@ -173,6 +173,77 @@ interface UniversalStaticPageTemplateProps {
   activityEmoji?: string; // 活动表情符号
 }
 
+// 智能日期解析函数 - 移到组件外部避免依赖问题
+const parseDateForSorting = (dateStr: string): Date => {
+  if (!dateStr) return new Date('2999-12-31'); // 无日期的放最后
+  
+  try {
+    // 1. 处理标准格式：2025年7月2日
+    const standardMatch = dateStr.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+    if (standardMatch) {
+      const [, year, month, day] = standardMatch;
+      return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
+    }
+    
+    // 2. 处理季节格式：夏季、秋季、冬季、春季
+    const seasonMatch = dateStr.match(/(春季|夏季|秋季|冬季)/);
+    if (seasonMatch) {
+      const [, season] = seasonMatch;
+      const currentYear = new Date().getFullYear();
+      const seasonMonths = {
+        '春季': 2, // 3月1日
+        '夏季': 5, // 6月1日
+        '秋季': 8, // 9月1日
+        '冬季': 11 // 12月1日
+      };
+      return new Date(currentYear, seasonMonths[season as keyof typeof seasonMonths], 1);
+    }
+    
+    // 3. 处理上中下旬格式：7月上旬 → 7月5日，7月中旬 → 7月15日，7月下旬 → 7月25日
+    const periodMatch = dateStr.match(/(\d{1,2})月(上旬|中旬|下旬)/);
+    if (periodMatch) {
+      const [, month, period] = periodMatch;
+      const currentYear = new Date().getFullYear();
+      const periodDays = { '上旬': 5, '中旬': 15, '下旬': 25 };
+      return new Date(currentYear, parseInt(month) - 1, periodDays[period as keyof typeof periodDays]);
+    }
+    
+    // 4. 处理范围日期：7月22日・23日 或 7月19日-8月11日 - 取第一个日期
+    const rangeMatch = dateStr.match(/(\d{4}年)?(\d{1,2})月(\d{1,2})日/);
+    if (rangeMatch) {
+      const [, yearPart, month, day] = rangeMatch;
+      const year = yearPart ? parseInt(yearPart.replace('年', '')) : new Date().getFullYear();
+      return new Date(year, parseInt(month) - 1, parseInt(day));
+    }
+    
+    // 5. 处理简单月日格式：7月2日
+    const simpleMatch = dateStr.match(/(\d{1,2})月(\d{1,2})日/);
+    if (simpleMatch) {
+      const [, month, day] = simpleMatch;
+      const currentYear = new Date().getFullYear();
+      return new Date(currentYear, parseInt(month) - 1, parseInt(day));
+    }
+    
+    // 6. 处理无效日期：日期待定、TBD等
+    if (dateStr.includes('待定') || dateStr.includes('TBD') || dateStr.includes('未定')) {
+      return new Date('2999-12-31'); // 无效日期放最后
+    }
+    
+    // 7. 尝试原生Date解析
+    const parsed = new Date(dateStr);
+    if (!isNaN(parsed.getTime())) {
+      return parsed;
+    }
+    
+    console.warn('无法解析日期格式:', dateStr);
+    return new Date('2999-12-31'); // 无法解析的放最后
+    
+  } catch (error) {
+    console.warn('日期解析错误:', dateStr, error);
+    return new Date('2999-12-31'); // 错误的放最后
+  }
+};
+
 export default function UniversalStaticPageTemplate({
   region,
   events,
@@ -266,97 +337,104 @@ export default function UniversalStaticPageTemplate({
 
   // 完全复制原始点赞处理函数 - 支持连续点赞
   const handleLike = (eventId: string) => {
-    setLikes(prev => ({
-      ...prev,
-      [eventId]: (prev[eventId] || 0) + 1,
-    }));
+    setLikes(prev => {
+      const newLikes = {
+        ...prev,
+        [eventId]: (prev[eventId] || 0) + 1,
+      };
+      // 保存到localStorage
+      localStorage.setItem('japanGuide_likes', JSON.stringify(newLikes));
+      return newLikes;
+    });
   };
 
-  // 完全复制原始点赞初始化
+  // 修改的点赞初始化 - 结合localStorage和JSON初始值
   useEffect(() => {
     const initialLikes: Record<string, number> = {};
+    
+    // 1. 先从JSON获取基础值
     validatedEvents.forEach(event => {
       initialLikes[event.id] = event.likes || 0;
     });
+    
+    // 2. 从localStorage获取用户的点赞记录
+    try {
+      const savedLikes = localStorage.getItem('japanGuide_likes');
+      if (savedLikes) {
+        const parsedLikes = JSON.parse(savedLikes);
+        // 合并：localStorage中的值覆盖JSON初始值
+        Object.keys(parsedLikes).forEach(eventId => {
+          if (parsedLikes[eventId] > (initialLikes[eventId] || 0)) {
+            initialLikes[eventId] = parsedLikes[eventId];
+          }
+        });
+      }
+    } catch (error) {
+      console.warn('读取localStorage点赞数据失败:', error);
+    }
+    
     setLikes(initialLikes);
   }, [validatedEvents]);
 
-  // 完全复制原始筛选逻辑
+
+
+  // 修复的筛选逻辑
   const filteredEvents = useMemo(() => {
+    if (!startDate && !endDate) return validatedEvents;
+    
+    const startDateTime = startDate ? new Date(startDate) : null;
+    const endDateTime = endDate ? new Date(endDate) : null;
+    
     return validatedEvents.filter(event => {
       const eventDateStr = event.date || event.dates || '';
       
-      if (!startDate && !endDate) return true;
-      
-      // 简化的日期筛选逻辑
-      if (startDate || endDate) {
-        // 这里可以添加更复杂的日期筛选逻辑
-        return true; // 暂时返回所有事件
+      try {
+        const eventDate = parseDateForSorting(eventDateStr);
+        
+        // 无效日期（2999年）在筛选时排除
+        if (eventDate.getFullYear() === 2999) {
+          return false;
+        }
+        
+        // 日期范围检查
+        if (startDateTime && eventDate < startDateTime) return false;
+        if (endDateTime && eventDate > endDateTime) return false;
+        
+        return true;
+      } catch (error) {
+        console.warn('筛选时日期解析错误:', eventDateStr, error);
+        return false;
       }
-      
-      return true;
     });
   }, [validatedEvents, startDate, endDate]);
 
-  // 完全复制原始排序逻辑
+  // 修复的排序逻辑 - 未来活动在前，过期活动在后
   const sortedEvents = useMemo(() => {
-    // 智能日期解析函数 - 支持多种日期格式
-    const parseDateForSorting = (dateStr: string): Date => {
-      if (!dateStr) return new Date('2999-12-31'); // 无日期的放最后
-      
-      try {
-        // 1. 处理标准格式：2025年7月2日
-        const standardMatch = dateStr.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
-        if (standardMatch) {
-          const [, year, month, day] = standardMatch;
-          return new Date(parseInt(year), parseInt(month) - 1, parseInt(day));
-        }
-        
-        // 2. 处理上中下旬格式：7月上旬 → 7月5日，7月中旬 → 7月15日，7月下旬 → 7月25日
-        const periodMatch = dateStr.match(/(\d{1,2})月(上旬|中旬|下旬)/);
-        if (periodMatch) {
-          const [, month, period] = periodMatch;
-          const currentYear = new Date().getFullYear();
-          const periodDays = { '上旬': 5, '中旬': 15, '下旬': 25 };
-          return new Date(currentYear, parseInt(month) - 1, periodDays[period as keyof typeof periodDays]);
-        }
-        
-        // 3. 处理范围日期：7月22日・23日 或 7月19日-8月11日 - 取第一个日期
-        const rangeMatch = dateStr.match(/(\d{4}年)?(\d{1,2})月(\d{1,2})日/);
-        if (rangeMatch) {
-          const [, yearPart, month, day] = rangeMatch;
-          const year = yearPart ? parseInt(yearPart.replace('年', '')) : new Date().getFullYear();
-          return new Date(year, parseInt(month) - 1, parseInt(day));
-        }
-        
-        // 4. 处理简单月日格式：7月2日
-        const simpleMatch = dateStr.match(/(\d{1,2})月(\d{1,2})日/);
-        if (simpleMatch) {
-          const [, month, day] = simpleMatch;
-          const currentYear = new Date().getFullYear();
-          return new Date(currentYear, parseInt(month) - 1, parseInt(day));
-        }
-        
-        // 5. 尝试原生Date解析
-        const parsed = new Date(dateStr);
-        if (!isNaN(parsed.getTime())) {
-          return parsed;
-        }
-        
-        console.warn('无法解析日期格式:', dateStr);
-        return new Date('2999-12-31'); // 无法解析的放最后
-        
-      } catch (error) {
-        console.warn('日期解析错误:', dateStr, error);
-        return new Date('2999-12-31'); // 错误的放最后
-      }
-    };
-
+    const today = new Date();
+    today.setHours(0, 0, 0, 0); // 重置到当天00:00
+    
     return filteredEvents.sort((a, b) => {
       const dateA = parseDateForSorting(a.date || (a as any).dates || '');
       const dateB = parseDateForSorting(b.date || (b as any).dates || '');
       
-      // 按时间升序排列
+      // 判断是否过期（设置到当天00:00进行比较）
+      const dateANormalized = new Date(dateA);
+      dateANormalized.setHours(0, 0, 0, 0);
+      const dateBNormalized = new Date(dateB);
+      dateBNormalized.setHours(0, 0, 0, 0);
+      
+      const isAExpired = dateANormalized < today;
+      const isBExpired = dateBNormalized < today;
+      
+      // 未来活动 vs 过期活动
+      if (!isAExpired && isBExpired) {
+        return -1; // A在前
+      }
+      if (isAExpired && !isBExpired) {
+        return 1; // B在前
+      }
+      
+      // 同类活动按时间升序
       return dateA.getTime() - dateB.getTime();
     });
   }, [filteredEvents]);
@@ -390,19 +468,24 @@ export default function UniversalStaticPageTemplate({
       </nav>
 
       {/* 完全复制原始标题区域 - 样式不变 */}
-      <section className="pb-12 pt-12 text-center">
+      <section className="pb-4 md:pb-12 pt-12 text-center">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-6 flex items-center justify-center">
             <span className="mr-4 text-5xl">{region.emoji}</span>
             <h1
               className={`bg-gradient-to-r text-4xl font-bold md:text-5xl ${getTitleGradient()} bg-clip-text text-transparent`}
             >
-              {pageTitle || `${region.displayName}${activityDisplayName}列表`}
+              {pageTitle || (
+                <span className="block">
+                  <span className="block md:inline">{region.displayName}</span>
+                  <span className="block md:inline text-3xl md:text-5xl">{activityDisplayName}列表</span>
+                </span>
+              )}
             </h1>
             <span className="ml-4 text-5xl">{activityEmoji}</span>
           </div>
 
-          <p className="mx-auto max-w-7xl text-lg leading-relaxed text-gray-700 md:text-xl">
+          <p className="mx-auto max-w-7xl text-lg leading-relaxed text-gray-700 md:text-xl hidden md:block">
             {pageDescription ||
               `体验${region.displayName}最精彩的${activityDisplayName}，感受${region.description}`}
           </p>
@@ -410,7 +493,7 @@ export default function UniversalStaticPageTemplate({
       </section>
 
       {/* 完全复制原始日历筛选器 - 样式不变 */}
-      <section className="py-8">
+      <section className="py-4 md:py-8">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div
             className={`bg-gradient-to-r ${getStandardBackgroundGradient()} rounded-2xl border-2 border-white/30 p-6 shadow-lg`}
@@ -459,7 +542,7 @@ export default function UniversalStaticPageTemplate({
       </section>
 
       {/* 完全复制原始活动列表 - 样式不变 */}
-      <section className="py-12">
+      <section className="py-4 md:py-12">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
           <div className="grid gap-6 md:gap-8">
             {sortedEvents.map(event => (
@@ -496,7 +579,7 @@ export default function UniversalStaticPageTemplate({
                         </div>
                       </div>
 
-                      <div className="flex flex-col items-center gap-3">
+                      <div className="flex flex-row items-center gap-2 md:flex-col md:items-center">
                         {/* 点赞按钮 - 显示随机红心数 */}
                         <button
                           onClick={() => handleLike(event.id)}
@@ -540,7 +623,7 @@ export default function UniversalStaticPageTemplate({
             if (!navigation) return null;
 
             return (
-              <div className="flex items-center justify-center space-x-4">
+              <div className="flex flex-col items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
                 {/* 上一个地区 */}
                 <Link
                   href={navigation.prev.href as any}

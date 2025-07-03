@@ -15,7 +15,7 @@ const pageData = {
   "venue": "富士森公園",
   "access": "火车：从JR八王子站或JR西八王子站步行20分钟。京王电铁山田站步行15分钟",
   "weatherInfo": "中止",
-  "parking": "×",
+  "parking": "无",
   "price": "无",
   "contact": "042-649-2827 （公社）八王子观光会议协会",
   "foodStalls": "详见官网",

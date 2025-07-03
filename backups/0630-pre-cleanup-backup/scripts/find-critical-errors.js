@@ -9,7 +9,7 @@ const criticalErrors = [
     { pattern: /確認可以/g, name: '確認可以', type: '混合表达' },
     { pattern: /被燃放花火/g, name: '被燃放花火', type: '混合表达' },
     { pattern: /举办夏の/g, name: '举办夏の', type: '混合表达' },
-    { pattern: /夏装点一大イベント/g, name: '夏装点一大イベント', type: '混合表达' },
+    { pattern: /夏装点一大事件/g, name: '夏装点一大事件', type: '混合表达' },
     { pattern: /装点夜空/g, name: '装点夜空', type: '混合表达' },
     { pattern: /举行ため/g, name: '举行ため', type: '混合表达' },
     { pattern: /同時举办/g, name: '同時举办', type: '混合表达' },
@@ -17,7 +17,7 @@ const criticalErrors = [
     
     // 2. 日文外来语（频率高，应翻译）
     { pattern: /フェスタ/g, name: 'フェスタ', type: '外来语' },
-    { pattern: /イベント/g, name: 'イベント', type: '外来语' },
+    { pattern: /事件/g, name: '事件', type: '外来语' },
     { pattern: /テーブル席/g, name: 'テーブル席', type: '外来语' },
     { pattern: /シート席/g, name: 'シート席', type: '外来语' },
     { pattern: /インターネットで/g, name: 'インターネットで', type: '外来语' },
