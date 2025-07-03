@@ -26,7 +26,7 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-hanami-1750934114046",
-  name: "第51回水戸のあじさい祭典（みとのあじさい祭典）",
+  name: "第51届水户绣球花祭（みとのあじさい祭典）",
   address: "〒310-0052　茨城県水戸市松本町13-19",
   datetime: "2025年6月7日～29日　 ※活动により異なる",
   venue: "水戸市　保和苑及び周辺史跡",
@@ -37,13 +37,13 @@ const DetailPage = () => {
   website: "https://www.city.mito.lg.jp/site/kankouinfo/94415.html",
   googleMap: "https://maps.google.com/maps?q=36.391576,140.455102&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "kitakanto",
-  description: "为了配合保和苑绣球花的最佳观赏季节，举办了“水户绣球节”。在以水户市西北部的保和苑为中心的水户浪漫区举行的各种活动都将举行。在日本式庭园的保和苑内（1.5 公顷（ha）），蓝色和白色的西洋八仙花和阁八仙花等，约100个品种6000株色彩鲜艳地盛开，迎接来苑者。",
+  description: "第51届水户绣球花祭于每年六月中旬至七月上旬在水户市保和苑及周边地区举办，苑内约有六千株绣球花盛开，蓝、紫、粉等色彩在池塘与小径旁交织，梅雨时节雨水挂在花瓣上更加清丽动人。期间还将举行茶会、夜间点灯等限定活动，游客可在古雅庭园中漫步赏花，体验夏日水户独有的幽静氛围与季节之美。",
   themeColor: "red",
   status: "scheduled",
   media: [
     {
       type: "image" as const,
-      url: "https://cdn.midjourney.com/7f46298f-fb7b-4dcd-bd20-b5095483a6e1/0_1.png",
+      url: "https://cdn.midjourney.com/5135d3d0-6318-4be3-b2a6-f21207bf08af/0_3.png",
       title: "第51回水戸のあじさい祭典（みとのあじさい祭典）图片1",
       alt: "第51回水戸のあじさい祭典（みとのあじさい祭典）图片1",
       caption: ""

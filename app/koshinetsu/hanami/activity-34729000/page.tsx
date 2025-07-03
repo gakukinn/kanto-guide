@@ -26,7 +26,7 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-hanami-1750934729000",
-  name: "河口湖ハーブフェスティバル（かわぐちこハーブフェスティバル）",
+  name: "河口湖薰衣草节（かわぐちこハーブフェスティバル）",
   address: "〒401-0305　山梨県富士河口湖町大石2585",
   datetime: "2025年6月21日～7月21日　 9:00～17:00",
   venue: "山梨県富士河口湖町　河口湖畔　大石公園",
@@ -43,7 +43,7 @@ const DetailPage = () => {
   media: [
     {
       type: "image" as const,
-      url: "https://fujisan.ne.jp/files/libs/3275/pw/202104231402098581.jpg?1619154132",
+      url: "https://cdn.midjourney.com/23bc1121-4bbc-4040-9e30-cf54b294589f/0_2.png",
       title: "河口湖ハーブフェスティバル（かわぐちこハーブフェスティバル）图片1",
       alt: "河口湖ハーブフェスティバル（かわぐちこハーブフェスティバル）图片1",
       caption: ""

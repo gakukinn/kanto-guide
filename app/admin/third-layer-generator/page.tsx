@@ -161,12 +161,36 @@ export default function ThirdLayerGenerator() {
         console.log(`  ${index + 1}. ${event.name} - 日期: "${event.datetime || event.date || '无日期'}"`);
       });
 
-      // 🔧 新增：按日期排序
+      // 🔧 新增：按日期排序（未来活动在前，过期活动在后）
       console.log('🔄 开始排序...');
+      const today = new Date();
+      today.setHours(0, 0, 0, 0); // 重置到当天00:00
+      
       const sortedEvents = matchingEvents.sort((a, b) => {
         console.log(`🔍 比较: "${a.name}" vs "${b.name}"`);
         const dateA = parseDateForSorting(a.datetime || a.date || '');
         const dateB = parseDateForSorting(b.datetime || b.date || '');
+        
+        // 判断是否过期（设置到当天00:00进行比较）
+        const dateANormalized = new Date(dateA);
+        dateANormalized.setHours(0, 0, 0, 0);
+        const dateBNormalized = new Date(dateB);
+        dateBNormalized.setHours(0, 0, 0, 0);
+        
+        const isAExpired = dateANormalized < today;
+        const isBExpired = dateBNormalized < today;
+        
+        // 未来活动 vs 过期活动
+        if (!isAExpired && isBExpired) {
+          console.log(`  → A未过期，B已过期，A在前`);
+          return -1; // A在前
+        }
+        if (isAExpired && !isBExpired) {
+          console.log(`  → A已过期，B未过期，B在前`);
+          return 1; // B在前
+        }
+        
+        // 同类活动按时间升序
         const result = dateA.getTime() - dateB.getTime();
         console.log(`  → 排序结果: ${result} (${result < 0 ? 'A在前' : result > 0 ? 'B在前' : '相等'})`);
         return result;

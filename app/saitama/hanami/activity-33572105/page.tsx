@@ -26,7 +26,7 @@ const DetailPage = () => {
   // 转换后的活动数据
   const activityData = {
   id: "recognition-hanami-1750933572105",
-  name: "能護寺　あじさい（のうごじ　あじさい）",
+  name: "能护寺绣球花（のうごじ　あじさい）",
   address: "〒360-0237　埼玉県熊谷市永井太田1141",
   datetime: "2025年6月上旬～下旬　 無料シャトル巴士で行く小さないい旅/6月14日～15日8:30～14:15（JR籠原駅北口出発）",
   venue: "埼玉県熊谷市　能護寺（あじさい寺）",
@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://www.city.熊谷.lg.jp/kanko/midokoro/nogoji.html",
   googleMap: "https://maps.google.com/maps?q=36.230979,139.339145&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "saitama",
-  description: "能护寺绣球举办期间：2025年6月上旬~下旬。在旅游网站上介绍了能护寺绣球的评论和投稿照片。你也可以在这里找到通往诺戈寺绣球的信息和拥挤的情况。能护寺绣球花附近的酒店/旅游景点/当地美食/活动信息也很丰富。",
+  description: "能护寺绣球花每年六月中旬至七月上旬迎来最佳观赏期，寺内约有一万株绣球花盛开，色彩从淡蓝到深紫在山坡与石阶间层叠交织，被称为“关东绣球花寺”。沿着寺内石阶而上，绣球花在两侧环绕铺展，雨后水珠挂在花瓣上更加清透动人，散发静谧氛围。寺内还设有茶席与限定御朱印，为访客留下夏日限定的美好回忆，是体验日本梅雨季自然美景与宁静寺院氛围的绝佳场所。",
   themeColor: "red",
   status: "scheduled",
   media: [

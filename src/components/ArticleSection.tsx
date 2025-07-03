@@ -51,7 +51,7 @@ export default function ArticleSection({
         {/* 标题区域 */}
         <div className="mb-8 text-center">
           <h2 className="mb-4 text-3xl font-bold text-gray-800">
-            📰 {regionName}活动主题
+            ✍️ {regionName}活动主题
           </h2>
           <p className="text-lg text-gray-600">
             深入了解{regionName}的文化魅力，获取最新活动资讯

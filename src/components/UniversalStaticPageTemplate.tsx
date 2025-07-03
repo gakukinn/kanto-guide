@@ -337,18 +337,42 @@ export default function UniversalStaticPageTemplate({
 
   // 完全复制原始点赞处理函数 - 支持连续点赞
   const handleLike = (eventId: string) => {
-    setLikes(prev => ({
-      ...prev,
-      [eventId]: (prev[eventId] || 0) + 1,
-    }));
+    setLikes(prev => {
+      const newLikes = {
+        ...prev,
+        [eventId]: (prev[eventId] || 0) + 1,
+      };
+      // 保存到localStorage
+      localStorage.setItem('japanGuide_likes', JSON.stringify(newLikes));
+      return newLikes;
+    });
   };
 
-  // 完全复制原始点赞初始化
+  // 修改的点赞初始化 - 结合localStorage和JSON初始值
   useEffect(() => {
     const initialLikes: Record<string, number> = {};
+    
+    // 1. 先从JSON获取基础值
     validatedEvents.forEach(event => {
       initialLikes[event.id] = event.likes || 0;
     });
+    
+    // 2. 从localStorage获取用户的点赞记录
+    try {
+      const savedLikes = localStorage.getItem('japanGuide_likes');
+      if (savedLikes) {
+        const parsedLikes = JSON.parse(savedLikes);
+        // 合并：localStorage中的值覆盖JSON初始值
+        Object.keys(parsedLikes).forEach(eventId => {
+          if (parsedLikes[eventId] > (initialLikes[eventId] || 0)) {
+            initialLikes[eventId] = parsedLikes[eventId];
+          }
+        });
+      }
+    } catch (error) {
+      console.warn('读取localStorage点赞数据失败:', error);
+    }
+    
     setLikes(initialLikes);
   }, [validatedEvents]);
 
@@ -384,13 +408,33 @@ export default function UniversalStaticPageTemplate({
     });
   }, [validatedEvents, startDate, endDate]);
 
-  // 完全复制原始排序逻辑
+  // 修复的排序逻辑 - 未来活动在前，过期活动在后
   const sortedEvents = useMemo(() => {
+    const today = new Date();
+    today.setHours(0, 0, 0, 0); // 重置到当天00:00
+    
     return filteredEvents.sort((a, b) => {
       const dateA = parseDateForSorting(a.date || (a as any).dates || '');
       const dateB = parseDateForSorting(b.date || (b as any).dates || '');
       
-      // 按时间升序排列
+      // 判断是否过期（设置到当天00:00进行比较）
+      const dateANormalized = new Date(dateA);
+      dateANormalized.setHours(0, 0, 0, 0);
+      const dateBNormalized = new Date(dateB);
+      dateBNormalized.setHours(0, 0, 0, 0);
+      
+      const isAExpired = dateANormalized < today;
+      const isBExpired = dateBNormalized < today;
+      
+      // 未来活动 vs 过期活动
+      if (!isAExpired && isBExpired) {
+        return -1; // A在前
+      }
+      if (isAExpired && !isBExpired) {
+        return 1; // B在前
+      }
+      
+      // 同类活动按时间升序
       return dateA.getTime() - dateB.getTime();
     });
   }, [filteredEvents]);

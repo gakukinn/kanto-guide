@@ -37,13 +37,13 @@ const DetailPage = () => {
   website: "https://www.hondoji.net/",
   googleMap: "https://maps.google.com/maps?q=35.839946,139.928461&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "chiba",
-  description: "本土寺紫阳花举办时间：2025年6月上旬~7月上旬。在旅游网站上，我们介绍了对大岛寺绣球花的评论和投稿照片。你也可以在这里找到通往大岛寺绣球花的信息和拥挤的情况。酒店/观光景点/当地美食/活动信息都很丰富。大岛寺绣球周围的绣球花。",
+  description: "每年六月，本土寺迎来紫阳花的盛开季节，寺内种植了约一万株紫阳花，蓝、紫、粉等色彩绚烂地装点着参道与庭园，被誉为“紫阳花寺”。梅雨季节的细雨中，水珠挂在花瓣上愈发透亮，映衬着古老寺院的红门与青苔石阶，形成宁静又幽美的景致。寺内还会发放限定御朱印，并设置茶席供游客小憩，是体验千叶夏日风情与感受静谧氛围的绝佳去处。",
   themeColor: "red",
   status: "scheduled",
   media: [
     {
       type: "image" as const,
-      url: "https://maruchiba.jp/lsc/upfile/spot/0001/0041/10041_1_l.jpg",
+      url: "https://cdn.midjourney.com/801dc596-0658-40d4-a450-f8b21ec987d4/0_1.png",
       title: "本土寺的紫阳花（ほんどじ的紫阳花）图片1",
       alt: "本土寺的紫阳花（ほんどじ的紫阳花）图片1",
       caption: ""

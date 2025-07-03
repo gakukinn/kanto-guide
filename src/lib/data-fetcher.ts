@@ -93,10 +93,32 @@ export async function getStaticRegionActivityData(
       }
     };
     
-    // 按日期排序 - 最新的在前面
+    // 按日期排序 - 未来活动在前，过期活动在后
+    const today = new Date();
+    today.setHours(0, 0, 0, 0); // 重置到当天00:00
+    
     const sortedEvents = events.sort((a: any, b: any) => {
       const dateA = parseDateForSorting(a.date || '');
       const dateB = parseDateForSorting(b.date || '');
+      
+      // 判断是否过期（设置到当天00:00进行比较）
+      const dateANormalized = new Date(dateA);
+      dateANormalized.setHours(0, 0, 0, 0);
+      const dateBNormalized = new Date(dateB);
+      dateBNormalized.setHours(0, 0, 0, 0);
+      
+      const isAExpired = dateANormalized < today;
+      const isBExpired = dateBNormalized < today;
+      
+      // 未来活动 vs 过期活动
+      if (!isAExpired && isBExpired) {
+        return -1; // A在前
+      }
+      if (isAExpired && !isBExpired) {
+        return 1; // B在前
+      }
+      
+      // 同类活动按时间升序
       return dateA.getTime() - dateB.getTime();
     });
     
