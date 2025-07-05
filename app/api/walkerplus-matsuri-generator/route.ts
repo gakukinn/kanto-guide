@@ -442,62 +442,31 @@ const generatePageFile = async (
   const safeName = cleanString(standardData.name);
   const safeDescription = cleanString(standardData.description || standardData.name);
   
-  // 字符串转义函数
-  const escapeString = (str: string) => {
-    return str.replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, '\\n').replace(/\r/g, '\\r');
-  };
 
-  // 为 media 字段生成特殊的 TypeScript 代码
-  const generateMediaCode = (media: any[]) => {
-    if (!media || media.length === 0) return '[]';
-    
-    const mediaItems = media.map(item => `    {
-      "type": "image" as const,
-      "url": "${escapeString(item.url)}",
-      "title": "${escapeString(item.title)}",
-      "alt": "${escapeString(item.alt)}",
-      "caption": "${escapeString(item.caption || '')}"
-    }`).join(',\n');
-    
-    return `[\n${mediaItems}\n  ]`;
-  };
 
   // 生成详情页链接
   const detailLink = `/${region}/${activityType}/${path.basename(detailPageFolder)}`;
 
-  // 生成完整的数据对象代码（与花火页面保持一致）
-  const dataObjectCode = `{
-  "name": "${escapeString(standardData.name)}",
-  "reservationSystem": "${escapeString(standardData.reservationSystem)}",
-  "viewingPoints": "${escapeString(standardData.viewingPoints)}",
-  "expectedVisitors": "${escapeString(standardData.expectedVisitors)}",
-  "date": "${escapeString(standardData.date)}",
-  "time": "${escapeString(standardData.time)}",
-  "venue": "${escapeString(standardData.venue)}",
-  "access": "${escapeString(standardData.access)}",
-  "weatherInfo": "${escapeString(standardData.weatherInfo)}",
-  "parking": "${escapeString(standardData.parking)}",
-  "price": "${escapeString(standardData.price)}",
-  "contact": "${escapeString(standardData.contact)}",
-  "foodStalls": "${escapeString(standardData.foodStalls)}",
-  "notes": "${escapeString(standardData.notes)}",${standardData.spotName ? `\n  "spotName": "${escapeString(standardData.spotName)}",` : ''}${standardData.spotAddress ? `\n  "spotAddress": "${escapeString(standardData.spotAddress)}",` : ''}
-  "website": "${escapeString(standardData.website)}",
-  "googleMap": "${escapeString(standardData.googleMap)}",
-  "id": "${escapeString(standardData.id)}",
-  "region": "${escapeString(standardData.region)}",
-  "activityType": "${escapeString(standardData.activityType)}",${standardData.description ? `\n  "description": "${escapeString(standardData.description)}",` : ''}${standardData.highlights ? `\n  "highlights": "${escapeString(standardData.highlights)}",` : ''}
-  "themeColor": "${escapeString(standardData.themeColor || 'orange')}",
-  "status": "${escapeString(standardData.status || 'scheduled')}",
-  "media": ${generateMediaCode(standardData.media)},
-  "detailLink": "${escapeString(detailLink)}",
-  "createdAt": "${escapeString(new Date().toISOString())}",
-  "source": "walkerplus-generator"
-} as const`;
+  // 添加系统字段到standardData中
+  const completeData = {
+    ...standardData,
+    detailLink: detailLink,
+    createdAt: new Date().toISOString(),
+    source: "walkerplus-generator"
+  };
+
+  // 生成完整的数据对象代码（统一格式 - 移除属性名引号）
+  const dataObjectCode = JSON.stringify(completeData, null, 2)
+    .replace(/"type": "image"/g, 'type: "image" as const')  // 先添加类型断言
+    .replace(/"type": "video"/g, 'type: "video" as const')
+    .replace(/"([^"]+)":/g, '$1:')  // 再移除属性名的引号
+    .replace(/"createdAt": "([^"]*)"/, 'createdAt: new Date("$1")')
+    .replace(/"updatedAt": "([^"]*)"/, 'updatedAt: new Date("$1")');
 
   const pageContent = `import ${templateName} from '../../../../src/components/${templateName}';
 import { Metadata } from 'next';
 
-const pageData = ${dataObjectCode};
+const activityData = ${dataObjectCode};
 
 export const metadata: Metadata = {
   title: '${safeName} | ${region.toUpperCase()}祭典活动指南',
@@ -514,7 +483,7 @@ export const metadata: Metadata = {
 export default function ${componentName}() {
   return (
     <${templateName}
-      data={pageData}
+      data={activityData}
       regionKey="${region}"
       activityKey="${activityType}"
     />
@@ -747,7 +716,8 @@ export async function POST(request: NextRequest) {
       
       // 使用选定活动的路径和ID
       activityId = targetActivity.id;
-      detailPageFolder = targetActivity.targetDir;
+      const folderName = path.basename(targetActivity.path); // 从路径提取文件夹名
+      detailPageFolder = join(process.cwd(), 'app', region, activityType, folderName);
       detailLink = targetActivity.path;
       
       console.log(`📁 覆盖现有页面: ${targetActivity.path}`);
@@ -756,15 +726,10 @@ export async function POST(request: NextRequest) {
       console.log(`🆕 新建模式：生成新的活动页面`);
       
       activityId = activityData.id || Date.now().toString();
-      const baseFolder = activityName
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, '')
-        .replace(/[\s_-]+/g, '-')
-        .replace(/^-+|-+$/g, '')
-        .substring(0, 30);
-      
-      const timestamp = Date.now().toString().slice(-8);
-      const folderName = `activity-${baseFolder}-${timestamp}`;
+      // 统一格式：activity-年份-地区-活动类型-标号
+      const currentYear = new Date().getFullYear();
+      const serialNumber = Date.now().toString().slice(-3); // 使用时间戳后3位作为标号
+      const folderName = `activity-${currentYear}-${region}-${activityType}-${serialNumber}`;
       detailPageFolder = join(process.cwd(), 'app', region, activityType, folderName);
       detailLink = `/${region}/${activityType}/${folderName}`;
       

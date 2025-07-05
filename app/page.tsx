@@ -1,10 +1,13 @@
 import { regionConfig } from '@/config/regionConfig';
 import '@/styles/region-grid.css';
 import Link from 'next/link';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-100 via-white to-blue-100">
+      <Header />
       {/* 主要内容 */}
       <main className="relative z-10 min-h-screen bg-white/30 backdrop-blur-sm">
         {/* 标题区域 */}
@@ -65,6 +68,7 @@ export default function HomePage() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

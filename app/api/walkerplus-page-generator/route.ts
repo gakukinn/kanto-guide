@@ -230,12 +230,17 @@ const generatePageFile = async (
  */
 import ${templateName} from '../../../../src/components/${templateName}';
 
-const pageData = ${JSON.stringify(standardData, null, 2)} as const;
+const activityData = ${JSON.stringify(standardData, null, 2)
+    .replace(/"type": "image"/g, 'type: "image" as const')  // 先添加类型断言
+    .replace(/"type": "video"/g, 'type: "video" as const')
+    .replace(/"([^"]+)":/g, '$1:')  // 再移除属性名的引号
+    .replace(/"createdAt": "([^"]*)"/, 'createdAt: new Date("$1")')
+    .replace(/"updatedAt": "([^"]*)"/, 'updatedAt: new Date("$1")')};
 
 export default function ${componentName}() {
   return (
     <${templateName}
-      data={pageData}
+      data={activityData}
       regionKey="${region}"
       activityKey="${activityType}"
     />
@@ -745,16 +750,10 @@ export async function POST(request: NextRequest) {
       // 新建模式：生成新的页面路径
       console.log(`🆕 新建模式：生成新的活动页面`);
       
-      const activityName = data.eventName || data.name || '未命名活动';
-      const baseFolder = activityName
-        .toLowerCase()
-        .replace(/[^\w\s-]/g, '')
-        .replace(/[\s_-]+/g, '-')
-        .replace(/^-+|-+$/g, '')
-        .substring(0, 30);
-      
-      const timestamp = Date.now().toString().slice(-8);
-      detailPageFolder = `activity-${baseFolder}-${timestamp}`;
+      // 统一格式：activity-年份-地区-活动类型-标号
+      const currentYear = new Date().getFullYear();
+      const serialNumber = Date.now().toString().slice(-3); // 使用时间戳后3位作为标号
+      detailPageFolder = `activity-${currentYear}-${region}-${activityType}-${serialNumber}`;
       detailLink = `/${region}/${activityType}/${detailPageFolder}`;
       targetDir = path.join(process.cwd(), 'app', region, activityType, detailPageFolder);
       

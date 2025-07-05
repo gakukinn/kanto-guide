@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://visitsaitamacity.jp/events/28",
   googleMap: "https://maps.google.com/maps?q=35.921885,139.641392&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "saitama",
-  description: "为了庆祝埼玉市烟花节的开幕式，烟花节将在大和田公园举行。早打、星火等被燃放，为夏日的夜空增添了华丽的色彩。大和田公园会场的特点是景色优美，从任何方向都能欣赏到美丽的烟花。埼玉市花火大会在浦和地区（大间木公园）和岩地区（岩文化公园）也举行。※发射数：去年4000发观众数：去年90，000人",
+  description: "为了庆祝埼玉市烟花节的开幕式，烟花节将在大和田公园举行。早打、星火等被燃放，为夏日的夜空增添了华丽的色彩。大和田公园会场的特点是景色优美，从任何方向都能欣赏到美丽的烟花。埼玉市花火大会在浦和地区（大间木公园）和岩地区（岩文化公园）也举行。※发射数：去年4000发观众数：去年90000人",
   themeColor: "red",
   status: "scheduled",
   media: [

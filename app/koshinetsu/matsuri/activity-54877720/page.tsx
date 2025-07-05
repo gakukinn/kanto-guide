@@ -37,7 +37,7 @@ const DetailPage = () => {
   website: "https://minekomi.sakura.ne.jp/",
   googleMap: "https://maps.google.com/maps?q=37.914764,139.070089&t=&z=15&ie=UTF8&iwloc=&output=embed",
   region: "koshinetsu",
-  description: "被称为新潟三大高市之一的“蒲原祭”在蒲原神社及其周边地区举行。总共有500多个摊位在1公里内排列，以日本最大的范围和分店数量而自豪。在过去的三天里，它吸引了超过300，000名游客。还举行了夜宫旗游行、万代太鼓表演和浴衣祭。在7月1日的节日期间，会举行蒲原神社最大的祭神仪式“祭神仪式（Otakusen）”，占卜一年中水稻的丰收，并祈祷丰收。",
+  description: "被称为新潟三大高市之一的“蒲原祭”在蒲原神社及其周边地区举行。总共有500多个摊位在1公里内排列，以日本最大的范围和分店数量而自豪。在过去的三天里，它吸引了超过300000名游客。还举行了夜宫旗游行、万代太鼓表演和浴衣祭。在7月1日的节日期间，会举行蒲原神社最大的祭神仪式“祭神仪式（Otakusen）”，占卜一年中水稻的丰收，并祈祷丰收。",
   themeColor: "red",
   status: "scheduled",
   media: [

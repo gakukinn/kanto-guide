@@ -107,7 +107,7 @@ async function generateJSONFiles(activityType: keyof typeof ACTIVITY_CONFIGS, da
       location: data.address || '',
       date: data.datetime || '',
       image: uploadedImages.length > 0 ? uploadedImages[0] : '',
-      detailLink: detailLink || `/${region}/${activityType}/activity-${data.id.slice(-8)}`,
+      detailLink: detailLink,
       likes: 0,
       themeColor: 'red'
     };
@@ -579,19 +579,13 @@ export async function POST(request: NextRequest) {
     // 活动类型路径（第三层）- 六个活动类型
     const activityTypePath = config.urlPath; // matsuri, hanami, hanabi, momiji, illumination, culture
     
-    // 活动详情路径（第四层）- 统一使用英文格式
-    // 优先使用englishName，如果没有则使用activity-{id}格式
-    const englishName = data.englishName || '';
-    const sanitizedEnglishName = englishName
-      .toLowerCase()
-      .replace(/[^a-z0-9]/g, '-') // 只保留小写字母和数字，其他字符替换为连字符
-      .replace(/-+/g, '-') // 多个连续连字符合并为一个
-      .replace(/^-|-$/g, '') // 移除开头和结尾的连字符
-      .substring(0, 30); // 限制长度
+    // 活动详情路径（第四层）- 统一格式：activity-年份-地区-活动类型-标号
+    const currentYear = new Date().getFullYear();
+    const serialNumber = Date.now().toString().slice(-3); // 使用时间戳后3位作为标号
+    let detailPageFolder = `activity-${currentYear}-${regionPath}-${activityTypePath}-${serialNumber}`;
     
-    let detailPageFolder = sanitizedEnglishName && sanitizedEnglishName.length >= 3 
-      ? `${sanitizedEnglishName}-${data.id.slice(-8)}` 
-      : `activity-${data.id.slice(-8)}`;
+    // 额外安全检查，防止双连字符
+    detailPageFolder = detailPageFolder.replace(/--+/g, '-'); // 将多个连字符合并为一个
     
     // 完整的四层目录结构：app/{region}/{activityType}/{activityDetail}/
     let targetDir = path.join(process.cwd(), 'app', regionPath, activityTypePath, detailPageFolder);
@@ -650,9 +644,11 @@ export async function POST(request: NextRequest) {
                   .replace(/^-|-$/g, '')
                   .substring(0, 30);
                 
+                // 🔧 修复双连字符：清理现有数据的ID后缀
+                const existingIdSuffix = existingData.id.slice(-8).replace(/^-+|-+$/g, '');
                 const existingFolder = existingSanitizedName && existingSanitizedName.length >= 3 
-                  ? `${existingSanitizedName}-${existingData.id.slice(-8)}` 
-                  : `activity-${existingData.id.slice(-8)}`;
+                  ? `${existingSanitizedName}-${existingIdSuffix}` 
+                  : `activity-${existingIdSuffix}`;
                 
                 const existingPath = `/${regionPath}/${activityTypePath}/${existingFolder}`;
                 const existingTargetDir = path.join(process.cwd(), 'app', regionPath, activityTypePath, existingFolder);
@@ -762,32 +758,9 @@ export async function POST(request: NextRequest) {
       
       console.log(`📁 覆盖现有页面: ${targetActivity.path}`);
     } else {
-      // 🆕 新建模式：确保生成唯一的路径名
+      // 🆕 新建模式：生成新的活动页面
       console.log(`🆕 新建模式：生成新的活动页面`);
       
-      // 检查路径是否已存在，如果存在则添加时间戳确保唯一性
-      const checkAndEnsureUniquePath = async (basePath: string): Promise<string> => {
-        let uniquePath = basePath;
-        let counter = 1;
-        
-        while (true) {
-          try {
-            await fs.access(path.join(process.cwd(), 'app', regionPath, activityTypePath, uniquePath));
-            // 路径存在，生成新的路径名
-            const timestamp = Date.now().toString().slice(-6); // 取最后6位时间戳
-            uniquePath = `${basePath}-${timestamp}`;
-            counter++;
-            if (counter > 10) break; // 防止无限循环
-          } catch (error) {
-            // 路径不存在，可以使用
-            break;
-          }
-        }
-        
-        return uniquePath;
-      };
-      
-      detailPageFolder = await checkAndEnsureUniquePath(detailPageFolder);
       targetDir = path.join(process.cwd(), 'app', regionPath, activityTypePath, detailPageFolder);
       
       console.log(`📁 新建页面路径: ${targetDir}`);
