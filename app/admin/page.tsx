@@ -16,8 +16,8 @@ export default function AdminPage() {
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-          <h2 className="text-xl font-semibold mb-4">🏮 祭典页面生成器</h2>
-          <p className="text-gray-600 mb-4">生成祭典活动页面</p>
+          <h2 className="text-xl font-semibold mb-4">🏕️ 夏休页面生成器</h2>
+          <p className="text-gray-600 mb-4">生成夏休活动页面</p>
           <a 
             href="/admin/walkerplus-matsuri-generator"
             className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-colors"
@@ -27,7 +27,7 @@ export default function AdminPage() {
         </div>
 
         <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-          <h2 className="text-xl font-semibold mb-4">📝 活动页面生成器</h2>
+          <h2 className="text-xl font-semibold mb-4">📝 佳兰页面生成器</h2>
           <p className="text-gray-600 mb-4">生成通用活动页面</p>
           <a 
             href="/admin/activity-page-generator"

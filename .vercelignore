@@ -1,0 +1,8 @@
+# 🔒 排除管理面板，防止在生产环境暴露
+app/admin/
+
+# 其他不需要部署的文件
+ADMIN_SECURITY.md
+*.local
+.env.local
+.env*.local 

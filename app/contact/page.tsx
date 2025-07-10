@@ -3,8 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: '联系我们 - 日本东部地区活动指南',
-  description: '联系日本东部地区活动指南团队，获取最新的关东地区活动信息，或为我们提供宝贵建议。',
+  title: '联系我们 - 日本关东地区活动指南',
+  description: '联系日本关东地区活动指南团队，获取最新的关东地区活动信息，或为我们提供宝贵建议。',
 };
 
 export default function ContactPage() {

@@ -1,10 +1,16 @@
 import { ReactNode } from 'react';
+import { redirect } from 'next/navigation';
 
 interface AdminLayoutProps {
   children: ReactNode;
 }
 
 export default function AdminLayout({ children }: AdminLayoutProps) {
+  // 🔒 生产环境保护：完全禁止访问
+  if (process.env.NODE_ENV === 'production') {
+    redirect('/');
+  }
+
   return (
     <div className="min-h-screen bg-gray-50">
       <nav className="bg-white shadow-sm border-b">

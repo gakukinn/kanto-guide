@@ -3,7 +3,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: '关于我们 - 日本东部地区活动指南',
+  title: '关于我们 - 日本关东地区活动指南',
   description: '专为中文游客打造的日本关东地区四季活动指南，提供最真实、最及时的祭典、花火、赏花、红叶活动信息。',
 };
 

@@ -1,0 +1,59 @@
+/**
+ * 第53回 昭島市民くじら祭 夢花火 详情页面
+ * 自动生成于 2025-07-10T04:56:13.112Z
+ * 使用模板: WalkerPlusHanabiTemplate
+ */
+import WalkerPlusHanabiTemplate from '../../../../src/components/WalkerPlusHanabiTemplate';
+
+const activityData = {
+  name: "第53回 昭島市民くじら祭 夢花火",
+  fireworksCount: "約2000発",
+  fireworksTime: "約30分",
+  expectedVisitors: "4万5000人",
+  date: "2025年8月23日(土)",
+  time: "20:00～20:30(予定)",
+  venue: "昭島市民球場",
+  access: "【電車】JR東中神駅から徒歩5分MAP",
+  weatherInfo: "雨天時は2025年8月24日(日)20:00～20:30(予定)に延期",
+  parking: "×",
+  price: "なし",
+  contact: "042-543-8186 昭島市商工会",
+  foodStalls: "あり",
+  notes: "详见官网",
+  website: "https://akishima-kujiramatsuri.jp/",
+  googleMap: "https://www.google.com/maps/embed/v1/place?key=AIzaSyDbSCIe9u9tyzmG1OdAae8eRLPGmK5sevc&zoom=16&q=35.70298,139.386092&center=35.70298,139.386092",
+  id: "1752123373110",
+  region: "tokyo",
+  activityType: "hanabi",
+  description: "1961年に市内で発見された約160万年前のクジラの化石にちなんで始まった「昭島市民くじら祭 夢花火」は、東京都昭島市の夏を象徴する風物詩。第53回を迎える今回は、約30分にわたってスターマインを中心とした約2000発の花火が打ち上げられ、大輪の華が頭上に広がる。打ち上げ場所と観覧エリアの距離が近いため、音と光の迫力を間近で体感できるのが最大の魅力。花火大会は祭りの一部として開催されるため、日中から夜まで一日を通して楽しめるのも特徴だ。",
+  highlights: "花火の前には、クジラをかたどった山車が市内を練り歩くパレードが行われ、祭りの雰囲気を盛り上げてくれる。会場周辺には地元の商店や団体による模擬店が軒を連ね、飲食やゲーム、地元ならではの手作りグルメも楽しめる。さらに、アクションショーや音楽ライブなど多彩なステージイベントもあり、大人から子どもまで幅広い世代が楽しめる内容となっている。",
+  themeColor: "red",
+  status: "scheduled",
+  media: [
+    {
+      type: "image" as const,
+      url: "https://runaway35.com/wp-content/uploads/2019/08/1063_%E7%86%8A%E8%B0%B7%E8%8A%B1%E7%81%AB%E5%A4%A7%E4%BC%9A-01.jpg",
+      title: "第53回 昭島市民くじら祭 夢花火图片1",
+      alt: "第53回 昭島市民くじら祭 夢花火图片1",
+      caption: ""
+    }
+  ],
+  detailLink: "/tokyo/hanabi/activity-2025-tokyo-hanabi-108",
+  createdAt: "2025-07-10T04:56:13.110Z",
+  source: "walkerplus-generator"
+};
+
+export default function DetailPage() {
+  return (
+    <WalkerPlusHanabiTemplate
+      data={activityData}
+      regionKey="tokyo"
+      activityKey="hanabi"
+    />
+  );
+}
+
+export const metadata = {
+  title: '第53回 昭島市民くじら祭 夢花火 - 日本活动指南',
+  description: '1961年に市内で発見された約160万年前のクジラの化石にちなんで始まった「昭島市民くじら祭 夢花火」は、東京都昭島市の夏を象徴する風物詩。第53回を迎える今回は、約30分にわたってスターマインを中心とした約2000発の花火が打ち上げられ、大輪の華が頭上に広がる。打ち上げ場所と観覧エリアの距離が近いため、音と光の迫力を間近で体感できるのが最大の魅力。花火大会は祭りの一部として開催されるため、日中から夜まで一日を通して楽しめるのも特徴だ。',
+};

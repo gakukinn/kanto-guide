@@ -3,8 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: '条款和条件 - 日本东部地区活动指南',
-  description: '日本东部地区活动指南的使用条款和条件，了解使用我们网站的规则和责任。',
+  title: '条款和条件 - 日本关东地区活动指南',
+  description: '日本关东地区活动指南的使用条款和条件，了解使用我们网站的规则和责任。',
 };
 
 export default function TermsPage() {
@@ -24,7 +24,7 @@ export default function TermsPage() {
             <div className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">1. 接受条款</h2>
               <p className="text-gray-700 mb-4">
-                欢迎使用日本东部地区活动指南（以下简称"本网站"）。通过访问和使用本网站，您同意遵守并受本条款和条件（以下简称"条款"）的约束。
+                欢迎使用日本关东地区活动指南（以下简称"本网站"）。通过访问和使用本网站，您同意遵守并受本条款和条件（以下简称"条款"）的约束。
               </p>
               <p className="text-gray-700 mb-4">
                 如果您不同意这些条款的任何部分，请不要使用本网站。
@@ -38,7 +38,7 @@ export default function TermsPage() {
               </p>
               <ul className="list-disc pl-6 text-gray-700 mb-4">
                 <li className="mb-2">花火大会信息</li>
-                <li className="mb-2">樱花节（花见）活动</li>
+                <li className="mb-2">花见会活动</li>
                 <li className="mb-2">传统祭典信息</li>
                 <li className="mb-2">红叶狩（狩枫）活动</li>
                 <li className="mb-2">灯光节和文化活动</li>

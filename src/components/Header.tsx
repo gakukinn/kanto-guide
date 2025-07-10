@@ -7,11 +7,11 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-3">
             <div className="w-10 h-10 flex items-center justify-center">
-              <span className="text-4xl">⛩️</span>
+              <span className="text-4xl">🌸</span>
             </div>
             <div>
               <h1 className="text-xl font-bold text-gray-900">
-                日本东部地区活动指南
+                日本关东地区活动指南
               </h1>
               <p className="text-sm text-gray-600">
                 专为中文游客精心打造

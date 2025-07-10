@@ -3,8 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: '隐私政策 - 日本东部地区活动指南',
-  description: '日本东部地区活动指南的隐私政策，了解我们如何保护您的个人信息和数据安全。',
+  title: '隐私政策 - 日本关东地区活动指南',
+  description: '日本关东地区活动指南的隐私政策，了解我们如何保护您的个人信息和数据安全。',
 };
 
 export default function PrivacyPage() {
